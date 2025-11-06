@@ -1,0 +1,3219 @@
+{
+  "quiz_metadata": {
+    "title": "Comprehensive Government Structure Quiz for Children",
+    "description": "200 comprehensive quiz questions covering Union, State, and Local governments with diverse analogies",
+    "target_age": "8-16 years",
+    "total_questions": 200,
+    "topics_covered": [
+      "Union Government (President, Parliament, Prime Minister, Council of Ministers)",
+      "State Government (Governor, Chief Minister, State Legislature)",
+      "Local Government (Panchayats, Municipalities)",
+      "Constitutional Articles and Mechanisms",
+      "Inter-government Relations",
+      "Powers and Functions",
+      "Federal Structure"
+    ],
+    "analogy_types": [
+      "Sports teams",
+      "Family hierarchies", 
+      "Community organizations",
+      "Restaurant management",
+      "Hospital systems",
+      "Army units",
+      "School systems",
+      "Corporate structures"
+    ],
+    "created_date": "2024-11-04",
+    "author": "MiniMax Agent"
+  },
+  "questions": [    {
+      "id": 1,
+      "category": "Union Government - President",
+      "difficulty": "Easy",
+      "question": "The President of India is like the captain of a cricket team. What is the President's main role in our country?",
+      "options": [
+        "To make all the laws for the country",
+        "To be the ceremonial head and guardian of the Constitution",
+        "To control all the money in the country",
+        "To lead the army in wars"
+      ],
+      "correct_answer": "To be the ceremonial head and guardian of the Constitution",
+      "explanation": "Like a cricket captain who ensures fair play and represents the team, the President is the ceremonial head of state who protects our Constitution and represents India.",
+      "analogy": "Sports team - Cricket captain",
+      "constitutional_reference": "Article 52-62"
+    },
+    {
+      "id": 2,
+      "category": "Union Government - President",
+      "difficulty": "Medium",
+      "question": "In a big family, the grandparent gives wise advice but doesn't make daily decisions. Similarly, when does the President use their own judgment to make decisions?",
+      "options": [
+        "Every day for all government matters",
+        "Only during national emergencies or constitutional crises",
+        "When choosing the Prime Minister after elections",
+        "For all appointments in government"
+      ],
+      "correct_answer": "Only during national emergencies or constitutional crises",
+      "explanation": "Like a wise grandparent who steps in during family crises, the President uses personal discretion mainly during emergencies, hung parliaments, or when constitutional issues arise.",
+      "analogy": "Family hierarchy - Wise grandparent",
+      "constitutional_reference": "Article 74, Article 356"
+    },
+    {
+      "id": 3,
+      "category": "Union Government - President",
+      "difficulty": "Hard",
+      "question": "A hospital's board chairperson signs important documents but doesn't perform surgeries. Which of these powers does the President exercise similarly?",
+      "options": [
+        "Deciding which laws to make",
+        "Giving assent to bills passed by Parliament",
+        "Choosing Cabinet ministers",
+        "Setting government policies"
+      ],
+      "correct_answer": "Giving assent to bills passed by Parliament",
+      "explanation": "Like a hospital chairperson who formally approves board decisions, the President gives formal approval (assent) to laws made by Parliament, but doesn't create the laws.",
+      "analogy": "Hospital system - Board chairperson",
+      "constitutional_reference": "Article 111"
+    },
+    {
+      "id": 4,
+      "category": "Union Government - President", 
+      "difficulty": "Easy",
+      "question": "In a restaurant, the owner's signature is needed on important contracts. What important documents must the President sign?",
+      "options": [
+        "Daily government orders",
+        "International treaties and agreements",
+        "Local municipal decisions",
+        "State government policies"
+      ],
+      "correct_answer": "International treaties and agreements",
+      "explanation": "Like a restaurant owner signing important contracts, the President signs international treaties on behalf of India, making them official.",
+      "analogy": "Restaurant management - Owner's signature on contracts",
+      "constitutional_reference": "Article 53, Article 73"
+    },
+    {
+      "id": 5,
+      "category": "Union Government - President",
+      "difficulty": "Medium",
+      "question": "In the army, a general has the authority to pardon soldiers in special cases. What similar power does the President have?",
+      "options": [
+        "To change any law passed by Parliament",
+        "To pardon criminals or reduce their sentences",
+        "To dismiss any government official",
+        "To override court decisions"
+      ],
+      "correct_answer": "To pardon criminals or reduce their sentences",
+      "explanation": "Like a general showing mercy to soldiers, the President can pardon criminals, reduce sentences, or give clemency, especially in cases involving death sentences.",
+      "analogy": "Army units - General's pardoning power",
+      "constitutional_reference": "Article 72"
+    },
+    {
+      "id": 6,
+      "category": "Union Government - President",
+      "difficulty": "Hard",
+      "question": "A school principal can suspend classes during emergencies. Under which Article can the President declare a national emergency?",
+      "options": [
+        "Article 352",
+        "Article 356", 
+        "Article 360",
+        "Article 370"
+      ],
+      "correct_answer": "Article 352",
+      "explanation": "Like a principal taking emergency action to protect students, the President can declare national emergency under Article 352 during war, external aggression, or armed rebellion.",
+      "analogy": "School system - Principal's emergency powers",
+      "constitutional_reference": "Article 352"
+    },
+    {
+      "id": 7,
+      "category": "Union Government - President",
+      "difficulty": "Easy",
+      "question": "In a community organization, who chooses the president - the members or the board? How is India's President chosen?",
+      "options": [
+        "Directly by all citizens of India",
+        "By Members of Parliament only",
+        "By an Electoral College of elected representatives",
+        "By the Supreme Court"
+      ],
+      "correct_answer": "By an Electoral College of elected representatives",
+      "explanation": "Like a community organization where board members elect the president, India's President is chosen by an Electoral College of MPs and MLAs representing the people.",
+      "analogy": "Community organization - Board election of president",
+      "constitutional_reference": "Article 54, Article 55"
+    },
+    {
+      "id": 8,
+      "category": "Union Government - President",
+      "difficulty": "Medium",
+      "question": "A company CEO serves for a fixed term. How long is the President's term in office?",
+      "options": [
+        "4 years",
+        "5 years",
+        "6 years", 
+        "Until they choose to retire"
+      ],
+      "correct_answer": "5 years",
+      "explanation": "Like a CEO with a fixed contract, the President serves for exactly 5 years and can be re-elected for additional terms.",
+      "analogy": "Corporate structure - CEO's fixed term",
+      "constitutional_reference": "Article 56"
+    },
+    {
+      "id": 9,
+      "category": "Union Government - President",
+      "difficulty": "Hard",
+      "question": "In a football team, certain positions require specific qualifications. What is the minimum age requirement to become President of India?",
+      "options": [
+        "25 years",
+        "30 years",
+        "35 years",
+        "40 years"
+      ],
+      "correct_answer": "35 years",
+      "explanation": "Like senior positions in sports requiring experience, the President must be at least 35 years old and qualified to be a member of Lok Sabha.",
+      "analogy": "Sports team - Age qualification for senior positions",
+      "constitutional_reference": "Article 58"
+    },
+    {
+      "id": 10,
+      "category": "Union Government - President",
+      "difficulty": "Easy",
+      "question": "A family's elder signs important family documents. Who helps the President make most daily decisions?",
+      "options": [
+        "The Supreme Court",
+        "The Council of Ministers led by Prime Minister",
+        "The Parliament",
+        "The President acts alone"
+      ],
+      "correct_answer": "The Council of Ministers led by Prime Minister",
+      "explanation": "Like a family elder taking advice from family members, the President acts on the advice of the Council of Ministers for most decisions.",
+      "analogy": "Family hierarchy - Elder taking family advice",
+      "constitutional_reference": "Article 74"
+    },
+    {
+      "id": 11,
+      "category": "Union Government - President",
+      "difficulty": "Medium",
+      "question": "A hospital director can be removed only for serious misconduct. How can the President be removed from office?",
+      "options": [
+        "By a simple majority vote in Parliament",
+        "By the Supreme Court for any reason",
+        "Through impeachment for violation of Constitution",
+        "By the Prime Minister's recommendation"
+      ],
+      "correct_answer": "Through impeachment for violation of Constitution",
+      "explanation": "Like a hospital director facing serious misconduct charges, the President can only be removed through impeachment for violating the Constitution.",
+      "analogy": "Hospital system - Director's removal for misconduct",
+      "constitutional_reference": "Article 61"
+    },
+    {
+      "id": 12,
+      "category": "Union Government - President",
+      "difficulty": "Hard",
+      "question": "A restaurant chain owner appoints regional managers on recommendation of the head chef. How does the President appoint key officials?",
+      "options": [
+        "Independently without any consultation",
+        "On the recommendation of Parliament",
+        "On the advice of Council of Ministers",
+        "After consulting opposition parties"
+      ],
+      "correct_answer": "On the advice of Council of Ministers",
+      "explanation": "Like a restaurant owner taking the head chef's recommendations, the President appoints governors, judges, and other officials on the advice of the Council of Ministers.",
+      "analogy": "Restaurant management - Owner appointing on chef's recommendation",
+      "constitutional_reference": "Article 74, Article 155"
+    },
+    {
+      "id": 13,
+      "category": "Union Government - President",
+      "difficulty": "Easy",
+      "question": "A cricket team captain represents the team at ceremonies. What similar role does the President play for India?",
+      "options": [
+        "Makes all policies for the country",
+        "Represents India at international events and receives foreign dignitaries",
+        "Controls all state governments",
+        "Manages the country's budget"
+      ],
+      "correct_answer": "Represents India at international events and receives foreign dignitaries",
+      "explanation": "Like a cricket captain representing the team at ceremonies, the President represents India's dignity and sovereignty at international events.",
+      "analogy": "Sports team - Captain at ceremonies",
+      "constitutional_reference": "Article 53"
+    },
+    {
+      "id": 14,
+      "category": "Union Government - President",
+      "difficulty": "Medium",
+      "question": "In the army, the highest commander reviews and can modify punishments. What similar judicial power does the President have?",
+      "options": [
+        "To change any law made by Parliament",
+        "To retry court cases",
+        "To commute death sentences and grant pardons",
+        "To appoint all judges in the country"
+      ],
+      "correct_answer": "To commute death sentences and grant pardons",
+      "explanation": "Like an army commander reviewing sentences, the President can commute death sentences, grant pardons, or reduce punishments as the final authority in mercy matters.",
+      "analogy": "Army units - Commander's review of punishments",
+      "constitutional_reference": "Article 72"
+    },
+    {
+      "id": 15,
+      "category": "Union Government - President",
+      "difficulty": "Hard",
+      "question": "A community center president calls special meetings during emergencies. Under what condition can the President summon Parliament for an emergency session?",
+      "options": [
+        "Whenever the President wishes",
+        "Only during festivals and celebrations",
+        "When urgent national matters need immediate attention",
+        "Every month as routine"
+      ],
+      "correct_answer": "When urgent national matters need immediate attention",
+      "explanation": "Like a community president calling emergency meetings, the President can summon Parliament for special sessions when urgent national issues require immediate legislative attention.",
+      "analogy": "Community organization - President calling emergency meetings",
+      "constitutional_reference": "Article 85"
+    },    {
+      "id": 16,
+      "category": "Union Government - Parliament",
+      "difficulty": "Easy",
+      "question": "Parliament is like a big school student council. What are the two houses of Indian Parliament?",
+      "options": [
+        "Lok Sabha and Rajya Sabha",
+        "Upper House and Lower House",
+        "Senate and Assembly",
+        "National Assembly and Council"
+      ],
+      "correct_answer": "Lok Sabha and Rajya Sabha",
+      "explanation": "Like a school having separate councils for different grades, Indian Parliament has two houses: Lok Sabha (House of People) and Rajya Sabha (Council of States).",
+      "analogy": "School system - Different grade councils",
+      "constitutional_reference": "Article 79"
+    },
+    {
+      "id": 17,
+      "category": "Union Government - Parliament",
+      "difficulty": "Medium",
+      "question": "In a sports federation, teams from different states send representatives. How are Rajya Sabha members chosen?",
+      "options": [
+        "Directly elected by all citizens",
+        "Elected by State Legislative Assembly members",
+        "Appointed by the Prime Minister",
+        "Selected by the President"
+      ],
+      "correct_answer": "Elected by State Legislative Assembly members",
+      "explanation": "Like sports teams sending representatives to a federation, Rajya Sabha members are elected by State Legislative Assembly members, representing their states.",
+      "analogy": "Sports federation - State team representatives",
+      "constitutional_reference": "Article 80"
+    },
+    {
+      "id": 18,
+      "category": "Union Government - Parliament",
+      "difficulty": "Easy",
+      "question": "A restaurant has different sized dining areas for different groups. How many members does Lok Sabha have compared to Rajya Sabha?",
+      "options": [
+        "Lok Sabha: 543, Rajya Sabha: 245",
+        "Lok Sabha: 545, Rajya Sabha: 250",
+        "Both have equal members",
+        "Lok Sabha: 500, Rajya Sabha: 200"
+      ],
+      "correct_answer": "Lok Sabha: 543, Rajya Sabha: 245",
+      "explanation": "Like a restaurant with a large main hall (Lok Sabha with 543 elected members) and smaller private dining area (Rajya Sabha with 245 members), Parliament has different sized houses.",
+      "analogy": "Restaurant management - Different sized dining areas",
+      "constitutional_reference": "Article 81, Article 80"
+    },
+    {
+      "id": 19,
+      "category": "Union Government - Parliament",
+      "difficulty": "Hard",
+      "question": "In a hospital, different committees meet for different durations. What is the term length difference between Lok Sabha and Rajya Sabha?",
+      "options": [
+        "Both serve 5 years",
+        "Lok Sabha: 5 years, Rajya Sabha: 6 years",
+        "Lok Sabha: 4 years, Rajya Sabha: 6 years", 
+        "Lok Sabha: 6 years, Rajya Sabha: 5 years"
+      ],
+      "correct_answer": "Lok Sabha: 5 years, Rajya Sabha: 6 years",
+      "explanation": "Like hospital committees with different meeting schedules, Lok Sabha serves 5-year terms (can be dissolved early), while Rajya Sabha members serve 6-year terms with one-third retiring every 2 years.",
+      "analogy": "Hospital system - Different committee durations",
+      "constitutional_reference": "Article 83"
+    },
+    {
+      "id": 20,
+      "category": "Union Government - Parliament",
+      "difficulty": "Medium",
+      "question": "In a family business, who decides how money is spent? Which house of Parliament has special power over money bills?",
+      "options": [
+        "Rajya Sabha has final say",
+        "Both houses have equal power",
+        "Lok Sabha has primary power over money bills",
+        "The President decides money matters"
+      ],
+      "correct_answer": "Lok Sabha has primary power over money bills",
+      "explanation": "Like the main family members deciding spending in a family business, Lok Sabha (directly elected by people) has primary power over money bills, while Rajya Sabha can only suggest changes.",
+      "analogy": "Family business - Main family members controlling spending",
+      "constitutional_reference": "Article 109, Article 110"
+    },
+    {
+      "id": 21,
+      "category": "Union Government - Parliament",
+      "difficulty": "Easy",
+      "question": "A community organization's president leads meetings. Who presides over Lok Sabha meetings?",
+      "options": [
+        "The Prime Minister",
+        "The Speaker of Lok Sabha",
+        "The President of India",
+        "The Chief Justice"
+      ],
+      "correct_answer": "The Speaker of Lok Sabha",
+      "explanation": "Like a community organization's president leading meetings, the Speaker of Lok Sabha presides over House meetings, maintains order, and ensures fair discussions.",
+      "analogy": "Community organization - President leading meetings",
+      "constitutional_reference": "Article 93"
+    },
+    {
+      "id": 22,
+      "category": "Union Government - Parliament",
+      "difficulty": "Medium",
+      "question": "In a cricket team, the vice-captain helps when the captain is away. Who leads Rajya Sabha?",
+      "options": [
+        "Speaker of Rajya Sabha",
+        "Vice President of India as Chairman",
+        "Prime Minister",
+        "Deputy Speaker"
+      ],
+      "correct_answer": "Vice President of India as Chairman",
+      "explanation": "Like a vice-captain helping lead the team, the Vice President of India serves as the Chairman of Rajya Sabha, presiding over its sessions.",
+      "analogy": "Sports team - Vice-captain's leadership role",
+      "constitutional_reference": "Article 89"
+    },
+    {
+      "id": 23,
+      "category": "Union Government - Parliament",
+      "difficulty": "Hard",
+      "question": "A restaurant needs a minimum number of staff to operate efficiently. What is the minimum attendance required for Parliament to function (quorum)?",
+      "options": [
+        "One-fourth of total members",
+        "One-third of total members", 
+        "One-tenth of total members",
+        "Half of total members"
+      ],
+      "correct_answer": "One-tenth of total members",
+      "explanation": "Like a restaurant needing minimum staff to operate, Parliament needs at least one-tenth of its total members present (quorum) to conduct business legally.",
+      "analogy": "Restaurant management - Minimum staff requirement",
+      "constitutional_reference": "Article 100"
+    },
+    {
+      "id": 24,
+      "category": "Union Government - Parliament",
+      "difficulty": "Easy",
+      "question": "In a school, students can ask questions during assembly. What is the time when MPs ask questions to ministers called?",
+      "options": [
+        "Question Hour",
+        "Answer Time",
+        "Discussion Period",
+        "Inquiry Session"
+      ],
+      "correct_answer": "Question Hour",
+      "explanation": "Like students asking questions during school assembly, MPs use 'Question Hour' to ask ministers about government policies and seek answers for public issues.",
+      "analogy": "School system - Students asking questions in assembly",
+      "constitutional_reference": "Parliamentary procedure"
+    },
+    {
+      "id": 25,
+      "category": "Union Government - Parliament",
+      "difficulty": "Medium",
+      "question": "In a hospital board, urgent matters can halt regular business. What can MPs use to stop normal proceedings for urgent discussion?",
+      "options": [
+        "Privilege Motion",
+        "Adjournment Motion",
+        "No-Confidence Motion",
+        "Censure Motion"
+      ],
+      "correct_answer": "Adjournment Motion",
+      "explanation": "Like a hospital board stopping regular business for urgent patient matters, MPs use Adjournment Motion to halt normal proceedings and discuss urgent public issues.",
+      "analogy": "Hospital system - Board stopping for urgent matters",
+      "constitutional_reference": "Parliamentary procedure"
+    },
+    {
+      "id": 26,
+      "category": "Union Government - Parliament",
+      "difficulty": "Hard",
+      "question": "In a company, workers can express no confidence in management. How many Lok Sabha members must support a no-confidence motion?",
+      "options": [
+        "At least 25 members",
+        "At least 50 members",
+        "At least 100 members",
+        "At least 10 members"
+      ],
+      "correct_answer": "At least 50 members",
+      "explanation": "Like a company requiring substantial worker support for a no-confidence vote, at least 50 Lok Sabha members must support a no-confidence motion against the government.",
+      "analogy": "Corporate structure - Worker confidence votes",
+      "constitutional_reference": "Parliamentary procedure"
+    },
+    {
+      "id": 27,
+      "category": "Union Government - Parliament",
+      "difficulty": "Easy",
+      "question": "A family council makes house rules that everyone must follow. What are the rules made by Parliament called?",
+      "options": [
+        "Parliamentary Orders",
+        "Government Policies",
+        "Acts or Laws",
+        "Constitutional Rules"
+      ],
+      "correct_answer": "Acts or Laws",
+      "explanation": "Like a family council making house rules for everyone, Parliament makes Acts or Laws that all citizens must follow throughout the country.",
+      "analogy": "Family hierarchy - Family council making house rules",
+      "constitutional_reference": "Article 245"
+    },
+    {
+      "id": 28,
+      "category": "Union Government - Parliament",
+      "difficulty": "Medium",
+      "question": "In an army unit, soldiers from different regions represent their areas. What is the basis for distributing Lok Sabha seats among states?",
+      "options": [
+        "Equal seats for all states",
+        "Based on state's area size",
+        "Based on state's population",
+        "Based on state's economic development"
+      ],
+      "correct_answer": "Based on state's population",
+      "explanation": "Like an army unit having representatives based on regional population, Lok Sabha seats are distributed among states based on their population to ensure fair representation.",
+      "analogy": "Army units - Regional representation by population",
+      "constitutional_reference": "Article 81"
+    },
+    {
+      "id": 29,
+      "category": "Union Government - Parliament",
+      "difficulty": "Hard",
+      "question": "A restaurant manager needs approval from both the owner and head chef for menu changes. How must a constitutional amendment bill be passed?",
+      "options": [
+        "Simple majority in both houses",
+        "Two-thirds majority in both houses",
+        "Special majority in both houses plus state approval for some amendments",
+        "Only Lok Sabha needs to pass it"
+      ],
+      "correct_answer": "Special majority in both houses plus state approval for some amendments",
+      "explanation": "Like a restaurant needing approval from both owner and chef for major changes, constitutional amendments need special majority in both houses, and some need state approval too.",
+      "analogy": "Restaurant management - Dual approval for major changes",
+      "constitutional_reference": "Article 368"
+    },
+    {
+      "id": 30,
+      "category": "Union Government - Parliament",
+      "difficulty": "Easy",
+      "question": "In a sports club, members from minority communities get special representation. How are some Lok Sabha seats reserved?",
+      "options": [
+        "For women only",
+        "For Scheduled Castes and Scheduled Tribes",
+        "For religious minorities",
+        "For senior citizens"
+      ],
+      "correct_answer": "For Scheduled Castes and Scheduled Tribes",
+      "explanation": "Like a sports club ensuring minority community representation, some Lok Sabha seats are reserved for Scheduled Castes and Scheduled Tribes to ensure their participation in democracy.",
+      "analogy": "Sports club - Special representation for minority communities",
+      "constitutional_reference": "Article 330"
+    },
+    {
+      "id": 31,
+      "category": "Union Government - Parliament",
+      "difficulty": "Medium",
+      "question": "In a hospital, some experts are invited for their special knowledge. How many members can the President nominate to Rajya Sabha?",
+      "options": [
+        "10 members",
+        "12 members",
+        "15 members",
+        "8 members"
+      ],
+      "correct_answer": "12 members",
+      "explanation": "Like a hospital inviting expert doctors for their special knowledge, the President can nominate 12 members to Rajya Sabha who have distinguished themselves in arts, science, literature, or social service.",
+      "analogy": "Hospital system - Inviting expert specialists",
+      "constitutional_reference": "Article 80"
+    },
+    {
+      "id": 32,
+      "category": "Union Government - Parliament",
+      "difficulty": "Hard",
+      "question": "A community organization keeps detailed records of all meetings. What document records all Parliament proceedings?",
+      "options": [
+        "Parliamentary Gazette",
+        "Government Journal",
+        "Parliamentary Debates (Hansard)",
+        "Official Bulletin"
+      ],
+      "correct_answer": "Parliamentary Debates (Hansard)",
+      "explanation": "Like a community organization keeping detailed meeting records, Parliament maintains Parliamentary Debates (Hansard) which records everything said and done in Parliament sessions.",
+      "analogy": "Community organization - Detailed meeting records",
+      "constitutional_reference": "Parliamentary procedure"
+    },
+    {
+      "id": 33,
+      "category": "Union Government - Parliament",
+      "difficulty": "Easy",
+      "question": "In a school student council, different committees handle different subjects. What are the parliamentary committees that examine bills in detail?",
+      "options": [
+        "Standing Committees",
+        "Study Groups",
+        "Review Panels",
+        "Advisory Boards"
+      ],
+      "correct_answer": "Standing Committees",
+      "explanation": "Like school student council committees handling different subjects, Parliamentary Standing Committees examine bills and government policies in detail before they come to the full house.",
+      "analogy": "School system - Student council subject committees",
+      "constitutional_reference": "Parliamentary procedure"
+    },
+    {
+      "id": 34,
+      "category": "Union Government - Parliament",
+      "difficulty": "Medium",
+      "question": "In a restaurant, bills must be approved by both the manager and owner. What happens if Rajya Sabha disagrees with a Lok Sabha bill?",
+      "options": [
+        "The bill is automatically rejected",
+        "Lok Sabha's decision is final",
+        "A joint sitting may be called to resolve disagreement",
+        "The President decides"
+      ],
+      "correct_answer": "A joint sitting may be called to resolve disagreement",
+      "explanation": "Like a restaurant where manager and owner discuss disagreements together, if both houses disagree on a bill, a joint sitting of both houses can be called to resolve the matter.",
+      "analogy": "Restaurant management - Joint discussion to resolve disagreements",
+      "constitutional_reference": "Article 108"
+    },
+    {
+      "id": 35,
+      "category": "Union Government - Parliament",
+      "difficulty": "Hard",
+      "question": "A company's budget needs board approval at specific times. When must the government present the annual budget to Parliament?",
+      "options": [
+        "January 1st every year",
+        "March 31st every year",
+        "Before the start of new financial year (April 1st)",
+        "December 31st every year"
+      ],
+      "correct_answer": "Before the start of new financial year (April 1st)",
+      "explanation": "Like a company presenting its budget to the board before the financial year, the government must present the annual budget to Parliament before April 1st (start of India's financial year).",
+      "analogy": "Corporate structure - Annual budget board approval",
+      "constitutional_reference": "Article 112"
+    },    {
+      "id": 36,
+      "category": "Union Government - Prime Minister",
+      "difficulty": "Easy",
+      "question": "In a school, the head student manages daily activities while the principal oversees everything. What is the Prime Minister's role compared to the President?",
+      "options": [
+        "The Prime Minister is just an assistant to the President",
+        "The Prime Minister is the real executive head who runs the government",
+        "Both have exactly the same powers",
+        "The Prime Minister only advises the President"
+      ],
+      "correct_answer": "The Prime Minister is the real executive head who runs the government",
+      "explanation": "Like a head student managing daily school activities while the principal oversees, the Prime Minister is the real executive head who runs the government, while the President is the ceremonial head.",
+      "analogy": "School system - Head student managing daily activities",
+      "constitutional_reference": "Article 74, Article 75"
+    },
+    {
+      "id": 37,
+      "category": "Union Government - Prime Minister",
+      "difficulty": "Medium",
+      "question": "In a cricket team, who becomes captain? How does someone become Prime Minister of India?",
+      "options": [
+        "The person with most votes in elections",
+        "Appointed directly by the President",
+        "Leader of the party/coalition with majority in Lok Sabha",
+        "Elected by all MPs together"
+      ],
+      "correct_answer": "Leader of the party/coalition with majority in Lok Sabha",
+      "explanation": "Like a cricket captain being chosen from the winning team, the Prime Minister is the leader of the party or coalition that has majority support in Lok Sabha.",
+      "analogy": "Sports team - Captain from the winning team",
+      "constitutional_reference": "Article 75"
+    },
+    {
+      "id": 38,
+      "category": "Union Government - Prime Minister",
+      "difficulty": "Hard",
+      "question": "A restaurant's head chef must be a qualified cook. What qualification must the Prime Minister have?",
+      "options": [
+        "Must be over 35 years old",
+        "Must be a member of Parliament (Lok Sabha or Rajya Sabha)",
+        "Must be a lawyer",
+        "Must have governed a state before"
+      ],
+      "correct_answer": "Must be a member of Parliament (Lok Sabha or Rajya Sabha)",
+      "explanation": "Like a head chef needing cooking qualifications, the Prime Minister must be a member of Parliament. If not already an MP when appointed, they must become one within 6 months.",
+      "analogy": "Restaurant management - Head chef's cooking qualifications",
+      "constitutional_reference": "Article 75"
+    },
+    {
+      "id": 39,
+      "category": "Union Government - Prime Minister",
+      "difficulty": "Easy",
+      "question": "In a family business, the head of the family chooses their helpers. Who does the Prime Minister choose to help run the government?",
+      "options": [
+        "State Chief Ministers",
+        "Supreme Court judges",
+        "Council of Ministers (Cabinet)",
+        "Opposition party leaders"
+      ],
+      "correct_answer": "Council of Ministers (Cabinet)",
+      "explanation": "Like a family business head choosing trusted helpers, the Prime Minister chooses the Council of Ministers (Cabinet) to help run different government departments.",
+      "analogy": "Family business - Head choosing trusted helpers",
+      "constitutional_reference": "Article 75"
+    },
+    {
+      "id": 40,
+      "category": "Union Government - Prime Minister",
+      "difficulty": "Medium",
+      "question": "In a hospital, if doctors lose confidence in the chief doctor, they can ask for a change. How can the Prime Minister be removed?",
+      "options": [
+        "By the President at any time",
+        "If Lok Sabha passes a no-confidence motion",
+        "By the Supreme Court",
+        "After serving 5 years"
+      ],
+      "correct_answer": "If Lok Sabha passes a no-confidence motion",
+      "explanation": "Like doctors removing a chief doctor they've lost confidence in, the Prime Minister can be removed if Lok Sabha (representing people) passes a no-confidence motion.",
+      "analogy": "Hospital system - Doctors removing chief doctor through no-confidence",
+      "constitutional_reference": "Article 75"
+    },
+    {
+      "id": 41,
+      "category": "Union Government - Council of Ministers",
+      "difficulty": "Easy",
+      "question": "A restaurant has different managers for kitchen, service, and accounts. How are government departments managed?",
+      "options": [
+        "All by the Prime Minister alone",
+        "By different ministers heading different ministries",
+        "By civil servants only",
+        "By state governments"
+      ],
+      "correct_answer": "By different ministers heading different ministries",
+      "explanation": "Like a restaurant having specialized managers for different areas, the government has different ministers heading various ministries (like Education, Health, Defence) to manage different sectors.",
+      "analogy": "Restaurant management - Specialized departmental managers",
+      "constitutional_reference": "Article 77"
+    },
+    {
+      "id": 42,
+      "category": "Union Government - Council of Ministers",
+      "difficulty": "Medium",
+      "question": "In a company, there are senior managers, regular managers, and junior executives. What are the three levels of ministers?",
+      "options": [
+        "Senior, Junior, and Assistant Ministers",
+        "Cabinet Ministers, Ministers of State, and Deputy Ministers",
+        "Cabinet Ministers, Ministers of State, and Parliamentary Secretaries",
+        "Prime Ministers, Cabinet Ministers, and State Ministers"
+      ],
+      "correct_answer": "Cabinet Ministers, Ministers of State, and Parliamentary Secretaries",
+      "explanation": "Like a company's management hierarchy, there are three minister levels: Cabinet Ministers (senior-most), Ministers of State (middle level), and Parliamentary Secretaries (junior-most).",
+      "analogy": "Corporate structure - Three management levels",
+      "constitutional_reference": "Article 75"
+    },
+    {
+      "id": 43,
+      "category": "Union Government - Council of Ministers",
+      "difficulty": "Hard",
+      "question": "A sports team's core players meet regularly for strategy. What is the inner group of most important ministers called?",
+      "options": [
+        "Central Cabinet",
+        "Cabinet Committee",
+        "Inner Circle",
+        "Core Ministry"
+      ],
+      "correct_answer": "Cabinet Committee",
+      "explanation": "Like a sports team's core players meeting for strategy, the Cabinet Committee is the inner group of most important ministers who make key policy decisions quickly.",
+      "analogy": "Sports team - Core players' strategy meetings",
+      "constitutional_reference": "Cabinet organization"
+    },
+    {
+      "id": 44,
+      "category": "Union Government - Council of Ministers",
+      "difficulty": "Easy",
+      "question": "In a school, all teachers work together but are answerable to the principal. How are ministers collectively responsible?",
+      "options": [
+        "Each minister works independently",
+        "All ministers are collectively responsible to Lok Sabha",
+        "Ministers are only responsible to their own parties",
+        "Ministers report only to the President"
+      ],
+      "correct_answer": "All ministers are collectively responsible to Lok Sabha",
+      "explanation": "Like school teachers working together under the principal's leadership, all ministers work as a team and are collectively responsible to Lok Sabha for government policies and actions.",
+      "analogy": "School system - Teachers' collective responsibility to principal",
+      "constitutional_reference": "Article 75"
+    },
+    {
+      "id": 45,
+      "category": "Union Government - Council of Ministers",
+      "difficulty": "Medium",
+      "question": "In a hospital, the medical director coordinates between different department heads. What role does the Prime Minister play in the Council of Ministers?",
+      "options": [
+        "Just another equal member",
+        "The coordinator and leader who chairs meetings",
+        "Only an honorary position",
+        "Reports to other ministers"
+      ],
+      "correct_answer": "The coordinator and leader who chairs meetings",
+      "explanation": "Like a hospital's medical director coordinating department heads, the Prime Minister leads the Council of Ministers, chairs Cabinet meetings, and coordinates between different ministries.",
+      "analogy": "Hospital system - Medical director coordinating departments",
+      "constitutional_reference": "Article 75"
+    },
+    {
+      "id": 46,
+      "category": "Union Government - Council of Ministers",
+      "difficulty": "Hard",
+      "question": "A company limits its board size for efficient decision-making. What limits the size of the Council of Ministers?",
+      "options": [
+        "No limit exists",
+        "Maximum 25 ministers",
+        "Cannot exceed 15% of Lok Sabha strength",
+        "Maximum 50 ministers"
+      ],
+      "correct_answer": "Cannot exceed 15% of Lok Sabha strength",
+      "explanation": "Like a company limiting board size for efficiency, the Constitution limits the Council of Ministers to maximum 15% of Lok Sabha's total strength to ensure manageable governance.",
+      "analogy": "Corporate structure - Limited board size for efficiency",
+      "constitutional_reference": "91st Constitutional Amendment"
+    },
+    {
+      "id": 47,
+      "category": "Union Government - Council of Ministers",
+      "difficulty": "Easy",
+      "question": "In a family, if the head of the family changes, the family helpers might also change. What happens to ministers if the Prime Minister changes?",
+      "options": [
+        "All ministers continue as before",
+        "Only new ministers are appointed",
+        "The entire Council of Ministers resigns",
+        "Only some ministers change"
+      ],
+      "correct_answer": "The entire Council of Ministers resigns",
+      "explanation": "Like family helpers changing when the family head changes, when a Prime Minister resigns or is removed, the entire Council of Ministers automatically resigns too.",
+      "analogy": "Family business - Helper changes with head change",
+      "constitutional_reference": "Article 75"
+    },
+    {
+      "id": 48,
+      "category": "Union Government - Council of Ministers",
+      "difficulty": "Medium",
+      "question": "In a restaurant, the head chef divides work among specialist cooks. How does the Prime Minister allocate work among ministers?",
+      "options": [
+        "Ministers choose their own departments",
+        "President decides ministry allocation",
+        "Prime Minister allocates portfolios to different ministers",
+        "Parliament decides ministry allocation"
+      ],
+      "correct_answer": "Prime Minister allocates portfolios to different ministers",
+      "explanation": "Like a head chef assigning specialist cooks to different food areas, the Prime Minister allocates different portfolios (ministries) to ministers based on their expertise and political considerations.",
+      "analogy": "Restaurant management - Head chef assigning specialists",
+      "constitutional_reference": "Article 77"
+    },
+    {
+      "id": 49,
+      "category": "Union Government - Council of Ministers",
+      "difficulty": "Hard",
+      "question": "In an army unit, all officers take the same oath of loyalty. What oath do ministers take before assuming office?",
+      "options": [
+        "Oath of Secrecy only",
+        "Oath of Office and Oath of Secrecy",
+        "Oath of Allegiance to Prime Minister",
+        "No specific oath required"
+      ],
+      "correct_answer": "Oath of Office and Oath of Secrecy",
+      "explanation": "Like army officers taking loyalty oaths, ministers take two oaths: Oath of Office (to uphold Constitution and serve people) and Oath of Secrecy (to maintain confidentiality of government decisions).",
+      "analogy": "Army units - Officers' loyalty oath",
+      "constitutional_reference": "Article 75"
+    },
+    {
+      "id": 50,
+      "category": "Union Government - Council of Ministers",
+      "difficulty": "Easy",
+      "question": "In a community organization, the executive committee meets regularly to make decisions. How often does the Cabinet typically meet?",
+      "options": [
+        "Once a year",
+        "Once a month",
+        "Once a week",
+        "Every day"
+      ],
+      "correct_answer": "Once a week",
+      "explanation": "Like a community organization's executive committee meeting regularly, the Cabinet typically meets once a week to discuss important policy matters and government decisions.",
+      "analogy": "Community organization - Regular executive committee meetings",
+      "constitutional_reference": "Cabinet procedures"
+    },    {
+      "id": 51,
+      "category": "Union Government - Executive Functions",
+      "difficulty": "Easy",
+      "question": "A restaurant manager ensures food safety rules are followed. What is the main job of the Union Executive?",
+      "options": [
+        "To make new laws",
+        "To implement and enforce laws made by Parliament",
+        "To judge legal disputes",
+        "To represent India in elections"
+      ],
+      "correct_answer": "To implement and enforce laws made by Parliament",
+      "explanation": "Like a restaurant manager ensuring food safety rules are followed, the Union Executive (led by Prime Minister) implements and enforces the laws made by Parliament throughout the country.",
+      "analogy": "Restaurant management - Manager enforcing safety rules",
+      "constitutional_reference": "Article 73, Article 77"
+    },
+    {
+      "id": 52,
+      "category": "Union Government - Executive Functions",
+      "difficulty": "Medium",
+      "question": "In a hospital, the medical superintendent coordinates patient care across departments. Which ministry coordinates internal security across states?",
+      "options": [
+        "Ministry of External Affairs",
+        "Ministry of Home Affairs",
+        "Ministry of Defence",
+        "Ministry of Law and Justice"
+      ],
+      "correct_answer": "Ministry of Home Affairs",
+      "explanation": "Like a hospital superintendent coordinating patient care, the Ministry of Home Affairs coordinates internal security, law and order, and police matters across all states in India.",
+      "analogy": "Hospital system - Medical superintendent coordinating care",
+      "constitutional_reference": "Central government organization"
+    },
+    {
+      "id": 53,
+      "category": "Union Government - Executive Functions",
+      "difficulty": "Hard",
+      "question": "A company's CEO can issue orders within the company's authority. Under which article does the Union Executive derive its power?",
+      "options": [
+        "Article 52",
+        "Article 73",
+        "Article 245",
+        "Article 368"
+      ],
+      "correct_answer": "Article 73",
+      "explanation": "Like a CEO deriving authority from company bylaws, the Union Executive derives its executive power from Article 73, which gives it authority over all matters in the Union List.",
+      "analogy": "Corporate structure - CEO's authority from bylaws",
+      "constitutional_reference": "Article 73"
+    },
+    {
+      "id": 54,
+      "category": "Union Government - Executive Functions",
+      "difficulty": "Easy",
+      "question": "In a school, the principal ensures teachers follow education guidelines. How does the Union Executive ensure states implement central policies?",
+      "options": [
+        "By directly controlling state governments",
+        "Through central agencies and coordinated programs",
+        "By replacing state officials",
+        "States implement independently without coordination"
+      ],
+      "correct_answer": "Through central agencies and coordinated programs",
+      "explanation": "Like a principal ensuring teachers follow guidelines through supervision and support, the Union Executive coordinates with states through central agencies, funding, and joint programs.",
+      "analogy": "School system - Principal ensuring guideline compliance",
+      "constitutional_reference": "Article 256, Article 257"
+    },
+    {
+      "id": 55,
+      "category": "Union Government - Executive Functions",
+      "difficulty": "Medium",
+      "question": "In a sports federation, the president represents the country internationally. Which ministry handles India's relations with other countries?",
+      "options": [
+        "Ministry of Home Affairs",
+        "Ministry of External Affairs",
+        "Ministry of Commerce",
+        "Ministry of Defence"
+      ],
+      "correct_answer": "Ministry of External Affairs",
+      "explanation": "Like a sports federation president representing the country internationally, the Ministry of External Affairs handles India's diplomatic relations, treaties, and interactions with other countries.",
+      "analogy": "Sports federation - President's international representation",
+      "constitutional_reference": "Central government organization"
+    },
+    {
+      "id": 56,
+      "category": "Union Government - Executive Functions",
+      "difficulty": "Hard",
+      "question": "A restaurant chain's head office can take over a branch during emergencies. Under which article can the Union Executive take over state administration?",
+      "options": [
+        "Article 352",
+        "Article 356",
+        "Article 360",
+        "Article 370"
+      ],
+      "correct_answer": "Article 356",
+      "explanation": "Like a restaurant chain's head office taking over a troubled branch, the Union Executive can impose President's Rule under Article 356 when constitutional governance fails in a state.",
+      "analogy": "Restaurant management - Head office emergency takeover",
+      "constitutional_reference": "Article 356"
+    },
+    {
+      "id": 57,
+      "category": "Union Government - Executive Functions",
+      "difficulty": "Easy",
+      "question": "In a family business, the head assigns different family members to manage different areas. How are government departments managed?",
+      "options": [
+        "All by the Prime Minister directly",
+        "By different secretaries under ministers",
+        "By state governments",
+        "By Parliament committees"
+      ],
+      "correct_answer": "By different secretaries under ministers",
+      "explanation": "Like a family business head assigning family members to different areas, each government ministry is managed by secretaries (senior civil servants) who work under their respective ministers.",
+      "analogy": "Family business - Head assigning area managers",
+      "constitutional_reference": "Article 77"
+    },
+    {
+      "id": 58,
+      "category": "Union Government - Executive Functions",
+      "difficulty": "Medium",
+      "question": "In a hospital, emergency procedures can be implemented quickly. What special powers does the Union Executive have during national emergencies?",
+      "options": [
+        "No special powers",
+        "Can suspend fundamental rights and take direct control",
+        "Only military powers",
+        "Powers limited to foreign affairs"
+      ],
+      "correct_answer": "Can suspend fundamental rights and take direct control",
+      "explanation": "Like a hospital implementing emergency procedures with expanded authority, during national emergency the Union Executive can suspend fundamental rights and exercise greater control over states and citizens.",
+      "analogy": "Hospital system - Emergency procedure authorities",
+      "constitutional_reference": "Article 352, Article 358, Article 359"
+    },
+    {
+      "id": 59,
+      "category": "Union Government - Executive Functions",
+      "difficulty": "Hard",
+      "question": "A company's board can delegate authority but remains accountable. To whom is the Union Executive ultimately accountable?",
+      "options": [
+        "To the President",
+        "To the Supreme Court",
+        "To Parliament (especially Lok Sabha)",
+        "To state governments"
+      ],
+      "correct_answer": "To Parliament (especially Lok Sabha)",
+      "explanation": "Like a company board being accountable to shareholders, the Union Executive is ultimately accountable to Parliament, especially Lok Sabha, which represents the people and can remove the government.",
+      "analogy": "Corporate structure - Board accountability to shareholders",
+      "constitutional_reference": "Article 75"
+    },
+    {
+      "id": 60,
+      "category": "Union Government - Executive Functions",
+      "difficulty": "Easy",
+      "question": "In a community organization, the executive committee implements decisions made by the general body. What does 'separation of powers' mean in government?",
+      "options": [
+        "Different states have different powers",
+        "Legislative, Executive, and Judiciary have separate roles",
+        "Central and state governments are separate",
+        "Different ministers have different portfolios"
+      ],
+      "correct_answer": "Legislative, Executive, and Judiciary have separate roles",
+      "explanation": "Like a community organization where the executive committee implements decisions made by the general body, separation of powers means Legislature makes laws, Executive implements them, and Judiciary interprets them.",
+      "analogy": "Community organization - Executive implementing general body decisions",
+      "constitutional_reference": "Constitutional principle"
+    },
+    {
+      "id": 61,
+      "category": "Union Government - Supreme Court",
+      "difficulty": "Easy",
+      "question": "In a sports tournament, referees make final decisions about rule violations. What is the Supreme Court's main role?",
+      "options": [
+        "To make laws for the country",
+        "To be the final interpreter of the Constitution and highest court of appeal",
+        "To implement government policies",
+        "To elect the President"
+      ],
+      "correct_answer": "To be the final interpreter of the Constitution and highest court of appeal",
+      "explanation": "Like referees making final decisions in sports tournaments, the Supreme Court is the final interpreter of the Constitution and the highest court where citizens can appeal for justice.",
+      "analogy": "Sports tournament - Referees' final rule decisions",
+      "constitutional_reference": "Article 124-147"
+    },
+    {
+      "id": 62,
+      "category": "Union Government - Supreme Court",
+      "difficulty": "Medium",
+      "question": "In a hospital, a panel of senior doctors makes critical decisions. How many judges does the Supreme Court have?",
+      "options": [
+        "7 judges including Chief Justice",
+        "25 judges including Chief Justice",
+        "34 judges including Chief Justice",
+        "50 judges including Chief Justice"
+      ],
+      "correct_answer": "34 judges including Chief Justice",
+      "explanation": "Like a hospital having a panel of senior doctors for critical decisions, the Supreme Court has 34 judges including the Chief Justice of India to handle the country's most important legal matters.",
+      "analogy": "Hospital system - Panel of senior doctors",
+      "constitutional_reference": "Supreme Court (Number of Judges) Act"
+    },
+    {
+      "id": 63,
+      "category": "Union Government - Supreme Court",
+      "difficulty": "Hard",
+      "question": "In a company, the chairperson leads board meetings and represents the company. How is the Chief Justice of India appointed?",
+      "options": [
+        "Elected by all Supreme Court judges",
+        "Appointed by Parliament",
+        "Appointed by President in consultation with Supreme Court judges",
+        "Appointed by Prime Minister"
+      ],
+      "correct_answer": "Appointed by President in consultation with Supreme Court judges",
+      "explanation": "Like a company carefully selecting its chairperson, the Chief Justice of India is appointed by the President after consulting with existing Supreme Court judges to ensure the most suitable person leads the judiciary.",
+      "analogy": "Corporate structure - Chairperson selection process",
+      "constitutional_reference": "Article 124"
+    },
+    {
+      "id": 64,
+      "category": "Union Government - Supreme Court",
+      "difficulty": "Easy",
+      "question": "In a school, the principal can punish students for breaking rules. What power does the Supreme Court have over government actions?",
+      "options": [
+        "Can make new laws",
+        "Can review and strike down unconstitutional laws (Judicial Review)",
+        "Can appoint ministers",
+        "Can control state elections"
+      ],
+      "correct_answer": "Can review and strike down unconstitutional laws (Judicial Review)",
+      "explanation": "Like a school principal punishing students for breaking rules, the Supreme Court can review government actions and strike down laws that violate the Constitution through its power of judicial review.",
+      "analogy": "School system - Principal's disciplinary power",
+      "constitutional_reference": "Judicial Review principle"
+    },
+    {
+      "id": 65,
+      "category": "Union Government - Supreme Court",
+      "difficulty": "Medium",
+      "question": "In a community, people can directly approach the community leader for help. What special power allows citizens to directly approach the Supreme Court?",
+      "options": [
+        "Right to Information",
+        "Writ Jurisdiction (Article 32)",
+        "Right to Equality",
+        "Freedom of Speech"
+      ],
+      "correct_answer": "Writ Jurisdiction (Article 32)",
+      "explanation": "Like community members directly approaching their leader for help, citizens can directly approach the Supreme Court under Article 32 for protection of fundamental rights without going through lower courts first.",
+      "analogy": "Community organization - Direct access to leader",
+      "constitutional_reference": "Article 32"
+    },
+    {
+      "id": 66,
+      "category": "Union Government - Supreme Court",
+      "difficulty": "Hard",
+      "question": "In a restaurant, experienced chefs need specific qualifications. What is the minimum age and experience requirement for Supreme Court judges?",
+      "options": [
+        "45 years, 15 years legal experience",
+        "50 years, 20 years legal experience",
+        "No specific age, 10 years as High Court judge or 15 years as advocate",
+        "35 years, 10 years legal experience"
+      ],
+      "correct_answer": "No specific age, 10 years as High Court judge or 15 years as advocate",
+      "explanation": "Like experienced chefs needing specific qualifications, Supreme Court judges must have either 10 years as a High Court judge or 15 years as an advocate, with no specific minimum age requirement.",
+      "analogy": "Restaurant management - Chef qualification requirements",
+      "constitutional_reference": "Article 124"
+    },
+    {
+      "id": 67,
+      "category": "Union Government - Supreme Court",
+      "difficulty": "Easy",
+      "question": "In a sports club, the senior committee serves for a fixed period. Until what age do Supreme Court judges serve?",
+      "options": [
+        "60 years",
+        "62 years",
+        "65 years",
+        "70 years"
+      ],
+      "correct_answer": "65 years",
+      "explanation": "Like sports club senior committee members serving fixed terms, Supreme Court judges serve until they reach 65 years of age, ensuring they have enough experience while maintaining judicial vigor.",
+      "analogy": "Sports club - Senior committee fixed service period",
+      "constitutional_reference": "Article 124"
+    },
+    {
+      "id": 68,
+      "category": "Union Government - Supreme Court",
+      "difficulty": "Medium",
+      "question": "In a hospital, ethics committees can only be removed for serious misconduct. How can Supreme Court judges be removed?",
+      "options": [
+        "By simple majority in Parliament",
+        "By the President at any time",
+        "Through impeachment for proven misbehavior or incapacity",
+        "They cannot be removed"
+      ],
+      "correct_answer": "Through impeachment for proven misbehavior or incapacity",
+      "explanation": "Like hospital ethics committee members being removed only for serious misconduct, Supreme Court judges can be removed only through impeachment by Parliament for proven misbehavior or incapacity, protecting judicial independence.",
+      "analogy": "Hospital system - Ethics committee removal for misconduct",
+      "constitutional_reference": "Article 124"
+    },
+    {
+      "id": 69,
+      "category": "Union Government - Supreme Court",
+      "difficulty": "Hard",
+      "question": "In a family dispute, the eldest respected member gives advice that everyone follows. What is the Supreme Court's role in disputes between states?",
+      "options": [
+        "Cannot hear interstate disputes",
+        "Original jurisdiction in disputes between states",
+        "Only advisory role",
+        "Refers disputes to Parliament"
+      ],
+      "correct_answer": "Original jurisdiction in disputes between states",
+      "explanation": "Like a respected family elder resolving disputes between family members, the Supreme Court has original jurisdiction in disputes between states, meaning these cases come directly to it first, not through lower courts.",
+      "analogy": "Family hierarchy - Elder resolving family disputes",
+      "constitutional_reference": "Article 131"
+    },
+    {
+      "id": 70,
+      "category": "Union Government - Supreme Court",
+      "difficulty": "Easy",
+      "question": "In a community organization, the ethics committee ensures fair treatment for everyone. What does the Supreme Court protect through Public Interest Litigation (PIL)?",
+      "options": [
+        "Only rich people's rights",
+        "Rights of underprivileged and voiceless people",
+        "Only government officials' rights",
+        "Only lawyers' rights"
+      ],
+      "correct_answer": "Rights of underprivileged and voiceless people",
+      "explanation": "Like a community ethics committee ensuring fair treatment for everyone, the Supreme Court uses Public Interest Litigation (PIL) to protect the rights of poor, underprivileged, and voiceless people who cannot approach courts themselves.",
+      "analogy": "Community organization - Ethics committee ensuring fair treatment",
+      "constitutional_reference": "PIL jurisdiction"
+    },    {
+      "id": 71,
+      "category": "State Government - Governor",
+      "difficulty": "Easy",
+      "question": "In a large company, regional managers oversee local branches. What is the Governor's role in a state?",
+      "options": [
+        "To make all state laws",
+        "To be the constitutional head of the state representing the Union",
+        "To control all state money",
+        "To run the state police directly"
+      ],
+      "correct_answer": "To be the constitutional head of the state representing the Union",
+      "explanation": "Like a regional manager representing the head office in local branches, the Governor is the constitutional head of the state who represents the Union government and ensures the state follows the Constitution.",
+      "analogy": "Corporate structure - Regional manager representing head office",
+      "constitutional_reference": "Article 153-167"
+    },
+    {
+      "id": 72,
+      "category": "State Government - Governor",
+      "difficulty": "Medium",
+      "question": "In a family business, the head of the family appoints trusted relatives to manage different locations. How is a Governor appointed?",
+      "options": [
+        "Elected by state legislative assembly",
+        "Elected directly by people of the state",
+        "Appointed by the President on advice of central government",
+        "Appointed by the Chief Minister"
+      ],
+      "correct_answer": "Appointed by the President on advice of central government",
+      "explanation": "Like a family business head appointing trusted relatives to manage locations, the Governor is appointed by the President on the advice of the central government to represent Union interests in the state.",
+      "analogy": "Family business - Head appointing location managers",
+      "constitutional_reference": "Article 155"
+    },
+    {
+      "id": 73,
+      "category": "State Government - Governor",
+      "difficulty": "Hard",
+      "question": "In a restaurant chain, regional supervisors serve for specific periods. What is the Governor's term of office?",
+      "options": [
+        "4 years",
+        "5 years (but can be removed earlier)",
+        "6 years",
+        "Until retirement age"
+      ],
+      "correct_answer": "5 years (but can be removed earlier)",
+      "explanation": "Like restaurant regional supervisors with specific contract periods, the Governor serves for 5 years but can be removed earlier by the President if needed for constitutional reasons.",
+      "analogy": "Restaurant management - Regional supervisor contract terms",
+      "constitutional_reference": "Article 156"
+    },
+    {
+      "id": 74,
+      "category": "State Government - Governor",
+      "difficulty": "Easy",
+      "question": "In a sports team, the captain ensures players follow game rules. What is the Governor's main constitutional duty?",
+      "options": [
+        "To make state policies",
+        "To ensure the state government operates according to the Constitution",
+        "To control state elections",
+        "To manage state finances directly"
+      ],
+      "correct_answer": "To ensure the state government operates according to the Constitution",
+      "explanation": "Like a sports captain ensuring players follow game rules, the Governor's main duty is to ensure the state government operates according to the Constitution and maintains constitutional governance.",
+      "analogy": "Sports team - Captain ensuring rule compliance",
+      "constitutional_reference": "Article 159"
+    },
+    {
+      "id": 75,
+      "category": "State Government - Governor",
+      "difficulty": "Medium",
+      "question": "In a hospital, the chief administrator can call emergency meetings when needed. When can a Governor summon the state legislature?",
+      "options": [
+        "Only once a year",
+        "Only during festivals",
+        "When advised by the Chief Minister or in constitutional crisis",
+        "Every month as routine"
+      ],
+      "correct_answer": "When advised by the Chief Minister or in constitutional crisis",
+      "explanation": "Like a hospital chief administrator calling emergency meetings when needed, the Governor can summon the state legislature when advised by the Chief Minister or during constitutional crises requiring immediate legislative action.",
+      "analogy": "Hospital system - Chief administrator's emergency meetings",
+      "constitutional_reference": "Article 174"
+    },
+    {
+      "id": 76,
+      "category": "State Government - Governor",
+      "difficulty": "Hard",
+      "question": "In a community organization, the chairperson can suspend activities during disputes. Under which circumstances can a Governor recommend President's Rule?",
+      "options": [
+        "Whenever they want",
+        "When constitutional machinery in the state fails",
+        "During natural disasters only",
+        "When elections are due"
+      ],
+      "correct_answer": "When constitutional machinery in the state fails",
+      "explanation": "Like a community chairperson suspending activities during serious disputes, the Governor can recommend President's Rule when the constitutional machinery in the state fails and governance cannot continue normally.",
+      "analogy": "Community organization - Chairperson suspending during disputes",
+      "constitutional_reference": "Article 356"
+    },
+    {
+      "id": 77,
+      "category": "State Government - Governor",
+      "difficulty": "Easy",
+      "question": "In a school, the principal signs important documents for the school. What documents does the Governor sign for the state?",
+      "options": [
+        "Only education-related bills",
+        "All bills passed by the state legislature",
+        "Only financial documents",
+        "International agreements"
+      ],
+      "correct_answer": "All bills passed by the state legislature",
+      "explanation": "Like a school principal signing important documents for the school, the Governor gives assent to (signs) all bills passed by the state legislature to make them into state laws.",
+      "analogy": "School system - Principal signing school documents",
+      "constitutional_reference": "Article 200"
+    },
+    {
+      "id": 78,
+      "category": "State Government - Governor",
+      "difficulty": "Medium",
+      "question": "In a restaurant, the manager chooses the head chef based on who has the support of most kitchen staff. How does the Governor choose the Chief Minister?",
+      "options": [
+        "Independently without consultation",
+        "By appointing the leader of the party with majority in state assembly",
+        "By conducting a separate election",
+        "By consulting with the President only"
+      ],
+      "correct_answer": "By appointing the leader of the party with majority in state assembly",
+      "explanation": "Like a restaurant manager choosing the head chef who has kitchen staff support, the Governor appoints the leader of the party or coalition that has majority support in the state legislative assembly as Chief Minister.",
+      "analogy": "Restaurant management - Choosing head chef with staff support",
+      "constitutional_reference": "Article 164"
+    },
+    {
+      "id": 79,
+      "category": "State Government - Governor",
+      "difficulty": "Hard",
+      "question": "In a company, the regional head can withhold approval on policies that conflict with company rules. When can a Governor reserve a state bill for President's consideration?",
+      "options": [
+        "For all bills",
+        "Only for money bills",
+        "When the bill conflicts with central laws or Constitution",
+        "Never"
+      ],
+      "correct_answer": "When the bill conflicts with central laws or Constitution",
+      "explanation": "Like a regional head withholding approval on conflicting policies, the Governor can reserve state bills for the President's consideration when they conflict with central laws, Constitution, or affect national interests.",
+      "analogy": "Corporate structure - Regional head withholding conflicting approvals",
+      "constitutional_reference": "Article 200"
+    },
+    {
+      "id": 80,
+      "category": "State Government - Governor",
+      "difficulty": "Easy",
+      "question": "In the army, a general can grant mercy to soldiers in special cases. What similar power does a Governor have?",
+      "options": [
+        "To change state laws",
+        "To pardon criminals and commute sentences for state offenses",
+        "To dismiss the Chief Minister anytime",
+        "To control central forces"
+      ],
+      "correct_answer": "To pardon criminals and commute sentences for state offenses",
+      "explanation": "Like an army general granting mercy in special cases, the Governor has the power to pardon criminals, commute sentences, or grant clemency for offenses against state laws.",
+      "analogy": "Army units - General's mercy powers",
+      "constitutional_reference": "Article 161"
+    },
+    {
+      "id": 81,
+      "category": "State Government - Governor",
+      "difficulty": "Medium",
+      "question": "In a hospital, the director gets regular reports from all departments. What reports does the Governor receive about state administration?",
+      "options": [
+        "Only financial reports",
+        "Regular reports from the Chief Minister about state affairs",
+        "Only police reports",
+        "No regular reports"
+      ],
+      "correct_answer": "Regular reports from the Chief Minister about state affairs",
+      "explanation": "Like a hospital director receiving departmental reports, the Governor receives regular reports from the Chief Minister about the state's administrative affairs and important policy decisions.",
+      "analogy": "Hospital system - Director's departmental reports",
+      "constitutional_reference": "Article 167"
+    },
+    {
+      "id": 82,
+      "category": "State Government - Governor",
+      "difficulty": "Hard",
+      "question": "In a community center, the supervisor can make decisions when the regular committee is not available. When can a Governor act with discretionary powers?",
+      "options": [
+        "In all state matters",
+        "Only during President's Rule and in special circumstances mentioned in Constitution",
+        "Whenever they disagree with Chief Minister",
+        "Never"
+      ],
+      "correct_answer": "Only during President's Rule and in special circumstances mentioned in Constitution",
+      "explanation": "Like a community supervisor acting when the committee is unavailable, the Governor can use discretionary powers only during President's Rule or in special constitutional circumstances, not in normal times.",
+      "analogy": "Community organization - Supervisor's emergency decisions",
+      "constitutional_reference": "Article 163"
+    },
+    {
+      "id": 83,
+      "category": "State Government - Governor",
+      "difficulty": "Easy",
+      "question": "In a family business, the appointed manager represents the family's interests. Who does the Governor represent in the state?",
+      "options": [
+        "The state's people only",
+        "The state legislature",
+        "The Union government and Constitution",
+        "International organizations"
+      ],
+      "correct_answer": "The Union government and Constitution",
+      "explanation": "Like a family business manager representing the family's interests, the Governor represents the Union government and the Constitution in the state, ensuring federal unity and constitutional compliance.",
+      "analogy": "Family business - Manager representing family interests",
+      "constitutional_reference": "Article 154"
+    },
+    {
+      "id": 84,
+      "category": "State Government - Governor",
+      "difficulty": "Medium",
+      "question": "In a school, the principal can take over classes when teachers are unavailable. What happens when there is no Chief Minister in a state?",
+      "options": [
+        "New elections are immediately held",
+        "Governor can temporarily administer the state",
+        "Deputy Chief Minister automatically becomes Chief Minister",
+        "The state legislature chooses new Chief Minister"
+      ],
+      "correct_answer": "Governor can temporarily administer the state",
+      "explanation": "Like a school principal taking over classes when teachers are unavailable, the Governor can temporarily administer the state when there is no Chief Minister or during constitutional breakdowns.",
+      "analogy": "School system - Principal taking over during teacher absence",
+      "constitutional_reference": "Article 356"
+    },
+    {
+      "id": 85,
+      "category": "State Government - Governor",
+      "difficulty": "Hard",
+      "question": "In a company, the regional manager must meet certain qualifications. What are the qualifications required to become a Governor?",
+      "options": [
+        "Must be 35+ years, Indian citizen, and should not be from the same state",
+        "Must be 30+ years and from the same state",
+        "Must be a retired judge",
+        "Must be elected by state assembly"
+      ],
+      "correct_answer": "Must be 35+ years, Indian citizen, and should not be from the same state",
+      "explanation": "Like company regional managers needing specific qualifications, a Governor must be at least 35 years old, an Indian citizen, and conventionally should not be from the same state to maintain neutrality.",
+      "analogy": "Corporate structure - Regional manager qualification requirements",
+      "constitutional_reference": "Article 157, Article 158"
+    },    {
+      "id": 86,
+      "category": "State Government - State Legislature",
+      "difficulty": "Easy",
+      "question": "A local community club has a committee to make club rules. What is the lawmaking body of a state called?",
+      "options": [
+        "State Council",
+        "State Legislature (Vidhan Sabha/Vidhan Parishad)",
+        "State Committee",
+        "State Board"
+      ],
+      "correct_answer": "State Legislature (Vidhan Sabha/Vidhan Parishad)",
+      "explanation": "Like a community club having a committee to make club rules, each state has a State Legislature (Vidhan Sabha and sometimes Vidhan Parishad) that makes laws for matters in the State List.",
+      "analogy": "Community organization - Club committee making rules",
+      "constitutional_reference": "Article 168"
+    },
+    {
+      "id": 87,
+      "category": "State Government - State Legislature",
+      "difficulty": "Medium",
+      "question": "In a restaurant, some have one dining area while others have both main and private dining areas. How many houses can a state legislature have?",
+      "options": [
+        "Always two houses",
+        "Always one house",
+        "One house (Vidhan Sabha) or two houses (Vidhan Sabha + Vidhan Parishad)",
+        "Three houses"
+      ],
+      "correct_answer": "One house (Vidhan Sabha) or two houses (Vidhan Sabha + Vidhan Parishad)",
+      "explanation": "Like restaurants having either one or two dining areas, states can have either one house (Vidhan Sabha only) or two houses (Vidhan Sabha + Vidhan Parishad). Most states have only one house.",
+      "analogy": "Restaurant management - One or two dining areas",
+      "constitutional_reference": "Article 168"
+    },
+    {
+      "id": 88,
+      "category": "State Government - State Legislature",
+      "difficulty": "Hard",
+      "question": "In a sports club, different teams have different numbers of players based on their size. What determines the number of members in a State Legislative Assembly?",
+      "options": [
+        "Fixed at 200 for all states",
+        "State's population and area",
+        "Governor's decision",
+        "Same as Lok Sabha seats"
+      ],
+      "correct_answer": "State's population and area",
+      "explanation": "Like sports teams having different numbers based on their size, each state's Legislative Assembly has members based on the state's population and area, with a minimum of 60 and maximum of 500 members.",
+      "analogy": "Sports club - Team sizes based on club size",
+      "constitutional_reference": "Article 170"
+    },
+    {
+      "id": 89,
+      "category": "State Government - State Legislature",
+      "difficulty": "Easy",
+      "question": "In a school student council, the head student leads council meetings. Who presides over State Legislative Assembly meetings?",
+      "options": [
+        "The Chief Minister",
+        "The Governor",
+        "The Speaker of the Assembly",
+        "The Deputy Chief Minister"
+      ],
+      "correct_answer": "The Speaker of the Assembly",
+      "explanation": "Like a head student leading school council meetings, the Speaker of the State Legislative Assembly presides over assembly sessions, maintains order, and ensures fair debates.",
+      "analogy": "School system - Head student leading council meetings",
+      "constitutional_reference": "Article 178"
+    },
+    {
+      "id": 90,
+      "category": "State Government - State Legislature",
+      "difficulty": "Medium",
+      "question": "In a hospital committee, meetings need minimum attendance to make valid decisions. What is the quorum for a state legislature?",
+      "options": [
+        "Half of total members",
+        "One-third of total members",
+        "One-tenth of total members",
+        "One-fourth of total members"
+      ],
+      "correct_answer": "One-tenth of total members",
+      "explanation": "Like hospital committees needing minimum attendance for valid decisions, state legislatures need at least one-tenth of their total members present (quorum) to conduct business legally.",
+      "analogy": "Hospital system - Committee minimum attendance",
+      "constitutional_reference": "Article 189"
+    },
+    {
+      "id": 91,
+      "category": "State Government - State Legislature",
+      "difficulty": "Hard",
+      "question": "In a family business, certain decisions need approval from experienced family elders. Which states currently have a Legislative Council (Vidhan Parishad)?",
+      "options": [
+        "All states have Legislative Councils",
+        "Only 6 states: Andhra Pradesh, Bihar, Karnataka, Maharashtra, Telangana, Uttar Pradesh",
+        "Only southern states",
+        "No state has a Legislative Council"
+      ],
+      "correct_answer": "Only 6 states: Andhra Pradesh, Bihar, Karnataka, Maharashtra, Telangana, Uttar Pradesh",
+      "explanation": "Like family businesses where only some have experienced elder councils for advice, only 6 states currently have Legislative Councils (Vidhan Parishad) as the upper house of their state legislature.",
+      "analogy": "Family business - Elder councils in some businesses only",
+      "constitutional_reference": "Article 168, Article 169"
+    },
+    {
+      "id": 92,
+      "category": "State Government - State Legislature",
+      "difficulty": "Easy",
+      "question": "In a community organization, members serve for specific terms before elections. What is the term of a State Legislative Assembly?",
+      "options": [
+        "4 years",
+        "5 years (unless dissolved earlier)",
+        "6 years",
+        "3 years"
+      ],
+      "correct_answer": "5 years (unless dissolved earlier)",
+      "explanation": "Like community organization members serving specific terms, State Legislative Assembly serves for 5 years unless dissolved earlier by the Governor on the advice of the Chief Minister.",
+      "analogy": "Community organization - Member term periods",
+      "constitutional_reference": "Article 172"
+    },
+    {
+      "id": 93,
+      "category": "State Government - State Legislature",
+      "difficulty": "Medium",
+      "question": "In a restaurant chain, different branches can make rules about local matters but not company-wide policies. What subjects can state legislatures make laws on?",
+      "options": [
+        "Any subject they choose",
+        "Only subjects in the State List and Concurrent List",
+        "Only subjects in the Union List",
+        "Only local municipal matters"
+      ],
+      "correct_answer": "Only subjects in the State List and Concurrent List",
+      "explanation": "Like restaurant branches making rules about local matters, state legislatures can make laws only on subjects in the State List (like police, local government) and Concurrent List (like education, forests) but not Union List subjects.",
+      "analogy": "Restaurant management - Branch rules vs company policies",
+      "constitutional_reference": "Article 246"
+    },
+    {
+      "id": 94,
+      "category": "State Government - State Legislature",
+      "difficulty": "Hard",
+      "question": "In a sports federation, team representatives must meet certain eligibility criteria. What is the minimum age to be elected to a State Legislative Assembly?",
+      "options": [
+        "21 years",
+        "25 years",
+        "30 years",
+        "35 years"
+      ],
+      "correct_answer": "25 years",
+      "explanation": "Like sports federation representatives needing to meet eligibility criteria, a person must be at least 25 years old to be elected to a State Legislative Assembly, ensuring sufficient maturity for lawmaking.",
+      "analogy": "Sports federation - Representative eligibility criteria",
+      "constitutional_reference": "Article 173"
+    },
+    {
+      "id": 95,
+      "category": "State Government - State Legislature",
+      "difficulty": "Easy",
+      "question": "In a school, the student council can ask questions to teachers about school policies. What can MLAs do during Question Hour?",
+      "options": [
+        "Only listen to government announcements",
+        "Ask questions to ministers about government policies and seek answers",
+        "Make laws directly",
+        "Appoint government officials"
+      ],
+      "correct_answer": "Ask questions to ministers about government policies and seek answers",
+      "explanation": "Like students asking teachers about school policies, MLAs (Members of Legislative Assembly) can ask questions to state ministers during Question Hour to seek information about government policies and actions.",
+      "analogy": "School system - Student council questioning teachers",
+      "constitutional_reference": "Legislative procedure"
+    },
+    {
+      "id": 96,
+      "category": "State Government - State Legislature",
+      "difficulty": "Medium",
+      "question": "In a hospital board, members can express lack of confidence in the hospital administration. What can a state legislature do if it loses faith in the state government?",
+      "options": [
+        "Nothing can be done",
+        "Pass a no-confidence motion against the Chief Minister",
+        "Ask the Governor to dismiss the government",
+        "Appeal to the President directly"
+      ],
+      "correct_answer": "Pass a no-confidence motion against the Chief Minister",
+      "explanation": "Like a hospital board expressing no confidence in administration, the state legislature can pass a no-confidence motion against the Chief Minister, forcing the government to resign if the motion passes.",
+      "analogy": "Hospital system - Board no-confidence in administration",
+      "constitutional_reference": "Parliamentary procedure"
+    },
+    {
+      "id": 97,
+      "category": "State Government - State Legislature",
+      "difficulty": "Hard",
+      "question": "In a community club, some positions are reserved for underrepresented groups. How are seats reserved in State Legislative Assemblies?",
+      "options": [
+        "No reservations exist",
+        "Seats reserved for Scheduled Castes and Scheduled Tribes based on population",
+        "Only for women",
+        "Only for backward classes"
+      ],
+      "correct_answer": "Seats reserved for Scheduled Castes and Scheduled Tribes based on population",
+      "explanation": "Like community clubs reserving positions for underrepresented groups, State Legislative Assemblies have seats reserved for Scheduled Castes and Scheduled Tribes in proportion to their population in the state.",
+      "analogy": "Community organization - Reserved positions for underrepresented groups",
+      "constitutional_reference": "Article 332"
+    },
+    {
+      "id": 98,
+      "category": "State Government - State Legislature",
+      "difficulty": "Easy",
+      "question": "In a family council, important family decisions require voting. How are decisions made in the state legislature?",
+      "options": [
+        "By the Speaker alone",
+        "By simple majority vote of members present and voting",
+        "Requires unanimous agreement",
+        "By the Chief Minister's decision"
+      ],
+      "correct_answer": "By simple majority vote of members present and voting",
+      "explanation": "Like family councils making decisions by voting, the state legislature makes decisions by simple majority vote of members present and voting during the session.",
+      "analogy": "Family hierarchy - Family council voting on decisions",
+      "constitutional_reference": "Article 189"
+    },
+    {
+      "id": 99,
+      "category": "State Government - State Legislature",
+      "difficulty": "Medium",
+      "question": "In a restaurant, the budget for each branch must be approved by local management. What special power does the state legislature have over state finances?",
+      "options": [
+        "No power over finances",
+        "Can approve or reject state budget and money bills",
+        "Only advisory role in financial matters",
+        "Can only suggest changes"
+      ],
+      "correct_answer": "Can approve or reject state budget and money bills",
+      "explanation": "Like restaurant branches needing local management approval for budgets, the state legislature has the power to approve or reject the state budget and money bills presented by the state government.",
+      "analogy": "Restaurant management - Branch budget approvals",
+      "constitutional_reference": "Article 202, Article 207"
+    },
+    {
+      "id": 100,
+      "category": "State Government - State Legislature",
+      "difficulty": "Hard",
+      "question": "In a corporate board, urgent matters can be discussed even if not on the regular agenda. What mechanism allows MLAs to raise urgent public issues in the assembly?",
+      "options": [
+        "Question Hour only",
+        "Calling Attention Motion and Adjournment Motion",
+        "Only during budget session",
+        "Through written petitions only"
+      ],
+      "correct_answer": "Calling Attention Motion and Adjournment Motion",
+      "explanation": "Like corporate boards discussing urgent off-agenda matters, MLAs can use Calling Attention Motion (to draw minister's attention) and Adjournment Motion (to stop regular business) to raise urgent public issues in the assembly.",
+      "analogy": "Corporate structure - Board urgent off-agenda discussions",
+      "constitutional_reference": "Legislative procedure"
+    },    {
+      "id": 101,
+      "category": "State Government - Chief Minister",
+      "difficulty": "Easy",
+      "question": "In a restaurant, the head chef manages daily kitchen operations while the owner handles overall business. What is the Chief Minister's role compared to the Governor?",
+      "options": [
+        "Same as the Governor",
+        "The real executive head who runs the state government daily",
+        "Only advises the Governor",
+        "Manages only education and health"
+      ],
+      "correct_answer": "The real executive head who runs the state government daily",
+      "explanation": "Like a head chef managing daily kitchen operations while the owner handles overall business, the Chief Minister is the real executive head who runs the state government daily, while the Governor is the constitutional head.",
+      "analogy": "Restaurant management - Head chef vs owner roles",
+      "constitutional_reference": "Article 163, Article 164"
+    },
+    {
+      "id": 102,
+      "category": "State Government - Chief Minister",
+      "difficulty": "Medium",
+      "question": "In a sports team, the captain is usually the best player chosen by team members. How does someone become Chief Minister?",
+      "options": [
+        "Directly elected by all state voters",
+        "Appointed by the Governor",
+        "Leader of the party/coalition with majority in state assembly",
+        "Chosen by the President"
+      ],
+      "correct_answer": "Leader of the party/coalition with majority in state assembly",
+      "explanation": "Like a sports captain being chosen from the team, the Chief Minister is the leader of the party or coalition that has majority support in the state legislative assembly.",
+      "analogy": "Sports team - Captain chosen by team members",
+      "constitutional_reference": "Article 164"
+    },
+    {
+      "id": 103,
+      "category": "State Government - Chief Minister",
+      "difficulty": "Hard",
+      "question": "In a hospital, the chief medical officer must be a qualified doctor. What constitutional requirement must the Chief Minister meet?",
+      "options": [
+        "Must be over 35 years old",
+        "Must be a member of the state legislature (or become one within 6 months)",
+        "Must be from the same state only",
+        "Must be a lawyer"
+      ],
+      "correct_answer": "Must be a member of the state legislature (or become one within 6 months)",
+      "explanation": "Like a hospital chief medical officer needing medical qualifications, the Chief Minister must be a member of the state legislature. If not already an MLA when appointed, they must become one within 6 months.",
+      "analogy": "Hospital system - Chief medical officer's qualification requirements",
+      "constitutional_reference": "Article 164"
+    },
+    {
+      "id": 104,
+      "category": "State Government - Chief Minister",
+      "difficulty": "Easy",
+      "question": "In a family business, the head chooses family members to help run different departments. Who does the Chief Minister choose to help govern the state?",
+      "options": [
+        "Opposition party leaders",
+        "State Council of Ministers",
+        "Central government ministers",
+        "Supreme Court judges"
+      ],
+      "correct_answer": "State Council of Ministers",
+      "explanation": "Like a family business head choosing family members for different departments, the Chief Minister chooses the State Council of Ministers to help run various state government departments.",
+      "analogy": "Family business - Head choosing departmental helpers",
+      "constitutional_reference": "Article 164"
+    },
+    {
+      "id": 105,
+      "category": "State Government - Chief Minister",
+      "difficulty": "Medium",
+      "question": "In a company, if the CEO loses the board's confidence, they must resign. How can a Chief Minister be removed from office?",
+      "options": [
+        "By the Governor at any time",
+        "If the state assembly passes a no-confidence motion",
+        "By the President of India",
+        "After serving 5 years"
+      ],
+      "correct_answer": "If the state assembly passes a no-confidence motion",
+      "explanation": "Like a CEO who must resign if they lose the board's confidence, the Chief Minister must resign if the state assembly (representing people) passes a no-confidence motion against the government.",
+      "analogy": "Corporate structure - CEO resignation after losing board confidence",
+      "constitutional_reference": "Article 164"
+    },
+    {
+      "id": 106,
+      "category": "State Government - State Council",
+      "difficulty": "Easy",
+      "question": "A restaurant has different managers for dining, kitchen, and accounts. How are state government departments managed?",
+      "options": [
+        "All by the Chief Minister alone",
+        "By different state ministers heading different portfolios",
+        "By central government only",
+        "By local municipal bodies"
+      ],
+      "correct_answer": "By different state ministers heading different portfolios",
+      "explanation": "Like a restaurant having specialized managers for different areas, the state government has different ministers heading various portfolios (like Health, Education, Transport) to manage different state departments.",
+      "analogy": "Restaurant management - Specialized area managers",
+      "constitutional_reference": "Article 166"
+    },
+    {
+      "id": 107,
+      "category": "State Government - State Council",
+      "difficulty": "Medium",
+      "question": "In a hospital, there are senior doctors, regular doctors, and medical students. What are the different levels of ministers in a state?",
+      "options": [
+        "Only Cabinet Ministers",
+        "Cabinet Ministers and Ministers of State",
+        "Senior, Junior, and Deputy Ministers",
+        "All ministers have equal rank"
+      ],
+      "correct_answer": "Cabinet Ministers and Ministers of State",
+      "explanation": "Like hospitals having senior doctors and regular doctors, state governments have Cabinet Ministers (senior level with independent charge) and Ministers of State (junior level, often assisting Cabinet Ministers).",
+      "analogy": "Hospital system - Different doctor levels",
+      "constitutional_reference": "Article 164"
+    },
+    {
+      "id": 108,
+      "category": "State Government - State Council",
+      "difficulty": "Hard",
+      "question": "In a sports team, all players work together and are answerable to the team management. How are state ministers collectively responsible?",
+      "options": [
+        "Each minister works independently",
+        "All ministers are collectively responsible to the state legislature",
+        "Ministers are only responsible to their own departments",
+        "Ministers report only to the Governor"
+      ],
+      "correct_answer": "All ministers are collectively responsible to the state legislature",
+      "explanation": "Like sports team players working together and being answerable to team management, all state ministers work as a team and are collectively responsible to the state legislature for government policies and actions.",
+      "analogy": "Sports team - Players' collective responsibility to management",
+      "constitutional_reference": "Article 164"
+    },
+    {
+      "id": 109,
+      "category": "State Government - State Council",
+      "difficulty": "Easy",
+      "question": "In a community organization, the president leads executive committee meetings. What role does the Chief Minister play in the State Council of Ministers?",
+      "options": [
+        "Just another equal member",
+        "The leader who chairs cabinet meetings and coordinates between ministries",
+        "Only an honorary position",
+        "Reports to other ministers"
+      ],
+      "correct_answer": "The leader who chairs cabinet meetings and coordinates between ministries",
+      "explanation": "Like a community organization president leading executive meetings, the Chief Minister leads the State Council of Ministers, chairs cabinet meetings, and coordinates between different state ministries.",
+      "analogy": "Community organization - President leading executive meetings",
+      "constitutional_reference": "Article 164"
+    },
+    {
+      "id": 110,
+      "category": "State Government - State Council",
+      "difficulty": "Medium",
+      "question": "In a family business, when the head of the family changes, the family assistants often change too. What happens to state ministers when the Chief Minister changes?",
+      "options": [
+        "All ministers continue as before",
+        "Only new ministers are appointed",
+        "The entire State Council of Ministers resigns",
+        "Governor decides which ministers stay"
+      ],
+      "correct_answer": "The entire State Council of Ministers resigns",
+      "explanation": "Like family business assistants changing when the head changes, when a Chief Minister resigns or is removed, the entire State Council of Ministers automatically resigns with them.",
+      "analogy": "Family business - Assistant changes with head change",
+      "constitutional_reference": "Article 164"
+    },
+    {
+      "id": 111,
+      "category": "State Government - State Council",
+      "difficulty": "Hard",
+      "question": "In a company, the board size is limited for efficient decision-making. Is there a limit on the size of the State Council of Ministers?",
+      "options": [
+        "No limit exists",
+        "Maximum 20 ministers",
+        "Cannot exceed 15% of the state assembly's strength",
+        "Fixed at 25 ministers for all states"
+      ],
+      "correct_answer": "Cannot exceed 15% of the state assembly's strength",
+      "explanation": "Like companies limiting board size for efficiency, the Constitution limits the State Council of Ministers to maximum 15% of the state assembly's total strength to ensure manageable governance.",
+      "analogy": "Corporate structure - Limited board size for efficiency",
+      "constitutional_reference": "91st Constitutional Amendment"
+    },
+    {
+      "id": 112,
+      "category": "State Government - State Council",
+      "difficulty": "Easy",
+      "question": "In a restaurant, the head chef assigns different specialties to different cooks. How does the Chief Minister distribute work among ministers?",
+      "options": [
+        "Ministers choose their own departments",
+        "Governor decides portfolio allocation",
+        "Chief Minister allocates portfolios based on expertise and needs",
+        "State assembly decides allocation"
+      ],
+      "correct_answer": "Chief Minister allocates portfolios based on expertise and needs",
+      "explanation": "Like a head chef assigning specialties to different cooks, the Chief Minister allocates different portfolios (departments) to ministers based on their expertise, experience, and state needs.",
+      "analogy": "Restaurant management - Chef assigning cook specialties",
+      "constitutional_reference": "Article 166"
+    },
+    {
+      "id": 113,
+      "category": "State Government - State Council",
+      "difficulty": "Medium",
+      "question": "In a hospital, all staff take professional oaths before starting work. What oath do state ministers take?",
+      "options": [
+        "Oath of Office and Oath of Secrecy",
+        "Only Oath of Allegiance to Chief Minister",
+        "Only Oath of Secrecy",
+        "No specific oath required"
+      ],
+      "correct_answer": "Oath of Office and Oath of Secrecy",
+      "explanation": "Like hospital staff taking professional oaths, state ministers take two oaths: Oath of Office (to uphold Constitution and serve people) and Oath of Secrecy (to maintain confidentiality of government decisions).",
+      "analogy": "Hospital system - Staff professional oaths",
+      "constitutional_reference": "Article 164"
+    },
+    {
+      "id": 114,
+      "category": "State Government - State Council",
+      "difficulty": "Hard",
+      "question": "In a sports club, the executive committee meets regularly to plan activities. How often does the state cabinet typically meet?",
+      "options": [
+        "Once a month",
+        "Once a week",
+        "Varies by state, but typically once or twice a week",
+        "Every day"
+      ],
+      "correct_answer": "Varies by state, but typically once or twice a week",
+      "explanation": "Like sports club executive committees meeting regularly for planning, state cabinets typically meet once or twice a week to discuss important policy matters, though frequency varies by state and urgency of issues.",
+      "analogy": "Sports club - Executive committee regular meetings",
+      "constitutional_reference": "Cabinet procedures"
+    },
+    {
+      "id": 115,
+      "category": "State Government - State Council",
+      "difficulty": "Easy",
+      "question": "In a community center, different committee members handle different activities. What are the main areas that state ministers typically manage?",
+      "options": [
+        "Only education and health",
+        "Various areas like Education, Health, Agriculture, Transport, Police, etc.",
+        "Only law and order",
+        "Only financial matters"
+      ],
+      "correct_answer": "Various areas like Education, Health, Agriculture, Transport, Police, etc.",
+      "explanation": "Like community center committee members handling different activities, state ministers manage various departments including Education, Health, Agriculture, Transport, Police, and other subjects in the State List.",
+      "analogy": "Community organization - Committee members handling different activities",
+      "constitutional_reference": "7th Schedule - State List"
+    },    {
+      "id": 116,
+      "category": "State Government - Executive Functions",
+      "difficulty": "Easy",
+      "question": "In a local restaurant, the manager ensures health department rules are followed. What is the main job of the State Executive?",
+      "options": [
+        "To make state laws",
+        "To implement and enforce laws related to state subjects",
+        "To judge court cases",
+        "To conduct elections"
+      ],
+      "correct_answer": "To implement and enforce laws related to state subjects",
+      "explanation": "Like a restaurant manager ensuring health rules are followed, the State Executive (led by Chief Minister) implements and enforces laws related to state subjects like education, health, police, and agriculture.",
+      "analogy": "Restaurant management - Manager enforcing health rules",
+      "constitutional_reference": "Article 162"
+    },
+    {
+      "id": 117,
+      "category": "State Government - Executive Functions",
+      "difficulty": "Medium",
+      "question": "In a hospital, the chief administrator coordinates patient care across different wards. Which state department coordinates law and order within the state?",
+      "options": [
+        "State Education Department",
+        "State Home Department/Police",
+        "State Agriculture Department",
+        "State Transport Department"
+      ],
+      "correct_answer": "State Home Department/Police",
+      "explanation": "Like a hospital chief administrator coordinating patient care, the State Home Department coordinates law and order, police operations, and internal security within the state.",
+      "analogy": "Hospital system - Chief administrator coordinating care",
+      "constitutional_reference": "7th Schedule - State List"
+    },
+    {
+      "id": 118,
+      "category": "State Government - Executive Functions",
+      "difficulty": "Hard",
+      "question": "In a company's regional office, the manager has authority within their region. Under which article does the State Executive derive its power?",
+      "options": [
+        "Article 73",
+        "Article 162",
+        "Article 245",
+        "Article 356"
+      ],
+      "correct_answer": "Article 162",
+      "explanation": "Like a regional manager deriving authority within their region, the State Executive derives its power from Article 162, which gives it authority over all matters in the State List and Concurrent List.",
+      "analogy": "Corporate structure - Regional manager's territorial authority",
+      "constitutional_reference": "Article 162"
+    },
+    {
+      "id": 119,
+      "category": "State Government - Executive Functions",
+      "difficulty": "Easy",
+      "question": "In a school, the principal manages daily operations within education department guidelines. How does the State Executive work with the Union government?",
+      "options": [
+        "Completely independent of Union government",
+        "Coordinates with Union government on concurrent subjects and follows Union guidance on some matters",
+        "Controlled entirely by Union government",
+        "No interaction with Union government"
+      ],
+      "correct_answer": "Coordinates with Union government on concurrent subjects and follows Union guidance on some matters",
+      "explanation": "Like a school principal managing daily operations within education department guidelines, State Executives coordinate with the Union government on concurrent subjects and follow Union guidance on matters affecting national interest.",
+      "analogy": "School system - Principal following department guidelines",
+      "constitutional_reference": "Article 256, Article 257"
+    },
+    {
+      "id": 120,
+      "category": "State Government - Executive Functions",
+      "difficulty": "Medium",
+      "question": "In a sports club, the local branch manages local tournaments while the national federation handles international events. Which of these is primarily a state executive function?",
+      "options": [
+        "Defence and foreign policy",
+        "Managing state universities and schools",
+        "Printing currency",
+        "International trade agreements"
+      ],
+      "correct_answer": "Managing state universities and schools",
+      "explanation": "Like a sports club's local branch managing local tournaments, state executives primarily manage state subjects like education (state universities and schools), health, police, and local governance.",
+      "analogy": "Sports club - Local branch vs national federation roles",
+      "constitutional_reference": "7th Schedule - State List"
+    },
+    {
+      "id": 121,
+      "category": "State Government - Executive Functions",
+      "difficulty": "Hard",
+      "question": "In a restaurant chain, the head office can step in when a branch violates company policies. When can the Union Executive interfere with State Executive functions?",
+      "options": [
+        "Anytime they want",
+        "When state functions affect national security, inter-state matters, or during emergencies",
+        "Never",
+        "Only during elections"
+      ],
+      "correct_answer": "When state functions affect national security, inter-state matters, or during emergencies",
+      "explanation": "Like a restaurant head office stepping in when branches violate policies, the Union Executive can interfere with state functions when they affect national security, inter-state relations, or during constitutional emergencies.",
+      "analogy": "Restaurant management - Head office intervention for policy violations",
+      "constitutional_reference": "Article 355, Article 356"
+    },
+    {
+      "id": 122,
+      "category": "State Government - Executive Functions",
+      "difficulty": "Easy",
+      "question": "In a family business, different family members manage different shops in the family chain. How are different state departments managed?",
+      "options": [
+        "All by the Chief Minister directly",
+        "By different state secretaries under their respective ministers",
+        "By central government officers",
+        "By elected committees"
+      ],
+      "correct_answer": "By different state secretaries under their respective ministers",
+      "explanation": "Like family members managing different family shops, each state department is managed by state secretaries (senior civil servants) who work under their respective ministers to implement policies.",
+      "analogy": "Family business - Family members managing different shops",
+      "constitutional_reference": "Article 166"
+    },
+    {
+      "id": 123,
+      "category": "State Government - Executive Functions",
+      "difficulty": "Medium",
+      "question": "In a hospital, emergency procedures give administrators special powers. What special executive powers do states have during natural disasters?",
+      "options": [
+        "No special powers",
+        "Can coordinate relief operations, deploy state police, and seek central assistance",
+        "Can declare war",
+        "Can print money for relief"
+      ],
+      "correct_answer": "Can coordinate relief operations, deploy state police, and seek central assistance",
+      "explanation": "Like hospital administrators having emergency procedures, during natural disasters, state executives can coordinate relief operations, deploy state police and machinery, and seek central assistance for disaster management.",
+      "analogy": "Hospital system - Emergency administrative powers",
+      "constitutional_reference": "Disaster Management Act, State police powers"
+    },
+    {
+      "id": 124,
+      "category": "State Government - Executive Functions",
+      "difficulty": "Hard",
+      "question": "In a company, department heads are accountable to the board of directors. To whom is the State Executive ultimately accountable?",
+      "options": [
+        "To the Governor only",
+        "To the Union government",
+        "To the State Legislature",
+        "To the High Court"
+      ],
+      "correct_answer": "To the State Legislature",
+      "explanation": "Like company department heads being accountable to the board of directors, the State Executive is ultimately accountable to the State Legislature, which represents the state's people and can remove the government through no-confidence.",
+      "analogy": "Corporate structure - Department heads accountable to board",
+      "constitutional_reference": "Article 164"
+    },
+    {
+      "id": 125,
+      "category": "State Government - Executive Functions",
+      "difficulty": "Easy",
+      "question": "In a community organization, the executive committee implements decisions made by the general assembly. What principle guides the relationship between State Executive and State Legislature?",
+      "options": [
+        "Executive controls legislature",
+        "Legislature makes laws, Executive implements them",
+        "Both work independently",
+        "Governor controls both"
+      ],
+      "correct_answer": "Legislature makes laws, Executive implements them",
+      "explanation": "Like a community organization where the executive committee implements general assembly decisions, the State Legislature makes laws and policies while the State Executive implements and enforces them.",
+      "analogy": "Community organization - Executive implementing assembly decisions",
+      "constitutional_reference": "Separation of powers principle"
+    },    {
+      "id": 126,
+      "category": "State Government - High Courts",
+      "difficulty": "Easy",
+      "question": "In a sports tournament, regional referees handle local matches while the head referee handles finals. What is the High Court's role in the state judicial system?",
+      "options": [
+        "Lowest court in the state",
+        "Highest court in the state with supervisory power over all state courts",
+        "Only handles criminal cases",
+        "Same level as district courts"
+      ],
+      "correct_answer": "Highest court in the state with supervisory power over all state courts",
+      "explanation": "Like a head referee overseeing regional referees in tournaments, the High Court is the highest court in the state with supervisory power over all subordinate courts in the state.",
+      "analogy": "Sports tournament - Head referee overseeing regional referees",
+      "constitutional_reference": "Article 214-231"
+    },
+    {
+      "id": 127,
+      "category": "State Government - High Courts",
+      "difficulty": "Medium",
+      "question": "In a hospital, a team of senior specialists makes critical medical decisions. How many judges typically serve in a High Court?",
+      "options": [
+        "Only 1 Chief Justice",
+        "Chief Justice plus several other judges (varies by state workload)",
+        "Exactly 10 judges",
+        "Same number as Supreme Court"
+      ],
+      "correct_answer": "Chief Justice plus several other judges (varies by state workload)",
+      "explanation": "Like a hospital having a team of senior specialists for critical decisions, High Courts have a Chief Justice plus several other judges, with the number varying based on the state's population and case workload.",
+      "analogy": "Hospital system - Team of senior specialists",
+      "constitutional_reference": "Article 216"
+    },
+    {
+      "id": 128,
+      "category": "State Government - High Courts",
+      "difficulty": "Hard",
+      "question": "In a company, the regional head is appointed by headquarters in consultation with local management. How are High Court judges appointed?",
+      "options": [
+        "By the state government",
+        "By the Governor alone",
+        "By the President in consultation with Chief Justice of India and state Governor",
+        "Elected by state lawyers"
+      ],
+      "correct_answer": "By the President in consultation with Chief Justice of India and state Governor",
+      "explanation": "Like a company's regional head being appointed by headquarters with local input, High Court judges are appointed by the President after consulting with the Chief Justice of India and the state Governor.",
+      "analogy": "Corporate structure - Regional head appointment with local consultation",
+      "constitutional_reference": "Article 217"
+    },
+    {
+      "id": 129,
+      "category": "State Government - High Courts",
+      "difficulty": "Easy",
+      "question": "In a community dispute resolution center, people can appeal local decisions to higher authorities. What can citizens do if they're unhappy with lower court decisions?",
+      "options": [
+        "Nothing can be done",
+        "Appeal to the High Court",
+        "Go directly to the Supreme Court",
+        "Ask the Governor to intervene"
+      ],
+      "correct_answer": "Appeal to the High Court",
+      "explanation": "Like a community dispute center where people can appeal local decisions to higher authorities, citizens can appeal lower court decisions to the High Court for review and justice.",
+      "analogy": "Community organization - Appeal to higher authorities",
+      "constitutional_reference": "Article 226, Appellate jurisdiction"
+    },
+    {
+      "id": 130,
+      "category": "State Government - High Courts",
+      "difficulty": "Medium",
+      "question": "In a family business, the family elder can directly intervene to protect family members' rights. What special power allows citizens to directly approach the High Court?",
+      "options": [
+        "Right to Equality",
+        "Writ jurisdiction under Article 226",
+        "Right to Information",
+        "Freedom of Speech"
+      ],
+      "correct_answer": "Writ jurisdiction under Article 226",
+      "explanation": "Like a family elder directly intervening to protect family members, citizens can directly approach the High Court under Article 226 for protection of fundamental rights and other legal remedies through writs.",
+      "analogy": "Family business - Elder's direct intervention for protection",
+      "constitutional_reference": "Article 226"
+    },    {
+      "id": 131,
+      "category": "Local Government - Panchayati Raj",
+      "difficulty": "Easy",
+      "question": "In a village, families come together to make decisions about common problems. What is the Panchayati Raj system?",
+      "options": [
+        "A system of courts in villages",
+        "A three-tier local self-government system in rural areas",
+        "A police system for villages",
+        "An educational system for rural areas"
+      ],
+      "correct_answer": "A three-tier local self-government system in rural areas",
+      "explanation": "Like families coming together in a village to solve common problems, Panchayati Raj is a three-tier local self-government system that gives rural communities the power to manage their own affairs.",
+      "analogy": "Village community - Families solving common problems together",
+      "constitutional_reference": "73rd Constitutional Amendment, Article 243"
+    },
+    {
+      "id": 132,
+      "category": "Local Government - Panchayati Raj",
+      "difficulty": "Medium",
+      "question": "In a sports club, there are teams at school level, district level, and state level. What are the three levels of Panchayati Raj?",
+      "options": [
+        "Village, Block, District",
+        "Gram Panchayat, Panchayat Samiti, Zilla Panchayat",
+        "Local, Regional, State",
+        "Primary, Secondary, Tertiary"
+      ],
+      "correct_answer": "Gram Panchayat, Panchayat Samiti, Zilla Panchayat",
+      "explanation": "Like sports clubs having teams at different levels, Panchayati Raj has three tiers: Gram Panchayat (village level), Panchayat Samiti (block level), and Zilla Panchayat (district level).",
+      "analogy": "Sports club - Teams at school, district, and state levels",
+      "constitutional_reference": "Article 243B"
+    },
+    {
+      "id": 133,
+      "category": "Local Government - Panchayati Raj",
+      "difficulty": "Hard",
+      "question": "In a restaurant chain, a major renovation gave new powers to branch managers. Which constitutional amendment established Panchayati Raj institutions?",
+      "options": [
+        "71st Amendment",
+        "72nd Amendment", 
+        "73rd Amendment",
+        "74th Amendment"
+      ],
+      "correct_answer": "73rd Amendment",
+      "explanation": "Like a restaurant chain renovation giving new powers to branch managers, the 73rd Constitutional Amendment in 1992 gave constitutional status and powers to Panchayati Raj institutions in rural areas.",
+      "analogy": "Restaurant management - Major renovation empowering branch managers",
+      "constitutional_reference": "73rd Constitutional Amendment, 1992"
+    },
+    {
+      "id": 134,
+      "category": "Local Government - Panchayati Raj",
+      "difficulty": "Easy",
+      "question": "In a family, the grandmother leads family meetings where everyone gets to speak. Who leads a Gram Panchayat?",
+      "options": [
+        "The District Collector",
+        "The Sarpanch (Village Head)",
+        "The Block Development Officer",
+        "The State Minister"
+      ],
+      "correct_answer": "The Sarpanch (Village Head)",
+      "explanation": "Like a grandmother leading family meetings where everyone participates, the Sarpanch (Village Head) leads the Gram Panchayat and ensures all villagers can participate in local governance.",
+      "analogy": "Family hierarchy - Grandmother leading family meetings",
+      "constitutional_reference": "Article 243C"
+    },
+    {
+      "id": 135,
+      "category": "Local Government - Panchayati Raj",
+      "difficulty": "Medium",
+      "question": "In a hospital, different committees serve for fixed periods before new elections. What is the term of Panchayati Raj institutions?",
+      "options": [
+        "3 years",
+        "4 years",
+        "5 years",
+        "6 years"
+      ],
+      "correct_answer": "5 years",
+      "explanation": "Like hospital committees serving fixed periods, Panchayati Raj institutions serve for 5 years, ensuring regular democracy and fresh representation at the grassroots level.",
+      "analogy": "Hospital system - Committee fixed terms",
+      "constitutional_reference": "Article 243E"
+    },
+    {
+      "id": 136,
+      "category": "Local Government - Panchayati Raj",
+      "difficulty": "Hard",
+      "question": "In a community organization, certain positions are reserved for underrepresented groups. What reservations exist in Panchayati Raj institutions?",
+      "options": [
+        "No reservations",
+        "Only for women",
+        "1/3 seats for women, seats for SC/ST based on population",
+        "Only for Scheduled Castes"
+      ],
+      "correct_answer": "1/3 seats for women, seats for SC/ST based on population",
+      "explanation": "Like community organizations reserving positions for underrepresented groups, Panchayati Raj institutions reserve one-third seats for women and seats for SC/ST based on their population in the area.",
+      "analogy": "Community organization - Reserved positions for underrepresented groups",
+      "constitutional_reference": "Article 243D"
+    },
+    {
+      "id": 137,
+      "category": "Local Government - Panchayati Raj",
+      "difficulty": "Easy",
+      "question": "In a school, students learn about democracy by participating in student council elections. How are Panchayat members chosen?",
+      "options": [
+        "Appointed by the state government",
+        "Elected directly by adult villagers",
+        "Chosen by traditional village leaders",
+        "Selected by the District Collector"
+      ],
+      "correct_answer": "Elected directly by adult villagers",
+      "explanation": "Like students participating in democratic student council elections, Panchayat members are elected directly by adult villagers (18+ years) through secret ballot, making it true grassroots democracy.",
+      "analogy": "School system - Student council elections",
+      "constitutional_reference": "Article 243"
+    },
+    {
+      "id": 138,
+      "category": "Local Government - Panchayati Raj",
+      "difficulty": "Medium",
+      "question": "In a restaurant, different staff handle food, service, and maintenance. What are the main functions of Gram Panchayats?",
+      "options": [
+        "Only collecting taxes",
+        "Economic development, social justice, and implementing government schemes",
+        "Only maintaining roads",
+        "Only managing schools"
+      ],
+      "correct_answer": "Economic development, social justice, and implementing government schemes",
+      "explanation": "Like restaurant staff handling different essential functions, Gram Panchayats handle economic development (agriculture, small industries), social justice (welfare schemes), and implementing various government programs.",
+      "analogy": "Restaurant management - Staff handling different essential functions",
+      "constitutional_reference": "11th Schedule"
+    },
+    {
+      "id": 139,
+      "category": "Local Government - Panchayati Raj",
+      "difficulty": "Hard",
+      "question": "In a hospital, the finance committee oversees the budget. What is the role of Gram Sabha in financial matters?",
+      "options": [
+        "No role in finances",
+        "Only collects money",
+        "Approves annual budget and audits accounts",
+        "Only spends money"
+      ],
+      "correct_answer": "Approves annual budget and audits accounts",
+      "explanation": "Like a hospital finance committee overseeing the budget, the Gram Sabha (village assembly of all adult voters) approves the Gram Panchayat's annual budget and audits its accounts for transparency.",
+      "analogy": "Hospital system - Finance committee budget oversight",
+      "constitutional_reference": "Article 243A"
+    },
+    {
+      "id": 140,
+      "category": "Local Government - Panchayati Raj",
+      "difficulty": "Easy",
+      "question": "In a sports team, the captain gets advice from team members during matches. What is Gram Sabha?",
+      "options": [
+        "A building where meetings are held",
+        "The village assembly of all adult voters",
+        "A committee of elected members only",
+        "The village school"
+      ],
+      "correct_answer": "The village assembly of all adult voters",
+      "explanation": "Like a sports team where the captain gets advice from all team members, Gram Sabha is the village assembly where all adult voters (18+ years) participate to guide the Gram Panchayat.",
+      "analogy": "Sports team - Team members advising captain",
+      "constitutional_reference": "Article 243A"
+    },
+    {
+      "id": 141,
+      "category": "Local Government - Panchayati Raj",
+      "difficulty": "Medium",
+      "question": "In a family business, different generations handle business at different levels. What is the middle tier of Panchayati Raj called?",
+      "options": [
+        "Block Panchayat",
+        "Panchayat Samiti or Block Panchayat",
+        "District Committee",
+        "Regional Council"
+      ],
+      "correct_answer": "Panchayat Samiti or Block Panchayat",
+      "explanation": "Like different family generations handling business at different levels, the middle tier of Panchayati Raj is called Panchayat Samiti or Block Panchayat, which coordinates between village and district levels.",
+      "analogy": "Family business - Different generations at different levels",
+      "constitutional_reference": "Article 243B"
+    },
+    {
+      "id": 142,
+      "category": "Local Government - Panchayati Raj",
+      "difficulty": "Hard",
+      "question": "In a company, regional offices coordinate multiple branch offices. What is the main function of Zilla Panchayat?",
+      "options": [
+        "Direct village administration",
+        "Coordinating and consolidating plans of Panchayats in the district",
+        "Only collecting taxes",
+        "Running schools and hospitals"
+      ],
+      "correct_answer": "Coordinating and consolidating plans of Panchayats in the district",
+      "explanation": "Like company regional offices coordinating multiple branches, Zilla Panchayat coordinates and consolidates the development plans of all Panchayats in the district and ensures effective implementation.",
+      "analogy": "Corporate structure - Regional office coordinating branches",
+      "constitutional_reference": "Article 243B"
+    },
+    {
+      "id": 143,
+      "category": "Local Government - Panchayati Raj",
+      "difficulty": "Easy",
+      "question": "In a community garden, everyone contributes money for maintenance. How do Panchayats get money for their work?",
+      "options": [
+        "Only from state government",
+        "From taxes, government grants, and their own revenue sources",
+        "Only from central government",
+        "From donations only"
+      ],
+      "correct_answer": "From taxes, government grants, and their own revenue sources",
+      "explanation": "Like a community garden where everyone contributes for maintenance, Panchayats get money from local taxes, government grants, and their own revenue sources like fees and local enterprises.",
+      "analogy": "Community organization - Everyone contributing for maintenance",
+      "constitutional_reference": "Article 243H"
+    },
+    {
+      "id": 144,
+      "category": "Local Government - Panchayati Raj",
+      "difficulty": "Medium",
+      "question": "In a hospital, the medical superintendent ensures quality healthcare delivery. Which body supervises elections of Panchayati Raj institutions?",
+      "options": [
+        "Central Election Commission",
+        "State Election Commission",
+        "Supreme Court",
+        "District Collector"
+      ],
+      "correct_answer": "State Election Commission",
+      "explanation": "Like a medical superintendent ensuring quality healthcare delivery, the State Election Commission supervises and conducts free and fair elections for all Panchayati Raj institutions in the state.",
+      "analogy": "Hospital system - Superintendent ensuring quality delivery",
+      "constitutional_reference": "Article 243K"
+    },
+    {
+      "id": 145,
+      "category": "Local Government - Panchayati Raj",
+      "difficulty": "Hard",
+      "question": "In a restaurant, the head office sends inspectors to ensure quality standards. Which institution reviews the working of Panchayati Raj institutions?",
+      "options": [
+        "Supreme Court",
+        "Parliament",
+        "State Finance Commission",
+        "All of the above at different levels"
+      ],
+      "correct_answer": "All of the above at different levels",
+      "explanation": "Like a restaurant having different levels of inspection, Panchayati Raj institutions are reviewed by State Finance Commission (finances), Parliament and state legislature (laws), and courts (constitutional compliance).",
+      "analogy": "Restaurant management - Multiple levels of quality inspection",
+      "constitutional_reference": "Article 243I, Article 243J"
+    },
+    {
+      "id": 146,
+      "category": "Local Government - Panchayati Raj",
+      "difficulty": "Easy",
+      "question": "In a school, the principal can suspend student council for serious misconduct. Can Panchayati Raj institutions be dissolved?",
+      "options": [
+        "Never",
+        "Yes, by state government for constitutional violations, but elections must be held within 6 months",
+        "Only by central government",
+        "Only by courts"
+      ],
+      "correct_answer": "Yes, by state government for constitutional violations, but elections must be held within 6 months",
+      "explanation": "Like a school principal suspending student council for misconduct but ensuring new elections, state governments can dissolve Panchayats for violations, but must hold fresh elections within 6 months.",
+      "analogy": "School system - Principal suspending council with mandatory re-elections",
+      "constitutional_reference": "Article 243E"
+    },
+    {
+      "id": 147,
+      "category": "Local Government - Panchayati Raj",
+      "difficulty": "Medium",
+      "question": "In a family business, the accounts are checked regularly by family members. How is accountability ensured in Panchayati Raj?",
+      "options": [
+        "No accountability measures",
+        "Through Gram Sabha meetings, social audits, and vigilance committees",
+        "Only through government inspections",
+        "Only through courts"
+      ],
+      "correct_answer": "Through Gram Sabha meetings, social audits, and vigilance committees",
+      "explanation": "Like family businesses having regular account checks by family members, Panchayati Raj ensures accountability through Gram Sabha meetings, social audits by citizens, and vigilance committees.",
+      "analogy": "Family business - Regular account checks by family members",
+      "constitutional_reference": "Transparency and accountability provisions"
+    },
+    {
+      "id": 148,
+      "category": "Local Government - Panchayati Raj",
+      "difficulty": "Hard",
+      "question": "In a sports federation, different committees handle different aspects of sports development. How many subjects are listed in the 11th Schedule for Panchayats?",
+      "options": [
+        "25 subjects",
+        "29 subjects",
+        "20 subjects",
+        "35 subjects"
+      ],
+      "correct_answer": "29 subjects",
+      "explanation": "Like sports federations having different committees for various aspects, the 11th Schedule lists 29 subjects that Panchayats can handle, including agriculture, health, education, and rural development.",
+      "analogy": "Sports federation - Different committees for different aspects",
+      "constitutional_reference": "11th Schedule"
+    },
+    {
+      "id": 149,
+      "category": "Local Government - Panchayati Raj",
+      "difficulty": "Easy",
+      "question": "In a community center, people directly participate in making decisions about community activities. What makes Panchayati Raj special in Indian democracy?",
+      "options": [
+        "It's controlled by central government",
+        "It brings democracy to the grassroots level with direct participation",
+        "It only handles education",
+        "It replaces state governments"
+      ],
+      "correct_answer": "It brings democracy to the grassroots level with direct participation",
+      "explanation": "Like community centers where people directly participate in decision-making, Panchayati Raj brings democracy to the grassroots level, allowing villagers to directly participate in governing themselves.",
+      "analogy": "Community organization - Direct participation in decision-making",
+      "constitutional_reference": "Grassroots democracy principle"
+    },
+    {
+      "id": 150,
+      "category": "Local Government - Panchayati Raj",
+      "difficulty": "Medium",
+      "question": "In a hospital, different departments work together for patient care. How do the three tiers of Panchayati Raj work together?",
+      "options": [
+        "They work independently",
+        "Higher tiers coordinate and support lower tiers for integrated rural development",
+        "Only Gram Panchayat works",
+        "They compete with each other"
+      ],
+      "correct_answer": "Higher tiers coordinate and support lower tiers for integrated rural development",
+      "explanation": "Like hospital departments working together for patient care, the three tiers of Panchayati Raj work together with higher tiers coordinating and supporting lower tiers for comprehensive rural development.",
+      "analogy": "Hospital system - Departments working together for patient care",
+      "constitutional_reference": "Integrated rural development approach"
+    },
+    {
+      "id": 151,
+      "category": "Local Government - Panchayati Raj",
+      "difficulty": "Hard",
+      "question": "In a company's performance review system, regular assessments ensure quality work. What mechanism ensures regular review of Panchayat performance?",
+      "options": [
+        "Only annual government reports",
+        "Mandatory Gram Sabha meetings, social audits, and performance reviews",
+        "No review mechanism exists",
+        "Only newspaper coverage"
+      ],
+      "correct_answer": "Mandatory Gram Sabha meetings, social audits, and performance reviews",
+      "explanation": "Like company performance reviews ensuring quality work, Panchayats must hold mandatory Gram Sabha meetings, conduct social audits, and undergo performance reviews to ensure effective governance.",
+      "analogy": "Corporate structure - Regular performance review system",
+      "constitutional_reference": "Article 243A, Accountability mechanisms"
+    },
+    {
+      "id": 152,
+      "category": "Local Government - Panchayati Raj",
+      "difficulty": "Easy",
+      "question": "In a sports team, every player has a role to contribute to the team's success. What is the role of ordinary villagers in Panchayati Raj?",
+      "options": [
+        "Only to pay taxes",
+        "To participate in Gram Sabha, elect representatives, and monitor Panchayat work",
+        "No role for common villagers",
+        "Only to follow orders"
+      ],
+      "correct_answer": "To participate in Gram Sabha, elect representatives, and monitor Panchayat work",
+      "explanation": "Like every sports team player contributing to success, every villager has an important role: participating in Gram Sabha meetings, electing representatives, and monitoring Panchayat work for good governance.",
+      "analogy": "Sports team - Every player contributing to team success",
+      "constitutional_reference": "Participatory democracy principle"
+    },
+    {
+      "id": 153,
+      "category": "Local Government - Panchayati Raj",
+      "difficulty": "Medium",
+      "question": "In a restaurant chain, branch managers report to regional managers who report to head office. How does the Panchayati Raj reporting system work?",
+      "options": [
+        "All report directly to central government",
+        "Gram Panchayat → Panchayat Samiti → Zilla Panchayat → State Government",
+        "All work independently",
+        "Only Zilla Panchayat reports to state"
+      ],
+      "correct_answer": "Gram Panchayat → Panchayat Samiti → Zilla Panchayat → State Government",
+      "explanation": "Like a restaurant chain's reporting hierarchy, Panchayati Raj follows a clear structure: Gram Panchayats coordinate with Panchayat Samitis, which coordinate with Zilla Panchayats, which work with State Government.",
+      "analogy": "Restaurant management - Branch to regional to head office reporting",
+      "constitutional_reference": "Three-tier structure coordination"
+    },
+    {
+      "id": 154,
+      "category": "Local Government - Panchayati Raj",
+      "difficulty": "Hard",
+      "question": "In a family business, certain family members have veto power over important decisions. Do Panchayati Raj institutions have any veto powers over state or central schemes?",
+      "options": [
+        "Yes, they can veto any scheme",
+        "No veto power, but they implement and can provide feedback on schemes",
+        "Only Zilla Panchayat has veto power",
+        "They can veto only education schemes"
+      ],
+      "correct_answer": "No veto power, but they implement and can provide feedback on schemes",
+      "explanation": "Like family business members who implement decisions but can provide feedback rather than veto, Panchayats implement government schemes and provide valuable feedback but don't have veto powers over state or central schemes.",
+      "analogy": "Family business - Implementation with feedback rather than veto power",
+      "constitutional_reference": "Implementation and feedback role"
+    },
+    {
+      "id": 155,
+      "category": "Local Government - Panchayati Raj",
+      "difficulty": "Easy",
+      "question": "In a community garden where everyone works together, decisions are made collectively. What does 'Panchayat' literally mean?",
+      "options": [
+        "Five people",
+        "Assembly of five (representing collective decision-making)",
+        "Village council",
+        "Rural government"
+      ],
+      "correct_answer": "Assembly of five (representing collective decision-making)",
+      "explanation": "Like a community garden where everyone works together, 'Panchayat' literally means 'assembly of five,' representing the traditional Indian concept of collective decision-making by respected community members.",
+      "analogy": "Community organization - Everyone working together for collective decisions",
+      "constitutional_reference": "Traditional meaning and modern application"
+    },    {
+      "id": 156,
+      "category": "Local Government - Municipal Governance",
+      "difficulty": "Easy",
+      "question": "In a big apartment complex, residents form a committee to manage common facilities. What are Municipal Corporations for cities?",
+      "options": [
+        "Police stations for cities",
+        "Local self-government institutions for urban areas",
+        "Shopping centers",
+        "Educational institutions"
+      ],
+      "correct_answer": "Local self-government institutions for urban areas",
+      "explanation": "Like apartment residents forming committees to manage common facilities, Municipal Corporations are local self-government institutions that manage civic services and urban development in cities.",
+      "analogy": "Apartment complex - Residents' committee managing common facilities",
+      "constitutional_reference": "74th Constitutional Amendment, Article 243P"
+    },
+    {
+      "id": 157,
+      "category": "Local Government - Municipal Governance",
+      "difficulty": "Medium",
+      "question": "In a shopping mall, there are different sizes of stores - large anchor stores, medium stores, and small kiosks. What are the three types of urban local bodies?",
+      "options": [
+        "Municipal Corporation, Municipality, Nagar Panchayat",
+        "City Council, Town Committee, Village Council",
+        "Metropolitan, Urban, Rural",
+        "Large, Medium, Small"
+      ],
+      "correct_answer": "Municipal Corporation, Municipality, Nagar Panchayat",
+      "explanation": "Like shopping malls having different sized stores, urban areas have three types of local bodies: Municipal Corporations (large cities), Municipalities (medium towns), and Nagar Panchayats (small towns).",
+      "analogy": "Shopping mall - Different sizes of stores",
+      "constitutional_reference": "Article 243Q"
+    },
+    {
+      "id": 158,
+      "category": "Local Government - Municipal Governance",
+      "difficulty": "Hard",
+      "question": "In a hospital renovation, new departments were added to improve patient care. Which constitutional amendment established urban local governance?",
+      "options": [
+        "72nd Amendment",
+        "73rd Amendment",
+        "74th Amendment",
+        "75th Amendment"
+      ],
+      "correct_answer": "74th Amendment",
+      "explanation": "Like a hospital renovation adding new departments for better care, the 74th Constitutional Amendment in 1992 established constitutional status for urban local governance to improve city management.",
+      "analogy": "Hospital system - Renovation adding new departments",
+      "constitutional_reference": "74th Constitutional Amendment, 1992"
+    },
+    {
+      "id": 159,
+      "category": "Local Government - Municipal Governance",
+      "difficulty": "Easy",
+      "question": "In a sports club, the club president leads the executive committee. Who heads a Municipal Corporation?",
+      "options": [
+        "District Collector",
+        "Mayor",
+        "Chief Minister",
+        "Municipal Secretary"
+      ],
+      "correct_answer": "Mayor",
+      "explanation": "Like a sports club president leading the executive committee, the Mayor heads a Municipal Corporation and leads the city's governance along with elected councilors.",
+      "analogy": "Sports club - President leading executive committee",
+      "constitutional_reference": "Article 243R"
+    },
+    {
+      "id": 160,
+      "category": "Local Government - Municipal Governance",
+      "difficulty": "Medium",
+      "question": "In a restaurant chain, each branch has a manager chosen by staff or head office. How is a Mayor typically chosen?",
+      "options": [
+        "Appointed by the state government",
+        "Elected directly by city voters or indirectly by councilors (varies by state)",
+        "Chosen by the Governor",
+        "Selected by municipal employees"
+      ],
+      "correct_answer": "Elected directly by city voters or indirectly by councilors (varies by state)",
+      "explanation": "Like restaurant branches having managers chosen by staff or head office, Mayors are either elected directly by city voters or indirectly by elected councilors, depending on the state's law.",
+      "analogy": "Restaurant management - Manager selection methods",
+      "constitutional_reference": "Article 243R"
+    },
+    {
+      "id": 161,
+      "category": "Local Government - Municipal Governance",
+      "difficulty": "Hard",
+      "question": "In a community center, committee members serve for specific terms. What is the term of urban local bodies?",
+      "options": [
+        "3 years",
+        "4 years",
+        "5 years",
+        "6 years"
+      ],
+      "correct_answer": "5 years",
+      "explanation": "Like community center committees serving specific terms, urban local bodies serve for 5 years, ensuring regular democratic renewal and accountability to urban citizens.",
+      "analogy": "Community organization - Committee specific terms",
+      "constitutional_reference": "Article 243U"
+    },
+    {
+      "id": 162,
+      "category": "Local Government - Municipal Governance",
+      "difficulty": "Easy",
+      "question": "In a family gathering, different family members represent different generations and backgrounds. What reservations exist in urban local bodies?",
+      "options": [
+        "No reservations",
+        "1/3 seats for women, seats for SC/ST based on population",
+        "Only for women",
+        "Only for senior citizens"
+      ],
+      "correct_answer": "1/3 seats for women, seats for SC/ST based on population",
+      "explanation": "Like family gatherings representing different generations and backgrounds, urban local bodies reserve one-third seats for women and seats for SC/ST based on their population to ensure inclusive representation.",
+      "analogy": "Family gathering - Different generations and backgrounds represented",
+      "constitutional_reference": "Article 243T"
+    },
+    {
+      "id": 163,
+      "category": "Local Government - Municipal Governance",
+      "difficulty": "Medium",
+      "question": "In a hospital, different departments handle patient care, maintenance, and administration. What are the main functions of Municipal Corporations?",
+      "options": [
+        "Only tax collection",
+        "Urban planning, water supply, sanitation, roads, public health, and civic amenities",
+        "Only road construction",
+        "Only education"
+      ],
+      "correct_answer": "Urban planning, water supply, sanitation, roads, public health, and civic amenities",
+      "explanation": "Like hospital departments handling different aspects of patient care, Municipal Corporations manage urban planning, water supply, sanitation, roads, public health, and various civic amenities for city residents.",
+      "analogy": "Hospital system - Different departments handling various functions",
+      "constitutional_reference": "12th Schedule"
+    },
+    {
+      "id": 164,
+      "category": "Local Government - Municipal Governance",
+      "difficulty": "Hard",
+      "question": "In a sports federation, different committees handle various aspects of sports promotion. How many subjects are listed in the 12th Schedule for Municipalities?",
+      "options": [
+        "15 subjects",
+        "18 subjects",
+        "20 subjects",
+        "25 subjects"
+      ],
+      "correct_answer": "18 subjects",
+      "explanation": "Like sports federations having committees for various aspects, the 12th Schedule lists 18 subjects that Municipalities can handle, including urban planning, water supply, public health, and slum development.",
+      "analogy": "Sports federation - Different committees for various aspects",
+      "constitutional_reference": "12th Schedule"
+    },
+    {
+      "id": 165,
+      "category": "Local Government - Municipal Governance",
+      "difficulty": "Easy",
+      "question": "In a school, students elect their representatives to the student council. How are municipal councilors chosen?",
+      "options": [
+        "Appointed by the Mayor",
+        "Elected directly by ward voters through secret ballot",
+        "Chosen by the state government",
+        "Selected by existing councilors"
+      ],
+      "correct_answer": "Elected directly by ward voters through secret ballot",
+      "explanation": "Like students electing their student council representatives, municipal councilors are elected directly by voters in each ward through secret ballot, ensuring democratic representation.",
+      "analogy": "School system - Student council elections",
+      "constitutional_reference": "Article 243O"
+    },
+    {
+      "id": 166,
+      "category": "Local Government - Municipal Governance",
+      "difficulty": "Medium",
+      "question": "In a restaurant, the dining area is divided into sections, each served by specific staff. How are cities divided for municipal elections?",
+      "options": [
+        "Randomly",
+        "Into wards based on population",
+        "By income groups",
+        "By profession of residents"
+      ],
+      "correct_answer": "Into wards based on population",
+      "explanation": "Like restaurant dining areas divided into sections for efficient service, cities are divided into wards based on population, with each ward electing one councilor to represent local interests.",
+      "analogy": "Restaurant management - Dining sections with specific staff",
+      "constitutional_reference": "Ward delimitation provisions"
+    },
+    {
+      "id": 167,
+      "category": "Local Government - Municipal Governance",
+      "difficulty": "Hard",
+      "question": "In a company's budget committee, members review and approve financial plans. What role do municipal councils play in city finances?",
+      "options": [
+        "No role in finances",
+        "Approve municipal budget, tax rates, and monitor expenditure",
+        "Only collect taxes",
+        "Only spend money"
+      ],
+      "correct_answer": "Approve municipal budget, tax rates, and monitor expenditure",
+      "explanation": "Like company budget committees reviewing financial plans, municipal councils approve the city budget, set tax rates, and monitor expenditure to ensure proper use of public money.",
+      "analogy": "Corporate structure - Budget committee financial oversight",
+      "constitutional_reference": "Financial powers of municipalities"
+    },
+    {
+      "id": 168,
+      "category": "Local Government - Municipal Governance",
+      "difficulty": "Easy",
+      "question": "In a community club, members pay membership fees for club maintenance. How do Municipal Corporations raise money?",
+      "options": [
+        "Only from state government grants",
+        "Property tax, water charges, trade licenses, and government grants",
+        "Only from central government",
+        "From donations only"
+      ],
+      "correct_answer": "Property tax, water charges, trade licenses, and government grants",
+      "explanation": "Like community clubs collecting membership fees for maintenance, Municipal Corporations raise money through property tax, water charges, trade licenses, and grants from state and central governments.",
+      "analogy": "Community organization - Membership fees for maintenance",
+      "constitutional_reference": "Article 243X"
+    },
+    {
+      "id": 169,
+      "category": "Local Government - Municipal Governance",
+      "difficulty": "Medium",
+      "question": "In a hospital, the nursing superintendent ensures fair elections for staff representatives. Who conducts municipal elections?",
+      "options": [
+        "Central Election Commission",
+        "State Election Commission",
+        "Municipal Corporation itself",
+        "High Court"
+      ],
+      "correct_answer": "State Election Commission",
+      "explanation": "Like hospital superintendents ensuring fair staff elections, the State Election Commission conducts free and fair elections for all urban local bodies in the state.",
+      "analogy": "Hospital system - Superintendent ensuring fair elections",
+      "constitutional_reference": "Article 243ZA"
+    },
+    {
+      "id": 170,
+      "category": "Local Government - Municipal Governance",
+      "difficulty": "Hard",
+      "question": "In a restaurant chain, the head office can close a branch for serious violations. Can Municipal Corporations be dissolved?",
+      "options": [
+        "Never",
+        "Yes, by state government for constitutional violations, but elections must be held within 6 months",
+        "Only by courts",
+        "Only by central government"
+      ],
+      "correct_answer": "Yes, by state government for constitutional violations, but elections must be held within 6 months",
+      "explanation": "Like restaurant head offices closing branches for violations, state governments can dissolve Municipal Corporations for serious constitutional violations, but must hold fresh elections within 6 months.",
+      "analogy": "Restaurant management - Head office closing branches for violations",
+      "constitutional_reference": "Article 243U"
+    },
+    {
+      "id": 171,
+      "category": "Local Government - Municipal Governance",
+      "difficulty": "Easy",
+      "question": "In a shopping mall, different sized stores serve different customer bases. What determines whether an area gets a Corporation, Municipality, or Nagar Panchayat?",
+      "options": [
+        "Random assignment",
+        "Population size and urban characteristics",
+        "Geographic area only",
+        "Income levels"
+      ],
+      "correct_answer": "Population size and urban characteristics",
+      "explanation": "Like shopping malls having different sized stores for different customer bases, urban areas get Corporation (large cities), Municipality (medium towns), or Nagar Panchayat (transitional areas) based on population and urban development.",
+      "analogy": "Shopping mall - Different store sizes for different customer bases",
+      "constitutional_reference": "Article 243Q"
+    },
+    {
+      "id": 172,
+      "category": "Local Government - Municipal Governance",
+      "difficulty": "Medium",
+      "question": "In a family business, the accountant ensures all expenses are properly documented. How is financial accountability ensured in municipalities?",
+      "options": [
+        "No accountability measures",
+        "Through audits, public disclosure of budgets, and citizen participation",
+        "Only government inspections",
+        "Only through newspapers"
+      ],
+      "correct_answer": "Through audits, public disclosure of budgets, and citizen participation",
+      "explanation": "Like family business accountants documenting expenses, municipalities ensure accountability through regular audits, public disclosure of budgets, and encouraging citizen participation in governance.",
+      "analogy": "Family business - Accountant documenting expenses",
+      "constitutional_reference": "Transparency and accountability provisions"
+    },
+    {
+      "id": 173,
+      "category": "Local Government - Municipal Governance",
+      "difficulty": "Hard",
+      "question": "In a sports club, different committees handle membership, events, and facilities. What are the different committees typically found in Municipal Corporations?",
+      "options": [
+        "No committees exist",
+        "Standing committees for different subjects like health, education, finance",
+        "Only one general committee",
+        "Committees only for elections"
+      ],
+      "correct_answer": "Standing committees for different subjects like health, education, finance",
+      "explanation": "Like sports clubs having different committees for various functions, Municipal Corporations have standing committees for different subjects like health, education, finance, and public works to manage city functions efficiently.",
+      "analogy": "Sports club - Different committees for various functions",
+      "constitutional_reference": "Municipal committee system"
+    },
+    {
+      "id": 174,
+      "category": "Local Government - Municipal Governance",
+      "difficulty": "Easy",
+      "question": "In a hospital, patients can file complaints about service quality. How can citizens participate in municipal governance beyond voting?",
+      "options": [
+        "No participation allowed",
+        "Through ward committee meetings, public hearings, and citizen feedback",
+        "Only through protests",
+        "Only through courts"
+      ],
+      "correct_answer": "Through ward committee meetings, public hearings, and citizen feedback",
+      "explanation": "Like hospital patients providing service feedback, citizens can participate in municipal governance through ward committee meetings, public hearings on budgets, and providing feedback on civic services.",
+      "analogy": "Hospital system - Patient service feedback",
+      "constitutional_reference": "Citizen participation provisions"
+    },
+    {
+      "id": 175,
+      "category": "Local Government - Municipal Governance",
+      "difficulty": "Medium",
+      "question": "In a company, different departments coordinate to serve customers better. How do state governments and municipalities coordinate?",
+      "options": [
+        "They work completely independently",
+        "State provides policy guidelines, funding, and technical support",
+        "State controls everything",
+        "No coordination exists"
+      ],
+      "correct_answer": "State provides policy guidelines, funding, and technical support",
+      "explanation": "Like company departments coordinating to serve customers better, state governments provide policy guidelines, funding, and technical support to municipalities while allowing local autonomy in governance.",
+      "analogy": "Corporate structure - Departments coordinating for customer service",
+      "constitutional_reference": "State-municipality coordination"
+    },
+    {
+      "id": 176,
+      "category": "Local Government - Municipal Governance",
+      "difficulty": "Hard",
+      "question": "In a restaurant, the management reviews performance regularly to improve service. What mechanism reviews the performance of urban local bodies?",
+      "options": [
+        "No review mechanism",
+        "State Finance Commission and performance audits",
+        "Only citizen complaints",
+        "Only newspaper reviews"
+      ],
+      "correct_answer": "State Finance Commission and performance audits",
+      "explanation": "Like restaurant management reviewing performance to improve service, State Finance Commissions review municipal finances and performance audits assess service delivery to improve urban governance.",
+      "analogy": "Restaurant management - Regular performance review for service improvement",
+      "constitutional_reference": "Article 243Y"
+    },
+    {
+      "id": 177,
+      "category": "Local Government - Municipal Governance",
+      "difficulty": "Easy",
+      "question": "In a community center, different activity groups work together for common goals. How do Metropolitan Planning Committees work?",
+      "options": [
+        "They work alone",
+        "Coordinate planning between multiple municipalities in metropolitan areas",
+        "Only handle traffic",
+        "Only manage parks"
+      ],
+      "correct_answer": "Coordinate planning between multiple municipalities in metropolitan areas",
+      "explanation": "Like community center activity groups working together for common goals, Metropolitan Planning Committees coordinate development planning between multiple municipalities in large metropolitan areas.",
+      "analogy": "Community organization - Activity groups working for common goals",
+      "constitutional_reference": "Article 243ZD"
+    },
+    {
+      "id": 178,
+      "category": "Local Government - Municipal Governance",
+      "difficulty": "Medium",
+      "question": "In a hospital, doctors in different specialties collaborate for comprehensive patient care. How do urban and rural local bodies coordinate?",
+      "options": [
+        "No coordination exists",
+        "Through district planning committees and joint development programs",
+        "They compete with each other",
+        "Only during emergencies"
+      ],
+      "correct_answer": "Through district planning committees and joint development programs",
+      "explanation": "Like hospital specialists collaborating for patient care, urban and rural local bodies coordinate through district planning committees and joint development programs for integrated regional development.",
+      "analogy": "Hospital system - Specialists collaborating for comprehensive care",
+      "constitutional_reference": "Article 243ZD"
+    },
+    {
+      "id": 179,
+      "category": "Local Government - Municipal Governance",
+      "difficulty": "Hard",
+      "question": "In a sports federation, teams must meet certain performance standards to maintain their status. Are there any performance standards for municipalities?",
+      "options": [
+        "No standards exist",
+        "Service delivery benchmarks and citizen satisfaction standards are being developed",
+        "Only financial standards",
+        "Only infrastructure standards"
+      ],
+      "correct_answer": "Service delivery benchmarks and citizen satisfaction standards are being developed",
+      "explanation": "Like sports federations having performance standards for teams, municipalities are increasingly evaluated on service delivery benchmarks and citizen satisfaction standards to improve urban governance quality.",
+      "analogy": "Sports federation - Performance standards for team status",
+      "constitutional_reference": "Performance management initiatives"
+    },
+    {
+      "id": 180,
+      "category": "Local Government - Municipal Governance",
+      "difficulty": "Easy",
+      "question": "In a family, everyone contributes according to their ability for family welfare. How do citizens contribute to municipal governance?",
+      "options": [
+        "Only by paying taxes",
+        "Through taxes, civic participation, following rules, and providing feedback",
+        "No contribution needed",
+        "Only through voting"
+      ],
+      "correct_answer": "Through taxes, civic participation, following rules, and providing feedback",
+      "explanation": "Like family members contributing according to their ability, citizens contribute to municipal governance through paying taxes, participating in civic activities, following municipal rules, and providing feedback for better services.",
+      "analogy": "Family hierarchy - Everyone contributing according to ability",
+      "constitutional_reference": "Civic responsibilities"
+    },    {
+      "id": 181,
+      "category": "Constitutional Mechanisms - Federal Structure",
+      "difficulty": "Easy",
+      "question": "In a family business, different family members handle different types of decisions. What is federalism in Indian governance?",
+      "options": [
+        "Only central government makes all decisions",
+        "Division of powers between Union and State governments",
+        "Only state governments make decisions",
+        "Local governments control everything"
+      ],
+      "correct_answer": "Division of powers between Union and State governments",
+      "explanation": "Like a family business where different members handle different decisions, federalism divides powers between Union (central) and State governments, each having their own areas of responsibility.",
+      "analogy": "Family business - Different members handling different decisions",
+      "constitutional_reference": "Article 245-263"
+    },
+    {
+      "id": 182,
+      "category": "Constitutional Mechanisms - Federal Structure",
+      "difficulty": "Medium",
+      "question": "In a restaurant, the menu is divided into appetizers, main courses, and desserts. How are government powers divided in India?",
+      "options": [
+        "Into two lists only",
+        "Union List, State List, and Concurrent List",
+        "Into four lists",
+        "No division exists"
+      ],
+      "correct_answer": "Union List, State List, and Concurrent List",
+      "explanation": "Like a restaurant menu divided into different sections, Indian government powers are divided into three lists: Union List (central subjects), State List (state subjects), and Concurrent List (shared subjects).",
+      "analogy": "Restaurant management - Menu divided into different sections",
+      "constitutional_reference": "7th Schedule"
+    },
+    {
+      "id": 183,
+      "category": "Constitutional Mechanisms - Federal Structure",
+      "difficulty": "Hard",
+      "question": "In a sports federation, certain games are managed nationally while others are managed regionally. How many subjects are in the Union List?",
+      "options": [
+        "87 subjects",
+        "97 subjects",
+        "100 subjects",
+        "66 subjects"
+      ],
+      "correct_answer": "97 subjects",
+      "explanation": "Like sports federations managing certain games nationally, the Union List contains 97 subjects that only the central government can make laws about, including defense, foreign affairs, and currency.",
+      "analogy": "Sports federation - National vs regional game management",
+      "constitutional_reference": "7th Schedule - Union List"
+    },
+    {
+      "id": 184,
+      "category": "Constitutional Mechanisms - Federal Structure",
+      "difficulty": "Easy",
+      "question": "In a hospital, some departments handle local patient care while others handle hospital-wide policies. What subjects are in the State List?",
+      "options": [
+        "Defense and foreign affairs",
+        "Police, public health, agriculture, and local government",
+        "Currency and banking",
+        "Railways and postal services"
+      ],
+      "correct_answer": "Police, public health, agriculture, and local government",
+      "explanation": "Like hospital departments handling local patient care, the State List includes subjects like police, public health, agriculture, and local government that states can legislate on independently.",
+      "analogy": "Hospital system - Local departments vs hospital-wide policies",
+      "constitutional_reference": "7th Schedule - State List"
+    },
+    {
+      "id": 185,
+      "category": "Constitutional Mechanisms - Federal Structure",
+      "difficulty": "Medium",
+      "question": "In a family, some decisions need both parents' agreement. What are Concurrent List subjects?",
+      "options": [
+        "Subjects only Union can legislate on",
+        "Subjects where both Union and State governments can make laws",
+        "Subjects only states can handle",
+        "Subjects handled by local bodies only"
+      ],
+      "correct_answer": "Subjects where both Union and State governments can make laws",
+      "explanation": "Like family decisions needing both parents' agreement, Concurrent List subjects like education and forests allow both Union and State governments to make laws, though Union law prevails in case of conflict.",
+      "analogy": "Family hierarchy - Decisions needing both parents' agreement",
+      "constitutional_reference": "7th Schedule - Concurrent List"
+    },
+    {
+      "id": 186,
+      "category": "Constitutional Mechanisms - Inter-government Relations",
+      "difficulty": "Easy",
+      "question": "In a company, the head office gives instructions that all branches must follow. What is Article 256 about?",
+      "options": [
+        "State government's obligation to ensure compliance with Union laws",
+        "Union government's obligation to states",
+        "Local government powers",
+        "Judicial powers"
+      ],
+      "correct_answer": "State government's obligation to ensure compliance with Union laws",
+      "explanation": "Like company branches following head office instructions, Article 256 makes it the state government's obligation to ensure that state administration complies with Union laws and directions.",
+      "analogy": "Corporate structure - Branches following head office instructions",
+      "constitutional_reference": "Article 256"
+    },
+    {
+      "id": 187,
+      "category": "Constitutional Mechanisms - Inter-government Relations",
+      "difficulty": "Medium",
+      "question": "In a hospital, different departments coordinate for patient care through a coordination committee. What is the Inter-State Council?",
+      "options": [
+        "A court for inter-state disputes",
+        "A body to investigate and advise on inter-state and Union-state disputes",
+        "A legislature for multiple states",
+        "A police force for states"
+      ],
+      "correct_answer": "A body to investigate and advise on inter-state and Union-state disputes",
+      "explanation": "Like a hospital coordination committee helping departments work together, the Inter-State Council investigates and advises on disputes between states and between Union and states for better cooperation.",
+      "analogy": "Hospital system - Coordination committee for departments",
+      "constitutional_reference": "Article 263"
+    },
+    {
+      "id": 188,
+      "category": "Constitutional Mechanisms - Inter-government Relations",
+      "difficulty": "Hard",
+      "question": "In a restaurant chain, if a branch manager can't handle a local crisis, the regional manager steps in. Under what circumstances can the Union impose President's Rule?",
+      "options": [
+        "Anytime the President wishes",
+        "When constitutional machinery in a state fails",
+        "During all natural disasters",
+        "When a state asks for help"
+      ],
+      "correct_answer": "When constitutional machinery in a state fails",
+      "explanation": "Like a regional manager stepping in when a branch manager can't handle a crisis, the Union can impose President's Rule when the constitutional machinery in a state fails and governance cannot continue normally.",
+      "analogy": "Restaurant management - Regional manager intervening in local crisis",
+      "constitutional_reference": "Article 355, Article 356"
+    },
+    {
+      "id": 189,
+      "category": "Constitutional Mechanisms - Inter-government Relations",
+      "difficulty": "Easy",
+      "question": "In a sports team, team members help each other during matches. What is the Union's duty towards states during emergencies?",
+      "options": [
+        "No duty exists",
+        "To protect states against external aggression and internal disturbance",
+        "Only to provide money",
+        "Only to give advice"
+      ],
+      "correct_answer": "To protect states against external aggression and internal disturbance",
+      "explanation": "Like sports team members helping each other during matches, the Union has a constitutional duty to protect every state against external aggression and internal disturbance under Article 355.",
+      "analogy": "Sports team - Team members helping during matches",
+      "constitutional_reference": "Article 355"
+    },
+    {
+      "id": 190,
+      "category": "Constitutional Mechanisms - Inter-government Relations",
+      "difficulty": "Medium",
+      "question": "In a family business, important financial decisions need approval from the family head. How does the Union control state borrowing?",
+      "options": [
+        "States can borrow unlimited amounts",
+        "States need Union consent if they owe money to the Union",
+        "Union controls all state borrowing",
+        "No control exists"
+      ],
+      "correct_answer": "States need Union consent if they owe money to the Union",
+      "explanation": "Like family members needing approval from the family head for major borrowing, states need Union government consent for borrowing if they still owe money to the Union government.",
+      "analogy": "Family business - Financial approval from family head",
+      "constitutional_reference": "Article 293"
+    },
+    {
+      "id": 191,
+      "category": "Constitutional Mechanisms - Financial Relations",
+      "difficulty": "Easy",
+      "question": "In a joint family, income is shared among family members according to needs and contributions. How are taxes shared between Union and states?",
+      "options": [
+        "All taxes go to Union government",
+        "Union collects major taxes and shares revenue with states",
+        "All taxes go to state governments",
+        "No tax sharing exists"
+      ],
+      "correct_answer": "Union collects major taxes and shares revenue with states",
+      "explanation": "Like a joint family sharing income according to needs, the Union government collects major taxes (income tax, customs) and shares the revenue with states based on Finance Commission recommendations.",
+      "analogy": "Joint family - Income sharing according to needs",
+      "constitutional_reference": "Article 268-280"
+    },
+    {
+      "id": 192,
+      "category": "Constitutional Mechanisms - Financial Relations",
+      "difficulty": "Medium",
+      "question": "In a company, a special committee periodically reviews salary distribution among departments. What is the Finance Commission?",
+      "options": [
+        "A court for financial disputes",
+        "A constitutional body that recommends distribution of tax revenue between Union and states",
+        "A bank for government funds",
+        "A ministry for finance"
+      ],
+      "correct_answer": "A constitutional body that recommends distribution of tax revenue between Union and states",
+      "explanation": "Like a company committee reviewing salary distribution, the Finance Commission is a constitutional body that recommends how tax revenue should be distributed between Union and state governments every five years.",
+      "analogy": "Corporate structure - Committee reviewing salary distribution",
+      "constitutional_reference": "Article 280"
+    },
+    {
+      "id": 193,
+      "category": "Constitutional Mechanisms - Financial Relations",
+      "difficulty": "Hard",
+      "question": "In a hospital, the finance committee meets regularly to review and allocate budgets. How often is the Finance Commission constituted?",
+      "options": [
+        "Every 3 years",
+        "Every 5 years",
+        "Every 10 years",
+        "Only when needed"
+      ],
+      "correct_answer": "Every 5 years",
+      "explanation": "Like a hospital finance committee meeting regularly for budget allocation, the Finance Commission is constituted every 5 years to review and recommend fresh financial arrangements between Union and states.",
+      "analogy": "Hospital system - Finance committee regular meetings",
+      "constitutional_reference": "Article 280"
+    },
+    {
+      "id": 194,
+      "category": "Constitutional Mechanisms - Emergency Provisions",
+      "difficulty": "Easy",
+      "question": "In a school, the principal can declare emergency procedures during fire drills. How many types of emergencies can be declared under the Constitution?",
+      "options": [
+        "Two types",
+        "Three types: National Emergency, President's Rule, Financial Emergency",
+        "Four types",
+        "Only one type"
+      ],
+      "correct_answer": "Three types: National Emergency, President's Rule, Financial Emergency",
+      "explanation": "Like schools having different emergency procedures for different situations, the Constitution provides for three types of emergencies: National Emergency (Article 352), President's Rule (Article 356), and Financial Emergency (Article 360).",
+      "analogy": "School system - Different emergency procedures",
+      "constitutional_reference": "Article 352, 356, 360"
+    },
+    {
+      "id": 195,
+      "category": "Constitutional Mechanisms - Emergency Provisions",
+      "difficulty": "Medium",
+      "question": "In a hospital, during medical emergencies, normal procedures may be suspended for patient safety. What happens to fundamental rights during National Emergency?",
+      "options": [
+        "Nothing changes",
+        "All fundamental rights are automatically suspended",
+        "Article 19 rights can be suspended, President can suspend other rights",
+        "Only voting rights are suspended"
+      ],
+      "correct_answer": "Article 19 rights can be suspended, President can suspend other rights",
+      "explanation": "Like hospitals suspending normal procedures during medical emergencies for patient safety, during National Emergency, Article 19 rights (freedom of speech, assembly, etc.) are automatically suspended, and the President can suspend other fundamental rights.",
+      "analogy": "Hospital system - Emergency suspension of normal procedures",
+      "constitutional_reference": "Article 358, Article 359"
+    },
+    {
+      "id": 196,
+      "category": "Constitutional Mechanisms - Amendment Process",
+      "difficulty": "Easy",
+      "question": "In a community club, changing the club rules requires member approval. How can the Constitution be amended?",
+      "options": [
+        "Only by the President",
+        "Through a special process requiring Parliament and sometimes state approval",
+        "Only by the Supreme Court",
+        "Automatically after 10 years"
+      ],
+      "correct_answer": "Through a special process requiring Parliament and sometimes state approval",
+      "explanation": "Like community clubs requiring member approval for rule changes, the Constitution can be amended through a special process involving Parliament, and for some amendments, approval from at least half the state legislatures is also needed.",
+      "analogy": "Community organization - Member approval for rule changes",
+      "constitutional_reference": "Article 368"
+    },
+    {
+      "id": 197,
+      "category": "Constitutional Mechanisms - Amendment Process",
+      "difficulty": "Medium",
+      "question": "In a family business, some decisions need simple agreement while others need unanimous consent. What are the different types of constitutional amendments?",
+      "options": [
+        "Only one type",
+        "Simple majority, special majority, and special majority plus state ratification",
+        "Only simple majority",
+        "Only unanimous consent"
+      ],
+      "correct_answer": "Simple majority, special majority, and special majority plus state ratification",
+      "explanation": "Like family businesses having different consent requirements for different decisions, constitutional amendments require simple majority (some provisions), special majority (most amendments), or special majority plus state ratification (federal structure amendments).",
+      "analogy": "Family business - Different consent requirements for decisions",
+      "constitutional_reference": "Article 368"
+    },
+    {
+      "id": 198,
+      "category": "Constitutional Mechanisms - Administrative Relations",
+      "difficulty": "Easy",
+      "question": "In a restaurant chain, head office staff sometimes work in branch offices to maintain standards. How does the Union borrow state administrative machinery?",
+      "options": [
+        "Union cannot use state machinery",
+        "With state consent, Union can entrust state officers with Union functions",
+        "Union automatically controls all state officers",
+        "Only during emergencies"
+      ],
+      "correct_answer": "With state consent, Union can entrust state officers with Union functions",
+      "explanation": "Like restaurant head office staff working in branches to maintain standards, the Union can, with state consent, entrust state government officers with Union functions to ensure efficient administration.",
+      "analogy": "Restaurant management - Head office staff working in branches",
+      "constitutional_reference": "Article 258A"
+    },
+    {
+      "id": 199,
+      "category": "Constitutional Mechanisms - Cooperative Federalism",
+      "difficulty": "Medium",
+      "question": "In a family, different members contribute their expertise to solve family problems together. What is cooperative federalism?",
+      "options": [
+        "States working against the Union",
+        "Union and states working together while respecting each other's roles",
+        "Only Union making all decisions",
+        "Complete independence of states"
+      ],
+      "correct_answer": "Union and states working together while respecting each other's roles",
+      "explanation": "Like family members contributing their expertise to solve problems together, cooperative federalism means Union and state governments working together as partners while respecting each other's constitutional roles and responsibilities.",
+      "analogy": "Family cooperation - Members contributing expertise together",
+      "constitutional_reference": "Spirit of federalism"
+    },
+    {
+      "id": 200,
+      "category": "Constitutional Mechanisms - Integration",
+      "difficulty": "Hard",
+      "question": "In a sports tournament, different levels of teams work together to promote sports from grassroots to national level. How do the three levels of Indian government integrate?",
+      "options": [
+        "They work completely separately",
+        "Through coordinated planning, policy implementation, and citizen service delivery from local to national level",
+        "Only Union coordinates everything",
+        "Only states coordinate with local bodies"
+      ],
+      "correct_answer": "Through coordinated planning, policy implementation, and citizen service delivery from local to national level",
+      "explanation": "Like sports tournaments integrating different team levels to promote sports comprehensively, India's three-tier government (Union, State, Local) integrates through coordinated planning, policy implementation, and service delivery to serve citizens effectively at all levels.",
+      "analogy": "Sports tournament - Different levels working together comprehensively",
+      "constitutional_reference": "Integrated governance principle"
+    }
+  ]
+}

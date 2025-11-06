@@ -1,0 +1,543 @@
+{
+  "quiz_metadata": {
+    "title": "Fundamental Rights and Fundamental Duties Quiz for Children",
+    "description": "A comprehensive quiz covering all 6 Fundamental Rights and 11 Fundamental Duties of the Indian Constitution",
+    "target_age": "8-16 years",
+    "total_questions": 40,
+    "question_types": ["multiple_choice", "true_false", "situation_based"],
+    "topics_covered": [
+      "Right to Equality",
+      "Right to Freedom", 
+      "Right against Exploitation",
+      "Right to Freedom of Religion",
+      "Cultural and Educational Rights",
+      "Right to Constitutional Remedies",
+      "Fundamental Duties (Article 51A)"
+    ],
+    "difficulty_level": "Age-appropriate with real-life scenarios"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "topic": "Right to Equality",
+      "question": "Maya's school has a rule that all children, whether rich or poor, must wear the same uniform. This is an example of which Fundamental Right?",
+      "options": {
+        "A": "Right to Freedom",
+        "B": "Right to Equality",
+        "C": "Right to Education",
+        "D": "Right to Privacy"
+      },
+      "correct_answer": "B",
+      "explanation": "The Right to Equality ensures that all people are treated equally regardless of their background, caste, religion, or economic status.",
+      "age_context": "School uniform policy"
+    },
+    {
+      "id": 2,
+      "type": "true_false",
+      "topic": "Right to Equality",
+      "question": "A restaurant can refuse to serve food to someone because of their caste.",
+      "answer": false,
+      "explanation": "Article 15 prohibits discrimination on grounds of religion, race, caste, sex, or place of birth. Public places like restaurants cannot refuse service based on caste.",
+      "age_context": "Public accommodations"
+    },
+    {
+      "id": 3,
+      "type": "situation_based",
+      "topic": "Right to Equality",
+      "question": "Amit's family moved to a new city. At the local park, some older children told him he couldn't play because he spoke a different language. What right is being violated here?",
+      "options": {
+        "A": "Right to Freedom of Speech",
+        "B": "Right to Equality",
+        "C": "Right to Education",
+        "D": "Cultural Rights"
+      },
+      "correct_answer": "B",
+      "explanation": "Everyone has the right to be treated equally in public places regardless of their language, religion, or place of birth.",
+      "age_context": "Children's playground discrimination"
+    },
+    {
+      "id": 4,
+      "type": "multiple_choice",
+      "topic": "Right to Freedom",
+      "question": "Priya wants to start a school newsletter to share interesting stories. Which Fundamental Right protects her ability to do this?",
+      "options": {
+        "A": "Right to Education",
+        "B": "Right to Freedom of Speech and Expression",
+        "C": "Right to Equality",
+        "D": "Right to Property"
+      },
+      "correct_answer": "B",
+      "explanation": "Article 19 guarantees freedom of speech and expression, which includes the right to express ideas through writing and media.",
+      "age_context": "Student journalism"
+    },
+    {
+      "id": 5,
+      "type": "true_false",
+      "topic": "Right to Freedom",
+      "question": "Children have the right to peacefully organize a clean-up drive in their neighborhood.",
+      "answer": true,
+      "explanation": "Article 19 includes the right to peaceful assembly, which means people can gather peacefully for good causes like environmental clean-up.",
+      "age_context": "Community service activities"
+    },
+    {
+      "id": 6,
+      "type": "situation_based",
+      "topic": "Right to Freedom",
+      "question": "Ravi's family wants to travel from Delhi to Mumbai for vacation. Their neighbor says they need special permission from the government. Is the neighbor correct?",
+      "options": {
+        "A": "Yes, you always need government permission to travel",
+        "B": "No, Indian citizens have the right to move freely within India",
+        "C": "Only if traveling by airplane",
+        "D": "Only for distances over 500 km"
+      },
+      "correct_answer": "B",
+      "explanation": "Article 19 guarantees freedom of movement throughout India. Citizens can travel anywhere within the country without special permission.",
+      "age_context": "Family vacation planning"
+    },
+    {
+      "id": 7,
+      "type": "multiple_choice",
+      "topic": "Right against Exploitation",
+      "question": "A 12-year-old child working in a factory instead of going to school is an example of:",
+      "options": {
+        "A": "Child helping family",
+        "B": "Child exploitation",
+        "C": "Early career start",
+        "D": "Practical education"
+      },
+      "correct_answer": "B",
+      "explanation": "Articles 23-24 prohibit child labor. Children under 14 cannot work in factories or hazardous conditions and should be in school instead.",
+      "age_context": "Child labor awareness"
+    },
+    {
+      "id": 8,
+      "type": "true_false",
+      "topic": "Right against Exploitation",
+      "question": "It is illegal to make someone work without paying them fair wages.",
+      "answer": true,
+      "explanation": "Article 23 prohibits forced labor and trafficking. Everyone has the right to fair wages for their work.",
+      "age_context": "Workers' rights understanding"
+    },
+    {
+      "id": 9,
+      "type": "situation_based",
+      "topic": "Right against Exploitation",
+      "question": "Meera sees a news report about children working in dangerous mines instead of attending school. What should be done according to our Constitution?",
+      "options": {
+        "A": "Children should work part-time and study part-time",
+        "B": "This practice should be stopped and children sent to school",
+        "C": "Children can choose what they want to do",
+        "D": "This is acceptable if families need money"
+      },
+      "correct_answer": "B",
+      "explanation": "The Constitution prohibits child labor in hazardous conditions. Children have the right to education and protection from exploitation.",
+      "age_context": "Current events awareness"
+    },
+    {
+      "id": 10,
+      "type": "multiple_choice",
+      "topic": "Right to Freedom of Religion",
+      "question": "Asha celebrates Diwali, Ahmed celebrates Eid, and Christina celebrates Christmas. The Constitution protects their right to:",
+      "options": {
+        "A": "Only celebrate one festival",
+        "B": "Follow and practice their own religion",
+        "C": "Convert others to their religion",
+        "D": "Skip school on all festivals"
+      },
+      "correct_answer": "B",
+      "explanation": "Articles 25-28 guarantee freedom of religion, allowing everyone to practice, profess, and propagate their religion freely.",
+      "age_context": "Multi-religious classroom"
+    },
+    {
+      "id": 11,
+      "type": "true_false",
+      "topic": "Right to Freedom of Religion",
+      "question": "A person can be forced to attend religious ceremonies they don't believe in.",
+      "answer": false,
+      "explanation": "Article 25 ensures that no person can be compelled to take part in religious activities against their will.",
+      "age_context": "Religious freedom understanding"
+    },
+    {
+      "id": 12,
+      "type": "situation_based",
+      "topic": "Right to Freedom of Religion",
+      "question": "In Sanjay's school, students of all religions study together. During prayer time, Muslim students face Mecca, Hindu students chant Sanskrit prayers, and Christian students sing hymns. This shows:",
+      "options": {
+        "A": "Confusion in school management",
+        "B": "Religious freedom being respected",
+        "C": "Need for separate schools",
+        "D": "Violation of school rules"
+      },
+      "correct_answer": "B",
+      "explanation": "This demonstrates religious freedom where people of different faiths can practice their religion freely while maintaining unity.",
+      "age_context": "School religious accommodation"
+    },
+    {
+      "id": 13,
+      "type": "multiple_choice",
+      "topic": "Cultural and Educational Rights",
+      "question": "Tenzin speaks Tibetan at home and wants to preserve his culture while living in India. Which right protects his ability to do this?",
+      "options": {
+        "A": "Right to Freedom",
+        "B": "Cultural and Educational Rights",
+        "C": "Right to Equality",
+        "D": "Right to Privacy"
+      },
+      "correct_answer": "B",
+      "explanation": "Articles 29-30 protect the right of minorities to conserve their language, script, and culture.",
+      "age_context": "Cultural minority protection"
+    },
+    {
+      "id": 14,
+      "type": "true_false",
+      "topic": "Cultural and Educational Rights",
+      "question": "Minority communities can establish and run their own educational institutions.",
+      "answer": true,
+      "explanation": "Article 30 gives minorities the right to establish and administer educational institutions to preserve their culture and provide education.",
+      "age_context": "Educational institution rights"
+    },
+    {
+      "id": 15,
+      "type": "situation_based",
+      "topic": "Cultural and Educational Rights",
+      "question": "A Sikh family wants to start a school where children can learn Punjabi language and Sikh traditions along with regular subjects. Can they do this?",
+      "options": {
+        "A": "No, all schools must teach only in Hindi or English",
+        "B": "Yes, minorities have the right to establish their own educational institutions",
+        "C": "Only if they get special government permission",
+        "D": "Only in Punjab state"
+      },
+      "correct_answer": "B",
+      "explanation": "Article 30 specifically grants minorities the right to establish and administer educational institutions to preserve their culture.",
+      "age_context": "Community education initiatives"
+    },
+    {
+      "id": 16,
+      "type": "multiple_choice",
+      "topic": "Right to Constitutional Remedies",
+      "question": "If someone's Fundamental Rights are violated, they can approach which institution for help?",
+      "options": {
+        "A": "Police station only",
+        "B": "Local politician",
+        "C": "Supreme Court or High Court",
+        "D": "School principal"
+      },
+      "correct_answer": "C",
+      "explanation": "Article 32 gives the right to approach Supreme Court and High Courts directly when Fundamental Rights are violated.",
+      "age_context": "Legal remedy awareness"
+    },
+    {
+      "id": 17,
+      "type": "true_false",
+      "topic": "Right to Constitutional Remedies",
+      "question": "Dr. B.R. Ambedkar called Article 32 'the heart and soul' of the Constitution.",
+      "answer": true,
+      "explanation": "Dr. Ambedkar called Article 32 the 'heart and soul' of the Constitution because it provides the mechanism to protect all other rights.",
+      "age_context": "Constitutional history"
+    },
+    {
+      "id": 18,
+      "type": "situation_based",
+      "topic": "Right to Constitutional Remedies",
+      "question": "Kavya's family is being denied admission to a public school because of their caste. After trying local solutions, what constitutional remedy can they seek?",
+      "options": {
+        "A": "Give up and find a private school",
+        "B": "File a petition in the High Court or Supreme Court",
+        "C": "Wait for the next academic year",
+        "D": "Move to a different city"
+      },
+      "correct_answer": "B",
+      "explanation": "When Fundamental Rights are violated, citizens can directly approach the courts for constitutional remedies like writs.",
+      "age_context": "Access to justice"
+    },
+    {
+      "id": 19,
+      "type": "multiple_choice",
+      "topic": "Fundamental Duty - Respect Constitution",
+      "question": "When the National Anthem is played at school assembly, students should:",
+      "options": {
+        "A": "Continue talking with friends",
+        "B": "Stand quietly and respectfully",
+        "C": "Sit down and relax",
+        "D": "Leave the assembly hall"
+      },
+      "correct_answer": "B",
+      "explanation": "It is our duty to respect the National Anthem and National Flag as symbols of our nation.",
+      "age_context": "School assembly behavior"
+    },
+    {
+      "id": 20,
+      "type": "true_false",
+      "topic": "Fundamental Duty - Respect Constitution",
+      "question": "Citizens have a duty to respect the Constitution and its ideals.",
+      "answer": true,
+      "explanation": "The first Fundamental Duty requires all citizens to abide by the Constitution and respect its ideals and institutions.",
+      "age_context": "Civic responsibility"
+    },
+    {
+      "id": 21,
+      "type": "situation_based",
+      "topic": "Fundamental Duty - Freedom Struggle Ideals",
+      "question": "During Independence Day celebration, Ravi learns about freedom fighters like Mahatma Gandhi and Bhagat Singh. According to Fundamental Duties, he should:",
+      "options": {
+        "A": "Just remember their names for exams",
+        "B": "Cherish and follow their noble ideals of truth and non-violence",
+        "C": "Only read about them in textbooks",
+        "D": "Consider them as outdated historical figures"
+      },
+      "correct_answer": "B",
+      "explanation": "We have a duty to cherish and follow the noble ideals that inspired our freedom struggle, such as truth, non-violence, and sacrifice for the nation.",
+      "age_context": "Independence Day learning"
+    },
+    {
+      "id": 22,
+      "type": "multiple_choice",
+      "topic": "Fundamental Duty - Freedom Struggle Ideals",
+      "question": "The freedom fighters taught us values like truth, non-violence, and sacrifice. As citizens, we should:",
+      "options": {
+        "A": "Forget about the past",
+        "B": "Apply these values in our daily life",
+        "C": "Only remember them on national holidays",
+        "D": "Consider them impractical today"
+      },
+      "correct_answer": "B",
+      "explanation": "Our duty is to cherish and practice the noble ideals that inspired our freedom struggle in our everyday lives.",
+      "age_context": "Value-based living"
+    },
+    {
+      "id": 23,
+      "type": "true_false",
+      "topic": "Fundamental Duty - National Unity",
+      "question": "Citizens should work to maintain the unity and integrity of India.",
+      "answer": true,
+      "explanation": "It is our fundamental duty to uphold and protect the sovereignty, unity, and integrity of India.",
+      "age_context": "National integration"
+    },
+    {
+      "id": 24,
+      "type": "situation_based",
+      "topic": "Fundamental Duty - National Unity",
+      "question": "Some people in Arjun's neighborhood are spreading rumors that create tension between different communities. What should Arjun do according to his duty as a citizen?",
+      "options": {
+        "A": "Ignore it and mind his own business",
+        "B": "Spread the rumors further",
+        "C": "Try to promote harmony and stop the spread of divisive rumors",
+        "D": "Move to a different neighborhood"
+      },
+      "correct_answer": "C",
+      "explanation": "Citizens have a duty to promote harmony and protect national unity by preventing activities that divide communities.",
+      "age_context": "Community harmony"
+    },
+    {
+      "id": 25,
+      "type": "multiple_choice",
+      "topic": "Fundamental Duty - National Service",
+      "question": "If there is a natural disaster in the country and the government calls for volunteers to help, citizens should:",
+      "options": {
+        "A": "Only help if they are paid",
+        "B": "Ignore the call as it's not their job",
+        "C": "Come forward to serve the nation in time of need",
+        "D": "Wait for others to volunteer first"
+      },
+      "correct_answer": "C",
+      "explanation": "Citizens have a duty to defend the country and render national service when called upon, including during emergencies and disasters.",
+      "age_context": "Emergency response"
+    },
+    {
+      "id": 26,
+      "type": "true_false",
+      "topic": "Fundamental Duty - National Service",
+      "question": "Only soldiers have the duty to defend the country.",
+      "answer": false,
+      "explanation": "All citizens have the duty to defend the country and render national service when called upon, not just soldiers.",
+      "age_context": "Civilian responsibility"
+    },
+    {
+      "id": 27,
+      "type": "situation_based",
+      "topic": "Fundamental Duty - Promote Harmony",
+      "question": "In Sita's class, there are students from different religions and regions. During a group project, one student refuses to work with others because they are from a different state. How should Sita respond?",
+      "options": {
+        "A": "Support the student's decision",
+        "B": "Form separate groups based on regions",
+        "C": "Encourage everyone to work together and promote unity",
+        "D": "Complain to the teacher immediately"
+      },
+      "correct_answer": "C",
+      "explanation": "Citizens have a duty to promote harmony and the spirit of common brotherhood among all people of India.",
+      "age_context": "Classroom diversity"
+    },
+    {
+      "id": 28,
+      "type": "multiple_choice",
+      "topic": "Fundamental Duty - Promote Harmony",
+      "question": "The Constitution asks citizens to promote the spirit of common brotherhood among all people. This means we should:",
+      "options": {
+        "A": "Only be friends with people like ourselves",
+        "B": "Treat all Indians as part of one big family",
+        "C": "Avoid people from other regions",
+        "D": "Only help people from our own community"
+      },
+      "correct_answer": "B",
+      "explanation": "Common brotherhood means treating all Indians as family members regardless of their religion, caste, region, or language.",
+      "age_context": "Social integration"
+    },
+    {
+      "id": 29,
+      "type": "true_false",
+      "topic": "Fundamental Duty - Cultural Heritage",
+      "question": "Citizens should value and preserve India's rich cultural heritage.",
+      "answer": true,
+      "explanation": "It is our duty to value and preserve the rich heritage of our country's composite culture.",
+      "age_context": "Cultural preservation"
+    },
+    {
+      "id": 30,
+      "type": "situation_based",
+      "topic": "Fundamental Duty - Cultural Heritage",
+      "question": "Anita visits the Red Fort with her family and sees some tourists carving their names on the historical walls. What should she do?",
+      "options": {
+        "A": "Carve her own name too",
+        "B": "Take photos and ignore the vandalism",
+        "C": "Politely ask them to stop and inform authorities if needed",
+        "D": "Encourage others to do the same"
+      },
+      "correct_answer": "C",
+      "explanation": "Citizens have a duty to value and preserve our cultural heritage, which includes protecting historical monuments.",
+      "age_context": "Heritage tourism"
+    },
+    {
+      "id": 31,
+      "type": "multiple_choice",
+      "topic": "Fundamental Duty - Environment",
+      "question": "Rohit sees plastic waste floating in a river near his house. According to his Fundamental Duty, he should:",
+      "options": {
+        "A": "Ignore it as it's not his responsibility",
+        "B": "Add more waste since it's already polluted",
+        "C": "Take action to protect and improve the environment",
+        "D": "Wait for the government to clean it"
+      },
+      "correct_answer": "C",
+      "explanation": "Citizens have a duty to protect and improve the natural environment including forests, lakes, rivers, and wildlife.",
+      "age_context": "Environmental activism"
+    },
+    {
+      "id": 32,
+      "type": "true_false",
+      "topic": "Fundamental Duty - Environment",
+      "question": "Protecting forests and wildlife is only the government's job, not citizens' duty.",
+      "answer": false,
+      "explanation": "All citizens have the fundamental duty to protect and improve the natural environment including forests, lakes, rivers, and wildlife.",
+      "age_context": "Environmental responsibility"
+    },
+    {
+      "id": 33,
+      "type": "situation_based",
+      "topic": "Fundamental Duty - Scientific Temper",
+      "question": "Priya's grandmother tells her that a black cat crossing the road brings bad luck. Priya has learned about scientific thinking in school. How should she respond?",
+      "options": {
+        "A": "Blindly believe in the superstition",
+        "B": "Respectfully explain that there's no scientific basis for such beliefs",
+        "C": "Argue and fight with her grandmother",
+        "D": "Spread the superstition to her friends"
+      },
+      "correct_answer": "B",
+      "explanation": "Citizens should develop scientific temper, humanism, and spirit of inquiry, which means questioning superstitions while respecting elders.",
+      "age_context": "Family traditions vs. scientific thinking"
+    },
+    {
+      "id": 34,
+      "type": "multiple_choice",
+      "topic": "Fundamental Duty - Scientific Temper",
+      "question": "Having a 'scientific temper' means:",
+      "options": {
+        "A": "Believing everything without question",
+        "B": "Asking questions and seeking logical explanations",
+        "C": "Rejecting all traditional knowledge",
+        "D": "Only studying science subjects"
+      },
+      "correct_answer": "B",
+      "explanation": "Scientific temper means developing a questioning mind, seeking evidence-based explanations, and thinking rationally.",
+      "age_context": "Critical thinking development"
+    },
+    {
+      "id": 35,
+      "type": "true_false",
+      "topic": "Fundamental Duty - Public Property",
+      "question": "Citizens should safeguard public property and avoid violence.",
+      "answer": true,
+      "explanation": "It is our fundamental duty to safeguard public property and abjure (reject) violence.",
+      "age_context": "Civic responsibility"
+    },
+    {
+      "id": 36,
+      "type": "situation_based",
+      "topic": "Fundamental Duty - Public Property",
+      "question": "During a school trip, Vikram sees his classmate trying to break a statue in a public park. What should Vikram do?",
+      "options": {
+        "A": "Help his classmate break it",
+        "B": "Take photos for social media",
+        "C": "Stop his classmate and explain the importance of protecting public property",
+        "D": "Ignore and walk away"
+      },
+      "correct_answer": "C",
+      "explanation": "Citizens have a duty to safeguard public property, which includes parks, statues, buildings, and other facilities meant for everyone's use.",
+      "age_context": "School excursion behavior"
+    },
+    {
+      "id": 37,
+      "type": "multiple_choice",
+      "topic": "Fundamental Duty - Excellence",
+      "question": "The Constitution encourages citizens to strive for excellence. This means students should:",
+      "options": {
+        "A": "Only focus on getting good grades",
+        "B": "Give their best effort in studies, sports, and helping others",
+        "C": "Compete only to defeat classmates",
+        "D": "Excel only in subjects they like"
+      },
+      "correct_answer": "B",
+      "explanation": "Striving for excellence means giving your best effort in all areas of life - individual and collective activities - not just academics.",
+      "age_context": "Holistic development"
+    },
+    {
+      "id": 38,
+      "type": "true_false",
+      "topic": "Fundamental Duty - Excellence",
+      "question": "Citizens should strive for excellence only in their careers, not in helping society.",
+      "answer": false,
+      "explanation": "The duty is to strive towards excellence in all spheres of individual AND collective activity, including social service.",
+      "age_context": "Personal and social responsibility"
+    },
+    {
+      "id": 39,
+      "type": "situation_based",
+      "topic": "Fundamental Duty - Child Education",
+      "question": "Neha's neighbor has a 10-year-old son who doesn't go to school because the family needs him to help in their shop. What duty does this violate?",
+      "options": {
+        "A": "Right to equality",
+        "B": "Duty to provide education to children aged 6-14",
+        "C": "Right to freedom",
+        "D": "Duty to respect elders"
+      },
+      "correct_answer": "B",
+      "explanation": "Parents and guardians have the duty to provide opportunities for education to children between 6-14 years of age.",
+      "age_context": "Child education responsibility"
+    },
+    {
+      "id": 40,
+      "type": "multiple_choice",
+      "topic": "Fundamental Duty - Child Education",
+      "question": "According to the Constitution, who is responsible for ensuring children aged 6-14 years get education?",
+      "options": {
+        "A": "Only the government",
+        "B": "Only teachers",
+        "C": "Parents, guardians, and society",
+        "D": "Only wealthy families"
+      },
+      "correct_answer": "C",
+      "explanation": "The 86th Amendment added the duty for parents/guardians to provide education to children aged 6-14, making it a shared responsibility of family and society.",
+      "age_context": "Educational responsibility sharing"
+    }
+  ]
+}

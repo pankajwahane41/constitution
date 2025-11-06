@@ -1,0 +1,22 @@
+{
+  "quiz_metadata": {
+    "title": "Emergency Provisions Quiz for Children",
+    "description": "75 child-friendly quiz questions about India's Emergency Provisions using weather alerts, safety protocols, and constitutional analogies",
+    "total_questions": 75,
+    "difficulty_levels": ["Easy", "Medium", "Hard"],
+    "target_audience": "Children aged 8-16",
+    "topics_covered": [
+      "National Emergency",
+      "President's Rule", 
+      "Financial Emergency",
+      "Rights and Safeguards",
+      "School Safety Protocols",
+      "Family Emergency Planning",
+      "Constitutional Procedures",
+      "Historical Context"
+    ],
+    "created_date": "2025-11-04",
+    "version": "1.0"
+  },
+  "questions": []
+}

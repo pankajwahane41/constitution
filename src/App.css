@@ -1,0 +1,413 @@
+/* Constitution Learning Hub - Custom Styles */
+
+/* Import Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS Variables for Indian Tricolor Theme */
+:root {
+  --saffron: #FF9933;
+  --saffron-light: #FFB347;
+  --saffron-dark: #E67E22;
+  
+  --green: #138808;
+  --green-light: #32CD32;
+  --green-dark: #006400;
+  
+  --navy: #000080;
+  --navy-light: #1a1a99;
+  --navy-dark: #000040;
+  
+  --white: #FFFFFF;
+  --gray-50: #FAFAFA;
+  --gray-100: #F5F5F5;
+  --gray-200: #EEEEEE;
+  --gray-300: #E0E0E0;
+  --gray-400: #BDBDBD;
+  --gray-500: #9E9E9E;
+  --gray-600: #757575;
+  --gray-700: #424242;
+  --gray-800: #212121;
+  --gray-900: #1A1A1A;
+}
+
+/* Base Styles */
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--gray-50);
+    color: var(--gray-800);
+    line-height: 1.6;
+  }
+  
+  /* Child-friendly font sizing */
+  h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  
+  h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+  
+  h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+  
+  h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+  
+  p, li, span, div {
+    font-size: 0.875rem;
+    line-height: 1.6;
+  }
+  
+  /* Button styles for better touch targets */
+  button {
+    min-height: 44px;
+    min-width: 44px;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+}
+
+/* Component Styles */
+@layer components {
+  /* Tricolor Gradient Backgrounds */
+  .bg-tricolor-gradient {
+    background: linear-gradient(135deg, var(--saffron) 0%, var(--white) 50%, var(--green) 100%);
+  }
+  
+  .bg-tricolor-subtle {
+    background: linear-gradient(135deg, 
+      rgba(255, 153, 51, 0.05) 0%, 
+      rgba(255, 255, 255, 0.8) 50%, 
+      rgba(19, 136, 8, 0.05) 100%);
+  }
+  
+  /* Tricolor Button Variants */
+  .btn-saffron {
+    background-color: var(--saffron);
+    color: white;
+    border: 2px solid var(--saffron);
+  }
+  
+  .btn-saffron:hover {
+    background-color: var(--saffron-dark);
+    border-color: var(--saffron-dark);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(255, 153, 51, 0.3);
+  }
+  
+  .btn-green {
+    background-color: var(--green);
+    color: white;
+    border: 2px solid var(--green);
+  }
+  
+  .btn-green:hover {
+    background-color: var(--green-dark);
+    border-color: var(--green-dark);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(19, 136, 8, 0.3);
+  }
+  
+  .btn-navy {
+    background-color: var(--navy);
+    color: white;
+    border: 2px solid var(--navy);
+  }
+  
+  .btn-navy:hover {
+    background-color: var(--navy-light);
+    border-color: var(--navy-light);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 128, 0.3);
+  }
+  
+  /* Tricolor Border Classes */
+  .border-saffron {
+    border-color: var(--saffron);
+  }
+  
+  .border-green {
+    border-color: var(--green);
+  }
+  
+  .border-navy {
+    border-color: var(--navy);
+  }
+  
+  /* Tricolor Text Classes */
+  .text-saffron {
+    color: var(--saffron);
+  }
+  
+  .text-green {
+    color: var(--green);
+  }
+  
+  .text-navy {
+    color: var(--navy);
+  }
+  
+  /* Card Styles */
+  .card {
+    background: white;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+  }
+  
+  /* Progress Bar Styles */
+  .progress-bar {
+    background-color: var(--gray-200);
+    border-radius: 9999px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .progress-fill {
+    background: linear-gradient(90deg, var(--saffron) 0%, var(--green) 100%);
+    border-radius: 9999px;
+    height: 100%;
+    transition: width 0.3s ease;
+    position: relative;
+  }
+  
+  .progress-fill::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.3) 50%, transparent 100%);
+    animation: shine 2s infinite;
+  }
+  
+  @keyframes shine {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+  }
+  
+  /* Module Card Styles */
+  .module-card {
+    background: white;
+    border-radius: 0.75rem;
+    padding: 1.25rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    border-left: 4px solid transparent;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  
+  .module-card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    border-left-color: var(--saffron);
+    transform: translateY(-1px);
+  }
+  
+  /* Quiz Category Card */
+  .quiz-category-card {
+    background: white;
+    border-radius: 0.75rem;
+    padding: 1.25rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    border-left: 4px solid transparent;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  
+  .quiz-category-card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    border-left-color: var(--green);
+    transform: translateY(-1px);
+  }
+  
+  /* Question Option Styles */
+  .question-option {
+    background: white;
+    border: 2px solid var(--gray-300);
+    border-radius: 0.75rem;
+    padding: 1rem;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    min-height: 60px;
+  }
+  
+  .question-option:hover {
+    background-color: var(--gray-50);
+    border-color: var(--saffron);
+    transform: translateY(-1px);
+  }
+  
+  .question-option.selected {
+    background-color: rgba(255, 153, 51, 0.1);
+    border-color: var(--saffron);
+  }
+  
+  .question-option.correct {
+    background-color: rgba(19, 136, 8, 0.1);
+    border-color: var(--green);
+  }
+  
+  .question-option.incorrect {
+    background-color: rgba(255, 0, 0, 0.1);
+    border-color: #dc2626;
+  }
+}
+
+/* Utility Classes */
+@layer utilities {
+  /* Tricolor Gradient Text */
+  .text-tricolor {
+    background: linear-gradient(90deg, var(--saffron) 0%, var(--navy) 50%, var(--green) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  /* Safe Area for Mobile */
+  .safe-area-inset {
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+  }
+  
+  /* Animation Classes */
+  .animate-bounce-slow {
+    animation: bounce 2s infinite;
+  }
+  
+  .animate-pulse-slow {
+    animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+  
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-in;
+  }
+  
+  .animate-slide-up {
+    animation: slideUp 0.3s ease-out;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes slideUp {
+    from { 
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to { 
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Touch-friendly spacing */
+  .touch-target {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  /* Print styles */
+  @media print {
+    .no-print {
+      display: none !important;
+    }
+  }
+}
+
+/* Mobile-specific adjustments */
+@media (max-width: 640px) {
+  /* Reduce font sizes on mobile for better fit */
+  h1 { font-size: 1.375rem; }
+  h2 { font-size: 1.125rem; }
+  h3 { font-size: 1rem; }
+  
+  /* Ensure proper touch targets */
+  button, .clickable {
+    min-height: 48px;
+  }
+  
+  /* Optimize padding for mobile */
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  :root {
+    --saffron: #FF8C00;
+    --green: #00B800;
+    --navy: #000000;
+  }
+  
+  .card, .module-card, .quiz-category-card {
+    border: 2px solid var(--gray-800);
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Dark mode support (for future enhancement) */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --gray-50: #1A1A1A;
+    --gray-100: #212121;
+    --white: #2D2D2D;
+  }
+}

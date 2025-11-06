@@ -1,0 +1,852 @@
+[
+  {
+    "id": 1,
+    "question_text": "What is the Panchayati Raj system?",
+    "options": [
+      "A system where villages elect local leaders to manage community matters",
+      "A system where only the state government makes all decisions", 
+      "A system where only the central government makes all decisions",
+      "A system where businesses manage all local affairs"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "The Panchayati Raj system is like having elected class monitors who work together to solve school problems at the local level.",
+    "topic_code": "PANCHAYATI_RAJ_BASIC",
+    "difficulty": 1,
+    "level_tied": "village",
+    "analogy_used": "class monitor and committee",
+    "keywords": ["panchayat", "local governance", "elections", "community"]
+  },
+  {
+    "id": 2,
+    "question_text": "Who leads a village panchayat?",
+    "options": [
+      "The sarpanch (like the class monitor)",
+      "The principal (like the school principal)",
+      "The chief minister (like the school district head)",
+      "The governor (like the state education minister)"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "The sarpanch is like the class monitor - they are elected by villagers to lead and represent the community.",
+    "topic_code": "PANCHAYATI_RAJ_STRUCTURE",
+    "difficulty": 1,
+    "level_tied": "village",
+    "analogy_used": "class monitor and committee",
+    "keywords": ["sarpanch", "leadership", "village", "panchayat"]
+  },
+  {
+    "id": 3,
+    "question_text": "What do panchayat members do in their village?",
+    "options": [
+      "They help solve local problems and make decisions about village affairs",
+      "They only collect taxes and give them to the state government",
+      "They manage all schools and hospitals in the state",
+      "They only work in the city municipal corporation"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Panchayat members work together like student council representatives to solve everyday problems in their neighborhood.",
+    "topic_code": "PANCHAYATI_RAJ_FUNCTIONS",
+    "difficulty": 2,
+    "level_tied": "village",
+    "analogy_used": "student council representatives",
+    "keywords": ["panchayat members", "problem solving", "local decisions", "community"]
+  },
+  {
+    "id": 4,
+    "question_text": "How often do gram sabha meetings happen in villages?",
+    "options": [
+      "At least once a month where all adults can participate and share ideas",
+      "Only when there is a big problem that needs solving",
+      "Only once a year during festival time",
+      "Never - the panchayat members make all decisions alone"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Gram sabha meetings are like class meetings where everyone gets a chance to speak and share their ideas.",
+    "topic_code": "PANCHAYATI_RAJ_MEETINGS",
+    "difficulty": 1,
+    "level_tied": "village",
+    "analogy_used": "class meetings",
+    "keywords": ["gram sabha", "community meetings", "participation", "democracy"]
+  },
+  {
+    "id": 5,
+    "question_text": "Which services does a village panchayat typically handle?",
+    "options": [
+      "Maintaining village roads, cleaning, and small water supply",
+      "Running state hospitals and major highways",
+      "Managing international airports and railways",
+      "Operating all schools across the state"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Village panchayats handle local matters like fixing broken paths and keeping the village clean - similar to keeping a classroom tidy.",
+    "topic_code": "PANCHAYATI_RAJ_SERVICES",
+    "difficulty": 2,
+    "level_tied": "village",
+    "analogy_used": "classroom maintenance",
+    "keywords": ["local services", "village maintenance", "roads", "water supply"]
+  },
+  {
+    "id": 6,
+    "question_text": "What is the difference between a gram panchayat and gram sabha?",
+    "options": [
+      "Gram panchayat has elected representatives; gram sabha includes all village adults",
+      "Gram panchayat is for cities; gram sabha is for villages only",
+      "Gram panchayat is temporary; gram sabha is permanent",
+      "Gram panchayat makes decisions; gram sabha just listens"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Like having student representatives (panchayat) and a class meeting (sabha) where everyone speaks - both are important but different.",
+    "topic_code": "PANCHAYATI_RAJ_DIFFERENCE",
+    "difficulty": 2,
+    "level_tied": "village",
+    "analogy_used": "representatives vs class meeting",
+    "keywords": ["representatives", "participation", "democracy", "village governance"]
+  },
+  {
+    "id": 7,
+    "question_text": "How are panchayat members chosen?",
+    "options": [
+      "Through elections where villagers vote for their representatives",
+      "Appointed by the state government",
+      "Selected by the central government",
+      "Chosen by the district collector"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Voters choose their representatives, just like students vote for class monitor and prefects in school.",
+    "topic_code": "PANCHAYATI_RAJ_ELECTIONS",
+    "difficulty": 1,
+    "level_tied": "village",
+    "analogy_used": "school elections",
+    "keywords": ["elections", "voting", "democracy", "representatives"]
+  },
+  {
+    "id": 8,
+    "question_text": "What problems might villagers take to their panchayat for help?",
+    "options": [
+      "Broken streetlights, garbage collection issues, or damaged village roads",
+      "Setting up major airports or international border security",
+      "Managing national defense and foreign policy",
+      "Setting national tax rates and policies"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Local problems like a broken streetlight are taken to panchayat, just like reporting a broken school desk to the class monitor.",
+    "topic_code": "PANCHAYATI_RAJ_PROBLEMS",
+    "difficulty": 2,
+    "level_tied": "village",
+    "analogy_used": "reporting school problems",
+    "keywords": ["local problems", "community issues", "panchayat solutions", "daily life"]
+  },
+  {
+    "id": 9,
+    "question_text": "Who provides funds to village panchayats?",
+    "options": [
+      "Central government, state government, and local taxes",
+      "Only international organizations",
+      "Private companies only",
+      "Banks and loan companies only"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Panchayats receive money from different sources, like how school gets funding from education department and local fees.",
+    "topic_code": "PANCHAYATI_RAJ_FUNDING",
+    "difficulty": 2,
+    "level_tied": "village",
+    "analogy_used": "school funding sources",
+    "keywords": ["funding", "government grants", "local taxes", "development"]
+  },
+  {
+    "id": 10,
+    "question_text": "What is the role of women in Panchayati Raj system?",
+    "options": [
+      "They can be elected as panchayat members and leaders, including as sarpanch",
+      "They can only vote but not be elected",
+      "They can only work in the municipality",
+      "They can only serve in the state government"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Like electing girl students as class monitors, women can be elected to lead panchayats and make decisions.",
+    "topic_code": "PANCHAYATI_RAJ_WOMEN",
+    "difficulty": 2,
+    "level_tied": "village",
+    "analogy_used": "gender equality in student leadership",
+    "keywords": ["women leaders", "gender equality", "participation", "empowerment"]
+  },
+  {
+    "id": 11,
+    "question_text": "How does the panchayat system help rural development?",
+    "options": [
+      "By bringing government services closer to people and solving local problems",
+      "Only by building big factories and industries",
+      "Only by managing national parks and wildlife",
+      "Only by handling international trade matters"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Panchayats help develop villages by handling local needs, like how a class committee helps improve classroom conditions.",
+    "topic_code": "PANCHAYATI_RAJ_DEVELOPMENT",
+    "difficulty": 2,
+    "level_tied": "village",
+    "analogy_used": "class improvement initiatives",
+    "keywords": ["rural development", "local services", "community improvement", "governance"]
+  },
+  {
+    "id": 12,
+    "question_text": "What happens if panchayat members don't do their work properly?",
+    "options": [
+      "Villagers can question them in gram sabha meetings or vote them out in next elections",
+      "Nothing can be done until state government intervenes",
+      "Only the central government can take action",
+      "They automatically get promoted to higher positions"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "If class monitors don't help, students can discuss problems in class meetings and choose new leaders next time.",
+    "topic_code": "PANCHAYATI_RAJ_ACCOUNTABILITY",
+    "difficulty": 3,
+    "level_tied": "village",
+    "analogy_used": "accountability in student government",
+    "keywords": ["accountability", "voter oversight", "performance", "democracy"]
+  },
+  {
+    "id": 13,
+    "question_text": "What is a municipal corporation?",
+    "options": [
+      "The governing body that manages cities and big towns, like a school administration",
+      "A private company that builds houses",
+      "A village panchayat for rural areas",
+      "A state government office"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Municipal corporations are like school administrations - they manage big areas with many services.",
+    "topic_code": "MUNICIPAL_CORPORATION_BASIC",
+    "difficulty": 1,
+    "level_tied": "municipality",
+    "analogy_used": "school administration",
+    "keywords": ["municipal corporation", "city governance", "urban management", "local government"]
+  },
+  {
+    "id": 14,
+    "question_text": "What is the difference between a municipality and a municipal corporation?",
+    "options": [
+      "Municipality manages smaller towns; municipal corporation manages bigger cities",
+      "Municipality is for villages; corporation is for states",
+      "Municipality is permanent; corporation is temporary",
+      "There is no difference - they are the same thing"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Like the difference between managing a small classroom versus the whole school building.",
+    "topic_code": "MUNICIPAL_COMPARISON",
+    "difficulty": 2,
+    "level_tied": "municipality",
+    "analogy_used": "classroom vs school management",
+    "keywords": ["municipality", "municipal corporation", "size difference", "urban governance"]
+  },
+  {
+    "id": 15,
+    "question_text": "Who is the head of a municipal corporation?",
+    "options": [
+      "Mayor (like the principal of a big school)",
+      "Chief Minister (like the state education minister)",
+      "Governor (like the education commissioner)",
+      "Prime Minister (like the national education head)"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "The mayor leads the municipal corporation like how a principal manages the whole school.",
+    "topic_code": "MUNICIPAL_LEADERSHIP",
+    "difficulty": 1,
+    "level_tied": "municipality",
+    "analogy_used": "principal leadership",
+    "keywords": ["mayor", "municipal head", "city leadership", "urban governance"]
+  },
+  {
+    "id": 16,
+    "question_text": "What services does a municipality provide?",
+    "options": [
+      "Street cleaning, water supply, garbage collection, and park maintenance",
+      "Managing national defense and army",
+      "Setting foreign policy and international relations",
+      "Managing central banks and national currency"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Municipalities handle everyday city services like keeping streets clean and water flowing - similar to school maintenance.",
+    "topic_code": "MUNICIPAL_SERVICES",
+    "difficulty": 1,
+    "level_tied": "municipality",
+    "analogy_used": "school maintenance services",
+    "keywords": ["municipal services", "city maintenance", "urban services", "daily life"]
+  },
+  {
+    "id": 17,
+    "question_text": "How are municipal councilors elected?",
+    "options": [
+      "By people living in specific wards (areas) of the city",
+      "Appointed by the state government",
+      "Selected by the central government",
+      "Chosen by the mayor personally"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "People vote for councilors representing their neighborhood, like electing class representatives for different sections.",
+    "topic_code": "MUNICIPAL_ELECTIONS",
+    "difficulty": 2,
+    "level_tied": "municipality",
+    "analogy_used": "neighborhood representatives",
+    "keywords": ["municipal elections", "councilors", "wards", "local voting"]
+  },
+  {
+    "id": 18,
+    "question_text": "What does a municipal corporation do during festivals?",
+    "options": [
+      "Organizes civic arrangements, waste management, and traffic control for celebrations",
+      "Only manages government holidays",
+      "Handles only religious matters",
+      "Organizes only cultural programs"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Municipalities manage practical arrangements during festivals, like how school manages space and crowd during school events.",
+    "topic_code": "MUNICIPAL_FESTIVALS",
+    "difficulty": 2,
+    "level_tied": "municipality",
+    "analogy_used": "school event management",
+    "keywords": ["festival management", "civic arrangements", "public events", "community celebrations"]
+  },
+  {
+    "id": 19,
+    "question_text": "How do municipalities collect money for their work?",
+    "options": [
+      "Through property taxes, local fees, and grants from higher levels of government",
+      "Only by borrowing money from banks",
+      "Only through donations from private companies",
+      "Only through international aid and loans"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Municipalities collect money like schools collect fees and receive government funding for operations.",
+    "topic_code": "MUNICIPAL_FUNDING",
+    "difficulty": 2,
+    "level_tied": "municipality",
+    "analogy_used": "school funding and fees",
+    "keywords": ["municipal funding", "property tax", "local revenue", "government grants"]
+  },
+  {
+    "id": 20,
+    "question_text": "What role does a municipal corporation play in public health?",
+    "options": [
+      "Ensures clean water, waste management, and basic health facilities in the city",
+      "Manages only national health policies",
+      "Runs only government hospitals",
+      "Handles only international health programs"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Municipalities keep cities healthy by managing clean water and waste - like keeping the school clean and healthy.",
+    "topic_code": "MUNICIPAL_HEALTH",
+    "difficulty": 2,
+    "level_tied": "municipality",
+    "analogy_used": "school health and cleanliness",
+    "keywords": ["public health", "sanitation", "clean water", "municipal services"]
+  },
+  {
+    "id": 21,
+    "question_text": "What is the three-tier system of government in India?",
+    "options": [
+      "Village panchayat, district/corporation, and state government - like class, school, and district levels",
+      "Central, state, and international governments",
+      "Only state and central governments",
+      "Village, city, and national governments only"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "India has three levels of government working together, similar to how schools have different levels of management.",
+    "topic_code": "THREE_TIER_BASIC",
+    "difficulty": 1,
+    "level_tied": "state",
+    "analogy_used": "school hierarchy levels",
+    "keywords": ["three-tier system", "governance levels", "federal structure", "democracy"]
+  },
+  {
+    "id": 22,
+    "question_text": "How do the three tiers of government work together?",
+    "options": [
+      "Each level handles different responsibilities but coordinates with others for better service",
+      "Each level works completely independently without any coordination",
+      "Only the central government makes all decisions",
+      "Only the state government makes all decisions"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Different levels work together like teachers, principals, and education officers coordinating for better schools.",
+    "topic_code": "THREE_TIER_COORDINATION",
+    "difficulty": 2,
+    "level_tied": "state",
+    "analogy_used": "school coordination levels",
+    "keywords": ["coordination", "cooperation", "governance", "service delivery"]
+  },
+  {
+    "id": 23,
+    "question_text": "What is the role of the state government?",
+    "options": [
+      "To manage state-wide matters like education, health, police, and major infrastructure",
+      "To only manage international relations",
+      "To only handle defense and military matters",
+      "To only manage central government offices"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "State governments handle major state affairs like education minister manages all schools in the state.",
+    "topic_code": "STATE_ROLE_BASIC",
+    "difficulty": 1,
+    "level_tied": "state",
+    "analogy_used": "state education minister",
+    "keywords": ["state government", "state affairs", "education", "health", "infrastructure"]
+  },
+  {
+    "id": 24,
+    "question_text": "Who is the head of state government?",
+    "options": [
+      "The Chief Minister (like the head of district education department)",
+      "The President (like the national education minister)",
+      "The Prime Minister (like the overall education head)",
+      "The Governor (like the state education commissioner)"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "The Chief Minister leads the state government like the head of district education office.",
+    "topic_code": "STATE_LEADERSHIP",
+    "difficulty": 1,
+    "level_tied": "state",
+    "analogy_used": "district education head",
+    "keywords": ["chief minister", "state leader", "governance", "state administration"]
+  },
+  {
+    "id": 25,
+    "question_text": "What types of roads does the state government build and maintain?",
+    "options": [
+      "State highways and major roads connecting different cities and districts",
+      "Only village roads within panchayat areas",
+      "Only international highways between countries",
+      "Only roads within municipal corporation limits"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "State governments manage major roads connecting cities, like how district office manages major school connections.",
+    "topic_code": "STATE_INFRASTRUCTURE",
+    "difficulty": 2,
+    "level_tied": "state",
+    "analogy_used": "district road connections",
+    "keywords": ["state highways", "major roads", "infrastructure", "connectivity"]
+  },
+  {
+    "id": 26,
+    "question_text": "How does state government help municipalities and panchayats?",
+    "options": [
+      "By providing funds, technical help, and policy guidelines for better local services",
+      "By taking over all local government functions",
+      "By only managing state capital cities",
+      "By replacing local governments with state officers"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "State governments support local bodies like how central education office helps schools with resources and guidance.",
+    "topic_code": "STATE_SUPPORT",
+    "difficulty": 2,
+    "level_tied": "state",
+    "analogy_used": "central education office support",
+    "keywords": ["state support", "funding", "technical help", "guidelines"]
+  },
+  {
+    "id": 27,
+    "question_text": "What services are handled by the state government in schools?",
+    "options": [
+      "Setting curriculum, teacher training, and school infrastructure policies",
+      "Managing daily school cleanliness and maintenance",
+      "Running individual school functions and activities",
+      "Organizing school sports and cultural events"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "State governments set rules for education, like the education department setting school policies.",
+    "topic_code": "STATE_EDUCATION",
+    "difficulty": 2,
+    "level_tied": "state",
+    "analogy_used": "education department policies",
+    "keywords": ["education policy", "curriculum", "teacher training", "school infrastructure"]
+  },
+  {
+    "id": 28,
+    "question_text": "What role does the state government play in health services?",
+    "options": [
+      "Managing state hospitals, health programs, and disease control across the state",
+      "Only managing central government hospitals",
+      "Only handling international health issues",
+      "Only managing private hospitals and clinics"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "State governments run health services like the health department managing all district hospitals.",
+    "topic_code": "STATE_HEALTH",
+    "difficulty": 2,
+    "level_tied": "state",
+    "analogy_used": "district health department",
+    "keywords": ["state health", "hospitals", "health programs", "disease control"]
+  },
+  {
+    "id": 29,
+    "question_text": "How do states get money for their work?",
+    "options": [
+      "From central government grants, state taxes, and local revenue collection",
+      "Only from international loans and donations",
+      "Only from borrowing money from banks",
+      "Only from central government taxes"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "States receive money from central government and collect their own taxes, like schools getting funds from education department and collecting fees.",
+    "topic_code": "STATE_FUNDING",
+    "difficulty": 2,
+    "level_tied": "state",
+    "analogy_used": "school funding sources",
+    "keywords": ["state funding", "central grants", "state taxes", "revenue"]
+  },
+  {
+    "id": 30,
+    "question_text": "What is the role of police in the three-tier system?",
+    "options": [
+      "State police maintain law and order; local police support municipalities and panchayats",
+      "Only central government police exist",
+      "Only local village security guards exist",
+      "Police only work during elections"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Police work at different levels - state police for major matters, local police for community safety.",
+    "topic_code": "POLICE_SYSTEM",
+    "difficulty": 2,
+    "level_tied": "state",
+    "analogy_used": "school security at different levels",
+    "keywords": ["police", "law and order", "state police", "local security"]
+  },
+  {
+    "id": 31,
+    "question_text": "How do citizens participate in governance at all three levels?",
+    "options": [
+      "By voting in elections, attending public meetings, and reporting local issues",
+      "Only by paying taxes",
+      "Only by complaining to government offices",
+      "Only by participating in protests and strikes"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Citizens participate like students voting, attending class meetings, and reporting problems to teachers.",
+    "topic_code": "CITIZEN_PARTICIPATION",
+    "difficulty": 2,
+    "level_tied": "state",
+    "analogy_used": "student participation in school governance",
+    "keywords": ["citizen participation", "voting", "public meetings", "democracy"]
+  },
+  {
+    "id": 32,
+    "question_text": "What happens when different levels of government disagree?",
+    "options": [
+      "They discuss and find solutions through meetings and legal processes",
+      "The higher level always wins without discussion",
+      "Citizens must solve the problems themselves",
+      "The matter is ignored until it resolves naturally"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Government levels resolve disagreements through discussion, like how teachers and principals resolve conflicts through meetings.",
+    "topic_code": "GOVERNMENT_DISAGREEMENTS",
+    "difficulty": 3,
+    "level_tied": "state",
+    "analogy_used": "school conflict resolution",
+    "keywords": ["disagreements", "conflict resolution", "negotiation", "governance"]
+  },
+  {
+    "id": 33,
+    "question_text": "How are decisions made in democracy?",
+    "options": [
+      "Through elected representatives who listen to people's views and make decisions",
+      "Only by appointed officials without people's input",
+      "Only by experts without consulting citizens",
+      "Only through military orders"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Democracy works through representatives elected by people, like choosing class monitors who represent student views.",
+    "topic_code": "DEMOCRATIC_DECISIONS",
+    "difficulty": 2,
+    "level_tied": "state",
+    "analogy_used": "student representative democracy",
+    "keywords": ["democracy", "representatives", "decision making", "people's voice"]
+  },
+  {
+    "id": 34,
+    "question_text": "Why do we need different levels of government?",
+    "options": [
+      "Because different problems need different levels of expertise and resources to solve",
+      "Because having more governments looks more important",
+      "Because people like voting more frequently",
+      "Because it creates more government jobs"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Different levels handle different sized problems - like how class monitor, teacher, and principal handle different school issues.",
+    "topic_code": "NEED_FOR_TIER_SYSTEM",
+    "difficulty": 2,
+    "level_tied": "state",
+    "analogy_used": "school hierarchy for problem solving",
+    "keywords": ["tier system", "problem solving", "efficiency", "specialization"]
+  },
+  {
+    "id": 35,
+    "question_text": "How does money flow from central to local governments?",
+    "options": [
+      "Central government gives grants to states, which then share with municipalities and panchayats",
+      "Directly from central government to all local bodies",
+      "Only through loans and interest payments",
+      "Only through private sector donations"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Money flows down through the system like school funding from education department to district to individual schools.",
+    "topic_code": "MONEY_FLOW",
+    "difficulty": 3,
+    "level_tied": "state",
+    "analogy_used": "education funding flow",
+    "keywords": ["funding flow", "grants", "revenue sharing", "government finance"]
+  },
+  {
+    "id": 36,
+    "question_text": "What is the role of five-year plans in governance?",
+    "options": [
+      "To set development goals and allocate resources for national, state, and local projects",
+      "To plan only military and defense strategies",
+      "To plan only international relations",
+      "To plan only central government office buildings"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Five-year plans help governments set goals like schools setting yearly targets for improvement.",
+    "topic_code": "FIVE_YEAR_PLANS",
+    "difficulty": 3,
+    "level_tied": "state",
+    "analogy_used": "school planning and targets",
+    "keywords": ["planning", "development goals", "resource allocation", "government strategy"]
+  },
+  {
+    "id": 37,
+    "question_text": "How do states respect local customs and traditions?",
+    "options": [
+      "By allowing local governments to make rules that suit their community needs within national framework",
+      "By imposing uniform rules on all communities",
+      "By only following central government traditions",
+      "By ignoring local customs completely"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "States allow local variations like schools respecting different class traditions while following school rules.",
+    "topic_code": "LOCAL_TRADITIONS",
+    "difficulty": 3,
+    "level_tied": "state",
+    "analogy_used": "respecting class traditions",
+    "keywords": ["local customs", "traditions", "cultural diversity", "federalism"]
+  },
+  {
+    "id": 38,
+    "question_text": "What is the concept of 'cooperative federalism'?",
+    "options": [
+      "All levels of government working together as partners to serve people better",
+      "Each level of government competing against each other",
+      "Only central government making all decisions",
+      "Only state governments making all decisions"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Cooperative federalism is like all school staff working together - teachers, principal, and district officers - for student welfare.",
+    "topic_code": "COOPERATIVE_FEDERALISM",
+    "difficulty": 3,
+    "level_tied": "state",
+    "analogy_used": "school staff cooperation",
+    "keywords": ["cooperation", "partnership", "federalism", "teamwork"]
+  },
+  {
+    "id": 39,
+    "question_text": "How do ordinary citizens influence government decisions?",
+    "options": [
+      "Through voting, public consultations, rallies, and feedback to representatives",
+      "Only by paying taxes",
+      "Only by working in government offices",
+      "Only by protesting on the streets"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Citizens influence decisions like students influencing class rules through suggestions, votes, and discussions.",
+    "topic_code": "CITIZEN_INFLUENCE",
+    "difficulty": 2,
+    "level_tied": "state",
+    "analogy_used": "student influence on class decisions",
+    "keywords": ["citizen influence", "democracy", "public participation", "voice of people"]
+  },
+  {
+    "id": 40,
+    "question_text": "What happens during elections at different government levels?",
+    "options": [
+      "People vote for their representatives at village, municipal, and state levels",
+      "Only central government elections happen",
+      "Only state government elections happen",
+      "Only village elections happen"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Elections happen at all levels - panchayat, municipal, and state - like class monitor, school captain, and student council elections.",
+    "topic_code": "ELECTIONS_AT_ALL_LEVELS",
+    "difficulty": 2,
+    "level_tied": "state",
+    "analogy_used": "student council elections at different levels",
+    "keywords": ["elections", "voting", "representatives", "democracy"]
+  },
+  {
+    "id": 41,
+    "question_text": "How do governments ensure transparency in their work?",
+    "options": [
+      "By sharing information through websites, noticeboards, and public meetings",
+      "By keeping all information secret from citizens",
+      "By sharing information only with government employees",
+      "By sharing information only during elections"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Governments maintain transparency like schools sharing information through noticeboards and parent-teacher meetings.",
+    "topic_code": "GOVERNMENT_TRANSPARENCY",
+    "difficulty": 2,
+    "level_tied": "state",
+    "analogy_used": "school transparency practices",
+    "keywords": ["transparency", "public information", "accountability", "open governance"]
+  },
+  {
+    "id": 42,
+    "question_text": "What is the role of opposition parties in democracy?",
+    "options": [
+      "To question government decisions, offer alternatives, and keep the ruling party accountable",
+      "To always support whatever the government decides",
+      "To disrupt all government functions",
+      "To only criticize without offering solutions"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Opposition parties help democracy like student opposition groups question decisions and suggest better alternatives.",
+    "topic_code": "OPPOSITION_ROLE",
+    "difficulty": 3,
+    "level_tied": "state",
+    "analogy_used": "student opposition groups",
+    "keywords": ["opposition", "accountability", "democracy", "checks and balances"]
+  },
+  {
+    "id": 43,
+    "question_text": "How do governments handle natural disasters?",
+    "options": [
+      "All levels coordinate - local bodies for immediate help, state for resources, center for major support",
+      "Only central government handles all disasters",
+      "Only local bodies handle everything",
+      "Only international organizations help"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Disaster management involves all levels like school emergencies - class teachers, principal, and district officers working together.",
+    "topic_code": "DISASTER_MANAGEMENT",
+    "difficulty": 3,
+    "level_tied": "state",
+    "analogy_used": "school emergency management",
+    "keywords": ["disaster management", "emergency response", "coordination", "crisis management"]
+  },
+  {
+    "id": 44,
+    "question_text": "What is the difference between rural and urban local governments?",
+    "options": [
+      "Rural areas have panchayats; urban areas have municipalities and corporations",
+      "Rural areas have no local government",
+      "Urban areas have no local government",
+      "Both have exactly the same structure"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Different areas need different local governments - villages have panchayats, cities have municipal bodies.",
+    "topic_code": "RURAL_VS_URBAN",
+    "difficulty": 2,
+    "level_tied": "state",
+    "analogy_used": "village vs city school systems",
+    "keywords": ["rural governance", "urban governance", "local bodies", "administrative differences"]
+  },
+  {
+    "id": 45,
+    "question_text": "How do children and young people fit into the governance system?",
+    "options": [
+      "They learn about democracy, can participate in student councils, and become future leaders",
+      "They cannot participate until they turn 18",
+      "They can only observe but not participate",
+      "They should not think about governance at all"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Young people learn democracy through student councils and become informed future citizens and leaders.",
+    "topic_code": "YOUTH_IN_GOVERNANCE",
+    "difficulty": 2,
+    "level_tied": "state",
+    "analogy_used": "student council participation",
+    "keywords": ["youth participation", "student councils", "future leaders", "civic education"]
+  },
+  {
+    "id": 46,
+    "question_text": "What is the significance of 73rd and 74th Constitutional Amendments?",
+    "options": [
+      "They strengthened local self-government by giving more powers to panchayats and municipalities",
+      "They reduced the powers of local governments",
+      "They eliminated local governments completely",
+      "They only applied to central government"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "These amendments made local governments stronger, like giving more powers to class committees and student councils.",
+    "topic_code": "CONSTITUTIONAL_AMENDMENTS",
+    "difficulty": 3,
+    "level_tied": "state",
+    "analogy_used": "strengthening student committees",
+    "keywords": ["constitutional amendments", "local self-government", "panchayati raj", "municipalities"]
+  },
+  {
+    "id": 47,
+    "question_text": "How does the three-tier system help in better service delivery?",
+    "options": [
+      "By bringing government closer to people and solving problems at appropriate levels",
+      "By making government more complex and slow",
+      "By creating confusion about who does what",
+      "By increasing government costs unnecessarily"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Three-tier system improves services by handling problems at the right level, like solving classroom, school, and district issues appropriately.",
+    "topic_code": "SERVICE_DELIVERY_BENEFITS",
+    "difficulty": 3,
+    "level_tied": "state",
+    "analogy_used": "appropriate problem-solving levels",
+    "keywords": ["service delivery", "efficiency", "local solutions", "government effectiveness"]
+  },
+  {
+    "id": 48,
+    "question_text": "What role does technology play in modern governance?",
+    "options": [
+      "Helps in faster communication, online services, and transparency between citizens and government",
+      "Replaces all human government officials",
+      "Makes governance more complicated",
+      "Only helps the rich and educated"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Technology improves governance like digital noticeboards and online platforms improve school communication.",
+    "topic_code": "TECHNOLOGY_IN_GOVERNANCE",
+    "difficulty": 3,
+    "level_tied": "state",
+    "analogy_used": "school digital communication",
+    "keywords": ["technology", "e-governance", "digital services", "transparency"]
+  },
+  {
+    "id": 49,
+    "question_text": "How do global examples of federal systems compare to India's three-tier system?",
+    "options": [
+      "Like other federal systems, India has multiple levels working together with shared responsibilities",
+      "India is the only country with multiple levels of government",
+      "All other countries have only one level of government",
+      "India's system is completely different from all other countries"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Many countries have federal systems like India, where different levels share responsibilities - similar to international education networks.",
+    "topic_code": "GOVT_SYSTEMS_COMPARISON",
+    "difficulty": 3,
+    "level_tied": "state",
+    "analogy_used": "international education networks",
+    "keywords": ["federal systems", "international comparison", "shared responsibilities", "governance models"]
+  },
+  {
+    "id": 50,
+    "question_text": "What is the future of local governance in India?",
+    "options": [
+      "More empowerment of local bodies with better technology and citizen participation",
+      "Gradual elimination of local governments",
+      "Only central and state governments will remain",
+      "No changes will happen in the system"
+    ],
+    "correct_answer_index": 0,
+    "explanation": "Future of governance involves stronger local bodies using technology, like schools becoming more digital and community-involved.",
+    "topic_code": "FUTURE_OF_GOVERNANCE",
+    "difficulty": 3,
+    "level_tied": "state",
+    "analogy_used": "modern digital schools",
+    "keywords": ["future governance", "local empowerment", "technology", "citizen participation"]
+  }
+]

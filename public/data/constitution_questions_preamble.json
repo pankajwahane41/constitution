@@ -1,0 +1,1206 @@
+{
+  "title": "100 Questions about Indian Constitution Preamble and Fundamental Aspects",
+  "description": "Comprehensive MCQ questions covering Preamble content, Constitution adoption, basic structure doctrine, constitutional values, and amendments",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which date marks the adoption of the Indian Constitution by the Constituent Assembly?",
+      "options": {
+        "A": "26 November 1949",
+        "B": "26 January 1950", 
+        "C": "15 August 1947",
+        "D": "1 January 1950"
+      },
+      "correct_answer": "A",
+      "explanation": "The Constituent Assembly of India adopted the Constitution on 26 November 1949, but it came into effect on 26 January 1950."
+    },
+    {
+      "id": 2,
+      "question": "On which date did the Indian Constitution come into force?",
+      "options": {
+        "A": "26 November 1949",
+        "B": "26 January 1950",
+        "C": "15 August 1947", 
+        "D": "1 January 1950"
+      },
+      "correct_answer": "B",
+      "explanation": "The Constitution of India came into force on 26 January 1950, which is celebrated as Republic Day."
+    },
+    {
+      "id": 3,
+      "question": "Who moved the Objectives Resolution in the Constituent Assembly?",
+      "options": {
+        "A": "Dr. B.R. Ambedkar",
+        "B": "Jawaharlal Nehru",
+        "C": "Sardar Vallabhbhai Patel",
+        "D": "C. Rajagopalachari"
+      },
+      "correct_answer": "B",
+      "explanation": "Jawaharlal Nehru moved the Objectives Resolution on December 13, 1946, which laid the foundation for the Preamble."
+    },
+    {
+      "id": 4,
+      "question": "When was the Objectives Resolution accepted by the Constituent Assembly?",
+      "options": {
+        "A": "December 13, 1946",
+        "B": "January 22, 1947",
+        "C": "November 26, 1949",
+        "D": "January 26, 1950"
+      },
+      "correct_answer": "B",
+      "explanation": "The Objectives Resolution was accepted by the Constituent Assembly on January 22, 1947."
+    },
+    {
+      "id": 5,
+      "question": "What does 'Sovereign' mean in the Indian context?",
+      "options": {
+        "A": "India is free from foreign control",
+        "B": "India has supreme power within its territory",
+        "C": "Both internal and external sovereignty",
+        "D": "India can acquire foreign territory"
+      },
+      "correct_answer": "C",
+      "explanation": "Sovereignty means India has supreme and ultimate power internally and is independent from external control, having the authority to legislate on any subject without external interference."
+    },
+    {
+      "id": 6,
+      "question": "Which term was added to the Preamble by the 42nd Amendment?",
+      "options": {
+        "A": "Democratic",
+        "B": "Republic",
+        "C": "Socialist",
+        "D": "Federal"
+      },
+      "correct_answer": "C",
+      "explanation": "The word 'Socialist' was added to the Preamble by the 42nd Amendment in 1976 during the Emergency period."
+    },
+    {
+      "id": 7,
+      "question": "Which amendment added the terms 'Secular' and 'Integrity' to the Preamble?",
+      "options": {
+        "A": "40th Amendment",
+        "B": "42nd Amendment",
+        "C": "44th Amendment",
+        "D": "45th Amendment"
+      },
+      "correct_answer": "B",
+      "explanation": "The 42nd Amendment (1976) added 'Socialist,' 'Secular,' and 'Integrity' to the Preamble during the Emergency."
+    },
+    {
+      "id": 8,
+      "question": "When did the 42nd Amendment come into force?",
+      "options": {
+        "A": "18 December 1976",
+        "B": "3 January 1977",
+        "C": "1 February 1977",
+        "D": "1 April 1977"
+      },
+      "correct_answer": "B",
+      "explanation": "The 42nd Amendment came into force on 3 January 1977, though some provisions were enforced on 1 February and 1 April 1977."
+    },
+    {
+      "id": 9,
+      "question": "What does 'Democratic' mean in the Preamble?",
+      "options": {
+        "A": "Government by the people",
+        "B": "Universal adult franchise",
+        "C": "Representative government",
+        "D": "All of the above"
+      },
+      "correct_answer": "D",
+      "explanation": "Democratic means government by the people through universal adult franchise, with representative government and 'one person one vote' principle."
+    },
+    {
+      "id": 10,
+      "question": "Who was the President when the Constitution was adopted on November 26, 1949?",
+      "options": {
+        "A": "Dr. Rajendra Prasad",
+        "B": "Dr. Sarvepalli Radhakrishnan",
+        "C": "Dr. Zakir Husain",
+        "D": "V.V. Giri"
+      },
+      "correct_answer": "A",
+      "explanation": "Dr. Rajendra Prasad was the President when the Constitution was adopted on November 26, 1949, and he also became the first President of India."
+    },
+    {
+      "id": 11,
+      "question": "When was November 26 officially declared as Constitution Day?",
+      "options": {
+        "A": "October 11, 2015",
+        "B": "November 19, 2015",
+        "C": "November 26, 2015",
+        "D": "December 6, 2015"
+      },
+      "correct_answer": "B",
+      "explanation": "The Government of India officially declared November 26 as Constitution Day on November 19, 2015, via a gazette notification."
+    },
+    {
+      "id": 12,
+      "question": "Which year was declared as B.R. Ambedkar's 125th birth anniversary year?",
+      "options": {
+        "A": "2014",
+        "B": "2015",
+        "C": "2016",
+        "D": "2017"
+      },
+      "correct_answer": "B",
+      "explanation": "The year 2015 was celebrated as B.R. Ambedkar's 125th birth anniversary year, which led to the declaration of Constitution Day."
+    },
+    {
+      "id": 13,
+      "question": "What is the full form of 'Samvidhan Divas'?",
+      "options": {
+        "A": "Constitution Day",
+        "B": "National Law Day", 
+        "C": "Both A and B",
+        "D": "Republic Day"
+      },
+      "correct_answer": "C",
+      "explanation": "Samvidhan Divas is observed as both Constitution Day and National Law Day in India on November 26."
+    },
+    {
+      "id": 14,
+      "question": "When was the first Constitution Day celebrated?",
+      "options": {
+        "A": "26 November 2014",
+        "B": "26 November 2015",
+        "C": "26 November 2016",
+        "D": "26 November 2017"
+      },
+      "correct_answer": "B",
+      "explanation": "The first Constitution Day was celebrated on 26 November 2015 after its official declaration by the government."
+    },
+    {
+      "id": 15,
+      "question": "On which date did PM Modi announce Constitution Day celebration in 2015?",
+      "options": {
+        "A": "October 10, 2015",
+        "B": "October 11, 2015",
+        "C": "October 12, 2015",
+        "D": "October 13, 2015"
+      },
+      "correct_answer": "B",
+      "explanation": "Prime Minister Narendra Modi announced Constitution Day celebration on October 11, 2015, during the laying of the foundation stone for B.R. Ambedkar's Statue of Equality."
+    },
+    {
+      "id": 16,
+      "question": "Which fundamental case established the Basic Structure Doctrine?",
+      "options": {
+        "A": "Golaknath case",
+        "B": "Kesavananda Bharati case",
+        "C": "Minerva Mills case",
+        "D": "Indira Gandhi case"
+      },
+      "correct_answer": "B",
+      "explanation": "The Kesavananda Bharati v. State of Kerala (1973) case established the Basic Structure Doctrine by a 7-6 majority."
+    },
+    {
+      "id": 17,
+      "question": "What was the majority decision in Kesavananda Bharati case?",
+      "options": {
+        "A": "8-5",
+        "B": "7-6",
+        "C": "6-3",
+        "D": "9-2"
+      },
+      "correct_answer": "B",
+      "explanation": "The Kesavananda Bharati case was decided by a narrow 7-6 majority, establishing the Basic Structure Doctrine."
+    },
+    {
+      "id": 18,
+      "question": "Which case first theorized the concept of 'basic features' in 1964?",
+      "options": {
+        "A": "Sajjan Singh case",
+        "B": "Golaknath case",
+        "C": "Kesavananda Bharati case",
+        "D": "Minerva Mills case"
+      },
+      "correct_answer": "A",
+      "explanation": "Justice J.R. Mudholkar first theorized 'basic features' in the Sajjan Singh v. State of Rajasthan case (1964) in dissent."
+    },
+    {
+      "id": 19,
+      "question": "Which case was overruled by Kesavananda Bharati?",
+      "options": {
+        "A": "Sajjan Singh case",
+        "B": "Golaknath case",
+        "C": "Minerva Mills case",
+        "D": "Indira Gandhi case"
+      },
+      "correct_answer": "B",
+      "explanation": "The Kesavananda Bharati case (1973) overruled the Golaknath case (1967) which had held Fundamental Rights as transcendental."
+    },
+    {
+      "id": 20,
+      "question": "What did the Golaknath case hold?",
+      "options": {
+        "A": "Parliament can amend Fundamental Rights",
+        "B": "Fundamental Rights are transcendental and beyond Parliament's reach",
+        "C": "Constitution can be easily amended",
+        "D": "Basic Structure Doctrine"
+      },
+      "correct_answer": "B",
+      "explanation": "The Golaknath case (1967) held that Fundamental Rights are 'transcendental' and beyond Parliament's reach through constitutional amendments."
+    },
+    {
+      "id": 21,
+      "question": "Which case reaffirmed the Basic Structure Doctrine in 1980?",
+      "options": {
+        "A": "Kesavananda Bharati case",
+        "B": "Indira Gandhi case",
+        "C": "Minerva Mills case",
+        "D": "Golaknath case"
+      },
+      "correct_answer": "C",
+      "explanation": "The Minerva Mills v. Union of India (1980) case reaffirmed and strengthened the Basic Structure Doctrine."
+    },
+    {
+      "id": 22,
+      "question": "Which constitutional provisions were struck down in Minerva Mills case?",
+      "options": {
+        "A": "Articles 24, 25, 29 of 42nd Amendment",
+        "B": "Sections 4 and 55 of 42nd Amendment",
+        "C": "Articles 31 and 31C of 42nd Amendment",
+        "D": "Preamble amendments"
+      },
+      "correct_answer": "B",
+      "explanation": "The Minerva Mills case struck down sections 4 and 55 of the 42nd Amendment for violating the basic structure."
+    },
+    {
+      "id": 23,
+      "question": "What does the Basic Structure Doctrine prevent?",
+      "options": {
+        "A": "Parliament from destroying fundamental elements of Constitution",
+        "B": "Supreme Court from reviewing amendments",
+        "C": "Citizens from voting",
+        "D": "States from making laws"
+      },
+      "correct_answer": "A",
+      "explanation": "The Basic Structure Doctrine prevents Parliament from destroying or emasculating the fundamental elements of the Constitution through amendments."
+    },
+    {
+      "id": 24,
+      "question": "Which amendment was challenged in the Kesavananda Bharati case?",
+      "options": {
+        "A": "24th Amendment",
+        "B": "25th Amendment",
+        "C": "29th Amendment",
+        "D": "All of the above"
+      },
+      "correct_answer": "D",
+      "explanation": "All the Judges held that the 24th, 25th and 29th Amendment Acts are valid, which were challenged in the Kesavananda Bharati case."
+    },
+    {
+      "id": 25,
+      "question": "Which case in 1975/76 reaffirmed the Basic Structure Doctrine?",
+      "options": {
+        "A": "Kesavananda Bharati",
+        "B": "Indira Gandhi v. Raj Narain",
+        "C": "Minerva Mills",
+        "D": "S.R. Bommai"
+      },
+      "correct_answer": "B",
+      "explanation": "The Indira Gandhi v. Raj Narain (1975/76) case reaffirmed the Basic Structure Doctrine by striking down Article 329A."
+    },
+    {
+      "id": 26,
+      "question": "What did Article 329A of the 39th Amendment try to do?",
+      "options": {
+        "A": "Provide special protection to PM and Speaker",
+        "B": "Remove judicial review for high offices",
+        "C": "Both A and B",
+        "D": "Amend the Preamble"
+      },
+      "correct_answer": "C",
+      "explanation": "Article 329A was designed to place PM and Speaker elections outside judicial review and provide special protection, but it was struck down for violating the basic structure."
+    },
+    {
+      "id": 27,
+      "question": "What is sovereignty according to the Preamble?",
+      "options": {
+        "A": "Power of the people",
+        "B": "Supreme authority",
+        "C": "Both A and B",
+        "D": "Military power"
+      },
+      "correct_answer": "C",
+      "explanation": "Sovereignty means the supreme and ultimate power resides with the people of India, establishing internal and external sovereignty."
+    },
+    {
+      "id": 28,
+      "question": "What does internal sovereignty refer to?",
+      "options": {
+        "A": "Independence from other countries",
+        "B": "Relationship between state and individuals within territory",
+        "C": "Relationship with foreign nations",
+        "D": "Military independence"
+      },
+      "correct_answer": "B",
+      "explanation": "Internal sovereignty refers to the relationship between the state and individuals within its territory, divided into executive, legislature, judiciary, and administrative organs."
+    },
+    {
+      "id": 29,
+      "question": "What does external sovereignty mean?",
+      "options": {
+        "A": "Independence from other states",
+        "B": "Relationship with other countries",
+        "C": "Ability to conduct foreign policy independently",
+        "D": "All of the above"
+      },
+      "correct_answer": "D",
+      "explanation": "External sovereignty means independence of a state's will from other states, the ability to conduct foreign policy, and acquire/cede foreign territory."
+    },
+    {
+      "id": 30,
+      "question": "Who is the source of sovereignty according to the Preamble?",
+      "options": {
+        "A": "God",
+        "B": "The people of India",
+        "C": "Parliament",
+        "D": "President"
+      },
+      "correct_answer": "B",
+      "explanation": "The Preamble begins with 'We, the people of India,' establishing that sovereignty resides with the citizens of India."
+    },
+    {
+      "id": 31,
+      "question": "What is the core of socialist ideology in Indian Constitution?",
+      "options": {
+        "A": "Communism",
+        "B": "Social democracy",
+        "C": "Democratic socialism",
+        "D": "State socialism"
+      },
+      "correct_answer": "C",
+      "explanation": "India follows democratic socialism, aiming to achieve socialist goals through democratic, evolutionary, and non-violent means."
+    },
+    {
+      "id": 32,
+      "question": "What are the aims of socialism according to the Constitution?",
+      "options": {
+        "A": "Wealth concentration",
+        "B": "Equitable distribution of wealth",
+        "C": "Private property protection only",
+        "D": "State ownership of all industries"
+      },
+      "correct_answer": "B",
+      "explanation": "Socialism aims to achieve equitable distribution of wealth, distributive justice, and prevent concentration of wealth and resources."
+    },
+    {
+      "id": 33,
+      "question": "Where were socialist principles reflected before 1976?",
+      "options": {
+        "A": "Fundamental Rights",
+        "B": "Directive Principles of State Policy",
+        "C": "Fundamental Duties",
+        "D": "Preamble only"
+      },
+      "correct_answer": "B",
+      "explanation": "Socialist content existed in the Directive Principles of State Policy before the term 'Socialist' was added to the Preamble in 1976."
+    },
+    {
+      "id": 34,
+      "question": "What is the Indian model of socialism?",
+      "options": {
+        "A": "Pure socialism",
+        "B": "State socialism",
+        "C": "Mixed economy approach",
+        "D": "Communism"
+      },
+      "correct_answer": "C",
+      "explanation": "Indian socialism differs from state socialism and embraces a mixed economy approach, allowing both private enterprise and state intervention."
+    },
+    {
+      "id": 35,
+      "question": "What does socialism enable the government to do?",
+      "options": {
+        "A": "Regulate land and industry",
+        "B": "Implement welfare measures",
+        "C": "Provide reservations",
+        "D": "All of the above"
+      },
+      "correct_answer": "D",
+      "explanation": "Socialism enables government to regulate land and industry, implement welfare measures, provide reservations, and prevent concentration of wealth."
+    },
+    {
+      "id": 36,
+      "question": "What is the meaning of secularism in India?",
+      "options": {
+        "A": "Anti-religious",
+        "B": "Principled distance with equal respect for all religions",
+        "C": "State religion",
+        "D": "Conversion ban"
+      },
+      "correct_answer": "B",
+      "explanation": "Indian secularism means principled distance with equal respect for all religions (sarva dharma sambhava), not strict separation like in Western models."
+    },
+    {
+      "id": 37,
+      "question": "Which articles guarantee freedom of religion?",
+      "options": {
+        "A": "Articles 25-28",
+        "B": "Articles 15-18",
+        "C": "Articles 19-22",
+        "D": "Articles 29-30"
+      },
+      "correct_answer": "A",
+      "explanation": "Articles 25-28 of the Constitution guarantee freedom to profess, practice, and propagate religion, subject to public order, morality, and health."
+    },
+    {
+      "id": 38,
+      "question": "What does the state do under secularism?",
+      "options": {
+        "A": "Supports one religion",
+        "B": "Discriminates based on religion",
+        "C": "Treats all religious communities equally",
+        "D": "Has an official religion"
+      },
+      "correct_answer": "C",
+      "explanation": "Under secularism, the state cannot discriminate based on religion and must treat all religious communities equally with neutral stance."
+    },
+    {
+      "id": 39,
+      "question": "When was secularism added to the Preamble?",
+      "options": {
+        "A": "1975",
+        "B": "1976",
+        "C": "1977",
+        "D": "1978"
+      },
+      "correct_answer": "B",
+      "explanation": "The term 'Secular' was added to the Preamble by the 42nd Amendment on December 18, 1976."
+    },
+    {
+      "id": 40,
+      "question": "Which case established secularism as part of basic structure?",
+      "options": {
+        "A": "Kesavananda Bharati",
+        "B": "S.R. Bommai",
+        "C": "Minerva Mills",
+        "D": "Golaknath"
+      },
+      "correct_answer": "B",
+      "explanation": "The Supreme Court in S.R. Bommai v. Union of India (1994) held secularism as part of the basic structure doctrine."
+    },
+    {
+      "id": 41,
+      "question": "What does democracy mean in political philosophy?",
+      "options": {
+        "A": "Government by representatives",
+        "B": "Concept of political philosophy",
+        "C": "Culturally advanced nations' governance",
+        "D": "All of the above"
+      },
+      "correct_answer": "D",
+      "explanation": "Democracy is described as a concept of political philosophy practiced by culturally advanced and politically mature nations through governance by representatives."
+    },
+    {
+      "id": 42,
+      "question": "What is the voting age in India?",
+      "options": {
+        "A": "21 years",
+        "B": "18 years",
+        "C": "25 years",
+        "D": "19 years"
+      },
+      "correct_answer": "B",
+      "explanation": "The voting age in India is 18 years, which was reduced from 21 years by the 61st Amendment in 1989."
+    },
+    {
+      "id": 43,
+      "question": "What does 'one person one vote' principle mean?",
+      "options": {
+        "A": "Equal voting rights for all citizens",
+        "B": "Universal adult franchise",
+        "C": "No discrimination in voting",
+        "D": "All of the above"
+      },
+      "correct_answer": "D",
+      "explanation": "'One person one vote' principle means equal voting rights for all citizens, universal adult franchise, and no discrimination in voting rights."
+    },
+    {
+      "id": 44,
+      "question": "What are the types of democracy mentioned in the Preamble?",
+      "options": {
+        "A": "Political democracy",
+        "B": "Social democracy",
+        "C": "Economic democracy",
+        "D": "All of the above"
+      },
+      "correct_answer": "D",
+      "explanation": "The Preamble emphasizes political, social, and economic democracy, providing comprehensive democracy beyond just political representation."
+    },
+    {
+      "id": 45,
+      "question": "What protects democracy from tyrannical rulers?",
+      "options": {
+        "A": "Military",
+        "B": "Constitutional provisions and fundamental rights",
+        "C": "International law",
+        "D": "None"
+      },
+      "correct_answer": "B",
+      "explanation": "Constitutional provisions and fundamental rights protect democracy from tyrannical rulers and ensure protection for citizens."
+    },
+    {
+      "id": 46,
+      "question": "What does 'Republic' mean in the Constitution?",
+      "options": {
+        "A": "Elected head of state",
+        "B": "No hereditary monarchy",
+        "C": "Open offices to all citizens",
+        "D": "All of the above"
+      },
+      "correct_answer": "D",
+      "explanation": "Republic means the head of state is elected, not hereditary, and public offices are open to every citizen without discrimination."
+    },
+    {
+      "id": 47,
+      "question": "Who is the head of state in India?",
+      "options": {
+        "A": "Prime Minister",
+        "B": "President",
+        "C": "Chief Justice",
+        "D": "Governor"
+      },
+      "correct_answer": "B",
+      "explanation": "The President of India is the head of state, who is elected (not hereditary) for a fixed term in India's republican system."
+    },
+    {
+      "id": 48,
+      "question": "How is the President elected?",
+      "options": {
+        "A": "Direct election",
+        "B": "Indirect election by Electoral College",
+        "C": "Appointment by PM",
+        "D": "Hereditary"
+      },
+      "correct_answer": "B",
+      "explanation": "The President of India is indirectly elected by an Electoral College consisting of elected members of both Houses of Parliament and Legislative Assemblies."
+    },
+    {
+      "id": 49,
+      "question": "What did the Constitution abolish?",
+      "options": {
+        "A": "Titles of nobility",
+        "B": "Hereditary privileges",
+        "C": "Noble classes",
+        "D": "All of the above"
+      },
+      "correct_answer": "D",
+      "explanation": "The Constitution abolished titles of nobility and hereditary privileges, establishing equality of citizenship and preventing privileged classes."
+    },
+    {
+      "id": 50,
+      "question": "What does republican character reinforce?",
+      "options": {
+        "A": "Governance as public trust",
+        "B": "Civic virtue",
+        "C": "Public service",
+        "D": "All of the above"
+      },
+      "correct_answer": "D",
+      "explanation": "Republican character reinforces governance as a public trust, promoting civic virtue and public service, and rejects monarchical and aristocratic privileges."
+    },
+    {
+      "id": 51,
+      "question": "How many types of constitutional amendments are there in India?",
+      "options": {
+        "A": "2",
+        "B": "3", 
+        "C": "4",
+        "D": "5"
+      },
+      "correct_answer": "B",
+      "explanation": "There are three types of constitutional amendments in India: Simple Majority, Special Majority, and Ratified Special Majority Amendments."
+    },
+    {
+      "id": 52,
+      "question": "Which amendment articles govern constitutional amendments?",
+      "options": {
+        "A": "Article 368",
+        "B": "Article 367",
+        "C": "Article 369",
+        "D": "Article 370"
+      },
+      "correct_answer": "A",
+      "explanation": "Article 368 of the Constitution governs the power and procedure for amending the Constitution, with second and third types being under this article."
+    },
+    {
+      "id": 53,
+      "question": "What requires simple majority for amendment?",
+      "options": {
+        "A": "Fundamental Rights",
+        "B": "Some parliamentary matters",
+        "C": "State subjects",
+        "D": "Preamble"
+      },
+      "correct_answer": "B",
+      "explanation": "Simple Majority Amendment must be passed by simple majority in each house of Parliament for certain matters like some parliamentary procedures."
+    },
+    {
+      "id": 54,
+      "question": "What requires special majority?",
+      "options": {
+        "A": "All amendments",
+        "B": "Federal changes",
+        "C": "Most constitutional amendments",
+        "D": "Only Preamble"
+      },
+      "correct_answer": "C",
+      "explanation": "Special Majority Amendment requires two-thirds majority of members present and voting and majority of total membership in each house for most constitutional amendments."
+    },
+    {
+      "id": 55,
+      "question": "What is required for ratified special majority amendments?",
+      "options": {
+        "A": "Only Parliament approval",
+        "B": "State ratification required",
+        "C": "President approval",
+        "D": "Court approval"
+      },
+      "correct_answer": "B",
+      "explanation": "Ratified Special Majority Amendment requires special majority in Parliament plus ratification by at least one-half of State Legislatures."
+    },
+    {
+      "id": 56,
+      "question": "Which amendment secured constitutional validity of zamindari abolition laws?",
+      "options": {
+        "A": "1st Amendment",
+        "B": "2nd Amendment",
+        "C": "3rd Amendment",
+        "D": "4th Amendment"
+      },
+      "correct_answer": "A",
+      "explanation": "The 1st Amendment Act (1951) secured constitutional validity of zamindari abolition laws and introduced Schedule 9 for protection from judicial review."
+    },
+    {
+      "id": 57,
+      "question": "Which amendment reorganized states on linguistic lines?",
+      "options": {
+        "A": "5th Amendment",
+        "B": "6th Amendment",
+        "C": "7th Amendment",
+        "D": "8th Amendment"
+      },
+      "correct_answer": "C",
+      "explanation": "The 7th Amendment (1956) reorganized states on linguistic lines, abolished Class A, B, C, D states, and introduced Union territories."
+    },
+    {
+      "id": 58,
+      "question": "What was introduced by the 52nd Amendment?",
+      "options": {
+        "A": "Anti-defection law",
+        "B": "Voting age reduction",
+        "C": "Fundamental Duties",
+        "D": "GST"
+      },
+      "correct_answer": "A",
+      "explanation": "The 52nd Amendment (1985) introduced the Anti-Defection Law through the 10th Schedule, providing for disqualification of members for defection."
+    },
+    {
+      "id": 59,
+      "question": "Which amendment reduced voting age from 21 to 18?",
+      "options": {
+        "A": "59th Amendment",
+        "B": "60th Amendment",
+        "C": "61st Amendment",
+        "D": "62nd Amendment"
+      },
+      "correct_answer": "C",
+      "explanation": "The 61st Amendment (1989) reduced the voting age from 21 to 18 years, expanding democratic participation."
+    },
+    {
+      "id": 60,
+      "question": "When was GST introduced through constitutional amendment?",
+      "options": {
+        "A": "2016",
+        "B": "2017",
+        "C": "2018",
+        "D": "2019"
+      },
+      "correct_answer": "B",
+      "explanation": "The Constitution (101st Amendment) Act, 2017, introduced the Goods and Services Tax (GST), revolutionizing the indirect tax system."
+    },
+    {
+      "id": 61,
+      "question": "Which amendment gave constitutional status to GST Council?",
+      "options": {
+        "A": "100th Amendment",
+        "B": "101st Amendment",
+        "C": "102nd Amendment",
+        "D": "103rd Amendment"
+      },
+      "correct_answer": "C",
+      "explanation": "The Constitution (102nd Amendment) Act, 2018, gave constitutional status to the Goods and Services Tax Council."
+    },
+    {
+      "id": 62,
+      "question": "What was the main aim of the 1st Amendment?",
+      "options": {
+        "A": "Add Preamble terms",
+        "B": "Secure zamindari abolition and protect backward classes",
+        "C": "Introduce voting age reduction",
+        "D": "Reorganize states"
+      },
+      "correct_answer": "B",
+      "explanation": "The 1st Amendment secured constitutional validity of zamindari abolition laws and provided special provisions for advancement of socially and educationally backward classes."
+    },
+    {
+      "id": 63,
+      "question": "Which amendment introduced Schedule 9?",
+      "options": {
+        "A": "1st Amendment",
+        "B": "2nd Amendment",
+        "C": "3rd Amendment",
+        "D": "4th Amendment"
+      },
+      "correct_answer": "A",
+      "explanation": "The 1st Amendment inserted Schedule 9 to protect laws contrary to fundamental rights (property, speech, equality) from judicial review."
+    },
+    {
+      "id": 64,
+      "question": "How many amendments have been made to the Indian Constitution as of July 2025?",
+      "options": {
+        "A": "104",
+        "B": "105",
+        "C": "106",
+        "D": "107"
+      },
+      "correct_answer": "C",
+      "explanation": "As of July 2025, there have been 106 amendments to the Constitution of India, making it one of the most amended constitutions globally."
+    },
+    {
+      "id": 65,
+      "question": "Why is Indian Constitution frequently amended?",
+      "options": {
+        "A": "Due to instability",
+        "B": "Constitution spells out governmental powers in detail",
+        "C": "Political conflicts",
+        "D": "Poor drafting initially"
+      },
+      "correct_answer": "B",
+      "explanation": "The Indian Constitution spells out governmental powers with such detail that many matters addressed by statute in other democracies must be addressed via constitutional amendment."
+    },
+    {
+      "id": 66,
+      "question": "How often is the Constitution amended approximately?",
+      "options": {
+        "A": "Once a year",
+        "B": "Twice a year",
+        "C": "Three times a year",
+        "D": "Four times a year"
+      },
+      "correct_answer": "B",
+      "explanation": "The Constitution is amended roughly twice a year on average, reflecting the dynamic nature of India's constitutional framework."
+    },
+    {
+      "id": 67,
+      "question": "Which amendment dealt with property rights and compensation?",
+      "options": {
+        "A": "24th Amendment",
+        "B": "25th Amendment",
+        "C": "26th Amendment",
+        "D": "27th Amendment"
+      },
+      "correct_answer": "B",
+      "explanation": "The 25th Amendment (1971) restricted property rights and compensation in case the state takes over private property, and inserted Article 31C."
+    },
+    {
+      "id": 68,
+      "question": "What happened to Article 31C in Kesavananda Bharati case?",
+      "options": {
+        "A": "Fully upheld",
+        "B": "Completely struck down",
+        "C": "Partially quashed for taking away judicial review",
+        "D": "No decision made"
+      },
+      "correct_answer": "C",
+      "explanation": "The Supreme Court quashed part of Article 31C (specifically clause 4) to the extent it took away the power of judicial review in Kesavananda Bharati case."
+    },
+    {
+      "id": 69,
+      "question": "Which amendment abolished privy purse?",
+      "options": {
+        "A": "25th Amendment",
+        "B": "26th Amendment",
+        "C": "27th Amendment",
+        "D": "28th Amendment"
+      },
+      "correct_answer": "B",
+      "explanation": "The 26th Amendment (1971) abolished the privy purse paid to former rulers of princely states that were incorporated into the Indian Republic."
+    },
+    {
+      "id": 70,
+      "question": "When were Fundamental Duties added?",
+      "options": {
+        "A": "1975",
+        "B": "1976",
+        "C": "1977",
+        "D": "1978"
+      },
+      "correct_answer": "B",
+      "explanation": "Fundamental Duties were prescribed by the 42nd Amendment in 1976, forming Part IVA of the Constitution."
+    },
+    {
+      "id": 71,
+      "question": "Which constitutional body was created by the 69th Amendment?",
+      "options": {
+        "A": "NCT of Delhi with legislative assembly",
+        "B": "National Development Council",
+        "C": "Planning Commission",
+        "D": "Inter-State Council"
+      },
+      "correct_answer": "A",
+      "explanation": "The 69th Amendment provided for a legislative assembly and council of ministers for the National Capital Territory of Delhi (NCT of Delhi)."
+    },
+    {
+      "id": 72,
+      "question": "What was established by the 73rd Amendment?",
+      "options": {
+        "A": "Panchayati Raj institutions",
+        "B": "Municipalities",
+        "C": "State councils",
+        "D": "District councils"
+      },
+      "correct_answer": "A",
+      "explanation": "The 73rd Amendment provided statutory provisions for Panchayati Raj as the third level of administration in villages."
+    },
+    {
+      "id": 73,
+      "question": "What was established by the 74th Amendment?",
+      "options": {
+        "A": "Panchayati Raj",
+        "B": "Municipalities in urban areas",
+        "C": "State assemblies",
+        "D": "Parliament"
+      },
+      "correct_answer": "B",
+      "explanation": "The 74th Amendment provided statutory provisions for local administrative bodies as the third level of administration in urban areas such as towns and cities."
+    },
+    {
+      "id": 74,
+      "question": "Which amendments are considered most crucial for students?",
+      "options": {
+        "A": "1st, 7th, 42nd, 52nd, 61st, 101st",
+        "B": "1st, 2nd, 3rd, 4th, 5th, 6th",
+        "C": "42nd, 43rd, 44th, 45th, 46th, 47th",
+        "D": "100th, 101st, 102nd, 103rd, 104th, 105th"
+      },
+      "correct_answer": "A",
+      "explanation": "The amendments 1st, 7th, 42nd, 52nd, 61st, and 101st are considered most crucial as they had fundamental impact on property rights, state reorganization, Preamble changes, anti-defection, voting age, and GST respectively."
+    },
+    {
+      "id": 75,
+      "question": "Which case dealt with para 7 of the 10th Schedule?",
+      "options": {
+        "A": "Kihoto Hollohan case",
+        "B": "Kesavananda Bharati case",
+        "C": "S.R. Bommai case",
+        "D": "Minerva Mills case"
+      },
+      "correct_answer": "A",
+      "explanation": "The Supreme Court in Kihoto Hollohan v. Zachillhu (1992) struck down para 7 of the 10th Schedule for contravening Article 368 of the Constitution."
+    },
+    {
+      "id": 76,
+      "question": "What did the 44th Amendment do regarding right to property?",
+      "options": {
+        "A": "Added right to property",
+        "B": "Removed Article 19(1)(f) right to property",
+        "C": "Strengthened right to property",
+        "D": "No change to property rights"
+      },
+      "correct_answer": "B",
+      "explanation": "The 44th Amendment (1979) omitted Article 19(1)(f) which provided the right to property, making property a legal right rather than fundamental right."
+    },
+    {
+      "id": 77,
+      "question": "What was the main purpose of the 84th Amendment?",
+      "options": {
+        "A": "Extend usage of 1971 census for seat distribution",
+        "B": "Extend usage of 2001 census for seat distribution",
+        "C": "Change voting age",
+        "D": "Add new states"
+      },
+      "correct_answer": "A",
+      "explanation": "The 84th Amendment extended the usage of 1971 national census population figures for state-wise distribution of parliamentary seats."
+    },
+    {
+      "id": 78,
+      "question": "Which amendment extended 2001 census usage for seat distribution?",
+      "options": {
+        "A": "84th Amendment",
+        "B": "85th Amendment",
+        "C": "86th Amendment",
+        "D": "87th Amendment"
+      },
+      "correct_answer": "D",
+      "explanation": "The 87th Amendment extended the usage of 2001 national census population figures for state-wise distribution of parliamentary seats."
+    },
+    {
+      "id": 79,
+      "question": "What did the 86th Amendment provide?",
+      "options": {
+        "A": "Right to Education",
+        "B": "Right to Information",
+        "C": "Right to Work",
+        "D": "Right to Housing"
+      },
+      "correct_answer": "A",
+      "explanation": "The 86th Amendment (2002) provided the Right to Education until the age of fourteen by inserting Article 21A and amending Articles 45 and 51A."
+    },
+    {
+      "id": 80,
+      "question": "Which amendment increased the retirement age of High Court judges?",
+      "options": {
+        "A": "14th Amendment",
+        "B": "15th Amendment",
+        "C": "16th Amendment",
+        "D": "17th Amendment"
+      },
+      "correct_answer": "B",
+      "explanation": "The 15th Amendment (1963) raised the retirement age of High Court judges from 60 to 62 years."
+    },
+    {
+      "id": 81,
+      "question": "What is the significance of Article 334 regarding reservations?",
+      "options": {
+        "A": "Establishes reservations",
+        "B": "Extends reservation periods for SCs, STs and Anglo-Indians",
+        "C": "Removes reservations",
+        "D": "Modifies reservation criteria"
+      },
+      "correct_answer": "B",
+      "explanation": "Article 334 deals with reservation periods for Scheduled Castes, Scheduled Tribes, and Anglo-Indian members in Parliament and State Assemblies, which has been extended multiple times."
+    },
+    {
+      "id": 82,
+      "question": "Which amendment changed the election of Vice President?",
+      "options": {
+        "A": "10th Amendment",
+        "B": "11th Amendment",
+        "C": "12th Amendment",
+        "D": "13th Amendment"
+      },
+      "correct_answer": "B",
+      "explanation": "The 11th Amendment (1961) changed the election of the Vice President to be by an Electoral College consisting of members of both Houses of Parliament."
+    },
+    {
+      "id": 83,
+      "question": "What did the 43rd Amendment do?",
+      "options": {
+        "A": "Repealed emergency provisions",
+        "B": "Made India Socialist",
+        "C": "Strengthened emergency powers",
+        "D": "Removed fundamental duties"
+      },
+      "correct_answer": "A",
+      "explanation": "The 43rd Amendment (1978) repealed some of the more restrictive amendments enacted through the 42nd Amendment after the revocation of the Emergency."
+    },
+    {
+      "id": 84,
+      "question": "Which amendment created special provisions for Nagaland?",
+      "options": {
+        "A": "12th Amendment",
+        "B": "13th Amendment",
+        "C": "14th Amendment",
+        "D": "15th Amendment"
+      },
+      "correct_answer": "B",
+      "explanation": "The 13th Amendment (1962) provided special protection under Article 371A for the newly created State of Nagaland."
+    },
+    {
+      "id": 85,
+      "question": "What did the 70th Amendment do regarding Presidential election?",
+      "options": {
+        "A": "Changed voting age",
+        "B": "Included NCT Delhi and Pondicherry in Presidential Electoral College",
+        "C": "Extended Presidential term",
+        "D": "Modified Vice Presidential election"
+      },
+      "correct_answer": "B",
+      "explanation": "The 70th Amendment included the National Capital Territory of Delhi and Union Territory of Pondicherry in the Electoral College for presidential election."
+    },
+    {
+      "id": 86,
+      "question": "Which amendment integrated Sikkim into India?",
+      "options": {
+        "A": "35th Amendment",
+        "B": "36th Amendment",
+        "C": "37th Amendment",
+        "D": "38th Amendment"
+      },
+      "correct_answer": "B",
+      "explanation": "The 36th Amendment (1975) formalized the formation of Sikkim as a State within the Indian Union by inserting Article 371F."
+    },
+    {
+      "id": 87,
+      "question": "What did the 38th Amendment do?",
+      "options": {
+        "A": "Enhanced powers of President and Governors to pass ordinances",
+        "B": "Reduced emergency powers",
+        "C": "Strengthened judicial review",
+        "D": "Added fundamental duties"
+      },
+      "correct_answer": "A",
+      "explanation": "The 38th Amendment (1975) enhanced the powers of the President and Governors to pass ordinances by amending articles 123, 213, 239B, 352, 356, 359, and 360."
+    },
+    {
+      "id": 88,
+      "question": "Which amendment made constitutional bodies accountable?",
+      "options": {
+        "A": "44th Amendment",
+        "B": "45th Amendment",
+        "C": "46th Amendment",
+        "D": "47th Amendment"
+      },
+      "correct_answer": "A",
+      "explanation": "The 44th Amendment (1979) provided human rights safeguards and mechanisms to prevent abuse of executive and legislative authority, making constitutional bodies more accountable."
+    },
+    {
+      "id": 89,
+      "question": "What did the 48th Amendment address?",
+      "options": {
+        "A": "Voting age",
+        "B": "President's rule in Punjab",
+        "C": "State reorganization",
+        "D": "Fundamental rights"
+      },
+      "correct_answer": "B",
+      "explanation": "The 48th Amendment (1985) permitted President's rule up to two years in the state of Punjab by amending Article 356."
+    },
+    {
+      "id": 90,
+      "question": "Which amendment added new official languages?",
+      "options": {
+        "A": "70th Amendment",
+        "B": "71st Amendment",
+        "C": "72nd Amendment",
+        "D": "73rd Amendment"
+      },
+      "correct_answer": "B",
+      "explanation": "The 71st Amendment (1992) included Konkani, Manipuri, and Nepali as official languages in Schedule 8 of the Constitution."
+    },
+    {
+      "id": 91,
+      "question": "What was the main achievement of the 80th Amendment?",
+      "options": {
+        "A": "Simplified tax structures",
+        "B": "Added voting right",
+        "C": "Enhanced President's powers",
+        "D": "Created new states"
+      },
+      "correct_answer": "A",
+      "explanation": "The 80th Amendment (2000) implemented the Tenth Finance Commission recommendation to simplify tax structures by pooling and sharing all taxes between states and centre."
+    },
+    {
+      "id": 92,
+      "question": "Which amendment enhanced reservation in promotions?",
+      "options": {
+        "A": "77th Amendment",
+        "B": "78th Amendment",
+        "C": "79th Amendment",
+        "D": "80th Amendment"
+      },
+      "correct_answer": "A",
+      "explanation": "The 77th Amendment (1995) made a technical amendment to protect reservation to SCs and STs employees in promotions."
+    },
+    {
+      "id": 93,
+      "question": "What did the 85th Amendment protect?",
+      "options": {
+        "A": "Reservation in promotions",
+        "B": "Consequential seniority",
+        "C": "Voting rights",
+        "D": "Property rights"
+      },
+      "correct_answer": "B",
+      "explanation": "The 85th Amendment (2002) protected Consequential seniority in case of promotions of SCs and STs employees."
+    },
+    {
+      "id": 94,
+      "question": "Which amendment exempted Arunachal Pradesh from reservations?",
+      "options": {
+        "A": "82nd Amendment",
+        "B": "83rd Amendment",
+        "C": "84th Amendment",
+        "D": "85th Amendment"
+      },
+      "correct_answer": "B",
+      "explanation": "The 83rd Amendment (2000) exempted Arunachal Pradesh from reservation for Scheduled Castes in Panchayati Raj institutions."
+    },
+    {
+      "id": 95,
+      "question": "What is the difference between adoption and commencement of Constitution?",
+      "options": {
+        "A": "No difference",
+        "B": "Adoption is when Constitution was passed, commencement is when it became effective",
+        "C": "Commencement is when Constitution was passed, adoption is when it became effective",
+        "D": "Both terms mean the same"
+      },
+      "correct_answer": "B",
+      "explanation": "Adoption (26 November 1949) is when the Constituent Assembly passed/accepted the Constitution, while commencement (26 January 1950) is when it came into effect as law."
+    },
+    {
+      "id": 96,
+      "question": "Why was January 26 chosen for commencement?",
+      "options": {
+        "A": "Random choice",
+        "B": "Honoring Purna Swaraj resolution",
+        "C": "Traditional date",
+        "D": "Independence Day"
+      },
+      "correct_answer": "B",
+      "explanation": "January 26 was chosen to honor the Purna Swaraj resolution of 1930, which declared complete self-governance from British rule."
+    },
+    {
+      "id": 97,
+      "question": "Which celebration includes Preamble reading in schools?",
+      "options": {
+        "A": "Republic Day",
+        "B": "Independence Day",
+        "C": "Constitution Day",
+        "D": "Gandhi Jayanti"
+      },
+      "correct_answer": "C",
+      "explanation": "Constitution Day (26 November) includes reading the Preamble in all schools as part of the official celebrations declared by the government."
+    },
+    {
+      "id": 98,
+      "question": "What do the Preamble values guarantee?",
+      "options": {
+        "A": "Political rights only",
+        "B": "Social, economic, and political justice",
+        "C": "Economic equality only",
+        "D": "Religious freedom only"
+      },
+      "correct_answer": "B",
+      "explanation": "The Preamble guarantees social, economic, and political justice to all citizens, along with liberty, equality, and fraternity."
+    },
+    {
+      "id": 99,
+      "question": "What does fraternity ensure?",
+      "options": {
+        "A": "National integration",
+        "B": "Dignity of individual",
+        "C": "Unity and integrity of the nation",
+        "D": "All of the above"
+      },
+      "correct_answer": "D",
+      "explanation": "Fraternity ensures a sense of belonging and oneness, assures dignity of the individual, and maintains unity and integrity of the nation."
+    },
+    {
+      "id": 100,
+      "question": "What was the significance of the objectives resolution for constitutional framers?",
+      "options": {
+        "A": "It had no significance",
+        "B": "It reflected the spirit and ideals of constitutional makers",
+        "C": "It was rejected by them",
+        "D": "It was a temporary document"
+      },
+      "correct_answer": "B",
+      "explanation": "The objectives resolution reflects the spirit of constitutional makers and the ideals they cherished, including sovereignty, secularism, democracy, justice, liberty, and equality."
+    }
+  ]
+}

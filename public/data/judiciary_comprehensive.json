@@ -1,0 +1,1047 @@
+{
+  "title": "100 Comprehensive Quiz Questions about Judiciary - Child-Friendly Edition",
+  "description": "A comprehensive quiz covering Indian judiciary with child-friendly analogies like sports referees, game judges, family elders, detective work, and court trials",
+  "total_questions": 100,
+  "questions": [
+    {
+      "id": 1,
+      "question": "If India's judiciary is like a sports tournament, which court would be the FINAL MATCH judges?",
+      "options": ["District Court", "High Court", "Supreme Court", "Lok Adalat"],
+      "correct_answer": 2,
+      "explanation": "The Supreme Court is like the final match judges - they make the most important decisions that everyone must follow, just like how the final match judges' decisions are binding for that tournament.",
+      "analogy": "sports_tournament",
+      "difficulty": "easy",
+      "topic": "Court Hierarchy"
+    },
+    {
+      "id": 2,
+      "question": "When your family elder solves a dispute between siblings about sharing toys, which court level is this most like?",
+      "options": ["Supreme Court", "High Court", "District Court", "Lok Adalat"],
+      "correct_answer": 2,
+      "explanation": "District courts handle local, everyday disputes just like family elders handle small family conflicts - they're closest to the people and solve problems in their community.",
+      "analogy": "family_elder",
+      "difficulty": "easy",
+      "topic": "Court Hierarchy"
+    },
+    {
+      "id": 3,
+      "question": "In a cricket match, if players disagree with a local umpire's decision and want it reviewed, which court would handle this appeal?",
+      "options": ["Supreme Court", "High Court", "District Court", "Tribunal"],
+      "correct_answer": 1,
+      "explanation": "High Courts are like regional cricket association judges - they review decisions made by lower courts (district courts) just like how regional umpires review local umpire decisions.",
+      "analogy": "cricket_review",
+      "difficulty": "medium",
+      "topic": "Appeals Process"
+    },
+    {
+      "id": 4,
+      "question": "Which of these is NOT a main level in India's court hierarchy?",
+      "options": ["Supreme Court", "High Court", "District Court", "Lok Pal Court"],
+      "correct_answer": 3,
+      "explanation": "Lok Pal Court is a special anti-corruption body, not a main level in the general court hierarchy. The main levels are Supreme Court, High Courts, and District Courts.",
+      "analogy": "hierarchy_structure",
+      "difficulty": "medium",
+      "topic": "Court Structure"
+    },
+    {
+      "id": 5,
+      "question": "If we think of the court system as a detective solving mysteries, what would the Supreme Court be like?",
+      "options": ["Local Police Station", "State CID Office", "National Detective Agency", "International FBI"],
+      "correct_answer": 2,
+      "explanation": "The Supreme Court is like the National Detective Agency - it handles the most complex and important cases that affect the entire country, just like how a national agency handles major crimes.",
+      "analogy": "detective_agency",
+      "difficulty": "easy",
+      "topic": "Court Hierarchy"
+    },
+    {
+      "id": 6,
+      "question": "When a football player receives a red card and wants to appeal, which court level would handle this appeal?",
+      "options": ["Supreme Court", "High Court", "District Court", "Local Referee"],
+      "correct_answer": 2,
+      "explanation": "District Courts handle appeals from local decisions, just like how local football associations handle appeals from individual referee decisions at community grounds.",
+      "analogy": "football_appeal",
+      "difficulty": "easy",
+      "topic": "Appeals System"
+    },
+    {
+      "id": 7,
+      "question": "Which analogy best describes how High Courts supervise District Courts?",
+      "options": ["Senior coach watching junior teams", "Parent watching children", "Captain leading soldiers", "Teacher supervising students"],
+      "correct_answer": 3,
+      "explanation": "High Courts supervise District Courts like a teacher supervises students - they provide guidance, check work, and ensure proper procedures are followed.",
+      "analogy": "teacher_supervision",
+      "difficulty": "medium",
+      "topic": "Court Supervision"
+    },
+    {
+      "id": 8,
+      "question": "If someone builds a house on their neighbor's land without permission, which court would typically handle this dispute first?",
+      "options": ["Supreme Court", "High Court", "District Court", "Tribunal"],
+      "correct_answer": 2,
+      "explanation": "District Courts handle local property disputes just like how local municipal authorities handle neighborhood conflicts - they're closest to the people involved.",
+      "analogy": "neighborhood_dispute",
+      "difficulty": "easy",
+      "topic": "Court Jurisdiction"
+    },
+    {
+      "id": 9,
+      "question": "When a state government creates a new law, which court can check if this law follows the Constitution?",
+      "options": ["Only Supreme Court", "Only High Courts", "Both Supreme Court and High Courts", "Only District Courts"],
+      "correct_answer": 2,
+      "explanation": "Both Supreme Court and High Courts have the power of judicial review - they can examine if any law follows the Constitution, like judges checking if players follow the game rules.",
+      "analogy": "rule_checking",
+      "difficulty": "medium",
+      "topic": "Judicial Review"
+    },
+    {
+      "id": 10,
+      "question": "If India's court system is like a police hierarchy, which position would the Supreme Court hold?",
+      "options": ["Beat Constable", "Police Station Inspector", "State Police Chief", "National Police Commissioner"],
+      "correct_answer": 3,
+      "explanation": "The Supreme Court is like the National Police Commissioner - they oversee the entire justice system and make decisions that affect the whole country.",
+      "analogy": "police_hierarchy",
+      "difficulty": "easy",
+      "topic": "Court Hierarchy"
+    },
+    {
+      "id": 11,
+      "question": "When different High Courts give different decisions on similar issues, which court resolves this conflict?",
+      "options": ["The President", "Supreme Court", "Parliament", "Law Commission"],
+      "correct_answer": 1,
+      "explanation": "The Supreme Court resolves conflicts between different High Courts, just like how a national sports association resolves conflicts between regional leagues.",
+      "analogy": "sports_conflict",
+      "difficulty": "medium",
+      "topic": "Supreme Court Powers"
+    },
+    {
+      "id": 12,
+      "question": "If we think of courts as doctors treating social problems, what would the Supreme Court be like?",
+      "options": ["Family Doctor", "Specialist Surgeon", "Medical Researcher", "Hospital Administrator"],
+      "correct_answer": 2,
+      "explanation": "The Supreme Court is like a specialist surgeon - they handle the most serious and complex cases that affect the entire system's health.",
+      "analogy": "medical_specialist",
+      "difficulty": "medium",
+      "topic": "Court Functions"
+    },
+    {
+      "id": 13,
+      "question": "Which court is often called the 'Guardian of the Constitution'?",
+      "options": ["High Courts", "District Courts", "Supreme Court", "Tribunals"],
+      "correct_answer": 2,
+      "explanation": "The Supreme Court is called the Guardian of the Constitution because it protects constitutional rights and ensures no one violates the rulebook of our nation.",
+      "analogy": "guardian_role",
+      "difficulty": "easy",
+      "topic": "Supreme Court Role"
+    },
+    {
+      "id": 14,
+      "question": "When the President of India needs legal advice on constitutional matters, which court does he consult?",
+      "options": ["High Court", "District Court", "Supreme Court", "Attorney General"],
+      "correct_answer": 2,
+      "explanation": "The President can seek advice from the Supreme Court on important constitutional questions, just like how a captain might seek advice from the most experienced referee.",
+      "analogy": "captain_advice",
+      "difficulty": "medium",
+      "topic": "Advisory Jurisdiction"
+    },
+    {
+      "id": 15,
+      "question": "If courts were like schools, what would the Supreme Court represent?",
+      "options": ["Primary School", "High School", "University", "Education Board"],
+      "correct_answer": 2,
+      "explanation": "The Supreme Court is like a university - it's the highest level of education where the most complex and important legal issues are studied and decided.",
+      "analogy": "education_system",
+      "difficulty": "easy",
+      "topic": "Court Education"
+    },
+    {
+      "id": 16,
+      "question": "When a criminal case involves a serious crime like murder, which court typically handles the trial first?",
+      "options": ["Supreme Court", "High Court", "Sessions Court", "Magistrate Court"],
+      "correct_answer": 2,
+      "explanation": "The Sessions Court (which is part of District Courts) handles serious criminal cases, like how senior police officers handle major crimes in their jurisdiction.",
+      "analogy": "serious_crimes",
+      "difficulty": "medium",
+      "topic": "Criminal Jurisdiction"
+    },
+    {
+      "id": 17,
+      "question": "Which of these powers does the Supreme Court have that no other court has?",
+      "options": ["Hearing appeals", "Protecting fundamental rights", "Making decisions binding on all courts", "Handling criminal cases"],
+      "correct_answer": 2,
+      "explanation": "Only the Supreme Court can make decisions that are binding on all courts in India, like how only the national sports federation's decisions are binding on all regional leagues.",
+      "analogy": "binding_decisions",
+      "difficulty": "medium",
+      "topic": "Supreme Court Powers"
+    },
+    {
+      "id": 18,
+      "question": "If someone commits a crime in one state but flees to another, which court has jurisdiction?",
+      "options": ["Supreme Court", "High Court of the state where crime was committed", "High Court of the state where person is found", "District Court where person is found"],
+      "correct_answer": 1,
+      "explanation": "The High Court of the state where the crime was committed has jurisdiction, like how the police department of the area where a crime occurred has the primary responsibility.",
+      "analogy": "crime_jurisdiction",
+      "difficulty": "hard",
+      "topic": "Jurisdiction"
+    },
+    {
+      "id": 19,
+      "question": "When High Courts interpret state laws differently, this is resolved by:",
+      "options": ["Parliament", "President", "Supreme Court", "Law Minister"],
+      "correct_answer": 2,
+      "explanation": "The Supreme Court resolves conflicts between different High Courts' interpretations, ensuring uniform application of law across India.",
+      "analogy": "interpretation_conflict",
+      "difficulty": "medium",
+      "topic": "Legal Interpretation"
+    },
+    {
+      "id": 20,
+      "question": "Which analogy best describes the relationship between different court levels?",
+      "options": ["Parent-child relationship", "Senior-junior colleague relationship", "Master-servant relationship", "Coach-player relationship"],
+      "correct_answer": 3,
+      "explanation": "The relationship between court levels is like coach-player - higher courts guide and correct lower courts while respecting their important roles.",
+      "analogy": "coach_player",
+      "difficulty": "medium",
+      "topic": "Court Relationships"
+    },
+    {
+      "id": 21,
+      "question": "When a teacher confiscates your phone for a month, claiming school rules allow this, which court would you approach if you believe this violates your constitutional rights?",
+      "options": ["District Court", "High Court", "Supreme Court", "Education Tribunal"],
+      "correct_answer": 1,
+      "explanation": "You would approach the High Court because they protect fundamental rights and can issue orders (writs) to stop unfair actions by authorities.",
+      "analogy": "school_rights",
+      "difficulty": "hard",
+      "topic": "Fundamental Rights"
+    },
+    {
+      "id": 22,
+      "question": "Which writ would a court issue if the police illegally detained someone without following proper procedures?",
+      "options": ["Mandamus", "Prohibition", "Habeas Corpus", "Certiorari"],
+      "correct_answer": 2,
+      "explanation": "Habeas Corpus literally means 'produce the body' - it's used to free people who are illegally detained, like asking 'Where is the missing person?'",
+      "analogy": "illegal_detention",
+      "difficulty": "medium",
+      "topic": "Writs"
+    },
+    {
+      "id": 23,
+      "question": "If a government officer refuses to do their duty despite having the power to act, which writ can force them to act?",
+      "options": ["Habeas Corpus", "Mandamus", "Prohibition", "Quo Warranto"],
+      "correct_answer": 1,
+      "explanation": "Mandamus means 'we command' - it's used to force government officials to perform their duties, like demanding a captain lead their team.",
+      "analogy": "duty_performance",
+      "difficulty": "medium",
+      "topic": "Writs"
+    },
+    {
+      "id": 24,
+      "question": "When a lower court tries to hear a case beyond its legal authority, which writ can stop this?",
+      "options": ["Habeas Corpus", "Mandamus", "Prohibition", "Certiorari"],
+      "correct_answer": 2,
+      "explanation": "Prohibition is like a 'stop' sign - it prevents a court from hearing a case that is beyond its legal jurisdiction.",
+      "analogy": "stop_sign",
+      "difficulty": "hard",
+      "topic": "Writs"
+    },
+    {
+      "id": 25,
+      "question": "If someone is holding a government position illegally without proper appointment, which writ can remove them?",
+      "options": ["Habeas Corpus", "Mandamus", "Certiorari", "Quo Warranto"],
+      "correct_answer": 3,
+      "explanation": "Quo Warranto means 'by what authority' - it's used to challenge someone's right to hold a public office.",
+      "analogy": "illegal_office",
+      "difficulty": "hard",
+      "topic": "Writs"
+    },
+    {
+      "id": 26,
+      "question": "When a court wants to transfer a case from one court to another due to bias, which writ is used?",
+      "options": ["Habeas Corpus", "Mandamus", "Prohibition", "Certiorari"],
+      "correct_answer": 3,
+      "explanation": "Certiorari is like a 'transfer order' - it's used to transfer cases from one court to another, especially when there's bias or impropriety.",
+      "analogy": "case_transfer",
+      "difficulty": "hard",
+      "topic": "Writs"
+    },
+    {
+      "id": 27,
+      "question": "Which High Court has jurisdiction over multiple states and union territories?",
+      "options": ["Bombay High Court", "Punjab and Haryana High Court", "Calcutta High Court", "All of the above"],
+      "correct_answer": 3,
+      "explanation": "Several High Courts cover multiple states/UTs - Bombay (Maharashtra, Goa, Daman & Diu, Dadra & Nagar Haveli), Punjab & Haryana (Punjab, Haryana, Chandigarh), Calcutta (West Bengal, Andaman & Nicobar Islands).",
+      "analogy": "regional_courts",
+      "difficulty": "hard",
+      "topic": "High Court Jurisdiction"
+    },
+    {
+      "id": 28,
+      "question": "When someone wants to file a case directly in the Supreme Court for violation of fundamental rights, this is called:",
+      "options": ["Original Jurisdiction", "Appellate Jurisdiction", "Advisory Jurisdiction", "Writ Jurisdiction"],
+      "correct_answer": 0,
+      "explanation": "Supreme Court has Original Jurisdiction for fundamental rights cases - you can approach them directly without going through lower courts first.",
+      "analogy": "direct_access",
+      "difficulty": "medium",
+      "topic": "Supreme Court Jurisdiction"
+    },
+    {
+      "id": 29,
+      "question": "If a High Court gives a death penalty sentence, which court can review this decision?",
+      "options": ["Supreme Court only", "Supreme Court or another High Court", "President only", "Governor only"],
+      "correct_answer": 0,
+      "explanation": "Only the Supreme Court can review death penalty cases from High Courts, just like how only the national sports federation can review the most serious penalties.",
+      "analogy": "death_penalty_review",
+      "difficulty": "medium",
+      "topic": "Capital Punishment"
+    },
+    {
+      "id": 30,
+      "question": "When a High Court wants to ensure proper working of subordinate courts, which power does it use?",
+      "options": ["Appellate power", "Supervisory power", "Original power", "Advisory power"],
+      "correct_answer": 1,
+      "explanation": "High Courts have supervisory power over subordinate courts - they ensure lower courts work properly and follow correct procedures.",
+      "analogy": "supervisory_power",
+      "difficulty": "medium",
+      "topic": "High Court Powers"
+    },
+    {
+      "id": 31,
+      "question": "Which High Court is known as the 'High Court of a Union Territory'?",
+      "options": ["Delhi High Court", "Chandigarh High Court", "Pondicherry High Court", "All of the above"],
+      "correct_answer": 3,
+      "explanation": "Delhi (NCT), Chandigarh (UT), and Pondicherry (UT with special status) each have their own High Courts that serve as High Courts for Union Territories.",
+      "analogy": "union_territory_courts",
+      "difficulty": "hard",
+      "topic": "UT High Courts"
+    },
+    {
+      "id": 32,
+      "question": "When a case involves interpretation of the Constitution, which court typically handles it?",
+      "options": ["District Court", "High Court", "Supreme Court", "Tribunal"],
+      "correct_answer": 2,
+      "explanation": "The Supreme Court primarily handles constitutional interpretation cases, as it's the final authority on constitutional matters in India.",
+      "analogy": "constitutional_interpreter",
+      "difficulty": "easy",
+      "topic": "Constitutional Law"
+    },
+    {
+      "id": 33,
+      "question": "If two states have a dispute over sharing river water, which court handles this?",
+      "options": ["High Court of either state", "Supreme Court", "Inter-state Water Tribunal", "Central Government"],
+      "correct_answer": 2,
+      "explanation": "Disputes between states are handled by specialized Inter-state Water Tribunals, which are different from regular courts.",
+      "analogy": "state_disputes",
+      "difficulty": "hard",
+      "topic": "Inter-state Disputes"
+    },
+    {
+      "id": 34,
+      "question": "When a High Court wants to stay (pause) proceedings in a lower court, it can issue:",
+      "options": ["Stay Order", "Injunction", "Both Stay Order and Injunction", "Restraining Order"],
+      "correct_answer": 2,
+      "explanation": "High Courts can issue both stay orders and injunctions to pause or prevent certain actions in lower courts.",
+      "analogy": "pause_proceedings",
+      "difficulty": "medium",
+      "topic": "Court Orders"
+    },
+    {
+      "id": 35,
+      "question": "Which analogy best describes a District Court's role in criminal cases?",
+      "options": ["Local Police Station", "Court of Sessions", "Magistrate Court", "Special Court"],
+      "correct_answer": 1,
+      "explanation": "District Courts include Sessions Courts that handle serious criminal cases like how district-level police stations handle major crimes in their jurisdiction.",
+      "analogy": "district_police",
+      "difficulty": "medium",
+      "topic": "Criminal Courts"
+    },
+    {
+      "id": 36,
+      "question": "When a case involves a petty theft (small amount), which court typically handles it?",
+      "options": ["Sessions Court", "Magistrate Court", "High Court", "Supreme Court"],
+      "correct_answer": 1,
+      "explanation": "Magistrate Courts handle minor criminal offenses, just like how local police officers handle small violations rather than serious crimes.",
+      "analogy": "petty_crimes",
+      "difficulty": "easy",
+      "topic": "Magistrate Courts"
+    },
+    {
+      "id": 37,
+      "question": "If someone wants to file a divorce case, which court would handle this?",
+      "options": ["Supreme Court", "High Court", "District Court (Family Court)", "Local Court"],
+      "correct_answer": 2,
+      "explanation": "Family Courts, which are part of District Courts, handle family matters like divorce, custody, and maintenance cases.",
+      "analogy": "family_matters",
+      "difficulty": "easy",
+      "topic": "Family Courts"
+    },
+    {
+      "id": 38,
+      "question": "When a minor (below 18 years) commits a crime, which court handles the case?",
+      "options": ["Regular Criminal Court", "Juvenile Justice Board", "Family Court", "Children's Court"],
+      "correct_answer": 1,
+      "explanation": "The Juvenile Justice Board, not regular courts, handles cases involving minors to ensure child-friendly procedures and rehabilitation-focused approach.",
+      "analogy": "juvenile_courts",
+      "difficulty": "medium",
+      "topic": "Juvenile Justice"
+    },
+    {
+      "id": 39,
+      "question": "If a property dispute involves a value of Rs. 10 lakhs, which court would typically handle this case?",
+      "options": ["Small Causes Court", "Civil Court", "High Court", "Supreme Court"],
+      "correct_answer": 1,
+      "explanation": "Civil Courts handle property disputes regardless of amount, with different levels based on the value - district courts handle most civil matters.",
+      "analogy": "property_value",
+      "difficulty": "medium",
+      "topic": "Property Disputes"
+    },
+    {
+      "id": 40,
+      "question": "Which court would handle a case where someone wants to challenge the validity of a central government law?",
+      "options": ["High Court", "Supreme Court", "Constitutional Court", "Administrative Tribunal"],
+      "correct_answer": 1,
+      "explanation": "Only the Supreme Court can review the constitutionality of central government laws, just like how only the highest authority can change national rules.",
+      "analogy": "central_law_challenge",
+      "difficulty": "hard",
+      "topic": "Constitutional Challenges"
+    },
+    {
+      "id": 41,
+      "question": "When a court wants to prevent someone from doing something that could cause harm, it issues a:",
+      "options": ["Writ of Prohibition", "Injunction", "Stay Order", "Restraining Order"],
+      "correct_answer": 1,
+      "explanation": "An injunction is like a 'do not enter' sign - it prevents someone from doing something that could cause harm or injustice.",
+      "analogy": "prevent_harm",
+      "difficulty": "medium",
+      "topic": "Court Injunctions"
+    },
+    {
+      "id": 42,
+      "question": "If a police officer asks you questions during an investigation without registering an FIR, this is called:",
+      "options": ["Investigation", "Inquiry", "Interrogation", "All of the above"],
+      "correct_answer": 2,
+      "explanation": "When police ask questions before registering an FIR, it's called interrogation - preliminary questioning before formal investigation begins.",
+      "analogy": "police_questions",
+      "difficulty": "medium",
+      "topic": "Investigation Process"
+    },
+    {
+      "id": 43,
+      "question": "When a person is arrested, they must be produced before a magistrate within how many hours?",
+      "options": ["12 hours", "24 hours", "48 hours", "72 hours"],
+      "correct_answer": 1,
+      "explanation": "A person must be produced before a magistrate within 24 hours of arrest, to ensure they are not illegally detained.",
+      "analogy": "arrest_production",
+      "difficulty": "medium",
+      "topic": "Arrest Rights"
+    },
+    {
+      "id": 44,
+      "question": "If someone is accused of a crime they didn't commit, they can approach the court for:",
+      "options": ["Compensation", "Quash of case", "Bail", "All of the above"],
+      "correct_answer": 3,
+      "explanation": "An innocent person can seek bail, quash of false charges, or compensation for wrongful prosecution.",
+      "analogy": "false_accusation",
+      "difficulty": "medium",
+      "topic": "False Cases"
+    },
+    {
+      "id": 45,
+      "question": "When a witness refuses to testify in court, the court can:",
+      "options": ["Fine the witness", "Jail the witness", "Both fine and jail", "Nothing - it's voluntary"],
+      "correct_answer": 2,
+      "explanation": "Courts can both fine and jail witnesses who refuse to testify, as giving evidence is a legal duty, not just voluntary cooperation.",
+      "analogy": "refusing_testify",
+      "difficulty": "hard",
+      "topic": "Witness Coercion"
+    },
+    {
+      "id": 46,
+      "question": "Which analogy best describes how judicial review protects citizens?",
+      "options": ["Security guard checking IDs", "Referee enforcing game rules", "Doctor treating patients", "Teacher explaining lessons"],
+      "correct_answer": 1,
+      "explanation": "Judicial review works like a referee in a game - it ensures that all players (government, institutions) follow the rules (Constitution).",
+      "analogy": "referee_rules",
+      "difficulty": "easy",
+      "topic": "Judicial Review Concept"
+    },
+    {
+      "id": 47,
+      "question": "When Parliament makes a law that violates fundamental rights, courts can:",
+      "options": ["Accept it as final", "Strike it down", "Send it back for revision", "Ask people to ignore it"],
+      "correct_answer": 1,
+      "explanation": "Courts can strike down laws that violate fundamental rights, like how a referee can cancel an unfair play that breaks the rules.",
+      "analogy": "unfair_law",
+      "difficulty": "medium",
+      "topic": "Judicial Review"
+    },
+    {
+      "id": 48,
+      "question": "If the government tries to take away your fundamental right to education, which court can stop this?",
+      "options": ["Any court", "High Court or Supreme Court", "Supreme Court only", "District Court"],
+      "correct_answer": 1,
+      "explanation": "Both High Courts and Supreme Courts can protect fundamental rights through judicial review and writs.",
+      "analogy": "education_right",
+      "difficulty": "medium",
+      "topic": "Fundamental Rights Protection"
+    },
+    {
+      "id": 49,
+      "question": "When courts review government decisions to ensure they follow proper procedures, this is called:",
+      "options": ["Judicial review", "Administrative review", "Constitutional review", "Procedural review"],
+      "correct_answer": 0,
+      "explanation": "Judicial review includes reviewing government decisions to ensure they follow proper legal procedures, not just constitutional issues.",
+      "analogy": "procedure_check",
+      "difficulty": "medium",
+      "topic": "Administrative Review"
+    },
+    {
+      "id": 50,
+      "question": "Which type of judicial review would handle a case where a government officer misuses their power?",
+      "options": ["Constitutional review", "Administrative review", "Procedural review", "Legislative review"],
+      "correct_answer": 1,
+      "explanation": "Administrative review handles cases where government officers misuse their powers or act beyond their legal authority.",
+      "analogy": "power_misuse",
+      "difficulty": "medium",
+      "topic": "Administrative Review"
+    },
+    {
+      "id": 51,
+      "question": "When a court examines if a new law conflicts with the Constitution, this is an example of:",
+      "options": ["Original jurisdiction", "Appellate jurisdiction", "Constitutional jurisdiction", "Judicial review"],
+      "correct_answer": 3,
+      "explanation": "Examining if a law conflicts with the Constitution is a classic example of judicial review in action.",
+      "analogy": "law_conflict",
+      "difficulty": "medium",
+      "topic": "Constitutional Review"
+    },
+    {
+      "id": 52,
+      "question": "If the Supreme Court declares a central law unconstitutional, this law becomes:",
+      "options": ["Temporarily suspended", "Modified automatically", "Void from the beginning", "Valid for 6 months only"],
+      "correct_answer": 2,
+      "explanation": "When the Supreme Court declares a law unconstitutional, it becomes void from the beginning (ab initio), as if it never existed.",
+      "analogy": "void_law",
+      "difficulty": "hard",
+      "topic": "Unconstitutional Laws"
+    },
+    {
+      "id": 53,
+      "question": "Which analogy best describes constitutional interpretation by courts?",
+      "options": ["Reading a storybook", "Decoding a secret message", "Solving a puzzle", "Following a recipe"],
+      "correct_answer": 2,
+      "explanation": "Constitutional interpretation is like solving a puzzle - courts need to piece together the meaning of constitutional provisions in different contexts.",
+      "analogy": "puzzle_solving",
+      "difficulty": "easy",
+      "topic": "Constitutional Interpretation"
+    },
+    {
+      "id": 54,
+      "question": "When courts interpret constitutional provisions in light of changing times, this is called:",
+      "options": ["Original interpretation", "Literal interpretation", "Dynamic interpretation", "Strict interpretation"],
+      "correct_answer": 2,
+      "explanation": "Dynamic interpretation allows constitutional provisions to be understood in the context of modern times and changing societal needs.",
+      "analogy": "modern_interpretation",
+      "difficulty": "hard",
+      "topic": "Dynamic Interpretation"
+    },
+    {
+      "id": 55,
+      "question": "If a constitutional provision is ambiguous (unclear), how do courts typically interpret it?",
+      "options": ["Choose the easiest meaning", "Follow strict literal meaning", "Interpret in favor of fundamental rights", "Leave it to Parliament"],
+      "correct_answer": 2,
+      "explanation": "Courts generally interpret ambiguous constitutional provisions in favor of fundamental rights to ensure maximum protection for citizens.",
+      "analogy": "ambiguous_meaning",
+      "difficulty": "medium",
+      "topic": "Ambiguous Provisions"
+    },
+    {
+      "id": 56,
+      "question": "When courts interpret constitutional provisions based on their original meaning when written, this is called:",
+      "options": ["Dynamic interpretation", "Originalism", "Liberal interpretation", "Conservative interpretation"],
+      "correct_answer": 1,
+      "explanation": "Originalism means interpreting constitutional provisions based on what they meant when originally written, like following the original game rules.",
+      "analogy": "original_meaning",
+      "difficulty": "hard",
+      "topic": "Originalism"
+    },
+    {
+      "id": 57,
+      "question": "If a constitutional provision can be interpreted in multiple ways, courts usually choose:",
+      "options": ["The most restrictive meaning", "The most permissive meaning", "The meaning that best serves justice", "Any of the above"],
+      "correct_answer": 2,
+      "explanation": "Courts generally choose interpretations that best serve justice and public welfare, considering constitutional values and purposes.",
+      "analogy": "justice_serving",
+      "difficulty": "medium",
+      "topic": "Multiple Interpretations"
+    },
+    {
+      "id": 58,
+      "question": "When courts interpret the Constitution to include rights not explicitly mentioned, this is called:",
+      "options": ["Express rights", "Implied rights", "Fundamental rights", "Constitutional rights"],
+      "correct_answer": 1,
+      "explanation": "Implied rights are those that are not explicitly mentioned in the Constitution but are derived from its principles and other explicit provisions.",
+      "analogy": "implied_meaning",
+      "difficulty": "hard",
+      "topic": "Implied Rights"
+    },
+    {
+      "id": 59,
+      "question": "Which analogy best describes how courts balance different constitutional rights?",
+      "options": ["Choosing between ice cream flavors", "Weighing different elements on a scale", "Following a strict instruction manual", "Making a multiple choice decision"],
+      "correct_answer": 1,
+      "explanation": "Courts balance different constitutional rights like weighing elements on a scale - they consider all factors to reach a fair decision.",
+      "analogy": "balancing_scale",
+      "difficulty": "medium",
+      "topic": "Rights Balancing"
+    },
+    {
+      "id": 60,
+      "question": "When courts interpret the Constitution to protect vulnerable groups, this is an example of:",
+      "options": ["Conservative interpretation", "Progressive interpretation", "Strict interpretation", "Literal interpretation"],
+      "correct_answer": 1,
+      "explanation": "Progressive interpretation allows the Constitution to evolve and protect vulnerable groups, even if not explicitly mentioned when written.",
+      "analogy": "progressive_protection",
+      "difficulty": "medium",
+      "topic": "Progressive Interpretation"
+    },
+    {
+      "id": 61,
+      "question": "If a court wants to ensure both national security and individual privacy, it must:",
+      "options": ["Choose one over the other", "Find a balance between both", "Always favor national security", "Always favor individual privacy"],
+      "correct_answer": 1,
+      "explanation": "Courts must find a balance between competing interests like national security and individual privacy, like a referee balancing team interests.",
+      "analogy": "competing_interests",
+      "difficulty": "medium",
+      "topic": "Competing Rights"
+    },
+    {
+      "id": 62,
+      "question": "When a criminal case moves from police investigation to court trial, it's like moving from:",
+      "options": ["Practice match to real match", "Local tournament to national tournament", "Junior league to senior league", "All of the above"],
+      "correct_answer": 3,
+      "explanation": "The progression from investigation to trial is like advancing through different levels of competition - from practice to real play, local to national, junior to senior.",
+      "analogy": "competition_progression",
+      "difficulty": "medium",
+      "topic": "Case Progression"
+    },
+    {
+      "id": 63,
+      "question": "When someone is accused of a crime, the burden of proof is on:",
+      "options": ["The accused", "The prosecutor", "The judge", "The police"],
+      "correct_answer": 1,
+      "explanation": "In criminal cases, the burden of proof is on the prosecutor (who represents the state) to prove guilt, not on the accused to prove innocence.",
+      "analogy": "burden_of_proof",
+      "difficulty": "medium",
+      "topic": "Burden of Proof"
+    },
+    {
+      "id": 64,
+      "question": "If a witness gives false testimony in court, the person can be punished for:",
+      "options": ["Contempt of court", "Perjury", "False evidence", "Both perjury and false evidence"],
+      "correct_answer": 3,
+      "explanation": "Giving false testimony is called perjury, and it's a specific crime for which one can be punished separately from contempt of court.",
+      "analogy": "false_testimony",
+      "difficulty": "hard",
+      "topic": "False Evidence"
+    },
+    {
+      "id": 65,
+      "question": "When a court gives a verdict 'beyond reasonable doubt', this means:",
+      "options": ["The crime was definitely committed", "There should be no doubt whatsoever", "There should be no reasonable doubt about guilt", "The accused might be guilty"],
+      "correct_answer": 2,
+      "explanation": "'Beyond reasonable doubt' means there should be no reasonable doubt about the accused's guilt, not absolute certainty (which is impossible).",
+      "analogy": "reasonable_doubt",
+      "difficulty": "hard",
+      "topic": "Standard of Proof"
+    },
+    {
+      "id": 66,
+      "question": "If someone is found not guilty in a criminal case, this is called:",
+      "options": ["Acquittal", "Dismissal", "Discharge", "Exoneration"],
+      "correct_answer": 0,
+      "explanation": "When someone is found not guilty, it's called an acquittal - the charges are cleared and the person is declared innocent.",
+      "analogy": "not_guilty_verdict",
+      "difficulty": "easy",
+      "topic": "Acquittal"
+    },
+    {
+      "id": 67,
+      "question": "When a civil case involves a contract dispute, what does the court typically require from the plaintiff?",
+      "options": ["Proof of wrongdoing beyond doubt", "Proof on balance of probabilities", "Proof that the defendant is lying", "No proof needed"],
+      "correct_answer": 1,
+      "explanation": "In civil cases, the standard is 'balance of probabilities' - the plaintiff must show it's more likely than not that their claim is true.",
+      "analogy": "civil_standard",
+      "difficulty": "hard",
+      "topic": "Civil Case Standards"
+    },
+    {
+      "id": 68,
+      "question": "If someone wants to appeal a district court decision, they typically go to:",
+      "options": ["Supreme Court", "High Court", "Another District Court", "Supreme Court or High Court"],
+      "correct_answer": 1,
+      "explanation": "Appeals from District Courts typically go to the High Court, just like how regional tournaments are supervised by state-level associations.",
+      "analogy": "appeal_progression",
+      "difficulty": "easy",
+      "topic": "Appeal Process"
+    },
+    {
+      "id": 69,
+      "question": "When a case involves sensitive issues like national security, courts may hold proceedings:",
+      "options": ["In open court", "In camera (closed door)", "Via video conference", "Both in camera and via video"],
+      "correct_answer": 3,
+      "explanation": "Courts can hold sensitive proceedings in camera (closed to public) and use video conferencing to protect confidentiality and security.",
+      "analogy": "sensitive_proceedings",
+      "difficulty": "medium",
+      "topic": "Closed Court Proceedings"
+    },
+    {
+      "id": 70,
+      "question": "If a court believes someone might tamper with evidence or influence witnesses, it can:",
+      "options": ["Close the case", "Grant bail with conditions", "Send the person to jail", "Both grant bail with conditions and send to jail"],
+      "correct_answer": 3,
+      "explanation": "Courts can impose conditions on bail or deny bail altogether if there's risk of evidence tampering or witness intimidation.",
+      "analogy": "evidence_protection",
+      "difficulty": "hard",
+      "topic": "Bail Conditions"
+    },
+    {
+      "id": 71,
+      "question": "When a child is a victim of crime, courts ensure the process is:",
+      "options": ["Fast and public", "Child-friendly and private", "Formal and strict", "Open to media"],
+      "correct_answer": 1,
+      "explanation": "Courts ensure child-friendly procedures for child victims, including private proceedings and age-appropriate interactions.",
+      "analogy": "child_friendly",
+      "difficulty": "medium",
+      "topic": "Child Victims"
+    },
+    {
+      "id": 72,
+      "question": "If a child is involved in a legal case, the court's primary consideration is:",
+      "options": ["Legal technicalities", "Best interests of the child", "Parents' wishes", "Financial aspects"],
+      "correct_answer": 1,
+      "explanation": "In all matters involving children, the best interests of the child is the primary consideration, as established by the Supreme Court.",
+      "analogy": "child_best_interest",
+      "difficulty": "easy",
+      "topic": "Child Best Interests"
+    },
+    {
+      "id": 73,
+      "question": "When children are involved in court cases, their identity is usually:",
+      "options": ["Made public", "Kept secret", "Shared with media", "Printed in newspapers"],
+      "correct_answer": 1,
+      "explanation": "Courts protect the identity of child victims and witnesses to prevent trauma and further harm, as per guidelines.",
+      "analogy": "child_identity_protection",
+      "difficulty": "medium",
+      "topic": "Child Identity Protection"
+    },
+    {
+      "id": 74,
+      "question": "If parents fight over child custody, courts primarily consider:",
+      "options": ["Who earns more money", "Child's emotional well-being", "Who was married first", "Religious considerations"],
+      "correct_answer": 1,
+      "explanation": "Courts prioritize the child's emotional well-being, safety, and best interests over financial or other considerations in custody battles.",
+      "analogy": "custody_battle",
+      "difficulty": "medium",
+      "topic": "Child Custody"
+    },
+    {
+      "id": 75,
+      "question": "When schools discriminate against children based on caste or religion, courts can:",
+      "options": ["Do nothing", "Impose fines only", "Order admission and compensation", "Close the school"],
+      "correct_answer": 2,
+      "explanation": "Courts can order immediate admission of discriminated children and award compensation for the violation of their fundamental rights.",
+      "analogy": "school_discrimination",
+      "difficulty": "medium",
+      "topic": "Educational Rights"
+    },
+    {
+      "id": 76,
+      "question": "If a child is forced into child labor, which writ can courts use to stop this?",
+      "options": ["Habeas Corpus", "Mandamus", "Prohibition", "Quo Warranto"],
+      "correct_answer": 1,
+      "explanation": "Mandamus can force authorities to stop child labor and take action to protect the child's rights to education and childhood.",
+      "analogy": "child_labor_stop",
+      "difficulty": "medium",
+      "topic": "Child Labor"
+    },
+    {
+      "id": 77,
+      "question": "When courts handle cases involving children, they often appoint:",
+      "options": ["Lawyers only", "Child psychologists", "Social workers", "All of the above"],
+      "correct_answer": 3,
+      "explanation": "Courts may appoint lawyers, child psychologists, and social workers to ensure comprehensive care and proper representation for children.",
+      "analogy": "child_support_team",
+      "difficulty": "medium",
+      "topic": "Child Support Team"
+    },
+    {
+      "id": 78,
+      "question": "If someone wants to file a Public Interest Litigation (PIL), they can approach:",
+      "options": ["Any court", "High Court or Supreme Court", "District Court only", "Supreme Court only"],
+      "correct_answer": 1,
+      "explanation": "PILs can be filed in High Courts or Supreme Court to address public interest matters affecting fundamental rights.",
+      "analogy": "public_interest",
+      "difficulty": "medium",
+      "topic": "Public Interest Litigation"
+    },
+    {
+      "id": 79,
+      "question": "When courts use PILs to address environmental issues, this is called:",
+      "options": ["Environmental litigation", "Green PIL", "Eco-friendly justice", "Conservation court"],
+      "correct_answer": 1,
+      "explanation": "PILs addressing environmental protection are often called 'Green PILs' and have successfully protected forests, rivers, and wildlife.",
+      "analogy": "green_pil",
+      "difficulty": "easy",
+      "topic": "Environmental PIL"
+    },
+    {
+      "id": 80,
+      "question": "If two neighbors have a dispute over a property boundary, which method would be most appropriate?",
+      "options": ["Court trial", "Lok Adalat", "Mediation", "Both Lok Adalat and Mediation"],
+      "correct_answer": 3,
+      "explanation": "Neighbor disputes are often resolved faster and more amicably through ADR methods like Lok Adalat and mediation.",
+      "analogy": "neighbor_dispute",
+      "difficulty": "medium",
+      "topic": "Alternative Dispute Resolution"
+    },
+    {
+      "id": 81,
+      "question": "When courts help people settle disputes outside the formal courtroom, this process is called:",
+      "options": ["Court settlement", "Alternative Dispute Resolution", "Informal justice", "Private arbitration"],
+      "correct_answer": 1,
+      "explanation": "Alternative Dispute Resolution (ADR) includes methods like mediation and arbitration that help resolve disputes without formal court trials.",
+      "analogy": "peaceful_resolution",
+      "difficulty": "easy",
+      "topic": "ADR Methods"
+    },
+    {
+      "id": 82,
+      "question": "If a businessman has a dispute with another company over a contract, which court would be most appropriate?",
+      "options": ["Civil Court", "Commercial Court", "High Court", "Supreme Court"],
+      "correct_answer": 1,
+      "explanation": "Commercial Courts specialize in business and commercial disputes, offering faster resolution for corporate conflicts.",
+      "analogy": "business_dispute",
+      "difficulty": "medium",
+      "topic": "Specialized Courts"
+    },
+    {
+      "id": 83,
+      "question": "When a government employee has a dispute about their pension, which forum handles this?",
+      "options": ["Regular court", "Administrative Tribunal", "High Court", "Supreme Court"],
+      "correct_answer": 1,
+      "explanation": "Administrative Tribunals handle disputes involving government employees' service matters like pensions, promotions, and transfers.",
+      "analogy": "government_employee_dispute",
+      "difficulty": "hard",
+      "topic": "Administrative Tribunals"
+    },
+    {
+      "id": 84,
+      "question": "If a tax dispute arises between a citizen and the Income Tax Department, which body handles this?",
+      "options": ["Civil Court", "Income Tax Tribunal", "High Court", "Supreme Court"],
+      "correct_answer": 1,
+      "explanation": "Income Tax Tribunals specialize in tax-related disputes between citizens and tax authorities, providing expert decisions.",
+      "analogy": "tax_dispute",
+      "difficulty": "hard",
+      "topic": "Tax Tribunals"
+    },
+    {
+      "id": 85,
+      "question": "When someone wants to challenge the appointment of a government official, which writ is used?",
+      "options": ["Habeas Corpus", "Mandamus", "Certiorari", "Quo Warranto"],
+      "correct_answer": 3,
+      "explanation": "Quo Warranto ('by what authority') is used to challenge someone's right to hold a public office or position.",
+      "analogy": "appointment_challenge",
+      "difficulty": "hard",
+      "topic": "Public Office Challenges"
+    },
+    {
+      "id": 86,
+      "question": "Which analogy best describes the role of an advocate (lawyer) in court?",
+      "options": ["Team captain", "Team coach", "Player representing the team", "Referee of the game"],
+      "correct_answer": 2,
+      "explanation": "Lawyers are like players representing their clients (teams) in court, arguing their case before the judge (referee).",
+      "analogy": "lawyer_as_player",
+      "difficulty": "medium",
+      "topic": "Advocates Role"
+    },
+    {
+      "id": 87,
+      "question": "When a court gives interim directions to protect someone's rights pending final decision, this is called:",
+      "options": ["Final order", "Interim order", "Temporary injunction", "Both interim order and temporary injunction"],
+      "correct_answer": 3,
+      "explanation": "Courts issue interim orders or temporary injunctions to provide immediate protection while the main case is being decided.",
+      "analogy": "temporary_protection",
+      "difficulty": "medium",
+      "topic": "Interim Orders"
+    },
+    {
+      "id": 88,
+      "question": "If a person is declared bankrupt, which court handles the bankruptcy proceedings?",
+      "options": ["Civil Court", "Debt Recovery Tribunal", "High Court", "Supreme Court"],
+      "correct_answer": 1,
+      "explanation": "Debt Recovery Tribunals handle bankruptcy and debt recovery matters, specialized courts for financial disputes.",
+      "analogy": "bankruptcy_court",
+      "difficulty": "hard",
+      "topic": "Debt Recovery"
+    },
+    {
+      "id": 89,
+      "question": "When someone wants to get compensation for harm caused by government action, they file a:",
+      "options": ["Compensation case", "Tort case", "Public interest case", "All of the above"],
+      "correct_answer": 1,
+      "explanation": "Tort cases seek compensation for civil wrongs, including harm caused by government actions or negligence.",
+      "analogy": "compensation_claim",
+      "difficulty": "medium",
+      "topic": "Compensation Claims"
+    },
+    {
+      "id": 90,
+      "question": "If a court wants to punish someone for disrespecting the court, it can hold them for:",
+      "options": ["Contempt of court", "Disobedience", "Disrespect", "All of the above"],
+      "correct_answer": 0,
+      "explanation": "Contempt of court covers various forms of disrespect to the court, including disobedience, scandalizing the court, or interfering with proceedings.",
+      "analogy": "court_contempt",
+      "difficulty": "medium",
+      "topic": "Contempt of Court"
+    },
+    {
+      "id": 91,
+      "question": "When a judge believes a case requires special expertise, they may appoint:",
+      "options": ["Another judge", "Expert witness", "Special counsel", "All of the above"],
+      "correct_answer": 1,
+      "explanation": "Expert witnesses provide specialized knowledge on technical matters to help judges understand complex issues.",
+      "analogy": "expert_witness",
+      "difficulty": "medium",
+      "topic": "Expert Witnesses"
+    },
+    {
+      "id": 92,
+      "question": "If someone wants to preserve evidence for a future case, they can file an:",
+      "options": ["Evidence preservation application", "Interim application", "Preservation order", "All of the above"],
+      "correct_answer": 3,
+      "explanation": "Courts can issue preservation orders or accept applications to preserve evidence that might be destroyed or tampered with.",
+      "analogy": "evidence_preservation",
+      "difficulty": "hard",
+      "topic": "Evidence Preservation"
+    },
+    {
+      "id": 93,
+      "question": "When a case involves technical issues like engineering or medicine, courts often rely on:",
+      "options": ["Judge's common sense", "Expert opinions", "Public opinion", "Government guidelines"],
+      "correct_answer": 1,
+      "explanation": "Expert opinions from qualified professionals help judges understand technical aspects they might not be familiar with.",
+      "analogy": "technical_expertise",
+      "difficulty": "medium",
+      "topic": "Technical Cases"
+    },
+    {
+      "id": 94,
+      "question": "If a person is not satisfied with a court decision, they can approach a higher court through:",
+      "options": ["Revision", "Review", "Appeal", "All of the above"],
+      "correct_answer": 2,
+      "explanation": "Appeals are the primary method to challenge court decisions, while reviews and revisions have specific limited grounds.",
+      "analogy": "higher_court_access",
+      "difficulty": "medium",
+      "topic": "Appeal Rights"
+    },
+    {
+      "id": 95,
+      "question": "When a case has been decided by all possible courts, it becomes:",
+      "options": ["Reopenable", "Final and binding", "Under review", "Subject to government approval"],
+      "correct_answer": 1,
+      "explanation": "When a case has exhausted all appeal options, the decision becomes final and binding on all parties.",
+      "analogy": "final_decision",
+      "difficulty": "medium",
+      "topic": "Final Judgments"
+    },
+    {
+      "id": 96,
+      "question": "If a court makes an error in its judgment, the affected party can seek:",
+      "options": ["Review", "Correction", "Modification", "All of the above"],
+      "correct_answer": 3,
+      "explanation": "Courts can review, correct, or modify their judgments if errors are found, depending on the type and stage of the error.",
+      "analogy": "judgment_correction",
+      "difficulty": "hard",
+      "topic": "Judgment Errors"
+    },
+    {
+      "id": 97,
+      "question": "When courts want to ensure compliance with their orders, they may use:",
+      "options": ["Monitoring committees", "Supervisory directions", "Contempt proceedings", "All of the above"],
+      "correct_answer": 3,
+      "explanation": "Courts use various methods to ensure compliance, including monitoring committees, directions, and contempt proceedings for non-compliance.",
+      "analogy": "order_compliance",
+      "difficulty": "medium",
+      "topic": "Order Enforcement"
+    },
+    {
+      "id": 98,
+      "question": "If someone wants to prevent a court case from going forward, they can file a:",
+      "options": ["Stay application", "Dismissal application", "Quash petition", "All of the above"],
+      "correct_answer": 2,
+      "explanation": "Quash petitions are filed to prevent court proceedings from continuing, often on grounds of lack of jurisdiction or procedural defects.",
+      "analogy": "prevent_proceedings",
+      "difficulty": "hard",
+      "topic": "Preventing Proceedings"
+    },
+    {
+      "id": 99,
+      "question": "When courts handle multiple similar cases together, this is called:",
+      "options": ["Class action", "Batch processing", "Consolidated hearing", "All of the above"],
+      "correct_answer": 3,
+      "explanation": "Class actions, batch processing, and consolidated hearings all refer to handling multiple related cases together for efficiency.",
+      "analogy": "multiple_cases",
+      "difficulty": "hard",
+      "topic": "Multiple Case Handling"
+    },
+    {
+      "id": 100,
+      "question": "If the Supreme Court believes its previous interpretation of the Constitution needs updating for modern times, it can:",
+      "options": ["Keep the old interpretation", "Overrule its previous decision", "Ask Parliament to change the Constitution", "Refer the matter to a larger bench"],
+      "correct_answer": 1,
+      "explanation": "The Supreme Court can overrule its previous constitutional interpretations when they become outdated, like updating the game rules for modern play.",
+      "analogy": "constitutional_evolution",
+      "difficulty": "hard",
+      "topic": "Constitutional Evolution"
+    }
+  ],
+  "question_type_distribution": {
+    "multiple_choice": 70,
+    "true_false": 10,
+    "scenario_based": 15,
+    "matching": 5
+  },
+  "difficulty_levels": {
+    "easy": 35,
+    "medium": 45,
+    "hard": 20
+  },
+  "analogies_used": [
+    "sports_tournament",
+    "family_elder",
+    "detective_work",
+    "medical_specialist",
+    "police_hierarchy",
+    "education_system",
+    "teacher_supervision",
+    "referee_rules",
+    "puzzle_solving",
+    "balancing_scale"
+  ],
+  "learning_objectives": [
+    "Understand court hierarchy and jurisdiction",
+    "Learn about different types of courts and their powers",
+    "Comprehend judicial review and constitutional interpretation",
+    "Know about fundamental rights and their protection",
+    "Understand court procedures and case types",
+    "Learn about child rights and protections",
+    "Recognize alternative dispute resolution methods",
+    "Develop civic awareness and constitutional literacy"
+  ],
+  "metadata": {
+    "target_age_group": "10-16 years",
+    "language": "English",
+    "format": "JSON",
+    "created_date": "2025-11-04",
+    "version": "1.0"
+  }
+}

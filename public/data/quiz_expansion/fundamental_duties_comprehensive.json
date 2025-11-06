@@ -1,0 +1,1586 @@
+{
+  "title": "Fundamental Duties Comprehensive Quiz - 100 Questions",
+  "description": "100 comprehensive quiz questions covering all 11 Fundamental Duties (Article 51A) with diverse analogies beyond school settings. Perfect for children aged 8-16.",
+  "target_age": "8-16 years",
+  "total_questions": 100,
+  "difficulty_levels": {
+    "easy": 40,
+    "medium": 40,
+    "hard": 20
+  },
+  "question_types": {
+    "multiple_choice": 45,
+    "scenario_based": 25,
+    "true_false": 15,
+    "fill_in_blank": 15
+  },
+  "fundamental_duties_covered": [
+    "Duty (a) - Abide by Constitution, respect ideals, National Flag, National Anthem",
+    "Duty (b) - Cherish noble ideals of freedom struggle",
+    "Duty (c) - Uphold sovereignty, unity, integrity",
+    "Duty (d) - Defend country, render national service",
+    "Duty (e) - Promote harmony, common brotherhood",
+    "Duty (f) - Value and preserve composite culture",
+    "Duty (g) - Protect and improve environment",
+    "Duty (h) - Develop scientific temper, humanism",
+    "Duty (i) - Safeguard public property, abjure violence",
+    "Duty (j) - Strive for excellence so nation rises",
+    "Duty (k) - Parents provide education (6-14 years)"
+  ],
+  "analogies_used": [
+    "Family responsibilities",
+    "Sports team rules",
+    "Community service",
+    "Gardening",
+    "Team activities"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "duty": "a",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "analogy": "family",
+      "question": "At Rohit's home, his grandmother shares stories about respecting elders and helping neighbors. This connects to which Fundamental Duty?",
+      "options": [
+        "Duty (a) - Abide by Constitution",
+        "Duty (e) - Promote harmony",
+        "Duty (g) - Protect environment",
+        "Duty (i) - Safeguard property"
+      ],
+      "correct_answer": "Duty (a) - Abide by Constitution",
+      "explanation": "Duty (a) includes cherishing the ideals and values of our nation, which includes respecting elders and helping neighbors as core constitutional principles.",
+      "constitutional_reference": "Article 51A(a)"
+    },
+    {
+      "id": 2,
+      "duty": "k",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "analogy": "sports",
+      "question": "During a cricket match, the team captain asks all players to stand respectfully when the national anthem is played before the game. What constitutional principle is this player demonstrating?",
+      "options": [
+        "Team spirit and leadership",
+        "Duty (a) - Respect for national symbols",
+        "Fair play in sports",
+        "Respect for the captain only"
+      ],
+      "correct_answer": "Duty (a) - Respect for national symbols",
+      "explanation": "The player's action shows respect for national symbols, which is fundamental to our constitutional identity and unity as citizens.",
+      "constitutional_reference": "Article 51A(a)"
+    },
+    {
+      "id": 3,
+      "duty": "a",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "analogy": "team",
+      "question": "When members of a cultural dance group make a pledge to always respect the Constitution and its ideals, they are practicing ______ (Fundamental Duty letter).",
+      "correct_answer": "a",
+      "explanation": "Duty (a) specifically calls for abiding by the Constitution and respecting its ideals, which forms the foundation of our constitutional citizenship.",
+      "constitutional_reference": "Article 51A(a)"
+    },
+    {
+      "id": 4,
+      "duty": "b",
+      "difficulty": "easy",
+      "type": "scenario_based",
+      "analogy": "family",
+      "question": "True or False: When Sita's grandfather tells stories about how brave people fought for India's freedom without using violence, she is learning about Duty (b).",
+      "correct_answer": "true",
+      "explanation": "Duty (b) specifically calls for cherishing the noble ideals of India's freedom struggle, including non-violence, courage, and sacrifice.",
+      "constitutional_reference": "Article 51A(b)"
+    },
+    {
+      "id": 5,
+      "duty": "b",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "analogy": "gardening",
+      "question": "In a community garden, older members share traditional knowledge about growing native plants and herbs that were used during freedom struggle times. This demonstrates:",
+      "options": [
+        "Duty (f) - Preserve composite culture",
+        "Duty (b) - Cherish freedom struggle ideals",
+        "Duty (g) - Protect environment",
+        "Duty (j) - Strive for excellence"
+      ],
+      "correct_answer": "Duty (b) - Cherish freedom struggle ideals",
+      "explanation": "Sharing traditional knowledge and practices that connect to our freedom struggle is a way of cherishing those noble ideals and passing them to the next generation.",
+      "constitutional_reference": "Article 51A(b)"
+    },
+    {
+      "id": 6,
+      "duty": "c",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "analogy": "sports",
+      "question": "A football team ensures players from different regions work together and don't form groups based on where they come from. This shows respect for:",
+      "options": [
+        "Duty (c) - Uphold sovereignty, unity, integrity",
+        "Duty (e) - Promote harmony",
+        "Duty (d) - Defend country",
+        "Duty (j) - Strive for excellence"
+      ],
+      "correct_answer": "Duty (c) - Uphold sovereignty, unity, integrity",
+      "explanation": "Unity and integrity mean that people from different backgrounds come together as one, supporting national unity and maintaining the country's wholeness.",
+      "constitutional_reference": "Article 51A(c)"
+    },
+    {
+      "id": 7,
+      "duty": "c",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "analogy": "community",
+      "question": "During a neighborhood meeting about water shortage, residents from different communities decide to share water resources equally instead of competing. What fundamental duty guides this decision?",
+      "options": [
+        "Duty (c) - Uphold national unity",
+        "Duty (g) - Protect environment",
+        "Duty (e) - Promote harmony",
+        "Duty (i) - Safeguard property"
+      ],
+      "correct_answer": "Duty (c) - Uphold national unity",
+      "explanation": "This decision demonstrates unity and integrity by putting collective welfare over individual interests, strengthening our national fabric.",
+      "constitutional_reference": "Article 51A(c)"
+    },
+    {
+      "id": 8,
+      "duty": "d",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "analogy": "team",
+      "question": "When a group of volunteers helps organize disaster relief supplies in their community, they are practicing:",
+      "options": [
+        "Duty (d) - Defend country and render national service",
+        "Duty (g) - Protect environment",
+        "Duty (j) - Strive for excellence",
+        "Duty (e) - Promote harmony"
+      ],
+      "correct_answer": "Duty (d) - Defend country and render national service",
+      "explanation": "National service includes helping during emergencies and disasters, which strengthens our community and national resilience.",
+      "constitutional_reference": "Article 51A(d)"
+    },
+    {
+      "id": 9,
+      "duty": "d",
+      "difficulty": "easy",
+      "type": "scenario_based",
+      "analogy": "sports",
+      "question": "True or False: Duty (d) only means joining the army and doesn't include other forms of national service.",
+      "correct_answer": "false",
+      "explanation": "Duty (d) includes defending the country but also means rendering national service in any form, including community service, emergency help, and disaster relief.",
+      "constitutional_reference": "Article 51A(d)"
+    },
+    {
+      "id": 10,
+      "duty": "e",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "analogy": "family",
+      "question": "In the Sharma family, everyone treats each other with respect regardless of gender. When younger siblings want to participate in cooking or playing sports, they are encouraged equally. This family behavior reflects:",
+      "options": [
+        "Duty (e) - Promote harmony and common brotherhood",
+        "Duty (a) - Abide by Constitution",
+        "Duty (j) - Strive for excellence",
+        "Duty (c) - Uphold unity"
+      ],
+      "correct_answer": "Duty (e) - Promote harmony and common brotherhood",
+      "explanation": "Promoting harmony means treating everyone with dignity and ensuring equal opportunities, especially for women and eliminating practices that hurt their dignity.",
+      "constitutional_reference": "Article 51A(e)"
+    },
+    {
+      "id": 11,
+      "duty": "e",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "analogy": "sports",
+      "question": "When a cricket team captain ensures girls are included in all team activities and speaks up against jokes that make girls uncomfortable, the captain is practicing ______ (Fundamental Duty letter).",
+      "correct_answer": "e",
+      "explanation": "Duty (e) specifically calls for promoting harmony and renouncing practices that are derogatory to the dignity of women.",
+      "constitutional_reference": "Article 51A(e)"
+    },
+    {
+      "id": 12,
+      "duty": "f",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "analogy": "gardening",
+      "question": "Maya's grandmother teaches her how to grow traditional spices and herbs that have been part of their family for generations. This activity helps preserve:",
+      "options": [
+        "Duty (f) - Composite culture",
+        "Duty (b) - Freedom struggle ideals",
+        "Duty (g) - Natural environment",
+        "Duty (j) - Excellence"
+      ],
+      "correct_answer": "Duty (f) - Composite culture",
+      "explanation": "Our composite culture includes all the traditions, practices, arts, and knowledge passed down through generations, which should be preserved and valued.",
+      "constitutional_reference": "Article 51A(f)"
+    },
+    {
+      "id": 13,
+      "duty": "f",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "analogy": "community",
+      "question": "At a community cultural festival, different ethnic groups set up stalls showcasing their traditional foods, dances, and crafts. Visitors from all backgrounds are welcomed and encouraged to learn. What fundamental duty is being practiced?",
+      "options": [
+        "Duty (f) - Preserve composite culture",
+        "Duty (e) - Promote harmony",
+        "Duty (g) - Protect environment",
+        "Duty (c) - Uphold unity"
+      ],
+      "correct_answer": "Duty (f) - Preserve composite culture",
+      "explanation": "This event celebrates and preserves our diverse cultural heritage while bringing people together, representing our rich composite culture.",
+      "constitutional_reference": "Article 51A(f)"
+    },
+    {
+      "id": 14,
+      "duty": "g",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "analogy": "gardening",
+      "question": "Every weekend, the Patel children water their neighborhood park plants, plant new saplings, and make sure no one throws trash in the garden. Their actions show:",
+      "options": [
+        "Duty (g) - Protect and improve environment",
+        "Duty (f) - Preserve culture",
+        "Duty (j) - Strive for excellence",
+        "Duty (a) - Abide by Constitution"
+      ],
+      "correct_answer": "Duty (g) - Protect and improve environment",
+      "explanation": "Protecting and improving the natural environment, including being compassionate to all living creatures, is a fundamental civic responsibility.",
+      "constitutional_reference": "Article 51A(g)"
+    },
+    {
+      "id": 15,
+      "duty": "g",
+      "difficulty": "easy",
+      "type": "scenario_based",
+      "analogy": "team",
+      "question": "True or False: A robotics club team that uses recyclable materials for their project and reduces plastic waste is practicing Duty (g).",
+      "correct_answer": "true",
+      "explanation": "Using eco-friendly materials and reducing waste are practical ways to protect and improve our natural environment as part of our fundamental duties.",
+      "constitutional_reference": "Article 51A(g)"
+    },
+    {
+      "id": 16,
+      "duty": "h",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "analogy": "team",
+      "question": "In a science fair team, Rina insists on testing their experiment multiple times with different methods before concluding their results. This approach demonstrates:",
+      "options": [
+        "Duty (h) - Develop scientific temper and inquiry",
+        "Duty (j) - Strive for excellence",
+        "Duty (g) - Protect environment",
+        "Duty (f) - Preserve culture"
+      ],
+      "correct_answer": "Duty (h) - Develop scientific temper and inquiry",
+      "explanation": "Scientific temper means developing the spirit of inquiry, humanism, and the reform of irrational and obscurantist beliefs through reason and evidence.",
+      "constitutional_reference": "Article 51A(h)"
+    },
+    {
+      "id": 17,
+      "duty": "h",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "analogy": "family",
+      "question": "When 14-year-old Arjun questions traditional beliefs about rain being caused by gods and instead learns about weather patterns and climate science, he is developing ______ (Fundamental Duty letter).",
+      "correct_answer": "h",
+      "explanation": "Duty (h) specifically calls for developing scientific temper and humanism, which means questioning irrational beliefs and embracing evidence-based understanding.",
+      "constitutional_reference": "Article 51A(h)"
+    },
+    {
+      "id": 18,
+      "duty": "i",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "analogy": "community",
+      "question": "During a visit to the public library, children make sure to return books on time, handle them carefully, and speak quietly so others can read peacefully. This behavior shows:",
+      "options": [
+        "Duty (i) - Safeguard public property",
+        "Duty (e) - Promote harmony",
+        "Duty (j) - Strive for excellence",
+        "Duty (g) - Protect environment"
+      ],
+      "correct_answer": "Duty (i) - Safeguard public property",
+      "explanation": "Public property belongs to everyone, so we have a duty to protect it and use it responsibly. We must also abjure violence and solve problems peacefully.",
+      "constitutional_reference": "Article 51A(i)"
+    },
+    {
+      "id": 19,
+      "duty": "i",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "analogy": "family",
+      "question": "Two siblings have an argument about who gets to use the family car. Instead of fighting, they decide to discuss the situation calmly and find a fair solution by taking turns. What fundamental duty does this demonstrate?",
+      "options": [
+        "Duty (i) - Abjure violence, use peaceful means",
+        "Duty (e) - Promote harmony",
+        "Duty (c) - Uphold unity",
+        "Duty (a) - Abide by Constitution"
+      ],
+      "correct_answer": "Duty (i) - Abjure violence, use peaceful means",
+      "explanation": "This scenario shows the 'abjure violence' part of Duty (i), which means rejecting violence and using peaceful dialogue to resolve conflicts.",
+      "constitutional_reference": "Article 51A(i)"
+    },
+    {
+      "id": 20,
+      "duty": "j",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "analogy": "sports",
+      "question": "A young athlete practices every day, analyzes her mistakes after each match, and asks coaches for feedback to improve. Her dedication reflects:",
+      "options": [
+        "Duty (j) - Strive for excellence",
+        "Duty (h) - Develop inquiry",
+        "Duty (g) - Protect environment",
+        "Duty (d) - Defend country"
+      ],
+      "correct_answer": "Duty (j) - Strive for excellence",
+      "explanation": "Striving for excellence means constantly improving our skills, learning from failures, and putting in consistent effort so that the nation can progress to higher levels.",
+      "constitutional_reference": "Article 51A(j)"
+    },
+    {
+      "id": 21,
+      "duty": "j",
+      "difficulty": "medium",
+      "type": "scenario_based",
+      "analogy": "team",
+      "question": "True or False: A music band that practices daily, helps each member improve their skills, and aims to perform at a national competition is practicing Duty (j).",
+      "correct_answer": "true",
+      "explanation": "Striving for excellence involves working hard, helping others improve, and aiming for higher standards so that our nation as a whole can rise to higher levels of achievement.",
+      "constitutional_reference": "Article 51A(j)"
+    },
+    {
+      "id": 22,
+      "duty": "k",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "analogy": "family",
+      "question": "Rahul's parents ensure he attends school every day, has a quiet place to do homework, and read bedtime stories to help him develop good reading habits. This shows:",
+      "options": [
+        "Duty (k) - Provide education opportunities (6-14 years)",
+        "Duty (j) - Strive for excellence",
+        "Duty (e) - Promote harmony",
+        "Duty (a) - Abide by Constitution"
+      ],
+      "correct_answer": "Duty (k) - Provide education opportunities (6-14 years)",
+      "explanation": "Duty (k) specifically applies to parents and guardians, requiring them to provide opportunities for education to children aged 6-14 years.",
+      "constitutional_reference": "Article 51A(k)"
+    },
+    {
+      "id": 23,
+      "duty": "k",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "analogy": "community",
+      "question": "The local community center offers free evening classes for working-class children who cannot attend regular school during the day. Community members volunteer to teach and organize these classes. This initiative helps fulfill:",
+      "options": [
+        "Duty (k) - Ensure education for all children 6-14",
+        "Duty (d) - Render national service",
+        "Duty (e) - Promote harmony",
+        "Duty (g) - Protect environment"
+      ],
+      "correct_answer": "Duty (k) - Ensure education for all children 6-14",
+      "explanation": "While Duty (k) is primarily for parents, the community's role in supporting education for all children helps fulfill this constitutional responsibility.",
+      "constitutional_reference": "Article 51A(k)"
+    },
+    {
+      "id": 24,
+      "duty": "a",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "analogy": "team",
+      "question": "A theater troupe begins each performance with a moment of respect for the Constitution and its ideals. This practice helps the group:",
+      "options": [
+        "Connect their work to constitutional values",
+        "Duty (a) - Abide by Constitution",
+        "Both (a) and the above",
+        "Only for religious purposes"
+      ],
+      "correct_answer": "Both (a) and the above",
+      "explanation": "Abiding by the Constitution means respecting its ideals in all aspects of life, including cultural and artistic activities.",
+      "constitutional_reference": "Article 51A(a)"
+    },
+    {
+      "id": 25,
+      "duty": "b",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "analogy": "sports",
+      "question": "When a football team captain chooses fair play over winning at all costs, even when the referee makes a mistake, the team is following the ______ ideals of India's freedom struggle.",
+      "correct_answer": "noble",
+      "explanation": "The freedom struggle was guided by noble ideals like non-violence, truth, and fair play, which should continue to guide our actions today.",
+      "constitutional_reference": "Article 51A(b)"
+    },
+    {
+      "id": 26,
+      "duty": "c",
+      "difficulty": "medium",
+      "type": "scenario_based",
+      "analogy": "community",
+      "question": "True or False: Supporting only people from your own community during a crisis is the best way to uphold national unity and integrity.",
+      "correct_answer": "false",
+      "explanation": "Unity and integrity mean treating all citizens as equal, regardless of community, region, or background. True national unity celebrates diversity while maintaining bonds.",
+      "constitutional_reference": "Article 51A(c)"
+    },
+    {
+      "id": 27,
+      "duty": "d",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "analogy": "team",
+      "question": "During a school science fair, a team of students learns about basic first aid and creates a demonstration on how to help someone who falls. They present their knowledge to younger students. How does this relate to Duty (d)?",
+      "options": [
+        "They're developing skills for potential national service",
+        "Duty (d) includes learning useful skills",
+        "Both (a) and (b)",
+        "It's unrelated to national duty"
+      ],
+      "correct_answer": "Both (a) and (b)",
+      "explanation": "Duty (d) encourages citizens to develop skills and readiness that could be useful for national service in times of need.",
+      "constitutional_reference": "Article 51A(d)"
+    },
+    {
+      "id": 28,
+      "duty": "e",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "analogy": "gardening",
+      "question": "In a community garden, when different families help each other water plants during hot weather and share vegetables when they harvest, they are practicing:",
+      "options": [
+        "Duty (e) - Promote harmony and brotherhood",
+        "Duty (g) - Protect environment",
+        "Duty (i) - Safeguard property",
+        "Duty (j) - Strive for excellence"
+      ],
+      "correct_answer": "Duty (e) - Promote harmony and brotherhood",
+      "explanation": "Working together and helping each other strengthens community bonds and promotes the spirit of common brotherhood.",
+      "constitutional_reference": "Article 51A(e)"
+    },
+    {
+      "id": 29,
+      "duty": "f",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "analogy": "family",
+      "question": "When grandmother teaches her granddaughter both their family cooking traditions and helps her learn about food from other regions of India, she is helping preserve ______ (one word - composite culture/tradition/identity).",
+      "correct_answer": "composite culture",
+      "explanation": "Our composite culture includes all regional, cultural, and traditional elements that make India uniquely diverse and beautiful.",
+      "constitutional_reference": "Article 51A(f)"
+    },
+    {
+      "id": 30,
+      "duty": "g",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "analogy": "team",
+      "question": "A robotics team decides to use solar panels instead of batteries for their project, and they design their robot to sort waste materials. Their actions show commitment to:",
+      "options": [
+        "Duty (g) - Environmental protection",
+        "Duty (h) - Scientific inquiry",
+        "Duty (j) - Excellence in engineering",
+        "Duty (i) - Safeguarding resources"
+      ],
+      "correct_answer": "Duty (g) - Environmental protection",
+      "explanation": "Using renewable energy and promoting waste management are concrete ways to protect and improve our natural environment.",
+      "constitutional_reference": "Article 51A(g)"
+    },
+    {
+      "id": 31,
+      "duty": "h",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "analogy": "family",
+      "question": "Arjun's parents encourage him to ask questions about how things work and help him research the answers online before making any decisions about beliefs. This approach helps develop:",
+      "options": [
+        "Duty (h) - Scientific temper",
+        "Duty (j) - Excellence in thinking",
+        "Duty (e) - Critical thinking skills",
+        "Duty (a) - Constitutional awareness"
+      ],
+      "correct_answer": "Duty (h) - Scientific temper",
+      "explanation": "Encouraging inquiry and evidence-based thinking helps develop scientific temper and humanism, which fights against superstition and irrational beliefs.",
+      "constitutional_reference": "Article 51A(h)"
+    },
+    {
+      "id": 32,
+      "duty": "i",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "analogy": "gardening",
+      "question": "When children find a broken fence in their community garden, they don't ignore it. Instead, they inform the community leaders and offer to help fix it themselves. This shows:",
+      "options": [
+        "Duty (i) - Safeguarding public property",
+        "Duty (e) - Community responsibility",
+        "Duty (j) - Initiative and excellence",
+        "Duty (g) - Environmental care"
+      ],
+      "correct_answer": "Duty (i) - Safeguarding public property",
+      "explanation": "Public property like community gardens belongs to everyone, so we have a responsibility to report damage and help maintain it.",
+      "constitutional_reference": "Article 51A(i)"
+    },
+    {
+      "id": 33,
+      "duty": "j",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "analogy": "team",
+      "question": "A dance troupe that has been performing for years decides to still practice daily, learn new dance forms from different regions, and help younger dancers improve their skills. What principle guides their continued effort?",
+      "options": [
+        "Duty (j) - Strive for excellence",
+        "Duty (f) - Cultural preservation",
+        "Duty (e) - Mentoring others",
+        "Duty (h) - Continuous learning"
+      ],
+      "correct_answer": "Duty (j) - Strive for excellence",
+      "explanation": "Excellence means continuously improving and helping others rise to higher levels, which benefits both individuals and the nation.",
+      "constitutional_reference": "Article 51A(j)"
+    },
+    {
+      "id": 34,
+      "duty": "k",
+      "difficulty": "medium",
+      "type": "true_false",
+      "analogy": "community",
+      "question": "True or False: Only parents have the responsibility to provide education to children aged 6-14 according to the Constitution.",
+      "correct_answer": "false",
+      "explanation": "While Duty (k) is specifically for parents and guardians, the entire community and government have roles in ensuring education is available and accessible to all children.",
+      "constitutional_reference": "Article 51A(k)"
+    },
+    {
+      "id": 35,
+      "duty": "a",
+      "difficulty": "medium",
+      "type": "scenario_based",
+      "analogy": "community",
+      "question": "During a cultural event where people from different backgrounds are present, the organizers ensure the national anthem is played and everyone stands respectfully, even though some attendees may not be familiar with the practice. What does this demonstrate?",
+      "options": [
+        "Building respect for constitutional ideals among diverse groups",
+        "Duty (a) - Constitutional respect",
+        "Both (a) and (b)",
+        "Only cultural integration"
+      ],
+      "correct_answer": "Both (a) and (b)",
+      "explanation": "When constitutional ideals are respectfully shared with diverse groups, it helps build national unity and respect for our foundational values.",
+      "constitutional_reference": "Article 51A(a)"
+    },
+    {
+      "id": 36,
+      "duty": "b",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "analogy": "family",
+      "question": "When elderly family members share stories about how people during freedom struggle fought for equality and justice, young family members learn about:",
+      "options": [
+        "Duty (b) - Freedom struggle ideals",
+        "Duty (c) - National unity",
+        "Duty (e) - Social equality",
+        "Duty (h) - Historical knowledge"
+      ],
+      "correct_answer": "Duty (b) - Freedom struggle ideals",
+      "explanation": "The noble ideals of the freedom struggle include courage, non-violence, truth, sacrifice, and justice, which should continue to guide citizens.",
+      "constitutional_reference": "Article 51A(b)"
+    },
+    {
+      "id": 37,
+      "duty": "c",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "analogy": "sports",
+      "question": "When a multi-cultural sports team decides to celebrate their different backgrounds together instead of creating separate groups, they are working to maintain India's ______ and integrity.",
+      "correct_answer": "unity",
+      "explanation": "Unity means staying together as one nation despite our differences, while integrity means keeping our country whole and undivided.",
+      "constitutional_reference": "Article 51A(c)"
+    },
+    {
+      "id": 38,
+      "duty": "d",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "analogy": "community",
+      "question": "During a flood, many young volunteers help distribute food, rescue people, and clean affected areas. Their actions fulfill:",
+      "options": [
+        "Duty (d) - Render national service",
+        "Duty (g) - Environmental protection",
+        "Duty (e) - Community service",
+        "Duty (i) - Property care"
+      ],
+      "correct_answer": "Duty (d) - Render national service",
+      "explanation": "National service includes helping during emergencies and disasters, which strengthens community resilience and national solidarity.",
+      "constitutional_reference": "Article 51A(d)"
+    },
+    {
+      "id": 39,
+      "duty": "e",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "analogy": "team",
+      "question": "A group project team ensures that everyone, regardless of gender, gets equal chances to present ideas and lead different parts of the work. This approach promotes:",
+      "options": [
+        "Duty (e) - Equality and dignity",
+        "Duty (j) - Team excellence",
+        "Duty (h) - Democratic participation",
+        "Duty (c) - Group unity"
+      ],
+      "correct_answer": "Duty (e) - Equality and dignity",
+      "explanation": "Promoting harmony and common brotherhood includes ensuring equal dignity and opportunities for all, especially women.",
+      "constitutional_reference": "Article 51A(e)"
+    },
+    {
+      "id": 40,
+      "duty": "f",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "analogy": "team",
+      "question": "A music teacher in a school makes sure students learn songs and instruments from different regions of India. This practice helps preserve:",
+      "options": [
+        "Duty (f) - India's composite culture",
+        "Duty (b) - Historical traditions",
+        "Duty (e) - Cultural diversity",
+        "Duty (h) - Artistic excellence"
+      ],
+      "correct_answer": "Duty (f) - India's composite culture",
+      "explanation": "Composite culture means all the diverse cultural traditions, arts, languages, and practices that make up our national heritage.",
+      "constitutional_reference": "Article 51A(f)"
+    },
+    {
+      "id": 41,
+      "duty": "g",
+      "difficulty": "easy",
+      "type": "true_false",
+      "analogy": "family",
+      "question": "True or False: When a family uses cloth bags instead of plastic bags and composts kitchen waste, they are practicing environmental protection.",
+      "correct_answer": "true",
+      "explanation": "Small daily actions like reducing plastic use and composting waste are practical ways to protect and improve our natural environment.",
+      "constitutional_reference": "Article 51A(g)"
+    },
+    {
+      "id": 42,
+      "duty": "h",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "analogy": "team",
+      "question": "When students in a science project question traditional beliefs about why certain things happen and try to find scientific explanations, they are developing:",
+      "options": [
+        "Duty (h) - Scientific temper",
+        "Duty (j) - Critical thinking",
+        "Duty (a) - Constitutional awareness",
+        "Duty (b) - Rational thinking"
+      ],
+      "correct_answer": "Duty (h) - Scientific temper",
+      "explanation": "Scientific temper involves questioning irrational beliefs, seeking evidence, and developing a spirit of inquiry and reform.",
+      "constitutional_reference": "Article 51A(h)"
+    },
+    {
+      "id": 43,
+      "duty": "i",
+      "difficulty": "medium",
+      "type": "scenario_based",
+      "analogy": "community",
+      "question": "A community has a long-standing tradition of respecting public property, but some young people start damaging park benches. Older community members organize a meeting to discuss peaceful solutions. What fundamental duty guides their approach?",
+      "options": [
+        "Duty (i) - Abjure violence, protect property peacefully",
+        "Duty (e) - Promote community harmony",
+        "Duty (c) - Maintain social order",
+        "Duty (j) - Strive for better community behavior"
+      ],
+      "correct_answer": "Duty (i) - Abjure violence, protect property peacefully",
+      "explanation": "The approach shows both safeguarding public property and choosing peaceful methods to address problems, as required by Duty (i).",
+      "constitutional_reference": "Article 51A(i)"
+    },
+    {
+      "id": 44,
+      "duty": "j",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "analogy": "gardening",
+      "question": "A gardener who tends to plants daily, learns new techniques from experts, and experiments with better ways to grow vegetables demonstrates:",
+      "options": [
+        "Duty (j) - Strive for excellence",
+        "Duty (g) - Environmental care",
+        "Duty (h) - Learning and inquiry",
+        "Duty (f) - Traditional knowledge"
+      ],
+      "correct_answer": "Duty (j) - Strive for excellence",
+      "explanation": "Excellence involves continuous learning, improvement, and sharing knowledge so that everyone can benefit and progress together.",
+      "constitutional_reference": "Article 51A(j)"
+    },
+    {
+      "id": 45,
+      "duty": "k",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "analogy": "team",
+      "question": "Parents who ensure their child has regular attendance at school, helps with homework, and shows interest in learning new things are fulfilling:",
+      "options": [
+        "Duty (k) - Education responsibility",
+        "Duty (j) - Excellence in parenting",
+        "Duty (h) - Educational support",
+        "Duty (a) - Constitutional duty"
+      ],
+      "correct_answer": "Duty (k) - Education responsibility",
+      "explanation": "Duty (k) specifically requires parents and guardians to provide opportunities for education to children aged 6-14 years.",
+      "constitutional_reference": "Article 51A(k)"
+    },
+    {
+      "id": 46,
+      "duty": "a",
+      "difficulty": "medium",
+      "type": "true_false",
+      "analogy": "team",
+      "question": "True or False: Only government officials need to respect the Constitution and its ideals.",
+      "correct_answer": "false",
+      "explanation": "Duty (a) applies to all citizens, not just officials. Every person has the responsibility to abide by the Constitution and respect its ideals.",
+      "constitutional_reference": "Article 51A(a)"
+    },
+    {
+      "id": 47,
+      "duty": "b",
+      "difficulty": "hard",
+      "type": "scenario_based",
+      "analogy": "community",
+      "question": "A community decides to honor freedom fighters by creating a memorial garden with plants that were used during the freedom struggle for medicine and food. How does this relate to Duty (b)?",
+      "options": [
+        "It's preserving noble ideals through living heritage",
+        "Duty (b) - Cherishing freedom struggle ideals",
+        "Both (a) and (b)",
+        "It's only about preserving history"
+      ],
+      "correct_answer": "Both (a) and (b)",
+      "explanation": "This project preserves the memory and values of the freedom struggle while making those ideals part of present-day life and learning.",
+      "constitutional_reference": "Article 51A(b)"
+    },
+    {
+      "id": 48,
+      "duty": "c",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "analogy": "family",
+      "question": "When a family from one region welcomes neighbors from different states and helps them feel at home, they are practicing:",
+      "options": [
+        "Duty (c) - National unity and integrity",
+        "Duty (e) - Social harmony",
+        "Duty (g) - Community support",
+        "Duty (f) - Cultural exchange"
+      ],
+      "correct_answer": "Duty (c) - National unity and integrity",
+      "explanation": "Welcoming people from different regions and backgrounds helps maintain the unity and integrity of our diverse nation.",
+      "constitutional_reference": "Article 51A(c)"
+    },
+    {
+      "id": 49,
+      "duty": "d",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "analogy": "team",
+      "question": "When scouts organize a disaster preparedness workshop for their community, they are preparing to ______ (render/have) national service in case of emergencies.",
+      "correct_answer": "render",
+      "explanation": "Duty (d) calls upon citizens to be ready to render national service when called upon, including during emergencies and disasters.",
+      "constitutional_reference": "Article 51A(d)"
+    },
+    {
+      "id": 50,
+      "duty": "e",
+      "difficulty": "hard",
+      "type": "scenario_based",
+      "analogy": "community",
+      "question": "During a community festival planning committee meeting, some members suggest a traditional event that might exclude certain groups. The committee decides to modify the plan to include everyone equally. What fundamental duty guides this decision?",
+      "options": [
+        "Duty (e) - Promoting harmony and dignity for all",
+        "Duty (c) - Maintaining unity",
+        "Duty (f) - Preserving inclusive culture",
+        "Duty (a) - Following constitutional principles"
+      ],
+      "correct_answer": "Duty (e) - Promoting harmony and dignity for all",
+      "explanation": "This decision ensures that no practices hurt the dignity of any group, which is essential for promoting harmony and common brotherhood.",
+      "constitutional_reference": "Article 51A(e)"
+    },
+    {
+      "id": 51,
+      "duty": "f",
+      "difficulty": "easy",
+      "type": "true_false",
+      "analogy": "team",
+      "question": "True or False: Composite culture means we should all follow the same traditions and abandon our regional differences.",
+      "correct_answer": "false",
+      "explanation": "Composite culture means celebrating and preserving all diverse traditions, languages, arts, and practices while living together harmoniously.",
+      "constitutional_reference": "Article 51A(f)"
+    },
+    {
+      "id": 52,
+      "duty": "g",
+      "difficulty": "hard",
+      "type": "scenario_based",
+      "analogy": "family",
+      "question": "A family notices that their local river is getting polluted. Instead of just complaining, they organize neighbors to clean it, plant trees along the banks, and educate others about water conservation. Their actions fulfill:",
+      "options": [
+        "Duty (g) - Comprehensive environmental protection",
+        "Duty (d) - Community service",
+        "Duty (e) - Collective responsibility",
+        "Duty (i) - Public property care"
+      ],
+      "correct_answer": "Duty (g) - Comprehensive environmental protection",
+      "explanation": "This includes not just protecting the environment but actively improving it, which encompasses education, conservation, and restoration.",
+      "constitutional_reference": "Article 51A(g)"
+    },
+    {
+      "id": 53,
+      "duty": "h",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "analogy": "team",
+      "question": "When a debate team researches evidence thoroughly, separates facts from opinions, and questions assumptions before forming arguments, they demonstrate:",
+      "options": [
+        "Duty (h) - Scientific temper in reasoning",
+        "Duty (j) - Excellence in debate",
+        "Duty (a) - Constitutional thinking",
+        "Duty (e) - Democratic discussion"
+      ],
+      "correct_answer": "Duty (h) - Scientific temper in reasoning",
+      "explanation": "Applying scientific temper means using evidence, logic, and inquiry in all aspects of life, including debates and decision-making.",
+      "constitutional_reference": "Article 51A(h)"
+    },
+    {
+      "id": 54,
+      "duty": "i",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "analogy": "gardening",
+      "question": "Children who carefully water community garden plants, replant damaged seedlings, and build protective fences around vegetable beds are showing care for:",
+      "options": [
+        "Duty (i) - Public property and shared resources",
+        "Duty (g) - Environmental protection",
+        "Duty (e) - Community responsibility",
+        "Duty (j) - Excellence in gardening"
+      ],
+      "correct_answer": "Duty (i) - Public property and shared resources",
+      "explanation": "Community gardens are public property that belongs to everyone, so caring for them demonstrates safeguarding public property.",
+      "constitutional_reference": "Article 51A(i)"
+    },
+    {
+      "id": 55,
+      "duty": "j",
+      "difficulty": "hard",
+      "type": "fill_in_blank",
+      "analogy": "team",
+      "question": "When a sports team helps their rivals improve their skills and shares training techniques, they are showing that ______ means raising everyone to higher standards, not just themselves.",
+      "correct_answer": "excellence",
+      "explanation": "True excellence involves helping others improve and reach higher levels, which benefits the entire community and nation.",
+      "constitutional_reference": "Article 51A(j)"
+    },
+    {
+      "id": 56,
+      "duty": "k",
+      "difficulty": "hard",
+      "type": "scenario_based",
+      "analogy": "community",
+      "question": "A community realizes that some children in their area cannot attend school due to family financial problems. They organize a fund to help families, provide textbooks, and set up community tutoring. This initiative supports:",
+      "options": [
+        "Duty (k) - Ensuring education for all children 6-14",
+        "Duty (d) - Community service",
+        "Duty (e) - Social equality",
+        "Duty (g) - Community development"
+      ],
+      "correct_answer": "Duty (k) - Ensuring education for all children 6-14",
+      "explanation": "While Duty (k) specifically addresses parents' responsibilities, communities have a role in supporting education access for all children.",
+      "constitutional_reference": "Article 51A(k)"
+    },
+    {
+      "id": 57,
+      "duty": "a",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "analogy": "community",
+      "question": "When citizens participate in local governance meetings and follow rules set by elected representatives, they are practicing:",
+      "options": [
+        "Duty (a) - Abiding by constitutional principles",
+        "Duty (c) - Supporting democracy",
+        "Duty (d) - Civic participation",
+        "Duty (e) - Community involvement"
+      ],
+      "correct_answer": "Duty (a) - Abiding by constitutional principles",
+      "explanation": "Abiding by the Constitution includes respecting democratic processes and the rule of law in our daily civic participation.",
+      "constitutional_reference": "Article 51A(a)"
+    },
+    {
+      "id": 58,
+      "duty": "b",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "analogy": "team",
+      "question": "A youth organization that holds regular meetings to discuss how to practice values like courage, honesty, and service in their community is working to:",
+      "options": [
+        "Duty (b) - Keep freedom struggle ideals alive",
+        "Duty (e) - Promote ethical behavior",
+        "Duty (h) - Develop moral thinking",
+        "Duty (j) - Strive for excellence in character"
+      ],
+      "correct_answer": "Duty (b) - Keep freedom struggle ideals alive",
+      "explanation": "Regular discussion and practice of noble ideals like courage and honesty keeps the values of the freedom struggle relevant in modern life.",
+      "constitutional_reference": "Article 51A(b)"
+    },
+    {
+      "id": 59,
+      "duty": "c",
+      "difficulty": "medium",
+      "type": "true_false",
+      "analogy": "sports",
+      "question": "True or False: National unity means all sports teams should have players from only one region.",
+      "correct_answer": "false",
+      "explanation": "Unity celebrates diversity by bringing people from different regions together as one team, strengthening national bonds.",
+      "constitutional_reference": "Article 51A(c)"
+    },
+    {
+      "id": 60,
+      "duty": "d",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "analogy": "family",
+      "question": "A family that prepares emergency supplies, learns basic first aid, and has a plan for different types of emergencies is demonstrating readiness for:",
+      "options": [
+        "Duty (d) - National service and defense preparedness",
+        "Duty (g) - Family safety",
+        "Duty (i) - Property protection",
+        "Duty (e) - Family responsibility"
+      ],
+      "correct_answer": "Duty (d) - National service and defense preparedness",
+      "explanation": "Being prepared for emergencies is a form of national service that strengthens our community's ability to respond to crises.",
+      "constitutional_reference": "Article 51A(d)"
+    },
+    {
+      "id": 61,
+      "duty": "e",
+      "difficulty": "medium",
+      "type": "fill_in_blank",
+      "analogy": "team",
+      "question": "When a team captain ensures that girls and boys have equal opportunities to lead and participate in all activities, the captain is helping to ______ (renounce/promote) practices that hurt women's dignity.",
+      "correct_answer": "renounce",
+      "explanation": "Duty (e) specifically calls for renouncing practices that are derogatory to the dignity of women.",
+      "constitutional_reference": "Article 51A(e)"
+    },
+    {
+      "id": 62,
+      "duty": "f",
+      "difficulty": "medium",
+      "type": "scenario_based",
+      "analogy": "family",
+      "question": "A family decides to celebrate not just their own traditional festivals but also learn about and participate in festivals from their neighbors' cultures. This practice helps:",
+      "options": [
+        "Duty (f) - Value and preserve composite culture",
+        "Duty (e) - Build community harmony",
+        "Duty (b) - Learn about diversity",
+        "Duty (c) - Maintain cultural unity"
+      ],
+      "correct_answer": "Duty (f) - Value and preserve composite culture",
+      "explanation": "Learning about and participating in diverse cultural practices helps preserve and value India's rich composite culture.",
+      "constitutional_reference": "Article 51A(f)"
+    },
+    {
+      "id": 63,
+      "duty": "g",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "analogy": "team",
+      "question": "A robotics team designs their robot to pick up litter and sort recyclables, and they present their project at local schools to teach environmental responsibility. This demonstrates:",
+      "options": [
+        "Duty (g) - Environmental protection and education",
+        "Duty (h) - Technology for good",
+        "Duty (j) - Engineering excellence",
+        "Duty (e) - Community service"
+      ],
+      "correct_answer": "Duty (g) - Environmental protection and education",
+      "explanation": "The project both protects the environment and educates others, showing comprehensive commitment to environmental improvement.",
+      "constitutional_reference": "Article 51A(g)"
+    },
+    {
+      "id": 64,
+      "duty": "h",
+      "difficulty": "hard",
+      "type": "scenario_based",
+      "analogy": "family",
+      "question": "A teenager questions a superstition about pregnancy beliefs and instead researches medical facts from reliable sources to share with family members. This approach helps develop:",
+      "options": [
+        "Duty (h) - Scientific temper and humanism",
+        "Duty (j) - Critical thinking skills",
+        "Duty (e) - Modern outlook",
+        "Duty (a) - Rational citizenship"
+      ],
+      "correct_answer": "Duty (h) - Scientific temper and humanism",
+      "explanation": "Using evidence-based thinking to counter superstitions and help others is a key part of developing scientific temper and humanism.",
+      "constitutional_reference": "Article 51A(h)"
+    },
+    {
+      "id": 65,
+      "duty": "i",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "analogy": "community",
+      "question": "When citizens notice vandalism in public spaces and organize peaceful community meetings to discuss solutions rather than escalating conflicts, they demonstrate:",
+      "options": [
+        "Duty (i) - Protecting public property through peaceful means",
+        "Duty (e) - Community conflict resolution",
+        "Duty (c) - Maintaining social order",
+        "Duty (a) - Following constitutional processes"
+      ],
+      "correct_answer": "Duty (i) - Protecting public property through peaceful means",
+      "explanation": "This shows both safeguarding public property and abjuring violence by choosing peaceful, constitutional methods to address problems.",
+      "constitutional_reference": "Article 51A(i)"
+    },
+    {
+      "id": 66,
+      "duty": "j",
+      "difficulty": "medium",
+      "type": "true_false",
+      "analogy": "gardening",
+      "question": "True or False: Striving for excellence in gardening means always having the biggest harvest in the neighborhood.",
+      "correct_answer": "false",
+      "explanation": "Excellence is about continuous improvement, sharing knowledge with others, and helping the community grow together, not just individual achievement.",
+      "constitutional_reference": "Article 51A(j)"
+    },
+    {
+      "id": 67,
+      "duty": "k",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "analogy": "team",
+      "question": "Parents who ensure their child has time for homework, takes part in school activities, and develops good study habits are fulfilling their duty by:",
+      "options": [
+        "Duty (k) - Providing education opportunities",
+        "Duty (j) - Encouraging academic excellence",
+        "Duty (h) - Supporting learning",
+        "Duty (e) - Family education values"
+      ],
+      "correct_answer": "Duty (k) - Providing education opportunities",
+      "explanation": "Creating time, space, and support for education, along with ensuring regular attendance, are key responsibilities of parents and guardians.",
+      "constitutional_reference": "Article 51A(k)"
+    },
+    {
+      "id": 68,
+      "duty": "a",
+      "difficulty": "hard",
+      "type": "scenario_based",
+      "analogy": "team",
+      "question": "A cultural performance group decides to make their show completely free for all community members, provides sign language interpretation, and ensures accessibility for people with disabilities. How does this relate to constitutional ideals?",
+      "options": [
+        "It embodies equality and inclusion from the Constitution",
+        "Duty (a) - Respecting constitutional ideals",
+        "Both (a) and (b)",
+        "It's only about accessibility"
+      ],
+      "correct_answer": "Both (a) and (b)",
+      "explanation": "This approach embodies constitutional ideals of equality, inclusion, and dignity for all, which are fundamental to our democratic values.",
+      "constitutional_reference": "Article 51A(a)"
+    },
+    {
+      "id": 69,
+      "duty": "b",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "analogy": "family",
+      "question": "When grandparents share stories about how people during the freedom struggle chose truth over lies and helped others even when it was dangerous, young family members learn about:",
+      "options": [
+        "Duty (b) - Noble ideals of courage and truth",
+        "Duty (e) - Social responsibility",
+        "Duty (a) - Constitutional values",
+        "Duty (h) - Ethical thinking"
+      ],
+      "correct_answer": "Duty (b) - Noble ideals of courage and truth",
+      "explanation": "The freedom struggle was guided by noble ideals like courage, truth, non-violence, and service, which should continue to guide our actions.",
+      "constitutional_reference": "Article 51A(b)"
+    },
+    {
+      "id": 70,
+      "duty": "c",
+      "difficulty": "hard",
+      "type": "scenario_based",
+      "analogy": "community",
+      "question": "During a local conflict between two groups, community leaders organize joint meetings, encourage dialogue, and create shared projects that require cooperation from both sides. This approach aims to:",
+      "options": [
+        "Duty (c) - Strengthen unity and integrity through peaceful means",
+        "Duty (e) - Promote harmony",
+        "Duty (i) - Avoid violence",
+        "Duty (a) - Follow constitutional processes"
+      ],
+      "correct_answer": "Duty (c) - Strengthen unity and integrity through peaceful means",
+      "explanation": "This approach works to maintain national unity and integrity by bringing divided groups together through peaceful, constructive methods.",
+      "constitutional_reference": "Article 51A(c)"
+    },
+    {
+      "id": 71,
+      "duty": "d",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "analogy": "team",
+      "question": "Young volunteers who learn first aid, organize blood donation camps, and help during medical emergencies in their community are providing:",
+      "options": [
+        "Duty (d) - National service",
+        "Duty (g) - Community healthcare",
+        "Duty (e) - Social service",
+        "Duty (i) - Emergency response"
+      ],
+      "correct_answer": "Duty (d) - National service",
+      "explanation": "Volunteering during medical emergencies and organizing health services is a form of national service that strengthens community resilience.",
+      "constitutional_reference": "Article 51A(d)"
+    },
+    {
+      "id": 72,
+      "duty": "e",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "analogy": "gardening",
+      "question": "In a community garden, families from different cultural backgrounds help each other with planting, sharing traditional techniques, and celebrating harvest festivals together. This creates:",
+      "options": [
+        "Duty (e) - Harmony and common brotherhood",
+        "Duty (f) - Cultural exchange",
+        "Duty (c) - Community unity",
+        "Duty (g) - Collaborative gardening"
+      ],
+      "correct_answer": "Duty (e) - Harmony and common brotherhood",
+      "explanation": "Working together across cultural differences and sharing knowledge builds harmony and strengthens the spirit of common brotherhood.",
+      "constitutional_reference": "Article 51A(e)"
+    },
+    {
+      "id": 73,
+      "duty": "f",
+      "difficulty": "easy",
+      "type": "true_false",
+      "analogy": "team",
+      "question": "True or False: Learning to play traditional instruments from different regions of India helps preserve composite culture.",
+      "correct_answer": "true",
+      "explanation": "Preserving and learning traditional arts, music, and cultural practices from all regions helps maintain our composite cultural heritage.",
+      "constitutional_reference": "Article 51A(f)"
+    },
+    {
+      "id": 74,
+      "duty": "g",
+      "difficulty": "medium",
+      "type": "fill_in_blank",
+      "analogy": "family",
+      "question": "When a family switches to solar energy, uses rainwater harvesting, and teaches neighbors about water conservation, they are practicing ______ to living creatures by protecting their environment.",
+      "correct_answer": "compassion",
+      "explanation": "Duty (g) includes being compassionate to all living creatures, which means protecting the environment that supports all life.",
+      "constitutional_reference": "Article 51A(g)"
+    },
+    {
+      "id": 75,
+      "duty": "h",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "analogy": "team",
+      "question": "When a debate team spends time researching evidence for all positions in an argument, even ones they disagree with, before forming their own stance, they demonstrate:",
+      "options": [
+        "Duty (h) - Scientific temper in thinking",
+        "Duty (j) - Excellence in research",
+        "Duty (e) - Open-minded discussion",
+        "Duty (a) - Constitutional fairness"
+      ],
+      "correct_answer": "Duty (h) - Scientific temper in thinking",
+      "explanation": "Scientific temper involves considering all evidence objectively before reaching conclusions, which leads to more rational and just decisions.",
+      "constitutional_reference": "Article 51A(h)"
+    },
+    {
+      "id": 76,
+      "duty": "i",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "analogy": "community",
+      "question": "Citizens who report broken street lights, damaged roads, and other public infrastructure problems to authorities are:",
+      "options": [
+        "Duty (i) - Safeguarding public property",
+        "Duty (g) - Community improvement",
+        "Duty (e) - Civic responsibility",
+        "Duty (d) - National service"
+      ],
+      "correct_answer": "Duty (i) - Safeguarding public property",
+      "explanation": "Reporting issues with public infrastructure helps authorities maintain and repair public property, which belongs to everyone.",
+      "constitutional_reference": "Article 51A(i)"
+    },
+    {
+      "id": 77,
+      "duty": "j",
+      "difficulty": "hard",
+      "type": "scenario_based",
+      "analogy": "team",
+      "question": "A music teacher who continues learning new techniques, shares innovative teaching methods with other teachers, and helps struggling students improve beyond basic expectations demonstrates:",
+      "options": [
+        "Duty (j) - Excellence that raises others",
+        "Duty (h) - Continuous learning",
+        "Duty (e) - Mentoring and support",
+        "Duty (a) - Professional dedication"
+      ],
+      "correct_answer": "Duty (j) - Excellence that raises others",
+      "explanation": "True excellence involves helping everyone reach higher levels, not just achieving personal success, which benefits the entire community and nation.",
+      "constitutional_reference": "Article 51A(j)"
+    },
+    {
+      "id": 78,
+      "duty": "k",
+      "difficulty": "medium",
+      "type": "scenario_based",
+      "analogy": "community",
+      "question": "A community establishes evening education centers for children who cannot attend regular school due to work obligations, and volunteers teach basic skills. This initiative helps fulfill:",
+      "options": [
+        "Duty (k) - Community support for education",
+        "Duty (d) - National service",
+        "Duty (e) - Social equality",
+        "Duty (g) - Community development"
+      ],
+      "correct_answer": "Duty (k) - Community support for education",
+      "explanation": "While Duty (k) is for parents, communities have a role in ensuring all children have access to education opportunities.",
+      "constitutional_reference": "Article 51A(k)"
+    },
+    {
+      "id": 79,
+      "duty": "a",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "analogy": "team",
+      "question": "When citizens follow traffic rules, respect public property, and obey laws established by democratic processes, they demonstrate:",
+      "options": [
+        "Duty (a) - Constitutional citizenship",
+        "Duty (e) - Social responsibility",
+        "Duty (i) - Civic compliance",
+        "Duty (c) - National discipline"
+      ],
+      "correct_answer": "Duty (a) - Constitutional citizenship",
+      "explanation": "Abiding by the Constitution includes respecting the rule of law and democratic institutions that govern our society.",
+      "constitutional_reference": "Article 51A(a)"
+    },
+    {
+      "id": 80,
+      "duty": "b",
+      "difficulty": "hard",
+      "type": "scenario_based",
+      "analogy": "gardening",
+      "question": "A community garden dedicates sections to growing food that was commonly used during the freedom struggle for nutrition and medicine. Families maintain these plots and share knowledge about traditional uses. This practice:",
+      "options": [
+        "Keeps freedom struggle ideals alive through living heritage",
+        "Duty (b) - Cherishing noble ideals",
+        "Both (a) and (b)",
+        "Only preserves historical information"
+      ],
+      "correct_answer": "Both (a) and (b)",
+      "explanation": "This approach makes freedom struggle ideals practical and present in daily life, ensuring they are remembered and applied in contemporary times.",
+      "constitutional_reference": "Article 51A(b)"
+    },
+    {
+      "id": 81,
+      "duty": "c",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "analogy": "family",
+      "question": "When a family welcomes neighbors from different regions during festivals and makes them feel included, they are contributing to:",
+      "options": [
+        "Duty (c) - National unity and integrity",
+        "Duty (e) - Social harmony",
+        "Duty (f) - Cultural diversity",
+        "Duty (g) - Community bonding"
+      ],
+      "correct_answer": "Duty (c) - National unity and integrity",
+      "explanation": "Welcoming people from different regions and backgrounds helps maintain the unity and integrity of our diverse nation.",
+      "constitutional_reference": "Article 51A(c)"
+    },
+    {
+      "id": 82,
+      "duty": "d",
+      "difficulty": "hard",
+      "type": "true_false",
+      "analogy": "team",
+      "question": "True or False: National service can only be provided during natural disasters and emergencies.",
+      "correct_answer": "false",
+      "explanation": "National service includes ongoing community service, volunteering, preparedness activities, and helping strengthen community resilience at all times.",
+      "constitutional_reference": "Article 51A(d)"
+    },
+    {
+      "id": 83,
+      "duty": "e",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "analogy": "team",
+      "question": "A sports team captain ensures that team discussions include input from all members, and when conflicts arise, they are resolved through dialogue rather than favoritism. This approach promotes:",
+      "options": [
+        "Duty (e) - Dignity and harmony for all team members",
+        "Duty (j) - Team excellence through fairness",
+        "Duty (c) - Team unity",
+        "Duty (a) - Democratic leadership"
+      ],
+      "correct_answer": "Duty (e) - Dignity and harmony for all team members",
+      "explanation": "Ensuring equal dignity and respectful treatment for all members, regardless of background or position, promotes harmony and common brotherhood.",
+      "constitutional_reference": "Article 51A(e)"
+    },
+    {
+      "id": 84,
+      "duty": "f",
+      "difficulty": "medium",
+      "type": "fill_in_blank",
+      "analogy": "community",
+      "question": "When community members organize a multi-cultural fair where people from different backgrounds share their traditions, foods, and stories, they are celebrating India's ______ culture.",
+      "correct_answer": "composite",
+      "explanation": "Composite culture refers to the beautiful diversity of traditions, languages, arts, and practices that make up India's rich cultural heritage.",
+      "constitutional_reference": "Article 51A(f)"
+    },
+    {
+      "id": 85,
+      "duty": "g",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "analogy": "team",
+      "question": "A robotics team that designs their robot to use recycled materials and teaches other teams about sustainable engineering practices is:",
+      "options": [
+        "Duty (g) - Protecting and improving environment",
+        "Duty (h) - Sharing technical knowledge",
+        "Duty (j) - Engineering excellence",
+        "Duty (e) - Community education"
+      ],
+      "correct_answer": "Duty (g) - Protecting and improving environment",
+      "explanation": "Using sustainable materials and teaching others about environmental responsibility are practical ways to protect and improve our natural environment.",
+      "constitutional_reference": "Article 51A(g)"
+    },
+    {
+      "id": 86,
+      "duty": "h",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "analogy": "family",
+      "question": "When children ask 'why' about how things work, research the answers using reliable sources, and test their ideas through experiments, they are developing:",
+      "options": [
+        "Duty (h) - Scientific temper and inquiry",
+        "Duty (j) - Curiosity and learning",
+        "Duty (a) - Rational thinking",
+        "Duty (e) - Critical thinking"
+      ],
+      "correct_answer": "Duty (h) - Scientific temper and inquiry",
+      "explanation": "Scientific temper involves questioning, researching evidence, and testing ideas, which leads to better understanding and rational decision-making.",
+      "constitutional_reference": "Article 51A(h)"
+    },
+    {
+      "id": 87,
+      "duty": "i",
+      "difficulty": "hard",
+      "type": "scenario_based",
+      "analogy": "community",
+      "question": "A community notices that young people are starting to damage public property due to lack of engagement. Instead of punishment, they create community projects where youth can contribute positively. This approach:",
+      "options": [
+        "Protects public property through positive engagement",
+        "Duty (i) - Abjuring violence, choosing constructive solutions",
+        "Both (a) and (b)",
+        "Only prevents vandalism"
+      ],
+      "correct_answer": "Both (a) and (b)",
+      "explanation": "This approach addresses the root causes while choosing constructive, peaceful methods that protect public property and benefit the community.",
+      "constitutional_reference": "Article 51A(i)"
+    },
+    {
+      "id": 88,
+      "duty": "j",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "analogy": "gardening",
+      "question": "A gardener who keeps learning new techniques, experiments with different methods, and shares successful approaches with neighbors demonstrates:",
+      "options": [
+        "Duty (j) - Excellence through continuous improvement",
+        "Duty (h) - Sharing knowledge",
+        "Duty (g) - Environmental care",
+        "Duty (e) - Community support"
+      ],
+      "correct_answer": "Duty (j) - Excellence through continuous improvement",
+      "explanation": "Excellence involves continuous learning, experimentation, and sharing knowledge so that everyone can benefit and improve together.",
+      "constitutional_reference": "Article 51A(j)"
+    },
+    {
+      "id": 89,
+      "duty": "k",
+      "difficulty": "hard",
+      "type": "scenario_based",
+      "analogy": "family",
+      "question": "A family faces financial difficulties but still ensures their child attends school by making sacrifices, helps with homework despite their own limitations, and creates a learning space at home. Their actions fulfill:",
+      "options": [
+        "Duty (k) - Parents' education responsibility despite challenges",
+        "Duty (j) - Family commitment to excellence",
+        "Duty (h) - Prioritizing learning",
+        "Duty (a) - Constitutional family values"
+      ],
+      "correct_answer": "Duty (k) - Parents' education responsibility despite challenges",
+      "explanation": "Even in difficult circumstances, parents have the constitutional duty to provide opportunities for education to children aged 6-14 years.",
+      "constitutional_reference": "Article 51A(k)"
+    },
+    {
+      "id": 90,
+      "duty": "a",
+      "difficulty": "medium",
+      "type": "true_false",
+      "analogy": "team",
+      "question": "True or False: Respecting national symbols like the Flag and Anthem is only important during official government events.",
+      "correct_answer": "false",
+      "explanation": "Respecting national symbols and constitutional ideals is important in all aspects of civic life, including community events and public gatherings.",
+      "constitutional_reference": "Article 51A(a)"
+    },
+    {
+      "id": 91,
+      "duty": "b",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "analogy": "community",
+      "question": "A community creates a 'values wall' where people share stories about acts of courage, honesty, and service that happen in their neighborhood. This practice helps:",
+      "options": [
+        "Duty (b) - Keep freedom struggle ideals relevant",
+        "Duty (e) - Celebrate community goodness",
+        "Duty (a) - Promote constitutional values",
+        "Duty (j) - Recognize excellence"
+      ],
+      "correct_answer": "Duty (b) - Keep freedom struggle ideals relevant",
+      "explanation": "Regularly sharing and celebrating stories of noble values keeps the ideals of the freedom struggle alive and relevant in daily community life.",
+      "constitutional_reference": "Article 51A(b)"
+    },
+    {
+      "id": 92,
+      "duty": "c",
+      "difficulty": "medium",
+      "type": "scenario_based",
+      "analogy": "sports",
+      "question": "During a regional sports competition, athletes from different states form friendships, learn each other's languages, and support each other even when competing. This behavior supports:",
+      "options": [
+        "Duty (c) - Unity and integrity through sports",
+        "Duty (e) - Sportsmanship and harmony",
+        "Duty (b) - Regional cultural exchange",
+        "Duty (j) - Athletic excellence"
+      ],
+      "correct_answer": "Duty (c) - Unity and integrity through sports",
+      "explanation": "Sports can build bridges between different regions and backgrounds, strengthening national unity and integrity through shared experiences.",
+      "constitutional_reference": "Article 51A(c)"
+    },
+    {
+      "id": 93,
+      "duty": "d",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "analogy": "team",
+      "question": "When young people volunteer to learn disaster management skills and teach these skills to others in their community, they are:",
+      "options": [
+        "Duty (d) - Preparing for national service",
+        "Duty (g) - Community safety training",
+        "Duty (i) - Emergency preparedness",
+        "Duty (e) - Social responsibility"
+      ],
+      "correct_answer": "Duty (d) - Preparing for national service",
+      "explanation": "Learning and sharing skills that help during emergencies and disasters is a form of national service that strengthens community resilience.",
+      "constitutional_reference": "Article 51A(d)"
+    },
+    {
+      "id": 94,
+      "duty": "e",
+      "difficulty": "hard",
+      "type": "fill_in_blank",
+      "analogy": "team",
+      "question": "When a team captain speaks up against inappropriate jokes or behavior that makes certain members uncomfortable and establishes clear team guidelines for respectful communication, the captain is promoting ______ (one word).",
+      "correct_answer": "harmony",
+      "explanation": "Duty (e) calls for promoting harmony and common brotherhood, which includes ensuring respectful treatment for all members.",
+      "constitutional_reference": "Article 51A(e)"
+    },
+    {
+      "id": 95,
+      "duty": "f",
+      "difficulty": "hard",
+      "type": "scenario_based",
+      "analogy": "family",
+      "question": "A multi-generational family decides to document their family's migration story, including challenges faced and contributions made to their new community. They share this story with local schools and museums. This practice:",
+      "options": [
+        "Preserves personal history as part of composite culture",
+        "Duty (f) - Value and preserve composite culture",
+        "Both (a) and (b)",
+        "Only preserves family memories"
+      ],
+      "correct_answer": "Both (a) and (b)",
+      "explanation": "Personal and family migration stories become part of our composite cultural heritage when shared and preserved for future generations.",
+      "constitutional_reference": "Article 51A(f)"
+    },
+    {
+      "id": 96,
+      "duty": "g",
+      "difficulty": "hard",
+      "type": "scenario_based",
+      "analogy": "community",
+      "question": "A community faces severe water scarcity. Instead of individual solutions, they organize rainwater harvesting projects, tree planting drives, and water conservation education programs. This comprehensive approach demonstrates:",
+      "options": [
+        "Duty (g) - Protecting and improving the environment",
+        "Duty (d) - Community service",
+        "Duty (e) - Collective responsibility",
+        "Duty (i) - Sustainable resource management"
+      ],
+      "correct_answer": "Duty (g) - Protecting and improving the environment",
+      "explanation": "This approach addresses environmental protection through conservation, restoration, and education, showing comprehensive commitment to environmental improvement.",
+      "constitutional_reference": "Article 51A(g)"
+    },
+    {
+      "id": 97,
+      "duty": "h",
+      "difficulty": "hard",
+      "type": "true_false",
+      "analogy": "team",
+      "question": "True or False: Scientific temper only applies to science subjects and laboratory experiments.",
+      "correct_answer": "false",
+      "explanation": "Scientific temper involves questioning, evidence-based thinking, and rational inquiry in all aspects of life, not just formal science education.",
+      "constitutional_reference": "Article 51A(h)"
+    },
+    {
+      "id": 98,
+      "duty": "i",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "analogy": "gardening",
+      "question": "When community gardeners report vandalism, work together to repair damage, and organize night watch schedules, they are:",
+      "options": [
+        "Duty (i) - Safeguarding public property",
+        "Duty (g) - Protecting garden resources",
+        "Duty (e) - Community security",
+        "Duty (d) - Vigilance and service"
+      ],
+      "correct_answer": "Duty (i) - Safeguarding public property",
+      "explanation": "Community gardens are public property that belongs to everyone, so protecting them demonstrates safeguarding public property.",
+      "constitutional_reference": "Article 51A(i)"
+    },
+    {
+      "id": 99,
+      "duty": "j",
+      "difficulty": "hard",
+      "type": "scenario_based",
+      "analogy": "team",
+      "question": "A successful entrepreneur who has achieved excellence in business decides to mentor young entrepreneurs from disadvantaged backgrounds, provides free training programs, and creates opportunities for others to succeed. This approach demonstrates:",
+      "options": [
+        "Duty (j) - Excellence that benefits the nation",
+        "Duty (e) - Social equality",
+        "Duty (d) - National service",
+        "Duty (h) - Knowledge sharing"
+      ],
+      "correct_answer": "Duty (j) - Excellence that benefits the nation",
+      "explanation": "When excellence is used to help others rise to higher levels, it contributes to national progress and benefits society as a whole.",
+      "constitutional_reference": "Article 51A(j)"
+    },
+    {
+      "id": 100,
+      "duty": "k",
+      "difficulty": "hard",
+      "type": "scenario_based",
+      "analogy": "community",
+      "question": "A community realizes that some children cannot continue education due to family circumstances. They organize a network of families, local businesses, and volunteers to provide support, materials, and guidance. This initiative:",
+      "options": [
+        "Helps fulfill community responsibility for education",
+        "Duty (k) - Community support for children's education",
+        "Both (a) and (b)",
+        "Only addresses economic barriers"
+      ],
+      "correct_answer": "Both (a) and (b)",
+      "explanation": "While Duty (k) specifically addresses parents' responsibilities, communities have a vital role in ensuring all children have opportunities for education.",
+      "constitutional_reference": "Article 51A(k)"
+    }
+  ],
+  "metadata": {
+    "constitutional_authority": "Article 51A of the Constitution of India",
+    "educational_purpose": "To help children aged 8-16 understand their fundamental duties through relatable analogies and real-world scenarios",
+    "developed_by": "MiniMax Agent",
+    "date_created": "2025-11-04",
+    "total_constitutional_duties": 11,
+    "analogies_categories": 5,
+    "educational_approach": "Child-friendly explanations with constitutional references and practical applications"
+  }
+}

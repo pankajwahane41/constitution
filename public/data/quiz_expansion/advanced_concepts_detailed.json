@@ -1,0 +1,904 @@
+[
+  {
+    "id": "const-001",
+    "concept_topic": "federalism",
+    "difficulty": 4,
+    "question_type": "multiple_choice",
+    "stem": "A multinational tech conglomerate has established a global headquarters in Country A, with subsidiaries operating in Countries B, C, and D. Each subsidiary must comply with local data privacy laws, but the parent company wants to implement a unified privacy policy. The subsidiaries argue that their local laws take precedence, while the parent company claims that as the ultimate authority, their policy should govern all operations. This scenario best illustrates which federalism principle?",
+    "options": [
+      "Dual federalism - clear separation of powers between different levels",
+      "Cooperative federalism - shared responsibilities requiring coordination", 
+      "Regulated federalism - federal oversight with state flexibility",
+      "Fiscal federalism - financial incentives to encourage policy alignment"
+    ],
+    "correct_answers": ["Cooperative federalism - shared responsibilities requiring coordination"],
+    "explanation": "This scenario represents cooperative federalism because the multinational structure requires shared governance between the parent company (higher level) and subsidiaries (local levels). Neither has absolute authority, and success requires cooperation and coordination between different levels of the organizational structure.",
+    "analogy": {
+      "type": "institutional_structure",
+      "domain": "business",
+      "description": "Multinational corporate governance structure with parent-subsidiary relationships"
+    },
+    "domain": "business",
+    "tags": ["federalism", "cooperation", "multilevel_governance", "corporate_structure"]
+  },
+  {
+    "id": "const-002", 
+    "concept_topic": "separation_of_powers",
+    "difficulty": 5,
+    "question_type": "short_answer",
+    "stem": "A professional sports league has three distinct organizational bodies: the League Office (which enforces rules and makes operational decisions), the Players Union (which represents player interests and negotiates contracts), and the Independent Arbitration Panel (which resolves disputes between the league and players). Explain how this structure reflects the separation of powers principle in constitutional governance.",
+    "correct_answers": ["The three bodies represent checks and balances where each has distinct roles - enforcement, representation, and independent adjudication - preventing any single entity from accumulating excessive power"],
+    "explanation": "The sports league structure mirrors constitutional separation of powers by distributing authority across three independent bodies with distinct functions. The League Office acts as an executive, the Players Union as a legislative/advocacy body, and the Arbitration Panel as a judicial branch, creating a system of checks and balances.",
+    "analogy": {
+      "type": "institutional_separation", 
+      "domain": "sports",
+      "description": "Professional sports league governance structure with three autonomous bodies"
+    },
+    "domain": "sports",
+    "tags": ["separation_of_powers", "checks_balances", "institutional_design", "arbitration"]
+  },
+  {
+    "id": "const-003",
+    "concept_topic": "rule_of_law", 
+    "difficulty": 3,
+    "question_type": "multiple_choice",
+    "stem": "A healthcare system operates under a clear medical code that specifies: all procedures must be documented prospectively, decisions must be based on published clinical guidelines, and appeals processes must be available for all major decisions. This system most closely embodies which aspect of the rule of law?",
+    "options": [
+      "Transparency and predictability in decision-making processes",
+      "Equal application of rules regardless of patient status",
+      "Procedural due process for all medical decisions", 
+      "Protection of fundamental rights in healthcare access"
+    ],
+    "correct_answers": ["Transparency and predictability in decision-making processes"],
+    "explanation": "The healthcare system demonstrates transparency and predictability by establishing clear, published rules and procedures that are applied consistently, allowing all parties to anticipate how decisions will be made.",
+    "analogy": {
+      "type": "procedural_framework",
+      "domain": "healthcare", 
+      "description": "Medical code with clear procedures, published guidelines, and formal appeals"
+    },
+    "domain": "healthcare",
+    "tags": ["rule_of_law", "transparency", "predictability", "medical_governance"]
+  },
+  {
+    "id": "const-004",
+    "concept_topic": "constitutional_supremacy",
+    "difficulty": 5,
+    "question_type": "essay",
+    "stem": "A religious organization operates both as a private institution with its own internal governance rules and as a registered charity subject to government regulations. When the organization's internal policies conflict with national anti-discrimination laws, the government attempts to enforce compliance while the organization claims religious autonomy. Write an essay analyzing this scenario through the lens of constitutional supremacy, discussing how fundamental constitutional principles should prevail over organizational autonomy when public policy interests are at stake.",
+    "correct_answers": ["Essay should address how constitutional supremacy means fundamental legal principles must override conflicting organizational rules when public interests are involved"],
+    "explanation": "This scenario requires analysis of how constitutional supremacy operates when religious freedom conflicts with public policy. The essay should demonstrate understanding that constitutional principles provide the fundamental framework within which all other rules must operate, especially when dealing with public interest and equality concerns.",
+    "analogy": {
+      "type": "institutional_hierarchy",
+      "domain": "religious_organization",
+      "description": "Religious organization with internal governance rules subject to national laws"
+    },
+    "domain": "religious_organization", 
+    "tags": ["constitutional_supremacy", "religious_freedom", "public_policy", "hierarchy_of_norms"]
+  },
+  {
+    "id": "const-005",
+    "concept_topic": "citizenship",
+    "difficulty": 4,
+    "question_type": "scenario_based",
+    "stem": "A global technology platform has community members from dozens of countries. The platform has established a 'Digital Citizenship' program where users who meet certain criteria (verified identity, positive community contributions, compliance with platform rules) gain additional privileges and responsibilities. However, some users from countries with restricted internet access argue this creates a two-tiered system that excludes them based on their national circumstances. Analyze this situation as a constitutional question about citizenship rights and equal treatment.",
+    "correct_answers": ["The scenario raises questions about equal treatment and access to citizenship benefits, particularly regarding whether geographical circumstances should determine participation rights"],
+    "explanation": "This scenario parallels constitutional citizenship issues by examining how citizenship status affects rights and privileges, and whether equal treatment requires accommodation for different circumstances while maintaining fair access to benefits.",
+    "analogy": {
+      "type": "membership_structure",
+      "domain": "technology",
+      "description": "Digital platform with tiered membership based on verified status and contribution"
+    },
+    "domain": "technology",
+    "tags": ["citizenship", "equal_treatment", "digital_rights", "access_equality"]
+  },
+  {
+    "id": "const-006",
+    "concept_topic": "secularism", 
+    "difficulty": 4,
+    "question_type": "multiple_choice",
+    "stem": "A municipal government operates public facilities that include community centers, parks, and libraries. A religious group requests permission to display religious symbols in the main lobby of the community center during their event. The municipal policy states that facilities are 'religion-neutral spaces' but also commits to 'inclusive community use.' What secularism principle should guide the municipality's decision?",
+    "options": [
+      "Strict separation - no religious symbols in any public facility",
+      "Equal access - religious groups have same display rights as secular groups", 
+      "Content neutrality - focus on the message, not the religious nature",
+      "Progressive inclusion - actively promote diverse religious expression"
+    ],
+    "correct_answers": ["Equal access - religious groups have same display rights as secular groups"],
+    "explanation": "This scenario embodies equal access secularism, where religious and secular groups have equal rights to use public spaces, treating religious expression as equivalent to other forms of expression rather than privileging or prohibiting religious content.",
+    "analogy": {
+      "type": "public_space_management",
+      "domain": "municipal_governance",
+      "description": "Municipal policy balancing neutrality and inclusion in public facility use"
+    },
+    "domain": "municipal_governance",
+    "tags": ["secularism", "equal_access", "religious_neutrality", "public_spaces"]
+  },
+  {
+    "id": "const-007",
+    "concept_topic": "federalism",
+    "difficulty": 3,
+    "question_type": "short_answer", 
+    "stem": "The United Nations operates through a system where member states maintain their sovereignty while delegating certain powers to UN institutions. Member states can choose whether to comply with UN resolutions, and different regions have developed their own intergovernmental organizations (like the EU or ASEAN) that work alongside the UN. Explain how this illustrates cooperative federalism.",
+    "correct_answers": ["Cooperative federalism is shown through the voluntary sharing of sovereignty, where multiple levels of governance work together while maintaining their distinct authorities"],
+    "explanation": "The UN system demonstrates cooperative federalism through its voluntary association of sovereign states that choose to coordinate on common issues while retaining ultimate authority over their internal affairs, creating overlapping spheres of influence.",
+    "analogy": {
+      "type": "voluntary_association",
+      "domain": "international_relations",
+      "description": "UN system with sovereign member states voluntarily cooperating on common challenges"
+    },
+    "domain": "international_relations",
+    "tags": ["federalism", "cooperation", "sovereignty", "international_governance"]
+  },
+  {
+    "id": "const-008",
+    "concept_topic": "separation_of_powers",
+    "difficulty": 5,
+    "question_type": "multiple_choice",
+    "stem": "A major hospital system has structured itself with three distinct but interconnected bodies: a Board of Directors (strategic oversight and major decisions), Medical Executive Committee (clinical standards and practitioner privileges), and Patient Care Committee (patient advocacy and quality assurance). Each body has defined authority, but major decisions require consultation between all three. This structure best reflects:",
+    "options": [
+      "Functional separation with checks and balances",
+      "Hierarchical command structure with specialist oversight", 
+      "Collaborative consensus-building model",
+      "Independent regulatory framework with shared responsibility"
+    ],
+    "correct_answers": ["Functional separation with checks and balances"],
+    "explanation": "This represents functional separation with checks and balances because each body has distinct responsibilities (strategy, clinical standards, patient advocacy) but must coordinate and check each other, preventing concentration of power in any single body.",
+    "analogy": {
+      "type": "institutional_separation",
+      "domain": "healthcare",
+      "description": "Hospital governance with three separate bodies having distinct but overlapping authorities"
+    },
+    "domain": "healthcare",
+    "tags": ["separation_of_powers", "checks_balances", "healthcare_governance", "institutional_design"]
+  },
+  {
+    "id": "const-009",
+    "concept_topic": "rule_of_law",
+    "difficulty": 4,
+    "question_type": "scenario_based",
+    "stem": "An airline has established clear safety protocols that all pilots must follow, with a transparent disciplinary process for violations. However, during a crisis situation (natural disaster), the airline's management authorizes pilots to override standard procedures if they believe it will ensure passenger safety. This creates a tension between following established rules and exercising professional judgment in emergencies. Analyze this through the principle of rule of law, considering the balance between legal certainty and reasonable flexibility.",
+    "correct_answers": ["This scenario highlights the tension between strict rule adherence and reasonable exceptions for emergencies, raising questions about how rule of law accommodates extraordinary circumstances while maintaining legal clarity"],
+    "explanation": "The airline scenario illustrates how rule of law must balance predictability with practical flexibility, showing that even well-established rules may need provision for emergency exceptions while maintaining overall legal certainty.",
+    "analogy": {
+      "type": "emergency_exceptions",
+      "domain": "aviation_maritime",
+      "description": "Airline safety protocols with emergency override provisions during crisis situations"
+    },
+    "domain": "aviation_maritime",
+    "tags": ["rule_of_law", "emergency_powers", "legal_flexibility", "safety_regulations"]
+  },
+  {
+    "id": "const-010",
+    "concept_topic": "constitutional_supremacy",
+    "difficulty": 3,
+    "question_type": "true_false",
+    "stem": "True/False: When a religious organization receives government funding for community services, it must comply with all national civil rights laws even if these conflict with its religious doctrines about employment and service provision.",
+    "correct_answers": ["True"],
+    "explanation": "When religious organizations accept government funding, they must comply with national civil rights laws, demonstrating constitutional supremacy where fundamental legal principles prevail over organizational religious rules when public funding and civil rights are involved.",
+    "analogy": {
+      "type": "conditional_acceptance",
+      "domain": "religious_organization",
+      "description": "Religious organization receiving government funding subject to national civil rights laws"
+    },
+    "domain": "religious_organization",
+    "tags": ["constitutional_supremacy", "religious_freedom", "civil_rights", "government_funding"]
+  },
+  {
+    "id": "const-011",
+    "concept_topic": "citizenship",
+    "difficulty": 5,
+    "question_type": "short_answer",
+    "stem": "A global professional certification body offers membership to qualified professionals worldwide. Membership confers certain privileges (networking, job placement assistance, continuing education) but also imposes duties (ethical standards, peer review, knowledge sharing). Some argue this creates a 'professional citizenship' that transcends national boundaries. Explain how this relates to constitutional concepts of citizenship and civic duty.",
+    "correct_answers": ["Professional citizenship illustrates how citizenship can extend beyond national boundaries, creating civic communities based on shared professional values and mutual obligations"],
+    "explanation": "This demonstrates that citizenship is not solely geographic but can be based on shared professional communities, with corresponding rights and duties that create civic bonds similar to national citizenship.",
+    "analogy": {
+      "type": "professional_membership",
+      "domain": "business",
+      "description": "Global professional certification body with international membership and shared obligations"
+    },
+    "domain": "business",
+    "tags": ["citizenship", "professional_community", "civic_duties", "global_membership"]
+  },
+  {
+    "id": "const-012",
+    "concept_topic": "secularism",
+    "difficulty": 4,
+    "question_type": "multiple_choice",
+    "stem": "A city government operates a publicly owned utility that provides water and electricity to all residents. The utility's customer service department must remain neutral regarding customers' personal beliefs (religious or otherwise) while providing equal service to all. However, the utility also accommodates employees' reasonable requests for religious observances (prayer time, dietary restrictions). This policy best demonstrates:",
+    "options": [
+      "Strict secularism - complete separation of religious and governmental functions",
+      "Equal treatment secularism - same rules for religious and non-religious concerns",
+      "Neutral accommodation - individual choice within institutional neutrality",
+      "Pluralistic inclusion - actively supporting diverse religious expression"
+    ],
+    "correct_answers": ["Equal treatment secularism - same rules for religious and non-religious concerns"],
+    "explanation": "This represents equal treatment secularism where the institution remains neutral in service delivery while applying the same accommodation standards to both religious and secular personal needs, treating religious requests the same as other personal accommodation requests.",
+    "analogy": {
+      "type": "institutional_neutrality",
+      "domain": "municipal_governance",
+      "description": "Public utility providing neutral service while accommodating employee personal needs equally"
+    },
+    "domain": "municipal_governance",
+    "tags": ["secularism", "institutional_neutrality", "equal_treatment", "public_services"]
+  },
+  {
+    "id": "const-013",
+    "concept_topic": "federalism", 
+    "difficulty": 5,
+    "question_type": "essay",
+    "stem": "The European Union operates as a complex federal system where member states have delegated certain sovereignty to EU institutions while maintaining control over others. Some decisions require unanimous consent, others need only majority vote, and some areas remain entirely under national control. Write an essay analyzing how this 'variable geometry' approach to federalism balances unity with diversity, and how it might inform understanding of federal systems more generally.",
+    "correct_answers": ["Essay should analyze how flexible federalism allows for different levels of integration and cooperation while maintaining state autonomy in core areas"],
+    "explanation": "This scenario requires deep analysis of flexible federalism, where different policy areas have different levels of integration, showing how federal systems can accommodate diverse member preferences while maintaining overall unity.",
+    "analogy": {
+      "type": "variable_geometry",
+      "domain": "international_relations", 
+      "description": "EU system with variable levels of integration and different decision-making requirements"
+    },
+    "domain": "international_relations",
+    "tags": ["federalism", "flexible_integration", "variable_geometry", "european_governance"]
+  },
+  {
+    "id": "const-014",
+    "concept_topic": "separation_of_powers",
+    "difficulty": 3,
+    "question_type": "multiple_choice",
+    "stem": "A professional sports league has established a system where team owners propose rule changes, the league's competition committee reviews them with input from players and coaches, and an independent appeals board has final authority over disciplinary decisions. This structure creates a system of:",
+    "options": [
+      "Concentrated authority with expert consultation",
+      "Distributed power with independent adjudication", 
+      "Democratic decision-making with stakeholder input",
+      "Regulatory oversight with compliance monitoring"
+    ],
+    "correct_answers": ["Distributed power with independent adjudication"],
+    "explanation": "This represents distributed power with independent adjudication because decision-making authority is spread across different bodies (owners, committee, appeals board) with the final authority resting with an independent body, creating checks and balances.",
+    "analogy": {
+      "type": "distributed_authority",
+      "domain": "sports",
+      "description": "Sports league with multiple decision-making bodies and independent appeals process"
+    },
+    "domain": "sports",
+    "tags": ["separation_of_powers", "distributed_power", "independent_oversight", "league_governance"]
+  },
+  {
+    "id": "const-015",
+    "concept_topic": "rule_of_law",
+    "difficulty": 4,
+    "question_type": "short_answer",
+    "stem": "A technology platform has established clear content moderation policies that are published in advance, applied consistently across all users, and subject to a formal appeals process. However, the platform reserves the right to remove content that it determines to be 'harmful' even if it doesn't fit the specific prohibited categories. Explain how this illustrates both strengths and limitations of the rule of law in private governance.",
+    "correct_answers": ["This shows rule of law strengths in transparency and appeals, but reveals limitations where broad discretionary powers can undermine legal certainty"],
+    "explanation": "The scenario demonstrates that even well-structured rule of law systems can have limitations when discretionary powers allow for subjective interpretation that may not be fully constrained by published rules.",
+    "analogy": {
+      "type": "private_regulation",
+      "domain": "technology",
+      "description": "Tech platform with published policies and appeals process but discretionary enforcement powers"
+    },
+    "domain": "technology",
+    "tags": ["rule_of_law", "private_governance", "discretionary_powers", "content_moderation"]
+  },
+  {
+    "id": "const-016", 
+    "concept_topic": "constitutional_supremacy",
+    "difficulty": 5,
+    "question_type": "scenario_based",
+    "stem": "A multinational corporation has created a comprehensive code of conduct that its employees worldwide must follow. This code includes provisions about data privacy, worker rights, and environmental protection that exceed the legal requirements in many countries where the company operates. However, the company also has an exception clause allowing local managers to modify policies when local laws conflict. Analyze the tension between corporate policy supremacy and local legal requirements through constitutional principles.",
+    "correct_answers": ["This scenario raises questions about how internal governance rules interact with external legal systems, particularly when corporate policies exceed but may conflict with local legal requirements"],
+    "explanation": "The corporation's internal code represents a form of private governance that must operate within the framework of national legal systems, illustrating how different sources of authority interact and potentially conflict.",
+    "analogy": {
+      "type": "private_governance_framework",
+      "domain": "business",
+      "description": "Multinational corporation with comprehensive internal code of conduct and local modification provisions"
+    },
+    "domain": "business",
+    "tags": ["constitutional_supremacy", "private_governance", "legal_hierarchy", "multinational_regulation"]
+  },
+  {
+    "id": "const-017",
+    "concept_topic": "citizenship",
+    "difficulty": 3,
+    "question_type": "multiple_choice",
+    "stem": "A digital platform has established a 'Community Charter' that defines the rights and responsibilities of all users. Users who violate the charter lose certain privileges, but can earn them back through positive contributions. The charter also establishes a user council that can propose amendments. This system most closely resembles:",
+    "options": [
+      "Conditional citizenship with rehabilitation opportunities",
+      "Probationary membership with voting rights",
+      "Progressive status based on community contribution", 
+      "Democratic governance with graduated sanctions"
+    ],
+    "correct_answers": ["Conditional citizenship with rehabilitation opportunities"],
+    "explanation": "This represents conditional citizenship with rehabilitation opportunities because membership status is contingent on following established rules, with mechanisms for restoring full participation after violations.",
+    "analogy": {
+      "type": "digital_governance",
+      "domain": "technology",
+      "description": "Digital platform with community charter, user council, and graduated sanctions system"
+    },
+    "domain": "technology",
+    "tags": ["citizenship", "digital_governance", "conditional_membership", "community_charter"]
+  },
+  {
+    "id": "const-018",
+    "concept_topic": "secularism",
+    "difficulty": 4,
+    "question_type": "short_answer",
+    "stem": "A public hospital system provides chaplaincy services representing multiple faith traditions, but also offers a secular counseling option. The hospital's policy is that patients can request any type of support, but medical staff cannot initiate religious discussions. Explain how this approach embodies secularism while still accommodating religious diversity.",
+    "correct_answers": ["This represents institutional neutrality with optional religious accommodation, where the state remains secular but provides equal access to religious or non-religious support services"],
+    "explanation": "The hospital's approach maintains institutional secularism by not promoting any particular religious viewpoint while offering equal access to diverse forms of spiritual support, treating religious and secular options as equivalent choices.",
+    "analogy": {
+      "type": "institutional_accommodation",
+      "domain": "healthcare",
+      "description": "Public hospital with secular medical care and optional chaplaincy services from multiple faith traditions"
+    },
+    "domain": "healthcare",
+    "tags": ["secularism", "institutional_neutrality", "religious_accommodation", "healthcare_services"]
+  },
+  {
+    "id": "const-019",
+    "concept_topic": "federalism",
+    "difficulty": 4,
+    "question_type": "multiple_choice",
+    "stem": "A federal environmental agency sets baseline pollution standards for air and water quality, but individual states can adopt stricter standards if they choose. States that adopt stricter standards can receive additional federal funding, and interstate pollution issues are handled through regional compacts. This system demonstrates:",
+    "options": [
+      "Cooperative federalism with incentives for state action",
+      "Dual federalism with clear jurisdictional boundaries", 
+      "Fiscal federalism with federal oversight",
+      "Regulated federalism with state flexibility"
+    ],
+    "correct_answers": ["Cooperative federalism with incentives for state action"],
+    "explanation": "This represents cooperative federalism with incentives because the federal government sets minimum standards while encouraging states to exceed them through funding incentives, requiring cooperation between levels of government.",
+    "analogy": {
+      "type": "cooperative_framework",
+      "domain": "environment_tax",
+      "description": "Federal environmental standards with state option to exceed them and receive incentives"
+    },
+    "domain": "environment_tax",
+    "tags": ["federalism", "cooperation", "environmental_policy", "fiscal_incentives"]
+  },
+  {
+    "id": "const-020",
+    "concept_topic": "separation_of_powers",
+    "difficulty": 5,
+    "question_type": "scenario_based",
+    "stem": "A large university's governance structure includes a Board of Trustees (appoints administrators and sets strategic direction), Faculty Senate (develops academic policies and curriculum), and Student Government (represents student interests in campus policies). Each body has defined areas of authority, but major decisions require consultation across all three groups. The university also has an independent ethics board that can investigate complaints about any governance body. Analyze how this structure reflects separation of powers principles.",
+    "correct_answers": ["The university structure demonstrates functional separation with checks and balances, where different constituent groups have distinct but overlapping authorities with independent oversight"],
+    "explanation": "This scenario shows sophisticated separation of powers where academic, administrative, student, and ethical oversight functions are distributed across different bodies that must coordinate while maintaining independent authority in their respective domains.",
+    "analogy": {
+      "type": "institutional_separation",
+      "domain": "healthcare",
+      "description": "University governance with three constituent bodies and independent ethics oversight"
+    },
+    "domain": "healthcare",
+    "tags": ["separation_of_powers", "university_governance", "checks_balances", "institutional_design"]
+  },
+  {
+    "id": "const-021",
+    "concept_topic": "rule_of_law",
+    "difficulty": 3,
+    "question_type": "short_answer",
+    "stem": "A professional sports league has established detailed rules for player conduct, including specific penalties for different violations. However, the league commissioner also has the authority to issue additional penalties for conduct 'detrimental to the game' that may not be explicitly covered in the rulebook. Explain how this provision both supports and potentially undermines the rule of law principle.",
+    "correct_answers": ["This supports rule of law by allowing flexibility for unforeseen circumstances, but undermines it by creating broad discretionary powers that may not be clearly defined or consistently applied"],
+    "explanation": "The catch-all provision demonstrates the tension between having flexible rules to address unexpected situations and the need for clear, predictable legal standards that define prohibited conduct in advance.",
+    "analogy": {
+      "type": "discretionary_enforcement",
+      "domain": "sports",
+      "description": "Sports league with specific rules and general discretionary penalties for conduct detrimental to the sport"
+    },
+    "domain": "sports",
+    "tags": ["rule_of_law", "discretionary_powers", "sports_regulation", "legal_flexibility"]
+  },
+  {
+    "id": "const-022",
+    "concept_topic": "constitutional_supremacy",
+    "difficulty": 4,
+    "question_type": "multiple_choice",
+    "stem": "A religious organization operates both as a private institution and as a contractor for government social services. While the organization can establish its own religious standards for internal operations, it must comply with government anti-discrimination laws when providing publicly funded services. This arrangement best illustrates:",
+    "options": [
+      "The supremacy of constitutional principles over organizational autonomy",
+      "The separation of religious and governmental functions", 
+      "The accommodation of religious freedom within public policy",
+      "The conditional nature of government funding and compliance"
+    ],
+    "correct_answers": ["The supremacy of constitutional principles over organizational autonomy"],
+    "explanation": "This represents constitutional supremacy because fundamental civil rights principles take precedence over organizational religious rules when the organization participates in government-funded activities.",
+    "analogy": {
+      "type": "conditional_participation",
+      "domain": "religious_organization",
+      "description": "Religious organization contracting for government services while maintaining separate internal standards"
+    },
+    "domain": "religious_organization",
+    "tags": ["constitutional_supremacy", "religious_freedom", "government_contracting", "civil_rights"]
+  },
+  {
+    "id": "const-023",
+    "concept_topic": "citizenship",
+    "difficulty": 5,
+    "question_type": "essay",
+    "stem": "Smart cities increasingly use technology to enhance urban governance, creating 'digital citizenship' programs that allow residents to participate in local decision-making through online platforms. These programs often require digital literacy and reliable internet access, potentially excluding certain populations. Write an essay analyzing how smart city citizenship initiatives relate to constitutional principles of equal participation and civic engagement, and how cities can ensure that digital citizenship doesn't create new forms of exclusion.",
+    "correct_answers": ["Essay should address how digital citizenship initiatives can enhance participation while potentially creating barriers, requiring careful design to ensure equal access and meaningful engagement"],
+    "explanation": "This scenario requires analysis of how technological citizenship initiatives intersect with traditional constitutional principles of equal participation, examining both opportunities for enhanced civic engagement and risks of creating new barriers to participation.",
+    "analogy": {
+      "type": "digital_participation",
+      "domain": "smart_city",
+      "description": "Smart city digital citizenship programs with online participation platforms and potential access barriers"
+    },
+    "domain": "smart_city",
+    "tags": ["citizenship", "digital_governance", "equal_participation", "smart_cities"]
+  },
+  {
+    "id": "const-024",
+    "concept_topic": "secularism",
+    "difficulty": 3,
+    "question_type": "true_false",
+    "stem": "True/False: A public library that allows community groups to use meeting rooms must allow religious groups the same booking privileges as secular groups, even if the library receives no government funding for its programming.",
+    "correct_answers": ["True"],
+    "explanation": "As a public institution, the library must maintain religious neutrality and equal treatment regardless of funding sources, ensuring that religious groups have the same access to public facilities as secular groups.",
+    "analogy": {
+      "type": "public_facility_access",
+      "domain": "municipal_governance",
+      "description": "Public library with meeting room policies for community groups including religious organizations"
+    },
+    "domain": "municipal_governance",
+    "tags": ["secularism", "equal_access", "public_facilities", "religious_neutrality"]
+  },
+  {
+    "id": "const-025",
+    "concept_topic": "federalism",
+    "difficulty": 4,
+    "question_type": "short_answer",
+    "stem": "The International Olympic Committee operates through a system where national Olympic committees maintain autonomy over their country's participation, but must comply with international standards and rules. Some countries have established regional Olympic federations that coordinate training and competition among neighboring nations. Explain how this illustrates layered federalism in international sports governance.",
+    "correct_answers": ["This shows layered federalism where multiple levels of governance (national, regional, international) operate with distinct authorities but require coordination for successful operation"],
+    "explanation": "The Olympic system demonstrates how federal principles can operate at international levels, with different layers of governance maintaining autonomy while coordinating on common standards and objectives.",
+    "analogy": {
+      "type": "layered_governance",
+      "domain": "sports",
+      "description": "Olympic governance with national committees, regional federations, and international coordination"
+    },
+    "domain": "sports",
+    "tags": ["federalism", "international_governance", "layered_authority", "sports_coordination"]
+  },
+  {
+    "id": "const-026",
+    "concept_topic": "separation_of_powers",
+    "difficulty": 3,
+    "question_type": "multiple_choice",
+    "stem": "A healthcare system has divided authority across three entities: the Medical Board (establishes clinical standards and licenses practitioners), the Hospital Administration (manages operations and budgets), and the Ethics Committee (reviews patient care decisions and resolves disputes). Each entity has veto power over decisions in its domain, and major policy changes require agreement from all three. This structure creates:",
+    "options": [
+      "Professional autonomy with administrative oversight and ethical review",
+      "Shared governance with distributed authority and mutual checks", 
+      "Specialized expertise with oversight and accountability",
+      "Democratic representation with expert consultation"
+    ],
+    "correct_answers": ["Shared governance with distributed authority and mutual checks"],
+    "explanation": "This represents shared governance with distributed authority and mutual checks because each entity has independent authority in its domain but must coordinate with others for major decisions, creating a system of checks and balances.",
+    "analogy": {
+      "type": "shared_authority",
+      "domain": "healthcare",
+      "description": "Healthcare system with three separate entities having distinct authorities and mutual oversight"
+    },
+    "domain": "healthcare",
+    "tags": ["separation_of_powers", "shared_governance", "healthcare_authority", "mutual_checks"]
+  },
+  {
+    "id": "const-027",
+    "concept_topic": "rule_of_law",
+    "difficulty": 4,
+    "question_type": "scenario_based",
+    "stem": "A ride-sharing platform has established clear community guidelines for drivers and passengers, including specific categories of prohibited behavior and graduated penalties. However, during a natural disaster, the platform's management authorizes drivers to refuse service to certain areas or charge surge pricing, despite normal rules against price gouging. Analyze this situation through the lens of rule of law, considering how legal systems should handle emergency exceptions to established rules.",
+    "correct_answers": ["This scenario illustrates the tension between rule-based governance and emergency flexibility, raising questions about how legal systems should balance predictability with necessary adaptations during crises"],
+    "explanation": "The scenario shows how rule of law systems must grapple with the need for flexibility during emergencies while maintaining the legal predictability that is central to the rule of law principle.",
+    "analogy": {
+      "type": "emergency_exceptions",
+      "domain": "ride_share",
+      "description": "Ride-sharing platform with established rules but emergency exceptions during natural disasters"
+    },
+    "domain": "ride_share",
+    "tags": ["rule_of_law", "emergency_powers", "price_gouging", "crisis_management"]
+  },
+  {
+    "id": "const-028",
+    "concept_topic": "constitutional_supremacy",
+    "difficulty": 3,
+    "question_type": "short_answer",
+    "stem": "A multinational corporation requires all employees to follow a global code of conduct that exceeds legal requirements in most countries where it operates. When local laws conflict with the corporate code, the company generally follows the stricter standard. Explain how this demonstrates the principle that higher ethical standards can create a form of 'private supremacy' analogous to constitutional supremacy.",
+    "correct_answers": ["This shows how internal governance can establish a hierarchy where the strictest applicable standard prevails, similar to how constitutional principles create a hierarchy of legal norms"],
+    "explanation": "The corporation's approach demonstrates that private organizations can create their own systems of legal supremacy where higher standards take precedence, paralleling how constitutional supremacy operates in public legal systems.",
+    "analogy": {
+      "type": "private_legal_hierarchy",
+      "domain": "business",
+      "description": "Multinational corporation with global code of conduct that takes precedence over local laws when stricter"
+    },
+    "domain": "business",
+    "tags": ["constitutional_supremacy", "private_governance", "ethical_standards", "global_corporate_rules"]
+  },
+  {
+    "id": "const-029",
+    "concept_topic": "citizenship",
+    "difficulty": 4,
+    "question_type": "multiple_choice",
+    "stem": "A professional association for financial advisors has established a membership system where certified advisors must maintain continuing education, adhere to ethical standards, and participate in peer review. Members who violate standards face graduated penalties up to revocation of certification. The association also has a democratic governance structure where members vote on leadership and major policy changes. This system creates:",
+    "options": [
+      "Professional citizenship with democratic participation and accountability",
+      "Voluntary membership with private regulation and governance", 
+      "Specialized credentialing with peer oversight and democratic input",
+      "Industry self-regulation with professional standards and member voting"
+    ],
+    "correct_answers": ["Professional citizenship with democratic participation and accountability"],
+    "explanation": "This represents professional citizenship with democratic participation and accountability because membership confers both privileges and duties, with members participating in governance and being held accountable to professional standards.",
+    "analogy": {
+      "type": "professional_association",
+      "domain": "fintech",
+      "description": "Financial advisor association with membership requirements, governance, and peer accountability"
+    },
+    "domain": "fintech",
+    "tags": ["citizenship", "professional_association", "democratic_governance", "peer_accountability"]
+  },
+  {
+    "id": "const-030",
+    "concept_topic": "secularism",
+    "difficulty": 5,
+    "question_type": "essay",
+    "stem": "A public university with both religious and secular academic programs receives government funding. The university argues that as a religious institution, it should be exempt from certain non-discrimination requirements that apply to purely secular institutions. However, students and faculty argue that public funding requires adherence to constitutional principles of equal treatment regardless of religious affiliation. Write an essay analyzing this conflict through secularism principles, considering how constitutional law should balance religious freedom with equal treatment when public funding is involved.",
+    "correct_answers": ["Essay should analyze the tension between religious institutional autonomy and constitutional requirements for equal treatment when receiving public funds, examining different approaches to secularism"],
+    "explanation": "This scenario requires deep analysis of how secularism principles apply when religious institutions receive public funding, examining the balance between religious freedom and constitutional requirements for equal treatment.",
+    "analogy": {
+      "type": "public_funded_religious_institution",
+      "domain": "religious_organization",
+      "description": "Public university with religious programs receiving government funding and facing non-discrimination requirements"
+    },
+    "domain": "religious_organization",
+    "tags": ["secularism", "religious_freedom", "public_funding", "institutional_autonomy"]
+  },
+  {
+    "id": "const-031",
+    "concept_topic": "federalism",
+    "difficulty": 4,
+    "question_type": "scenario_based",
+    "stem": "A global financial regulatory system involves multiple layers: national central banks regulate domestic financial institutions, regional banking unions coordinate supervision across neighboring countries, and international bodies like the Bank for International Settlements establish global standards. When conflicts arise between these levels, the most restrictive standard generally applies, but national authorities can opt out with justification. Analyze this as a federalist system in international finance.",
+    "correct_answers": ["This demonstrates complex federalism where multiple levels of financial regulation operate with overlapping authorities and coordination mechanisms, creating a system of layered governance with options for divergence"],
+    "explanation": "The financial regulatory system shows sophisticated federalism where different levels of governance establish standards that can vary in their scope and strictness, with mechanisms for coordination and justified divergence.",
+    "analogy": {
+      "type": "regulatory_federalism",
+      "domain": "fintech",
+      "description": "Global financial regulation with national, regional, and international layers with coordination mechanisms"
+    },
+    "domain": "fintech",
+    "tags": ["federalism", "financial_regulation", "international_governance", "regulatory_coordination"]
+  },
+  {
+    "id": "const-032",
+    "concept_topic": "separation_of_powers",
+    "difficulty": 3,
+    "question_type": "short_answer",
+    "stem": "A major tech company's governance includes three key bodies: the Board of Directors (strategic oversight and major decisions), the Executive Leadership Team (day-to-day operations and product development), and an Independent Ethics Board (reviews major decisions for ethical compliance and can recommend changes). Each body has specific areas of authority, but they must coordinate on major initiatives. Explain how this structure embodies separation of powers in corporate governance.",
+    "correct_answers": ["This shows separation of powers through distribution of strategic, operational, and ethical oversight across different bodies with distinct authorities and coordination requirements"],
+    "explanation": "The corporate structure demonstrates separation of powers by dividing strategic direction, operational execution, and ethical oversight among different governance bodies that must coordinate while maintaining independent authority.",
+    "analogy": {
+      "type": "corporate_governance_separation",
+      "domain": "technology",
+      "description": "Tech company with three-tier governance structure dividing strategic, operational, and ethical oversight"
+    },
+    "domain": "technology",
+    "tags": ["separation_of_powers", "corporate_governance", "ethical_oversight", "strategic_planning"]
+  },
+  {
+    "id": "const-033",
+    "concept_topic": "rule_of_law",
+    "difficulty": 4,
+    "question_type": "multiple_choice",
+    "stem": "A municipal government has established clear procurement processes that require competitive bidding for contracts over a certain threshold, published criteria for vendor selection, and formal appeal processes for rejected bids. However, the city council can override these processes by declaring a 'public emergency' that allows for expedited procurement. This provision best illustrates:",
+    "options": [
+      "The need for flexible emergency procedures within rule-based systems",
+      "Potential vulnerability of rule of law to political manipulation", 
+      "Balance between legal predictability and administrative efficiency",
+      "Recognition that strict rule adherence may be impractical in emergencies"
+    ],
+    "correct_answers": ["The need for flexible emergency procedures within rule-based systems"],
+    "explanation": "While the emergency provision could potentially be misused, it primarily represents the recognition that rule-based systems need flexibility mechanisms to handle genuinely urgent situations while maintaining overall legal predictability.",
+    "analogy": {
+      "type": "emergency_procurement",
+      "domain": "municipal_governance",
+      "description": "Municipal procurement with standard competitive processes but emergency override provisions"
+    },
+    "domain": "municipal_governance",
+    "tags": ["rule_of_law", "emergency_powers", "procurement_processes", "administrative_flexibility"]
+  },
+  {
+    "id": "const-034",
+    "concept_topic": "constitutional_supremacy",
+    "difficulty": 5,
+    "question_type": "scenario_based",
+    "stem": "An international organization has established its own employment policies that include provisions for religious accommodation, family leave, and workplace equality that exceed the legal requirements of many member countries. The organization argues that as an autonomous international body, it should be exempt from national labor laws. However, employees argue that national labor standards should apply since they are working within national territories. Analyze this conflict through constitutional supremacy principles.",
+    "correct_answers": ["This scenario raises questions about how different legal systems interact, particularly whether international organizational policies should override national labor laws when providing higher standards"],
+    "explanation": "The conflict illustrates the complexity of determining legal supremacy when multiple legal systems (international organizational rules, national labor laws) claim authority over the same relationship.",
+    "analogy": {
+      "type": "international_legal_hierarchy",
+      "domain": "international_relations",
+      "description": "International organization with autonomous employment policies operating in multiple national territories"
+    },
+    "domain": "international_relations",
+    "tags": ["constitutional_supremacy", "international_law", "employment_standards", "organizational_autonomy"]
+  },
+  {
+    "id": "const-035",
+    "concept_topic": "citizenship",
+    "difficulty": 3,
+    "question_type": "short_answer",
+    "stem": "A co-working space has established a membership system where members have access to facilities, can vote on certain community decisions, and must follow a code of conduct. Members can be suspended or expelled for violations, and there's an appeals process. Explain how this represents a form of 'private citizenship' that mirrors constitutional citizenship principles.",
+    "correct_answers": ["This shows private citizenship where membership confers rights and responsibilities with democratic participation and due process protections, paralleling constitutional citizenship structures"],
+    "explanation": "The co-working space demonstrates how private organizations can create citizenship-like structures that include participation rights, responsibilities, and due process protections similar to constitutional citizenship.",
+    "analogy": {
+      "type": "private_citizenship",
+      "domain": "business",
+      "description": "Co-working space with membership system, democratic participation, and community governance"
+    },
+    "domain": "business",
+    "tags": ["citizenship", "private_governance", "membership_rights", "community_democracy"]
+  },
+  {
+    "id": "const-036",
+    "concept_topic": "secularism",
+    "difficulty": 4,
+    "question_type": "multiple_choice",
+    "stem": "A public hospital system employs chaplains from various faith traditions and also provides secular counseling services. The hospital's policy is that patients can request spiritual support, but medical staff must remain neutral regarding religious beliefs. This approach to religious accommodation in public services demonstrates:",
+    "options": [
+      "Strict secularism with limited religious accommodation",
+      "Neutral secularism with equal treatment of religious and non-religious options", 
+      "Accommodative secularism that actively supports religious diversity",
+      "Progressive secularism that promotes interfaith understanding"
+    ],
+    "correct_answers": ["Neutral secularism with equal treatment of religious and non-religious options"],
+    "explanation": "This represents neutral secularism where the institution remains religiously neutral by offering both religious and secular options as equivalent choices rather than promoting or restricting religious expression.",
+    "analogy": {
+      "type": "neutral_accommodation",
+      "domain": "healthcare",
+      "description": "Public hospital with chaplaincy services from multiple traditions and secular counseling options"
+    },
+    "domain": "healthcare",
+    "tags": ["secularism", "neutral_accommodation", "healthcare_services", "religious_diversity"]
+  },
+  {
+    "id": "const-037",
+    "concept_topic": "federalism",
+    "difficulty": 5,
+    "question_type": "essay",
+    "stem": "The internet's governance involves multiple overlapping authorities: national governments regulate domestic internet infrastructure and content, international organizations coordinate technical standards, private companies control major platforms and services, and user communities establish norms and practices. When conflicts arise between these different levels, there is no single arbiter, and different actors can choose which authorities to follow. Write an essay analyzing how this represents a form of 'digital federalism' and what it might teach us about federal systems in the physical world.",
+    "correct_answers": ["Essay should analyze how internet governance demonstrates federal principles of distributed authority, competing jurisdictions, and the need for coordination without central control, drawing parallels to traditional federal systems"],
+    "explanation": "This scenario requires analysis of how federal principles might operate in digital spaces where multiple authorities with overlapping jurisdictions must coordinate without central enforcement, offering insights into federalism theory and practice.",
+    "analogy": {
+      "type": "digital_governance",
+      "domain": "technology",
+      "description": "Internet governance with multiple overlapping authorities from governments, organizations, companies, and user communities"
+    },
+    "domain": "technology",
+    "tags": ["federalism", "digital_governance", "distributed_authority", "internet_policy"]
+  },
+  {
+    "id": "const-038",
+    "concept_topic": "separation_of_powers",
+    "difficulty": 4,
+    "question_type": "scenario_based",
+    "stem": "A professional sports league has established a system where: (1) team owners propose rule changes, (2) the players' union reviews and can veto changes that affect player rights, (3) the league's competition committee makes technical recommendations, and (4) an independent appeals board has final authority over disciplinary decisions. Major changes require approval from at least three of these four bodies. Analyze how this structure creates a system of checks and balances.",
+    "correct_answers": ["This demonstrates sophisticated checks and balances where different stakeholder groups have distinct authorities and must coordinate, preventing any single group from dominating decision-making"],
+    "explanation": "The league structure shows how separation of powers can operate in private governance, with different stakeholder groups having defined authorities and veto powers that require consultation and consensus for major decisions.",
+    "analogy": {
+      "type": "stakeholder_governance",
+      "domain": "sports",
+      "description": "Sports league with four-body governance system requiring multi-stakeholder approval for major decisions"
+    },
+    "domain": "sports",
+    "tags": ["separation_of_powers", "stakeholder_governance", "checks_balances", "sports_regulation"]
+  },
+  {
+    "id": "const-039",
+    "concept_topic": "rule_of_law",
+    "difficulty": 3,
+    "question_type": "short_answer",
+    "stem": "An airline has established clear passenger rights policies that are published in advance and apply equally to all passengers on all routes. However, the airline also has a customer service department that can make exceptions to these policies in cases of 'extreme hardship' as determined by their discretion. Explain how this provision both supports and challenges the rule of law principle.",
+    "correct_answers": ["This supports rule of law through published, equal policies but challenges it by creating broad discretionary exceptions that may not be consistently applied or predictable"],
+    "explanation": "The hardship exception shows the tension between rule-based consistency and the need for flexible, compassionate responses to unusual circumstances, highlighting both the benefits and limitations of discretionary powers in rule-based systems.",
+    "analogy": {
+      "type": "discretionary_exceptions",
+      "domain": "aviation_maritime",
+      "description": "Airline with published passenger rights policies and discretionary hardship exceptions"
+    },
+    "domain": "aviation_maritime",
+    "tags": ["rule_of_law", "discretionary_powers", "passenger_rights", "customer_service"]
+  },
+  {
+    "id": "const-040",
+    "concept_topic": "constitutional_supremacy",
+    "difficulty": 4,
+    "question_type": "multiple_choice",
+    "stem": "A multinational environmental organization establishes strict pollution standards that exceed legal requirements in most countries where its members operate. When member companies violate these standards, the organization can revoke their membership and publicly expose violations. This system of private environmental regulation demonstrates:",
+    "options": [
+      "How private organizations can create their own systems of legal supremacy",
+      "The potential for non-governmental actors to establish higher ethical standards", 
+      "Private enforcement mechanisms that complement public regulation",
+      "Alternative governance systems that operate parallel to state authority"
+    ],
+    "correct_answers": ["How private organizations can create their own systems of legal supremacy"],
+    "explanation": "This demonstrates how private organizations can establish internal hierarchies where their standards take precedence over less stringent legal requirements, creating a form of private legal supremacy.",
+    "analogy": {
+      "type": "private_regulatory_supremacy",
+      "domain": "environment_tax",
+      "description": "Environmental organization with strict standards that supersede legal requirements for member compliance"
+    },
+    "domain": "environment_tax",
+    "tags": ["constitutional_supremacy", "private_regulation", "environmental_standards", "organizational_authority"]
+  },
+  {
+    "id": "const-041",
+    "concept_topic": "citizenship",
+    "difficulty": 5,
+    "question_type": "scenario_based",
+    "stem": "A global professional network has created a 'Digital Citizenship' program where members earn points through professional contributions, knowledge sharing, and community engagement. Higher-ranked members gain access to exclusive opportunities, networking events, and decision-making influence within the platform. However, the ranking system has been criticized for creating a 'caste system' that privileges already established professionals over newcomers. Analyze this through constitutional citizenship principles about equality and participation.",
+    "correct_answers": ["This scenario raises questions about whether merit-based ranking systems can create fair participation opportunities or if they risk perpetuating inequalities that violate principles of equal citizenship"],
+    "explanation": "The scenario examines how meritocratic systems might conflict with principles of equal participation, potentially creating barriers to full citizenship participation for newcomers or those from less privileged backgrounds.",
+    "analogy": {
+      "type": "meritocratic_citizenship",
+      "domain": "technology",
+      "description": "Professional network with point-based ranking system that affects access and participation rights"
+    },
+    "domain": "technology",
+    "tags": ["citizenship", "meritocracy", "equal_participation", "digital_professional_networks"]
+  },
+  {
+    "id": "const-042",
+    "concept_topic": "secularism",
+    "difficulty": 3,
+    "question_type": "short_answer",
+    "stem": "A public university's student union operates all public spaces on campus ( cafeterias, lounges, study areas) under a policy of religious neutrality. This means that while individuals can display religious symbols personally, the institution cannot promote any religious viewpoint in its programming or physical spaces. However, the student union does allow religious student groups to book spaces for their own events. Explain how this balances secularism with religious freedom.",
+    "correct_answers": ["This represents institutional secularism with religious accommodation, where the institution remains neutral in its official capacity while allowing equal access to religious groups for their private events"],
+    "explanation": "The policy shows how secular institutions can maintain religious neutrality in their official functions while providing equal access to religious groups, treating religious activities as equivalent to other student organization events.",
+    "analogy": {
+      "type": "institutional_neutrality_with_accommodation",
+      "domain": "municipal_governance",
+      "description": "Public university with religious neutrality in institutional spaces but equal booking access for religious student groups"
+    },
+    "domain": "municipal_governance",
+    "tags": ["secularism", "institutional_neutrality", "religious_accommodation", "university_governance"]
+  },
+  {
+    "id": "const-043",
+    "concept_topic": "federalism",
+    "difficulty": 4,
+    "question_type": "multiple_choice",
+    "stem": "The International Monetary Fund operates a system where member countries contribute to a common fund and agree to follow certain economic policies in exchange for access to financing. Countries with stronger economies have more voting power, and the Fund can require policy changes as conditions for loans. Countries can also form regional groups that coordinate their positions. This system demonstrates:",
+    "options": [
+      "Federal authority with democratic participation and conditional membership",
+      "Cooperative federalism with financial incentives and policy coordination", 
+      "Regulated federalism with oversight and enforcement mechanisms",
+      "Hierarchical federalism with graduated authority based on economic status"
+    ],
+    "correct_answers": ["Cooperative federalism with financial incentives and policy coordination"],
+    "explanation": "This represents cooperative federalism because countries voluntarily join and agree to coordination in exchange for benefits, with mechanisms for both collective decision-making and regional cooperation.",
+    "analogy": {
+      "type": "financial_cooperation",
+      "domain": "fintech",
+      "description": "International monetary system with voluntary membership, financial incentives, and policy coordination"
+    },
+    "domain": "fintech",
+    "tags": ["federalism", "international_finance", "policy_coordination", "conditional_membership"]
+  },
+  {
+    "id": "const-044",
+    "concept_topic": "separation_of_powers",
+    "difficulty": 5,
+    "question_type": "essay",
+    "stem": "Write an essay analyzing how modern technology platforms have created new forms of separation of powers through their three-sided market structure: users (who create and consume content), developers (who build applications and services), and the platform (which provides infrastructure and sets rules). Compare this to traditional constitutional separation of powers, discussing how platform governance demonstrates both parallels and important differences from governmental separation of powers.",
+    "correct_answers": ["Essay should analyze how platform governance creates separation of powers between users, developers, and platform operators, drawing parallels to governmental checks and balances while noting differences in democratic accountability and legal authority"],
+    "explanation": "This requires deep analysis of how digital platforms create governance structures that separate different types of authority and interest, comparing them to constitutional separation of powers while considering the unique aspects of private digital governance.",
+    "analogy": {
+      "type": "platform_governance",
+      "domain": "technology",
+      "description": "Technology platforms with three-sided markets separating users, developers, and platform operators"
+    },
+    "domain": "technology",
+    "tags": ["separation_of_powers", "platform_governance", "digital_governance", "three_sided_markets"]
+  },
+  {
+    "id": "const-045",
+    "concept_topic": "rule_of_law",
+    "difficulty": 4,
+    "question_type": "scenario_based",
+    "stem": "A municipal court system has established clear sentencing guidelines for different types of violations, with defined penalties and appeal processes. However, judges also have discretion to deviate from guidelines in cases involving 'compelling circumstances' or when they determine that standard penalties would be 'inappropriate.' The city has created a committee to review judges' use of discretion to ensure consistency. Analyze how this system balances rule-based consistency with judicial flexibility.",
+    "correct_answers": ["This scenario shows how legal systems can maintain rule-based consistency while allowing for necessary flexibility through judicial discretion, with oversight mechanisms to prevent arbitrary application"],
+    "explanation": "The scenario demonstrates the complex balance that legal systems must strike between consistent application of rules and the need for flexible responses to unusual circumstances, with oversight mechanisms to prevent abuse of discretion.",
+    "analogy": {
+      "type": "judicial_discretion_with_oversight",
+      "domain": "municipal_governance",
+      "description": "Municipal court system with sentencing guidelines, judicial discretion provisions, and oversight committee"
+    },
+    "domain": "municipal_governance",
+    "tags": ["rule_of_law", "judicial_discretion", "sentencing_guidelines", "oversight_mechanisms"]
+  },
+  {
+    "id": "const-046",
+    "concept_topic": "constitutional_supremacy",
+    "difficulty": 3,
+    "question_type": "short_answer",
+    "stem": "A global labor union has established workplace standards that exceed legal requirements in most countries where its member companies operate. The union's charter states that these standards constitute 'the law of the organization' and take precedence over local laws when conflicts arise. Union members who violate these standards face expulsion and blacklisting. Explain how this demonstrates 'supra-legal authority' in private organizations.",
+    "correct_answers": ["This shows how private organizations can establish internal legal hierarchies where their rules take precedence over external legal requirements for organizational members"],
+    "explanation": "The union's approach demonstrates that private organizations can create their own systems of legal supremacy where internal rules override external legal requirements for organizational membership, similar to constitutional supremacy in public law.",
+    "analogy": {
+      "type": "organizational_legal_hierarchy",
+      "domain": "business",
+      "description": "Global labor union with internal standards that take precedence over local laws for member compliance"
+    },
+    "domain": "business",
+    "tags": ["constitutional_supremacy", "organizational_authority", "labor_standards", "supra_legal_rules"]
+  },
+  {
+    "id": "const-047",
+    "concept_topic": "citizenship",
+    "difficulty": 4,
+    "question_type": "multiple_choice",
+    "stem": "A co-housing community has established a membership system where residents must participate in community decision-making, contribute to maintenance, and follow a code of conduct. New members are voted in by existing residents, and members can be asked to leave for serious violations. The community also has designated 'associate membership' for non-residents who want to participate in community activities. This creates:",
+    "options": [
+      "A private community with democratic participation and graduated membership",
+      "A residential democracy with membership requirements and voting rights", 
+      "A cooperative living arrangement with participatory governance and conditional membership",
+      "A planned community with shared responsibilities and structured participation"
+    ],
+    "correct_answers": ["A private community with democratic participation and graduated membership"],
+    "explanation": "This represents a private community with democratic participation and graduated membership because residents have voting rights and participation duties, with different levels of membership based on residency and community involvement.",
+    "analogy": {
+      "type": "community_citizenship",
+      "domain": "smart_city",
+      "description": "Co-housing community with participatory governance, membership requirements, and graduated participation levels"
+    },
+    "domain": "smart_city",
+    "tags": ["citizenship", "community_governance", "participatory_democracy", "cooperative_living"]
+  },
+  {
+    "id": "const-048",
+    "concept_topic": "secularism",
+    "difficulty": 5,
+    "question_type": "scenario_based",
+    "stem": "A public hospital system serves a diverse community and provides chaplaincy services from multiple faith traditions. However, the hospital's spiritual care department has established a policy that chaplains must remain neutral about theological differences and focus on providing emotional and spiritual support rather than proselytizing. Some religious groups argue this policy silences their voice, while others appreciate the inclusive approach. Analyze this situation through secularism principles about religious accommodation and institutional neutrality.",
+    "correct_answers": ["This scenario illustrates the tension between institutional neutrality and religious accommodation, where chaplains must navigate between providing inclusive spiritual care and respecting distinct religious traditions"],
+    "explanation": "The scenario shows the complex balance that public institutions must strike between maintaining religious neutrality while providing meaningful spiritual care that respects diverse religious traditions without promoting any particular viewpoint.",
+    "analogy": {
+      "type": "institutional_spiritual_care",
+      "domain": "healthcare",
+      "description": "Public hospital with multi-faith chaplaincy services requiring theological neutrality while serving diverse religious needs"
+    },
+    "domain": "healthcare",
+    "tags": ["secularism", "religious_accommodation", "healthcare_spiritual_care", "institutional_neutrality"]
+  },
+  {
+    "id": "const-049",
+    "concept_topic": "federalism",
+    "difficulty": 3,
+    "question_type": "short_answer",
+    "stem": "A network of independent bookstores has formed a cooperative where individual stores maintain their autonomy and unique character, but coordinate on certain activities like bulk purchasing, shared marketing, and establishing common standards for customer service. The cooperative has a board with representatives from member stores, and major decisions require approval from a certain percentage of members. Explain how this illustrates cooperative federalism in the private sector.",
+    "correct_answers": ["This shows cooperative federalism where independent entities voluntarily coordinate on common interests while maintaining individual autonomy, with shared governance and collective decision-making"],
+    "explanation": "The bookstore cooperative demonstrates how federal principles can operate in private organizations, with independent members coordinating activities while maintaining autonomy and participating in shared governance structures.",
+    "analogy": {
+      "type": "voluntary_coordination",
+      "domain": "business",
+      "description": "Independent bookstore cooperative with autonomous members coordinating on common activities and shared governance"
+    },
+    "domain": "business",
+    "tags": ["federalism", "voluntary_cooperation", "cooperative_governance", "private_organizations"]
+  },
+  {
+    "id": "const-050",
+    "concept_topic": "separation_of_powers",
+    "difficulty": 4,
+    "question_type": "multiple_choice",
+    "stem": "A large hospital system has organized its governance with three distinct bodies: a Board of Trustees (strategic oversight and major resource allocation), Medical Executive Committee (clinical standards and practitioner oversight), and Patient Advocacy Council (patient rights and quality assurance). Each body has independent authority in its domain, but they must coordinate on major initiatives and have mutual veto power over decisions that affect all three domains. This structure creates:",
+    "options": [
+      "A comprehensive system of checks and balances with distributed authority",
+      "A collaborative governance model with shared responsibility", 
+      "A specialized expertise framework with inter-domain coordination",
+      "A democratic representation system with stakeholder participation"
+    ],
+    "correct_answers": ["A comprehensive system of checks and balances with distributed authority"],
+    "explanation": "This represents a comprehensive system of checks and balances with distributed authority because each body has independent powers in its domain but must coordinate and can veto decisions affecting other domains, creating a robust system of mutual oversight.",
+    "analogy": {
+      "type": "healthcare_governance_separation",
+      "domain": "healthcare",
+      "description": "Hospital system with three-body governance structure having distinct authorities and mutual oversight powers"
+    },
+    "domain": "healthcare",
+    "tags": ["separation_of_powers", "healthcare_governance", "checks_balances", "distributed_authority"]
+  }
+]

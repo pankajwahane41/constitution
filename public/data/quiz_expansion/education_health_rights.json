@@ -1,0 +1,992 @@
+{
+  "title": "Education and Health as Children's Rights - Easy Quiz",
+  "description": "70 simple questions about education and health rights for kids ages 8-12",
+  "questions": [
+    {
+      "id": "EDU001",
+      "category": "Right to Education",
+      "subcategory": "School Admissions",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "Who can go to your neighborhood public school?",
+      "options": [
+        "Only rich kids",
+        "All kids who live nearby", 
+        "Only kids with perfect grades",
+        "Only kids whose parents went there"
+      ],
+      "correct_answer": 1,
+      "explanation": "Public schools are for all kids in the area, like a playground for the whole neighborhood.",
+      "analogy": "Like the local playground - it's for everyone in the area!"
+    },
+    {
+      "id": "EDU002",
+      "category": "Right to Education",
+      "subcategory": "School Admissions", 
+      "type": "true_false",
+      "difficulty": "easy",
+      "question": "A school can say no to a kid who doesn't speak English at home.",
+      "correct_answer": false,
+      "explanation": "Schools must help all kids learn, even if English isn't their first language.",
+      "analogy": "Like playground games - language doesn't matter when you're having fun!"
+    },
+    {
+      "id": "EDU003",
+      "category": "Right to Education",
+      "subcategory": "School Admissions",
+      "type": "multiple_choice",
+      "difficulty": "easy", 
+      "question": "What matters most when you want to join a school club?",
+      "options": [
+        "How much money your family has",
+        "Your interest in the activity", 
+        "What your parents do for work",
+        "How big your house is"
+      ],
+      "correct_answer": 1,
+      "explanation": "Kids should be chosen for clubs because they want to participate, not because of money.",
+      "analogy": "Like picking team players by who wants to play, not who has fancy equipment"
+    },
+    {
+      "id": "EDU004",
+      "category": "Right to Education",
+      "subcategory": "School Admissions",
+      "type": "scenario", 
+      "difficulty": "medium",
+      "question": "Only 20 kids can join the art club, but 30 want to join. What should happen?",
+      "correct_answer": "Let everyone try out fairly and choose the best way to include more kids",
+      "explanation": "Schools should try to include as many kids as possible, not just pick favorites.",
+      "analogy": "Like when too many kids want to play basketball - you make fair teams"
+    },
+    {
+      "id": "EDU005",
+      "category": "Right to Education",
+      "subcategory": "School Admissions",
+      "type": "true_false",
+      "difficulty": "easy",
+      "question": "Kids with disabilities should go to special schools away from other kids.",
+      "correct_answer": false,
+      "explanation": "Kids with disabilities should go to the same schools as other kids and get help they need.",
+      "analogy": "Like having a basketball player who uses a wheelchair - they can still play on the team"
+    },
+    {
+      "id": "EDU006",
+      "category": "Right to Education",
+      "subcategory": "Classroom Safety",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "What should your classroom have plenty of?",
+      "options": [
+        "Expensive decorations",
+        "Good teachers who care about you", 
+        "Big windows",
+        "Fancy computers"
+      ],
+      "correct_answer": 1,
+      "explanation": "The most important thing in a classroom is a teacher who wants to help you learn.",
+      "analogy": "Like a good coach who teaches you how to play the game"
+    },
+    {
+      "id": "EDU007",
+      "category": "Right to Education",
+      "subcategory": "Classroom Safety",
+      "type": "true_false",
+      "difficulty": "medium", 
+      "question": "Schools should make sure bullying never happens.",
+      "correct_answer": true,
+      "explanation": "Schools must keep all kids safe from bullying and make everyone feel welcome.",
+      "analogy": "Like playground monitors making sure no one gets pushed or hurt"
+    },
+    {
+      "id": "EDU008",
+      "category": "Right to Education",
+      "subcategory": "Classroom Safety",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "If someone bullies you at school, what should happen?",
+      "options": [
+        "Fight back",
+        "Tell a teacher to stop it", 
+        "Ignore it",
+        "Tell other kids to bully them back"
+      ],
+      "correct_answer": 1,
+      "explanation": "Teachers and schools must stop bullying to keep all kids safe and happy.",
+      "analogy": "Like getting the playground monitor when someone is being mean"
+    },
+    {
+      "id": "EDU009",
+      "category": "Right to Education",
+      "subcategory": "Playground Safety",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "Who makes sure playground equipment is safe?",
+      "options": [
+        "Just the kids who use it",
+        "The school and the city", 
+        "Only the parents",
+        "No one special"
+      ],
+      "correct_answer": 1,
+      "explanation": "Adults in charge of schools must make sure all equipment is safe for kids to use.",
+      "analogy": "Like the city making sure the neighborhood playground won't hurt kids"
+    },
+    {
+      "id": "EDU010",
+      "category": "Right to Education",
+      "subcategory": "Playground Safety", 
+      "type": "true_false",
+      "difficulty": "easy",
+      "question": "If a swing is broken, the school should fix it right away.",
+      "correct_answer": true,
+      "explanation": "Schools must fix broken equipment quickly so kids don't get hurt.",
+      "analogy": "Like fixing a broken basketball hoop so kids don't get hurt playing"
+    },
+    {
+      "id": "EDU011",
+      "category": "Right to Education",
+      "subcategory": "Playground Safety",
+      "type": "scenario",
+      "difficulty": "medium",
+      "question": "You see a kid get hurt on the playground. What should you do?",
+      "correct_answer": "Get an adult to help immediately",
+      "explanation": "Always find a grown-up when someone gets hurt so they can help properly.",
+      "analogy": "Like getting the coach when someone gets hurt during practice"
+    },
+    {
+      "id": "EDU012",
+      "category": "Right to Education",
+      "subcategory": "Healthy Habits",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "Why do schools serve healthy lunch?",
+      "options": [
+        "To make kids eat vegetables",
+        "So kids have energy to learn and play", 
+        "To save money",
+        "Because parents can't cook"
+      ],
+      "correct_answer": 1,
+      "explanation": "Good food helps your brain work better so you can learn and have fun.",
+      "analogy": "Like putting good gas in a car - it runs better!"
+    },
+    {
+      "id": "EDU013",
+      "category": "Right to Education",
+      "subcategory": "Healthy Habits",
+      "type": "true_false",
+      "difficulty": "easy",
+      "question": "Kids need to exercise and play to learn better.",
+      "correct_answer": true,
+      "explanation": "Physical activity helps your brain work better and makes learning easier.",
+      "analogy": "Like stretching before a game - it helps you play better"
+    },
+    {
+      "id": "EDU014",
+      "category": "Right to Education",
+      "subcategory": "Healthy Habits",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "What helps you concentrate better in class?",
+      "options": [
+        "Staying up late watching TV",
+        "Getting enough sleep at night", 
+        "Eating lots of candy",
+        "Drinking soda for breakfast"
+      ],
+      "correct_answer": 1,
+      "explanation": "Good sleep helps your brain be ready to learn and pay attention.",
+      "analogy": "Like a phone that needs to charge - your brain needs sleep to work well"
+    },
+    {
+      "id": "EDU015",
+      "category": "Right to Education",
+      "subcategory": "Healthy Habits",
+      "type": "scenario",
+      "difficulty": "medium",
+      "question": "You feel tired at school because you went to bed very late. What should you do?",
+      "correct_answer": "Ask the teacher for help and try to get better sleep",
+      "explanation": "It's okay to ask for help when you're struggling, and good sleep helps you learn.",
+      "analogy": "Like telling your coach you're tired so they can help you"
+    },
+    {
+      "id": "EDU016",
+      "category": "Right to Education",
+      "subcategory": "School Resources",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "What should every school have for kids to use?",
+      "options": [
+        "Only expensive things",
+        "Books, computers, and supplies for everyone", 
+        "Nothing special",
+        "Only for the best students"
+      ],
+      "correct_answer": 1,
+      "explanation": "Schools must make sure all kids have the tools they need to learn.",
+      "analogy": "Like making sure every team player has their own ball to practice with"
+    },
+    {
+      "id": "EDU017",
+      "category": "Right to Education",
+      "subcategory": "School Resources",
+      "type": "true_false",
+      "difficulty": "medium",
+      "question": "Schools should have clean water for all students to drink.",
+      "correct_answer": true,
+      "explanation": "Clean water is a basic need for health and learning.",
+      "analogy": "Like water fountains at the playground - everyone needs clean water"
+    },
+    {
+      "id": "EDU018",
+      "category": "Right to Education",
+      "subcategory": "School Resources",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "If your school doesn't have a library, what should happen?",
+      "options": [
+        "That's okay, books are old-fashioned",
+        "The school should get books and create a reading space", 
+        "Only rich kids can have books",
+        "Kids can just use their phones"
+      ],
+      "correct_answer": 1,
+      "explanation": "Libraries are important for learning, and every school should have reading materials.",
+      "analogy": "Like a team's equipment room - you need the right tools to get better"
+    },
+    {
+      "id": "EDU019",
+      "category": "Right to Education",
+      "subcategory": "Equal Treatment",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "How should teachers treat all students?",
+      "options": [
+        "Only be nice to the smart kids",
+        "Fairly and kindly to everyone", 
+        "Be stricter with poor kids",
+        "Only help kids they like"
+      ],
+      "correct_answer": 1,
+      "explanation": "All kids deserve fair treatment and help from their teachers.",
+      "analogy": "Like a good coach who encourages all team members"
+    },
+    {
+      "id": "EDU020",
+      "category": "Right to Education",
+      "subcategory": "Equal Treatment",
+      "type": "true_false",
+      "difficulty": "medium",
+      "question": "Boys and girls should have the same chances to join school teams and clubs.",
+      "correct_answer": true,
+      "explanation": "All kids should be able to participate in activities they enjoy.",
+      "analogy": "Like letting anyone play basketball, not just certain kids"
+    },
+    {
+      "id": "EDU021",
+      "category": "Right to Education",
+      "subcategory": "School Rules",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "What do good school rules do?",
+      "options": [
+        "Help everyone learn and stay safe",
+        "Just punish kids", 
+        "Make school boring",
+        "Only help the teachers"
+      ],
+      "correct_answer": 0,
+      "explanation": "Good rules help create a safe place where everyone can learn and be happy.",
+      "analogy": "Like game rules that make sports fun and fair for everyone"
+    },
+    {
+      "id": "EDU022",
+      "category": "Right to Education",
+      "subcategory": "School Rules",
+      "type": "scenario",
+      "difficulty": "medium",
+      "question": "A new student doesn't know the school rules. What should happen?",
+      "correct_answer": "Teachers should explain the rules kindly and help them learn",
+      "explanation": "New students need time to learn how things work at their new school.",
+      "analogy": "Like when a new player joins a team - the coach teaches them the plays"
+    },
+    {
+      "id": "EDU023",
+      "category": "Right to Education",
+      "subcategory": "Food and Nutrition",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "What kind of lunch helps kids learn best?",
+      "options": [
+        "Only candy and chips",
+        "Healthy food with fruits and vegetables", 
+        "Just soda and cookies",
+        "Skip lunch entirely"
+      ],
+      "correct_answer": 1,
+      "explanation": "Nutritious food gives your body and brain what they need to work well.",
+      "analogy": "Like eating a good breakfast before a big game"
+    },
+    {
+      "id": "EDU024",
+      "category": "Right to Education",
+      "subcategory": "Food and Nutrition",
+      "type": "true_false",
+      "difficulty": "easy",
+      "question": "Schools should not let hungry kids eat free school lunch.",
+      "correct_answer": false,
+      "explanation": "All kids deserve healthy food at school, and hungry kids need meals to learn.",
+      "analogy": "Like making sure every player gets good food before the game"
+    },
+    {
+      "id": "EDU025",
+      "category": "Right to Education",
+      "subcategory": "Help with Learning",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "If you're struggling with reading, what should happen?",
+      "options": [
+        "Give up on reading",
+        "Get extra help from teachers", 
+        "Only read easy books",
+        "Get held back a grade"
+      ],
+      "correct_answer": 1,
+      "explanation": "Schools should help kids who need extra support to succeed.",
+      "analogy": "Like a coach giving extra practice to players who need to improve"
+    },
+    {
+      "id": "EDU026",
+      "category": "Right to Education",
+      "subcategory": "Help with Learning",
+      "type": "true_false",
+      "difficulty": "medium",
+      "question": "Kids who speak different languages at home need special help to succeed in school.",
+      "correct_answer": true,
+      "explanation": "Schools should help kids who are learning English so they can do well.",
+      "analogy": "Like learning the rules of a new game - it takes practice and help"
+    },
+    {
+      "id": "EDU027",
+      "category": "Right to Education",
+      "subcategory": "Moving and Change",
+      "type": "scenario",
+      "difficulty": "medium",
+      "question": "Your family moves to a new city. Can you start school right away?",
+      "correct_answer": "Yes, kids have the right to go to school in their new home",
+      "explanation": "Moving shouldn't stop kids from continuing their education.",
+      "analogy": "Like joining a new team when you move - you can start playing right away"
+    },
+    {
+      "id": "EDU028",
+      "category": "Right to Education",
+      "subcategory": "Moving and Change",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "When you move to a new school, what should happen?",
+      "options": [
+        "You have to wait a whole year",
+        "They should welcome you and help you fit in", 
+        "You can only come on certain days",
+        "You have to pay extra fees"
+      ],
+      "correct_answer": 1,
+      "explanation": "New students should be made to feel welcome and get help to adjust.",
+      "analogy": "Like when a new kid joins your sports team - the team makes them feel at home"
+    },
+    {
+      "id": "EDU029",
+      "category": "Right to Education",
+      "subcategory": "Big Schools and Small Schools",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "What if your school is too crowded?",
+      "options": [
+        "That's just how it is",
+        "The government should work to fix the problem", 
+        "Only some kids can go to school",
+        "Kids have to pay more to attend"
+      ],
+      "correct_answer": 1,
+      "explanation": "Governments must make sure schools have enough space and resources for all kids.",
+      "analogy": "Like making sure the playground isn't too crowded for all the kids"
+    },
+    {
+      "id": "EDU030",
+      "category": "Right to Education",
+      "subcategory": "Big Schools and Small Schools",
+      "type": "true_false",
+      "difficulty": "easy",
+      "question": "Small schools can be just as good as big schools.",
+      "correct_answer": true,
+      "explanation": "Good education doesn't depend on school size - it depends on caring teachers and resources.",
+      "analogy": "Like a small basketball team that plays really well together"
+    },
+    {
+      "id": "HEA001",
+      "category": "Healthcare Rights",
+      "subcategory": "Community Health Centers",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "What is a community health center?",
+      "options": [
+        "A place only rich people can use",
+        "A clinic for everyone in the neighborhood", 
+        "Only for emergencies",
+        "A store that sells medicine"
+      ],
+      "correct_answer": 1,
+      "explanation": "Community health centers help all people in the area stay healthy.",
+      "analogy": "Like the community playground - it's for everyone nearby!"
+    },
+    {
+      "id": "HEA002",
+      "category": "Healthcare Rights",
+      "subcategory": "Community Health Centers",
+      "type": "true_false",
+      "difficulty": "easy",
+      "question": "Community health centers must help people even if they can't pay.",
+      "correct_answer": true,
+      "explanation": "Health centers should help everyone, especially people who need money support.",
+      "analogy": "Like a public pool that everyone can use, even if some families can't pay"
+    },
+    {
+      "id": "HEA003",
+      "category": "Healthcare Rights",
+      "subcategory": "Community Health Centers",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "Where should health centers be located?",
+      "options": [
+        "Only in wealthy neighborhoods",
+        "In places where people can easily get to them", 
+        "Far away from homes",
+        "Only in the city center"
+      ],
+      "correct_answer": 1,
+      "explanation": "Health centers should be easy for people to reach, so everyone can get help.",
+      "analogy": "Like putting playgrounds where kids can walk to them safely"
+    },
+    {
+      "id": "HEA004",
+      "category": "Healthcare Rights",
+      "subcategory": "Community Health Centers",
+      "type": "scenario",
+      "difficulty": "medium",
+      "question": "The nearest clinic is very far away and many families don't have cars. What should happen?",
+      "correct_answer": "The government should provide transportation or build a closer clinic",
+      "explanation": "Healthcare should be easy to access for everyone, not just people with cars.",
+      "analogy": "Like making sure everyone can get to the playground, even without a car"
+    },
+    {
+      "id": "HEA005",
+      "category": "Healthcare Rights",
+      "subcategory": "Community Health Centers",
+      "type": "true_false",
+      "difficulty": "medium",
+      "question": "Health centers should have staff who speak different languages.",
+      "correct_answer": true,
+      "explanation": "People need to be able to talk to doctors and nurses about their health.",
+      "analogy": "Like having a coach who can explain plays in different languages"
+    },
+    {
+      "id": "HEA006",
+      "category": "Healthcare Rights",
+      "subcategory": "Healthcare for All",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "Can doctors refuse to help someone because of their race or religion?",
+      "options": [
+        "Yes, if they want to",
+        "No, healthcare is for everyone", 
+        "Only in emergencies",
+        "Only if the person is rude"
+      ],
+      "correct_answer": 1,
+      "explanation": "Healthcare must be given equally to all people, no matter who they are.",
+      "analogy": "Like a doctor being like a fair referee - they help everyone"
+    },
+    {
+      "id": "HEA007",
+      "category": "Healthcare Rights",
+      "subcategory": "Healthcare for All",
+      "type": "true_false",
+      "difficulty": "easy",
+      "question": "Children have the same right to healthcare as adults.",
+      "correct_answer": true,
+      "explanation": "All people, including kids, deserve medical care when they need it.",
+      "analogy": "Like in sports - young players need medical care just like older players"
+    },
+    {
+      "id": "HEA008",
+      "category": "Healthcare Rights",
+      "subcategory": "Healthcare for All",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "What makes healthcare a right instead of a privilege?",
+      "options": [
+        "Only rich people deserve it",
+        "Everyone needs it to be healthy and happy", 
+        "It's something special people get",
+        "It's not really important"
+      ],
+      "correct_answer": 1,
+      "explanation": "Healthcare is a basic need that helps people live good lives.",
+      "analogy": "Like clean water and food - everyone needs these things"
+    },
+    {
+      "id": "HEA009",
+      "category": "Healthcare Rights",
+      "subcategory": "Emergency Care",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "What number should you call for medical emergencies?",
+      "options": [
+        "Your parent's work number",
+        "911 (or your local emergency number)", 
+        "The hospital's main number",
+        "Your friend's house"
+      ],
+      "correct_answer": 1,
+      "explanation": "Emergency services help when someone is badly hurt or sick.",
+      "analogy": "Like knowing which referee to call when there's an emergency during the game"
+    },
+    {
+      "id": "HEA010",
+      "category": "Healthcare Rights",
+      "subcategory": "Emergency Care",
+      "type": "true_false",
+      "difficulty": "medium",
+      "question": "Emergency rooms must help people even if they can't pay.",
+      "correct_answer": true,
+      "explanation": "Emergency care saves lives and must be available to everyone.",
+      "analogy": "Like the fire department - they help everyone in emergencies"
+    },
+    {
+      "id": "HEA011",
+      "category": "Healthcare Rights",
+      "subcategory": "Emergency Care",
+      "type": "scenario",
+      "difficulty": "medium",
+      "question": "You see someone get seriously hurt. What should you do?",
+      "correct_answer": "Call for emergency help and stay with them safely",
+      "explanation": "Get professional help quickly and try to keep the person safe and calm.",
+      "analogy": "Like getting the coach when someone gets hurt during practice"
+    },
+    {
+      "id": "HEA012",
+      "category": "Healthcare Rights",
+      "subcategory": "School Health",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "What should the school nurse do when a kid gets hurt at school?",
+      "options": [
+        "Tell them to be brave and go back to class",
+        "Help them and call their parents", 
+        "Send them home alone",
+        "Ignore it if it doesn't look serious"
+      ],
+      "correct_answer": 1,
+      "explanation": "School nurses help sick or hurt students and contact families.",
+      "analogy": "Like having a team medic who takes care of injured players"
+    },
+    {
+      "id": "HEA013",
+      "category": "Healthcare Rights",
+      "subcategory": "School Health",
+      "type": "true_false",
+      "difficulty": "medium",
+      "question": "Schools should have plans for medical emergencies like allergic reactions.",
+      "correct_answer": true,
+      "explanation": "Schools must be ready to help kids with health problems quickly.",
+      "analogy": "Like having emergency plans during sports games"
+    },
+    {
+      "id": "HEA014",
+      "category": "Healthcare Rights",
+      "subcategory": "School Health",
+      "type": "scenario",
+      "difficulty": "hard",
+      "question": "A child is having an allergic reaction at school. What should happen immediately?",
+      "correct_answer": "Use emergency medicine if available and call for emergency help",
+      "explanation": "Allergic reactions can be very serious and need quick action.",
+      "analogy": "Like having emergency coaches ready with first aid during games"
+    },
+    {
+      "id": "HEA015",
+      "category": "Healthcare Rights",
+      "subcategory": "Healthy Habits",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "What helps keep kids healthy?",
+      "options": [
+        "Eating lots of candy",
+        "Regular checkups and good nutrition", 
+        "Never washing hands",
+        "Staying up very late"
+      ],
+      "correct_answer": 1,
+      "explanation": "Regular doctor visits and healthy food help kids stay strong and well.",
+      "analogy": "Like taking care of your sports equipment so it works well"
+    },
+    {
+      "id": "HEA016",
+      "category": "Healthcare Rights",
+      "subcategory": "Healthy Habits",
+      "type": "true_false",
+      "difficulty": "easy",
+      "question": "Washing hands helps prevent getting sick.",
+      "correct_answer": true,
+      "explanation": "Clean hands stop germs from spreading and making people sick.",
+      "analogy": "Like keeping your sports gear clean so it works better"
+    },
+    {
+      "id": "HEA017",
+      "category": "Healthcare Rights",
+      "subcategory": "Healthy Habits",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "Why is exercise important for kids?",
+      "options": [
+        "It makes you tired and hungry",
+        "It helps your body and mind stay healthy", 
+        "It's only for athletic kids",
+        "It takes too much time"
+      ],
+      "correct_answer": 1,
+      "explanation": "Exercise helps kids grow strong and feel good about themselves.",
+      "analogy": "Like practice makes a sports team better and stronger"
+    },
+    {
+      "id": "HEA018",
+      "category": "Healthcare Rights",
+      "subcategory": "Mental Health",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "When kids feel very sad or worried, what should they do?",
+      "options": [
+        "Keep it to themselves",
+        "Talk to trusted adults who can help", 
+        "Only tell their best friend",
+        "Ignore the feelings"
+      ],
+      "correct_answer": 1,
+      "explanation": "It's important to get help when feeling sad or worried.",
+      "analogy": "Like telling your coach when something is bothering you"
+    },
+    {
+      "id": "HEA019",
+      "category": "Healthcare Rights",
+      "subcategory": "Mental Health",
+      "type": "true_false",
+      "difficulty": "medium",
+      "question": "Mental health is just as important as physical health.",
+      "correct_answer": true,
+      "explanation": "Feeling good mentally helps kids do well in school and life.",
+      "analogy": "Like training both your body and mind for peak performance"
+    },
+    {
+      "id": "HEA020",
+      "category": "Healthcare Rights",
+      "subcategory": "Helping Others",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "If your friend is sick, what can you do to help?",
+      "options": [
+        "Share your food with them",
+        "Be kind and maybe get an adult to help", 
+        "Play rough games with them",
+        "Tell them to toughen up"
+      ],
+      "correct_answer": 1,
+      "explanation": "Kindness and getting adult help are good ways to support sick friends.",
+      "analogy": "Like being a good teammate who helps when someone isn't feeling well"
+    },
+    {
+      "id": "HEA021",
+      "category": "Healthcare Rights",
+      "subcategory": "Helping Others",
+      "type": "true_false",
+      "difficulty": "easy",
+      "question": "It's important to cover your mouth when you cough.",
+      "correct_answer": true,
+      "explanation": "Covering coughs stops germs from spreading to other people.",
+      "analogy": "Like good sportsmanship - you don't want to hurt other players"
+    },
+    {
+      "id": "HEA022",
+      "category": "Healthcare Rights",
+      "subcategory": "Family Health",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "What should families do to stay healthy?",
+      "options": [
+        "Eat vegetables and get enough sleep",
+        "Never go to the doctor", 
+        "Only eat fast food",
+        "Stay inside all the time"
+      ],
+      "correct_answer": 0,
+      "explanation": "Good food, rest, and medical care help families stay healthy.",
+      "analogy": "Like a team eating well and getting rest to perform their best"
+    },
+    {
+      "id": "HEA023",
+      "category": "Healthcare Rights",
+      "subcategory": "Family Health",
+      "type": "scenario",
+      "difficulty": "medium",
+      "question": "Your little brother is afraid of going to the doctor. How can you help?",
+      "correct_answer": "Reassure him and go with him to make him feel less scared",
+      "explanation": "Being brave together and getting regular checkups keeps everyone healthy.",
+      "analogy": "Like an older player helping a younger teammate feel less nervous"
+    },
+    {
+      "id": "HEA024",
+      "category": "Healthcare Rights",
+      "subcategory": "Preventing Illness",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "What can kids do to avoid getting sick?",
+      "options": [
+        "Never wash their hands",
+        "Get vaccinations and practice good hygiene", 
+        "Stay inside all winter",
+        "Share drinks with friends"
+      ],
+      "correct_answer": 1,
+      "explanation": "Shots and cleanliness help protect kids from many illnesses.",
+      "analogy": "Like wearing protective gear in sports to prevent injuries"
+    },
+    {
+      "id": "HEA025",
+      "category": "Healthcare Rights",
+      "subcategory": "Preventing Illness",
+      "type": "true_false",
+      "difficulty": "medium",
+      "question": "Vaccines help keep kids and communities healthy.",
+      "correct_answer": true,
+      "explanation": "Vaccines protect people from serious diseases.",
+      "analogy": "Like having good defense in a game - it protects the whole team"
+    },
+    {
+      "id": "GOV001",
+      "category": "Government Responsibilities",
+      "subcategory": "Funding Schools",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "Who pays for public schools?",
+      "options": [
+        "Only rich families",
+        "The government using tax money", 
+        "Just the students",
+        "Private companies"
+      ],
+      "correct_answer": 1,
+      "explanation": "The government uses everyone's tax money to pay for schools.",
+      "analogy": "Like the city paying for public parks with tax dollars"
+    },
+    {
+      "id": "GOV002",
+      "category": "Government Responsibilities",
+      "subcategory": "Funding Schools",
+      "type": "true_false",
+      "difficulty": "medium",
+      "question": "All neighborhoods should have good schools, not just rich ones.",
+      "correct_answer": true,
+      "explanation": "Government should make sure every child can go to a good school.",
+      "analogy": "Like making sure every neighborhood has a good playground"
+    },
+    {
+      "id": "GOV003",
+      "category": "Government Responsibilities",
+      "subcategory": "Funding Schools",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "What happens if schools don't have enough money?",
+      "options": [
+        "That's too bad for the kids",
+        "Government should provide more funding", 
+        "Only smart kids can go",
+        "Close the schools"
+      ],
+      "correct_answer": 1,
+      "explanation": "Government must make sure schools have enough money to teach all kids well.",
+      "analogy": "Like making sure all teams have good equipment, not just rich teams"
+    },
+    {
+      "id": "GOV004",
+      "category": "Government Responsibilities",
+      "subcategory": "Funding Healthcare",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "Where does money come from to build hospitals?",
+      "options": [
+        "Only from patient fees",
+        "Government funding and taxes", 
+        "Private donations only",
+        "The hospitals print their own money"
+      ],
+      "correct_answer": 1,
+      "explanation": "Government uses tax money to build and maintain hospitals.",
+      "analogy": "Like the city paying for public swimming pools"
+    },
+    {
+      "id": "GOV005",
+      "category": "Government Responsibilities",
+      "subcategory": "Funding Healthcare",
+      "type": "true_false",
+      "difficulty": "medium",
+      "question": "Government should help people who can't afford healthcare.",
+      "correct_answer": true,
+      "explanation": "Government programs help make sure everyone can get medical care.",
+      "analogy": "Like community programs that help families who can't afford sports equipment"
+    },
+    {
+      "id": "GOV006",
+      "category": "Government Responsibilities",
+      "subcategory": "Safety Inspections",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "Who checks that schools are safe?",
+      "options": [
+        "Just the teachers",
+        "Government safety inspectors", 
+        "Only the students",
+        "No one special"
+      ],
+      "correct_answer": 1,
+      "explanation": "Government sends inspectors to make sure schools meet safety standards.",
+      "analogy": "Like referees checking that the playing field is safe"
+    },
+    {
+      "id": "GOV007",
+      "category": "Government Responsibilities",
+      "subcategory": "Safety Inspections",
+      "type": "true_false",
+      "difficulty": "medium",
+      "question": "Food safety inspectors help keep people healthy.",
+      "correct_answer": true,
+      "explanation": "Government inspectors make sure restaurants serve safe food.",
+      "analogy": "Like safety referees making sure playground equipment is safe"
+    },
+    {
+      "id": "GOV008",
+      "category": "Government Responsibilities",
+      "subcategory": "Safety Inspections",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "What should happen if a school building is unsafe?",
+      "options": [
+        "Keep using it anyway",
+        "Fix it immediately to keep kids safe", 
+        "Only use it on nice days",
+        "Let the students fix it themselves"
+      ],
+      "correct_answer": 1,
+      "explanation": "Unsafe buildings must be fixed right away to protect children.",
+      "analogy": "Like fixing broken playground equipment so no one gets hurt"
+    },
+    {
+      "id": "GOV009",
+      "category": "Government Responsibilities",
+      "subcategory": "Making Rules",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "Who makes the rules for how schools should work?",
+      "options": [
+        "Only the principals",
+        "Government education officials", 
+        "Just the teachers",
+        "The students vote on everything"
+      ],
+      "correct_answer": 1,
+      "explanation": "Government creates rules to make sure schools are fair and safe for all kids.",
+      "analogy": "Like league commissioners making rules for fair sports"
+    },
+    {
+      "id": "GOV010",
+      "category": "Government Responsibilities",
+      "subcategory": "Making Rules",
+      "type": "true_false",
+      "difficulty": "medium",
+      "question": "Rules help make sure everyone gets a fair chance to learn and be healthy.",
+      "correct_answer": true,
+      "explanation": "Good rules protect children's rights to education and health.",
+      "analogy": "Like game rules that make sure everyone plays fairly"
+    },
+    {
+      "id": "GOV011",
+      "category": "Government Responsibilities",
+      "subcategory": "Making Rules",
+      "type": "scenario",
+      "difficulty": "medium",
+      "question": "Parents think their child's school is unsafe. What should they do?",
+      "correct_answer": "Contact government officials who can investigate and fix the problem",
+      "explanation": "Citizens can ask government to make sure schools are safe.",
+      "analogy": "Like fans reporting safety problems to league officials"
+    },
+    {
+      "id": "GOV012",
+      "category": "Government Responsibilities",
+      "subcategory": "Community Health",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "What should the government do to keep communities healthy?",
+      "options": [
+        "Nothing - people should take care of themselves",
+        "Build health centers and promote healthy living", 
+        "Only help rich neighborhoods",
+        "Let diseases spread naturally"
+      ],
+      "correct_answer": 1,
+      "explanation": "Government works to make sure everyone in the community can stay healthy.",
+      "analogy": "Like a league providing health services to all teams"
+    },
+    {
+      "id": "GOV013",
+      "category": "Government Responsibilities",
+      "subcategory": "Transportation",
+      "type": "scenario",
+      "difficulty": "medium",
+      "question": "Kids can't get to school or the doctor because there's no bus service. What should happen?",
+      "correct_answer": "Government should provide transportation so all kids can get to school and healthcare",
+      "explanation": "Transportation is important so everyone can access education and healthcare.",
+      "analogy": "Like team buses that take all players to games"
+    },
+    {
+      "id": "GOV014",
+      "category": "Government Responsibilities",
+      "subcategory": "Fair Treatment",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "question": "How should government treat all families?",
+      "options": [
+        "Better for rich families",
+        "Equally and fairly", 
+        "Only help certain groups",
+        "It doesn't matter"
+      ],
+      "correct_answer": 1,
+      "explanation": "Government should treat all people fairly, regardless of their money or background.",
+      "analogy": "Like referees treating all players the same way"
+    },
+    {
+      "id": "GOV015",
+      "category": "Government Responsibilities",
+      "subcategory": "Listening to People",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "question": "What should happen if people think the government isn't doing enough for schools?",
+      "options": [
+        "Nothing - government knows best",
+        "People should speak up and vote for better leaders", 
+        "Just complain to friends",
+        "Move to a different place"
+      ],
+      "correct_answer": 1,
+      "explanation": "Citizens can speak up and vote to make sure government does its job.",
+      "analogy": "Like fans speaking up when they want better equipment for their team"
+    }
+  ]
+}

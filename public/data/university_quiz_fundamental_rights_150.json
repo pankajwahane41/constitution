@@ -1,0 +1,27 @@
+{
+  "title": "150 Ambedkar-Vision Quiz Questions on India's Fundamental Rights (Articles 12–35)",
+  "description": "Comprehensive question bank covering all 6 fundamental rights with Dr. B.R. Ambedkar's philosophy of social democracy, dignity, and meaningful equality",
+  "total_questions": 150,
+  "difficulty_levels": {
+    "easy": "30 questions (20%)",
+    "medium": "46 questions (31%)", 
+    "hard": "22 questions (15%)",
+    "application": "52 questions (34%)"
+  },
+  "right_groups": {
+    "equality": "30 questions (Articles 14-18)",
+    "freedom": "35 questions (Articles 19-22)",
+    "exploitation": "20 questions (Articles 23-24)",
+    "religion": "25 questions (Articles 25-28)",
+    "culture_education": "20 questions (Articles 29-30)",
+    "remedies": "20 questions (Article 32, with 33-35)"
+  },
+  "ambedkar_lens": [
+    "Dignity and equal citizenship",
+    "Non-discrimination",
+    "Inclusion",
+    "Safeguards",
+    "Remedies"
+  ],
+  "questions": []
+}

@@ -1,0 +1,1364 @@
+{
+  "title": "Constitutional Bodies Quiz for Children - 75 Questions with Analogies",
+  "total_questions": 75,
+  "version": "1.0",
+  "difficulty_distribution": {
+    "beginner": 25,
+    "intermediate": 25,
+    "advanced": 25
+  },
+  "last_updated": "2025-11-04",
+  "description": "75 detailed quiz questions about Constitutional Bodies (ECI, CAG, UPSC, etc.) with child-friendly analogies like school principal, classroom monitors, sports committees, and community helpers. Covers roles, independence, and functions using varied relatable examples.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the Election Commission of India like in our school?",
+      "options": [
+        "The school principal",
+        "The class monitor",
+        "The sports referee",
+        "The school librarian"
+      ],
+      "correct_answer": "The sports referee",
+      "explanation": "The Election Commission of India acts like a sports referee who ensures fair play during elections, just as a referee makes sure all players follow the rules during a game.",
+      "analogy": "Sports referee ensuring fair play during a cricket match",
+      "difficulty": "beginner",
+      "topic": "ECI",
+      "subtopic": "Basic Role",
+      "learning_objective": "Understand the basic role of Election Commission of India",
+      "source_ids": [4, 17]
+    },
+    {
+      "id": 2,
+      "question": "How does the Election Commission keep elections fair?",
+      "options": [
+        "By making the rules for who can vote and counting votes fairly",
+        "By choosing which political parties can contest",
+        "By making the winning party",
+        "By deciding the election results beforehand"
+      ],
+      "correct_answer": "By making the rules for who can vote and counting votes fairly",
+      "explanation": "The Election Commission ensures fairness by creating rules for elections, preparing voter lists, and ensuring that votes are counted properly and transparently.",
+      "analogy": "School principal making rules for a class election and ensuring everyone's vote counts",
+      "difficulty": "beginner",
+      "topic": "ECI",
+      "subtopic": "Fair Elections",
+      "learning_objective": "Understand how ECI maintains election fairness",
+      "source_ids": [4, 5]
+    },
+    {
+      "id": 3,
+      "question": "What is the Comptroller and Auditor General (CAG) like in our school?",
+      "options": [
+        "The sports teacher who checks if we're playing fairly",
+        "The school accountant who checks if money is spent correctly",
+        "The librarian who organizes books",
+        "The janitor who cleans the school"
+      ],
+      "correct_answer": "The school accountant who checks if money is spent correctly",
+      "explanation": "The CAG is like the school accountant who checks that all school money is spent properly on what it was meant for, just like buying books for the library or new equipment for the playground.",
+      "analogy": "School accountant checking bills and receipts for school spending",
+      "difficulty": "beginner",
+      "topic": "CAG",
+      "subtopic": "Basic Role",
+      "learning_objective": "Understand the basic role of CAG",
+      "source_ids": [7, 8]
+    },
+    {
+      "id": 4,
+      "question": "What does the CAG do with the money the government spends?",
+      "options": [
+        "Decides how much money the government should spend",
+        "Checks if the money was spent on the right things and in the right way",
+        "Gives money to the government",
+        "Keeps the money for the government"
+      ],
+      "correct_answer": "Checks if the money was spent on the right things and in the right way",
+      "explanation": "The CAG checks government spending to make sure it's legal and used for the right purposes, like a school principal checking if the library budget was used to buy actual books.",
+      "analogy": "Principal checking if playground equipment was bought with the allocated budget",
+      "difficulty": "beginner",
+      "topic": "CAG",
+      "subtopic": "Government Spending",
+      "learning_objective": "Understand CAG's role in checking government spending",
+      "source_ids": [7, 8]
+    },
+    {
+      "id": 5,
+      "question": "What is the Union Public Service Commission (UPSC) like for government jobs?",
+      "options": [
+        "Like a sports team coach selecting the best players",
+        "Like a doctor checking who's healthy",
+        "Like a teacher giving grades",
+        "Like a bus driver taking people places"
+      ],
+      "correct_answer": "Like a sports team coach selecting the best players",
+      "explanation": "The UPSC is like a sports coach who selects the best players for the team through fair trials and tests, ensuring only those with merit get selected.",
+      "analogy": "Sports coach selecting the best players through fair trials and interviews",
+      "difficulty": "beginner",
+      "topic": "UPSC",
+      "subtopic": "Basic Role",
+      "learning_objective": "Understand UPSC's role in government job selection",
+      "source_ids": [9, 10]
+    },
+    {
+      "id": 6,
+      "question": "How does the UPSC make sure government jobs are fair?",
+      "options": [
+        "By giving jobs to friends and family",
+        "By selecting people only based on how they look",
+        "By testing everyone's knowledge and skills fairly",
+        "By choosing randomly"
+      ],
+      "correct_answer": "By testing everyone's knowledge and skills fairly",
+      "explanation": "The UPSC conducts fair tests and interviews to check everyone's knowledge, skills, and personality, ensuring the best candidates are selected.",
+      "analogy": "School giving equal chances to all students in a science fair competition",
+      "difficulty": "beginner",
+      "topic": "UPSC",
+      "subtopic": "Fair Selection",
+      "learning_objective": "Understand how UPSC ensures fair selection",
+      "source_ids": [9, 10, 11]
+    },
+    {
+      "id": 7,
+      "question": "What is the Lokpal like in our school system?",
+      "options": [
+        "The class monitor who solves fights between students",
+        "The school doctor who checks everyone's health",
+        "The principal who investigates complaints against teachers",
+        "The librarian who keeps quiet records"
+      ],
+      "correct_answer": "The principal who investigates complaints against teachers",
+      "explanation": "The Lokpal is like a fair judge who investigates complaints against public officials, ensuring no one can use their power to harm others.",
+      "analogy": "Principal investigating complaints about teacher behavior fairly",
+      "difficulty": "beginner",
+      "topic": "Lokpal",
+      "subtopic": "Basic Role",
+      "learning_objective": "Understand Lokpal's role in handling complaints",
+      "source_ids": [12, 17]
+    },
+    {
+      "id": 8,
+      "question": "Why do we need constitutional bodies like referees in democracy?",
+      "options": [
+        "To make the government more powerful",
+        "To keep democracy fair and honest",
+        "To make decisions for the people",
+        "To take away people's rights"
+      ],
+      "correct_answer": "To keep democracy fair and honest",
+      "explanation": "Constitutional bodies are like referees in a game - they ensure that everyone follows the rules and plays fair, keeping democracy honest and protecting citizens' rights.",
+      "analogy": "Sports referee ensuring fair play in a football match",
+      "difficulty": "beginner",
+      "topic": "Basics",
+      "subtopic": "Why Constitutional Bodies",
+      "learning_objective": "Understand why constitutional bodies are needed",
+      "source_ids": [1, 3]
+    },
+    {
+      "id": 9,
+      "question": "Who conducts elections in India?",
+      "options": [
+        "The Prime Minister",
+        "The Election Commission of India",
+        "The President",
+        "The Supreme Court"
+      ],
+      "correct_answer": "The Election Commission of India",
+      "explanation": "The Election Commission of India conducts all national and state elections, like a chief referee overseeing all games in a tournament.",
+      "analogy": "Tournament referee overseeing all matches in a sports championship",
+      "difficulty": "beginner",
+      "topic": "ECI",
+      "subtopic": "Who Conducts Elections",
+      "learning_objective": "Know who is responsible for conducting elections",
+      "source_ids": [4, 5]
+    },
+    {
+      "id": 10,
+      "question": "What is the Model Code of Conduct that candidates must follow?",
+      "options": [
+        "Rules about what clothes to wear",
+        "Rules about how to campaign fairly",
+        "Rules about what to eat",
+        "Rules about when to sleep"
+      ],
+      "correct_answer": "Rules about how to campaign fairly",
+      "explanation": "The Model Code of Conduct is like school rules that make sure all candidates campaign fairly, without bribing voters or using threats.",
+      "analogy": "School rules for class elections ensuring peaceful campaigning",
+      "difficulty": "beginner",
+      "topic": "ECI",
+      "subtopic": "Model Code of Conduct",
+      "learning_objective": "Understand what Model Code of Conduct means",
+      "source_ids": [6]
+    },
+    {
+      "id": 11,
+      "question": "What does the CAG do when it finds problems in government spending?",
+      "options": [
+        "Ignores the problems",
+        "Reports to Parliament so they can be fixed",
+        "Keeps the money",
+        "Blames the government publicly"
+      ],
+      "correct_answer": "Reports to Parliament so they can be fixed",
+      "explanation": "The CAG reports problems to Parliament, like a school auditor reporting issues to the school board so they can be fixed and improve future spending.",
+      "analogy": "School auditor reporting problems to the school board for solutions",
+      "difficulty": "beginner",
+      "topic": "CAG",
+      "subtopic": "Reporting Problems",
+      "learning_objective": "Understand what happens when CAG finds problems",
+      "source_ids": [7, 8]
+    },
+    {
+      "id": 12,
+      "question": "How many stages does the Civil Services Examination have?",
+      "options": [
+        "One stage",
+        "Two stages",
+        "Three stages",
+        "Four stages"
+      ],
+      "correct_answer": "Three stages",
+      "explanation": "The Civil Services Examination has three stages: Preliminary, Mains, and Interview, like three rounds in a sports tournament.",
+      "analogy": "Three rounds in a talent competition - preliminaries, finals, and interview round",
+      "difficulty": "beginner",
+      "topic": "UPSC",
+      "subtopic": "CSE Stages",
+      "learning_objective": "Know the three stages of Civil Services Examination",
+      "source_ids": [9, 10]
+    },
+    {
+      "id": 13,
+      "question": "What does 'merit-based' selection mean?",
+      "options": [
+        "Choosing people who are your friends",
+        "Choosing people based on their knowledge and abilities",
+        "Choosing people randomly",
+        "Choosing people based on their appearance"
+      ],
+      "correct_answer": "Choosing people based on their knowledge and abilities",
+      "explanation": "Merit-based means selecting the best people based on their knowledge, skills, and abilities, not on who they know or their background.",
+      "analogy": "Selecting the best student for science fair based on their project, not who they are",
+      "difficulty": "beginner",
+      "topic": "UPSC",
+      "subtopic": "Merit-based Selection",
+      "learning_objective": "Understand what merit-based selection means",
+      "source_ids": [11]
+    },
+    {
+      "id": 14,
+      "question": "Who investigates complaints about corruption in the central government?",
+      "options": [
+        "The Police",
+        "The Lokpal",
+        "The President",
+        "The Prime Minister"
+      ],
+      "correct_answer": "The Lokpal",
+      "explanation": "The Lokpal investigates complaints about corruption at the central level, like a fair judge looking into serious disputes.",
+      "analogy": "A fair judge investigating serious complaints in the school",
+      "difficulty": "beginner",
+      "topic": "Lokpal",
+      "subtopic": "Investigates Complaints",
+      "learning_objective": "Know who investigates central government corruption",
+      "source_ids": [12]
+    },
+    {
+      "id": 15,
+      "question": "What does 'constitutional body' mean in simple terms?",
+      "options": [
+        "A body that works in the Constitution",
+        "A special organization that keeps government fair",
+        "A body that makes laws",
+        "A body that controls money"
+      ],
+      "correct_answer": "A special organization that keeps government fair",
+      "explanation": "Constitutional bodies are special organizations created by the Constitution to keep the government fair, honest, and accountable, like the student council in a school.",
+      "analogy": "Student council keeping the school administration fair and honest",
+      "difficulty": "beginner",
+      "topic": "Basics",
+      "subtopic": "Constitutional Body Definition",
+      "learning_objective": "Understand what constitutional bodies are",
+      "source_ids": [3, 17]
+    },
+    {
+      "id": 16,
+      "question": "How does the Election Commission prepare for elections?",
+      "options": [
+        "Just announces the date",
+        "Updates voter lists and trains officials",
+        "Decides who should win",
+        "Only counts votes"
+      ],
+      "correct_answer": "Updates voter lists and trains officials",
+      "explanation": "The Election Commission prepares for elections by updating voter lists, training officials, and planning logistics, like a sports organizer preparing for a big tournament.",
+      "analogy": "Sports organizer updating player lists and training officials before a championship",
+      "difficulty": "intermediate",
+      "topic": "ECI",
+      "subtopic": "Election Preparation",
+      "learning_objective": "Understand how Election Commission prepares for elections",
+      "source_ids": [5]
+    },
+    {
+      "id": 17,
+      "question": "What happens if someone tries to misuse government resources during elections?",
+      "options": [
+        "Nothing happens",
+        "The Election Commission can stop this behavior",
+        "It is allowed",
+        "The police arrest everyone"
+      ],
+      "correct_answer": "The Election Commission can stop this behavior",
+      "explanation": "The Election Commission can stop anyone from misusing government resources during elections under the Model Code of Conduct, like stopping cheating in an exam.",
+      "analogy": "Invigilator stopping students from copying during an exam",
+      "difficulty": "intermediate",
+      "topic": "ECI",
+      "subtopic": "Model Code of Conduct Violations",
+      "learning_objective": "Understand consequences of misusing resources during elections",
+      "source_ids": [6]
+    },
+    {
+      "id": 18,
+      "question": "Why is it important to have an independent Election Commission?",
+      "options": [
+        "So it can make more money",
+        "So it can be fair to all political parties",
+        "So it can help only one party",
+        "So it can work faster"
+      ],
+      "correct_answer": "So it can be fair to all political parties",
+      "explanation": "An independent Election Commission can remain neutral and fair to all political parties, like a referee who doesn't favor any team in a game.",
+      "analogy": "Referee staying neutral and fair to all teams during a match",
+      "difficulty": "intermediate",
+      "topic": "ECI",
+      "subtopic": "Independence",
+      "learning_objective": "Understand why Election Commission independence is important",
+      "source_ids": [4, 5]
+    },
+    {
+      "id": 19,
+      "question": "What are the two main types of audits conducted by CAG?",
+      "options": [
+        "Random audits and planned audits",
+        "Legal compliance and value-for-money audits",
+        "Monthly and yearly audits",
+        "Small and big audits"
+      ],
+      "correct_answer": "Legal compliance and value-for-money audits",
+      "explanation": "CAG conducts two main audits: legal compliance (checking if spending follows laws) and value-for-money (checking if spending achieves intended results), like checking both if a project is legal and if it works well.",
+      "analogy": "Checking both if a science project follows the rules and if it actually works",
+      "difficulty": "intermediate",
+      "topic": "CAG",
+      "subtopic": "Types of Audits",
+      "learning_objective": "Understand different types of audits conducted by CAG",
+      "source_ids": [7, 8]
+    },
+    {
+      "id": 20,
+      "question": "What is the Public Accounts Committee (PAC)?",
+      "options": [
+        "A committee that manages public money",
+        "A committee that reviews CAG reports in Parliament",
+        "A committee that conducts elections",
+        "A committee that investigates corruption"
+      ],
+      "correct_answer": "A committee that reviews CAG reports in Parliament",
+      "explanation": "The Public Accounts Committee is a parliamentary committee that reviews CAG reports and questions government officials about spending, like a school committee reviewing the principal's budget report.",
+      "analogy": "School committee reviewing and questioning the principal's budget spending",
+      "difficulty": "intermediate",
+      "topic": "CAG",
+      "subtopic": "Public Accounts Committee",
+      "learning_objective": "Understand what Public Accounts Committee does",
+      "source_ids": [7]
+    },
+    {
+      "id": 21,
+      "question": "Why is document verification important in government job selection?",
+      "options": [
+        "To waste time",
+        "To check if certificates are genuine",
+        "To make people nervous",
+        "To select randomly"
+      ],
+      "correct_answer": "To check if certificates are genuine",
+      "explanation": "Document verification ensures that candidates have genuine educational certificates and meet all requirements, like checking ID before allowing entry to school events.",
+      "analogy": "Checking student ID cards before allowing entry to school function",
+      "difficulty": "intermediate",
+      "topic": "UPSC",
+      "subtopic": "Document Verification",
+      "learning_objective": "Understand importance of document verification",
+      "source_ids": [9, 11]
+    },
+    {
+      "id": 22,
+      "question": "What does the Personality Test in UPSC examine?",
+      "options": [
+        "How well a person looks",
+        "Judgment, communication, and ethical thinking",
+        "What clothes a person wears",
+        "How popular a person is"
+      ],
+      "correct_answer": "Judgment, communication, and ethical thinking",
+      "explanation": "The Personality Test examines a candidate's judgment, communication skills, ethics, and overall personality, like an interview for a student leadership position.",
+      "analogy": "Interview for student council president testing communication and leadership skills",
+      "difficulty": "intermediate",
+      "topic": "UPSC",
+      "subtopic": "Personality Test",
+      "learning_objective": "Understand what Personality Test examines",
+      "source_ids": [9, 10]
+    },
+    {
+      "id": 23,
+      "question": "What is the preliminary examination in UPSC designed to test?",
+      "options": [
+        "How well someone can write essays",
+        "Basic knowledge and aptitude",
+        "How tall someone is",
+        "How well someone can remember songs"
+      ],
+      "correct_answer": "Basic knowledge and aptitude",
+      "explanation": "The preliminary examination tests basic knowledge and aptitude, like a screening test to select candidates for the main competition.",
+      "analogy": "Screening test in school to select students for advanced math competition",
+      "difficulty": "intermediate",
+      "topic": "UPSC",
+      "subtopic": "Preliminary Examination",
+      "learning_objective": "Understand what preliminary examination tests",
+      "source_ids": [9, 10]
+    },
+    {
+      "id": 24,
+      "question": "What is the main purpose of the Mains examination?",
+      "options": [
+        "To test memory power",
+        "To test deep understanding and clear writing",
+        "To test physical fitness",
+        "To test artistic skills"
+      ],
+      "correct_answer": "To test deep understanding and clear writing",
+      "explanation": "The Mains examination tests deep understanding of subjects and ability to write clear, detailed answers, like long-answer questions in final exams.",
+      "analogy": "Final exams with long-answer questions testing deep understanding",
+      "difficulty": "intermediate",
+      "topic": "UPSC",
+      "subtopic": "Mains Examination",
+      "learning_objective": "Understand purpose of Mains examination",
+      "source_ids": [9, 10]
+    },
+    {
+      "id": 25,
+      "question": "How many cases did the Lokpal order probes in during its first five years?",
+      "options": [
+        "10 cases",
+        "20 cases",
+        "24 cases",
+        "30 cases"
+      ],
+      "correct_answer": "24 cases",
+      "explanation": "In its first five years, the Lokpal ordered probes in 24 cases, showing it's actively working on serious corruption complaints.",
+      "analogy": "School principal investigating 24 serious complaints in five years",
+      "difficulty": "intermediate",
+      "topic": "Lokpal",
+      "subtopic": "Performance Statistics",
+      "learning_objective": "Know Lokpal's performance in first five years",
+      "source_ids": [13]
+    },
+    {
+      "id": 26,
+      "question": "What is a Lokayukta?",
+      "options": [
+        "A type of sports official",
+        "State-level anti-corruption body like Lokpal",
+        "A government department",
+        "A police force"
+      ],
+      "correct_answer": "State-level anti-corruption body like Lokpal",
+      "explanation": "Lokayuktas are state-level anti-corruption bodies that work like the Lokpal but for state governments, like having local principal and district principal.",
+      "analogy": "Local principal in each district working under the main school principal",
+      "difficulty": "intermediate",
+      "topic": "Lokayuktas",
+      "subtopic": "State-level Bodies",
+      "learning_objective": "Understand what Lokayuktas are",
+      "source_ids": [12, 17]
+    },
+    {
+      "id": 27,
+      "question": "Why do we need State Public Service Commissions?",
+      "options": [
+        "To handle central government jobs",
+        "To handle state government jobs fairly",
+        "To handle police jobs",
+        "To handle military jobs"
+      ],
+      "correct_answer": "To handle state government jobs fairly",
+      "explanation": "State Public Service Commissions ensure fair selection of candidates for state government jobs, like the UPSC but for each state, ensuring local fairness.",
+      "analogy": "School district level principal for fair selection within each district",
+      "difficulty": "intermediate",
+      "topic": "SPSC",
+      "subtopic": "State-level Selection",
+      "learning_objective": "Understand why State Public Service Commissions are needed",
+      "source_ids": [14]
+    },
+    {
+      "id": 28,
+      "question": "What does the Finance Commission decide?",
+      "options": [
+        "How to spend government money",
+        "How to share money between center and states",
+        "How to collect taxes",
+        "How to give salaries to government employees"
+      ],
+      "correct_answer": "How to share money between center and states",
+      "explanation": "The Finance Commission decides how to fairly share tax money between the central government and state governments, like dividing a pizza fairly among friends.",
+      "analogy": "Fairly dividing a shared pizza so everyone gets appropriate amount",
+      "difficulty": "intermediate",
+      "topic": "Finance Commission",
+      "subtopic": "Revenue Sharing",
+      "learning_objective": "Understand Finance Commission's role",
+      "source_ids": [15]
+    },
+    {
+      "id": 29,
+      "question": "What is the relationship between CAG reports and the Public Accounts Committee?",
+      "options": [
+        "They are completely separate",
+        "PAC reviews CAG reports and questions government officials",
+        "CAG reviews PAC reports",
+        "They are the same organization"
+      ],
+      "correct_answer": "PAC reviews CAG reports and questions government officials",
+      "explanation": "The Public Accounts Committee reviews CAG reports and questions officials about spending irregularities, creating a system of accountability.",
+      "analogy": "School committee reviewing auditor's report and questioning the principal about spending issues",
+      "difficulty": "intermediate",
+      "topic": "CAG",
+      "subtopic": "PAC Relationship",
+      "learning_objective": "Understand relationship between CAG and PAC",
+      "source_ids": [7]
+    },
+    {
+      "id": 30,
+      "question": "What makes the UPSC's selection process transparent?",
+      "options": [
+        "Secret evaluations",
+        "Clear rules, published criteria, and open results",
+        "Random selections",
+        "Private interviews only"
+      ],
+      "correct_answer": "Clear rules, published criteria, and open results",
+      "explanation": "UPSC's transparency comes from clear rules, published exam criteria, and published results, like transparent school rules for competitions.",
+      "analogy": "School science fair with clear rules and published results for all to see",
+      "difficulty": "intermediate",
+      "topic": "UPSC",
+      "subtopic": "Transparency",
+      "learning_objective": "Understand what makes UPSC process transparent",
+      "source_ids": [11]
+    },
+    {
+      "id": 31,
+      "question": "How many times in history has the election process been completely suspended?",
+      "options": [
+        "Many times",
+        "Never completely",
+        "Several times",
+        "Once"
+      ],
+      "correct_answer": "Never completely",
+      "explanation": "India's elections have never been completely suspended, showing the strength of the democratic system and the Election Commission's role in maintaining continuity.",
+      "analogy": "School sports day never being cancelled completely even during difficult times",
+      "difficulty": "intermediate",
+      "topic": "ECI",
+      "subtopic": "Election Continuity",
+      "learning_objective": "Understand continuity of Indian electoral system",
+      "source_ids": [4, 5]
+    },
+    {
+      "id": 32,
+      "question": "What is the analogy between government audits and school projects?",
+      "options": [
+        "No relationship",
+        "Checking if project was completed as planned and within budget",
+        "Only checking costs",
+        "Only checking quality"
+      ],
+      "correct_answer": "Checking if project was completed as planned and within budget",
+      "explanation": "Government audits check if projects were completed as planned and within budget, like checking if a school science project was done properly and within the allocated cost.",
+      "analogy": "School teacher checking if science project was completed as planned and within budget",
+      "difficulty": "intermediate",
+      "topic": "CAG",
+      "subtopic": "Project Audits",
+      "learning_objective": "Understand government audits through school project analogy",
+      "source_ids": [7, 8]
+    },
+    {
+      "id": 33,
+      "question": "What happens if Lokpal finds sufficient evidence of corruption?",
+      "options": [
+        "Nothing happens",
+        "It can recommend prosecution",
+        "It just reports the case",
+        "It transfers the official"
+      ],
+      "correct_answer": "It can recommend prosecution",
+      "explanation": "If Lokpal finds sufficient evidence, it can recommend prosecution, like a principal recommending disciplinary action against a teacher who broke school rules.",
+      "analogy": "Principal recommending disciplinary action against teacher who violated school rules",
+      "difficulty": "intermediate",
+      "topic": "Lokpal",
+      "subtopic": "Prosecution Recommendation",
+      "learning_objective": "Understand what happens when Lokpal finds evidence",
+      "source_ids": [12, 13]
+    },
+    {
+      "id": 34,
+      "question": "What is the biggest challenge faced by the Lokpal?",
+      "options": [
+        "Too few complaints",
+        "Getting proper format of complaints and coordination with agencies",
+        "Too much money",
+        "No legal powers"
+      ],
+      "correct_answer": "Getting proper format of complaints and coordination with agencies",
+      "explanation": "Lokpal faces challenges like many complaints being rejected due to wrong format, and coordinating with various agencies, like a new school committee learning to work properly.",
+      "analogy": "New student committee learning to handle complaints in proper format",
+      "difficulty": "advanced",
+      "topic": "Lokpal",
+      "subtopic": "Challenges",
+      "learning_objective": "Understand challenges faced by Lokpal",
+      "source_ids": [13]
+    },
+    {
+      "id": 35,
+      "question": "How does the Election Commission ensure the Model Code of Conduct is followed?",
+      "options": [
+        "By conducting random checks and taking action against violations",
+        "By ignoring violations",
+        "By only making announcements",
+        "By punishing only serious violations"
+      ],
+      "correct_answer": "By conducting random checks and taking action against violations",
+      "explanation": "The Election Commission conducts random checks and takes action against violations of Model Code of Conduct, like invigilators monitoring exams for cheating.",
+      "analogy": "Invigilators conducting random checks and taking action against cheating in exams",
+      "difficulty": "advanced",
+      "topic": "ECI",
+      "subtopic": "MCC Enforcement",
+      "learning_objective": "Understand how Election Commission enforces MCC",
+      "source_ids": [6]
+    },
+    {
+      "id": 36,
+      "question": "What is the significance of the 2G spectrum and coal allocation cases in CAG's work?",
+      "options": [
+        "They were small issues",
+        "They showed how CAG audits can uncover serious irregularities leading to further action",
+        "They were ignored",
+        "They were false cases"
+      ],
+      "correct_answer": "They showed how CAG audits can uncover serious irregularities leading to further action",
+      "explanation": "The 2G and coal cases showed that CAG audits can uncover serious irregularities that lead to parliamentary debates and law enforcement action, like a school audit uncovering major spending irregularities.",
+      "analogy": "School audit uncovering major budget misuse leading to board investigation",
+      "difficulty": "advanced",
+      "topic": "CAG",
+      "subtopic": "Major Cases",
+      "learning_objective": "Understand significance of major CAG cases",
+      "source_ids": [7]
+    },
+    {
+      "id": 37,
+      "question": "Why is the UPSC considered the pinnacle of civil service recruitment?",
+      "options": [
+        "Because it has the most difficult examination",
+        "Because it represents the highest level of fair and merit-based selection in the country",
+        "Because it pays the highest salaries",
+        "Because it has the biggest budget"
+      ],
+      "correct_answer": "Because it represents the highest level of fair and merit-based selection in the country",
+      "explanation": "UPSC is considered the pinnacle because it represents the highest standard of fair, merit-based, and transparent selection for prestigious government positions, like the national-level sports championship.",
+      "analogy": "National-level sports championship representing the pinnacle of fair competition",
+      "difficulty": "advanced",
+      "topic": "UPSC",
+      "subtopic": "National Importance",
+      "learning_objective": "Understand why UPSC is considered pinnacle of civil service",
+      "source_ids": [9, 10, 11]
+    },
+    {
+      "id": 38,
+      "question": "What is the relationship between constitutional bodies and the principle of checks and balances?",
+      "options": [
+        "They are completely unrelated",
+        "They represent the system of checks and balances to prevent misuse of power",
+        "They help one branch dominate others",
+        "They ignore constitutional rules"
+      ],
+      "correct_answer": "They represent the system of checks and balances to prevent misuse of power",
+      "explanation": "Constitutional bodies represent the system of checks and balances, ensuring no single branch of government becomes too powerful, like having multiple officials in a school to prevent any one person from having too much control.",
+      "analogy": "Multiple school officials working together to prevent any one person from having too much power",
+      "difficulty": "advanced",
+      "topic": "Basics",
+      "subtopic": "Checks and Balances",
+      "learning_objective": "Understand relationship between constitutional bodies and checks and balances",
+      "source_ids": [2, 3]
+    },
+    {
+      "id": 39,
+      "question": "How do constitutional bodies contribute to public trust in democracy?",
+      "options": [
+        "By supporting only the ruling party",
+        "By ensuring fairness, transparency, and accountability in government functions",
+        "By making quick decisions",
+        "By keeping everything secret"
+      ],
+      "correct_answer": "By ensuring fairness, transparency, and accountability in government functions",
+      "explanation": "Constitutional bodies build public trust by ensuring fairness, transparency, and accountability in elections, spending, hiring, and anti-corruption efforts, like honest referees building trust in sports.",
+      "analogy": "Honest sports referees building trust among players and spectators",
+      "difficulty": "advanced",
+      "topic": "Basics",
+      "subtopic": "Public Trust",
+      "learning_objective": "Understand how constitutional bodies build public trust",
+      "source_ids": [1, 3, 17]
+    },
+    {
+      "id": 40,
+      "question": "What would happen if there was no Election Commission?",
+      "options": [
+        "Elections would be better",
+        "Elections would be chaotic and unfair without proper management",
+        "People would be happier",
+        "Elections would be faster"
+      ],
+      "correct_answer": "Elections would be chaotic and unfair without proper management",
+      "explanation": "Without an Election Commission, elections would be chaotic with no one to manage voter lists, enforce fair conduct, and ensure proper counting, like a sports match without referees.",
+      "analogy": "Sports match without referees would be chaotic and unfair",
+      "difficulty": "advanced",
+      "topic": "ECI",
+      "subtopic": "Importance of ECI",
+      "learning_objective": "Understand importance of Election Commission",
+      "source_ids": [4, 5]
+    },
+    {
+      "id": 41,
+      "question": "Why is it important for CAG reports to be public?",
+      "options": [
+        "So government can hide its problems",
+        "So people can know how public money is being used and hold government accountable",
+        "So the government can boast about spending",
+        "So people can ignore the reports"
+      ],
+      "correct_answer": "So people can know how public money is being used and hold government accountable",
+      "explanation": "Public CAG reports allow citizens to know how public money is spent and hold government accountable, like public school audits that parents can see.",
+      "analogy": "Public school budget reports that parents can see and question",
+      "difficulty": "advanced",
+      "topic": "CAG",
+      "subtopic": "Public Reports",
+      "learning_objective": "Understand importance of public CAG reports",
+      "source_ids": [7, 8]
+    },
+    {
+      "id": 42,
+      "question": "How do constitutional bodies help maintain the balance between different branches of government?",
+      "options": [
+        "They don't interfere with government",
+        "They provide oversight and accountability to prevent any one branch from becoming too powerful",
+        "They support only the judiciary",
+        "They help the executive only"
+      ],
+      "correct_answer": "They provide oversight and accountability to prevent any one branch from becoming too powerful",
+      "explanation": "Constitutional bodies provide oversight and accountability across different branches, like having multiple supervisors in a school to prevent any one person from having too much unchecked power.",
+      "analogy": "Multiple supervisors in school ensuring no single person has unchecked power",
+      "difficulty": "advanced",
+      "topic": "Basics",
+      "subtopic": "Branch Balance",
+      "learning_objective": "Understand how constitutional bodies maintain branch balance",
+      "source_ids": [2, 3, 16]
+    },
+    {
+      "id": 43,
+      "question": "What is the role of the medical examination in UPSC selection?",
+      "options": [
+        "To discriminate against candidates",
+        "To ensure candidates are physically and mentally fit for certain roles",
+        "To make the process longer",
+        "To select only healthy people"
+      ],
+      "correct_answer": "To ensure candidates are physically and mentally fit for certain roles",
+      "explanation": "Medical examination ensures candidates are fit for roles that require physical or mental fitness, like school sports team medical check before selection.",
+      "analogy": "School sports team medical check to ensure players are fit for certain sports",
+      "difficulty": "beginner",
+      "topic": "UPSC",
+      "subtopic": "Medical Examination",
+      "learning_objective": "Understand purpose of medical examination in UPSC",
+      "source_ids": [9, 10]
+    },
+    {
+      "id": 44,
+      "question": "What does 'independence' mean for constitutional bodies?",
+      "options": [
+        "They can do whatever they want",
+        "They can work without political pressure and make fair decisions",
+        "They are not accountable to anyone",
+        "They don't follow any rules"
+      ],
+      "correct_answer": "They can work without political pressure and make fair decisions",
+      "explanation": "Independence means constitutional bodies can work without political pressure and make fair decisions, like a teacher who can grade fairly without being influenced by student popularity.",
+      "analogy": "Teacher grading fairly without being influenced by student popularity",
+      "difficulty": "beginner",
+      "topic": "Basics",
+      "subtopic": "Independence",
+      "learning_objective": "Understand what independence means for constitutional bodies",
+      "source_ids": [3, 17]
+    },
+    {
+      "id": 45,
+      "question": "How are constitutional bodies different from regular government departments?",
+      "options": [
+        "They are the same",
+        "They are created by Constitution with specific independence and roles for fairness",
+        "They have more powers",
+        "They work for shorter periods"
+      ],
+      "correct_answer": "They are created by Constitution with specific independence and roles for fairness",
+      "explanation": "Constitutional bodies are created by the Constitution with specific independence and roles to ensure fairness, unlike regular departments that handle day-to-day administration.",
+      "analogy": "Special school committees created by school rules with specific roles for fairness",
+      "difficulty": "intermediate",
+      "topic": "Basics",
+      "subtopic": "Constitutional vs Regular Bodies",
+      "learning_objective": "Understand how constitutional bodies differ from regular departments",
+      "source_ids": [3, 17]
+    },
+    {
+      "id": 46,
+      "question": "What is the significance of having both Lokpal and Lokayuktas?",
+      "options": [
+        "They compete with each other",
+        "They provide coverage at both central and state levels for anti-corruption efforts",
+        "They are redundant",
+        "They work only at state level"
+      ],
+      "correct_answer": "They provide coverage at both central and state levels for anti-corruption efforts",
+      "explanation": "Having both Lokpal and Lokayuktas provides anti-corruption coverage at both central and state levels, like having both school principal and class teachers for different levels of discipline.",
+      "analogy": "Having both school principal and class teachers for different levels of school discipline",
+      "difficulty": "intermediate",
+      "topic": "Lokpal",
+      "subtopic": "Lokpal and Lokayuktas",
+      "learning_objective": "Understand significance of having both Lokpal and Lokayuktas",
+      "source_ids": [12, 17]
+    },
+    {
+      "id": 47,
+      "question": "Why might some complaints to Lokpal be rejected?",
+      "options": [
+        "Because Lokpal doesn't want to work",
+        "Because of incorrect format or incomplete information, like incomplete school project",
+        "Because they are too serious",
+        "Because they are not important"
+      ],
+      "correct_answer": "Because of incorrect format or incomplete information, like incomplete school project",
+      "explanation": "Many complaints are rejected due to incorrect format or incomplete information, just like school projects that are rejected if key pages are missing.",
+      "analogy": "School project rejected because key pages are missing from submission",
+      "difficulty": "intermediate",
+      "topic": "Lokpal",
+      "subtopic": "Complaint Rejection",
+      "learning_objective": "Understand why some Lokpal complaints are rejected",
+      "source_ids": [13]
+    },
+    {
+      "id": 48,
+      "question": "What role do the sources play in understanding constitutional bodies?",
+      "options": [
+        "They are not important",
+        "They provide credible information to build accurate understanding",
+        "They confuse students",
+        "They are just opinions"
+      ],
+      "correct_answer": "They provide credible information to build accurate understanding",
+      "explanation": "Credible sources provide accurate information to build proper understanding of constitutional bodies, like reliable textbooks for learning about school systems.",
+      "analogy": "Reliable textbooks providing accurate information about school systems",
+      "difficulty": "beginner",
+      "topic": "Basics",
+      "subtopic": "Role of Sources",
+      "learning_objective": "Understand role of credible sources in learning",
+      "source_ids": [17]
+    },
+    {
+      "id": 49,
+      "question": "How does the Election Commission coordinate with state election commissions?",
+      "options": [
+        "It doesn't coordinate",
+        "It works together to ensure consistent election management across the country",
+        "It gives orders to state commissions",
+        "It ignores state commissions"
+      ],
+      "correct_answer": "It works together to ensure consistent election management across the country",
+      "explanation": "The Election Commission coordinates with state election commissions to ensure consistent and fair election management across the country, like central sports federation coordinating with state sports associations.",
+      "analogy": "Central sports federation coordinating with state sports associations for consistent tournaments",
+      "difficulty": "advanced",
+      "topic": "ECI",
+      "subtopic": "Coordination with States",
+      "learning_objective": "Understand how ECI coordinates with state election commissions",
+      "source_ids": [4, 5]
+    },
+    {
+      "id": 50,
+      "question": "What is the difference between compliance audit and performance audit conducted by CAG?",
+      "options": [
+        "There is no difference",
+        "Compliance audit checks legal adherence while performance audit checks if objectives are achieved efficiently",
+        "Compliance audit checks efficiency while performance audit checks legality",
+        "They are the same type of audit"
+      ],
+      "correct_answer": "Compliance audit checks legal adherence while performance audit checks if objectives are achieved efficiently",
+      "explanation": "Compliance audit checks if spending follows laws and rules, while performance audit checks if money is used efficiently to achieve intended results.",
+      "analogy": "Checking if a science project follows the rules (compliance) and if it works well (performance)",
+      "difficulty": "advanced",
+      "topic": "CAG",
+      "subtopic": "Types of Audits",
+      "learning_objective": "Understand difference between compliance and performance audits",
+      "source_ids": [7, 8]
+    },
+    {
+      "id": 51,
+      "question": "How has the UPSC examination process evolved to maintain fairness?",
+      "options": [
+        "It hasn't changed",
+        "It has incorporated multiple stages and verification to ensure comprehensive and fair selection",
+        "It has become easier",
+        "It has become random"
+      ],
+      "correct_answer": "It has incorporated multiple stages and verification to ensure comprehensive and fair selection",
+      "explanation": "UPSC has evolved to include multiple stages (Prelims, Mains, Interview) and thorough verification to ensure comprehensive and fair selection, like a multi-round competition with fair rules.",
+      "analogy": "Multi-round competition with preliminary, final, and interview rounds ensuring fair selection",
+      "difficulty": "advanced",
+      "topic": "UPSC",
+      "subtopic": "Evolution of Process",
+      "learning_objective": "Understand how UPSC process has evolved for fairness",
+      "source_ids": [9, 10, 11]
+    },
+    {
+      "id": 52,
+      "question": "What lessons can children learn from constitutional bodies about fairness in daily life?",
+      "options": [
+        "Fairness is not important",
+        "Following rules, being honest, and ensuring everyone gets equal opportunity creates trust",
+        "Only winners matter",
+        "Rules are meant to be broken"
+      ],
+      "correct_answer": "Following rules, being honest, and ensuring everyone gets equal opportunity creates trust",
+      "explanation": "Children can learn that fairness in daily life means following rules, being honest, and ensuring everyone gets equal opportunity, like in school competitions and classroom activities.",
+      "analogy": "School competitions where following rules, honesty, and equal opportunity create trust",
+      "difficulty": "advanced",
+      "topic": "Basics",
+      "subtopic": "Life Lessons",
+      "learning_objective": "Understand life lessons from constitutional bodies",
+      "source_ids": [1, 3, 17]
+    },
+    {
+      "id": 53,
+      "question": "How do constitutional bodies help protect citizens' rights?",
+      "options": [
+        "They don't protect rights",
+        "By ensuring fair elections, honest spending, merit-based hiring, and anti-corruption measures",
+        "Only by making laws",
+        "By controlling citizens"
+      ],
+      "correct_answer": "By ensuring fair elections, honest spending, merit-based hiring, and anti-corruption measures",
+      "explanation": "Constitutional bodies protect citizens' rights by ensuring fair elections (voice in governance), honest spending (proper use of tax money), merit-based hiring (equal opportunity), and anti-corruption measures (protection from abuse of power).",
+      "analogy": "School system protecting student rights through fair elections, proper resource use, equal opportunities, and anti-bullying measures",
+      "difficulty": "advanced",
+      "topic": "Basics",
+      "subtopic": "Protecting Rights",
+      "learning_objective": "Understand how constitutional bodies protect citizens' rights",
+      "source_ids": [1, 3, 17]
+    },
+    {
+      "id": 54,
+      "question": "What is the relationship between democracy and constitutional bodies?",
+      "options": [
+        "They are enemies",
+        "Constitutional bodies are essential guardians that keep democracy fair and functional",
+        "They are not related",
+        "Constitutional bodies replace democracy"
+      ],
+      "correct_answer": "Constitutional bodies are essential guardians that keep democracy fair and functional",
+      "explanation": "Constitutional bodies are essential guardians that keep democracy fair and functional by ensuring rules are followed, power is checked, and citizens' trust is maintained.",
+      "analogy": "Referees and umpires are essential guardians that keep sports games fair and enjoyable",
+      "difficulty": "advanced",
+      "topic": "Basics",
+      "subtopic": "Democracy Relationship",
+      "learning_objective": "Understand relationship between democracy and constitutional bodies",
+      "source_ids": [1, 3, 16]
+    },
+    {
+      "id": 55,
+      "question": "How do constitutional bodies work together to maintain good governance?",
+      "options": [
+        "They work independently without coordination",
+        "They work in their respective areas while contributing to the overall system of checks and balances",
+        "They compete with each other",
+        "They ignore each other"
+      ],
+      "correct_answer": "They work in their respective areas while contributing to the overall system of checks and balances",
+      "explanation": "Constitutional bodies work in their specific areas (elections, audits, hiring, anti-corruption) while together creating a system of checks and balances for good governance.",
+      "analogy": "Different school committees (discipline, finance, academics) working in their areas while maintaining overall school balance",
+      "difficulty": "advanced",
+      "topic": "Basics",
+      "subtopic": "Working Together",
+      "learning_objective": "Understand how constitutional bodies work together",
+      "source_ids": [2, 3, 17]
+    },
+    {
+      "id": 56,
+      "question": "Why is the development of constitutional bodies important for a country's progress?",
+      "options": [
+        "It doesn't matter",
+        "Strong constitutional bodies ensure good governance, public trust, and efficient use of resources for national development",
+        "It only benefits politicians",
+        "It creates bureaucracy"
+      ],
+      "correct_answer": "Strong constitutional bodies ensure good governance, public trust, and efficient use of resources for national development",
+      "explanation": "Strong constitutional bodies ensure good governance, public trust, and efficient use of resources, which are essential for a country's overall development and progress.",
+      "analogy": "Strong school systems with fair rules and honest administration lead to better student outcomes and school reputation",
+      "difficulty": "advanced",
+      "topic": "Basics",
+      "subtopic": "National Development",
+      "learning_objective": "Understand importance of constitutional bodies for national development",
+      "source_ids": [16, 17]
+    },
+    {
+      "id": 57,
+      "question": "How do constitutional bodies contribute to reducing corruption?",
+      "options": [
+        "They don't affect corruption",
+        "By investigating complaints, auditing spending, ensuring fair hiring, and maintaining oversight",
+        "Only by punishing people",
+        "By making more rules"
+      ],
+      "correct_answer": "By investigating complaints, auditing spending, ensuring fair hiring, and maintaining oversight",
+      "explanation": "Constitutional bodies reduce corruption through multiple means: Lokpal investigates complaints, CAG audits spending for irregularities, UPSC ensures fair hiring without favoritism, and all provide oversight.",
+      "analogy": "School reducing cheating through vigilant invigilators, regular audits, fair selection processes, and general oversight",
+      "difficulty": "advanced",
+      "topic": "Basics",
+      "subtopic": "Anti-corruption Role",
+      "learning_objective": "Understand how constitutional bodies reduce corruption",
+      "source_ids": [12, 7, 9, 11]
+    },
+    {
+      "id": 58,
+      "question": "What role does public awareness play in making constitutional bodies effective?",
+      "options": [
+        "Public awareness doesn't matter",
+        "Informed citizens can better understand their rights and hold institutions accountable",
+        "It's only for adults",
+        "It creates problems"
+      ],
+      "correct_answer": "Informed citizens can better understand their rights and hold institutions accountable",
+      "explanation": "Public awareness helps citizens understand their rights, recognize corruption or unfairness, and hold constitutional bodies and government accountable for their actions.",
+      "analogy": "Informed students who understand school rules can better participate in school governance and hold school administration accountable",
+      "difficulty": "advanced",
+      "topic": "Basics",
+      "subtopic": "Public Awareness",
+      "learning_objective": "Understand role of public awareness in effectiveness of constitutional bodies",
+      "source_ids": [17]
+    },
+    {
+      "id": 59,
+      "question": "How can children contribute to strengthening democratic values inspired by constitutional bodies?",
+      "options": [
+        "Children can't do anything",
+        "By practicing fairness, honesty, and integrity in daily life and school activities",
+        "Only by studying hard",
+        "By criticizing everything"
+      ],
+      "correct_answer": "By practicing fairness, honesty, and integrity in daily life and school activities",
+      "explanation": "Children can strengthen democratic values by practicing fairness in competitions, being honest in studies, respecting rules, and participating actively in classroom and school democracy.",
+      "analogy": "Students practicing fairness in group projects, being honest in tests, respecting classroom rules, and actively participating in student council elections",
+      "difficulty": "advanced",
+      "topic": "Basics",
+      "subtopic": "Children's Role",
+      "learning_objective": "Understand how children can contribute to democratic values",
+      "source_ids": [1, 17]
+    },
+    {
+      "id": 60,
+      "question": "What would be the analogy between the Constitution and a rulebook for a school?",
+      "options": [
+        "They are completely different",
+        "The Constitution is like the master rulebook that sets up all institutions and their roles",
+        "Constitution is only for adults",
+        "Constitution is just a list of rights"
+      ],
+      "correct_answer": "The Constitution is like the master rulebook that sets up all institutions and their roles",
+      "explanation": "The Constitution is like a master rulebook that establishes all major institutions, their powers, and roles, ensuring fair governance just as school rules establish how the school should be run.",
+      "analogy": "School rulebook that establishes all departments, their roles, and how the school should be run fairly",
+      "difficulty": "intermediate",
+      "topic": "Basics",
+      "subtopic": "Constitution as Rulebook",
+      "learning_objective": "Understand Constitution as fundamental rulebook",
+      "source_ids": [3]
+    },
+    {
+      "id": 61,
+      "question": "How do constitutional bodies reflect the principle of 'justice for all'?",
+      "options": [
+        "They don't care about justice",
+        "By ensuring equal treatment, fair processes, and impartial decisions for all citizens",
+        "Only for some people",
+        "Only for government officials"
+      ],
+      "correct_answer": "By ensuring equal treatment, fair processes, and impartial decisions for all citizens",
+      "explanation": "Constitutional bodies ensure 'justice for all' through equal treatment, fair processes, and impartial decisions, treating every citizen fairly regardless of their background.",
+      "analogy": "School system ensuring equal treatment, fair processes, and impartial decisions for all students regardless of their background",
+      "difficulty": "advanced",
+      "topic": "Basics",
+      "subtopic": "Justice for All",
+      "learning_objective": "Understand how constitutional bodies ensure justice for all",
+      "source_ids": [3, 17]
+    },
+    {
+      "id": 62,
+      "question": "What is the importance of having constitutional bodies vs. having just one strong leader?",
+      "options": [
+        "One strong leader is better",
+        "Constitutional bodies prevent concentration of power and ensure collective decision-making for stability",
+        "Constitutional bodies are unnecessary",
+        "Strong leaders are always right"
+      ],
+      "correct_answer": "Constitutional bodies prevent concentration of power and ensure collective decision-making for stability",
+      "explanation": "Constitutional bodies prevent concentration of power in one person/office, ensuring that power is shared and decisions are made collectively for long-term stability and democracy.",
+      "analogy": "School having multiple teachers and committees instead of one principal making all decisions alone for better stability",
+      "difficulty": "advanced",
+      "topic": "Basics",
+      "subtopic": "Prevention of Power Concentration",
+      "learning_objective": "Understand importance of constitutional bodies vs concentrated power",
+      "source_ids": [2, 3, 16]
+    },
+    {
+      "id": 63,
+      "question": "How do constitutional bodies adapt to changing times while maintaining their core principles?",
+      "options": [
+        "They never change",
+        "They evolve their processes while maintaining core principles of fairness, independence, and accountability",
+        "They become outdated",
+        "They follow only old methods"
+      ],
+      "correct_answer": "They evolve their processes while maintaining core principles of fairness, independence, and accountability",
+      "explanation": "Constitutional bodies adapt to new challenges and technology while maintaining their core principles of fairness, independence, and accountability, like schools adopting new teaching methods while keeping core values.",
+      "analogy": "Schools adopting new technology and teaching methods while maintaining core values of honesty, fairness, and respect",
+      "difficulty": "advanced",
+      "topic": "Basics",
+      "subtopic": "Adaptation vs Principles",
+      "learning_objective": "Understand how constitutional bodies balance adaptation with core principles",
+      "source_ids": [17]
+    },
+    {
+      "id": 64,
+      "question": "What role does transparency play in constitutional bodies' effectiveness?",
+      "options": [
+        "Transparency is not important",
+        "Transparency builds public trust and allows citizens to verify that processes are fair and accountability is maintained",
+        "It creates problems",
+        "It's only for show"
+      ],
+      "correct_answer": "Transparency builds public trust and allows citizens to verify that processes are fair and accountability is maintained",
+      "explanation": "Transparency in constitutional bodies' work builds public trust and allows citizens to verify that processes are fair and accountability is maintained, like open school activities building parent trust.",
+      "analogy": "Open school activities and transparent processes building parent and student trust in the school system",
+      "difficulty": "advanced",
+      "topic": "Basics",
+      "subtopic": "Transparency",
+      "learning_objective": "Understand role of transparency in constitutional bodies",
+      "source_ids": [11, 7, 17]
+    },
+    {
+      "id": 65,
+      "question": "How do constitutional bodies help in nation-building?",
+      "options": [
+        "They don't help nation-building",
+        "By ensuring good governance, public trust, efficient use of resources, and fair opportunity for all",
+        "Only through economic policies",
+        "Only through military strength"
+      ],
+      "correct_answer": "By ensuring good governance, public trust, efficient use of resources, and fair opportunity for all",
+      "explanation": "Constitutional bodies contribute to nation-building by ensuring good governance, building public trust, using resources efficiently, and providing fair opportunities for all citizens to contribute to national development.",
+      "analogy": "Strong school systems building good students, parent trust, efficient resource use, and fair opportunities for all students to succeed",
+      "difficulty": "advanced",
+      "topic": "Basics",
+      "subtopic": "Nation-building",
+      "learning_objective": "Understand how constitutional bodies contribute to nation-building",
+      "source_ids": [16, 17]
+    },
+    {
+      "id": 66,
+      "question": "What is the connection between constitutional bodies and the concept of 'rule of law'?",
+      "options": [
+        "There is no connection",
+        "Constitutional bodies ensure that everyone, including government, follows the law equally",
+        "They only apply law to citizens",
+        "Rule of law is not important"
+      ],
+      "correct_answer": "Constitutional bodies ensure that everyone, including government, follows the law equally",
+      "explanation": "Constitutional bodies uphold the 'rule of law' by ensuring that everyone, including government officials, follows the law equally, with no one being above the law.",
+      "analogy": "School system where all students and teachers, including the principal, follow school rules equally with no exceptions",
+      "difficulty": "advanced",
+      "topic": "Basics",
+      "subtopic": "Rule of Law",
+      "learning_objective": "Understand connection between constitutional bodies and rule of law",
+      "source_ids": [3, 16]
+    },
+    {
+      "id": 67,
+      "question": "How do constitutional bodies promote civic education among citizens?",
+      "options": [
+        "They don't promote education",
+        "By their work being visible in daily life, teaching citizens about rights, responsibilities, and fair processes",
+        "Only through formal education",
+        "Only through government propaganda"
+      ],
+      "correct_answer": "By their work being visible in daily life, teaching citizens about rights, responsibilities, and fair processes",
+      "explanation": "Constitutional bodies promote civic education through their visible work in daily life - elections teach about voting rights, audits teach about accountability, fair hiring teaches about equal opportunity, etc.",
+      "analogy": "School activities like elections, fair grading, and student councils teaching children about rights and responsibilities",
+      "difficulty": "advanced",
+      "topic": "Basics",
+      "subtopic": "Civic Education",
+      "learning_objective": "Understand how constitutional bodies promote civic education",
+      "source_ids": [1, 17]
+    },
+    {
+      "id": 68,
+      "question": "What is the relationship between constitutional bodies and the concept of 'separation of powers'?",
+      "options": [
+        "They are unrelated",
+        "Constitutional bodies support separation of powers by providing checks and balances between different branches",
+        "They eliminate separation of powers",
+        "They concentrate power"
+      ],
+      "correct_answer": "Constitutional bodies support separation of powers by providing checks and balances between different branches",
+      "explanation": "Constitutional bodies support separation of powers by providing oversight and checks between the executive, legislature, and judiciary, ensuring no single branch becomes too powerful.",
+      "analogy": "School system having separate departments (academics, administration, discipline) with oversight mechanisms preventing any one department from becoming too powerful",
+      "difficulty": "advanced",
+      "topic": "Basics",
+      "subtopic": "Separation of Powers",
+      "learning_objective": "Understand relationship between constitutional bodies and separation of powers",
+      "source_ids": [2, 3, 16]
+    },
+    {
+      "id": 69,
+      "question": "How do constitutional bodies help in creating a corruption-free society?",
+      "options": [
+        "They cannot prevent corruption",
+        "By creating multiple oversight mechanisms, ensuring transparency, and providing channels for reporting corruption",
+        "Only through punishment",
+        "Only through education"
+      ],
+      "correct_answer": "By creating multiple oversight mechanisms, ensuring transparency, and providing channels for reporting corruption",
+      "explanation": "Constitutional bodies help create a corruption-free society through multiple oversight mechanisms (audits, complaints systems), ensuring transparency, and providing channels for citizens to report corruption.",
+      "analogy": "School creating multiple oversight systems, ensuring transparency, and providing clear channels for reporting cheating or unfair practices",
+      "difficulty": "advanced",
+      "topic": "Basics",
+      "subtopic": "Anti-corruption Society",
+      "learning_objective": "Understand how constitutional bodies help create corruption-free society",
+      "source_ids": [12, 7, 11, 17]
+    },
+    {
+      "id": 70,
+      "question": "What is the significance of having constitutional bodies in a diverse democracy like India?",
+      "options": [
+        "It's not significant",
+        "They ensure fairness and equal treatment across diverse communities, languages, and regions",
+        "They only serve the majority",
+        "They create divisions"
+      ],
+      "correct_answer": "They ensure fairness and equal treatment across diverse communities, languages, and regions",
+      "explanation": "In diverse democracies like India, constitutional bodies ensure fairness and equal treatment across different communities, languages, and regions, building national unity through fair processes.",
+      "analogy": "School system ensuring fairness and equal treatment across students from different backgrounds, languages, and regions to build school unity",
+      "difficulty": "advanced",
+      "topic": "Basics",
+      "subtopic": "Diversity and Democracy",
+      "learning_objective": "Understand significance of constitutional bodies in diverse democracy",
+      "source_ids": [3, 17]
+    },
+    {
+      "id": 71,
+      "question": "How do constitutional bodies contribute to economic development of a country?",
+      "options": [
+        "They don't affect economy",
+        "By ensuring efficient use of public resources, attracting investment through good governance, and creating merit-based opportunities",
+        "Only through taxation",
+        "Only through government spending"
+      ],
+      "correct_answer": "By ensuring efficient use of public resources, attracting investment through good governance, and creating merit-based opportunities",
+      "explanation": "Constitutional bodies contribute to economic development by ensuring efficient use of public resources (through audits), attracting investment through good governance (fair elections, anti-corruption), and creating merit-based opportunities for skilled workforce.",
+      "analogy": "School system contributing to student success by efficiently using resources, maintaining good reputation, and providing equal opportunities for all students",
+      "difficulty": "advanced",
+      "topic": "Basics",
+      "subtopic": "Economic Development",
+      "learning_objective": "Understand how constitutional bodies contribute to economic development",
+      "source_ids": [16, 17]
+    },
+    {
+      "id": 72,
+      "question": "What role do constitutional bodies play in maintaining international reputation and relations?",
+      "options": [
+        "They don't affect international relations",
+        "By demonstrating good governance, rule of law, and transparency, building trust with other countries",
+        "Only through military strength",
+        "Only through economic policies"
+      ],
+      "correct_answer": "By demonstrating good governance, rule of law, and transparency, building trust with other countries",
+      "explanation": "Strong constitutional bodies enhance a country's international reputation by demonstrating good governance, rule of law, and transparency, which builds trust with other countries and improves international relations.",
+      "analogy": "School building good reputation internationally through fair systems, good governance, and transparency, attracting foreign student exchanges",
+      "difficulty": "advanced",
+      "topic": "Basics",
+      "subtopic": "International Relations",
+      "learning_objective": "Understand role of constitutional bodies in international relations",
+      "source_ids": [16, 17]
+    },
+    {
+      "id": 73,
+      "question": "How do constitutional bodies balance speed and efficiency with thoroughness and accuracy?",
+      "options": [
+        "They don't balance these",
+        "They create systematic processes that ensure thoroughness while maintaining reasonable speed through clear procedures and timelines",
+        "They prioritize speed only",
+        "They prioritize thoroughness only"
+      ],
+      "correct_answer": "They create systematic processes that ensure thoroughness while maintaining reasonable speed through clear procedures and timelines",
+      "explanation": "Constitutional bodies balance speed and efficiency with thoroughness by creating systematic processes with clear procedures and timelines, like efficient school systems that are thorough in evaluation while maintaining schedule.",
+      "analogy": "School exam system that is thorough in evaluation while maintaining scheduled completion through clear procedures",
+      "difficulty": "advanced",
+      "topic": "Basics",
+      "subtopic": "Speed vs Thoroughness",
+      "learning_objective": "Understand how constitutional bodies balance speed and thoroughness",
+      "source_ids": [17]
+    },
+    {
+      "id": 74,
+      "question": "What is the long-term impact of strong constitutional bodies on a nation's development trajectory?",
+      "options": [
+        "No impact",
+        "They create sustainable development through good governance, public trust, and efficient institutions that serve citizens effectively",
+        "Only short-term benefits",
+        "They slow down development"
+      ],
+      "correct_answer": "They create sustainable development through good governance, public trust, and efficient institutions that serve citizens effectively",
+      "explanation": "Strong constitutional bodies create sustainable development by building good governance systems, maintaining public trust, and creating efficient institutions that serve citizens effectively over the long term.",
+      "analogy": "Strong school systems creating sustainable student success through good governance, parent trust, and efficient teaching that serves students effectively over years",
+      "difficulty": "advanced",
+      "topic": "Basics",
+      "subtopic": "Long-term Impact",
+      "learning_objective": "Understand long-term impact of strong constitutional bodies",
+      "source_ids": [16, 17]
+    },
+    {
+      "id": 75,
+      "question": "How can understanding constitutional bodies help children become better citizens in the future?",
+      "options": [
+        "It doesn't help",
+        "By teaching them about fairness, accountability, rule of law, and democratic values, preparing them to be responsible citizens",
+        "Only through academic knowledge",
+        "Only through government jobs"
+      ],
+      "correct_answer": "By teaching them about fairness, accountability, rule of law, and democratic values, preparing them to be responsible citizens",
+      "explanation": "Understanding constitutional bodies helps children learn about fairness, accountability, rule of law, and democratic values, preparing them to be responsible citizens who can contribute positively to society.",
+      "analogy": "Understanding school rules and democratic processes helping students become responsible members of the school community and future society",
+      "difficulty": "advanced",
+      "topic": "Basics",
+      "subtopic": "Citizenship Preparation",
+      "learning_objective": "Understand how understanding constitutional bodies helps in citizenship preparation",
+      "source_ids": [1, 3, 17]
+    }
+  ]
+}

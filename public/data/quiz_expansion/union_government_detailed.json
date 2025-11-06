@@ -1,0 +1,881 @@
+{
+  "quiz_metadata": {
+    "title": "India's Union Government: A Comprehensive Quiz",
+    "description": "50 detailed questions about President, Prime Minister, Parliament, and constitutional powers using diverse analogies",
+    "total_questions": 50,
+    "sections": [
+      "President - The Constitutional Guardian",
+      "Prime Minister - The Team Leader", 
+      "Parliament - The People's Voice",
+      "How They Work Together",
+      "Practical Understanding"
+    ],
+    "analogies_used": [
+      "Cricket team captain",
+      "Family head",
+      "Community leaders",
+      "Tree trunk",
+      "Bus driver",
+      "Weather alert system",
+      "Traffic signal",
+      "Classroom teacher",
+      "Orchestra conductor",
+      "Football coach",
+      "Neighborhood committee",
+      "Fort guardian",
+      "School captain"
+    ]
+  },
+  
+  "questions": [
+    {
+      "id": 1,
+      "section": "President - The Constitutional Guardian",
+      "difficulty": "Basic",
+      "analogy": "Family head",
+      "question": "Which constitutional position is most like a family head who makes important decisions for the entire household?",
+      "options": {
+        "A": "Prime Minister",
+        "B": "President", 
+        "C": "Chief Minister",
+        "D": "Governor"
+      },
+      "correct_answer": "B",
+      "explanation": "Like a family head who provides guidance and final decisions for the household, the President serves as the constitutional head of state for India.",
+      "constitutional_concept": "President as Head of State"
+    },
+    
+    {
+      "id": 2,
+      "section": "President - The Constitutional Guardian", 
+      "difficulty": "Basic",
+      "analogy": "Community leaders",
+      "question": "In a community setting, who would be most responsible for giving formal recognition to important decisions made by local representatives?",
+      "options": {
+        "A": "Local council members",
+        "B": "Community organizers",
+        "C": "The President",
+        "D": "Neighborhood watch leader"
+      },
+      "correct_answer": "C",
+      "explanation": "Just as community leaders might need formal recognition from a higher authority, government decisions require Presidential assent to become official.",
+      "constitutional_concept": "Presidential assent to bills"
+    },
+    
+    {
+      "id": 3,
+      "section": "President - The Constitutional Guardian",
+      "difficulty": "Basic", 
+      "analogy": "Tree trunk",
+      "question": "Which analogy best describes the President's role in India's governmental system?",
+      "options": {
+        "A": "Tree branches that make decisions",
+        "B": "Tree trunk that provides stability and recognition",
+        "C": "Tree roots that do all the work",
+        "D": "Tree leaves that represent the people"
+      },
+      "correct_answer": "B",
+      "explanation": "Like a tree trunk provides stability and recognition to branches, the President provides constitutional stability and recognition to government decisions.",
+      "constitutional_concept": "Role of Head of State"
+    },
+    
+    {
+      "id": 4,
+      "section": "President - The Constitutional Guardian",
+      "difficulty": "Intermediate",
+      "analogy": "Bus driver",
+      "question": "In a complex bus transportation system, if the driver (Prime Minister) handles the daily operations, what role does the President play?",
+      "options": {
+        "A": "Sets up the bus routes",
+        "B": "Ensures all buses follow safety regulations and approves major changes",
+        "C": "Drives the buses",
+        "D": "Maintains the buses"
+      },
+      "correct_answer": "B",
+      "explanation": "While the PM handles day-to-day governance, the President ensures constitutional compliance and approves major governmental decisions.",
+      "constitutional_concept": "Executive vs ceremonial roles"
+    },
+    
+    {
+      "id": 5,
+      "section": "President - The Constitutional Guardian",
+      "difficulty": "Intermediate",
+      "analogy": "Weather alert system", 
+      "question": "When Parliament is not in session and urgent national issues arise, which constitutional power allows immediate action like a weather alert system?",
+      "options": {
+        "A": "Judicial review",
+        "B": "Emergency powers",
+        "C": "Money bill powers",
+        "D": "Veto powers"
+      },
+      "correct_answer": "B",
+      "explanation": "Just as weather alerts provide immediate warnings, Presidential emergency powers allow swift constitutional response to urgent situations.",
+      "constitutional_concept": "Emergency powers"
+    },
+    
+    {
+      "id": 6,
+      "section": "President - The Constitutional Guardian",
+      "difficulty": "Basic",
+      "analogy": "Neighborhood committee",
+      "question": "Who appoints the Prime Minister in India's constitutional system?",
+      "options": {
+        "A": "The people directly in a general election",
+        "B": "The President based on Parliament's majority",
+        "C": "The Supreme Court",
+        "D": "The Chief Justice"
+      },
+      "correct_answer": "B",
+      "explanation": "Like a neighborhood committee choosing a coordinator, the President appoints the PM who commands majority support in Lok Sabha.",
+      "constitutional_concept": "Appointment of Prime Minister"
+    },
+    
+    {
+      "id": 7,
+      "section": "President - The Constitutional Guardian",
+      "difficulty": "Intermediate",
+      "analogy": "Traffic signal",
+      "question": "How does the President ensure constitutional compliance in government decisions?",
+      "options": {
+        "A": "Direct intervention in daily governance",
+        "B": "Approval and assent similar to a traffic signal allowing movement",
+        "C": "Creating new laws",
+        "D": "Managing government departments"
+      },
+      "correct_answer": "B", 
+      "explanation": "Like a traffic signal controls and ensures safe movement, Presidential assent ensures decisions comply with constitutional requirements.",
+      "constitutional_concept": "Constitutional checks and balances"
+    },
+    
+    {
+      "id": 8,
+      "section": "President - The Constitutional Guardian",
+      "difficulty": "Advanced",
+      "analogy": "Fort guardian",
+      "question": "In a fort system where different commanders manage daily operations, what role does the guardian (President) play during constitutional emergencies?",
+      "options": {
+        "A": "Replaces all commanders",
+        "B": "Declares emergency and coordinates overall response while maintaining constitutional framework",
+        "C": "Manages supplies for all commanders",
+        "D": "Creates new battle strategies"
+      },
+      "correct_answer": "B",
+      "explanation": "Like a fort guardian during crisis maintains overall security while respecting the roles of other commanders, the President exercises emergency powers within constitutional limits.",
+      "constitutional_concept": "Emergency constitutional powers"
+    },
+    
+    {
+      "id": 9,
+      "section": "President - The Constitutional Guardian",
+      "difficulty": "Basic",
+      "analogy": "Classroom teacher",
+      "question": "The President is known as India's 'First Citizen' and Head of State. What does this mean in practical terms?",
+      "options": {
+        "A": "The President is the most powerful government official",
+        "B": "The President represents India symbolically and constitutionally",
+        "C": "The President makes all important national decisions",
+        "D": "The President manages day-to-day government operations"
+      },
+      "correct_answer": "B",
+      "explanation": "Like how a classroom teacher represents the school symbolically while students (ministers) manage daily activities, the President represents the state ceremonially.",
+      "constitutional_concept": "Symbolic and constitutional representation"
+    },
+    
+    {
+      "id": 10,
+      "section": "President - The Constitutional Guardian",
+      "difficulty": "Intermediate",
+      "analogy": "Bank manager",
+      "question": "When the government proposes laws about taxes and spending, the President's role is most similar to:",
+      "options": {
+        "A": "A bank manager who reviews and approves major financial transactions",
+        "B": "A bank customer who requests loans",
+        "C": "A bank employee who processes paperwork",
+        "D": "A bank board member who sets interest rates"
+      },
+      "correct_answer": "A",
+      "explanation": "Like a bank manager reviewing major transactions to ensure compliance, the President reviews financial legislation for constitutional compliance.",
+      "constitutional_concept": "Financial oversight by President"
+    },
+    
+    {
+      "id": 11,
+      "section": "President - The Constitutional Guardian",
+      "difficulty": "Basic",
+      "analogy": "Music conductor", 
+      "question": "The President's role in summoning and proroguing Parliament is like which musical role?",
+      "options": {
+        "A": "Individual musicians playing their parts",
+        "B": "Music conductor who starts and ends performances",
+        "C": "Songwriter composing music",
+        "D": "Audience listening to performance"
+      },
+      "correct_answer": "B",
+      "explanation": "Like a music conductor who determines when the orchestra performs, the President decides when Parliament meets and concludes sessions.",
+      "constitutional_concept": "Parliamentary sessions management"
+    },
+    
+    {
+      "id": 12,
+      "section": "President - The Constitutional Guardian",
+      "difficulty": "Advanced",
+      "analogy": "Bridge operator",
+      "question": "In a system of government rivers (executive, legislature, judiciary), the President operates most like:",
+      "options": {
+        "A": "A bridge allowing controlled crossing between different branches",
+        "B": "A boat traveling up and down the river",
+        "C": "A dam blocking all water flow",
+        "D": "A ferry carrying passengers"
+      },
+      "correct_answer": "A",
+      "explanation": "Like a bridge operator who allows controlled movement between different areas, the President facilitates communication and coordination between governmental branches.",
+      "constitutional_concept": "Coordination between branches of government"
+    },
+    
+    {
+      "id": 13,
+      "section": "President - The Constitutional Guardian",
+      "difficulty": "Basic",
+      "analogy": "Insurance policy",
+      "question": "Which power allows the President to provide final approval for major appointments and removals?",
+      "options": {
+        "A": "Executive power",
+        "B": "Judicial power",
+        "C": "Legislative power", 
+        "D": "Military power"
+      },
+      "correct_answer": "A",
+      "explanation": "Like an insurance policy that provides final protection, executive power gives the President authority to approve key appointments.",
+      "constitutional_concept": "Executive appointments power"
+    },
+    
+    {
+      "id": 14,
+      "section": "President - The Constitutional Guardian",
+      "difficulty": "Intermediate",
+      "analogy": "Architect",
+      "question": "When the President sends back a bill for reconsideration, the role is most similar to:",
+      "options": {
+        "A": "An architect reviewing blueprints for compliance with building codes",
+        "B": "A contractor implementing approved plans",
+        "C": "A homeowner requesting renovations",
+        "D": "A city planning commission creating new regulations"
+      },
+      "correct_answer": "A",
+      "explanation": "Like an architect who ensures building plans meet safety standards, the President ensures proposed laws comply with constitutional requirements.",
+      "constitutional_concept": "Bill reconsideration power"
+    },
+    
+    {
+      "id": 15,
+      "section": "President - The Constitutional Guardian",
+      "difficulty": "Advanced",
+      "analogy": "Referee",
+      "question": "The President's power to grant pardons and commutations in certain cases is most similar to a sports referee's power to:",
+      "options": {
+        "A": "Start and stop the game",
+        "B": "Award penalties for rule violations",
+        "C": "Review and modify penalties after fair assessment",
+        "D": "Select team captains"
+      },
+      "correct_answer": "C",
+      "explanation": "Like a referee who can review and modify penalties after proper consideration, the President can provide clemency based on judicial review and circumstances.",
+      "constitutional_concept": "Judicial clemency power"
+    },
+    
+    {
+      "id": 16,
+      "section": "Prime Minister - The Team Leader",
+      "difficulty": "Basic", 
+      "analogy": "Cricket team captain",
+      "question": "In a cricket team, the captain coordinates strategy and players. Who plays this role in India's government?",
+      "options": {
+        "A": "President",
+        "B": "Prime Minister",
+        "C": "Chief Justice",
+        "D": "Lok Sabha Speaker"
+      },
+      "correct_answer": "B",
+      "explanation": "Like a cricket captain who leads the team and makes strategic decisions, the Prime Minister leads the government and coordinates policy.",
+      "constitutional_concept": "PM as head of government"
+    },
+    
+    {
+      "id": 17,
+      "section": "Prime Minister - The Team Leader",
+      "difficulty": "Basic",
+      "analogy": "Football coach",
+      "question": "Which role is most responsible for day-to-day coordination of government policies?",
+      "options": {
+        "A": "President",
+        "B": "Prime Minister",
+        "C": "Parliament",
+        "D": "Supreme Court"
+      },
+      "correct_answer": "B", 
+      "explanation": "Like a football coach who manages daily training and strategy, the PM handles day-to-day government coordination and policy implementation.",
+      "constitutional_concept": "Day-to-day government management"
+    },
+    
+    {
+      "id": 18,
+      "section": "Prime Minister - The Team Leader",
+      "difficulty": "Intermediate",
+      "analogy": "Orchestra conductor",
+      "question": "When different ministries work on various aspects of national policy, they are coordinated by the Prime Minister, similar to:",
+      "options": {
+        "A": "Individual musicians playing without coordination",
+        "B": "An orchestra conductor bringing different sections together in harmony",
+        "C": "Music critics reviewing performances",
+        "D": "Concert hall managers organizing logistics"
+      },
+      "correct_answer": "B",
+      "explanation": "Like an orchestra conductor who ensures different musical sections work together harmoniously, the PM coordinates different ministries.",
+      "constitutional_concept": "Inter-ministerial coordination"
+    },
+    
+    {
+      "id": 19,
+      "section": "Prime Minister - The Team Leader",
+      "difficulty": "Basic",
+      "analogy": "Community organizers",
+      "question": "The Prime Minister must maintain the confidence of which constitutional body?",
+      "options": {
+        "A": "President",
+        "B": "Supreme Court", 
+        "C": "Lok Sabha",
+        "D": "Rajya Sabha"
+      },
+      "correct_answer": "C",
+      "explanation": "Like community organizers must maintain support from the community they serve, the PM must maintain Lok Sabha's confidence.",
+      "constitutional_concept": "Collective responsibility to Lok Sabha"
+    },
+    
+    {
+      "id": 20,
+      "section": "Prime Minister - The Team Leader",
+      "difficulty": "Intermediate",
+      "analogy": "Team sports captain",
+      "question": "When Parliament questions government policies and decisions, the PM's role is like a captain who:",
+      "options": {
+        "A": "Avoids answering team concerns",
+        "B": "Defends team strategy and provides explanations",
+        "C": "Replaces team members frequently",
+        "D": "Makes decisions without team consultation"
+      },
+      "correct_answer": "B",
+      "explanation": "Like a captain who defends strategy and explains decisions to the team, the PM defends government policies in Parliament.",
+      "constitutional_concept": "Parliamentary accountability"
+    },
+    
+    {
+      "id": 21,
+      "section": "Prime Minister - The Team Leader",
+      "difficulty": "Basic",
+      "analogy": "Neighborhood committee coordinator",
+      "question": "How does the Prime Minister choose other ministers?",
+      "options": {
+        "A": "President appoints them independently",
+        "B": "Public votes for them directly",
+        "C": "PM advises the President on appointments",
+        "D": "Supreme Court selects them"
+      },
+      "correct_answer": "C",
+      "explanation": "Like a neighborhood coordinator who recommends team members to a committee chair, the PM advises the President on ministerial appointments.",
+      "constitutional_concept": "Appointment of ministers"
+    },
+    
+    {
+      "id": 22,
+      "section": "Prime Minister - The Team Leader",
+      "difficulty": "Intermediate",
+      "analogy": "Company CEO",
+      "question": "In terms of policy implementation and government scheme management, the PM functions most like:",
+      "options": {
+        "A": "Shareholders who provide funds",
+        "B": "A CEO who oversees company operations and strategy",
+        "C": "Auditors who review financial records",
+        "D": "Customers who use company services"
+      },
+      "correct_answer": "B",
+      "explanation": "Like a CEO who oversees company operations and ensures strategic goals are met, the PM oversees policy implementation across government.",
+      "constitutional_concept": "Policy implementation oversight"
+    },
+    
+    {
+      "id": 23,
+      "section": "Prime Minister - The Team Leader",
+      "difficulty": "Basic",
+      "analogy": "School captain",
+      "question": "Who leads the Council of Ministers in India?",
+      "options": {
+        "A": "President",
+        "B": "Prime Minister", 
+        "C": "Chief Justice",
+        "D": "Lok Sabha Speaker"
+      },
+      "correct_answer": "B",
+      "explanation": "Like a school captain who leads student representatives, the Prime Minister leads the Council of Ministers.",
+      "constitutional_concept": "Leadership of Council of Ministers"
+    },
+    
+    {
+      "id": 24,
+      "section": "Prime Minister - The Team Leader",
+      "difficulty": "Intermediate",
+      "analogy": "Project manager",
+      "question": "When major national initiatives require coordination between multiple government departments, the PM acts as:",
+      "options": {
+        "A": "Individual department heads working independently",
+        "B": "A project manager ensuring all teams work toward common goals",
+        "C": "Financial auditors tracking expenses",
+        "D": "External consultants providing advice"
+      },
+      "correct_answer": "B",
+      "explanation": "Like a project manager who coordinates different teams and ensures project goals are met, the PM coordinates between ministries.",
+      "constitutional_concept": "Coordination of national initiatives"
+    },
+    
+    {
+      "id": 25,
+      "section": "Prime Minister - The Team Leader",
+      "difficulty": "Advanced",
+      "analogy": "Strategic military commander",
+      "question": "The PM's role in national security and international relations is most similar to:",
+      "options": {
+        "A": "Individual soldiers following orders",
+        "B": "A strategic commander making tactical decisions based on overall strategy",
+        "C": "Military intelligence analysts",
+        "D": "Peacekeeping forces"
+      },
+      "correct_answer": "B",
+      "explanation": "Like a strategic commander who makes tactical decisions aligned with overall national strategy, the PM handles security and international matters.",
+      "constitutional_concept": "Strategic decision-making role"
+    },
+    
+    {
+      "id": 26,
+      "section": "Parliament - The People's Voice",
+      "difficulty": "Basic",
+      "analogy": "Neighborhood forum",
+      "question": "Parliament consists of Lok Sabha and Rajya Sabha. Which house represents the people directly?",
+      "options": {
+        "A": "Rajya Sabha",
+        "B": "Lok Sabha", 
+        "C": "Both houses",
+        "D": "Neither house"
+      },
+      "correct_answer": "B",
+      "explanation": "Like a neighborhood forum where residents directly elect representatives, Lok Sabha MPs are directly elected by the people.",
+      "constitutional_concept": "Direct representation in Lok Sabha"
+    },
+    
+    {
+      "id": 27,
+      "section": "Parliament - The People's Voice",
+      "difficulty": "Basic",
+      "analogy": "Community council",
+      "question": "What is the main function of Parliament in India's constitutional system?",
+      "options": {
+        "A": "Implement government policies",
+        "B": "Make laws for the country",
+        "C": "Judge legal disputes",
+        "D": "Select government officials"
+      },
+      "correct_answer": "B",
+      "explanation": "Like a community council that makes rules for the neighborhood, Parliament makes laws for the country.",
+      "constitutional_concept": "Lawmaking function of Parliament"
+    },
+    
+    {
+      "id": 28,
+      "section": "Parliament - The People's Voice",
+      "difficulty": "Intermediate",
+      "analogy": "Family discussion committee",
+      "question": "When both Lok Sabha and Rajya Sabha disagree on a bill, what happens?",
+      "options": {
+        "A": "Bill is automatically rejected",
+        "B": "Joint sitting is called to resolve the disagreement",
+        "C": "President decides alone",
+        "D": "Supreme Court resolves the dispute"
+      },
+      "correct_answer": "B",
+      "explanation": "Like when family members disagree and call a family meeting for resolution, Parliament holds joint sittings to resolve deadlocks.",
+      "constitutional_concept": "Joint sitting resolution"
+    },
+    
+    {
+      "id": 29,
+      "section": "Parliament - The People's Voice",
+      "difficulty": "Basic",
+      "analogy": "Tree branches",
+      "question": "Which house is permanent and never dissolved?",
+      "options": {
+        "A": "Lok Sabha",
+        "B": "Rajya Sabha",
+        "C": "Both houses",
+        "D": "Neither house"
+      },
+      "correct_answer": "B",
+      "explanation": "Like permanent tree branches that don't change, Rajya Sabha is a continuing house with staggered member replacement.",
+      "constitutional_concept": "Permanent nature of Rajya Sabha"
+    },
+    
+    {
+      "id": 30,
+      "section": "Parliament - The People's Voice",
+      "difficulty": "Intermediate",
+      "analogy": "Budget committee",
+      "question": "When it comes to money bills (taxation and expenditure), which house has the final say?",
+      "options": {
+        "A": "Rajya Sabha",
+        "B": "Lok Sabha",
+        "C": "Both houses equally", 
+        "D": "President"
+      },
+      "correct_answer": "B",
+      "explanation": "Like a budget committee where the elected representatives have final say on spending, Lok Sabha has primacy on money bills.",
+      "constitutional_concept": "Money bill primacy"
+    },
+    
+    {
+      "id": 31,
+      "section": "Parliament - The People's Voice",
+      "difficulty": "Basic",
+      "analogy": "Student representatives",
+      "question": "What is the maximum term for which Lok Sabha MPs are elected?",
+      "options": {
+        "A": "4 years",
+        "B": "5 years",
+        "C": "6 years", 
+        "D": "7 years"
+      },
+      "correct_answer": "B",
+      "explanation": "Like student representatives elected for a fixed period, Lok Sabha MPs serve five-year terms unless dissolved earlier.",
+      "constitutional_concept": "Lok Sabha term"
+    },
+    
+    {
+      "id": 32,
+      "section": "Parliament - The People's Voice",
+      "difficulty": "Intermediate",
+      "analogy": "Quality control committee",
+      "question": "Parliamentary committees that review bills and government performance serve what function?",
+      "options": {
+        "A": "Create new policies",
+        "B": "Implement government decisions",
+        "C": "Review and improve legislation and oversight",
+        "D": "Select government officials"
+      },
+      "correct_answer": "C",
+      "explanation": "Like a quality control committee that reviews products and processes, parliamentary committees review and improve legislation.",
+      "constitutional_concept": "Parliamentary committee functions"
+    },
+    
+    {
+      "id": 33,
+      "section": "Parliament - The People's Voice",
+      "difficulty": "Basic",
+      "analogy": "Town hall meeting",
+      "question": "Who presides over the Lok Sabha proceedings?",
+      "options": {
+        "A": "President",
+        "B": "Prime Minister",
+        "C": "Speaker of Lok Sabha",
+        "D": "Chief Justice"
+      },
+      "correct_answer": "C",
+      "explanation": "Like who presides over a town hall meeting to maintain order, the Speaker manages Lok Sabha proceedings.",
+      "constitutional_concept": "Speaker's role"
+    },
+    
+    {
+      "id": 34,
+      "section": "Parliament - The People's Voice",
+      "difficulty": "Intermediate",
+      "analogy": "Regional representatives",
+      "question": "Rajya Sabha members represent which levels of government?",
+      "options": {
+        "A": "Only central government",
+        "B": "State governments and union territories",
+        "C": "International organizations",
+        "D": "Private corporations"
+      },
+      "correct_answer": "B",
+      "explanation": "Like regional representatives who advocate for their areas, Rajya Sabha members represent state and union territory interests.",
+      "constitutional_concept": "Rajya Sabha representation"
+    },
+    
+    {
+      "id": 35,
+      "section": "Parliament - The People's Voice",
+      "difficulty": "Advanced",
+      "analogy": "Democratic check and balance",
+      "question": "Parliament's power to question and debate government policies serves which constitutional principle?",
+      "options": {
+        "A": "Executive supremacy",
+        "B": "Judicial independence", 
+        "C": "Democratic accountability and oversight",
+        "D": "Military command"
+      },
+      "correct_answer": "C",
+      "explanation": "Like democratic systems where representatives question leaders, Parliament provides democratic oversight of government actions.",
+      "constitutional_concept": "Democratic oversight"
+    },
+    
+    {
+      "id": 36,
+      "section": "How They Work Together",
+      "difficulty": "Basic",
+      "analogy": "Coordinate system",
+      "question": "Which analogy best describes the relationship between President, PM, and Parliament?",
+      "options": {
+        "A": "Independent workers doing separate jobs",
+        "B": "A coordinate system where each has specific roles in governance",
+        "C": "A hierarchy with one person making all decisions",
+        "D": "A competitive system with opposing teams"
+      },
+      "correct_answer": "B",
+      "explanation": "Like a coordinate system where different parts work together to achieve a common goal, the three institutions coordinate governance.",
+      "constitutional_concept": "Separation of powers and cooperation"
+    },
+    
+    {
+      "id": 37,
+      "section": "How They Work Together",
+      "difficulty": "Intermediate",
+      "analogy": "Team sports strategy",
+      "question": "When Parliament passes a bill, the President gives assent, and the PM implements it. This is most like:",
+      "options": {
+        "A": "Individual players making separate decisions",
+        "B": "A team strategy where players coordinate: some plan, some approve, some execute",
+        "C": "Random players doing whatever they want",
+        "D": "Coaches making all decisions without player input"
+      },
+      "correct_answer": "B",
+      "explanation": "Like a coordinated team strategy where different players have specific roles, the three institutions work together in lawmaking.",
+      "constitutional_concept": "Lawmaking process coordination"
+    },
+    
+    {
+      "id": 38,
+      "section": "How They Work Together",
+      "difficulty": "Basic",
+      "analogy": "Three-pillar structure",
+      "question": "India's constitutional system is often described as having three pillars. Which are they?",
+      "options": {
+        "A": "President, PM, Parliament",
+        "B": "Executive, Legislature, Judiciary",
+        "C": "Central, State, Local governments", 
+        "D": "Majority, Opposition, Independents"
+      },
+      "correct_answer": "B",
+      "explanation": "Like a building that needs three strong pillars for stability, the constitutional system has executive, legislature, and judiciary.",
+      "constitutional_concept": "Three pillars of democracy"
+    },
+    
+    {
+      "id": 39,
+      "section": "How They Work Together",
+      "difficulty": "Intermediate",
+      "analogy": "Safety mechanism",
+      "question": "When Parliament questions government performance, it serves as what type of constitutional mechanism?",
+      "options": {
+        "A": "Performance enhancer",
+        "B": "Safety check and accountability measure",
+        "C": "Decision-making override",
+        "D": "Administrative support"
+      },
+      "correct_answer": "B",
+      "explanation": "Like safety checks that ensure systems work properly, parliamentary oversight ensures government accountability.",
+      "constitutional_concept": "Checks and balances"
+    },
+    
+    {
+      "id": 40,
+      "section": "How They Work Together",
+      "difficulty": "Basic",
+      "analogy": "Communication chain",
+      "question": "How does the PM communicate government decisions to the President?",
+      "options": {
+        "A": "Directly without formal procedures",
+        "B": "Through formal constitutional channels",
+        "C": "Only when Parliament approves",
+        "D": "Through the Supreme Court"
+      },
+      "correct_answer": "B",
+      "explanation": "Like following proper communication protocols in organizations, the PM communicates through constitutional channels.",
+      "constitutional_concept": "Formal communication protocols"
+    },
+    
+    {
+      "id": 41,
+      "section": "How They Work Together",
+      "difficulty": "Intermediate",
+      "analogy": "Quality assurance process",
+      "question": "The President's power to return bills for reconsideration functions like:",
+      "options": {
+        "A": "A quality control process ensuring bills meet constitutional standards",
+        "B": "A delay tactic to waste time",
+        "C": "A replacement for parliamentary debate",
+        "D": "A personal veto against disliked policies"
+      },
+      "correct_answer": "A",
+      "explanation": "Like quality assurance that ensures products meet standards, Presidential reconsideration ensures constitutional compliance.",
+      "constitutional_concept": "Constitutional quality control"
+    },
+    
+    {
+      "id": 42,
+      "section": "How They Work Together",
+      "difficulty": "Basic",
+      "analogy": "Team leadership",
+      "question": "Who provides the link between the President and the government?",
+      "options": {
+        "A": "Parliament",
+        "B": "Prime Minister",
+        "C": "Supreme Court",
+        "D": "Chief Justice"
+      },
+      "correct_answer": "B",
+      "explanation": "Like a team captain who communicates between management and players, the PM links the President and government.",
+      "constitutional_concept": "PM as linking agent"
+    },
+    
+    {
+      "id": 43,
+      "section": "How They Work Together",
+      "difficulty": "Intermediate",
+      "analogy": "Constitutional orchestra",
+      "question": "The process where Parliament makes laws, President signs them, and PM implements them is most like:",
+      "options": {
+        "A": "Random music being played",
+        "B": "An orchestra where different sections play in coordination to create harmony",
+        "C": "Solo performances",
+        "D": "Silent performances"
+      },
+      "correct_answer": "B",
+      "explanation": "Like an orchestra where different instruments work together to create music, the three institutions work together in governance.",
+      "constitutional_concept": "Harmonious constitutional process"
+    },
+    
+    {
+      "id": 44,
+      "section": "How They Work Together",
+      "difficulty": "Basic",
+      "analogy": "Conflict resolution",
+      "question": "When there is disagreement between Lok Sabha and Rajya Sabha, which mechanism resolves it?",
+      "options": {
+        "A": "President's decision alone",
+        "B": "Supreme Court ruling",
+        "C": "Joint sitting of both houses",
+        "D": "Prime Minister's decision"
+      },
+      "correct_answer": "C",
+      "explanation": "Like when committee members disagree and call a joint meeting for resolution, Parliament uses joint sittings to break deadlocks.",
+      "constitutional_concept": "Deadlock resolution mechanism"
+    },
+    
+    {
+      "id": 45,
+      "section": "How They Work Together",
+      "difficulty": "Advanced",
+      "analogy": "Constitutional framework",
+      "question": "The system where Parliament makes laws, judiciary interprets them, and executive implements them represents:",
+      "options": {
+        "A": "Dictatorial control",
+        "B": "Federal structure",
+        "C": "Separation of powers with checks and balances",
+        "D": "Direct democracy"
+      },
+      "correct_answer": "C",
+      "explanation": "Like a balanced framework where different parts have specific roles and can check each other, this ensures constitutional balance.",
+      "constitutional_concept": "Separation of powers and checks"
+    },
+    
+    {
+      "id": 46,
+      "section": "Practical Understanding",
+      "difficulty": "Basic",
+      "analogy": "Day-to-day management",
+      "question": "Which constitutional figure is most associated with day-to-day governance of the country?",
+      "options": {
+        "A": "President",
+        "B": "Prime Minister",
+        "C": "Chief Justice",
+        "D": "Parliament Speaker"
+      },
+      "correct_answer": "B",
+      "explanation": "Like someone who manages daily operations in any organization, the PM handles day-to-day governance.",
+      "constitutional_concept": "Day-to-day governance role"
+    },
+    
+    {
+      "id": 47,
+      "section": "Practical Understanding",
+      "difficulty": "Intermediate",
+      "analogy": "Constitutional guardian",
+      "question": "Which role is most important for ensuring constitutional compliance in all government decisions?",
+      "options": {
+        "A": "Prime Minister's policy decisions",
+        "B": "Parliament's lawmaking",
+        "C": "President's constitutional oversight and assent",
+        "D": "Supreme Court's judicial reviews"
+      },
+      "correct_answer": "C",
+      "explanation": "Like a guardian who ensures rules are followed, the President provides constitutional oversight of government decisions.",
+      "constitutional_concept": "Constitutional oversight role"
+    },
+    
+    {
+      "id": 48,
+      "section": "Practical Understanding",
+      "difficulty": "Basic",
+      "analogy": "Representative system",
+      "question": "Citizens directly elect members of which constitutional body?",
+      "options": {
+        "A": "Rajya Sabha",
+        "B": "Lok Sabha",
+        "C": "President's office",
+        "D": "Supreme Court"
+      },
+      "correct_answer": "B",
+      "explanation": "Like electing representatives in a local community, citizens directly elect Lok Sabha MPs.",
+      "constitutional_concept": "Direct electoral system"
+    },
+    
+    {
+      "id": 49,
+      "section": "Practical Understanding",
+      "difficulty": "Intermediate",
+      "analogy": "Emergency response system",
+      "question": "When immediate constitutional action is needed and Parliament is not in session, which power allows the President to act?",
+      "options": {
+        "A": "Regular executive power",
+        "B": "Emergency ordinance-making power",
+        "C": "Judicial review power",
+        "D": "Military command power"
+      },
+      "correct_answer": "B",
+      "explanation": "Like an emergency response system that activates when regular systems are unavailable, Presidential ordinance power addresses urgent needs.",
+      "constitutional_concept": "Emergency ordinance power"
+    },
+    
+    {
+      "id": 50,
+      "section": "Practical Understanding",
+      "difficulty": "Advanced",
+      "analogy": "Constitutional balance",
+      "question": "Which statement best describes the ideal working relationship between President, PM, and Parliament?",
+      "options": {
+        "A": "One person should dominate all decisions",
+        "B": "Each should work within their constitutional role while cooperating for good governance",
+        "C": "They should compete against each other constantly",
+        "D": "They should avoid any interaction"
+      },
+      "correct_answer": "B",
+      "explanation": "Like players in a team sport who have different positions but work together for victory, the three institutions cooperate within their constitutional roles.",
+      "constitutional_concept": "Cooperative federalism in governance"
+    }
+  ]
+}
