@@ -31,6 +31,7 @@ import {
   Flame,
   Sparkles,
   X,
+  XCircle,
   Info,
   Lightbulb,
   ArrowUp,
@@ -95,6 +96,9 @@ interface BuilderStats {
   currentLevel: number;
   experienceGained: number;
   coinsEarned: number;
+  correctPlacements?: number;
+  totalAttempts?: number;
+  accuracy?: number;
 }
 
 interface Achievement {
@@ -117,210 +121,339 @@ const AVAILABLE_ARTICLES: ConstitutionArticle[] = [
   // Preamble Articles
   {
     id: 'preamble-1',
-    title: 'We, the people of India',
-    content: 'The opening declaration of the constitution establishing sovereignty of the people',
+    title: '👥 We, the People of India',
+    content: 'All of us Indians together decided to create these rules for our country - like students making class rules!',
     category: 'preamble',
     importance: 5,
     placement: { x: 0, y: 0 },
-    connections: ['preamble-2']
+    connections: ['preamble-2'],
+    correctSection: 'preamble'
   },
   {
     id: 'preamble-2',
-    title: 'Sovereign Democratic Republic',
-    content: 'Establishing India as a sovereign, socialist, secular, democratic, republic',
+    title: '🏰 Sovereign Democratic Republic',
+    content: 'India is free, everyone gets to vote, and we choose our own leaders - no kings or foreign rulers!',
     category: 'preamble',
     importance: 5,
     placement: { x: 0, y: 0 },
-    connections: ['preamble-3']
+    connections: ['preamble-3'],
+    correctSection: 'preamble'
   },
   {
     id: 'preamble-3',
-    title: 'Justice, Liberty, Equality, Fraternity',
-    content: 'The four pillars that form the foundation of the Indian constitution',
+    title: '⭐ Justice, Liberty, Equality, Fraternity',
+    content: 'Fairness for all, freedom to choose, equal treatment, and caring for each other like family!',
     category: 'preamble',
     importance: 5,
     placement: { x: 0, y: 0 },
-    connections: []
+    connections: [],
+    correctSection: 'preamble'
   },
 
   // Fundamental Rights
   {
     id: 'rights-1',
-    title: 'Right to Equality (Article 14-18)',
-    content: 'Equality before law, prohibition of discrimination, abolition of untouchability',
+    title: '⚖️ Everyone is Equal!',
+    content: 'All people in India are equal - rich or poor, tall or short, from any state or religion!',
     category: 'fundamental_rights',
     importance: 5,
     placement: { x: 0, y: 0 },
-    connections: ['rights-2', 'rights-3']
+    connections: ['rights-2', 'rights-3'],
+    correctSection: 'fundamental_rights'
   },
   {
     id: 'rights-2',
-    title: 'Right to Freedom (Article 19-22)',
-    content: 'Freedom of speech, assembly, movement, and protection against arbitrary arrest',
+    title: '🕊️ Freedom to Choose!',
+    content: 'You can say what you think, go where you want, and choose your dreams - as long as you don\'t hurt others!',
     category: 'fundamental_rights',
     importance: 5,
     placement: { x: 0, y: 0 },
-    connections: ['rights-1', 'rights-4']
+    connections: ['rights-1', 'rights-4'],
+    correctSection: 'fundamental_rights'
   },
   {
     id: 'rights-3',
-    title: 'Right against Exploitation (Article 23-24)',
-    content: 'Prohibition of forced labor and child labor, protection of human trafficking',
+    title: '🛡️ Protection from Bad Treatment!',
+    content: 'Nobody can force children to work instead of going to school, and everyone deserves to be treated kindly!',
     category: 'fundamental_rights',
     importance: 4,
     placement: { x: 0, y: 0 },
-    connections: ['rights-1']
+    connections: ['rights-1'],
+    correctSection: 'fundamental_rights'
   },
   {
     id: 'rights-4',
-    title: 'Right to Freedom of Religion (Article 25-28)',
-    content: 'Freedom of conscience, free profession, practice and propagation of religion',
+    title: '🕉️ Freedom to Pray Your Way!',
+    content: 'You can follow any religion you want, or not follow any religion - it\'s completely your choice!',
     category: 'fundamental_rights',
     importance: 4,
     placement: { x: 0, y: 0 },
-    connections: ['rights-2']
+    connections: ['rights-2'],
+    correctSection: 'fundamental_rights'
   },
   {
     id: 'rights-5',
-    title: 'Cultural and Educational Rights (Article 29-30)',
-    content: 'Right of minorities to preserve their culture and establish educational institutions',
+    title: '🎭 Celebrate Your Culture!',
+    content: 'Every community can keep their special traditions, languages, and even start their own schools!',
     category: 'fundamental_rights',
     importance: 3,
     placement: { x: 0, y: 0 },
-    connections: []
+    connections: [],
+    correctSection: 'fundamental_rights'
   },
   {
     id: 'rights-6',
-    title: 'Right to Constitutional Remedies (Article 32)',
-    content: 'Right to move the Supreme Court for enforcement of fundamental rights',
+    title: '🏛️ Get Help from Courts!',
+    content: 'If someone breaks your rights, you can ask the Supreme Court to help make things fair again!',
     category: 'fundamental_rights',
     importance: 5,
     placement: { x: 0, y: 0 },
-    connections: []
+    connections: [],
+    correctSection: 'fundamental_rights'
   },
 
   // Directive Principles
   {
     id: 'directive-1',
-    title: 'Social and Economic Justice',
-    content: 'Promotion of welfare of the people and establishment of a just social order',
+    title: '🎯 Help Everyone Live Well!',
+    content: 'The government should make sure all people have good food, homes, and opportunities to succeed!',
     category: 'directive_principles',
     importance: 4,
     placement: { x: 0, y: 0 },
-    connections: ['directive-2']
+    connections: ['directive-2'],
+    correctSection: 'directive_principles'
   },
   {
     id: 'directive-2',
-    title: 'Equal Justice and Free Legal Aid',
-    content: 'Provision for free legal aid and equal access to justice',
+    title: '⚖️ Free Help from Lawyers!',
+    content: 'If someone needs legal help but can\'t afford it, the government should provide lawyers for free!',
     category: 'directive_principles',
     importance: 3,
     placement: { x: 0, y: 0 },
-    connections: ['directive-1']
+    connections: ['directive-1'],
+    correctSection: 'directive_principles'
   },
   {
     id: 'directive-3',
-    title: 'Right to Work and Education',
-    content: 'Provision for adequate means of livelihood and education',
+    title: '💼 Jobs and Schools for All!',
+    content: 'The government should try to give everyone good jobs and make sure all children can go to school!',
     category: 'directive_principles',
     importance: 4,
     placement: { x: 0, y: 0 },
-    connections: []
+    connections: [],
+    correctSection: 'directive_principles'
   },
   {
     id: 'directive-4',
-    title: 'Uniform Civil Code',
-    content: 'Efforts towards a uniform civil code for all citizens',
+    title: '📜 Same Rules for Everyone!',
+    content: 'The government should work toward having the same basic rules for all Indians, regardless of religion!',
     category: 'directive_principles',
     importance: 3,
     placement: { x: 0, y: 0 },
-    connections: []
+    connections: [],
+    correctSection: 'directive_principles'
   },
 
   // Union Government
   {
     id: 'union-1',
-    title: 'Executive Power of President',
-    content: 'The President shall be the head of the Union executive',
+    title: '👨‍💼 President - India\'s Main Leader!',
+    content: 'The President is like the head of our entire country, representing India to the whole world!',
     category: 'union_government',
     importance: 5,
     placement: { x: 0, y: 0 },
-    connections: ['union-2']
+    connections: ['union-2'],
+    correctSection: 'union_government'
   },
   {
     id: 'union-2',
-    title: 'Council of Ministers',
-    content: 'Prime Minister and other ministers constitute the Council of Ministers',
+    title: '👩‍💼 Prime Minister and Team!',
+    content: 'The Prime Minister leads a team of ministers who run different parts of the government, like education and health!',
     category: 'union_government',
     importance: 5,
     placement: { x: 0, y: 0 },
-    connections: ['union-1', 'union-3']
+    connections: ['union-1', 'union-3'],
+    correctSection: 'union_government'
   },
   {
     id: 'union-3',
-    title: 'Parliamentary System',
-    content: 'The supreme legislative authority consisting of President, Rajya Sabha and Lok Sabha',
+    title: '🏛️ Parliament - Where Laws Are Made!',
+    content: 'Parliament is like a big meeting hall where elected people from all over India discuss and make new laws!',
     category: 'union_government',
     importance: 5,
     placement: { x: 0, y: 0 },
-    connections: ['union-2']
+    connections: ['union-2'],
+    correctSection: 'union_government'
   },
 
   // State Government
   {
     id: 'state-1',
-    title: 'Governor and State Executive',
-    content: 'Governor as the head of state executive in each state',
+    title: '🏢 Governor - State\'s Representative!',
+    content: 'Each state has a Governor who represents the President and helps the state government work properly!',
     category: 'state_government',
     importance: 4,
     placement: { x: 0, y: 0 },
-    connections: ['state-2']
+    connections: ['state-2'],
+    correctSection: 'state_government'
   },
   {
     id: 'state-2',
-    title: 'State Legislative Assemblies',
-    content: 'State legislatures consisting of Governor and Legislative Assembly',
+    title: '🗳️ State Assembly - Local Law Makers!',
+    content: 'People in your state elect representatives who make laws specifically for your state\'s needs!',
     category: 'state_government',
     importance: 4,
     placement: { x: 0, y: 0 },
-    connections: ['state-1']
+    connections: ['state-1'],
+    correctSection: 'state_government'
   },
 
   // Judiciary
   {
     id: 'judiciary-1',
-    title: 'Supreme Court',
-    content: 'The Supreme Court of India as the highest court of appeal',
+    title: '⚖️ Supreme Court - The Ultimate Judge',
+    content: 'The most important court in India where the wisest judges make final decisions for the whole country!',
     category: 'judiciary',
     importance: 5,
     placement: { x: 0, y: 0 },
-    connections: ['judiciary-2']
+    connections: ['judiciary-2'],
+    correctSection: 'judiciary'
   },
   {
     id: 'judiciary-2',
-    title: 'Independence of Judiciary',
-    content: 'Judicial independence and separation of powers',
+    title: '🛡️ Independent Judges',
+    content: 'Judges can make fair decisions without politicians or rich people telling them what to do!',
     category: 'judiciary',
     importance: 5,
     placement: { x: 0, y: 0 },
-    connections: ['judiciary-1']
+    connections: ['judiciary-1'],
+    correctSection: 'judiciary'
   },
   {
     id: 'judiciary-3',
-    title: 'Judicial Review',
-    content: 'Power of the judiciary to review constitutional amendments',
+    title: '🔍 Judicial Review',
+    content: 'Judges can check if new laws are fair and follow the Constitution - like teachers checking homework!',
     category: 'judiciary',
     importance: 4,
     placement: { x: 0, y: 0 },
-    connections: []
+    connections: [],
+    correctSection: 'judiciary'
+  },
+
+  // Fundamental Duties
+  {
+    id: 'duties-1',
+    title: '🇮🇳 Love Your Country',
+    content: 'Respect the National Flag and National Anthem - they represent all Indians!',
+    category: 'fundamental_duties',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['duties-2'],
+    correctSection: 'fundamental_duties'
+  },
+  {
+    id: 'duties-2',
+    title: '🌍 Protect Our Environment',
+    content: 'Take care of forests, rivers, and animals - they are our natural treasures!',
+    category: 'fundamental_duties',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['duties-3'],
+    correctSection: 'fundamental_duties'
+  },
+  {
+    id: 'duties-3',
+    title: '🤝 Help Others',
+    content: 'Be kind and helpful to all people regardless of their religion or background!',
+    category: 'fundamental_duties',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: [],
+    correctSection: 'fundamental_duties'
+  },
+
+  // Emergency Provisions
+  {
+    id: 'emergency-1',
+    title: '🚨 National Emergency',
+    content: 'Special rules when the country faces big danger - like during wars or disasters!',
+    category: 'emergency_provisions',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: ['emergency-2'],
+    correctSection: 'emergency_provisions'
+  },
+  {
+    id: 'emergency-2',
+    title: '🏛️ President\'s Rule',
+    content: 'When a state government can\'t work properly, the central government helps temporarily!',
+    category: 'emergency_provisions',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: [],
+    correctSection: 'emergency_provisions'
+  },
+
+  // Constitutional Bodies
+  {
+    id: 'bodies-1',
+    title: '🗳️ Election Commission',
+    content: 'Special group that makes sure all elections are fair and everyone gets to vote safely!',
+    category: 'constitutional_bodies',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['bodies-2'],
+    correctSection: 'constitutional_bodies'
+  },
+  {
+    id: 'bodies-2',
+    title: '🔍 Controller and Auditor General',
+    content: 'Like a school monitor who checks if the government spends money properly!',
+    category: 'constitutional_bodies',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: ['bodies-3'],
+    correctSection: 'constitutional_bodies'
+  },
+  {
+    id: 'bodies-3',
+    title: '👮 Union Public Service Commission',
+    content: 'Group that conducts fair tests to choose the best people for government jobs!',
+    category: 'constitutional_bodies',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: [],
+    correctSection: 'constitutional_bodies'
+  },
+
+  // Amendment Process
+  {
+    id: 'amendment-1',
+    title: '✏️ How to Change the Constitution',
+    content: 'The Constitution can be updated, but it needs lots of people to agree - like changing school rules!',
+    category: 'amendment_process',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['amendment-2'],
+    correctSection: 'amendment_process'
+  },
+  {
+    id: 'amendment-2',
+    title: '🔒 Basic Structure Protection',
+    content: 'Some parts of the Constitution are so important they can never be changed - like core school values!',
+    category: 'amendment_process',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: [],
+    correctSection: 'amendment_process'
   }
 ];
 
 const CONSTITUTION_SECTIONS: DropZone[] = [
   {
     id: 'preamble',
-    title: 'Preamble',
-    description: 'The opening statement of constitutional values and goals',
+    title: '📜 Our Constitution\'s Promise',
+    description: 'The opening words that tell everyone what India stands for!',
     icon: '📜',
     capacity: 3,
     required: true,
@@ -330,8 +463,8 @@ const CONSTITUTION_SECTIONS: DropZone[] = [
   },
   {
     id: 'fundamental_rights',
-    title: 'Fundamental Rights',
-    description: 'Basic rights guaranteed to all citizens',
+    title: '🌟 Your Special Powers',
+    description: 'Amazing rights that every child and adult in India has!',
     icon: '⚖️',
     capacity: 6,
     required: true,
@@ -340,9 +473,20 @@ const CONSTITUTION_SECTIONS: DropZone[] = [
     isExpanded: true
   },
   {
+    id: 'fundamental_duties',
+    title: '🤝 Good Things We Should Do',
+    description: 'Important ways we can help make India a better place for everyone!',
+    icon: '❤️',
+    capacity: 3,
+    required: true,
+    articles: [],
+    color: 'from-pink-400 to-pink-600',
+    isExpanded: true
+  },
+  {
     id: 'directive_principles',
-    title: 'Directive Principles',
-    description: 'Guidelines for government policy and governance',
+    title: '🎯 Government\'s Homework',
+    description: 'Instructions for the government on how to take care of all Indians!',
     icon: '🎯',
     capacity: 4,
     required: true,
@@ -352,8 +496,8 @@ const CONSTITUTION_SECTIONS: DropZone[] = [
   },
   {
     id: 'union_government',
-    title: 'Union Government',
-    description: 'Structure and powers of central government',
+    title: '🏛️ India\'s Main Government',
+    description: 'How our country\'s main leaders work together in New Delhi!',
     icon: '🏛️',
     capacity: 3,
     required: true,
@@ -363,8 +507,8 @@ const CONSTITUTION_SECTIONS: DropZone[] = [
   },
   {
     id: 'state_government',
-    title: 'State Government',
-    description: 'Structure and powers of state governments',
+    title: '🏢 Your State\'s Government',
+    description: 'How your state leaders take care of local needs and problems!',
     icon: '🏢',
     capacity: 2,
     required: true,
@@ -374,13 +518,46 @@ const CONSTITUTION_SECTIONS: DropZone[] = [
   },
   {
     id: 'judiciary',
-    title: 'Judiciary',
-    description: 'Court system, judicial powers and independence',
+    title: '⚖️ The Fair Judges',
+    description: 'Courts and judges who make sure everyone is treated fairly!',
     icon: '⚖️',
     capacity: 3,
     required: true,
     articles: [],
     color: 'from-red-400 to-red-600',
+    isExpanded: true
+  },
+  {
+    id: 'constitutional_bodies',
+    title: '🏢 Special Helper Groups',
+    description: 'Important organizations that help our democracy work properly!',
+    icon: '🏢',
+    capacity: 3,
+    required: false,
+    articles: [],
+    color: 'from-indigo-400 to-indigo-600',
+    isExpanded: true
+  },
+  {
+    id: 'emergency_provisions',
+    title: '🚨 Emergency Rules',
+    description: 'Special rules for when our country faces big problems or dangers!',
+    icon: '🚨',
+    capacity: 2,
+    required: false,
+    articles: [],
+    color: 'from-yellow-400 to-yellow-600',
+    isExpanded: true
+  },
+  {
+    id: 'amendment_process',
+    title: '✏️ How to Update Rules',
+    description: 'The careful way we can change the Constitution when needed!',
+    icon: '✏️',
+    capacity: 2,
+    required: false,
+    articles: [],
+    color: 'from-gray-400 to-gray-600',
     isExpanded: true
   }
 ];
@@ -506,6 +683,7 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
   const [celebrationType, setCelebrationType] = useState<'achievement' | 'level' | 'section'>('achievement');
   const [saveName, setSaveName] = useState('');
   const [saveDescription, setSaveDescription] = useState('');
+  const [feedback, setFeedback] = useState<{ type: 'success' | 'error' | 'warning' | 'info'; message: string } | null>(null);
 
   const dragZoneRef = useRef<HTMLDivElement>(null);
   const timeIntervalRef = useRef<NodeJS.Timeout | null>(null);
@@ -734,9 +912,32 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
 
     // Check if section is full
     if (section.articles.length >= section.capacity) {
-      // Show validation error
+      setFeedback({
+        type: 'error',
+        message: `🚫 ${section.title} is full! It can only hold ${section.capacity} articles. Try removing one first!`
+      });
+      setTimeout(() => setFeedback(null), 4000);
+      handleDragEnd();
       return;
     }
+
+    // VALIDATION: Check if article belongs in the correct section
+    const isCorrectPlacement = !article.correctSection || article.correctSection === sectionId;
+    const correctSectionTitle = sections.find(s => s.id === article.correctSection)?.title;
+    
+    const feedbackMessages = {
+      correct: [
+        '🎉 Perfect! You placed this article exactly where it belongs!',
+        '⭐ Excellent choice! This article fits perfectly here!',
+        '🎯 Spot on! You understand the Constitution really well!',
+        '🌟 Amazing! You got it right!'
+      ],
+      incorrect: [
+        `🤔 Hmm, this article might work better in \"${correctSectionTitle}\". Want to try again?`,
+        `💡 Good try! This article actually belongs in \"${correctSectionTitle}\". Think about what makes it special!`,
+        `🎓 Learning opportunity! This article fits better with \"${correctSectionTitle}\". Can you see why?`
+      ]
+    };
 
     // Check if article is already in another section
     const existingSection = sections.find(s => 
@@ -752,22 +953,43 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
       ));
     }
 
-    // Add to new section
+    // Add to new section with correctness tracking
     setSections(prev => prev.map(s => 
       s.id === sectionId 
-        ? { ...s, articles: [...s.articles, article] }
+        ? { ...s, articles: [...s.articles, { ...article, isCorrectlyPlaced: isCorrectPlacement }] }
         : s
     ));
 
     // Update stats
+    const wasNewPlacement = !existingSection;
     setBuilderStats(prev => ({
       ...prev,
-      placedArticles: prev.placedArticles + (existingSection ? 0 : 1)
+      placedArticles: prev.placedArticles + (wasNewPlacement ? 1 : 0),
+      correctPlacements: (prev.correctPlacements || 0) + (isCorrectPlacement && wasNewPlacement ? 1 : 0),
+      totalAttempts: (prev.totalAttempts || 0) + 1,
+      accuracy: Math.round(((prev.correctPlacements || 0) + (isCorrectPlacement && wasNewPlacement ? 1 : 0)) / ((prev.totalAttempts || 0) + 1) * 100)
     }));
+
+    // Give feedback based on correctness
+    const messages = isCorrectPlacement ? feedbackMessages.correct : feedbackMessages.incorrect;
+    const randomMessage = messages[Math.floor(Math.random() * messages.length)];
+    
+    setFeedback({
+      type: isCorrectPlacement ? 'success' : 'warning',
+      message: randomMessage
+    });
+    
+    // Auto-clear feedback after delay
+    setTimeout(() => setFeedback(null), isCorrectPlacement ? 3000 : 6000);
 
     // Start timer on first interaction
     if (!builderState.isPlaying && builderStats.placedArticles === 0) {
       setBuilderState(prev => ({ ...prev, isPlaying: true }));
+    }
+
+    // Check for achievements
+    if (isCorrectPlacement) {
+      checkAchievements();
     }
 
     handleDragEnd();
@@ -1201,6 +1423,10 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
                   <span className="font-medium">{builderStats.coinsEarned}</span>
                 </div>
                 <div className="flex items-center space-x-2">
+                  <Target className="w-4 h-4 text-green-500" />
+                  <span className="font-medium">{builderStats.accuracy || 0}% Accurate</span>
+                </div>
+                <div className="flex items-center space-x-2">
                   <Clock className="w-4 h-4 text-blue-500" />
                   <span className="font-medium">{Math.floor(builderStats.activeTime / 60)}:{(builderStats.activeTime % 60).toString().padStart(2, '0')}</span>
                 </div>
@@ -1568,6 +1794,26 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
           </div>
         )}
       </div>
+
+      {/* Feedback Display */}
+      {feedback && (
+        <div className="fixed top-20 left-1/2 transform -translate-x-1/2 z-50 animate-in slide-in-from-top-2 duration-300">
+          <div className={`px-6 py-4 rounded-lg shadow-lg max-w-md mx-auto ${
+            feedback.type === 'success' ? 'bg-green-100 text-green-800 border-2 border-green-300' :
+            feedback.type === 'error' ? 'bg-red-100 text-red-800 border-2 border-red-300' :
+            feedback.type === 'warning' ? 'bg-yellow-100 text-yellow-800 border-2 border-yellow-300' :
+            'bg-blue-100 text-blue-800 border-2 border-blue-300'
+          }`}>
+            <div className="flex items-center space-x-2">
+              {feedback.type === 'success' && <CheckCircle className="w-5 h-5 text-green-600" />}
+              {feedback.type === 'error' && <XCircle className="w-5 h-5 text-red-600" />}
+              {feedback.type === 'warning' && <Lightbulb className="w-5 h-5 text-yellow-600" />}
+              {feedback.type === 'info' && <Info className="w-5 h-5 text-blue-600" />}
+              <p className="font-medium text-sm">{feedback.message}</p>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Modals and Overlays */}
       {renderTutorial()}

@@ -289,6 +289,8 @@ export interface ConstitutionArticle {
   importance: number;
   placement: { x: number; y: number };
   connections: string[];
+  correctSection?: string; // Which section this article should be placed in
+  explanation?: string; // Child-friendly explanation of why it belongs in that section
 }
 
 export interface MiniGameProgress {
