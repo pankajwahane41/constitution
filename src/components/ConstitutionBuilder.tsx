@@ -85,6 +85,12 @@ interface BuilderState {
   sortBy: 'importance' | 'category' | 'alphabetical';
   filterCategory: string;
   lastSaved: Date | null;
+  showHints: boolean;
+  hintsUsed: number;
+  selectedArticleForHint: string | null;
+  aiHelperVisible: boolean;
+  currentHint: string | null;
+  guidanceLevel: 'none' | 'basic' | 'expert';
 }
 
 interface BuilderStats {
@@ -109,6 +115,22 @@ interface Achievement {
   unlocked: boolean;
   progress: number;
   requirement: number;
+}
+
+interface AIHelper {
+  name: string;
+  avatar: string;
+  currentMessage: string;
+  messageType: 'welcome' | 'hint' | 'encouragement' | 'celebration' | 'explanation';
+  isVisible: boolean;
+}
+
+interface GuidanceHint {
+  articleId: string;
+  targetSection: string;
+  message: string;
+  explanation: string;
+  difficulty: 'easy' | 'medium' | 'hard';
 }
 
 interface ConstitutionBuilderProps {
@@ -564,28 +586,28 @@ const CONSTITUTION_SECTIONS: DropZone[] = [
 
 const TUTORIAL_STEPS = [
   {
-    title: 'Welcome to Constitution Builder!',
-    content: 'Learn about constitutional principles by building your own constitution with interactive drag-and-drop.',
+    title: 'Welcome, Future Constitution Expert! 🇮🇳',
+    content: 'Hi! I am Vidhi, your Constitution guide! Together we will build an amazing constitution step by step. Don\'t worry - I will help you every step of the way! 👩‍🏫',
     position: 'center'
   },
   {
-    title: 'Drag and Drop Articles',
-    content: 'Click and drag constitutional articles from the left panel to appropriate sections on the right.',
+    title: 'See These Colorful Articles? 📜',
+    content: 'These are pieces of India\'s Constitution! Each one is special. Try dragging "Our Constitution\'s Promise" to get started. Look for the 💡 Hint button if you need help!',
     position: 'right'
   },
   {
-    title: 'Build Section by Section',
-    content: 'Each section needs specific articles. Follow the guide to understand what each section requires.',
+    title: 'Drop Zones Are Like Puzzle Pieces! 🧩',
+    content: 'Each colorful section is like a box where certain articles belong. When you drag something, I will highlight where it should go! Yellow glow = perfect spot! ✨',
     position: 'left'
   },
   {
-    title: 'Save Your Progress',
-    content: 'Your constitution is automatically saved. You can also save multiple versions to compare.',
+    title: 'I Will Help You Win! 🎯',
+    content: 'Watch for my hints in the purple box! Click 💡 Get Hint for help. I will tell you exactly where things go. The goal is to learn AND have fun! 🎉',
     position: 'bottom'
   },
   {
-    title: 'Earn Rewards',
-    content: 'Complete sections to earn experience points, coins, and unlock achievements!',
+    title: 'You Are Going to Be Amazing! 🌟',
+    content: 'Remember: There are no wrong moves, only learning opportunities! I believe in you! Let\'s build the best constitution ever! 🏗️✨',
     position: 'center'
   }
 ];
@@ -647,7 +669,13 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
     viewMode: 'grid',
     sortBy: 'importance',
     filterCategory: 'all',
-    lastSaved: null
+    lastSaved: null,
+    showHints: true,
+    hintsUsed: 0,
+    selectedArticleForHint: null,
+    aiHelperVisible: true,
+    currentHint: null,
+    guidanceLevel: 'expert'
   });
 
   const [progress, setProgress] = useState<ConstitutionBuilderProgress>({
@@ -684,10 +712,23 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
   const [saveName, setSaveName] = useState('');
   const [saveDescription, setSaveDescription] = useState('');
   const [feedback, setFeedback] = useState<{ type: 'success' | 'error' | 'warning' | 'info'; message: string } | null>(null);
+  const [aiHelper, setAiHelper] = useState<AIHelper>({
+    name: 'Vidhi',
+    avatar: '👩‍🏫',
+    currentMessage: 'Hi! I\'m Vidhi, your Constitutional Guide! 🇮🇳 I\'ll help you build an amazing constitution step by step!',
+    messageType: 'welcome',
+    isVisible: true
+  });
+  const [highlightedSection, setHighlightedSection] = useState<string | null>(null);
+  const [showGuidancePanel, setShowGuidancePanel] = useState(true);
+  const [strugglingDetected, setStrugglingDetected] = useState(false);
+  const [lastIncorrectTime, setLastIncorrectTime] = useState<Date | null>(null);
+  const [incorrectAttempts, setIncorrectAttempts] = useState(0);
 
   const dragZoneRef = useRef<HTMLDivElement>(null);
   const timeIntervalRef = useRef<NodeJS.Timeout | null>(null);
   const storageRef = useRef<ConstitutionDB | null>(null);
+  const strugglingTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
   // Initialize storage and load progress
   useEffect(() => {
@@ -744,6 +785,161 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
       }
     };
   }, [builderState.isPlaying]);
+
+  // AI Helper guidance system
+  const updateAiHelper = useCallback((message: string, type: AIHelper['messageType']) => {
+    setAiHelper(prev => ({
+      ...prev,
+      currentMessage: message,
+      messageType: type,
+      isVisible: true
+    }));
+  }, []);
+
+  // Smart hints system - provides contextual help
+  const getSmartHint = useCallback((articleId: string) => {
+    const article = AVAILABLE_ARTICLES.find(a => a.id === articleId);
+    if (!article || !article.correctSection) return null;
+
+    const targetSection = sections.find(s => s.id === article.correctSection);
+    if (!targetSection) return null;
+
+    const hints = {
+      preamble: [
+        'This article talks about India\'s promises and values - it belongs in the Constitution\'s opening!',
+        'Look for the section about India\'s main goals and principles!',
+        'This is about what kind of country India wants to be - check the beginning section!'
+      ],
+      fundamental_rights: [
+        'This is about special powers and freedoms every Indian has - look for the rights section!',
+        'This protects people from unfair treatment - find where personal rights are kept!',
+        'This is something you can do freely in India - check the section about your powers!'
+      ],
+      fundamental_duties: [
+        'This is about good things Indians should do for their country - find the duties section!',
+        'This is our responsibility as citizens - look for the section about helping India!',
+        'This is about how we can be good Indians - check the duties area!'
+      ],
+      directive_principles: [
+        'This tells the government what to do for people - find the government instructions section!',
+        'This is homework for the government - look for their to-do list section!',
+        'This guides government policies - check where government guidelines go!'
+      ],
+      union_government: [
+        'This is about India\'s main government in Delhi - find the central government section!',
+        'This is about leaders who run the whole country - check the national government area!',
+        'This is about the President or Prime Minister\'s team - look for the main government section!'
+      ],
+      state_government: [
+        'This is about your state\'s local government - find the state government section!',
+        'This is about leaders in your state - check the local government area!',
+        'This is about your state\'s assembly or governor - look for state leaders section!'
+      ],
+      judiciary: [
+        'This is about judges and courts - find the justice section!',
+        'This is about making fair decisions - look for the courts and judges area!',
+        'This is about the justice system - check where legal matters go!'
+      ],
+      constitutional_bodies: [
+        'This is about special helper organizations - find the constitutional bodies section!',
+        'This is about groups that help democracy work - check the special organizations area!',
+        'This is about important institutions like Election Commission - look for helper bodies!'
+      ],
+      emergency_provisions: [
+        'This is about special rules during crises - find the emergency section!',
+        'This is about what happens during big problems - check the emergency rules area!',
+        'This is about crisis management - look for the emergency powers section!'
+      ],
+      amendment_process: [
+        'This is about changing the Constitution - find the amendment section!',
+        'This is about updating our rules - check the Constitution changes area!',
+        'This is about how to modify the Constitution - look for the amendment process!'
+      ]
+    };
+
+    const sectionHints = hints[article.correctSection as keyof typeof hints] || [
+      `This article belongs in the ${targetSection.title} section - look for it!`
+    ];
+
+    const randomHint = sectionHints[Math.floor(Math.random() * sectionHints.length)];
+    return {
+      articleId,
+      targetSection: article.correctSection,
+      message: randomHint,
+      explanation: `💡 ${article.title} should go in ${targetSection.title} because: ${article.content}`,
+      difficulty: 'easy' as const
+    };
+  }, [sections]);
+
+  // Show hint for selected article
+  const showHintForArticle = useCallback((articleId: string) => {
+    const hint = getSmartHint(articleId);
+    if (!hint) return;
+
+    setBuilderState(prev => ({
+      ...prev,
+      selectedArticleForHint: articleId,
+      currentHint: hint.message,
+      hintsUsed: prev.hintsUsed + 1
+    }));
+
+    setHighlightedSection(hint.targetSection);
+
+    updateAiHelper(
+      `🎯 HINT: ${hint.message}\\n\\n${hint.explanation}`,
+      'hint'
+    );
+
+    // Clear highlight after 5 seconds
+    setTimeout(() => {
+      setHighlightedSection(null);
+      setBuilderState(prev => ({ ...prev, selectedArticleForHint: null, currentHint: null }));
+    }, 8000);
+  }, [getSmartHint, updateAiHelper]);
+
+  // Provide encouraging guidance based on progress
+  const provideGuidance = useCallback(() => {
+    const placedCount = builderStats.placedArticles;
+    const totalCount = AVAILABLE_ARTICLES.length;
+    const accuracy = builderStats.accuracy || 0;
+
+    if (placedCount === 0) {
+      updateAiHelper(
+        'Let\'s start building! 🏗️ Try dragging any article to a section. I will help you if you get stuck! Click the "💡 Hint" button on any article for help!',
+        'encouragement'
+      );
+    } else if (placedCount < 5) {
+      updateAiHelper(
+        `Great start! 🌟 You have placed ${placedCount} articles! Remember: \n- 🌟 Rights = Your special powers\n- 🎯 Principles = Government homework\n- 🏛️ Government = How leaders work\n\nKeep going!`,
+        'encouragement'
+      );
+    } else if (placedCount < 10) {
+      if (accuracy > 70) {
+        updateAiHelper(
+          `Awesome! 🎉 You are doing really well with ${accuracy}% accuracy! You understand the Constitution! Try the more challenging sections now!`,
+          'encouragement'
+        );
+      } else {
+        updateAiHelper(
+          `You are learning! 📚 Don\'t worry about mistakes - they help you learn! Use the 💡 Hint button if you are unsure where something goes!`,
+          'encouragement'
+        );
+      }
+    } else if (placedCount >= 15) {
+      updateAiHelper(
+        `WOW! 🏆 You are becoming a Constitution expert! ${accuracy}% accuracy is ${accuracy > 80 ? 'AMAZING!' : 'great!'} Keep building your constitutional knowledge!`,
+        'celebration'
+      );
+    }
+  }, [builderStats, updateAiHelper]);
+
+  // Trigger guidance based on user actions
+  useEffect(() => {
+    if (builderStats.placedArticles > 0) {
+      const timer = setTimeout(provideGuidance, 2000);
+      return () => clearTimeout(timer);
+    }
+  }, [builderStats.placedArticles, provideGuidance]);
 
   // Check and unlock achievements
   const checkAchievements = useCallback(() => {
@@ -869,6 +1065,42 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
     }
   }, [sections, builderState.showTutorial, builderStats.placedArticles]);
 
+  // Auto-guidance system - provides proactive help based on guidance level
+  useEffect(() => {
+    if (!builderState.isPlaying || builderState.showTutorial) return;
+
+    let guidanceTimer: NodeJS.Timeout;
+    
+    // Different guidance frequencies based on level
+    const guidanceIntervals = {
+      'none': 0, // No auto-guidance
+      'basic': 60000, // Every minute
+      'expert': 30000 // Every 30 seconds
+    };
+
+    const interval = guidanceIntervals[builderState.guidanceLevel];
+    
+    if (interval > 0) {
+      guidanceTimer = setInterval(() => {
+        // Don't interrupt if child is actively dragging or if there's current feedback
+        if (!builderState.isDragging && !feedback) {
+          provideGuidance();
+        }
+      }, interval);
+    }
+
+    return () => {
+      if (guidanceTimer) clearInterval(guidanceTimer);
+    };
+  }, [
+    builderState.isPlaying, 
+    builderState.showTutorial, 
+    builderState.isDragging, 
+    builderState.guidanceLevel,
+    feedback,
+    provideGuidance
+  ]);
+
   // Drag and drop handlers
   const handleDragStart = (article: ConstitutionArticle) => {
     setBuilderState(prev => ({
@@ -876,6 +1108,15 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
       isDragging: true,
       draggedItem: { id: article.id, article, type: 'article' }
     }));
+    
+    // Highlight correct section when dragging (expert guidance)
+    if (builderState.guidanceLevel === 'expert' && article.correctSection) {
+      setHighlightedSection(article.correctSection);
+      updateAiHelper(
+        `🎯 Perfect! Drag "${article.title}" to the highlighted section! The glowing area shows where it belongs!`,
+        'hint'
+      );
+    }
   };
 
   const handleDragEnd = () => {
@@ -885,6 +1126,7 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
       draggedItem: null
     }));
     setDraggedOver(null);
+    setHighlightedSection(null);
   };
 
   const handleDragOver = (e: React.DragEvent) => {
@@ -927,15 +1169,17 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
     
     const feedbackMessages = {
       correct: [
-        '🎉 Perfect! You placed this article exactly where it belongs!',
-        '⭐ Excellent choice! This article fits perfectly here!',
-        '🎯 Spot on! You understand the Constitution really well!',
-        '🌟 Amazing! You got it right!'
+        '🎉 WOW! You are absolutely right! That is exactly where this article belongs! You are becoming a Constitution superhero! ⚡',
+        '⭐ FANTASTIC! Perfect placement! You understood this article so well! I am so proud of you! 🌟',
+        '🎯 BULLSEYE! You nailed it! You are getting really good at this Constitution building! Keep going! 🚀',
+        '🌟 AMAZING work! You are thinking like a real Constitution expert now! That was spot-on! 🎓',
+        '🎊 INCREDIBLE! You got it perfectly right! Your constitutional knowledge is growing so fast! 📚✨'
       ],
       incorrect: [
-        `🤔 Hmm, this article might work better in \"${correctSectionTitle}\". Want to try again?`,
-        `💡 Good try! This article actually belongs in \"${correctSectionTitle}\". Think about what makes it special!`,
-        `🎓 Learning opportunity! This article fits better with \"${correctSectionTitle}\". Can you see why?`
+        `🤗 Great attempt, young scholar! This article actually loves being in "${correctSectionTitle}" better. Want to try moving it there? You are learning so well! 💫`,
+        `💡 Nice try, future expert! This special article belongs in "${correctSectionTitle}". Think about what makes that section special! You are doing great! 🌈`,
+        `🎓 Super effort! This article fits perfectly in "${correctSectionTitle}". Each article has its favorite home! Let us find it together! 🏡✨`,
+        `🤔 Good thinking! This article will be happier in "${correctSectionTitle}". Remember, each section has its own theme! You are learning fast! 🎯`
       ]
     };
 
@@ -982,6 +1226,38 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
     // Auto-clear feedback after delay
     setTimeout(() => setFeedback(null), isCorrectPlacement ? 3000 : 6000);
 
+    // Smart Coaching: Detect if child is struggling and offer proactive help
+    if (!isCorrectPlacement) {
+      const now = new Date();
+      setIncorrectAttempts(prev => prev + 1);
+      setLastIncorrectTime(now);
+      
+      // If 3 incorrect attempts in a row, or 5 minutes of struggle, offer smart coaching
+      if (incorrectAttempts >= 2 || (lastIncorrectTime && now.getTime() - lastIncorrectTime.getTime() > 300000)) {
+        setStrugglingDetected(true);
+        updateAiHelper(
+          '🤗 I can see you are working really hard! Would you like me to show you exactly where this article wants to go? I am here to help you succeed! 💫',
+          'encouragement'
+        );
+        
+        // Highlight the correct section with gentle pulsing
+        if (article.correctSection) {
+          setHighlightedSection(article.correctSection);
+          setTimeout(() => setHighlightedSection(null), 8000);
+        }
+        
+        // Reset struggling counter after helping
+        setTimeout(() => {
+          setStrugglingDetected(false);
+          setIncorrectAttempts(0);
+        }, 10000);
+      }
+    } else {
+      // Reset struggle detection on successful placement
+      setIncorrectAttempts(0);
+      setStrugglingDetected(false);
+    }
+
     // Start timer on first interaction
     if (!builderState.isPlaying && builderStats.placedArticles === 0) {
       setBuilderState(prev => ({ ...prev, isPlaying: true }));
@@ -990,6 +1266,27 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
     // Check for achievements
     if (isCorrectPlacement) {
       checkAchievements();
+      
+      // Check if section is now complete and celebrate!
+      const updatedSection = sections.find(s => s.id === sectionId);
+      if (updatedSection && updatedSection.articles.length + 1 >= updatedSection.capacity * 0.7) {
+        const wasAlreadyComplete = builderStats.sectionsCompleted.includes(sectionId);
+        if (!wasAlreadyComplete) {
+          // Section just became complete! Show celebration
+          setTimeout(() => {
+            setFeedback({
+              type: 'success',
+              message: `🎊 SECTION COMPLETE! 🎊\n\n🏆 You've mastered the "${updatedSection.title}" section! \n\n⭐ You're becoming a real Constitution expert! Ready for the next challenge? 🚀`
+            });
+          }, 2000); // Show after initial placement feedback
+          
+          // Update completed sections
+          setBuilderStats(prev => ({
+            ...prev,
+            sectionsCompleted: [...prev.sectionsCompleted, sectionId]
+          }));
+        }
+      }
     }
 
     handleDragEnd();
@@ -1432,6 +1729,23 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
                 </div>
               </div>
 
+              {/* Guidance Level Selector */}
+              <div className="hidden md:flex items-center space-x-2 text-sm">
+                <span className="text-gray-600">Help Level:</span>
+                <select
+                  value={builderState.guidanceLevel}
+                  onChange={(e) => setBuilderState(prev => ({ 
+                    ...prev, 
+                    guidanceLevel: e.target.value as 'none' | 'basic' | 'expert'
+                  }))}
+                  className="px-2 py-1 border border-gray-300 rounded focus:ring-2 focus:ring-orange-500"
+                >
+                  <option value="none">🦅 Expert (No Help)</option>
+                  <option value="basic">🎓 Learning (Some Help)</option>
+                  <option value="expert">👶 Beginner (Lots of Help)</option>
+                </select>
+              </div>
+
               {/* Action Buttons */}
               <div className="flex items-center space-x-2">
                 <button
@@ -1570,12 +1884,23 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
                             </div>
                           </div>
                         </div>
-                        {!isPlaced && (
-                          <Move className="w-4 h-4 text-gray-400 flex-shrink-0" />
-                        )}
-                        {isPlaced && (
-                          <CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0" />
-                        )}
+                        <div className="flex flex-col space-y-1">
+                          {!isPlaced && builderState.guidanceLevel === 'expert' && (
+                            <button
+                              onClick={() => showHintForArticle(article.id)}
+                              className="p-1 text-orange-500 hover:text-orange-700 hover:bg-orange-50 rounded transition-colors"
+                              title="Get a hint!"
+                            >
+                              <Lightbulb className="w-4 h-4" />
+                            </button>
+                          )}
+                          {!isPlaced && (
+                            <Move className="w-4 h-4 text-gray-400 flex-shrink-0" />
+                          )}
+                          {isPlaced && (
+                            <CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0" />
+                          )}
+                        </div>
                       </div>
                     </div>
                   );
@@ -1620,7 +1945,9 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
                     onDragLeave={handleDragLeave}
                     onDrop={(e) => handleDrop(e, section.id)}
                     className={`border-2 border-dashed rounded-xl p-4 transition-all ${
-                      draggedOver === section.id
+                      highlightedSection === section.id
+                        ? 'border-yellow-400 bg-yellow-50 shadow-lg ring-4 ring-yellow-200 ring-opacity-50 animate-pulse'
+                        : draggedOver === section.id
                         ? 'border-orange-400 bg-orange-50'
                         : 'border-gray-200 hover:border-gray-300'
                     }`}
@@ -1794,6 +2121,83 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
           </div>
         )}
       </div>
+
+      {/* AI Helper - Vidhi */}
+      {aiHelper.isVisible && showGuidancePanel && (
+        <div className="fixed bottom-6 right-6 z-50 max-w-sm">
+          <div className="bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl shadow-2xl p-1">
+            <div className="bg-white rounded-xl p-4">
+              <div className="flex items-start space-x-3">
+                <div className="text-3xl animate-bounce">{aiHelper.avatar}</div>
+                <div className="flex-1">
+                  <div className="flex items-center justify-between mb-2">
+                    <h4 className="font-bold text-purple-800">Vidhi - Your Guide</h4>
+                    <button
+                      onClick={() => setShowGuidancePanel(false)}
+                      className="p-1 hover:bg-gray-100 rounded-full"
+                    >
+                      <X className="w-4 h-4 text-gray-500" />
+                    </button>
+                  </div>
+                  <div className={`text-sm leading-relaxed ${
+                    aiHelper.messageType === 'celebration' ? 'text-green-700' :
+                    aiHelper.messageType === 'hint' ? 'text-orange-700' :
+                    aiHelper.messageType === 'encouragement' ? 'text-blue-700' :
+                    'text-gray-700'
+                  }`}>
+                    {aiHelper.currentMessage.split('\\n').map((line, index) => (
+                      <div key={index} className="mb-1">{line}</div>
+                    ))}
+                  </div>
+                  
+                  {/* Quick Action Buttons */}
+                  <div className="flex items-center space-x-2 mt-3">
+                    <button
+                      onClick={() => {
+                        const nextUnplacedArticle = AVAILABLE_ARTICLES.find(article => 
+                          !sections.some(section => section.articles.some(a => a.id === article.id))
+                        );
+                        if (nextUnplacedArticle) {
+                          showHintForArticle(nextUnplacedArticle.id);
+                        }
+                      }}
+                      className="px-3 py-1 bg-orange-100 text-orange-700 rounded-lg text-xs hover:bg-orange-200 transition-colors"
+                      disabled={builderStats.placedArticles === AVAILABLE_ARTICLES.length}
+                    >
+                      💡 Get Hint
+                    </button>
+                    <button
+                      onClick={() => {
+                        const incompleteSections = sections.filter(s => s.articles.length === 0);
+                        if (incompleteSections.length > 0) {
+                          const randomSection = incompleteSections[0];
+                          updateAiHelper(
+                            `Try starting with the "${randomSection.title}" section! ${randomSection.description}`,
+                            'hint'
+                          );
+                        }
+                      }}
+                      className="px-3 py-1 bg-blue-100 text-blue-700 rounded-lg text-xs hover:bg-blue-200 transition-colors"
+                    >
+                      🎯 Where to Start?
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Floating Help Button - Show if AI Helper is hidden */}
+      {!showGuidancePanel && (
+        <button
+          onClick={() => setShowGuidancePanel(true)}
+          className="fixed bottom-6 right-6 z-50 w-14 h-14 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full shadow-2xl flex items-center justify-center text-white text-2xl animate-pulse hover:animate-none transition-all"
+        >
+          👩‍🏫
+        </button>
+      )}
 
       {/* Feedback Display */}
       {feedback && (
