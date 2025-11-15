@@ -5,6 +5,7 @@ import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { UserProfile, ConstitutionBuilderProgress, SavedConstitution, ConstitutionArticle, GameDifficulty } from '../types/gamification';
 import { ConstitutionDB, getStorageInstance } from '../lib/storage';
 import { PointCalculator } from '../lib/pointCalculator';
+import { triggerCoinAnimationFromPosition } from '../utils/coinAnimationUtils';
 import {
   Building,
   Plus,
@@ -1068,6 +1069,18 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
             constitutionalCoins: userProfile.constitutionalCoins + coinsEarned
           };
           onProfileUpdate(updatedProfile);
+        }
+
+        // Trigger coin animation if coins were earned
+        if (coinsEarned > 0) {
+          setTimeout(() => {
+            // Trigger from center of screen for Constitution Builder
+            triggerCoinAnimationFromPosition(
+              window.innerWidth / 2,
+              window.innerHeight / 2,
+              coinsEarned
+            );
+          }, 200);
         }
       }
 

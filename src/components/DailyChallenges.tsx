@@ -9,6 +9,7 @@ import GamificationEngine from '../lib/gamification';
 import TimeSync, { DateUtils } from '../lib/timeSync';
 import DailyResetService from '../lib/dailyResetService';
 import { useIsMobile } from '../hooks/useIsMobile';
+import { triggerCoinAnimationFromButton, triggerCoinAnimationFromPosition } from '../utils/coinAnimationUtils';
 
 interface DailyChallengesProps {
   userProfile: UserProfile;
@@ -242,6 +243,18 @@ export default function DailyChallenges({
       setChallenges(prev => prev.map(c => 
         c.type === challengeType ? { ...c, isCompleted: true, progress: c.target } : c
       ));
+      
+      // Trigger coin animation if coins were earned
+      if (result.coinsEarned > 0) {
+        setTimeout(() => {
+          // Trigger from center for daily challenges
+          triggerCoinAnimationFromPosition(
+            window.innerWidth / 2,
+            window.innerHeight / 2,
+            result.coinsEarned
+          );
+        }, 300);
+      }
       
       // Refresh curriculum progress
       await checkCurriculumStatus();

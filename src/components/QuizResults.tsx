@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { UserProfile } from '../types/gamification';
 import { PointCalculator, QuizPerformance } from '../lib/pointCalculator';
 import { Coins, Zap, Trophy, Star, Target, HelpCircle, Calculator } from 'lucide-react';
+import { triggerCoinAnimation } from '../utils/coinAnimationUtils';
 
 interface QuizResultsProps {
   score: number;
@@ -75,6 +76,18 @@ const QuizResults: React.FC<QuizResultsProps> = ({
     const secs = seconds % 60;
     return `${mins}:${secs.toString().padStart(2, '0')}`;
   };
+
+  // Trigger coin animation when component loads if coins were earned
+  useEffect(() => {
+    if (coinsEarned > 0) {
+      // Delay to allow component to render
+      const timer = setTimeout(() => {
+        triggerCoinAnimation(coinsEarned);
+      }, 500);
+      
+      return () => clearTimeout(timer);
+    }
+  }, [coinsEarned]);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-green-50 p-4">

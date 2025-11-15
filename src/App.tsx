@@ -18,6 +18,8 @@ const MiniGamesHub = lazy(() => import('./components/MiniGamesHub'));
 const ConstitutionBuilder = lazy(() => import('./components/ConstitutionBuilder'));
 const LeaderboardView = lazy(() => import('./components/LeaderboardView'));
 const DailyChallenges = lazy(() => import('./components/DailyChallenges'));
+const AnimatedCoinCollection = lazy(() => import('./components/AnimatedCoinCollection'));
+const AnimatedCoinDisplay = lazy(() => import('./components/AnimatedCoinDisplay'));
 import CriticalErrorBoundary from './components/CriticalErrorBoundary';
 const ErrorBoundary = lazy(() => import('./components/ErrorBoundary'));
 const RightsPuzzleGame = lazy(() => import('./components/games').then(module => ({ default: module.RightsPuzzleGame })));
@@ -42,6 +44,7 @@ import { GamificationEngine } from './lib/gamification';
 import { AvatarSystem } from './lib/avatarSystem';
 import { AmbedkarStoryMode } from './lib/storyMode';
 import { AlertTriangle, User, Trophy, Star, BookOpen, Gamepad2, Building, Users, Zap, ChevronRight } from 'lucide-react';
+import { triggerCoinAnimation } from './utils/coinAnimationUtils';
 
 // Loading component for lazy-loaded sections
 const SectionLoader: React.FC<{ children: string }> = ({ children }) => (
@@ -617,6 +620,14 @@ function App() {
         isLoading: false
       }));
 
+      // Trigger animated coin collection if coins were earned
+      if (rewards.coinsEarned > 0) {
+        // Delay slightly to ensure DOM updates
+        setTimeout(() => {
+          triggerCoinAnimation(rewards.coinsEarned);
+        }, 300);
+      }
+
       setQuizProcessingState('complete');
 
       // Show celebrations for achievements (queue to prevent UI race conditions)
@@ -1055,16 +1066,21 @@ function App() {
 
                 {/* User Profile Summary - Mobile Optimized */}
                 <div className="flex items-center space-x-2 sm:space-x-3">
-                  {/* Constitutional Coins */}
-                  <div className="flex items-center space-x-1 bg-yellow-100 px-2 sm:px-3 py-1 rounded-full">
-                    <div className="w-3 h-3 sm:w-4 sm:h-4 bg-yellow-500 rounded-full"></div>
-                    <span className="text-xs sm:text-sm font-medium text-yellow-700">
-                      {appState.userProfile.constitutionalCoins > 999 
-                        ? `${Math.floor(appState.userProfile.constitutionalCoins / 1000)}k`
-                        : appState.userProfile.constitutionalCoins.toLocaleString()
-                      }
-                    </span>
-                  </div>
+                  {/* Constitutional Coins - Animated */}
+                  <Suspense fallback={
+                    <div className="flex items-center space-x-1 bg-yellow-100 px-2 sm:px-3 py-1 rounded-full">
+                      <div className="w-3 h-3 sm:w-4 sm:h-4 bg-yellow-500 rounded-full"></div>
+                      <span className="text-xs sm:text-sm font-medium text-yellow-700">
+                        {appState.userProfile.constitutionalCoins.toLocaleString()}
+                      </span>
+                    </div>
+                  }>
+                    <div id="constitutional-coins-display">
+                      <AnimatedCoinDisplay 
+                        coins={appState.userProfile.constitutionalCoins}
+                      />
+                    </div>
+                  </Suspense>
 
                   {/* Experience Level */}
                   <div className="hidden sm:flex items-center space-x-1 bg-blue-100 px-2 sm:px-3 py-1 rounded-full">
@@ -1423,6 +1439,11 @@ function App() {
             data={appState.newAchievements}
           />
         )}
+
+        {/* Animated Coin Collection System */}
+        <Suspense fallback={null}>
+          <AnimatedCoinCollection />
+        </Suspense>
       </div>
     </ErrorBoundary>
   );
