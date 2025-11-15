@@ -1,4 +1,5 @@
-import { UserProfile, ConstitutionDB } from './storage';
+import { ConstitutionDB } from './storage';
+import { UserProfile } from '../types/gamification';
 import { GamificationEngine } from './gamification';
 
 // Mock leaderboard data for demonstration

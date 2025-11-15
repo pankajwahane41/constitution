@@ -214,7 +214,7 @@ export default function LeaderboardView({ userProfile, onBack, database, gamific
                 <div className="flex items-center justify-between">
                   <Trophy className="w-8 h-8 text-orange-500 mx-auto mb-2" />
                   {hasRankingImproved(currentUserData.rank) && (
-                    <TrendingUp className="w-5 h-5 text-green-500" title="Ranking improved!" />
+                    <TrendingUp className="w-5 h-5 text-green-500" />
                   )}
                 </div>
                 <div className="text-2xl font-bold text-navy">#{currentUserData.rank}</div>

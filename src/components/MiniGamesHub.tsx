@@ -1,7 +1,7 @@
 // Mini Games Hub Component
 // Collection of constitutional mini-games
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { UserProfile } from '../types/gamification';
 import { Gamepad2, Puzzle, Brain, Target, Star, Clock, Trophy, Play } from 'lucide-react';
 import '../styles/professional-responsive.css';
@@ -24,7 +24,9 @@ interface MiniGame {
   highScore?: number;
 }
 
-export default function MiniGamesHub({ userProfile, onBack, onStartGame }: MiniGamesHubProps) {
+const MiniGamesHub: React.FC<MiniGamesHubProps> = ({ userProfile, onBack, onStartGame }) => {
+  console.log('MiniGamesHub component rendering', { userProfile: !!userProfile });
+  
   const miniGames: MiniGame[] = [
     {
       id: 'constitutional_memory',
@@ -335,4 +337,6 @@ export default function MiniGamesHub({ userProfile, onBack, onStartGame }: MiniG
       </div>
     </div>
   );
-}
+};
+
+export default MiniGamesHub;
