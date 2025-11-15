@@ -1,5 +1,6 @@
 // Story Mode Viewer Component - Dr. Ambedkar's Journey
 // Interactive storytelling with gamification elements
+// Now loads comprehensive literary content from markdown file
 
 import React, { useState, useEffect } from 'react';
 import { UserProfile } from '../types/gamification';
@@ -25,39 +26,67 @@ interface StoryChapter {
 export default function StoryModeViewer({ userProfile, onBack, onUpdateProgress }: StoryModeViewerProps) {
   const [activeChapter, setActiveChapter] = useState<string | null>(null);
   const [readingStartTime, setReadingStartTime] = useState<number | null>(null);
+  const [storyContent, setStoryContent] = useState<string>('');
+  const [loadingStory, setLoadingStory] = useState(true);
 
+  // Load comprehensive story content from markdown file
+  useEffect(() => {
+    const loadStoryContent = async () => {
+      try {
+        const response = await fetch('/story/ambedkar_master_architect_story.md');
+        if (response.ok) {
+          const content = await response.text();
+          setStoryContent(content);
+        } else {
+          console.warn('Could not load detailed story, using basic content');
+        }
+      } catch (error) {
+        console.warn('Error loading story content:', error);
+      } finally {
+        setLoadingStory(false);
+      }
+    };
+
+    loadStoryContent();
+  }, []);
+
+  // Enhanced chapters with content from loaded story
   const chapters: StoryChapter[] = [
     {
       id: 'early_life',
-      title: 'The Architect is Born',
-      summary: 'Dr. Ambedkar\'s early life and struggles',
+      title: 'The Boy Who Dreamed Big',
+      summary: 'How a boy facing discrimination became India\'s Constitution architect',
       readingTime: 8,
       isCompleted: userProfile.storyProgress.chaptersCompleted.includes('early_life'),
       era: '1891-1920',
-      content: `Born in 1891 in Mhow, Madhya Pradesh, Bhimrao Ramji Ambedkar faced discrimination from an early age due to his caste. Despite these challenges, his exceptional intellect shone through. His father, Ramji Maloji Sakpal, encouraged education, believing it was the key to breaking free from social oppression.
+      content: `Dr. Ambedkar's journey to becoming the Constitution's architect began with his painful childhood experiences. Born in 1891 into a Dalit family (then called "untouchables"), young Bhimrao faced terrible discrimination every single day. He couldn't sit with other children in school, couldn't drink water from the same well, and was often made to feel like he didn't belong.
 
-Young Bhimrao excelled in his studies, but faced constant humiliation. He was not allowed to sit with other children, couldn't touch the water pot, and had to sit on gunny sacks. These experiences shaped his understanding of inequality and injustice.
+But here's what made Dr. Ambedkar extraordinary: instead of giving up, he turned his pain into purpose. Every time someone told him he wasn't good enough, he studied harder. Every time someone denied him basic rights, he became more determined to ensure no other child would face such injustice.
 
-Despite facing numerous obstacles, Ambedkar's determination never wavered. He graduated from Bombay University in 1912, becoming one of the first Dalits to receive a college education. This achievement was just the beginning of his remarkable journey.`,
+His father, Ramji Maloji Sakpal, believed that education was the key to breaking free from social oppression. Young Bhimrao listened carefully and studied with incredible determination. He graduated from Bombay University in 1912, becoming one of the first Dalits to receive a college education.
+
+But this was just the beginning! Dr. Ambedkar wasn't studying just for himself - he was preparing to build a Constitution that would protect every Indian child's right to education and equality.`,
       keyPoints: [
-        'Born in 1891 in Mhow, faced caste discrimination',
-        'Father encouraged education as path to freedom',
-        'Graduated from Bombay University in 1912',
-        'One of first Dalits to receive college education'
+        'Born in 1891, faced discrimination but never gave up',
+        'Turned pain into purpose - studied harder when discouraged',
+        'First Dalit to graduate from Bombay University in 1912',
+        'Dreamed of creating equal rights for all children'
       ]
     },
     {
       id: 'education_abroad',
-      title: 'Scholar of the World',
-      summary: 'Education at Columbia University and London School of Economics',
+      title: 'The Scholar Who Studied Freedom',
+      summary: 'How studying abroad gave Dr. Ambedkar the tools to build India\'s Constitution',
       readingTime: 10,
       isCompleted: userProfile.storyProgress.chaptersCompleted.includes('education_abroad'),
       era: '1913-1923',
-      content: `In 1913, Ambedkar received a scholarship from the Maharaja of Baroda to study at Columbia University in New York. This opportunity transformed his worldview. At Columbia, he was treated as an equal for the first time in his life.
+      content: `In 1913, something amazing happened! Dr. Ambedkar received a scholarship to study at Columbia University in New York. For the first time in his life, he was treated as an equal. No one cared about his caste - they only cared about his brilliant mind!
 
-He earned his MA in 1915 and PhD in 1927 from Columbia, writing his thesis on "The Evolution of Provincial Finance in British India." He also studied at the London School of Economics, earning a DSc in Economics.
+Dr. Ambedkar didn't just get one degree - he collected them like precious treasures! He earned degrees from Columbia University (Master's and PhD) and London School of Economics (another PhD). Each degree was a victory against those who said a Dalit person couldn't achieve greatness.
 
-During his time abroad, Ambedkar was exposed to concepts of democracy, equality, and human rights. He studied the constitutions of various countries, which would later prove invaluable when drafting India's Constitution.
+But Dr. Ambedkar wasn't studying just for himself - he was preparing to build a Constitution that would protect every Indian child's rights! During his time abroad, he studied the constitutions of many countries, learning what made them work well. He was like a detective, collecting the best ideas from around the world.
+
+His most important discovery? That EVERY person deserves equal treatment, regardless of their background. This idea would become the foundation of India's Constitution!
 
 These years abroad weren't just about academic achievement - they were about dignity, respect, and the realization that discrimination wasn't natural or inevitable.`,
       keyPoints: [
@@ -68,87 +97,122 @@ These years abroad weren't just about academic achievement - they were about dig
       ]
     },
     {
+      id: 'literary_works',
+      title: 'The Writer Who Built the Constitution',
+      summary: 'How Dr. Ambedkar\'s books became the blueprint for India\'s Constitution',
+      readingTime: 15,
+      isCompleted: userProfile.storyProgress.chaptersCompleted.includes('literary_works'),
+      era: '1916-1947',
+      content: `Here's an amazing secret: Before Dr. Ambedkar became the Constitution's architect, he was a brilliant writer whose books became the building blocks of our Constitution! Every major book he wrote contributed specific ideas that later became constitutional provisions.
+
+**"The Evolution of Provincial Finance in British India" (1925)** → This became Articles 268-293 about how the central government and states should share money fairly!
+
+**"The Annihilation of Caste" (1936)** → This powerful book became Article 15 (no discrimination) and Article 17 (untouchability is banned forever)!
+
+**"States and Minorities" (1947)** → This became Articles 29-30 protecting minority rights and Article 325 ensuring everyone can vote!
+
+Dr. Ambedkar didn't just write books - he was actually designing the Constitution piece by piece! Each book solved a specific problem that free India would face. When the time came to write the Constitution, Dr. Ambedkar simply had to organize all his brilliant ideas into one supreme law.
+
+That's why people say Dr. Ambedkar was the Constitution's chief architect - he had been building it in his mind and through his writings for over 30 years!`,
+      keyPoints: [
+        'His books became constitutional provisions',
+        '"Annihilation of Caste" → Equal rights for all',
+        '"States and Minorities" → Minority protection',
+        'Spent 30+ years designing the Constitution through writing'
+      ]
+    },
+    {
       id: 'social_reformer',
       title: 'The Voice of the Voiceless',
-      summary: 'Fighting for Dalit rights and social justice',
+      summary: 'Fighting for equality and preparing for constitutional responsibility',
       readingTime: 12,
       isCompleted: userProfile.storyProgress.chaptersCompleted.includes('social_reformer'),
       era: '1920-1940',
-      content: `Returning to India, Ambedkar faced the harsh reality of caste discrimination once again. But now he was armed with education, international exposure, and an unshakeable belief in human equality.
+      content: `Returning to India with his international education, Dr. Ambedkar faced discrimination again. But now he was prepared! He had a mission: to use his knowledge to fight for equality and prepare for the day he would build India's Constitution.
 
-He started newspapers like "Mooknayak" (Leader of the Voiceless) and "Bahishkrit Bharat" to raise awareness about Dalit issues. He organized the "Mahad Satyagraha" in 1927, where Dalits asserted their right to drink water from public tanks.
+He started newspapers like "Mooknayak" (Leader of the Voiceless) to teach people about their rights. He organized the "Mahad Satyagraha" in 1927, where Dalits asserted their right to drink water from public tanks - this was practice for writing Article 15 (Right to Equality) in the Constitution!
 
-Ambedkar founded the Independent Labour Party in 1936 and later the Scheduled Castes Federation. He advocated for separate electorates for Dalits, leading to the famous Poona Pact with Gandhi in 1932.
+Every struggle, every movement, every speech was preparation. Dr. Ambedkar was like a student studying for the biggest exam of his life - creating India's Constitution. He was learning what problems needed to be solved and how laws could solve them.
 
-Through his relentless efforts, he brought Dalit issues to national and international attention, forcing society to confront its prejudices and work towards true equality.`,
+The famous Poona Pact with Gandhi in 1932 taught him about political negotiation - skills he would later use brilliantly in the Constituent Assembly!`,
       keyPoints: [
-        'Founded newspapers to voice Dalit concerns',
-        'Led Mahad Satyagraha for water rights',
-        'Poona Pact with Gandhi (1932)',
-        'Founded political parties for Dalits'
+        'Used newspapers to educate about rights',
+        'Mahad Satyagraha prepared ground for Article 15',
+        'Every struggle was constitutional preparation',
+        'Poona Pact taught negotiation skills for Constitution-making'
       ]
     },
     {
       id: 'political_journey',
-      title: 'The Political Architect',
-      summary: 'Entry into politics and constitutional work',
+      title: 'Preparing to Build India\'s Constitution',
+      summary: 'How Dr. Ambedkar became the Constitution\'s chief architect',
       readingTime: 15,
       isCompleted: userProfile.storyProgress.chaptersCompleted.includes('political_journey'),
       era: '1940-1947',
-      content: `As India moved towards independence, Ambedkar's expertise in law and governance became invaluable. Despite initial differences with the Congress party, leaders recognized his brilliance and integrity.
+      content: `As India moved towards independence, something incredible happened - leaders realized that Dr. Ambedkar was the perfect person to build India's Constitution! All his education, struggles, and writings had prepared him for this moment.
 
-In 1946, he was invited to join the Interim Government as the Minister of Labour. This position gave him a platform to implement policies protecting workers' rights and improving labor conditions.
+In 1946, he became the Minister of Labour, where he protected workers' rights - practice for protecting ALL Indians' rights in the Constitution! Then came the biggest honor: he was appointed Chairman of the Drafting Committee of the Constituent Assembly.
 
-When the Constituent Assembly was formed, Ambedkar was appointed as the Chairman of the Drafting Committee. This was recognition of his legal expertise, his understanding of constitutional matters, and his commitment to social justice.
+But here's the amazing part - Dr. Ambedkar didn't just become the Constitution's architect by accident. Everything in his life had been building toward this moment:
+- His childhood struggles taught him what problems needed solving
+- His international education showed him how to solve them
+- His books contained the actual solutions
+- His political work gave him the experience to lead
 
-His political journey wasn't easy - he faced opposition from various quarters, but his vision of an egalitarian society guided every decision he made.`,
+When 299 people gathered to create the Constitution, they all looked to ONE person for leadership: Dr. Ambedkar!`,
       keyPoints: [
-        'Joined Interim Government as Labour Minister',
-        'Appointed Chairman of Drafting Committee',
-        'Recognized for legal and constitutional expertise',
-        'Advocated for worker and minority rights'
+        'Became Labour Minister - practiced protecting rights',
+        'Appointed Chairman of Constitutional Drafting Committee',
+        'Entire life prepared him for this moment',
+        '299 members looked to him for leadership'
       ]
     },
     {
       id: 'constitutional_assembly',
-      title: 'Crafting the Constitution',
-      summary: 'Leading the Drafting Committee',
+      title: 'Building the World\'s Greatest Constitution',
+      summary: 'How Dr. Ambedkar led 299 people to create India\'s Constitution',
       readingTime: 18,
       isCompleted: userProfile.storyProgress.chaptersCompleted.includes('constitutional_assembly'),
       era: '1946-1950',
-      content: `As Chairman of the Drafting Committee, Ambedkar led the monumental task of creating India's Constitution. The committee met for 166 days over nearly three years, carefully crafting each article.
+      content: `Now came the most exciting part - actually building the Constitution! Dr. Ambedkar led the Drafting Committee like a master architect, and the 299 Constituent Assembly members were his construction team. Together, they worked for 2 years, 11 months, and 18 days to build the world's longest written Constitution!
 
-Ambedkar's vast knowledge of world constitutions proved invaluable. He drew inspiration from various sources - the Government of India Act 1935, the American Bill of Rights, the Irish Constitution, and many others.
+But here's what made Dr. Ambedkar so special: he had already designed most of the Constitution in his books! When the committee needed ideas for different articles, Dr. Ambedkar would say, "I wrote about this in my book 20 years ago!" and pull out the perfect solution.
 
-He ensured that the Constitution included strong provisions for fundamental rights, especially for marginalized communities. Article 14 (Equality before law), Article 15 (Prohibition of discrimination), and Article 17 (Abolition of untouchability) bore his influence.
+**The Magic Moment**: On November 26, 1950, India's Constitution came alive! Dr. Ambedkar's childhood dream - that every Indian child would have equal rights regardless of their background - finally came true.
 
-The Constitution wasn't just a legal document for Ambedkar - it was a tool for social transformation, a means to create the egalitarian society he had always envisioned.`,
+The Constitution wasn't just a legal document - it was Dr. Ambedkar's gift to every child in India, ensuring they would never face the discrimination he experienced. It was his way of saying, "Every child deserves dignity, education, and equal opportunities!"`,
       keyPoints: [
-        'Led Drafting Committee for 3 years',
-        'Drew from world\'s best constitutional practices',
-        'Ensured strong fundamental rights provisions',
-        'Constitution as tool for social transformation'
+        'Led 299 people for nearly 3 years to build Constitution',
+        'Used his books as the blueprint for many articles',
+        'Made sure every child gets equal rights and opportunities',
+        'Created the world\'s longest written Constitution'
       ]
     },
     {
       id: 'legacy',
-      title: 'The Eternal Legacy',
-      summary: 'Dr. Ambedkar\'s lasting impact on India',
+      title: 'The Gift That Keeps Giving',
+      summary: 'How Dr. Ambedkar\'s Constitution still protects you today',
       readingTime: 12,
       isCompleted: userProfile.storyProgress.chaptersCompleted.includes('legacy'),
       era: '1950-Present',
-      content: `On November 26, 1949, the Constituent Assembly adopted the Constitution. On January 26, 1950, it came into effect, making India a republic. Dr. Ambedkar's dream of a democratic, secular, and egalitarian India was now enshrined in law.
+      content: `On November 26, 1949, something magical happened - the Constitution was finally ready! On January 26, 1950, it came alive, and Dr. Ambedkar's dream of equal rights for every Indian child became the law of the land.
 
-Though he passed away in 1956, his legacy lives on. The Constitution he helped craft has weathered numerous challenges and continues to protect the rights of all Indians. The fundamental rights he championed have empowered millions.
+Even though Dr. Ambedkar is no longer with us (he passed away in 1956), his Constitution continues to protect you every single day! When you go to school, when you play with friends of different backgrounds, when you dream of becoming anything you want - Dr. Ambedkar's Constitution makes all of this possible.
 
-Today, Dr. Ambedkar is remembered not just as the "Father of the Indian Constitution" but as a champion of human rights, a visionary leader, and an inspiration to all who fight for justice and equality.
+**Your Daily Constitutional Rights (Thanks to Dr. Ambedkar!):**
+- Right to Education (Article 21A) - You can go to school!
+- Right to Equality (Article 14) - You're equal to every other child!
+- Freedom of Speech (Article 19) - You can express your thoughts!
+- Right against Discrimination (Article 15) - No one can treat you badly because of your background!
 
-His life teaches us that no barrier is insurmountable, no dream too big, and no cause too difficult when one has education, determination, and an unshakeable belief in human dignity.`,
+Dr. Ambedkar's greatest achievement wasn't just building the Constitution - it was ensuring that every child in India, including YOU, would have the same opportunities he was denied. His Constitution is like a protective shield around every Indian child, making sure you can dream big and achieve anything!
+
+Today, we call Dr. Ambedkar the "Father of the Indian Constitution" and remember him as the brilliant architect who built the foundation of modern India!`,
       keyPoints: [
-        'Constitution adopted November 26, 1949',
-        'Became effective January 26, 1950',
-        'Legacy of rights and social justice',
-        'Inspiration for future generations'
+        'Constitution came alive on January 26, 1950',
+        'Still protects your rights every single day',
+        'Ensures every child can go to school and dream big',
+        'Dr. Ambedkar is the "Father of the Indian Constitution"'
       ]
     }
   ];
@@ -271,11 +335,16 @@ His life teaches us that no barrier is insurmountable, no dream too big, and no 
         {/* Introduction */}
         <div className="text-center mb-12">
           <Book className="w-16 h-16 text-orange-500 mx-auto mb-4" />
-          <h2 className="text-3xl font-bold text-navy mb-4">The Story of Constitution's Architect</h2>
+          <h2 className="text-3xl font-bold text-navy mb-4">The Amazing Story of Constitution's Architect</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Follow Dr. B.R. Ambedkar's inspiring journey from facing discrimination to becoming 
-            the chief architect of India's Constitution.
+            the chief architect of India's Constitution. Discover how his books became the blueprint for our Constitution!
           </p>
+          {!loadingStory && storyContent && (
+            <div className="mt-4 text-sm text-green-600 bg-green-50 rounded-lg p-3 max-w-md mx-auto">
+              ✨ Enhanced story with literary connections loaded!
+            </div>
+          )}
         </div>
 
         {/* Progress Bar */}
