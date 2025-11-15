@@ -32,9 +32,9 @@ export interface EducationalModule {
   title: string;
   summary: string; // Added for compatibility
   description: string;
-  ageGroup: '8-12' | '12-16' | '14-16';
+  ageGroup: '8-12' | '12-16' | '14-16' | '8-16';
   estimatedTime: string;
-  color: 'saffron' | 'green' | 'navy';
+  color: 'saffron' | 'green' | 'navy' | 'purple' | 'red' | 'orange' | 'blue';
   icon: string;
   story?: string; // Added for compatibility
   concepts?: Concept[]; // Added for compatibility

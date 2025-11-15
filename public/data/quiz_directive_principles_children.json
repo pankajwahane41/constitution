@@ -1,0 +1,335 @@
+{
+  "quiz_title": "Directive Principles - Government's Good Deeds Quiz",
+  "description": "Child-friendly quiz about how the government should help all people live well",
+  "target_age": "8-16 years", 
+  "total_questions": 25,
+  "topics_covered": [
+    "Government helping people live well",
+    "Free lawyers for those who need help", 
+    "Jobs and schools for everyone",
+    "Same basic rules for all Indians"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "category": "Government's Homework",
+      "question": "Ravi's family doesn't have enough money for a lawyer when they need legal help. Which Directive Principle says the government should help them?",
+      "options": [
+        "Free legal aid for everyone",
+        "Free food for everyone", 
+        "Free houses for everyone",
+        "Free clothes for everyone"
+      ],
+      "correct_answer": "Free legal aid for everyone",
+      "explanation": "Article 39A says the government should provide free legal help to people who cannot afford lawyers, just like how schools provide free books to students who need them!",
+      "child_friendly_analogy": "Like how teachers help students who are struggling with homework, the government should help people who are struggling with legal problems."
+    },
+    {
+      "id": 2, 
+      "type": "scenario_based",
+      "category": "Everyone Lives Well",
+      "question": "In Priya's village, some children cannot go to school because their families need them to work. What should the government do according to Directive Principles?",
+      "options": [
+        "Ignore the problem",
+        "Make sure all children can go to school and families have enough support",
+        "Only help rich families", 
+        "Let children decide for themselves"
+      ],
+      "correct_answer": "Make sure all children can go to school and families have enough support",
+      "explanation": "Directive Principles tell the government to ensure everyone has good living conditions - this means children should be in school, not working to support their families!",
+      "child_friendly_analogy": "Like how parents make sure all their children get food and education, the government should make sure all Indian families have what they need."
+    },
+    {
+      "id": 3,
+      "type": "true_false", 
+      "category": "Jobs for Everyone",
+      "question": "The government should try to give good jobs to all adults who want to work.",
+      "answer": true,
+      "explanation": "Yes! Article 41 says the government should try to provide work opportunities for everyone, just like how a good school tries to help every student find their talents!",
+      "child_friendly_analogy": "Like how a coach tries to find the right position for every player on the team, the government should help every person find good work."
+    },
+    {
+      "id": 4,
+      "type": "multiple_choice",
+      "category": "Same Rules for All", 
+      "question": "Asha's friend says people from different religions should follow completely different laws. What do Directive Principles suggest?",
+      "options": [
+        "Every religion should have different laws",
+        "Only one religion should make laws",
+        "The government should work toward having the same basic rules for all Indians",
+        "Laws should change every day"
+      ],
+      "correct_answer": "The government should work toward having the same basic rules for all Indians",
+      "explanation": "Article 44 talks about a Uniform Civil Code - this means working toward having the same basic fair rules for all Indians, while still respecting everyone's beliefs!",
+      "child_friendly_analogy": "Like how all students in a school follow the same basic rules (no bullying, be respectful) while still celebrating their different cultures and traditions."
+    },
+    {
+      "id": 5,
+      "type": "scenario_based",
+      "category": "Government's Responsibility",
+      "question": "In your city, many old people don't have anyone to take care of them. According to Directive Principles, what should the government do?",
+      "options": [
+        "Nothing - it's not their problem",
+        "Help create programs to take care of elderly people",
+        "Tell families to handle it themselves", 
+        "Only help rich elderly people"
+      ],
+      "correct_answer": "Help create programs to take care of elderly people",
+      "explanation": "Directive Principles say the government should help ensure everyone can live with dignity - this includes taking care of elderly people who need support!",
+      "child_friendly_analogy": "Like how good friends help each other when someone is in trouble, the government should help citizens who need support."
+    },
+    {
+      "id": 6,
+      "type": "fill_in_the_blank",
+      "category": "Understanding Directive Principles", 
+      "question": "Directive Principles are like the government's _______ list of good things to do for all people.",
+      "correct_answer": "homework",
+      "explanation": "Directive Principles are like homework assignments for the government - they tell the government what good things it should try to do to help all people live better lives!",
+      "child_friendly_analogy": "Just like students get homework to help them learn and grow, the government gets 'homework' from the Constitution to help all citizens live well."
+    },
+    {
+      "id": 7,
+      "type": "multiple_choice",
+      "category": "Education for All",
+      "question": "Meera lives in a remote village where there is no school. What should happen according to Directive Principles?",
+      "options": [
+        "Meera should move to the city",
+        "The government should help provide education in her village",
+        "Only boys need schools",
+        "Education is not important"
+      ],
+      "correct_answer": "The government should help provide education in her village",
+      "explanation": "Article 45 originally said the government should provide free education for all children. Now it's a Fundamental Right, but Directive Principles still guide making education accessible everywhere!",
+      "child_friendly_analogy": "Like how parents try to give all their children the same opportunities, the government should try to give all children access to good education."
+    },
+    {
+      "id": 8,
+      "type": "scenario_based",
+      "category": "Healthcare",
+      "question": "In Raj's neighborhood, many people get sick because the water is not clean. What does the government's 'homework' (Directive Principles) say about this?",
+      "options": [
+        "People should buy their own water purifiers",
+        "Only rich areas deserve clean water",
+        "The government should work to provide clean water and healthcare for everyone",
+        "Sick people should move somewhere else"
+      ],
+      "correct_answer": "The government should work to provide clean water and healthcare for everyone",
+      "explanation": "Article 47 says the government should work to improve public health and provide clean living conditions for everyone - clean water is part of this!",
+      "child_friendly_analogy": "Like how a good school provides clean drinking water for all students, the government should ensure all neighborhoods have clean water."
+    },
+    {
+      "id": 9,
+      "type": "true_false",
+      "category": "Fair Distribution", 
+      "question": "The government should make sure that a few very rich people don't control everything while everyone else stays poor.",
+      "answer": true,
+      "explanation": "Article 39 says wealth should be distributed fairly so everyone has a chance at a good life, not concentrated in just a few hands!",
+      "child_friendly_analogy": "Like how a good teacher makes sure all students get a chance to participate and learn, not just the few who raise their hands first."
+    },
+    {
+      "id": 10,
+      "type": "multiple_choice",
+      "category": "Women and Children Protection",
+      "question": "Sara notices that in some places, women don't get paid the same as men for doing the same work. What do Directive Principles say about this?",
+      "options": [
+        "Men should always earn more",
+        "Women should do different jobs", 
+        "Equal pay for equal work for both men and women",
+        "Only women should work"
+      ],
+      "correct_answer": "Equal pay for equal work for both men and women",
+      "explanation": "Article 39(d) says there should be equal pay for equal work for both men and women - fairness means same work, same pay!",
+      "child_friendly_analogy": "Like how all students who score the same marks get the same grade regardless of whether they're boys or girls, workers should get equal pay for equal work."
+    },
+    {
+      "id": 11,
+      "type": "scenario_based",
+      "category": "Environment Protection",
+      "question": "The factory near Amit's school is polluting the river where children play. According to Directive Principles, what should the government do?",
+      "options": [
+        "Let the factory continue polluting",
+        "Tell children to play somewhere else",
+        "Protect the environment and people's health", 
+        "Close all factories"
+      ],
+      "correct_answer": "Protect the environment and people's health",
+      "explanation": "Article 48A says the government should protect and improve the environment - this includes keeping rivers clean for everyone's health and happiness!",
+      "child_friendly_analogy": "Like how a good gardener takes care of plants and keeps the garden clean, the government should take care of our environment."
+    },
+    {
+      "id": 12,
+      "type": "fill_in_the_blank",
+      "category": "International Peace",
+      "question": "Article 51 says India should promote _______ and peaceful solutions when countries have disagreements.",
+      "correct_answer": "peace",
+      "explanation": "Just like how children should solve problems by talking rather than fighting, India should help countries solve their problems peacefully!",
+      "child_friendly_analogy": "Like how good friends help other friends solve their arguments without fighting, India should help countries be peaceful with each other."
+    },
+    {
+      "id": 13,
+      "type": "multiple_choice", 
+      "category": "Social Justice",
+      "question": "In Kavya's town, some children from certain backgrounds are not allowed to use the public playground. What should the government do according to Directive Principles?",
+      "options": [
+        "Build separate playgrounds for different groups",
+        "Ensure all children can use public facilities equally",
+        "Let the community decide who can play",
+        "Close the playground"
+      ],
+      "correct_answer": "Ensure all children can use public facilities equally", 
+      "explanation": "Directive Principles support social justice - this means making sure everyone gets fair treatment and access to public facilities, regardless of their background!",
+      "child_friendly_analogy": "Like how all students in a school can use the library and playground equally, all citizens should be able to use public facilities equally."
+    },
+    {
+      "id": 14,
+      "type": "true_false",
+      "category": "Worker Protection",
+      "question": "According to Directive Principles, workers should have safe working conditions and fair treatment.",
+      "answer": true,
+      "explanation": "Articles 39, 41, and 43 talk about ensuring workers have decent working conditions, fair wages, and protection - just like how students deserve a safe, supportive learning environment!",
+      "child_friendly_analogy": "Like how schools should provide safe classrooms and fair treatment for students, workplaces should be safe and fair for workers."
+    },
+    {
+      "id": 15,
+      "type": "scenario_based",
+      "category": "Rural Development", 
+      "question": "Pooja's village doesn't have proper roads, electricity, or internet. What do Directive Principles suggest the government should do?",
+      "options": [
+        "Focus only on big cities",
+        "Tell villagers to move to cities",
+        "Work to develop rural areas with basic facilities",
+        "Villages don't need development"
+      ],
+      "correct_answer": "Work to develop rural areas with basic facilities",
+      "explanation": "Directive Principles emphasize improving living standards for everyone, including people in villages - everyone deserves access to basic facilities for a good life!",
+      "child_friendly_analogy": "Like how a good principal works to improve all classrooms in the school, not just the fancy ones, the government should work to improve all areas of the country."
+    },
+    {
+      "id": 16,
+      "type": "multiple_choice",
+      "category": "Economic Justice", 
+      "question": "Why are Directive Principles called the government's 'homework'?",
+      "options": [
+        "Because they are optional and can be ignored",
+        "Because they are goals the government should work toward to help all people",
+        "Because only teachers need to follow them",
+        "Because they change every day"
+      ],
+      "correct_answer": "Because they are goals the government should work toward to help all people",
+      "explanation": "Directive Principles are like homework because they give the government important goals to work toward - making sure everyone in India can live a good, dignified life!",
+      "child_friendly_analogy": "Just like homework helps students learn and improve, Directive Principles help the government learn how to better serve all citizens."
+    },
+    {
+      "id": 17,
+      "type": "true_false",
+      "category": "Cultural Heritage",
+      "question": "The government should protect India's historical monuments and cultural treasures for future generations.",
+      "answer": true,
+      "explanation": "Article 49 says the government should protect monuments and places of cultural importance - like taking care of family heirlooms so future generations can enjoy them too!",
+      "child_friendly_analogy": "Like how families preserve old photos and special items for children and grandchildren, the government should preserve India's cultural treasures."
+    },
+    {
+      "id": 18,
+      "type": "scenario_based", 
+      "category": "Animal Welfare",
+      "question": "Dev sees that stray animals in his area are not being treated well. What do Directive Principles say about this?",
+      "options": [
+        "Animals are not the government's concern",
+        "Only pet animals should be protected",
+        "The government should ensure compassion toward all living creatures",
+        "People can treat animals however they want"
+      ],
+      "correct_answer": "The government should ensure compassion toward all living creatures",
+      "explanation": "Article 48A includes showing compassion to all living creatures - this means treating animals kindly and protecting them from cruelty!",
+      "child_friendly_analogy": "Like how kind children are gentle with pets and help animals in need, our whole society should be compassionate toward animals."
+    },
+    {
+      "id": 19,
+      "type": "fill_in_the_blank",
+      "category": "Scientific Development",
+      "question": "Article 51A(h) encourages developing _______ temper and scientific thinking among people.",
+      "correct_answer": "scientific",
+      "explanation": "This means encouraging people to think logically, ask questions, and use evidence to make decisions - just like how students learn to think critically in school!",
+      "child_friendly_analogy": "Like how good students learn to ask 'why' and 'how' and look for evidence, all Indians should develop the habit of scientific thinking."
+    },
+    {
+      "id": 20,
+      "type": "multiple_choice",
+      "category": "Cooperative Spirit",
+      "question": "Anita's community wants to start a cooperative store where everyone shares profits equally. How do Directive Principles view this?",
+      "options": [
+        "Cooperation is discouraged",
+        "Only big companies should exist", 
+        "Cooperative enterprises should be promoted for community benefit",
+        "Individual competition is the only way"
+      ],
+      "correct_answer": "Cooperative enterprises should be promoted for community benefit",
+      "explanation": "Article 43B encourages cooperative societies - when people work together and share benefits fairly, it helps build a better community for everyone!",
+      "child_friendly_analogy": "Like how students work together on group projects and share the success, communities can work together in cooperatives and share the benefits."
+    },
+    {
+      "id": 21,
+      "type": "scenario_based",
+      "category": "Nutrition and Health",
+      "question": "Many children in Rekha's school come without proper breakfast and look weak. What should the government do according to Directive Principles?",
+      "options": [
+        "Tell parents to feed their children better",
+        "Ignore the problem",
+        "Work to improve nutrition levels and provide support where needed",
+        "Only help children from certain families"
+      ],
+      "correct_answer": "Work to improve nutrition levels and provide support where needed",
+      "explanation": "Article 47 talks about improving nutrition levels - this includes making sure children get proper food for healthy growth and learning!",
+      "child_friendly_analogy": "Like how a caring coach makes sure all team members are well-fed and healthy to play their best, the government should ensure all children are well-nourished to learn and grow."
+    },
+    {
+      "id": 22,
+      "type": "true_false",
+      "category": "Alcohol and Harmful Substances", 
+      "question": "According to Directive Principles, the government should work to reduce the use of harmful substances like alcohol and drugs.",
+      "answer": true,
+      "explanation": "Article 47 mentions prohibiting harmful substances - the government should work to protect people's health by reducing things that can harm communities!",
+      "child_friendly_analogy": "Like how schools have rules against bringing harmful things that could hurt students, the government should work to reduce harmful substances in society."
+    },
+    {
+      "id": 23,
+      "type": "multiple_choice",
+      "category": "Cottage Industries",
+      "question": "Grandmother Lakshmi makes beautiful pottery at home and wants to sell it to support her family. How do Directive Principles support this?",
+      "options": [
+        "Only big factories should make things",
+        "Home businesses are not important",
+        "Cottage industries and village crafts should be promoted",
+        "Old people shouldn't work"
+      ],
+      "correct_answer": "Cottage industries and village crafts should be promoted",
+      "explanation": "Article 43 encourages promoting cottage industries - this means supporting people like Grandmother Lakshmi who make things at home or in small workshops!",
+      "child_friendly_analogy": "Like how schools encourage students' individual talents and hobbies, the government should encourage people's home businesses and traditional crafts."
+    },
+    {
+      "id": 24,
+      "type": "scenario_based",
+      "category": "Social Security", 
+      "question": "Uncle Mohan got injured at work and cannot earn money for his family. What do Directive Principles suggest should happen?",
+      "options": [
+        "He should find a new job immediately",
+        "His family should manage on their own",
+        "There should be social security support for workers who get injured",
+        "Only rich people deserve help when injured"
+      ],
+      "correct_answer": "There should be social security support for workers who get injured",
+      "explanation": "Article 41 talks about providing work, education, and public assistance in case of unemployment, old age, sickness, and disability - like having insurance to help when bad things happen!",
+      "child_friendly_analogy": "Like how good friends help each other when someone is hurt or in trouble, society should have systems to help people who face difficulties."
+    },
+    {
+      "id": 25,
+      "type": "fill_in_the_blank",
+      "category": "Overall Understanding",
+      "question": "Directive Principles guide the government to create a _______ state where everyone can live with dignity and opportunity.",
+      "correct_answer": "welfare",
+      "explanation": "A welfare state means a country where the government actively works to ensure all citizens have good living conditions, opportunities, and support when they need it!",
+      "child_friendly_analogy": "Like how a caring family looks after all its members and makes sure everyone has what they need, a welfare state looks after all its citizens."
+    }
+  ]
+}

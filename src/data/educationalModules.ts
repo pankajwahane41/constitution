@@ -1220,5 +1220,500 @@ export const educationalModules: EducationalModule[] = [
         content: 'The Supreme Court established that while the Constitution can be amended, Parliament cannot use Article 368 to destroy its basic features like democracy, sovereignty, rule of law, and fundamental rights. This ensures constitutional identity remains intact while allowing necessary changes.'
       }
     ]
+  },
+  {
+    id: 'directive-principles',
+    title: 'Directive Principles - Government\'s Good Deeds List',
+    summary: 'Understanding the Constitution\'s instructions for how government should help all people live well',
+    description: 'Learn about the government\'s homework for creating a welfare state where everyone can live with dignity and opportunity',
+    ageGroup: '8-16',
+    estimatedTime: '20 minutes',
+    color: 'purple',
+    icon: 'Heart',
+    story: 'Imagine your parents have a list of good things they should do for the family - make sure everyone has food, education, healthcare, and feels loved. The Constitution gives a similar list to our government called Directive Principles. These are like the government\'s homework assignments for helping all Indians live good, dignified lives. Just like parents want their children to be happy and successful, the government should work to help all citizens flourish!',
+    concepts: [
+      {
+        title: 'Government\'s Homework for Helping People',
+        description: 'Directive Principles are instructions telling the government what good things it should try to do for all people'
+      },
+      {
+        title: 'Creating a Welfare State',
+        description: 'The goal is to create a country where the government actively helps everyone have good living conditions'
+      },
+      {
+        title: 'Free Legal Help for Those Who Need It',
+        description: 'Article 39A says government should provide free lawyers to people who cannot afford legal help'
+      },
+      {
+        title: 'Education and Jobs for Everyone',
+        description: 'The government should try to ensure all children get education and all adults get opportunities to work'
+      },
+      {
+        title: 'Healthcare and Clean Environment',
+        description: 'Government should work to keep people healthy and protect our natural environment'
+      },
+      {
+        title: 'Fair Distribution of Wealth',
+        description: 'Resources should be shared so everyone has a chance at a good life, not just very rich people'
+      }
+    ],
+    examples: [
+      {
+        title: 'Family Care Example',
+        description: 'Like how good parents make sure all their children have food, education, and healthcare, the government should care for all citizens'
+      },
+      {
+        title: 'School Responsibility',
+        description: 'Like how schools should provide equal opportunities for all students to learn and succeed, government should provide opportunities for all citizens'
+      },
+      {
+        title: 'Team Coach Duties',
+        description: 'Like how a good coach helps all team members improve and succeed, government should help all citizens improve their lives'
+      },
+      {
+        title: 'Community Helper',
+        description: 'Like how community leaders work to make the neighborhood better for everyone, government should work to make the country better for everyone'
+      }
+    ],
+    keyTakeaways: [
+      'Directive Principles are the government\'s instructions for creating a welfare state',
+      'They focus on ensuring everyone can live with dignity and have good opportunities',
+      'The government should provide free legal help to those who cannot afford it',
+      'Education, healthcare, and jobs should be accessible to everyone',
+      'Wealth should be distributed fairly so everyone gets a chance at success',
+      'These principles guide government policies but are not directly enforceable in courts',
+      'They represent the Constitution\'s vision of a just and caring society',
+      'They balance individual rights with collective welfare'
+    ],
+    quizId: 'directive-principles',
+    file: 'quiz_directive_principles_children.json',
+    content: [
+      {
+        type: 'story',
+        title: 'The Government\'s Good Deeds Homework',
+        content: 'Imagine your parents have a list of good things they should do for the family - make sure everyone has food, education, healthcare, and feels loved. The Constitution gives a similar list to our government called Directive Principles!'
+      },
+      {
+        type: 'content',
+        title: 'What Are Directive Principles?',
+        content: 'Articles 36-51 contain instructions for the government on how to help all Indians live well. They\'re like homework assignments for creating a welfare state where everyone gets fair treatment and opportunities. They guide government policies toward social justice.'
+      },
+      {
+        type: 'content',
+        title: 'Free Legal Help (Article 39A)',
+        content: 'If your family needs a lawyer but cannot afford one, the government should provide free legal aid. This ensures that justice is available to everyone, not just rich people who can pay for expensive lawyers.'
+      },
+      {
+        type: 'content',
+        title: 'Education and Work for All',
+        content: 'The government should try to provide education opportunities for all children and work opportunities for all adults. This helps everyone develop their talents and contribute to society while supporting their families.'
+      },
+      {
+        type: 'content',
+        title: 'Healthcare and Environment',
+        content: 'Article 47 says government should work to improve public health and nutrition. Article 48A says government should protect forests, wildlife, and environment. This creates healthy communities for everyone.'
+      },
+      {
+        type: 'content',
+        title: 'Fair Economic Opportunities',
+        content: 'Article 39 says wealth and resources should be distributed so that everyone gets fair opportunities, not concentrated in just a few hands. This prevents extreme inequality and ensures everyone has a chance at success.'
+      }
+    ]
+  },
+  {
+    id: 'emergency-provisions',
+    title: 'Emergency Provisions - Special Rules for Crisis Times',
+    summary: 'Understanding how the Constitution provides for quick action during national emergencies while protecting democracy',
+    description: 'Learn about temporary emergency powers that help protect the country during crises like wars or disasters',
+    ageGroup: '8-16', 
+    estimatedTime: '18 minutes',
+    color: 'red',
+    icon: 'AlertTriangle',
+    story: 'Imagine your school during a fire drill. Normal classroom rules pause temporarily, teachers get special authority to guide everyone quickly to safety, and everyone must follow emergency procedures. Once the drill ends, everything goes back to normal classes. The Constitution has similar emergency provisions - special temporary rules that help the government act quickly during national crises like wars or major disasters, but these powers must end when the emergency is over!',
+    concepts: [
+      {
+        title: 'Three Types of Emergencies',
+        description: 'National Emergency (war/external threats), President\'s Rule (state government failure), Financial Emergency (economic crisis)'
+      },
+      {
+        title: 'Temporary Special Powers',
+        description: 'During emergencies, government gets extra authority to coordinate quick response and protect everyone'
+      },
+      {
+        title: 'Democratic Safeguards',
+        description: 'Parliament must approve emergency declarations and can review them to prevent misuse'
+      },
+      {
+        title: 'Time Limitations',
+        description: 'Emergency powers have strict time limits and must end when the crisis is resolved'
+      },
+      {
+        title: 'Core Rights Protection', 
+        description: 'Even during emergencies, basic human rights like life and liberty remain protected'
+      },
+      {
+        title: 'Return to Normalcy',
+        description: 'Once emergency ends, all normal democratic processes and rights are fully restored'
+      }
+    ],
+    examples: [
+      {
+        title: 'School Fire Drill',
+        description: 'Like emergency procedures during school drills - special rules temporarily, then back to normal when safe'
+      },
+      {
+        title: 'Family Emergency',
+        description: 'Like when family faces medical emergency - everyone works together quickly, then returns to normal routines'
+      },
+      {
+        title: 'Sports Game Injury',
+        description: 'Like when game is paused for player injury - special procedures briefly, then game resumes normally'  
+      },
+      {
+        title: 'Natural Disaster Response',
+        description: 'Like community response during floods - emergency coordination temporarily, then normal life resumes'
+      }
+    ],
+    keyTakeaways: [
+      'Emergency provisions help government respond quickly to serious national threats',
+      'There are three types: National Emergency, President\'s Rule, and Financial Emergency',
+      'Emergency powers are temporary and have strict time limits',
+      'Parliament reviews emergency declarations to prevent misuse',
+      'Basic human rights remain protected even during emergencies',
+      'Emergency powers end when the crisis is resolved',
+      'These provisions protect democracy by enabling effective crisis response',
+      'They balance quick action needs with democratic oversight'
+    ],
+    quizId: 'emergency-provisions',
+    file: 'quiz_emergency_provisions_children.json',
+    content: [
+      {
+        type: 'story',
+        title: 'When Our Country Needs Special Help',
+        content: 'Imagine your school during a fire drill. Normal classroom rules pause temporarily, teachers get special authority to guide everyone quickly to safety, and everyone must follow emergency procedures. The Constitution has similar emergency provisions!'
+      },
+      {
+        type: 'content', 
+        title: 'National Emergency (Article 352)',
+        content: 'When the country faces war, external aggression, or armed rebellion, the President can declare National Emergency. This allows central government to coordinate national defense and take quick decisions to protect everyone\'s safety.'
+      },
+      {
+        type: 'content',
+        title: 'President\'s Rule (Article 356)', 
+        content: 'When a state government cannot function properly due to political crisis, the President can impose President\'s Rule. The central government temporarily runs the state until new elections restore proper governance.'
+      },
+      {
+        type: 'content',
+        title: 'Financial Emergency (Article 360)',
+        content: 'If the country faces serious financial crisis threatening economic stability, President can declare Financial Emergency. This helps coordinate economic response and ensure essential services continue.'
+      },
+      {
+        type: 'content',
+        title: 'Democratic Safeguards',
+        content: 'Parliament must approve all emergencies within 2 months and review them every 6 months. Courts can protect basic rights. These safeguards prevent misuse and ensure emergency powers remain temporary and supervised.'
+      },
+      {
+        type: 'content',
+        title: 'Historical Lessons',
+        content: 'The 1975-77 Emergency taught India that emergency powers must be used carefully with strong safeguards. Constitutional amendments after 1977 strengthened protections to ensure democracy is preserved even during crises.'
+      }
+    ]
+  },
+  {
+    id: 'amendment-process',
+    title: 'Amendment Process - Updating Our Constitution',
+    summary: 'How the Constitution can be carefully changed to meet new needs while protecting its core democratic values',
+    description: 'Learn about the balanced process for updating the Constitution that allows necessary changes while preserving fundamental principles',
+    ageGroup: '8-16',
+    estimatedTime: '22 minutes', 
+    color: 'orange',
+    icon: 'Edit',
+    story: 'Imagine you have a favorite recipe book that your family has used for generations. Over time, you might add new recipes for modern ingredients or update cooking methods with new techniques, but you would never change the basic principles of good cooking or remove the most treasured family recipes. Our Constitution works the same way - it can be updated for new situations and needs, but its core democratic values and structure are protected from being destroyed!',
+    concepts: [
+      {
+        title: 'Living Document Concept', 
+        description: 'The Constitution can grow and adapt to changing times while keeping its essential democratic character'
+      },
+      {
+        title: 'Three Types of Amendments',
+        description: 'Simple majority, special majority, and special majority plus state approval - depending on importance'
+      },
+      {
+        title: 'Basic Structure Doctrine',
+        description: 'Core democratic features like elections, federalism, and rights cannot be completely destroyed'
+      },
+      {
+        title: 'Parliamentary Proposal Process',
+        description: 'Any Member of Parliament can propose constitutional amendments through proper legislative procedures'
+      },
+      {
+        title: 'Democratic Consensus Requirements',
+        description: 'Important changes need broad agreement, not just simple majorities, ensuring democratic legitimacy'
+      },
+      {
+        title: 'Judicial Review Protection',
+        description: 'Supreme Court can examine amendments to ensure they don\'t destroy the Constitution\'s basic structure'
+      }
+    ],
+    examples: [
+      {
+        title: 'Software Updates',
+        description: 'Like updating apps to add new features while keeping the core functionality that users depend on'
+      },
+      {
+        title: 'School Rule Updates', 
+        description: 'Like schools updating rules for new technology while keeping core values of respect and learning'
+      },
+      {
+        title: 'Sports Rule Evolution',
+        description: 'Like sports updating rules for safety or fairness while preserving the fundamental spirit of the game'
+      },
+      {
+        title: 'Building Renovation',
+        description: 'Like renovating a house with modern facilities while preserving its strong foundation and basic structure'
+      }
+    ],
+    keyTakeaways: [
+      'The Constitution is a \'living document\' that can adapt to changing needs',
+      'There are different amendment procedures based on the importance of changes',
+      'Basic Structure Doctrine protects core democratic features from being destroyed', 
+      'Any MP can propose amendments, but they need broad democratic consensus',
+      'Over 100 amendments show the Constitution successfully adapts to new challenges',
+      'Supreme Court can review amendments to protect constitutional identity',
+      'The process balances flexibility for necessary changes with stability for core values',
+      'This makes our Constitution both enduring and responsive to India\'s evolving needs'
+    ],
+    quizId: 'amendment-process',
+    file: 'quiz_amendment_process_children.json', 
+    content: [
+      {
+        type: 'story',
+        title: 'Updating Our National Recipe Book',
+        content: 'Imagine you have a favorite recipe book that your family has used for generations. You might add new recipes or update cooking methods, but you would never change the basic principles of good cooking. Our Constitution works the same way!'
+      },
+      {
+        type: 'content',
+        title: 'Article 368 - The Amendment Process',
+        content: 'Article 368 describes how the Constitution can be amended. It provides three different procedures depending on what is being changed - simple matters need simple majority, important matters need special majority, and federal matters need state approval too.'
+      },
+      {
+        type: 'content', 
+        title: 'The Basic Structure Doctrine',
+        content: 'In 1973, the Supreme Court established that Parliament can amend the Constitution but cannot destroy its \'basic structure\' - core features like democracy, federalism, rule of law, and fundamental rights that make it a democratic constitution.'
+      },
+      {
+        type: 'content',
+        title: 'Important Historical Amendments',
+        content: 'The 73rd and 74th Amendments strengthened local governance. The 86th Amendment made education a fundamental right. The 101st Amendment introduced GST. Each followed proper procedures and improved governance while preserving democratic principles.'
+      },
+      {
+        type: 'content',
+        title: 'Balancing Change and Stability',
+        content: 'India\'s amendment process is neither too rigid (like some countries where amendments are nearly impossible) nor too flexible (where simple majorities can change anything). This balance has helped our Constitution survive and thrive for over 70 years.'
+      },
+      {
+        type: 'content',
+        title: 'Why This Process Works',
+        content: 'The amendment process ensures that necessary changes can be made democratically while protecting the fundamental features that make India a democracy. This helps the Constitution evolve with society while maintaining its essential character.'
+      }
+    ]
+  },
+  {
+    id: 'preamble-detailed',
+    title: 'Our Constitution\'s Beautiful Promise - The Preamble',
+    summary: 'Understanding the opening words that tell everyone what India stands for and promises to be',
+    description: 'Explore the Preamble\'s powerful words that declare India\'s commitment to justice, liberty, equality, and fraternity',
+    ageGroup: '8-16',
+    estimatedTime: '18 minutes',
+    color: 'blue',
+    icon: 'BookOpen',
+    story: 'Imagine you\'re writing a letter to the whole world explaining what your family stands for - how you treat each other, what values are important to you, and what kind of family you promise to be. The Preamble is like India\'s letter to the world, declaring what kind of nation we promise to be: just, free, equal, and united like one big family!',
+    concepts: [
+      {
+        title: 'We, the People of India - Everyone Together',
+        description: 'Shows that all Indians together, through their representatives, created the Constitution democratically'
+      },
+      {
+        title: 'Sovereign - Completely Independent',
+        description: 'India is free to make its own decisions without any other country telling us what to do'
+      },
+      {
+        title: 'Democratic - People Choose Leaders',
+        description: 'Citizens elect their representatives through fair elections where everyone\'s vote counts equally'
+      },
+      {
+        title: 'Republic - Elected Head of State',
+        description: 'Our President is elected based on merit, not born into power like kings and queens'
+      },
+      {
+        title: 'Justice, Liberty, Equality, Fraternity',
+        description: 'Four core values that guide how India should treat all its citizens with fairness and dignity'
+      },
+      {
+        title: 'Unity and Integrity of the Nation',
+        description: 'All diverse regions, communities, and cultures working together as one strong, united country'
+      }
+    ],
+    examples: [
+      {
+        title: 'Family Mission Statement',
+        description: 'Like how families might write down their core values and promises to each other, the Preamble is India\'s mission statement'
+      },
+      {
+        title: 'School Charter',
+        description: 'Like how schools have mission statements about providing quality education to all students fairly, India has the Preamble'
+      },
+      {
+        title: 'Team Promise', 
+        description: 'Like how sports teams promise to play fairly, support each other, and strive for excellence, India promises justice, liberty, equality, and fraternity'
+      },
+      {
+        title: 'Friendship Pledge',
+        description: 'Like promises friends make to be loyal, honest, and caring toward each other, the Preamble is India\'s promise to all citizens'
+      }
+    ],
+    keyTakeaways: [
+      'The Preamble declares India\'s core values and promises to all citizens',
+      'It shows that the Constitution was created by Indians for Indians democratically',
+      'India is sovereign (independent), democratic (people choose leaders), and republic (elected head)',
+      'Justice, liberty, equality, and fraternity are the four guiding values',
+      'Every Indian deserves dignity, fair treatment, and equal opportunities',
+      'Unity in diversity - different but working together as one nation',
+      'The Preamble remains relevant as India continues to work toward these ideals',
+      'It reflects both India\'s aspirations and its commitment to all citizens'
+    ],
+    quizId: 'preamble-detailed',
+    file: 'quiz_preamble_children.json',
+    content: [
+      {
+        type: 'story',
+        title: 'India\'s Promise to the World',
+        content: 'The Preamble is like India\'s introduction letter to the world, explaining what kind of nation we promise to be. It declares our values and commitments in beautiful, powerful words that inspire generations of Indians.'
+      },
+      {
+        type: 'content',
+        title: 'We, the People of India',
+        content: 'These opening words show that the Constitution belongs to all Indians - not imposed by rulers or foreign powers, but created by Indians themselves through their elected representatives. It emphasizes democratic ownership and participation.'
+      },
+      {
+        type: 'content',
+        title: 'Sovereign Democratic Republic',
+        content: 'Sovereign means India is completely independent. Democratic means people choose their leaders. Republic means our head of state (President) is elected, not hereditary. Together, these ensure India governs itself through the will of its people.'
+      },
+      {
+        type: 'content',
+        title: 'Justice, Liberty, Equality, Fraternity',
+        content: 'These four values guide everything India does. Justice means fairness for all. Liberty means freedom with responsibility. Equality means equal treatment and opportunities. Fraternity means caring for each other like family members.'
+      },
+      {
+        type: 'content',
+        title: 'Dignity of the Individual',
+        content: 'Every person in India deserves to be treated with respect and honor, regardless of their background, wealth, or status. This principle ensures that government policies and social practices respect human dignity.'
+      },
+      {
+        type: 'content',
+        title: 'Unity and Integrity of the Nation',
+        content: 'India\'s diversity in languages, religions, and cultures is a strength when united by common constitutional values. Unity doesn\'t mean uniformity - it means different people working together for common goals.'
+      }
+    ]
+  },
+  {
+    id: 'judiciary-detailed',
+    title: 'The Fair Judges - Our Judiciary System',
+    summary: 'Understanding how courts and judges protect our rights and ensure justice for everyone',
+    description: 'Learn about the independent judiciary that acts as the guardian of the Constitution and protector of citizens\' rights',
+    ageGroup: '8-16',
+    estimatedTime: '20 minutes',
+    color: 'red',
+    icon: 'Scale',
+    story: 'Imagine your school has a special group of fair, wise teachers who help solve problems when students disagree, protect students from unfair treatment, and make sure everyone follows the school rules properly. India\'s judiciary - our system of courts and judges - does the same thing for our entire country! They ensure justice, protect rights, and make sure even the government follows the Constitution.',
+    concepts: [
+      {
+        title: 'Supreme Court - The Ultimate Judge',
+        description: 'The highest court in India that makes final decisions and interprets the Constitution for the whole country'
+      },
+      {
+        title: 'Independent Judges',
+        description: 'Judges are free to make fair decisions based on law, not pressure from politicians or rich people'
+      },
+      {
+        title: 'Judicial Review',
+        description: 'Courts can check if laws and government actions follow the Constitution and protect people\'s rights'
+      },
+      {
+        title: 'Guardian of Fundamental Rights',
+        description: 'Courts protect citizens\' basic rights and can be approached directly when rights are violated'
+      },
+      {
+        title: 'Equal Justice Under Law',
+        description: 'Courts treat everyone equally - rich or poor, powerful or ordinary - based only on law and evidence'
+      },
+      {
+        title: 'Check on Government Power',
+        description: 'Courts ensure that government doesn\'t abuse its power or violate citizens\' constitutional rights'
+      }
+    ],
+    examples: [
+      {
+        title: 'School Principal\'s Role',
+        description: 'Like how a fair principal resolves disputes, protects students from unfair treatment, and ensures school rules are followed properly'
+      },
+      {
+        title: 'Sports Referee',
+        description: 'Like how referees make fair calls based on game rules, not on which team is more popular or has more fans'
+      },
+      {
+        title: 'Family Elder\'s Wisdom',
+        description: 'Like how wise family elders help resolve disputes fairly and protect family members from unfair treatment'
+      },
+      {
+        title: 'Library Monitor',
+        description: 'Like how library monitors ensure everyone follows library rules equally, regardless of whether they\'re popular or shy students'
+      }
+    ],
+    keyTakeaways: [
+      'The judiciary protects citizens\' rights and ensures justice for everyone',
+      'Judges are independent and can make fair decisions without external pressure',
+      'Courts can review government laws and actions to ensure they follow the Constitution',
+      'Anyone can approach courts, especially the Supreme Court, when their rights are violated',
+      'Justice is equal for all - courts treat everyone the same regardless of wealth or status',
+      'Courts act as a check on government power to prevent abuse of authority',
+      'The right to approach courts for justice is itself a fundamental right',
+      'Independent judiciary is essential for protecting democracy and individual freedoms'
+    ],
+    quizId: 'judiciary-detailed',
+    file: 'quiz_judiciary_children.json',
+    content: [
+      {
+        type: 'story',
+        title: 'The Guardians of Justice',
+        content: 'India\'s judiciary is like a wise, fair guardian who protects everyone\'s rights and ensures that even the most powerful people follow the rules. Courts are where justice lives and thrives!'
+      },
+      {
+        type: 'content',
+        title: 'The Supreme Court - India\'s Highest Court',
+        content: 'The Supreme Court is the final authority on legal matters in India. When lower courts can\'t resolve disputes, or when fundamental rights are violated, citizens can approach the Supreme Court directly for justice.'
+      },
+      {
+        type: 'content',
+        title: 'Judicial Independence',
+        content: 'Judges have security of tenure and can make decisions based only on law and Constitution, not on pressure from politicians, businesspeople, or anyone else. This independence is essential for fair justice.'
+      },
+      {
+        type: 'content',
+        title: 'Judicial Review Power',
+        content: 'Courts can examine whether laws passed by Parliament or actions taken by government follow the Constitution. If they violate fundamental rights or constitutional principles, courts can strike them down.'
+      },
+      {
+        type: 'content',
+        title: 'Right to Constitutional Remedies',
+        content: 'Article 32 gives every citizen the right to approach the Supreme Court when their fundamental rights are violated. Dr. Ambedkar called this the \'heart and soul\' of the Constitution.'
+      },
+      {
+        type: 'content',
+        title: 'Equal Justice for All',
+        content: 'Courts provide equal treatment to everyone - whether you\'re the Prime Minister or an ordinary citizen, rich or poor, famous or unknown. Justice is truly blind to status and wealth.'
+      }
+    ]
   }
 ];
