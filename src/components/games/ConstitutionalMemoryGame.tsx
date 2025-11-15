@@ -61,93 +61,88 @@ interface DifficultySettings {
 const CONSTITUTIONAL_PAIRS = [
   {
     id: 'preamble',
-    term: 'Preamble',
-    definition: 'The introduction to the Constitution that states its main objectives'
+    term: '📜 Preamble',
+    definition: 'Like the opening of a book - it tells us what our Constitution is all about!'
   },
   {
     id: 'fundamental_rights',
-    term: 'Fundamental Rights',
-    definition: 'Basic rights guaranteed to every citizen like equality, freedom, and justice'
+    term: '🌟 Fundamental Rights',
+    definition: 'Special powers every kid and adult has - like freedom to speak, learn, and be treated fairly!'
   },
   {
     id: 'fundamental_duties',
-    term: 'Fundamental Duties',
-    definition: 'Moral obligations of citizens to help promote harmony and the spirit of patriotism'
+    term: '🤝 Fundamental Duties',
+    definition: 'Good things we should do - like respecting others, keeping our country clean, and helping each other!'
   },
   {
     id: 'directive_principles',
-    term: 'Directive Principles',
-    definition: 'Guidelines for the government to establish a just society'
+    term: '🎯 Directive Principles',
+    definition: 'Instructions for our government to make India a better place for everyone to live!'
   },
   {
     id: 'supreme_court',
-    term: 'Supreme Court',
-    definition: 'The highest court in India that ensures justice for all'
+    term: '⚖️ Supreme Court',
+    definition: 'The most important court in India - like the principal\'s office but for the whole country!'
   },
   {
     id: 'parliament',
-    term: 'Parliament',
-    definition: 'The highest legislative body consisting of the President, Lok Sabha, and Rajya Sabha'
+    term: '🏛️ Parliament',
+    definition: 'Where grown-ups make laws for our country - like a huge classroom where rules are discussed!'
   },
   {
     id: 'president',
-    term: 'President',
-    definition: 'The head of state who represents India nationally and internationally'
+    term: '👨‍💼 President',
+    definition: 'India\'s most important leader who represents our country to the whole world!'
   },
   {
     id: 'prime_minister',
-    term: 'Prime Minister',
-    definition: 'The head of government who leads the country\'s executive branch'
-  },
-  {
-    id: 'bicameral',
-    term: 'Bicameral',
-    definition: 'Having two chambers or houses in the legislature'
+    term: '👩‍💼 Prime Minister',
+    definition: 'The main leader who runs the government and makes big decisions for our country!'
   },
   {
     id: 'constitution',
-    term: 'Constitution',
-    definition: 'The supreme law of India that governs the country'
+    term: '📖 Constitution',
+    definition: 'Our country\'s rule book - the most important set of rules that everyone must follow!'
   },
   {
     id: 'citizenship',
-    term: 'Citizenship',
-    definition: 'Being a member of a country and enjoying its rights and protections'
+    term: '🏠 Citizenship',
+    definition: 'Being part of the Indian family - it means India is your home and you belong here!'
   },
   {
     id: 'amendment',
-    term: 'Amendment',
-    definition: 'A change or addition to the Constitution'
+    term: '✏️ Amendment',
+    definition: 'When we update our Constitution - like editing a document to make it better!'
   },
   {
     id: 'secular',
-    term: 'Secular',
-    definition: 'A state that treats all religions equally and respects all faiths'
+    term: '🌈 Secular',
+    definition: 'Our country loves ALL religions equally - Hindu, Muslim, Christian, Sikh, everyone!'
   },
   {
     id: 'democracy',
-    term: 'Democracy',
-    definition: 'A system of government where people elect their representatives'
+    term: '🗳️ Democracy',
+    definition: 'People power! We choose our leaders by voting - everyone gets a say!'
   },
   {
     id: 'federal',
-    term: 'Federal',
-    definition: 'A system where power is shared between the central and state governments'
+    term: '🏢 Federal System',
+    definition: 'Like having both class rules and school rules - states and country both make decisions!'
   },
   {
     id: 'independence',
-    term: 'Independence',
-    definition: 'Freedom from colonial rule, achieved by India on August 15, 1947'
+    term: '🇮🇳 Independence',
+    definition: 'When India became free from British rule on August 15, 1947 - our birthday!'
   },
   {
     id: 'unity',
-    term: 'Unity',
-    definition: 'Being united as one nation despite differences in language, religion, and culture'
+    term: '🤝 Unity',
+    definition: 'We\'re all different but we\'re one big Indian family - different languages, same heart!'
   },
   {
     id: 'sovereignty',
-    term: 'Sovereignty',
-    definition: 'The supreme power of the nation to govern itself without external control'
+    term: '👑 Sovereignty',
+    definition: 'India is the boss of India - no other country can tell us what to do!'
   },
   {
     id: 'liberty',

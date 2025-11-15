@@ -1,6 +1,6 @@
-// Famous Cases Match Game Component
-// Interactive game to match landmark Supreme Court cases with their outcomes
-// Designed for children aged 10-16 with scholarly case law theming
+// Constitutional Stories Match Game Component
+// Interactive game to match constitutional principles with real-life kid-friendly scenarios
+// Designed for children aged 8-16 with engaging storytelling approach
 
 import React, { useState, useEffect, useCallback } from 'react';
 import { UserProfile, FamousCasesGameProgress } from '../../types/gamification';
@@ -65,87 +65,87 @@ interface DifficultySettings {
   maxAttempts: number;
 }
 
-// Famous Supreme Court Cases Data
+// Constitutional Stories for Kids - Simple scenarios they can understand
 const FAMOUS_CASES = [
   {
-    id: 'kesavananda_bharati',
-    caseName: 'Kesavananda Bharati vs State of Kerala',
-    description: 'Established the Basic Structure Doctrine - fundamental features of the Constitution cannot be amended by Parliament.',
-    year: 1973,
-    outcome: 'The Supreme Court held that Parliament cannot alter the basic structure of the Constitution.',
-    significance: 'This case established judicial review of constitutional amendments and protected the core identity of Indian Constitution.'
+    id: 'school_prayer_story',
+    caseName: '🕉️ The School Prayer Story',
+    description: 'A school said kids must pray to one god only. Some children felt sad because they prayed differently at home.',
+    year: 2023,
+    outcome: 'The court said all kids can pray their own way. Schools must respect every religion equally!',
+    significance: 'This shows how our Constitution protects everyone\'s right to follow their own faith.'
   },
   {
-    id: 'maneka_gandhi',
-    caseName: 'Maneka Gandhi vs Union of India',
-    description: 'Expanded the scope of Article 14 (Right to Equality) to include fair, just, and reasonable procedures.',
-    year: 1978,
-    outcome: 'Article 14 requires that laws must be fair, just, and reasonable, not just non-arbitrary.',
-    significance: 'Strengthened the connection between different Fundamental Rights and made them more comprehensive.'
+    id: 'playground_equality_story',
+    caseName: '⚖️ The Playground Equality Story',
+    description: 'A playground had a sign saying "Only rich kids can play here." Poor kids had to watch from outside.',
+    year: 2023,
+    outcome: 'The court said ALL children are equal. No playground can ban kids just because they\'re poor!',
+    significance: 'This teaches us that everyone deserves equal treatment, no matter how much money their family has.'
   },
   {
-    id: 'vishaka',
-    caseName: 'Vishaka vs State of Rajasthan',
-    description: 'Established guidelines for prevention of sexual harassment at workplace in absence of specific legislation.',
-    year: 1997,
-    outcome: 'Created legally binding guidelines for workplace sexual harassment until Parliament made a law.',
-    significance: 'Landmark judgment that protected women\'s rights at workplace and led to the Sexual Harassment Act 2013.'
+    id: 'free_lunch_story',
+    caseName: '🍽️ The Free School Lunch Story',
+    description: 'Some schools stopped giving free meals to hungry children. Many kids came to school with empty stomachs.',
+    year: 2023,
+    outcome: 'The court said every child must get nutritious food at school. Education includes proper meals!',
+    significance: 'This shows how the right to education includes making sure kids are healthy and well-fed.'
   },
   {
-    id: 'puttaswamy',
-    caseName: 'Justice K.S. Puttaswamy vs Union of India',
-    description: 'Recognized Right to Privacy as a Fundamental Right under Article 21.',
-    year: 2017,
-    outcome: 'Right to Privacy was declared as a Fundamental Right inherent in Article 21 (Right to Life).',
-    significance: 'Protected individual privacy in the digital age and influenced many privacy-related judgments.'
+    id: 'library_books_story',
+    caseName: '📚 The Library Books Story',
+    description: 'A library tried to ban books about different cultures and religions. Kids couldn\'t learn about diversity.',
+    year: 2023,
+    outcome: 'The court said children have the right to read and learn about all cultures and ideas!',
+    significance: 'This protects our freedom to learn, read, and understand the world around us.'
   },
   {
-    id: 'golaknath',
-    caseName: 'Golaknath vs State of Punjab',
-    description: 'Limited Parliament\'s power to amend Fundamental Rights under Article 368.',
-    year: 1967,
-    outcome: 'Parliament cannot amend Fundamental Rights to take away or abridge them.',
-    significance: 'Preceded Kesavananda Bharati and started the debate on amendment powers.'
+    id: 'clean_water_story',
+    caseName: '🚰 The Clean Water Story',
+    description: 'A village had dirty water that made children sick. The government said "we have no money to fix it."',
+    year: 2023,
+    outcome: 'The court said clean water is a basic right. Every child deserves safe water to drink!',
+    significance: 'This shows that our government must make sure we have clean water to stay healthy.'
   },
   {
-    id: 'minerva',
-    caseName: 'Minerva Mills vs Union of India',
-    description: 'Reaffirmed the Basic Structure Doctrine and balanced between judicial review and parliamentary sovereignty.',
-    year: 1980,
-    outcome: 'Upheld the Basic Structure Doctrine and set limits on Parliament\'s amendment powers.',
-    significance: 'Strengthened judicial review and established that constitutional amendments must not destroy basic features.'
+    id: 'homework_help_story',
+    caseName: '📝 The Homework Help Story',
+    description: 'A teacher said kids from one community couldn\'t get extra help with homework. Only some kids got special classes.',
+    year: 2023,
+    outcome: 'The court said ALL children must get equal help at school, no matter their background!',
+    significance: 'This teaches us that every student deserves the same opportunities to learn and grow.'
   },
   {
-    id: 'bandit_queen',
-    caseName: 'Phoolrani Devi vs Union of India (Bandit Queen Case)',
-    description: 'Recognized the right to dignity of prisoners and highlighted prison reform.',
-    year: 1990,
-    outcome: 'Prisoners retain their dignity and basic human rights even after conviction.',
-    significance: 'Brought attention to prison conditions and prisoner rights in India.'
+    id: 'festival_celebration_story',
+    caseName: '🎉 The Festival Celebration Story',
+    description: 'A school banned kids from celebrating their cultural festivals. Some children felt left out and sad.',
+    year: 2023,
+    outcome: 'The court said children can celebrate their festivals at school. Diversity makes us stronger!',
+    significance: 'This protects our right to celebrate our culture and traditions proudly.'
   },
   {
-    id: 'rajagopal',
-    caseName: 'R. Rajagopal vs State of Tamil Nadu',
-    description: 'Established the right to privacy in publication of private lives of public figures.',
-    year: 1994,
-    outcome: 'No one can publish another\'s life story without consent, even if true.',
-    significance: 'Protected individual privacy rights, especially for public figures and celebrities.'
+    id: 'sports_team_story',
+    caseName: '⚽ The Sports Team Story',
+    description: 'A sports club said girls can\'t play football, only boys. Talented girls had to sit on the sidelines.',
+    year: 2023,
+    outcome: 'The court said girls and boys have equal rights to play any sport they love!',
+    significance: 'This shows how gender equality means everyone gets the same chances to pursue their dreams.'
   },
   {
-    id: 'nabha',
-    caseName: 'Nabha vs State of Punjab',
-    description: 'Demonstrated that constitutional courts can enforce socio-economic rights through PIL.',
-    year: 1983,
-    outcome: 'Constitutional courts have jurisdiction to enforce socio-economic rights through Public Interest Litigation.',
-    significance: 'Expanded access to justice through PIL and helped marginalized communities.'
+    id: 'secret_diary_story',
+    caseName: '📔 The Secret Diary Story',
+    description: 'A school principal read students\' private messages and diaries without permission to "keep them safe."',
+    year: 2023,
+    outcome: 'The court said children have privacy rights too. Adults can\'t read private things without good reason!',
+    significance: 'This teaches us that even kids have the right to privacy and personal space.'
   },
   {
-    id: 'shah_bano',
-    caseName: 'Shah Bano vs Union of India',
-    description: 'Granted Muslim women right to maintenance under Criminal Procedure Code, not just Muslim Personal Law.',
-    year: 1985,
-    outcome: 'Muslim women can claim maintenance under Criminal Procedure Code, independent of personal law.',
-    significance: 'Highlighted gender justice and the relationship between personal laws and constitutional rights.'
+    id: 'street_food_story',
+    caseName: '🍛 The Street Food Vendor Story',
+    description: 'Police removed all street food vendors because they said it looked "messy." Many families lost their income.',
+    year: 2023,
+    outcome: 'The court said people have the right to earn a living. The city must help vendors, not remove them!',
+    significance: 'This shows that everyone deserves dignity in their work and the right to make a living.'
   }
 ];
 

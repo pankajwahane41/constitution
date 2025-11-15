@@ -26,62 +26,62 @@ interface DropResult {
   color: string;
 }
 
-// Game categories
+// Game categories - Child-friendly names
 const categories = [
-  { id: 'political', name: 'Political Rights', color: 'bg-gradient-to-br from-blue-400 to-blue-600', hoverColor: 'bg-gradient-to-br from-blue-300 to-blue-500', icon: '🏛️' },
-  { id: 'economic', name: 'Economic Rights', color: 'bg-gradient-to-br from-green-400 to-green-600', hoverColor: 'bg-gradient-to-br from-green-300 to-green-500', icon: '💰' },
-  { id: 'cultural', name: 'Cultural Rights', color: 'bg-gradient-to-br from-purple-400 to-purple-600', hoverColor: 'bg-gradient-to-br from-purple-300 to-purple-500', icon: '🎭' },
-  { id: 'social', name: 'Social Rights', color: 'bg-gradient-to-br from-orange-400 to-orange-600', hoverColor: 'bg-gradient-to-br from-orange-300 to-orange-500', icon: '👥' },
+  { id: 'political', name: '🗳️ Government & Voting Rights', color: 'bg-gradient-to-br from-blue-400 to-blue-600', hoverColor: 'bg-gradient-to-br from-blue-300 to-blue-500', icon: '🏛️' },
+  { id: 'economic', name: '💰 Work & Money Rights', color: 'bg-gradient-to-br from-green-400 to-green-600', hoverColor: 'bg-gradient-to-br from-green-300 to-green-500', icon: '💰' },
+  { id: 'cultural', name: '🎭 Religion & Culture Rights', color: 'bg-gradient-to-br from-purple-400 to-purple-600', hoverColor: 'bg-gradient-to-br from-purple-300 to-purple-500', icon: '🎭' },
+  { id: 'social', name: '👥 School & Community Rights', color: 'bg-gradient-to-br from-orange-400 to-orange-600', hoverColor: 'bg-gradient-to-br from-orange-300 to-orange-500', icon: '👥' },
 ];
 
-// 6 Fundamental Rights with child-friendly descriptions
+// 6 Fundamental Rights with super child-friendly descriptions
 const fundamentalRights: Right[] = [
   {
     id: 'equality',
-    title: 'Right to Equality',
-    description: 'Everyone is equal and should be treated fairly, no matter who they are!',
+    title: '⚖️ Right to Equality',
+    description: 'Everyone is special and equal! Rich or poor, tall or short - we all deserve the same respect and chances!',
     category: 'political',
     emoji: '⚖️',
     color: 'bg-gradient-to-r from-blue-400 to-blue-600',
   },
   {
     id: 'freedom',
-    title: 'Right to Freedom',
-    description: 'You can speak, think, and believe what you want, as long as it doesn\'t hurt others!',
+    title: '🕊️ Right to Freedom',
+    description: 'You can say what you think, go where you want, and choose your dreams - as long as you don\'t hurt others!',
     category: 'political',
     emoji: '🕊️',
     color: 'bg-gradient-to-r from-cyan-400 to-cyan-600',
   },
   {
     id: 'exploitation',
-    title: 'Right Against Exploitation',
-    description: 'No one can force you to work hard or treat you badly!',
+    title: '🛡️ Right Against Exploitation',
+    description: 'Nobody can force children to work instead of play and study. Every kid deserves to be a kid!',
     category: 'economic',
     emoji: '🛡️',
     color: 'bg-gradient-to-r from-green-400 to-green-600',
   },
   {
     id: 'religion',
-    title: 'Right to Freedom of Religion',
-    description: 'You can follow any religion or belief that makes you happy!',
+    title: '🕉️ Right to Freedom of Religion',
+    description: 'You can pray to any god you want, or not pray at all - it\'s your choice and everyone respects it!',
     category: 'cultural',
-    emoji: '🕌',
+    emoji: '🕉️',
     color: 'bg-gradient-to-r from-purple-400 to-purple-600',
   },
   {
     id: 'education',
-    title: 'Right to Education',
-    description: 'Every child has the right to go to school and learn new things!',
+    title: '📚 Right to Education',
+    description: 'Every single child in India gets to go to school for FREE until age 14! Learning is your superpower!',
     category: 'social',
     emoji: '📚',
     color: 'bg-gradient-to-r from-orange-400 to-orange-600',
   },
   {
     id: 'constitutional',
-    title: 'Right to Constitutional Remedies',
-    description: 'If someone breaks your rights, you can ask the court for help!',
+    title: '🏛️ Right to Constitutional Remedies',
+    description: 'If someone breaks your rights, you can go to court and ask the judges to help make things fair again!',
     category: 'social',
-    emoji: '⚖️',
+    emoji: '🏛️',
     color: 'bg-gradient-to-r from-pink-400 to-pink-600',
   },
 ];

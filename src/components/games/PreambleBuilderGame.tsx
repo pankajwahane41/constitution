@@ -58,53 +58,86 @@ interface EducationalPopup {
   color: string;
 }
 
-// The complete Preamble text split into words
+// The actual Indian Constitution Preamble split into words
 const PREAMBLE_WORDS = [
-  'WE,', 'THE', 'PEOPLE', 'OF', 'INDIA,', 'IN', 'OUR', 'CONSTITUTIONAL', 'ASSEMBLY,',
-  'HEREBY', 'ADOPT,', 'ENACT,', 'AND', 'GIVE', 'TO', 'OURSELVES,', 'THIS', 'CONSTITUTION.'
+  'WE,', 'THE', 'PEOPLE', 'OF', 'INDIA,', 'having', 'solemnly', 'resolved', 'to', 'constitute', 'India', 'into', 'a',
+  'SOVEREIGN', 'SOCIALIST', 'SECULAR', 'DEMOCRATIC', 'REPUBLIC', 'and', 'to', 'secure', 'to', 'all', 'its', 'citizens:',
+  'JUSTICE,', 'social,', 'economic', 'and', 'political;', 'LIBERTY', 'of', 'thought,', 'expression,', 'belief,', 'faith', 'and', 'worship;',
+  'EQUALITY', 'of', 'status', 'and', 'of', 'opportunity;', 'and', 'to', 'promote', 'among', 'them', 'all',
+  'FRATERNITY', 'assuring', 'the', 'dignity', 'of', 'the', 'individual', 'and', 'the', 'unity', 'and', 'integrity', 'of', 'the', 'Nation;',
+  'IN', 'OUR', 'CONSTITUENT', 'ASSEMBLY', 'this', 'twenty-sixth', 'day', 'of', 'November,', '1949,', 'do',
+  'HEREBY', 'ADOPT,', 'ENACT', 'AND', 'GIVE', 'TO', 'OURSELVES', 'THIS', 'CONSTITUTION.'
 ];
 
-// Educational content for key Preamble terms
+// Educational content for key Preamble terms - Child-friendly explanations
 const EDUCATIONAL_POPUPS: Record<string, EducationalPopup> = {
   'SOVEREIGN': {
     term: 'SOVEREIGN',
-    title: 'Sovereign',
-    description: 'India is completely free and independent. No foreign power can control our country.',
-    example: 'Like being the captain of your own ship - you make all the decisions!',
+    title: '🏰 Sovereign (Free Country)',
+    description: 'India makes its own decisions! No other country can boss us around.',
+    example: 'Like when you have your own room - nobody else can tell you how to decorate it!',
     color: 'from-orange-400 to-orange-600'
   },
   'SOCIALIST': {
     term: 'SOCIALIST',
-    title: 'Socialist',
-    description: 'Everyone should have equal opportunities and wealth should be shared fairly among people.',
-    example: 'Like sharing your lunch equally with friends so everyone gets some!',
-    color: 'from-white to-white'
+    title: '🤝 Socialist (Sharing is Caring)',
+    description: 'Everyone should get fair chances and help each other succeed.',
+    example: 'Like sharing toys so all kids can play, not just the rich ones!',
+    color: 'from-red-400 to-red-600'
   },
   'SECULAR': {
     term: 'SECULAR',
-    title: 'Secular',
-    description: 'India respects all religions equally. People of all faiths can practice their religion freely.',
-    example: 'Like a school that welcomes children of all backgrounds equally!',
+    title: '🕉️☪️✝️ Secular (All Religions Welcome)',
+    description: 'India loves all religions equally. Everyone can pray the way they want!',
+    example: 'Like a playground where kids of all faiths play together happily!',
     color: 'from-green-400 to-green-600'
   },
   'DEMOCRATIC': {
     term: 'DEMOCRATIC',
-    title: 'Democratic',
-    description: 'People choose their leaders through voting. Everyone has an equal say in how the country is run.',
-    example: 'Like class elections where everyone votes for their favorite leader!',
+    title: '🗳️ Democratic (People Power)',
+    description: 'We choose our leaders by voting. Everyone gets a say in how things work!',
+    example: 'Like voting for class monitor - everyone gets to pick who they think is best!',
     color: 'from-blue-400 to-blue-600'
   },
   'REPUBLIC': {
     term: 'REPUBLIC',
-    title: 'Republic',
-    description: 'India has no king or queen. The people are the highest authority, and leaders are elected.',
-    example: 'Like a club where members elect their own president every year!',
-    color: 'from-orange-400 to-orange-600'
+    title: '👥 Republic (No Kings or Queens)',
+    description: 'We choose our own leaders. No kings, queens, or royal families rule us!',
+    example: 'Like a student council - kids elect their own representatives!',
+    color: 'from-purple-400 to-purple-600'
+  },
+  'JUSTICE': {
+    term: 'JUSTICE',
+    title: '⚖️ Justice (Fairness for All)',
+    description: 'Everyone should be treated fairly and get what they deserve.',
+    example: 'Like a good teacher who gives the same test to everyone - fair and square!',
+    color: 'from-indigo-400 to-indigo-600'
+  },
+  'LIBERTY': {
+    term: 'LIBERTY',
+    title: '🕊️ Liberty (Freedom to Choose)',
+    description: 'You can think, speak, and believe what you want (as long as it doesn\'t hurt others)!',
+    example: 'Like choosing your favorite color or food - nobody can force you to like something!',
+    color: 'from-sky-400 to-sky-600'
+  },
+  'EQUALITY': {
+    term: 'EQUALITY',
+    title: '🌟 Equality (Everyone is Equal)',
+    description: 'All people are equally important, no matter who they are or where they come from.',
+    example: 'Like everyone getting the same number of cookies - rich or poor, tall or short!',
+    color: 'from-yellow-400 to-yellow-600'
+  },
+  'FRATERNITY': {
+    term: 'FRATERNITY',
+    title: '🤗 Fraternity (Like Brothers and Sisters)',
+    description: 'All Indians should care for each other like one big family.',
+    example: 'Like helping a classmate who fell down - we\'re all in this together!',
+    color: 'from-pink-400 to-pink-600'
   }
 };
 
 // Key terms that trigger educational popups
-const KEY_TERMS = ['SOVEREIGN', 'SOCIALIST', 'SECULAR', 'DEMOCRATIC', 'REPUBLIC'];
+const KEY_TERMS = ['SOVEREIGN', 'SOCIALIST', 'SECULAR', 'DEMOCRATIC', 'REPUBLIC', 'JUSTICE', 'LIBERTY', 'EQUALITY', 'FRATERNITY'];
 
 // Difficulty settings for Preamble Builder Game
 const DIFFICULTY_SETTINGS = {
