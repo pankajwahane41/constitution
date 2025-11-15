@@ -18,15 +18,17 @@ const MiniGamesHub = lazy(() => import('./components/MiniGamesHub'));
 const ConstitutionBuilder = lazy(() => import('./components/ConstitutionBuilder'));
 const LeaderboardView = lazy(() => import('./components/LeaderboardView'));
 const DailyChallenges = lazy(() => import('./components/DailyChallenges'));
-import ErrorBoundary from './components/ErrorBoundary';
-import { RightsPuzzleGame, FamousCasesGame } from './components/games';
+import CriticalErrorBoundary from './components/CriticalErrorBoundary';
+const ErrorBoundary = lazy(() => import('./components/ErrorBoundary'));
+const RightsPuzzleGame = lazy(() => import('./components/games').then(module => ({ default: module.RightsPuzzleGame })));
+const FamousCasesGame = lazy(() => import('./components/games').then(module => ({ default: module.FamousCasesGame })));
 const FinalQAAndDocumentation = lazy(() => import('./components/FinalQAAndDocumentation'));
 const GameRouter = lazy(() => import('./components/GameRouter'));
 
-// Import mobile components
-import MobileNavigation from './components/MobileNavigation';
-import MobileDashboard from './components/MobileDashboard';
-import MobileQuestionCard from './components/MobileQuestionCard';
+// Lazy load mobile components for better performance
+const MobileNavigation = lazy(() => import('./components/MobileNavigation'));
+const MobileDashboard = lazy(() => import('./components/MobileDashboard'));
+const MobileQuestionCard = lazy(() => import('./components/MobileQuestionCard'));
 
 // Import mobile detection hook
 import { useIsMobile, useScreenSize } from './hooks/useIsMobile';
@@ -34,6 +36,7 @@ import { AppState, QuizSession, UserProfile, QuizQuestion } from './types/gamifi
 import { educationalModules } from './data/educationalModules';
 import { quizCategories } from './data/quizCategories';
 import { loadQuizData, getStoredData, setStoredData } from './lib/utils';
+import { quizRateLimiter, gameRateLimiter } from './utils/security';
 import { ConstitutionDB, initializeStorage } from './lib/storage';
 import { GamificationEngine } from './lib/gamification';
 import { AvatarSystem } from './lib/avatarSystem';
@@ -456,6 +459,15 @@ function App() {
 
     const quiz = appState.currentQuiz;
     if (!quiz || quiz.isComplete || !appState.userProfile || !gamificationEngine) return;
+    
+    // Rate limiting check to prevent abuse
+    if (!quizRateLimiter.canProceed(appState.userProfile.userId)) {
+      setAppState(prev => ({
+        ...prev,
+        error: 'Too many quiz submissions. Please wait before trying again.'
+      }));
+      return;
+    }
     
     const currentQuestion = quiz.questions[quiz.currentQuestionIndex];
     if (!currentQuestion || !Array.isArray(currentQuestion.options) || currentQuestion.options.length === 0) {

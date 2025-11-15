@@ -759,7 +759,36 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
     initializeBuilder();
   }, [userProfile.userId]);
 
-  // Timer for active learning time
+  // Comprehensive cleanup effect for memory leak prevention
+  useEffect(() => {
+    return () => {
+      // Clear all timers
+      if (timeIntervalRef.current) {
+        clearInterval(timeIntervalRef.current);
+        timeIntervalRef.current = null;
+      }
+      if (strugglingTimeoutRef.current) {
+        clearTimeout(strugglingTimeoutRef.current);
+        strugglingTimeoutRef.current = null;
+      }
+      
+      // Save progress before component unmounts
+      if (storageRef.current && builderStats.placedArticles > 0) {
+        storageRef.current.saveConstitutionBuilderProgress({
+          sectionsCompleted: sections.filter(s => s.articles.length >= s.capacity * 0.7).map(s => s.id),
+          articlesPlaced: builderStats.placedArticles,
+          totalArticles: builderStats.totalArticles,
+          currentLevel: builderStats.currentLevel,
+          timeSpent: builderStats.activeTime,
+          unlockedFeatures: [],
+          customConstitutions: [],
+          collaborativeProjects: []
+        }).catch(console.warn);
+      }
+    };
+  }, [sections, builderStats]);
+
+  // Timer for active learning time with improved cleanup
   useEffect(() => {
     if (builderState.isPlaying) {
       timeIntervalRef.current = setInterval(() => {
@@ -1860,13 +1889,26 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
                   return (
                     <div
                       key={article.id}
-                      draggable
-                      onDragStart={() => handleDragStart(article)}
+                      role="button"
+                      tabIndex={isPlaced ? -1 : 0}
+                      aria-label={`${article.title}. ${isPlaced ? 'Already placed in constitution' : 'Available for placement'}. Press Enter to select or drag to place in section.`}
+                      aria-describedby={`article-help-${article.id}`}
+                      draggable={!isPlaced}
+                      onDragStart={() => !isPlaced && handleDragStart(article)}
                       onDragEnd={handleDragEnd}
-                      className={`p-3 rounded-lg border-2 cursor-move transition-all ${
+                      onKeyDown={(e) => {
+                        if (!isPlaced && (e.key === 'Enter' || e.key === ' ')) {
+                          e.preventDefault();
+                          handleDragStart(article);
+                          // Announce to screen readers
+                          const announcement = `${article.title} selected for placement. Navigate to a section and press Enter to place.`;
+                          console.log('Screen reader announcement:', announcement);
+                        }
+                      }}
+                      className={`p-3 rounded-lg border-2 transition-all focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 ${
                         isPlaced
                           ? 'border-green-200 bg-green-50 opacity-60'
-                          : 'border-gray-200 bg-white hover:border-orange-200 hover:shadow-md'
+                          : 'border-gray-200 bg-white hover:border-orange-200 hover:shadow-md cursor-move'
                       } ${builderState.isDragging ? 'opacity-50' : ''}`}
                     >
                       <div className="flex items-start space-x-2">

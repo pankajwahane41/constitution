@@ -191,18 +191,38 @@ export const safeArrayMap = <T, U>(array: T[] | null | undefined, callback: (ite
 // Local storage helpers
 export const getStoredData = (key: string, defaultValue: any) => {
   try {
-    const stored = localStorage.getItem(key);
-    return stored ? JSON.parse(stored) : defaultValue;
+    // Import security utilities
+    const { validateStorageKey, safeJsonParse } = require('../utils/security');
+    
+    const validKey = validateStorageKey(key);
+    const stored = localStorage.getItem(validKey);
+    return safeJsonParse(stored, defaultValue);
   } catch (error) {
-    console.warn('Error reading from localStorage:', error);
+    console.warn('Error reading from localStorage securely:', error);
     return defaultValue;
   }
 };
 
 export const setStoredData = (key: string, data: any) => {
   try {
-    localStorage.setItem(key, JSON.stringify(data));
+    // Import security utilities
+    const { validateStorageKey, validateUserInput } = require('../utils/security');
+    
+    const validKey = validateStorageKey(key);
+    
+    // Sanitize string values before storage
+    let sanitizedData = data;
+    if (typeof data === 'string') {
+      sanitizedData = validateUserInput(data);
+    } else if (typeof data === 'object' && data !== null) {
+      sanitizedData = JSON.parse(JSON.stringify(data, (key, val) => 
+        typeof val === 'string' ? validateUserInput(val) : val
+      ));
+    }
+    
+    localStorage.setItem(validKey, JSON.stringify(sanitizedData));
   } catch (error) {
-    console.warn('Error writing to localStorage:', error);
+    console.warn('Error writing to localStorage securely:', error);
+    throw new Error('Failed to store data securely');
   }
 };
