@@ -3,7 +3,7 @@
 
 > "The Constitution is not a mere lawyer's document; it is a vehicle of life, and its spirit is always the spirit of age." - Dr. B.R. Ambedkar
 
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-bhspune.com-blue?style=for-the-badge)](https://bhspune.com)
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-clh.bhspune.com-blue?style=for-the-badge)](https://clh.bhspune.com)
 [![GitHub Repo](https://img.shields.io/badge/⭐_Star_on_GitHub-constitution-green?style=for-the-badge)](https://github.com/pankajwahane41/constitution)
 [![License](https://img.shields.io/badge/📜_License-MIT-orange?style=for-the-badge)](LICENSE)
 
@@ -136,7 +136,7 @@ npm run build:prod
 npm run deploy:aws
 
 # Or use AWS Amplify (recommended)
-# Push to main branch - auto-deploys to bhspune.com
+# Push to main branch - auto-deploys to clh.bhspune.com
 ```
 
 ### ⚙️ **Environment Setup**
@@ -276,7 +276,7 @@ git push origin feature/amazing-feature
 ## 📞 **Connect & Support**
 
 ### 🌐 **Links**
-- **🔗 Live App:** [bhspune.com](https://bhspune.com)
+- **🔗 Live App:** [clh.bhspune.com](https://clh.bhspune.com)
 - **💻 GitHub:** [github.com/pankajwahane41/constitution](https://github.com/pankajwahane41/constitution)
 - **📧 Email:** [contact@bhspune.com](mailto:contact@bhspune.com)
 - **🐦 Twitter:** [@ConstitutionHub](https://twitter.com/ConstitutionHub)
