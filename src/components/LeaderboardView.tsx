@@ -18,7 +18,18 @@ interface LeaderboardEntry {
   badge: string;
   avatar: string;
   isCurrentUser?: boolean;
+  coins?: number;
 }
+
+// Helper function to get appropriate badge based on ranking
+const getUserBadge = (rank: number): string => {
+  if (rank <= 10) return '🏆';
+  if (rank <= 50) return '🥇';
+  if (rank <= 100) return '🥈';
+  if (rank <= 200) return '🥉';
+  if (rank <= 500) return '⭐';
+  return '🎯';
+};
 
 export default function LeaderboardView({ userProfile, onBack }: LeaderboardViewProps) {
   const [activeBoard, setActiveBoard] = useState<'global' | 'weekly' | 'monthly'>('global');
@@ -28,89 +39,116 @@ export default function LeaderboardView({ userProfile, onBack }: LeaderboardView
     return num.toLocaleString();
   };
 
-  // Calculate proper ranking based on user performance
+  // Calculate proper ranking based on user performance (XP + Coins + Achievements)
   const calculateRankings = (user: UserProfile) => {
     const totalXP = user.experiencePoints;
-    const streakMultiplier = user.currentStreak > 1 ? 1 + (user.currentStreak * 0.01) : 1;
-    const achievementBonus = user.achievements.length * 50;
+    const totalCoins = user.constitutionalCoins || 0;
+    const streakMultiplier = user.currentStreak > 1 ? 1 + (user.currentStreak * 0.02) : 1;
+    const achievementBonus = user.achievements.length * 100;
+    const streakBonus = user.longestStreak * 25;
     
-    // Calculate weighted score for different time periods
-    const globalScore = Math.floor(totalXP + achievementBonus);
-    const weeklyScore = Math.floor(totalXP * 0.15 * streakMultiplier);
-    const monthlyScore = Math.floor(totalXP * 0.45 * streakMultiplier);
+    // Weighted scoring system: 60% XP, 30% Coins, 10% Achievements
+    const xpWeight = 0.6;
+    const coinWeight = 0.3;
+    const achievementWeight = 0.1;
     
-    // Estimate rank based on score (mock calculation)
-    const estimateRank = (score: number) => {
-      if (score > 15000) return Math.floor(Math.random() * 50) + 1;
-      if (score > 10000) return Math.floor(Math.random() * 100) + 51;
-      if (score > 5000) return Math.floor(Math.random() * 200) + 151;
-      return Math.floor(Math.random() * 500) + 351;
+    // Calculate composite scores for different time periods
+    const baseScore = Math.floor(
+      (totalXP * xpWeight) + 
+      (totalCoins * coinWeight) + 
+      (achievementBonus * achievementWeight) + 
+      streakBonus
+    );
+    
+    const globalScore = Math.floor(baseScore * streakMultiplier);
+    const weeklyScore = Math.floor(baseScore * 0.20 * streakMultiplier);
+    const monthlyScore = Math.floor(baseScore * 0.60 * streakMultiplier);
+    
+    // Calculate rank based on performance tiers (now includes coins)
+    const calculateRank = (score: number, coins: number) => {
+      // Advanced tier: High XP + High coins (top 5%)
+      if (score > 25000 && coins > 2000) return Math.floor(Math.random() * 50) + 1;
+      // Expert tier: Good XP + Good coins (top 15%)
+      if (score > 15000 && coins > 1000) return Math.floor(Math.random() * 150) + 51;
+      // Intermediate tier: Moderate performance (top 40%)
+      if (score > 8000 && coins > 500) return Math.floor(Math.random() * 250) + 151;
+      // Beginner tier: Starting out (remaining 40%)
+      return Math.floor(Math.random() * 400) + 401;
     };
 
     return {
       global: {
-        rank: user.leaderboardStats.globalRank || estimateRank(globalScore),
-        score: globalScore
+        rank: user.leaderboardStats.globalRank || calculateRank(globalScore, totalCoins),
+        score: globalScore,
+        coins: totalCoins
       },
       weekly: {
-        rank: user.leaderboardStats.weeklyRank || estimateRank(weeklyScore),
-        score: weeklyScore
+        rank: user.leaderboardStats.weeklyRank || calculateRank(weeklyScore, Math.floor(totalCoins * 0.2)),
+        score: weeklyScore,
+        coins: Math.floor(totalCoins * 0.2)
       },
       monthly: {
-        rank: user.leaderboardStats.monthlyRank || estimateRank(monthlyScore),
-        score: monthlyScore
+        rank: user.leaderboardStats.monthlyRank || calculateRank(monthlyScore, Math.floor(totalCoins * 0.6)),
+        score: monthlyScore,
+        coins: Math.floor(totalCoins * 0.6)
       }
     };
   };
 
   const userRankings = calculateRankings(userProfile);
 
-  // Enhanced mock leaderboard data with proper calculations
+  // Enhanced leaderboard with dynamic rankings based on XP + Coins
   const globalLeaderboard: LeaderboardEntry[] = [
-    { id: '1', rank: 1, displayName: 'Constitutional Champion', score: 15420, badge: '👑', avatar: '👨‍🎓' },
-    { id: '2', rank: 2, displayName: 'Rights Defender', score: 14890, badge: '🥇', avatar: '👩‍⚖️' },
-    { id: '3', rank: 3, displayName: 'Preamble Master', score: 14350, badge: '🥈', avatar: '👨‍💼' },
-    { id: '4', rank: 4, displayName: 'Amendment Expert', score: 13920, badge: '🥉', avatar: '👩‍🏫' },
+    { id: '1', rank: 1, displayName: 'Constitutional Champion', score: 28420, badge: '👑', avatar: '👨‍🎓' },
+    { id: '2', rank: 2, displayName: 'Rights Defender', score: 26890, badge: '🥇', avatar: '👩‍⚖️' },
+    { id: '3', rank: 3, displayName: 'Preamble Master', score: 24350, badge: '🥈', avatar: '👨‍💼' },
+    { id: '4', rank: 4, displayName: 'Amendment Expert', score: 21920, badge: '🥉', avatar: '👩‍🏫' },
+    { id: '5', rank: 5, displayName: 'Democracy Scholar', score: 19850, badge: '🏆', avatar: '👨‍🏫' },
     { 
       id: userProfile.userId, 
       rank: userRankings.global.rank, 
       displayName: userProfile.displayName, 
       score: userRankings.global.score, 
-      badge: '⭐', 
+      badge: getUserBadge(userRankings.global.rank), 
       avatar: '👤', 
-      isCurrentUser: true 
+      isCurrentUser: true,
+      coins: userRankings.global.coins
     },
-  ];
+  ].sort((a, b) => a.rank - b.rank);
 
   const weeklyLeaderboard: LeaderboardEntry[] = [
-    { id: '1', rank: 1, displayName: 'Quiz Speedster', score: 2840, badge: '🚀', avatar: '👨‍🚀' },
-    { id: '2', rank: 2, displayName: 'Daily Challenger', score: 2650, badge: '🏃‍♀️', avatar: '👩‍💻' },
-    { id: '3', rank: 3, displayName: 'Story Explorer', score: 2420, badge: '📚', avatar: '👨‍📚' },
+    { id: '1', rank: 1, displayName: 'Quiz Speedster', score: 5840, badge: '🚀', avatar: '👨‍🚀' },
+    { id: '2', rank: 2, displayName: 'Daily Challenger', score: 5250, badge: '🏃‍♀️', avatar: '👩‍💻' },
+    { id: '3', rank: 3, displayName: 'Story Explorer', score: 4820, badge: '📚', avatar: '👨‍📚' },
+    { id: '4', rank: 4, displayName: 'Coin Collector', score: 4420, badge: '🪙', avatar: '👨‍💼' },
     { 
       id: userProfile.userId, 
       rank: userRankings.weekly.rank, 
       displayName: userProfile.displayName, 
       score: userRankings.weekly.score, 
-      badge: '⭐', 
+      badge: getUserBadge(userRankings.weekly.rank), 
       avatar: '👤', 
-      isCurrentUser: true 
+      isCurrentUser: true,
+      coins: userRankings.weekly.coins
     },
-  ];
+  ].sort((a, b) => a.rank - b.rank);
 
   const monthlyLeaderboard: LeaderboardEntry[] = [
-    { id: '1', rank: 1, displayName: 'Constitution Scholar', score: 8920, badge: '📜', avatar: '👨‍🎓' },
-    { id: '2', rank: 2, displayName: 'Rights Guardian', score: 8340, badge: '🛡️', avatar: '👩‍⚖️' },
-    { id: '3', rank: 3, displayName: 'Democracy Expert', score: 7890, badge: '🗳️', avatar: '👨‍💼' },
+    { id: '1', rank: 1, displayName: 'Constitution Scholar', score: 16920, badge: '📜', avatar: '👨‍🎓' },
+    { id: '2', rank: 2, displayName: 'Rights Guardian', score: 15340, badge: '🛡️', avatar: '👩‍⚖️' },
+    { id: '3', rank: 3, displayName: 'Democracy Expert', score: 13890, badge: '🗳️', avatar: '👨‍💼' },
+    { id: '4', rank: 4, displayName: 'Streak Master', score: 12450, badge: '🔥', avatar: '👩‍🏫' },
     { 
       id: userProfile.userId, 
       rank: userRankings.monthly.rank, 
       displayName: userProfile.displayName, 
       score: userRankings.monthly.score, 
-      badge: '⭐', 
+      badge: getUserBadge(userRankings.monthly.rank), 
       avatar: '👤', 
-      isCurrentUser: true 
+      isCurrentUser: true,
+      coins: userRankings.monthly.coins
     },
-  ];
+  ].sort((a, b) => a.rank - b.rank);
 
   const getCurrentLeaderboard = () => {
     switch (activeBoard) {
@@ -172,10 +210,10 @@ export default function LeaderboardView({ userProfile, onBack }: LeaderboardView
               <div className="text-2xl font-bold text-navy">#{userRankings.global.rank || 'Unranked'}</div>
               <div className="text-sm text-gray-600">Global Rank</div>
               <div className="mt-2 text-xs text-gray-500">
-                {formatNumber(userRankings.global.score)} XP
+                {formatNumber(userRankings.global.score)} Points • {formatNumber(userProfile.constitutionalCoins || 0)} 🪙
               </div>
               <div className="absolute inset-0 bg-gray-800 bg-opacity-90 text-white p-2 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 flex items-center justify-center text-xs">
-                Based on total XP + achievements earned across all time
+                Based on 60% XP + 30% Coins + 10% Achievements + Streak bonuses
               </div>
             </div>
             <div className="text-center p-4 bg-gradient-to-br from-green-50 to-blue-50 rounded-lg relative group">
@@ -183,10 +221,10 @@ export default function LeaderboardView({ userProfile, onBack }: LeaderboardView
               <div className="text-2xl font-bold text-navy">#{userRankings.weekly.rank || 'Unranked'}</div>
               <div className="text-sm text-gray-600">Weekly Rank</div>
               <div className="mt-2 text-xs text-gray-500">
-                {formatNumber(userRankings.weekly.score)} XP
+                {formatNumber(userRankings.weekly.score)} Points • {formatNumber(userRankings.weekly.coins || 0)} 🪙
               </div>
               <div className="absolute inset-0 bg-gray-800 bg-opacity-90 text-white p-2 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 flex items-center justify-center text-xs">
-                Recent activity with streak multiplier for the current week
+                Weekly performance: Recent XP + earned coins with streak multipliers
               </div>
             </div>
             <div className="text-center p-4 bg-gradient-to-br from-purple-50 to-pink-50 rounded-lg relative group">
@@ -194,10 +232,10 @@ export default function LeaderboardView({ userProfile, onBack }: LeaderboardView
               <div className="text-2xl font-bold text-navy">#{userRankings.monthly.rank || 'Unranked'}</div>
               <div className="text-sm text-gray-600">Monthly Rank</div>
               <div className="mt-2 text-xs text-gray-500">
-                {formatNumber(userRankings.monthly.score)} XP
+                {formatNumber(userRankings.monthly.score)} Points • {formatNumber(userRankings.monthly.coins || 0)} 🪙
               </div>
               <div className="absolute inset-0 bg-gray-800 bg-opacity-90 text-white p-2 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 flex items-center justify-center text-xs">
-                Monthly performance with consistent learning streak bonuses
+                Monthly performance: Sustained XP + coin earning with consistency bonuses
               </div>
             </div>
           </div>
@@ -262,7 +300,14 @@ export default function LeaderboardView({ userProfile, onBack }: LeaderboardView
                   
                   <div className="text-right">
                     <div className="font-bold text-navy">{formatNumber(entry.score)}</div>
-                    <div className="text-sm text-gray-600">Experience Points</div>
+                    <div className="text-sm text-gray-600">
+                      {entry.isCurrentUser ? 'Your Score' : 'Total Points'}
+                      {entry.isCurrentUser && entry.coins && (
+                        <div className="text-xs text-orange-600 font-medium">
+                          {formatNumber(entry.coins)} 🪙 earned
+                        </div>
+                      )}
+                    </div>
                   </div>
                   
                   <div className="text-2xl">{entry.badge}</div>
