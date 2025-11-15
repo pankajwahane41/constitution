@@ -1,0 +1,282 @@
+/* ============================================
+   COMPREHENSIVE RESPONSIVE & CROSS-DEVICE FIXES
+   Constitution Learning Hub - Enhanced Mobile Compatibility
+   ============================================ */
+
+/* ============================================
+   ENHANCED RESPONSIVE NAVIGATION
+   ============================================ */
+
+/* Landscape mode adjustments */
+.mobile-nav-bar.landscape-mode {
+  bottom: 8px !important;
+  padding: 6px 10px !important;
+  border-radius: 20px !important;
+  max-width: 400px !important;
+}
+
+.mobile-fab.landscape-fab {
+  bottom: 70px !important;
+  width: 50px !important;
+  height: 50px !important;
+}
+
+/* Small mobile devices (iPhone SE, etc.) */
+@media screen and (max-width: 375px) {
+  .mobile-nav-bar {
+    bottom: 12px !important;
+    padding: 6px 8px !important;
+    border-radius: 20px !important;
+    left: 12px !important;
+    right: 12px !important;
+  }
+  
+  .mobile-nav-item {
+    min-height: 56px !important;
+    padding: 8px 4px !important;
+  }
+  
+  .mobile-nav-icon {
+    width: 18px !important;
+    height: 18px !important;
+  }
+  
+  .mobile-nav-label {
+    font-size: 9px !important;
+  }
+  
+  .mobile-fab {
+    width: 48px !important;
+    height: 48px !important;
+    bottom: 68px !important;
+  }
+}
+
+/* Very small screens (older Android devices) */
+@media screen and (max-width: 320px) {
+  .mobile-nav-bar {
+    bottom: 8px !important;
+    padding: 4px 6px !important;
+    border-radius: 16px !important;
+    left: 8px !important;
+    right: 8px !important;
+  }
+  
+  .mobile-nav-item {
+    min-height: 52px !important;
+    padding: 6px 2px !important;
+  }
+  
+  .mobile-fab {
+    width: 44px !important;
+    height: 44px !important;
+    bottom: 60px !important;
+  }
+}
+
+/* ============================================
+   ENHANCED COIN DISPLAY RESPONSIVENESS
+   ============================================ */
+
+/* Ensure coin display is properly positioned on all devices */
+#constitutional-coins-display {
+  position: relative;
+  z-index: 10;
+}
+
+@media screen and (max-width: 640px) {
+  #constitutional-coins-display {
+    font-size: 12px !important;
+  }
+  
+  #constitutional-coins-display .w-3 {
+    width: 10px !important;
+    height: 10px !important;
+  }
+  
+  #constitutional-coins-display .w-4 {
+    width: 12px !important;
+    height: 12px !important;
+  }
+}
+
+/* ============================================
+   CROSS-DEVICE TOUCH IMPROVEMENTS
+   ============================================ */
+
+/* Enhanced touch targets for all mobile interactions */
+.mobile-nav-button,
+.mobile-fab,
+.mobile-nav-item {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+/* Prevent zoom on double-tap */
+.mobile-nav-button,
+.mobile-fab,
+.mobile-nav-item,
+input,
+button,
+textarea {
+  touch-action: manipulation;
+}
+
+/* ============================================
+   SAFE AREA HANDLING FOR DIFFERENT DEVICES
+   ============================================ */
+
+@supports (padding: max(0px)) {
+  .mobile-nav-bar {
+    padding-bottom: max(env(safe-area-inset-bottom), 8px) !important;
+  }
+  
+  .mobile-fab {
+    bottom: max(env(safe-area-inset-bottom), 80px) !important;
+  }
+}
+
+/* iOS Safari specific fixes */
+@supports (-webkit-touch-callout: none) {
+  .mobile-nav-bar {
+    padding-bottom: max(env(safe-area-inset-bottom), 16px) !important;
+  }
+}
+
+/* ============================================
+   ORIENTATION CHANGE HANDLING
+   ============================================ */
+
+@media screen and (orientation: landscape) and (max-height: 500px) {
+  .mobile-nav-bar {
+    padding: 4px 8px !important;
+    border-radius: 16px !important;
+    bottom: 8px !important;
+  }
+  
+  .mobile-nav-item {
+    min-height: 48px !important;
+    padding: 6px 4px !important;
+  }
+  
+  .mobile-fab {
+    width: 48px !important;
+    height: 48px !important;
+    bottom: 56px !important;
+  }
+}
+
+/* ============================================
+   TABLET RESPONSIVE ADJUSTMENTS
+   ============================================ */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .mobile-nav-bar {
+    max-width: 500px !important;
+    padding: 10px 16px !important;
+  }
+  
+  .mobile-nav-item {
+    min-height: 68px !important;
+    padding: 12px 8px !important;
+  }
+  
+  .mobile-fab {
+    width: 60px !important;
+    height: 60px !important;
+    bottom: 88px !important;
+  }
+}
+
+/* ============================================
+   ENHANCED KEYBOARD ANIMATIONS
+   ============================================ */
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  10%, 30%, 50%, 70%, 90% { transform: translateX(-2px); }
+  20%, 40%, 60%, 80% { transform: translateX(2px); }
+}
+
+@keyframes coinFlash {
+  0% { opacity: 0; }
+  50% { opacity: 0.3; }
+  100% { opacity: 0; }
+}
+
+/* Prevent animation conflicts */
+body {
+  animation: none;
+}
+
+/* ============================================
+   BROWSER-SPECIFIC FIXES
+   ============================================ */
+
+/* Chrome mobile */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .mobile-nav-bar {
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+  }
+}
+
+/* Firefox mobile */
+@-moz-document url-prefix() {
+  .mobile-nav-bar {
+    background: rgba(255, 255, 255, 0.95);
+  }
+}
+
+/* ============================================
+   ACCESSIBILITY IMPROVEMENTS
+   ============================================ */
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .mobile-nav-bar {
+    border: 2px solid currentColor;
+    background: Canvas;
+    color: CanvasText;
+  }
+  
+  .mobile-nav-item {
+    border: 1px solid currentColor;
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .mobile-nav-item,
+  .mobile-fab,
+  #constitutional-coins-display * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* ============================================
+   PERFORMANCE OPTIMIZATIONS
+   ============================================ */
+
+/* GPU acceleration for smooth animations */
+.mobile-nav-item,
+.mobile-fab,
+#constitutional-coins-display {
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  will-change: transform;
+}
+
+/* Optimize touch scrolling */
+.mobile-nav-bar,
+.mobile-fab {
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
+}

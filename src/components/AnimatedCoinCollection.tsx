@@ -1,9 +1,11 @@
 // Animated Coin Collection Component
 // Creates visual impact when coins are earned by animating them to the wallet
+// Mobile-optimized with responsive positioning and viewport detection
 
 import React, { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import coinSoundEffects from '../utils/coinSoundEffects';
+import { useScreenSize } from '../hooks/useIsMobile';
 
 interface CoinAnimation {
   id: string;
@@ -19,6 +21,9 @@ interface AnimatedCoinCollectionProps {
 
 const AnimatedCoinCollection = ({ onAnimationComplete }: AnimatedCoinCollectionProps) => {
   const [coins, setCoins] = useState<CoinAnimation[]>([]);
+  const { width: screenWidth, height: screenHeight } = useScreenSize();
+  const isMobile = screenWidth <= 768;
+  const isTablet = screenWidth > 768 && screenWidth <= 1024;
 
   // Function to trigger coin animation from a specific position
   const triggerCoinAnimation = useCallback((amount: number, startElement?: HTMLElement) => {
@@ -41,13 +46,15 @@ const AnimatedCoinCollection = ({ onAnimationComplete }: AnimatedCoinCollectionP
       top: 20 
     };
 
-    // Create multiple coins for larger amounts
-    const coinCount = Math.min(Math.ceil(amount / 5), 8); // Max 8 coins for performance
+    // Create multiple coins for larger amounts with responsive optimization
+    const maxCoins = isMobile ? 6 : 8; // Fewer coins on mobile for performance
+    const coinCount = Math.min(Math.ceil(amount / 5), maxCoins);
     const newCoins: CoinAnimation[] = [];
 
     for (let i = 0; i < coinCount; i++) {
       const coinAmount = Math.ceil(amount / coinCount);
-      const spread = 30; // Pixels to spread coins
+      // Responsive spread: smaller on mobile, larger on desktop
+      const spread = isMobile ? 20 : isTablet ? 25 : 30;
       
       newCoins.push({
         id: `coin-${Date.now()}-${i}`,
@@ -100,7 +107,7 @@ const AnimatedCoinCollection = ({ onAnimationComplete }: AnimatedCoinCollectionP
       ));
       onAnimationComplete?.(amount);
     }, 2000); // Animation duration + buffer
-  }, [onAnimationComplete]);
+  }, [onAnimationComplete, isMobile, isTablet]);
 
   // Expose trigger function globally
   useEffect(() => {
@@ -110,14 +117,25 @@ const AnimatedCoinCollection = ({ onAnimationComplete }: AnimatedCoinCollectionP
     };
   }, [triggerCoinAnimation]);
 
-  // Get wallet position for animation target
+  // Get wallet position for animation target with responsive fallbacks
   const getWalletPosition = () => {
     const walletElement = document.getElementById('constitutional-coins-display');
     if (walletElement) {
       const rect = walletElement.getBoundingClientRect();
       return { x: rect.left + rect.width / 2, y: rect.top + rect.height / 2 };
     }
-    return { x: window.innerWidth - 80, y: 30 }; // Fallback position
+    
+    // Responsive fallback positioning
+    if (isMobile) {
+      // Mobile: Position in safe area, accounting for mobile nav
+      return { x: screenWidth - 60, y: 40 }; // Top right, mobile safe
+    } else if (isTablet) {
+      // Tablet: Intermediate positioning
+      return { x: screenWidth - 100, y: 35 };
+    } else {
+      // Desktop: Original positioning
+      return { x: screenWidth - 80, y: 30 };
+    }
   };
 
   return (
