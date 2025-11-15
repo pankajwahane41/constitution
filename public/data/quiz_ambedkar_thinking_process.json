@@ -1,0 +1,758 @@
+{
+  "quiz_title": "Dr. Ambedkar's Thinking Process, Philosophy and Personal Journey Quiz",
+  "description": "A comprehensive quiz exploring Dr. B.R. Ambedkar's life journey, constitutional philosophy, and thinking process through relatable analogies",
+  "target_age": "9-14 years",
+  "total_questions": 50,
+  "questions": [
+    {
+      "id": 1,
+      "theme": "Childhood Discrimination",
+      "difficulty": "easy",
+      "question": "Young Bhimrao couldn't sit with other children in school because of his caste. Which sport's rule is this most similar to?",
+      "options": {
+        "A": "A cricket team that picks players only from one school",
+        "B": "A football team that doesn't let certain players use the main field",
+        "C": "A swimming team that has separate pools for different players",
+        "D": "A basketball team that only allows tall players"
+      },
+      "correct_answer": "B",
+      "explanation": "Just as some children were denied basic access like sitting with others or using public wells, this football analogy shows how discrimination prevents equal access to common facilities that everyone should be able to use.",
+      "analogy": "football_field_separation"
+    },
+    {
+      "id": 2,
+      "theme": "Childhood Discrimination", 
+      "difficulty": "medium",
+      "question": "When Dr. Ambedkar was told he couldn't drink from public wells, how did he respond, similar to a student who can't use the school library?",
+      "options": {
+        "A": "He accepted it quietly and moved on",
+        "B": "He worked harder to prove he deserved equal treatment",
+        "C": "He argued with the people denying him access",
+        "D": "He found alternative water sources elsewhere"
+      },
+      "correct_answer": "B",
+      "explanation": "Like a determined student who can't access the library but studies even harder, Dr. Ambedkar turned discrimination into motivation to achieve excellence and build a system where no one would face such injustice.",
+      "analogy": "library_study_motivation"
+    },
+    {
+      "id": 3,
+      "theme": "Childhood Discrimination",
+      "difficulty": "easy", 
+      "question": "Dr. Ambedkar was denied entry to temples. Which game rule would this be like?",
+      "options": {
+        "A": "A chess game where only certain pieces can move to the center",
+        "B": "A hide-and-seek game where some children can't use the best hiding spots",
+        "C": "A board game where some players can't enter the castle",
+        "D": "A puzzle where certain pieces can only be used by specific players"
+      },
+      "correct_answer": "C", 
+      "explanation": "Just as temple entry was denied based on caste, this board game analogy shows how certain spaces or privileges were restricted based on who you were, not your abilities or character.",
+      "analogy": "board_game_castle_restriction"
+    },
+    {
+      "id": 4,
+      "theme": "Childhood Discrimination",
+      "difficulty": "hard",
+      "question": "How did Dr. Ambedkar's childhood experiences of discrimination shape his constitutional thinking, similar to how a child who was bullied might design better classroom rules?",
+      "options": {
+        "A": "He ignored his past experiences completely",
+        "B": "He used his pain to create systems that protect the weak and vulnerable",
+        "C": "He focused only on his personal success",
+        "D": "He became angry and wanted revenge on those who discriminated"
+      },
+      "correct_answer": "B",
+      "explanation": "Like a bullied child who becomes a protector and advocate for others, Dr. Ambedkar transformed his personal suffering into a constitutional framework that ensures dignity and protection for all marginalized communities.",
+      "analogy": "classroom_bully_to_protector"
+    },
+    {
+      "id": 5,
+      "theme": "Childhood Discrimination",
+      "difficulty": "medium",
+      "question": "Dr. Ambedkar said 'Every time someone told him he wasn't good enough, he studied harder.' How is this like a cricket player's response to being dropped from the team?",
+      "options": {
+        "A": "The player quits cricket and tries another sport",
+        "B": "The player practices even more intensely to prove the selectors wrong",
+        "C": "The player blames the coaches for their poor decision",
+        "D": "The player accepts they are not good enough"
+      },
+      "correct_answer": "B",
+      "explanation": "Just as a determined cricket player uses being dropped as motivation to improve, Dr. Ambedkar used discrimination as fuel to excel academically and eventually create change for millions.",
+      "analogy": "cricket_player_determination"
+    },
+    {
+      "id": 6,
+      "theme": "Childhood Discrimination",
+      "difficulty": "easy",
+      "question": "When Dr. Ambedkar faced discrimination, he 'turned his pain into purpose.' What does this mean, using the story of 'The Little Engine That Could' as an analogy?",
+      "options": {
+        "A": "He forgot about his problems and moved on",
+        "B": "He used his struggles to build something positive for others",
+        "C": "He complained about his situation to others",
+        "D": "He decided to avoid challenges in the future"
+      },
+      "correct_answer": "B", 
+      "explanation": "Like the Little Engine that used its small size and doubts to prove it could climb the mountain, Dr. Ambedkar used his personal pain to climb the mountain of creating equality for all.",
+      "analogy": "little_engine_purpose"
+    },
+    {
+      "id": 7,
+      "theme": "Childhood Discrimination",
+      "difficulty": "medium",
+      "question": "Dr. Ambedkar experienced discrimination but 'became more determined to ensure no other child would face such injustice.' This is most similar to:",
+      "options": {
+        "A": "A student who fails an exam and gives up studying",
+        "B": "A superhero who becomes a hero to protect others after being saved as a child",
+        "C": "A child who gets lost and never wants to explore again", 
+        "D": "A player who loses a game and stops playing sports"
+      },
+      "correct_answer": "B",
+      "explanation": "Just as a superhero who was once saved as a child dedicates their life to protecting others from harm, Dr. Ambedkar dedicated his life to protecting future generations from discrimination.",
+      "analogy": "superhero_protector_origin"
+    },
+    {
+      "id": 8,
+      "theme": "Childhood Discrimination",
+      "difficulty": "hard",
+      "question": "How did Dr. Ambedkar's early experiences with caste discrimination directly influence Article 17 (Abolition of Untouchability) in the Constitution?",
+      "options": {
+        "A": "He wrote it by accident while thinking about something else",
+        "B": "He was motivated by his own experiences to legally ban the exact discrimination he faced",
+        "C": "Someone else suggested this article to him",
+        "D": "He copied it from another country's constitution"
+      },
+      "correct_answer": "B",
+      "explanation": "Dr. Ambedkar's personal experience of being called 'untouchable' and denied access to temples and wells directly motivated him to draft Article 17, making untouchability illegal - the exact practice he had suffered from.",
+      "analogy": "personal_pain_to_law"
+    },
+    {
+      "id": 9,
+      "theme": "Educational Journey",
+      "difficulty": "easy",
+      "question": "Dr. Ambedkar earned degrees from Bombay University, Columbia University, and London School of Economics. This is most like:",
+      "options": {
+        "A": "A student collecting different types of badges or certificates",
+        "B": "A sports team collecting trophies from different tournaments",
+        "C": "A builder collecting different tools for a construction project",
+        "D": "A chef collecting recipes from different countries"
+      },
+      "correct_answer": "C",
+      "explanation": "Just as a builder needs different tools for different parts of construction, Dr. Ambedkar collected degrees from different places as tools to build the constitutional framework for India.",
+      "analogy": "construction_tools_collection"
+    },
+    {
+      "id": 10,
+      "theme": "Educational Journey",
+      "difficulty": "medium", 
+      "question": "Why did Dr. Ambedkar study in America and England, similar to how a cricket player might study techniques from different sports?",
+      "options": {
+        "A": "Because Indian education wasn't available in his time",
+        "B": "To learn from different constitutional and legal systems to create the best possible framework for India",
+        "C": "To escape from discrimination in India",
+        "D": "Because his family forced him to go abroad"
+      },
+      "correct_answer": "B",
+      "explanation": "Just as a cricket player learns techniques from different sports like tennis (serve) or volleyball (jump serve) to improve their game, Dr. Ambedkar studied constitutions from different countries to create the best framework for India.",
+      "analogy": "cricket_techniques_study"
+    },
+    {
+      "id": 11,
+      "theme": "Educational Journey",
+      "difficulty": "hard",
+      "question": "Dr. Ambedkar said his degrees were 'victories against those who said a Dalit person couldn't achieve greatness.' How is this like David vs. Goliath?",
+      "options": {
+        "A": "Both involved physical battles between opponents",
+        "B": "Both proved that someone's background doesn't determine their capability or worth",
+        "C": "Both ended with the smaller party being defeated",
+        "D": "Both required help from others to win"
+      },
+      "correct_answer": "B", 
+      "explanation": "Like David who proved that his small size and humble background didn't make him less capable than the giant Goliath, Dr. Ambedkar proved that caste background doesn't determine intellectual or leadership ability.",
+      "analogy": "david_vs_goliath_merit"
+    },
+    {
+      "id": 12,
+      "theme": "Educational Journey", 
+      "difficulty": "easy",
+      "question": "Dr. Ambedkar earned his degrees not just for personal success, but to 'build a Constitution that would protect every Indian child's right.' This is like:",
+      "options": {
+        "A": "A student studying hard only to get good grades",
+        "B": "A parent working hard to build a safe house for their children",
+        "C": "A teacher preparing lessons only for smart students",
+        "D": "A doctor treating only wealthy patients"
+      },
+      "correct_answer": "B",
+      "explanation": "Just as a loving parent works hard to build a safe, secure house where all their children can thrive, Dr. Ambedkar worked hard to earn his degrees to build a constitutional 'house' of rights for all Indian children.",
+      "analogy": "parent_building_safe_house"
+    },
+    {
+      "id": 13,
+      "theme": "Educational Journey",
+      "difficulty": "medium",
+      "question": "How did Dr. Ambedkar's global education help him understand different constitutional systems, similar to how a chess player studies games of grandmasters?",
+      "options": {
+        "A": "He memorized all the constitutions but didn't understand them",
+        "B": "He studied the strengths and weaknesses of different systems to apply the best principles in India's context",
+        "C": "He copied entire systems without adapting them",
+        "D": "He only learned about American and British systems"
+      },
+      "correct_answer": "B",
+      "explanation": "Just as a chess player studies grandmaster games to understand different strategies and tactics, Dr. Ambedkar studied global constitutions to understand what worked and what didn't, then applied the best principles to India's unique needs.",
+      "analogy": "chess_grandmaster_study"
+    },
+    {
+      "id": 14,
+      "theme": "Educational Journey",
+      "difficulty": "hard",
+      "question": "Dr. Ambedkar's doctorate from London School of Economics gave him expertise in law and economics. How did this help him draft the Constitution, similar to how a building architect needs both design and engineering knowledge?",
+      "options": {
+        "A": "He used it mainly to show off his qualifications",
+        "B": "He applied economic and legal principles to create balanced constitutional provisions that protected both individual rights and collective welfare",
+        "C": "He ignored this education while drafting",
+        "D": "He only used his legal knowledge, not economic insights"
+      },
+      "correct_answer": "B",
+      "explanation": "Just as a building architect needs both design knowledge (to make buildings beautiful) and engineering knowledge (to make them structurally sound), Dr. Ambedkar used legal and economic expertise to create constitutional provisions that were both principled and practical.",
+      "analogy": "architect_design_engineering"
+    },
+    {
+      "id": 15,
+      "theme": "Educational Journey",
+      "difficulty": "medium",
+      "question": "Dr. Ambedkar studied at Columbia University where he learned about civil rights and democracy. This was like a student learning about fairness by:",
+      "options": {
+        "A": "Reading fairy tales about good versus evil",
+        "B": "Studying civil rights movements and democratic principles to understand how societies can protect individual freedoms",
+        "C": "Watching movies about superhero battles",
+        "D": "Playing video games about world conquest"
+      },
+      "correct_answer": "B", 
+      "explanation": "Just as a student studying civil rights movements learns about the real struggles and victories of people fighting for equality and justice, Dr. Ambedkar learned these lessons at Columbia to apply them in India's constitutional framework.",
+      "analogy": "student_civil_rights_study"
+    },
+    {
+      "id": 16,
+      "theme": "Educational Journey",
+      "difficulty": "easy",
+      "question": "Dr. Ambedkar earned multiple degrees 'like collecting precious treasures.' What does this mean?",
+      "options": {
+        "A": "He loved collecting expensive things",
+        "B": "Each degree was a valuable achievement that brought him closer to his goal of serving society",
+        "C": "He was showing off his intelligence to others",
+        "D": "He was competing with other students"
+      },
+      "correct_answer": "B",
+      "explanation": "Just as precious treasures are valuable and meaningful to their owner, each degree was valuable because it brought Dr. Ambedkar closer to his ultimate goal of creating a just society where no one faces discrimination.",
+      "analogy": "treasure_collection_purpose"
+    },
+    {
+      "id": 17,
+      "theme": "Social Activism",
+      "difficulty": "medium",
+      "question": "Dr. Ambedkar fought for equal rights for women, abolition of untouchability, and reservations for Dalits and Adivasis. This is most similar to:",
+      "options": {
+        "A": "A football captain who fights for fair rules so all players can participate equally",
+        "B": "A cricket player who only focuses on their own performance", 
+        "C": "A teacher who gives different treatment to smart and average students",
+        "D": "A coach who plays only the strongest players"
+      },
+      "correct_answer": "A",
+      "explanation": "Like a football captain who advocates for fair rules that allow all players - regardless of size, speed, or background - to participate equally, Dr. Ambedkar fought for constitutional provisions that would ensure equality for all marginalized groups.",
+      "analogy": "football_captain_fair_rules"
+    },
+    {
+      "id": 18,
+      "theme": "Social Activism",
+      "difficulty": "hard",
+      "question": "When people opposed Dr. Ambedkar's ideas, he 'stood firm, argued, convinced, and fought for every progressive provision.' How is this like a chess player fighting against a stronger opponent?",
+      "options": {
+        "A": "The chess player gives up when behind in pieces",
+        "B": "The chess player uses strategy, persistence, and logical arguments to gradually improve their position and win through perseverance",
+        "C": "The chess player tries to change the rules mid-game",
+        "D": "The chess player asks for help from spectators"
+      },
+      "correct_answer": "B",
+      "explanation": "Just as a skilled chess player facing a stronger opponent uses strategic thinking, patience, and logical moves to gradually improve their position, Dr. Ambedkar used logical arguments, persistence, and strategic advocacy to gradually build support for progressive constitutional provisions.",
+      "analogy": "chess_strategic_persistence"
+    },
+    {
+      "id": 19,
+      "theme": "Social Activism",
+      "difficulty": "medium",
+      "question": "Dr. Ambedkar believed in the power of debate and discussion for democracy. This is most like:",
+      "options": {
+        "A": "A student who never asks questions in class",
+        "B": "A team meeting where players discuss tactics and everyone gets to share their ideas before deciding on the game plan",
+        "C": "A coach who makes all decisions without consulting players",
+        "D": "A game where only one person decides all the rules"
+      },
+      "correct_answer": "B",
+      "explanation": "Just as a good team meeting allows all players to contribute ideas and discuss strategies before choosing the best plan, Dr. Ambedkar designed India's parliamentary system to encourage debate and discussion for better democratic decisions.",
+      "analogy": "team_meeting_democracy"
+    },
+    {
+      "id": 20,
+      "theme": "Social Activism",
+      "difficulty": "easy",
+      "question": "Dr. Ambedkar said 'Democracy is not merely a form of Government. It is primarily a mode of associated living.' What does this mean using a cricket team analogy?",
+      "options": {
+        "A": "Cricket is only about winning matches",
+        "B": "Democracy, like cricket, is about how people work together, support each other, and live with dignity - not just about elections",
+        "C": "Both cricket and democracy are just entertainment for spectators", 
+        "D": "Democracy and cricket are completely unrelated concepts"
+      },
+      "correct_answer": "B",
+      "explanation": "Just as cricket is not just about winning but about how teammates support each other, play fairly, and build respect, democracy is not just about elections but about how people treat each other with dignity and work together for the common good.",
+      "analogy": "cricket_team_spirit"
+    },
+    {
+      "id": 21,
+      "theme": "Social Activism",
+      "difficulty": "hard",
+      "question": "How did Dr. Ambedkar's activism influence the constitutional provision for reservations for Dalits and Adivasis, similar to how sports teams create special programs to include underrepresented groups?",
+      "options": {
+        "A": "He included reservations out of anger and revenge",
+        "B": "He designed reservations as temporary measures to provide equal opportunities to historically marginalized communities who were denied access to education and jobs",
+        "C": "He copied this idea from other countries",
+        "D": "He did it to favor one community over others"
+      },
+      "correct_answer": "B",
+      "explanation": "Just as sports teams create special training programs or scholarships to help underrepresented groups develop skills and get fair opportunities, Dr. Ambedkar designed reservations as constitutional measures to provide equal opportunities to communities historically denied access to education and employment.",
+      "analogy": "sports_programs_inclusion"
+    },
+    {
+      "id": 22,
+      "theme": "Social Activism",
+      "difficulty": "medium",
+      "question": "Dr. Ambedkar led social movements despite facing health problems and opposition. This is most like:",
+      "options": {
+        "A": "An athlete who stops training when facing difficulties",
+        "B": "A marathon runner who continues running despite pain because finishing the race is more important than temporary discomfort",
+        "C": "A student who gives up on difficult subjects",
+        "D": "A teacher who stops teaching when facing difficult students"
+      },
+      "correct_answer": "B",
+      "explanation": "Like a determined marathon runner who understands that the temporary pain of running is worth the achievement of finishing the race, Dr. Ambedkar continued his social activism despite health problems and opposition because creating justice for millions was more important than his personal comfort.",
+      "analogy": "marathon_determination"
+    },
+    {
+      "id": 23,
+      "theme": "Social Activism", 
+      "difficulty": "easy",
+      "question": "Dr. Ambedkar's activism was not just about fighting against something, but about building something positive. This is like:",
+      "options": {
+        "A": "A student who only complains about bad teachers but doesn't study",
+        "B": "A builder who not only demolishes unsafe buildings but also constructs safe, beautiful new ones",
+        "C": "A gardener who only removes weeds but never plants flowers",
+        "D": "A doctor who only identifies diseases but never provides treatment"
+      },
+      "correct_answer": "B",
+      "explanation": "Just as a skilled builder doesn't just tear down unsafe structures but also creates safe, beautiful new ones, Dr. Ambedkar didn't just fight against discrimination - he actively built a constitutional framework that would create equality and justice.",
+      "analogy": "builder_demolition_and_construction"
+    },
+    {
+      "id": 24,
+      "theme": "Constitutional Philosophy",
+      "difficulty": "medium",
+      "question": "Dr. Ambedkar designed the Constitution around three main pillars: Liberty, Equality, and Fraternity. This is most similar to:",
+      "options": {
+        "A": "A basketball team that focuses only on scoring points",
+        "B": "A three-legged stool where each leg (Liberty, Equality, Fraternity) is essential for the stool to be stable and functional",
+        "C": "A single mountain peak with no supporting structure",
+        "D": "A house with only one strong pillar"
+      },
+      "correct_answer": "B",
+      "explanation": "Just as a three-legged stool needs all three legs to be stable and useful, India's constitutional foundation needed all three pillars - Liberty (freedom), Equality (no high and low), and Fraternity (unity) - to function properly and serve all people.",
+      "analogy": "three_legged_stool_stability"
+    },
+    {
+      "id": 25,
+      "theme": "Constitutional Philosophy",
+      "difficulty": "easy",
+      "question": "When Dr. Ambedkar wrote about 'Liberty,' he meant people should be free to choose their religion, express thoughts, move freely, and choose profession. This is like:",
+      "options": {
+        "A": "A game with strict rules that players cannot change",
+        "B": "A playground where children can choose different games, express their ideas, move around freely, and play any role they want",
+        "C": "A classroom where only the teacher can make decisions",
+        "D": "A library with only certain books available"
+      },
+      "correct_answer": "B",
+      "explanation": "Just as a good playground allows children to choose activities, share their ideas, move freely, and play different roles, Dr. Ambedkar's Liberty pillar ensures citizens have these fundamental freedoms in life.",
+      "analogy": "playground_freedom"
+    },
+    {
+      "id": 26,
+      "theme": "Constitutional Philosophy", 
+      "difficulty": "medium",
+      "question": "Dr. Ambedkar made 'Equality' the heart of the Constitution because of his experience with caste discrimination. This means:",
+      "options": {
+        "A": "Everyone should be treated exactly the same in all situations",
+        "B": "Everyone should have equal opportunities and be treated with dignity regardless of birth, caste, religion, or gender",
+        "C": "Everyone should have identical lifestyles and choices",
+        "D": "Everyone should have the same physical abilities"
+      },
+      "correct_answer": "B",
+      "explanation": "Just as in a fair sports tournament where every player gets equal opportunity to compete regardless of their background, Dr. Ambedkar's Equality pillar ensures all citizens have equal opportunities and dignity regardless of their birth circumstances.",
+      "analogy": "fair_sports_tournament"
+    },
+    {
+      "id": 27,
+      "theme": "Constitutional Philosophy",
+      "difficulty": "hard",
+      "question": "Dr. Ambedkar wrote the Preamble to promote 'fraternity' - meaning all Indians should treat each other as brothers and sisters. How is this like building a strong cricket team?",
+      "options": {
+        "A": "Only the best individual players matter",
+        "B": "Like teammates who support each other, share victories and defeats, and work together as a unit despite coming from different backgrounds",
+        "C": "Each player should play only for personal glory",
+        "D": "Team spirit doesn't matter, only individual skills count"
+      },
+      "correct_answer": "B",
+      "explanation": "Just as a successful cricket team needs players to support each other, celebrate together, handle losses together, and work as one unit despite coming from different regions or backgrounds, Dr. Ambedkar's Fraternity principle emphasizes unity and brotherhood among all Indians.",
+      "analogy": "cricket_team_spirit_unity"
+    },
+    {
+      "id": 28,
+      "theme": "Constitutional Philosophy",
+      "difficulty": "easy",
+      "question": "Dr. Ambedkar said the Constitution 'is not a mere lawyer's document; it is a vehicle of Life.' What does this mean?",
+      "options": {
+        "A": "Only lawyers should read and use the Constitution",
+        "B": "The Constitution is like a living, breathing guide that helps people live with dignity and justice, not just a book of rules",
+        "C": "The Constitution should be kept in a lawyer's office only",
+        "D": "The Constitution is too complex for ordinary people to understand"
+      },
+      "correct_answer": "B",
+      "explanation": "Just as a vehicle helps you travel and reach your destination, the Constitution is meant to be a practical guide that helps society travel toward justice, equality, and dignity - it's alive and meant to improve people's lives, not just sit on a shelf.",
+      "analogy": "constitution_as_living_guide"
+    },
+    {
+      "id": 29,
+      "theme": "Constitutional Philosophy",
+      "difficulty": "medium",
+      "question": "How did Dr. Ambedkar's personal experience with discrimination directly shape Article 14 (Right to Equality)?",
+      "options": {
+        "A": "He copied it from another country's constitution",
+        "B": "He was motivated by being denied equal treatment to legally guarantee that every person must be treated equally before the law",
+        "C": "A committee member suggested this to him",
+        "D": "He included it by accident"
+      },
+      "correct_answer": "B",
+      "explanation": "Since Dr. Ambedkar personally experienced being denied equal treatment in school and public spaces, he was personally motivated to draft Article 14 to ensure that no one could ever again be denied equal treatment by law or government.",
+      "analogy": "personal_inequality_to_legal_equality"
+    },
+    {
+      "id": 30,
+      "theme": "Constitutional Philosophy",
+      "difficulty": "hard",
+      "question": "Dr. Ambedkar chose the Parliamentary system because he believed in the power of debate and discussion. This is most like:",
+      "options": {
+        "A": "A chess game where players never talk to each other",
+        "B": "A cricket team meeting where all players discuss strategies, debate ideas, and make decisions together rather than one person deciding everything",
+        "C": "A classroom where only the teacher talks",
+        "D": "A family where only the father makes all decisions"
+      },
+      "correct_answer": "B",
+      "explanation": "Just as a successful cricket team holds regular meetings where players share their ideas, debate different strategies, and make collective decisions rather than following one person's orders, Dr. Ambedkar designed India's parliamentary system to encourage debate and collective decision-making.",
+      "analogy": "cricket_team_strategy_meetings"
+    },
+    {
+      "id": 31,
+      "theme": "Drafting Process",
+      "difficulty": "medium",
+      "question": "Dr. Ambedkar reviewed every single one of the 395 articles multiple times, asking 'Will this protect the weakest person in our society?' This shows:",
+      "options": {
+        "A": "He was being unnecessarily thorough and slow",
+        "B": "His commitment to ensuring that even the most vulnerable people would be protected by constitutional provisions",
+        "C": "He didn't trust the other committee members",
+        "D": "He was trying to make the constitution unnecessarily complex"
+      },
+      "correct_answer": "B",
+      "explanation": "Just as a caring older sibling might check every rule in a household to ensure their younger, smaller siblings are safe and protected, Dr. Ambedkar carefully reviewed every article to ensure that even the most vulnerable people in society would be protected by the Constitution.",
+      "analogy": "caring_sibling_protection"
+    },
+    {
+      "id": 32,
+      "theme": "Drafting Process",
+      "difficulty": "easy",
+      "question": "Dr. Ambedkar's daily routine for drafting the Constitution included early morning research, morning drafting, afternoon meetings, and evening revisions. This is like:",
+      "options": {
+        "A": "A student who studies only at night",
+        "B": "A dedicated athlete who follows a strict training schedule with specific times for different activities to achieve peak performance",
+        "C": "A teacher who prepares lessons randomly",
+        "D": "A musician who practices only on weekends"
+      },
+      "correct_answer": "B",
+      "explanation": "Just as a dedicated athlete follows a structured training schedule with specific times for different exercises to achieve peak performance, Dr. Ambedkar followed a disciplined routine with specific time blocks for research, drafting, consultation, and revision to create the best possible constitution.",
+      "analogy": "athlete_training_schedule"
+    },
+    {
+      "id": 33,
+      "theme": "Drafting Process",
+      "difficulty": "hard",
+      "question": "The Constituent Assembly wanted the Constitution ready quickly, but Dr. Ambedkar refused to rush. He said 'However good a Constitution may be, it is sure to turn out bad because those who are called to work it, happen to be a bad lot.' What did he mean?",
+      "options": {
+        "A": "All politicians are bad people",
+        "B": "A perfect constitution can still fail if the people implementing it lack integrity and commitment to democratic values",
+        "C": "Constitutions are useless documents",
+        "D": "Only perfect people should write constitutions"
+      },
+      "correct_answer": "B",
+      "explanation": "Like a well-designed game that can still be ruined by players who cheat or don't follow the rules, Dr. Ambedkar understood that even a perfect constitution could fail if the people implementing it don't have integrity, honesty, and commitment to democratic principles.",
+      "analogy": "well_designed_game_bad_players"
+    },
+    {
+      "id": 34,
+      "theme": "Drafting Process",
+      "difficulty": "medium",
+      "question": "Dr. Ambedkar organized the Constitution 'like a master architect.' What did he mean by this?",
+      "options": {
+        "A": "He was actually an architect by training",
+        "B": "He carefully designed each part (Foundation: Preamble, Structure: Government Setup, Protection: Rights, Guidance: Directive Principles, Safety: Emergency Provisions) to work together as a complete system",
+        "C": "He copied architectural principles from buildings",
+        "D": "He wanted the Constitution to look beautiful"
+      },
+      "correct_answer": "B",
+      "explanation": "Just as a master architect designs a building with a strong foundation, proper structure, safety features, and all parts working together harmoniously, Dr. Ambedkar designed the Constitution with the Preamble as foundation, government structure, rights as protection, directive principles as guidance, and emergency provisions as safety features.",
+      "analogy": "architectural_design_system"
+    },
+    {
+      "id": 35,
+      "theme": "Drafting Process",
+      "difficulty": "easy",
+      "question": "Dr. Ambedkar was appointed as Chairman of the Constitution Drafting Committee on August 29, 1947. This was like:",
+      "options": {
+        "A": "A student being chosen as class monitor",
+        "B": "A cricket team appointing their most experienced player as captain to lead them to victory",
+        "C": "A teacher giving homework to students",
+        "D": "A parent buying school supplies"
+      },
+      "correct_answer": "B",
+      "explanation": "Just as a cricket team selects their most experienced and capable player as captain to lead them to victory, India selected Dr. Ambedkar as chairman because of his legal expertise, global education, and vision for justice to lead the constitutional drafting process.",
+      "analogy": "cricket_team_captain_appointment"
+    },
+    {
+      "id": 36,
+      "theme": "Drafting Process",
+      "difficulty": "hard",
+      "question": "Why did Dr. Ambedkar include Amendment procedures (Article 368) in the Constitution so it could 'grow and change with time'?",
+      "options": {
+        "A": "Because he made mistakes that needed fixing",
+        "B": "Because he understood that society evolves, and the Constitution should remain relevant by allowing improvements while preserving its core values of justice, liberty, equality, and fraternity",
+        "C": "Because he was unsure about his initial provisions",
+        "D": "Because other countries pressured him to include this"
+      },
+      "correct_answer": "B",
+      "explanation": "Just as a successful sports team updates their strategies and techniques over time while keeping their core values of teamwork and fair play, Dr. Ambedkar designed the Constitution to evolve with changing times while preserving its fundamental principles of justice and equality.",
+      "analogy": "sports_team_evolution_core_values"
+    },
+    {
+      "id": 37,
+      "theme": "Drafting Process",
+      "difficulty": "medium",
+      "question": "Dr. Ambedkar worked on the Constitution for '2 years, 11 months, and 18 days.' This shows:",
+      "options": {
+        "A": "He was slow and inefficient",
+        "B": "His dedication and commitment to creating a comprehensive, well-thought-out framework that would serve future generations",
+        "C": "He was confused about what to include",
+        "D": "He needed more time than expected"
+      },
+      "correct_answer": "B",
+      "explanation": "Like a master craftsman who takes the time needed to create a beautiful, durable piece of furniture that will last for generations, Dr. Ambedkar dedicated nearly three years to carefully craft a constitution that would serve India's future generations.",
+      "analogy": "master_craftsman_dedication"
+    },
+    {
+      "id": 38,
+      "theme": "Constitutional Contributions",
+      "difficulty": "medium",
+      "question": "Dr. Ambedkar is called the 'Father of Fundamental Rights' because he drafted Articles 12-35. These rights act as 'unbreakable shields' protecting citizens. This means:",
+      "options": {
+        "A": "The rights are physical shields that can block attacks",
+        "B": "The constitutional protections are designed to be strong and difficult to break, safeguarding citizens from discrimination, oppression, and injustice",
+        "C": "Rights can only protect wealthy people",
+        "D": "Rights are temporary protections"
+      },
+      "correct_answer": "B",
+      "explanation": "Just as strong shields protect warriors in battle from attacks, Dr. Ambedkar designed Fundamental Rights as strong constitutional protections that safeguard all citizens from discrimination, oppression, and injustice - these rights are meant to be robust and unbreakable.",
+      "analogy": "warrior_shields_protection"
+    },
+    {
+      "id": 39,
+      "theme": "Constitutional Contributions",
+      "difficulty": "easy",
+      "question": "Article 19 (Freedom of Speech) was written because 'his voice was suppressed' as a child. This is most similar to:",
+      "options": {
+        "A": "A classroom where students are not allowed to ask questions",
+        "B": "A cricket match where players can't communicate with each other during the game",
+        "C": "A family dinner where only adults can talk",
+        "D": "A library where people can't whisper"
+      },
+      "correct_answer": "A",
+      "explanation": "Just as some classrooms unfairly prevent students from asking questions or sharing their thoughts, Dr. Ambedkar experienced having his voice silenced and wrote Article 19 to ensure no citizen would face such suppression - everyone should have the freedom to express their thoughts.",
+      "analogy": "classroom_voice_suppression"
+    },
+    {
+      "id": 40,
+      "theme": "Constitutional Contributions",
+      "difficulty": "medium",
+      "question": "Article 21 (Right to Life) was written because Dr. Ambedkar believed 'every life had dignity.' This means:",
+      "options": {
+        "A": "Only wealthy people have the right to live",
+        "B": "Every person has the fundamental right to live with dignity, which includes safety, respect, and the ability to live a meaningful life",
+        "C": "Only certain people deserve to live",
+        "D": "Life is only about physical survival"
+      },
+      "correct_answer": "B",
+      "explanation": "Just as in a fair game where every player deserves to be treated with respect and given the opportunity to participate meaningfully, Dr. Ambedkar wrote Article 21 to ensure every person has the right to live with dignity - which includes safety, respect, and the ability to lead a meaningful life.",
+      "analogy": "fair_game_dignity"
+    },
+    {
+      "id": 41,
+      "theme": "Constitutional Contributions",
+      "difficulty": "hard",
+      "question": "Dr. Ambedkar wrote the Directive Principles (Articles 36-51) as 'his roadmap for creating a just society' including free education, fair wages, healthcare, and environment protection. How is this like a city planner?",
+      "options": {
+        "A": "A city planner only designs roads",
+        "B": "Like a comprehensive city plan that includes not just buildings but also schools, hospitals, parks, and systems to ensure all residents can live healthy, educated, and fulfilling lives",
+        "C": "A city planner only focuses on business districts",
+        "D": "A city planner only designs residential areas"
+      },
+      "correct_answer": "B",
+      "explanation": "Just as a wise city planner designs not just buildings but a complete system with schools for education, hospitals for health, parks for recreation, and infrastructure for fair wages and environment, Dr. Ambedkar designed Directive Principles as a comprehensive roadmap for creating a just society where all these needs are addressed.",
+      "analogy": "comprehensive_city_planning"
+    },
+    {
+      "id": 42,
+      "theme": "Constitutional Contributions",
+      "difficulty": "easy",
+      "question": "The Preamble begins with 'WE, THE PEOPLE OF INDIA' - meaning EVERY person regardless of caste, religion, or gender. This is like:",
+      "options": {
+        "A": "A cricket team that only selects players from one state",
+        "B": "A classroom where every student, regardless of background, gets to participate in setting class rules together",
+        "C": "A family where only adults make decisions",
+        "D": "A game where only certain children can be leaders"
+      },
+      "correct_answer": "B",
+      "explanation": "Just as a classroom where all students - regardless of their background, abilities, or circumstances - participate together in making class rules ensures everyone has a voice, India's Constitution begins with 'WE, THE PEOPLE' to ensure everyone participates in and benefits from the constitutional framework.",
+      "analogy": "classroom_participatory_rules"
+    },
+    {
+      "id": 43,
+      "theme": "Constitutional Contributions",
+      "difficulty": "medium",
+      "question": "Article 32 (Right to Constitutional Remedies) was called by Dr. Ambedkar the 'heart and soul of the Constitution.' This means:",
+      "options": {
+        "A": "It's the most beautiful article in the Constitution",
+        "B": "It's the most essential provision because it gives citizens the power to approach courts when their other rights are violated - it makes all other rights meaningful and enforceable",
+        "C": "It's the longest article in the Constitution",
+        "D": "It's the most difficult article to understand"
+      },
+      "correct_answer": "B",
+      "explanation": "Just as the heart and soul of a person keeps their body alive and gives meaning to all other body parts, Article 32 is the 'heart and soul' of the Constitution because it gives citizens the power to approach courts when their rights are violated, making all other constitutional rights meaningful and enforceable.",
+      "analogy": "heart_soul_essential_for_life"
+    },
+    {
+      "id": 44,
+      "theme": "Constitutional Contributions",
+      "difficulty": "hard",
+      "question": "Dr. Ambedkar designed the Constitution to protect vulnerable groups - children, women, Dalits, Adivasis, and minorities - through special provisions. This is like:",
+      "options": {
+        "A": "A sports team that gives more playing time to stronger players",
+        "B": "A school system that provides extra support, resources, and protections for students who face additional challenges, ensuring everyone has equal opportunity to succeed",
+        "C": "A game where only the fastest players win",
+        "D": "A classroom where only intelligent students get attention"
+      },
+      "correct_answer": "B",
+      "explanation": "Just as a good school system provides extra tutoring, resources, and support for students who face challenges (like learning disabilities or language barriers) to ensure they can succeed, Dr. Ambedkar designed constitutional provisions to protect vulnerable groups and ensure equal opportunities for all.",
+      "analogy": "school_support_systems"
+    },
+    {
+      "id": 45,
+      "theme": "Constitutional Contributions",
+      "difficulty": "easy",
+      "question": "When Dr. Ambedkar said the Constitution would ensure 'every Indian child had the right to education,' this was because he had been denied education opportunities. This is like:",
+      "options": {
+        "A": "A student who got good grades showing off to others",
+        "B": "A successful adult who ensures scholarships are available so no child in their community faces the same educational barriers they experienced",
+        "C": "A teacher who only teaches smart students",
+        "D": "A parent who forces their children to study"
+      },
+      "correct_answer": "B",
+      "explanation": "Just as a successful adult who faced educational barriers as a child would work hard to ensure scholarships and educational opportunities are available so no child in their community faces the same struggles, Dr. Ambedkar ensured constitutional protection for every child's right to education.",
+      "analogy": "successful_adult_scholarships"
+    },
+    {
+      "id": 46,
+      "theme": "Constitutional Philosophy",
+      "difficulty": "medium",
+      "question": "Dr. Ambedkar's final message was that 'the Constitution was not just a document - it was a way of life.' What does this mean?",
+      "options": {
+        "A": "People should memorize the entire Constitution",
+        "B": "The constitutional principles of justice, equality, liberty, and fraternity should guide how people treat each other in daily life, not just in government",
+        "C": "Only lawyers need to follow the Constitution",
+        "D": "The Constitution is too complex for ordinary people to understand"
+      },
+      "correct_answer": "B",
+      "explanation": "Just as good sportsmanship and fair play should guide how athletes behave not just during games but in all aspects of life, Dr. Ambedkar wanted the constitutional principles of justice, equality, liberty, and fraternity to guide how people treat each other every day, creating a truly democratic society.",
+      "analogy": "sportsmanship_daily_life"
+    },
+    {
+      "id": 47,
+      "theme": "Constitutional Contributions",
+      "difficulty": "hard",
+      "question": "Dr. Ambedkar's Constitution became a model for other countries because of its combination of rights and duties, federal structure, and judicial review. This is like:",
+      "options": {
+        "A": "A game that only one team can play",
+        "B": "A successful sports league model that other regions adopt because it balances individual player rights with team responsibilities, has clear governance structures, and includes fair dispute resolution systems",
+        "C": "A simple game that anyone can play",
+        "D": "A game with no clear rules"
+      },
+      "correct_answer": "B",
+      "explanation": "Just as a successful sports league that balances player rights with responsibilities, has clear governance structures, and includes fair systems for resolving disputes becomes a model that other regions adopt, Dr. Ambedkar's Constitution became a global model because it effectively balanced individual rights with civic duties and included strong governance structures.",
+      "analogy": "successful_sports_league_model"
+    },
+    {
+      "id": 48,
+      "theme": "Drafting Process",
+      "difficulty": "easy",
+      "question": "On November 26, 1949, when Dr. Ambedkar presented the final draft and said 'we must make our political democracy a social democracy,' he meant:",
+      "options": {
+        "A": "Elections are the most important part of democracy",
+        "B": "Democracy should not just be about voting - it should create a society where everyone is treated with dignity, equality, and justice in their daily lives",
+        "C": "Only politicians should participate in democracy",
+        "D": "Democracy is too complicated for ordinary people"
+      },
+      "correct_answer": "B",
+      "explanation": "Just as a successful cricket team doesn't just win matches but also ensures all members support each other, respect each other, and work together with dignity both on and off the field, Dr. Ambedkar wanted democracy to create a society where everyone practices equality and justice in their daily interactions, not just during elections.",
+      "analogy": "cricket_team_daily_dignity"
+    },
+    {
+      "id": 49,
+      "theme": "Educational Journey",
+      "difficulty": "medium",
+      "question": "Dr. Ambedkar's journey from facing discrimination to becoming the Constitution's architect shows that:",
+      "options": {
+        "A": "People from marginalized backgrounds can never succeed",
+        "B": "Personal pain and struggle can be transformed into powerful tools for creating positive change for society when combined with education and determination",
+        "C": "Success is only possible through government help",
+        "D": "Discrimination always leads to failure"
+      },
+      "correct_answer": "B",
+      "explanation": "Like a determined student who faces bullying but uses that experience to become a counselor helping other bullied students, Dr. Ambedkar transformed his personal experiences of discrimination into powerful motivation and knowledge that he used to create constitutional protections for millions.",
+      "analogy": "bullying_survivor_to_counselor"
+    },
+    {
+      "id": 50,
+      "theme": "Constitutional Philosophy",
+      "difficulty": "hard",
+      "question": "Dr. Ambedkar's greatest achievement was not just writing the Constitution, but creating a 'living document' that could grow and change while keeping core values. This is like:",
+      "options": {
+        "A": "A book that should never be updated or changed",
+        "B": "A tree that grows taller and stronger each year while its roots (core values) remain deep and stable, providing shade and fruit for future generations",
+        "C": "A building that should never be renovated",
+        "D": "A game that should never evolve or add new rules"
+      },
+      "correct_answer": "B",
+      "explanation": "Just as a tree grows taller and stronger each year, providing more shade and fruit while its roots remain deep and stable, Dr. Ambedkar designed the Constitution as a 'living document' that can adapt and grow with changing times while preserving its core values of justice, liberty, equality, and fraternity.",
+      "analogy": "growing_tree_stable_roots"
+    }
+  ]
+}

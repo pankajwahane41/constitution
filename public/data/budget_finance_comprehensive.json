@@ -1,0 +1,1352 @@
+[
+  {
+    "id": 1,
+    "category": "A",
+    "topic": "Budget Definition",
+    "question_text": "What is a budget?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) A list of things you want to buy",
+      "B) A plan for how to use your money",
+      "C) Money you have saved up",
+      "D) A calculator for doing math"
+    ],
+    "correct_answer": "B) A plan for how to use your money",
+    "rationale": "A budget is a plan that helps you decide how to use your money wisely.",
+    "difficulty": 1,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding what a budget is and its purpose"
+  },
+  {
+    "id": 2,
+    "category": "A",
+    "topic": "Basic Calculations",
+    "question_text": "If you have $20 allowance and want to save $8, how much can you spend?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) $8",
+      "B) $12",
+      "C) $20",
+      "D) $28"
+    ],
+    "correct_answer": "B) $12",
+    "rationale": "$20 - $8 = $12 remaining for spending.",
+    "difficulty": 1,
+    "analogy_type": "pocket_money",
+    "learning_objective": "Basic budget calculation and subtraction"
+  },
+  {
+    "id": 3,
+    "category": "A",
+    "topic": "Emergency Fund",
+    "question_text": "Why is it important to have an emergency fund?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) To buy more toys",
+      "B) To pay for unexpected expenses",
+      "C) To make you feel rich",
+      "D) To show off to friends"
+    ],
+    "correct_answer": "B) To pay for unexpected expenses",
+    "rationale": "Emergency funds help you handle surprise costs like broken items or urgent needs.",
+    "difficulty": 1,
+    "analogy_type": "pocket_money",
+    "learning_objective": "Understanding the importance of emergency savings"
+  },
+  {
+    "id": 4,
+    "category": "A",
+    "topic": "Savings Percentage",
+    "question_text": "What percentage of allowance should a family typically try to save each month?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) 5-10%",
+      "B) 15-20%",
+      "C) 50%",
+      "D) All of it"
+    ],
+    "correct_answer": "B) 15-20%",
+    "rationale": "Financial experts recommend saving 15-20% of income for future needs and emergencies.",
+    "difficulty": 2,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding recommended savings rates"
+  },
+  {
+    "id": 5,
+    "category": "A",
+    "topic": "Priority Setting",
+    "question_text": "When making a budget, what should come first?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) Fun things you want to buy",
+      "B) Basic needs like food and housing",
+      "C) Expensive items",
+      "D) Gifts for friends"
+    ],
+    "correct_answer": "B) Basic needs like food and housing",
+    "rationale": "Meeting basic needs ensures safety and health before considering other expenses.",
+    "difficulty": 1,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding budget priorities and needs vs wants"
+  },
+  {
+    "id": 6,
+    "category": "A",
+    "topic": "Budget Review",
+    "question_text": "How often should a family review and update their budget?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) Once a year",
+      "B) Every month",
+      "C) Only when money runs out",
+      "D) Never"
+    ],
+    "correct_answer": "B) Every month",
+    "rationale": "Regular budget reviews help families stay on track and adjust to changing needs.",
+    "difficulty": 1,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding the importance of regular budget maintenance"
+  },
+  {
+    "id": 7,
+    "category": "A",
+    "topic": "Financial Goals",
+    "question_text": "What is a financial goal?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) A wish list",
+      "B) A specific, measurable target for saving or spending",
+      "C) Any amount of money",
+      "D) A loan from a bank"
+    ],
+    "correct_answer": "B) A specific, measurable target for saving or spending",
+    "rationale": "Financial goals give direction to budgeting and help measure progress.",
+    "difficulty": 2,
+    "analogy_type": "pocket_money",
+    "learning_objective": "Understanding how to set effective financial goals"
+  },
+  {
+    "id": 8,
+    "category": "A",
+    "topic": "Goal Achievement",
+    "question_text": "If your family wants to buy a $200 bicycle and saves $25 each month, how many months will it take?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) 6 months",
+      "B) 8 months",
+      "C) 10 months",
+      "D) 12 months"
+    ],
+    "correct_answer": "B) 8 months",
+    "rationale": "$200 ÷ $25 = 8 months to reach the savings goal.",
+    "difficulty": 2,
+    "analogy_type": "pocket_money",
+    "learning_objective": "Calculating time needed to reach savings goals"
+  },
+  {
+    "id": 9,
+    "category": "A",
+    "topic": "Living Within Means",
+    "question_text": "What does 'living within your means' mean?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) Spending more than you have",
+      "B) Spending only what you can afford",
+      "C) Borrowing money constantly",
+      "D) Never spending anything"
+    ],
+    "correct_answer": "B) Spending only what you can afford",
+    "rationale": "Living within your means ensures financial stability and avoids debt.",
+    "difficulty": 2,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding financial responsibility and debt avoidance"
+  },
+  {
+    "id": 10,
+    "category": "A",
+    "topic": "Needs vs Wants",
+    "question_text": "What is the difference between wants and needs?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) They are the same thing",
+      "B) Needs are essential, wants are nice to have",
+      "C) Wants are more important",
+      "D) Needs are more expensive"
+    ],
+    "correct_answer": "B) Needs are essential, wants are nice to have",
+    "rationale": "Understanding this distinction helps prioritize spending in budgets.",
+    "difficulty": 1,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Distinguishing between essential needs and discretionary wants"
+  },
+  {
+    "id": 11,
+    "category": "A",
+    "topic": "Budget Flexibility",
+    "question_text": "When might a family need to adjust their budget?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) When income changes",
+      "B) When unexpected expenses occur",
+      "C) When priorities shift",
+      "D) All of the above"
+    ],
+    "correct_answer": "D) All of the above",
+    "rationale": "Budgets should be flexible to adapt to life's changes and challenges.",
+    "difficulty": 2,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding budget adaptability and change management"
+  },
+  {
+    "id": 12,
+    "category": "A",
+    "topic": "Opportunity Cost",
+    "question_text": "What is opportunity cost in budgeting?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) The money you spend",
+      "B) What you give up when making a choice",
+      "C) The interest on a loan",
+      "D) A tax payment"
+    ],
+    "correct_answer": "B) What you give up when making a choice",
+    "rationale": "Every spending decision involves giving up other possible uses for that money.",
+    "difficulty": 3,
+    "analogy_type": "pocket_money",
+    "learning_objective": "Understanding trade-offs in financial decision-making"
+  },
+  {
+    "id": 13,
+    "category": "A",
+    "topic": "Expense Tracking",
+    "question_text": "Why do families need to track their expenses?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) To impress others",
+      "B) To understand where money goes and identify savings opportunities",
+      "C) It's not necessary",
+      "D) Only for tax purposes"
+    ],
+    "correct_answer": "B) To understand where money goes and identify savings opportunities",
+    "rationale": "Tracking expenses helps families make informed decisions and control spending.",
+    "difficulty": 2,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding the importance of expense tracking and monitoring"
+  },
+  {
+    "id": 14,
+    "category": "A",
+    "topic": "Sinking Funds",
+    "question_text": "What is a sinking fund?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) Money that sinks in water",
+      "B) Money saved regularly for a specific future expense",
+      "C) A type of investment",
+      "D) Money borrowed from a bank"
+    ],
+    "correct_answer": "B) Money saved regularly for a specific future expense",
+    "rationale": "Sinking funds help families prepare for planned large expenses.",
+    "difficulty": 2,
+    "analogy_type": "pocket_money",
+    "learning_objective": "Understanding targeted savings for specific purposes"
+  },
+  {
+    "id": 15,
+    "category": "A",
+    "topic": "Budget Surplus",
+    "question_text": "When creating a budget, what should you do with any money left over?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) Spend it immediately",
+      "B) Save or invest it",
+      "C) Give it away",
+      "D) Hide it"
+    ],
+    "correct_answer": "B) Save or invest it",
+    "rationale": "Surplus money should be saved for future needs or invested to grow wealth.",
+    "difficulty": 2,
+    "analogy_type": "pocket_money",
+    "learning_objective": "Understanding how to handle budget surplus effectively"
+  },
+  {
+    "id": 16,
+    "category": "B",
+    "topic": "Tax Purpose",
+    "question_text": "What is the main purpose of taxes?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) To make government rich",
+      "B) To fund public services and infrastructure",
+      "C) To control people",
+      "D) To reward the government"
+    ],
+    "correct_answer": "B) To fund public services and infrastructure",
+    "rationale": "Taxes provide the revenue needed to build and maintain public services that benefit everyone.",
+    "difficulty": 1,
+    "analogy_type": "community_fund",
+    "learning_objective": "Understanding the fundamental purpose of taxation"
+  },
+  {
+    "id": 17,
+    "category": "B",
+    "topic": "Tax Types",
+    "question_text": "What are the main types of taxes?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) Income tax, sales tax, property tax",
+      "B) Only income tax",
+      "C) Only sales tax",
+      "D) Only property tax"
+    ],
+    "correct_answer": "A) Income tax, sales tax, property tax",
+    "rationale": "Governments use multiple tax types to generate revenue for public services.",
+    "difficulty": 1,
+    "analogy_type": "community_fund",
+    "learning_objective": "Basic understanding of different tax categories"
+  },
+  {
+    "id": 18,
+    "category": "B",
+    "topic": "Progressive Taxation",
+    "question_text": "What does a progressive tax system mean?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) Everyone pays the same amount",
+      "B) People with higher income pay a higher percentage",
+      "C) Only the rich pay taxes",
+      "D) No one pays taxes"
+    ],
+    "correct_answer": "B) People with higher income pay a higher percentage",
+    "rationale": "Progressive taxation ensures that those who can afford more contribute proportionally more.",
+    "difficulty": 2,
+    "analogy_type": "fair_sharing",
+    "learning_objective": "Understanding progressive taxation principles"
+  },
+  {
+    "id": 19,
+    "category": "B",
+    "topic": "Tax Usage",
+    "question_text": "What do government taxes primarily fund?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) Private companies",
+      "B) Schools, hospitals, roads, police, and other public services",
+      "C) Government officials' salaries only",
+      "D) Nothing useful"
+    ],
+    "correct_answer": "B) Schools, hospitals, roads, police, and other public services",
+    "rationale": "Tax revenue funds essential public services that benefit all community members.",
+    "difficulty": 1,
+    "analogy_type": "community_fund",
+    "learning_objective": "Understanding public services funded by taxes"
+  },
+  {
+    "id": 20,
+    "category": "B",
+    "topic": "Tax Credits",
+    "question_text": "What is a tax credit?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) Money taken directly off your tax bill",
+      "B) Extra money the government gives you",
+      "C) A discount at stores",
+      "D) A loan from the government"
+    ],
+    "correct_answer": "A) Money taken directly off your tax bill",
+    "rationale": "Tax credits reduce the amount of tax you owe dollar-for-dollar.",
+    "difficulty": 2,
+    "analogy_type": "pocket_money",
+    "learning_objective": "Understanding tax credit concepts and benefits"
+  },
+  {
+    "id": 21,
+    "category": "B",
+    "topic": "Tax Compliance",
+    "question_text": "Why is tax compliance important?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) To avoid getting in trouble",
+      "B) To fund essential public services that everyone uses",
+      "C) Only to help the rich",
+      "D) It's not important"
+    ],
+    "correct_answer": "B) To fund essential public services that everyone uses",
+    "rationale": "Tax compliance ensures that everyone contributes to funding public services and infrastructure.",
+    "difficulty": 2,
+    "analogy_type": "community_fund",
+    "learning_objective": "Understanding civic responsibility in taxation"
+  },
+  {
+    "id": 22,
+    "category": "B",
+    "topic": "Tax Avoidance vs Evasion",
+    "question_text": "What is the difference between tax avoidance and tax evasion?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) They are the same thing",
+      "B) Avoidance is legal, evasion is illegal",
+      "C) Avoidance is illegal",
+      "D) Evasion is legal"
+    ],
+    "correct_answer": "B) Avoidance is legal, evasion is illegal",
+    "rationale": "Tax avoidance uses legal methods to minimize taxes, while tax evasion is illegal.",
+    "difficulty": 2,
+    "analogy_type": "community_fund",
+    "learning_objective": "Understanding legal vs illegal tax practices"
+  },
+  {
+    "id": 23,
+    "category": "B",
+    "topic": "Regressive Taxes",
+    "question_text": "What is a regressive tax?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) Takes larger percentage from high-income people",
+      "B) Takes larger percentage from low-income people",
+      "C) Takes same percentage from everyone",
+      "D) Only affects businesses"
+    ],
+    "correct_answer": "B) Takes larger percentage from low-income people",
+    "rationale": "Regressive taxes place a heavier burden on those with lower incomes.",
+    "difficulty": 3,
+    "analogy_type": "fair_sharing",
+    "learning_objective": "Understanding tax fairness concepts and regressive taxation"
+  },
+  {
+    "id": 24,
+    "category": "B",
+    "topic": "Flat Taxes",
+    "question_text": "What is a flat tax?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) Different rates for different people",
+      "B) Same percentage rate for all income levels",
+      "C) Only on luxury items",
+      "D) No tax at all"
+    ],
+    "correct_answer": "B) Same percentage rate for all income levels",
+    "rationale": "A flat tax applies the same percentage rate regardless of income level.",
+    "difficulty": 2,
+    "analogy_type": "fair_sharing",
+    "learning_objective": "Understanding different tax structures and flat taxation"
+  },
+  {
+    "id": 25,
+    "category": "B",
+    "topic": "User Fees",
+    "question_text": "What is a user fee?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) A tax on all citizens",
+      "B) A payment for using a specific public service",
+      "C) A fine for breaking rules",
+      "D) A donation to charity"
+    ],
+    "correct_answer": "B) A payment for using a specific public service",
+    "rationale": "User fees help fund specific services that benefit particular users.",
+    "difficulty": 2,
+    "analogy_type": "community_fund",
+    "learning_objective": "Understanding user fees and service-based taxation"
+  },
+  {
+    "id": 26,
+    "category": "B",
+    "topic": "No Taxation Without Representation",
+    "question_text": "Why do some people believe in 'no taxation without representation'?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) Taxes should only be paid by representatives",
+      "B) People should have a say in how their tax money is used",
+      "C) Taxes should not exist",
+      "D) Only smart people should pay taxes"
+    ],
+    "correct_answer": "B) People should have a say in how their tax money is used",
+    "rationale": "This principle emphasizes that taxpayers deserve input on government spending decisions.",
+    "difficulty": 2,
+    "analogy_type": "community_fund",
+    "learning_objective": "Understanding democratic principles in taxation"
+  },
+  {
+    "id": 27,
+    "category": "B",
+    "topic": "Tax Fairness",
+    "question_text": "What is tax fairness?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) Everyone paying the same dollar amount",
+      "B) People paying according to their ability to pay",
+      "C) Only rich people paying taxes",
+      "D) No one paying taxes"
+    ],
+    "correct_answer": "B) People paying according to their ability to pay",
+    "rationale": "Tax fairness means contributions should be proportional to financial capacity.",
+    "difficulty": 2,
+    "analogy_type": "fair_sharing",
+    "learning_objective": "Understanding fairness and equity in taxation"
+  },
+  {
+    "id": 28,
+    "category": "C",
+    "topic": "Government Priorities",
+    "question_text": "If a government has limited money and must choose between funding schools or building a new stadium, what should be the priority?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) Building the stadium",
+      "B) Funding schools",
+      "C) Building more roads",
+      "D) It doesn't matter"
+    ],
+    "correct_answer": "B) Funding schools",
+    "rationale": "Education has long-term benefits for society and is considered a higher priority than entertainment.",
+    "difficulty": 2,
+    "analogy_type": "fair_sharing",
+    "learning_objective": "Understanding government priority setting and resource allocation"
+  },
+  {
+    "id": 29,
+    "category": "C",
+    "topic": "Opportunity Cost in Government",
+    "question_text": "What is opportunity cost in government spending?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) The money spent on a project",
+      "B) The value of the next best alternative given up",
+      "C) A type of tax",
+      "D) The interest on a loan"
+    ],
+    "correct_answer": "B) The value of the next best alternative given up",
+    "rationale": "Every spending decision involves giving up other possible uses for that money.",
+    "difficulty": 3,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding trade-offs in government spending decisions"
+  },
+  {
+    "id": 30,
+    "category": "C",
+    "topic": "Capital Expenditures",
+    "question_text": "What are capital expenditures?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) Daily operational costs",
+      "B) Long-term investments like infrastructure and buildings",
+      "C) Employee salaries",
+      "D) Office supplies"
+    ],
+    "correct_answer": "B) Long-term investments like infrastructure and buildings",
+    "rationale": "Capital expenditures create lasting assets that benefit society for many years.",
+    "difficulty": 2,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding different types of government spending"
+  },
+  {
+    "id": 31,
+    "category": "C",
+    "topic": "Operating Expenditures",
+    "question_text": "What are operating expenditures?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) Money for building new facilities",
+      "B) Day-to-day costs of running services like salaries and maintenance",
+      "C) Long-term investments",
+      "D) Emergency spending"
+    ],
+    "correct_answer": "B) Day-to-day costs of running services like salaries and maintenance",
+    "rationale": "Operating expenditures cover the ongoing costs necessary to maintain public services.",
+    "difficulty": 2,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding operational vs capital spending"
+  },
+  {
+    "id": 32,
+    "category": "C",
+    "topic": "Equity in Allocation",
+    "question_text": "When allocating resources, what does 'equity' mean?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) Everyone gets exactly the same amount",
+      "B) Resources are distributed fairly based on needs and circumstances",
+      "C) Only the rich get resources",
+      "D) Resources are given randomly"
+    ],
+    "correct_answer": "B) Resources are distributed fairly based on needs and circumstances",
+    "rationale": "Equity considers individual circumstances to ensure fair outcomes for all.",
+    "difficulty": 2,
+    "analogy_type": "fair_sharing",
+    "learning_objective": "Understanding equity vs equality in resource distribution"
+  },
+  {
+    "id": 33,
+    "category": "C",
+    "topic": "Earmarking",
+    "question_text": "What is earmarking in government spending?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) Spending money on anything",
+      "B) Designating specific funds for particular purposes",
+      "C) Hiding money from oversight",
+      "D) Giving money to friends"
+    ],
+    "correct_answer": "B) Designating specific funds for particular purposes",
+    "rationale": "Earmarking ensures that revenue is used for intended purposes rather than general budget.",
+    "difficulty": 2,
+    "analogy_type": "pocket_money",
+    "learning_objective": "Understanding targeted funding and earmarking concepts"
+  },
+  {
+    "id": 34,
+    "category": "C",
+    "topic": "Infrastructure Investment",
+    "question_text": "Why might a government choose to invest in public infrastructure?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) To create jobs and improve quality of life",
+      "B) To make politicians popular",
+      "C) To spend money quickly",
+      "D) To ignore future needs"
+    ],
+    "correct_answer": "A) To create jobs and improve quality of life",
+    "rationale": "Infrastructure investment provides long-term economic and social benefits to society.",
+    "difficulty": 2,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding the value of public infrastructure investment"
+  },
+  {
+    "id": 35,
+    "category": "C",
+    "topic": "Tragedy of Commons",
+    "question_text": "What is the 'tragedy of the commons' in resource allocation?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) When everyone shares resources fairly",
+      "B) When resources are overused because no one owns them",
+      "C) When resources are stored but not used",
+      "D) When resources are distributed equally"
+    ],
+    "correct_answer": "B) When resources are overused because no one owns them",
+    "rationale": "This concept explains why some shared resources need regulation and management.",
+    "difficulty": 3,
+    "analogy_type": "community_fund",
+    "learning_objective": "Understanding resource management challenges in shared systems"
+  },
+  {
+    "id": 36,
+    "category": "C",
+    "topic": "Economic Downturn Priorities",
+    "question_text": "How do governments typically prioritize spending during economic downturns?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) Cut all spending",
+      "B) Focus on essential services and economic stimulus",
+      "C) Only fund military",
+      "D) Stop all public services"
+    ],
+    "correct_answer": "B) Focus on essential services and economic stimulus",
+    "rationale": "During crises, governments prioritize vital services and economic support programs.",
+    "difficulty": 2,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding budget priorities during economic challenges"
+  },
+  {
+    "id": 37,
+    "category": "C",
+    "topic": "Zero-Sum Games",
+    "question_text": "What is a zero-sum game in resource allocation?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) Everyone wins",
+      "B) When one person's gain requires another person's loss",
+      "C) When no one loses",
+      "D) When resources multiply"
+    ],
+    "correct_answer": "B) When one person's gain requires another person's loss",
+    "rationale": "In zero-sum situations, the total amount is fixed, so one benefit must come at another's expense.",
+    "difficulty": 3,
+    "analogy_type": "fair_sharing",
+    "learning_objective": "Understanding competitive resource allocation scenarios"
+  },
+  {
+    "id": 38,
+    "category": "C",
+    "topic": "Cost-Benefit Analysis",
+    "question_text": "Why do governments use cost-benefit analysis?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) To confuse people",
+      "B) To determine if a project is worth the investment",
+      "C) To waste time",
+      "D) To avoid making decisions"
+    ],
+    "correct_answer": "B) To determine if a project is worth the investment",
+    "rationale": "Cost-benefit analysis helps ensure that government spending provides maximum value to society.",
+    "difficulty": 3,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding decision-making tools in government spending"
+  },
+  {
+    "id": 39,
+    "category": "C",
+    "topic": "Budget Time Horizons",
+    "question_text": "What is the time horizon for government budget planning?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) Only one year",
+      "B) Multiple years, including short-term, medium-term, and long-term planning",
+      "C) Ten years only",
+      "D) No planning horizon"
+    ],
+    "correct_answer": "B) Multiple years, including short-term, medium-term, and long-term planning",
+    "rationale": "Effective government budgeting considers various time horizons to address immediate and future needs.",
+    "difficulty": 2,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding multi-year budget planning and strategic thinking"
+  },
+  {
+    "id": 40,
+    "category": "D",
+    "topic": "Record Keeping",
+    "question_text": "Why is it important to keep receipts for expenses?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) To show off to friends",
+      "B) To track spending and verify purchases",
+      "C) They're not important",
+      "D) To fill up drawers"
+    ],
+    "correct_answer": "B) To track spending and verify purchases",
+    "rationale": "Receipts provide proof of purchases and help track where money was spent.",
+    "difficulty": 1,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding the importance of documentation and record keeping"
+  },
+  {
+    "id": 41,
+    "category": "D",
+    "topic": "Budget Variance",
+    "question_text": "What is a budget variance?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) When spending matches the budget exactly",
+      "B) The difference between planned and actual spending",
+      "C) A type of tax",
+      "D) A government report"
+    ],
+    "correct_answer": "B) The difference between planned and actual spending",
+    "rationale": "Budget variances help identify when spending differs from plans and why.",
+    "difficulty": 2,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding budget monitoring and variance analysis"
+  },
+  {
+    "id": 42,
+    "category": "D",
+    "topic": "Audit Purpose",
+    "question_text": "What is the purpose of a government audit?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) To find mistakes and ensure money is used properly",
+      "B) To punish government workers",
+      "C) To waste time and money",
+      "D) To confuse taxpayers"
+    ],
+    "correct_answer": "A) To find mistakes and ensure money is used properly",
+    "rationale": "Audits help maintain accountability and prevent fraud in government spending.",
+    "difficulty": 2,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding the purpose and importance of audits"
+  },
+  {
+    "id": 43,
+    "category": "D",
+    "topic": "Financial Transparency",
+    "question_text": "What does financial transparency mean?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) Hiding information from citizens",
+      "B) Making financial information accessible and understandable to the public",
+      "C) Only showing good news",
+      "D) Keeping secrets"
+    ],
+    "correct_answer": "B) Making financial information accessible and understandable to the public",
+    "rationale": "Transparency allows citizens to understand how their tax money is being used.",
+    "difficulty": 2,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding government transparency and public accountability"
+  },
+  {
+    "id": 44,
+    "category": "D",
+    "topic": "Internal Controls",
+    "question_text": "What is internal control in government finance?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) Systems to prevent fraud and ensure accuracy",
+      "B) Ways to hide mistakes",
+      "C) Methods to spend more money",
+      "D) Tools to avoid audits"
+    ],
+    "correct_answer": "A) Systems to prevent fraud and ensure accuracy",
+    "rationale": "Internal controls protect public funds through checks, balances, and oversight.",
+    "difficulty": 3,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding financial oversight and control systems"
+  },
+  {
+    "id": 45,
+    "category": "D",
+    "topic": "Authorized vs Actual Spending",
+    "question_text": "What is the difference between authorized and actual spending?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) They are the same thing",
+      "B) Authorized is approved by law, actual is what was spent",
+      "C) Authorized is more important",
+      "D) Actual spending doesn't matter"
+    ],
+    "correct_answer": "B) Authorized is approved by law, actual is what was spent",
+    "rationale": "Understanding this difference helps track budget compliance and execution.",
+    "difficulty": 3,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding budget authorization and execution processes"
+  },
+  {
+    "id": 46,
+    "category": "D",
+    "topic": "Performance Auditing",
+    "question_text": "What is performance auditing?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) Checking if laws were followed",
+      "B) Evaluating whether programs achieved their intended goals",
+      "C) Counting money",
+      "D) Finding accounting errors"
+    ],
+    "correct_answer": "B) Evaluating whether programs achieved their intended goals",
+    "rationale": "Performance auditing helps determine if government spending is effective and achieves results.",
+    "difficulty": 3,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding effectiveness evaluation in government programs"
+  },
+  {
+    "id": 47,
+    "category": "D",
+    "topic": "Budget Documents",
+    "question_text": "Why do governments publish budget documents?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) To confuse citizens",
+      "B) To increase transparency and allow public scrutiny",
+      "C) To waste paper",
+      "D) To hide information"
+    ],
+    "correct_answer": "B) To increase transparency and allow public scrutiny",
+    "rationale": "Published budget documents help citizens understand and evaluate government spending priorities.",
+    "difficulty": 2,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding public disclosure and government accountability"
+  },
+  {
+    "id": 48,
+    "category": "D",
+    "topic": "Single Audit",
+    "question_text": "What is a single audit?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) One type of government audit",
+      "B) An audit that covers all federal grants received by an organization",
+      "C) A quick audit",
+      "D) An audit done by one person"
+    ],
+    "correct_answer": "B) An audit that covers all federal grants received by an organization",
+    "rationale": "Single audits ensure that organizations properly use federal grant funding.",
+    "difficulty": 3,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding grant compliance and oversight requirements"
+  },
+  {
+    "id": 49,
+    "category": "D",
+    "topic": "Fiscal vs Calendar Year",
+    "question_text": "What is meant by 'fiscal year' vs 'calendar year'?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) They are the same thing",
+      "B) Fiscal year is a 12-month budget period that may not match the calendar year",
+      "C) Calendar year is more important",
+      "D) Fiscal year is always better"
+    ],
+    "correct_answer": "B) Fiscal year is a 12-month budget period that may not match the calendar year",
+    "rationale": "Fiscal years allow governments to better align budget cycles with their operational needs.",
+    "difficulty": 2,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding different fiscal periods and planning cycles"
+  },
+  {
+    "id": 50,
+    "category": "D",
+    "topic": "Budget Amendments",
+    "question_text": "What is the purpose of budget amendments?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) To ignore the original budget",
+      "B) To make changes to the budget as circumstances change",
+      "C) To confuse people",
+      "D) To waste time"
+    ],
+    "correct_answer": "B) To make changes to the budget as circumstances change",
+    "rationale": "Budget amendments allow governments to adapt their spending plans to changing needs and conditions.",
+    "difficulty": 2,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding budget flexibility and adaptation mechanisms"
+  },
+  {
+    "id": 51,
+    "category": "D",
+    "topic": "Budget Authority",
+    "question_text": "What is meant by 'budget authority'?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) The power to spend money",
+      "B) Legal permission to incur obligations and make payments",
+      "C) A type of tax",
+      "D) An audit finding"
+    ],
+    "correct_answer": "B) Legal permission to incur obligations and make payments",
+    "rationale": "Budget authority establishes the legal framework for government spending and obligation.",
+    "difficulty": 3,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding legal frameworks for government spending"
+  },
+  {
+    "id": 52,
+    "category": "E",
+    "topic": "Government Levels",
+    "question_text": "What are the main levels of government in a federal system?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) Only federal government",
+      "B) Federal, state, and local governments",
+      "C) Only state governments",
+      "D) Only local governments"
+    ],
+    "correct_answer": "B) Federal, state, and local governments",
+    "rationale": "Federal systems divide power and responsibility among multiple levels of government.",
+    "difficulty": 1,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding different levels of government and their roles"
+  },
+  {
+    "id": 53,
+    "category": "E",
+    "topic": "Federalism Definition",
+    "question_text": "What is federalism?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) When one government controls everything",
+      "B) A system where power is shared between national and state governments",
+      "C) When states control the federal government",
+      "D) When only local governments exist"
+    ],
+    "correct_answer": "B) A system where power is shared between national and state governments",
+    "rationale": "Federalism allows for both national unity and local autonomy in governance.",
+    "difficulty": 2,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding federalism and shared governmental power"
+  },
+  {
+    "id": 54,
+    "category": "E",
+    "topic": "Local Government Services",
+    "question_text": "What types of services are typically provided by local governments?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) National defense",
+      "B) Police, fire protection, local roads, and schools",
+      "C) International relations",
+      "D) National parks only"
+    ],
+    "correct_answer": "B) Police, fire protection, local roads, and schools",
+    "rationale": "Local governments focus on services that directly impact daily community life.",
+    "difficulty": 1,
+    "analogy_type": "community_fund",
+    "learning_objective": "Understanding local government roles and responsibilities"
+  },
+  {
+    "id": 55,
+    "category": "E",
+    "topic": "Federal Grants",
+    "question_text": "What are federal grants?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) Money given by the federal government to states and localities for specific purposes",
+      "B) Money given to federal employees",
+      "C) Loans from banks",
+      "D) Taxes collected by states"
+    ],
+    "correct_answer": "A) Money given by the federal government to states and localities for specific purposes",
+    "rationale": "Federal grants help support state and local programs that align with national priorities.",
+    "difficulty": 2,
+    "analogy_type": "community_fund",
+    "learning_objective": "Understanding intergovernmental funding and federal assistance"
+  },
+  {
+    "id": 56,
+    "category": "E",
+    "topic": "Fiscal Federalism",
+    "question_text": "What is fiscal federalism?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) When federal and state governments fight over money",
+      "B) The system of financial relationships between different levels of government",
+      "C) Only federal taxes",
+      "D) Only state taxes"
+    ],
+    "correct_answer": "B) The system of financial relationships between different levels of government",
+    "rationale": "Fiscal federalism describes how money and responsibilities are shared across government levels.",
+    "difficulty": 3,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding intergovernmental fiscal relationships"
+  },
+  {
+    "id": 57,
+    "category": "E",
+    "topic": "Matching Grants",
+    "question_text": "What is a matching grant?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) A grant that requires the recipient to provide some of their own money",
+      "B) A grant for matching outfits",
+      "C) A grant that matches any amount",
+      "D) A grant that only matches federal money"
+    ],
+    "correct_answer": "A) A grant that requires the recipient to provide some of their own money",
+    "rationale": "Matching grants encourage local investment and ensure commitment to funded programs.",
+    "difficulty": 2,
+    "analogy_type": "community_fund",
+    "learning_objective": "Understanding matching requirements in grant programs"
+  },
+  {
+    "id": 58,
+    "category": "E",
+    "topic": "Revenue Sharing",
+    "question_text": "What is revenue sharing?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) When states share revenue with each other",
+      "B) The distribution of tax revenue among different levels of government",
+      "C) When individuals share their money",
+      "D) When businesses share profits"
+    ],
+    "correct_answer": "B) The distribution of tax revenue among different levels of government",
+    "rationale": "Revenue sharing ensures that different government levels have funds to provide services.",
+    "difficulty": 2,
+    "analogy_type": "community_fund",
+    "learning_objective": "Understanding intergovernmental revenue distribution"
+  },
+  {
+    "id": 59,
+    "category": "E",
+    "topic": "Categorical Grants",
+    "question_text": "What is a categorical grant?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) A grant for any purpose",
+      "B) A grant that must be used for specific, narrowly defined purposes",
+      "C) A grant for categories of people",
+      "D) A grant that can be used broadly"
+    ],
+    "correct_answer": "B) A grant that must be used for specific, narrowly defined purposes",
+    "rationale": "Categorical grants ensure that federal funding is used for intended purposes with oversight.",
+    "difficulty": 3,
+    "analogy_type": "community_fund",
+    "learning_objective": "Understanding targeted grant programs and restrictions"
+  },
+  {
+    "id": 60,
+    "category": "E",
+    "topic": "Block Grants",
+    "question_text": "What is a block grant?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) A grant for building blocks",
+      "B) A grant that provides more flexibility in how money is used within a broad area",
+      "C) A very small grant",
+      "D) A grant that only applies to certain blocks of land"
+    ],
+    "correct_answer": "B) A grant that provides more flexibility in how money is used within a broad area",
+    "rationale": "Block grants allow states and localities more discretion in addressing local needs within general guidelines.",
+    "difficulty": 3,
+    "analogy_type": "community_fund",
+    "learning_objective": "Understanding flexible funding mechanisms in intergovernmental relations"
+  },
+  {
+    "id": 61,
+    "category": "E",
+    "topic": "Grant Compliance",
+    "question_text": "Why do states need to comply with federal grant requirements?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) They don't need to comply",
+      "B) To ensure federal money is used properly and for intended purposes",
+      "C) Federal government has no authority",
+      "D) It's just a suggestion"
+    ],
+    "correct_answer": "B) To ensure federal money is used properly and for intended purposes",
+    "rationale": "Compliance requirements protect federal investment and ensure program effectiveness.",
+    "difficulty": 2,
+    "analogy_type": "community_fund",
+    "learning_objective": "Understanding accountability in intergovernmental funding"
+  },
+  {
+    "id": 62,
+    "category": "E",
+    "topic": "Unfunded Mandates",
+    "question_text": "What is the concept of 'unfunded mandates'?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) When the federal government requires states to do something but doesn't provide funding",
+      "B) When states mandate things to the federal government",
+      "C) When no one has to do anything",
+      "D) When funding is provided but not used"
+    ],
+    "correct_answer": "A) When the federal government requires states to do something but doesn't provide funding",
+    "rationale": "Unfunded mandates can create financial burdens for state and local governments.",
+    "difficulty": 3,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding unfunded mandates and their fiscal impact"
+  },
+  {
+    "id": 63,
+    "category": "E",
+    "topic": "Intergovernmental Cooperation",
+    "question_text": "How do intergovernmental relations promote cooperation?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) By creating competition",
+      "B) By establishing frameworks for working together on common goals",
+      "C) By limiting communication",
+      "D) By creating confusion"
+    ],
+    "correct_answer": "B) By establishing frameworks for working together on common goals",
+    "rationale": "Intergovernmental relations create systems for coordination and collaboration across government levels.",
+    "difficulty": 2,
+    "analogy_type": "community_fund",
+    "learning_objective": "Understanding mechanisms for intergovernmental collaboration"
+  },
+  {
+    "id": 64,
+    "category": "F",
+    "topic": "Fiscal Policy Definition",
+    "question_text": "What is fiscal policy?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) Government policy related to spending and taxation to influence the economy",
+      "B) Policy about fiscal years",
+      "C) Policy about taxes only",
+      "D) Policy about spending only"
+    ],
+    "correct_answer": "A) Government policy related to spending and taxation to influence the economy",
+    "rationale": "Fiscal policy uses government spending and taxation as tools to manage economic conditions.",
+    "difficulty": 2,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding fiscal policy and economic management"
+  },
+  {
+    "id": 65,
+    "category": "F",
+    "topic": "Budget Deficit",
+    "question_text": "What is a budget deficit?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) When government income exceeds spending",
+      "B) When government spending exceeds income",
+      "C) When income equals spending",
+      "D) When no money is collected"
+    ],
+    "correct_answer": "B) When government spending exceeds income",
+    "rationale": "A deficit occurs when government expenses are greater than available revenue in a given period.",
+    "difficulty": 2,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding budget deficits and their causes"
+  },
+  {
+    "id": 66,
+    "category": "F",
+    "topic": "Budget Surplus",
+    "question_text": "What is a budget surplus?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) When spending exceeds income",
+      "B) When government income exceeds spending",
+      "C) When income equals spending",
+      "D) When no money is collected"
+    ],
+    "correct_answer": "B) When government income exceeds spending",
+    "rationale": "A surplus allows for savings, debt reduction, or future investment.",
+    "difficulty": 2,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding budget surpluses and their uses"
+  },
+  {
+    "id": 67,
+    "category": "F",
+    "topic": "Economic Stimulus",
+    "question_text": "How can government spending stimulate the economy?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) By creating jobs and increasing demand for goods and services",
+      "B) By taking money away from people",
+      "C) By causing inflation",
+      "D) By reducing competition"
+    ],
+    "correct_answer": "A) By creating jobs and increasing demand for goods and services",
+    "rationale": "Government spending can boost economic activity through direct investment and job creation.",
+    "difficulty": 2,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding government spending as economic stimulus"
+  },
+  {
+    "id": 68,
+    "category": "F",
+    "topic": "Automatic Stabilizers",
+    "question_text": "What are automatic stabilizers?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) Government programs that automatically increase during economic downturns",
+      "B) Government programs that never change",
+      "C) Only tax increases",
+      "D) Emergency spending only"
+    ],
+    "correct_answer": "A) Government programs that automatically increase during economic downturns",
+    "rationale": "Programs like unemployment insurance and progressive taxes help the economy without new legislation.",
+    "difficulty": 3,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding automatic economic stabilization mechanisms"
+  },
+  {
+    "id": 69,
+    "category": "F",
+    "topic": "Countercyclical Policy",
+    "question_text": "What is countercyclical fiscal policy?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) Spending more during recessions, less during booms",
+      "B) Always spending the same amount",
+      "C) Only spending during good times",
+      "D) Never adjusting spending"
+    ],
+    "correct_answer": "A) Spending more during recessions, less during booms",
+    "rationale": "Countercyclical policy helps smooth economic cycles and maintain stability.",
+    "difficulty": 3,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding economic cycle management through fiscal policy"
+  },
+  {
+    "id": 70,
+    "category": "F",
+    "topic": "National Debt",
+    "question_text": "What is the national debt?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) Money owed by individuals",
+      "B) Total amount the government has borrowed over time",
+      "C) Money owed to foreign countries",
+      "D) Money in bank accounts"
+    ],
+    "correct_answer": "B) Total amount the government has borrowed over time",
+    "rationale": "National debt represents accumulated government borrowing to finance deficits and investments.",
+    "difficulty": 2,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding national debt and government borrowing"
+  },
+  {
+    "id": 71,
+    "category": "F",
+    "topic": "Appropriate Deficit Spending",
+    "question_text": "When is deficit spending considered appropriate?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) Always",
+      "B) During economic downturns or for important investments",
+      "C) Never",
+      "D) Only during elections"
+    ],
+    "correct_answer": "B) During economic downturns or for important investments",
+    "rationale": "Strategic deficit spending can help stimulate the economy or fund beneficial long-term investments.",
+    "difficulty": 3,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding when and why governments might run deficits"
+  },
+  {
+    "id": 72,
+    "category": "F",
+    "topic": "Intergenerational Equity",
+    "question_text": "What is intergenerational equity?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) Fairness between different age groups in society",
+      "B) Only caring about current generations",
+      "C) Only caring about future generations",
+      "D) Ignoring generational differences"
+    ],
+    "correct_answer": "A) Fairness between different age groups in society",
+    "rationale": "Intergenerational equity considers how policies affect different age groups and future generations.",
+    "difficulty": 3,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding fairness across generations in policy making"
+  },
+  {
+    "id": 73,
+    "category": "F",
+    "topic": "Government Bonds",
+    "question_text": "Why do governments issue bonds?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) To avoid paying taxes",
+      "B) To borrow money for large projects or manage cash flow",
+      "C) To confuse investors",
+      "D) To create inflation"
+    ],
+    "correct_answer": "B) To borrow money for large projects or manage cash flow",
+    "rationale": "Bonds allow governments to fund long-term investments and manage short-term financial needs.",
+    "difficulty": 2,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding government borrowing through bonds"
+  },
+  {
+    "id": 74,
+    "category": "F",
+    "topic": "Crowding-Out Effect",
+    "question_text": "What is the crowding-out effect in economics?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) When government borrowing reduces private investment",
+      "B) When people leave crowded areas",
+      "C) When businesses expand too much",
+      "D) When taxes are too high"
+    ],
+    "correct_answer": "A) When government borrowing reduces private investment",
+    "rationale": "When government borrows heavily, it can compete with private borrowers for available funds.",
+    "difficulty": 3,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding government borrowing effects on private sector"
+  },
+  {
+    "id": 75,
+    "category": "F",
+    "topic": "Sustainable Budgeting",
+    "question_text": "What is the most important principle for sustainable government budgeting?",
+    "question_type": "multiple_choice",
+    "options": [
+      "A) Spending as much as possible",
+      "B) Balancing long-term fiscal health with current needs",
+      "C) Never saving money",
+      "D) Only focusing on the present"
+    ],
+    "correct_answer": "B) Balancing long-term fiscal health with current needs",
+    "rationale": "Sustainable budgeting considers both immediate needs and long-term financial sustainability for future generations.",
+    "difficulty": 2,
+    "analogy_type": "family_budgeting",
+    "learning_objective": "Understanding long-term fiscal responsibility and sustainability"
+  }
+]

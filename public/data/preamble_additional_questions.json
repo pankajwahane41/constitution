@@ -1,0 +1,1139 @@
+{
+  "title": "75 Additional Preamble Questions for Children - Child-Friendly Analogies",
+  "description": "75 quiz questions covering the Preamble using sports, cricket, cooking, and family analogies",
+  "version": "1.0",
+  "created_at": "2025-11-04",
+  "total_questions": 75,
+  "values_covered": [
+    "SOVEREIGN", "SOCIALIST", "SECULAR", "DEMOCRATIC", "REPUBLIC", 
+    "JUSTICE", "LIBERTY", "EQUALITY", "FRATERNITY"
+  ],
+  "domains": ["Sports Teams", "Cricket Matches", "Cooking Recipes", "Family Relationships"],
+  "questions": [
+    {
+      "id": 1,
+      "question": "A school cricket team wants to change their batting order for the inter-school tournament. According to the Preamble, who should make this decision?",
+      "options": {
+        "A": "A coach from another school",
+        "B": "The team's captain after discussing with all players",
+        "C": "The school's principal",
+        "D": "The team's best player"
+      },
+      "correct_answer": "B",
+      "explanation": "Sovereign means the team makes its own decisions. The team should decide its strategy internally, just like India is free to make its own decisions without outside interference.",
+      "value": "SOVEREIGN",
+      "analogy_domain": "Sports Teams",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 2,
+      "question": "Two cricket clubs want to schedule their match for Saturday morning. What value of the Preamble does this represent?",
+      "options": {
+        "A": "Secular",
+        "B": "Sovereign",
+        "C": "Socialist",
+        "D": "Democratic"
+      },
+      "correct_answer": "B",
+      "explanation": "Sovereign means making decisions independently. When clubs decide their own match timings, they show self-rule and internal decision-making power.",
+      "value": "SOVEREIGN",
+      "analogy_domain": "Cricket Matches",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 3,
+      "question": "The Sharma family wants to cook their traditional festival food at home instead of ordering from a restaurant. What Preamble value does this show?",
+      "options": {
+        "A": "Republic",
+        "B": "Sovereign",
+        "C": "Justice",
+        "D": "Liberty"
+      },
+      "correct_answer": "B",
+      "explanation": "Sovereign means making choices within your own space. The family deciding its own menu shows self-determination, just like India making its own decisions.",
+      "value": "SOVEREIGN",
+      "analogy_domain": "Cooking Recipes",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 4,
+      "question": "A household decides its weekly chores and schedules without being told what to do by neighbors. What is this an example of?",
+      "options": {
+        "A": "Hereditary rule",
+        "B": "Internal fairness",
+        "C": "External control",
+        "D": "Random assignments"
+      },
+      "correct_answer": "B",
+      "explanation": "Sovereign places authority within the group for fair decisions. The household showing internal fairness represents sovereignty in decision-making.",
+      "value": "SOVEREIGN",
+      "analogy_domain": "Family Relationships",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 5,
+      "question": "A sports team refuses to let an outside person decide who should play and who should sit on the bench. What value does this show?",
+      "options": {
+        "A": "Corrupt practices",
+        "B": "Sovereignty",
+        "C": "Isolated behavior",
+        "D": "Secretive actions"
+      },
+      "correct_answer": "B",
+      "explanation": "Sovereignty means resisting improper external control. When a team makes its own player selection, it exercises sovereignty.",
+      "value": "SOVEREIGN",
+      "analogy_domain": "Sports Teams",
+      "difficulty": "Tricky"
+    },
+    {
+      "id": 6,
+      "question": "A cricket club insists on following its own code of conduct during tournaments instead of using rules imposed by outside organizers. What Preamble value is reflected?",
+      "options": {
+        "A": "Secular",
+        "B": "Sovereign",
+        "C": "Socialist",
+        "D": "Republic"
+      },
+      "correct_answer": "B",
+      "explanation": "Sovereignty involves self-rule and internal standards. A club following its own code of conduct demonstrates sovereignty.",
+      "value": "SOVEREIGN",
+      "analogy_domain": "Cricket Matches",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 7,
+      "question": "A community kitchen sets its own quality standards and menu planning without copying from other kitchens. What does this show?",
+      "options": {
+        "A": "External audits required",
+        "B": "Self-determination",
+        "C": "No standards needed",
+        "D": "Secret cooking recipes"
+      },
+      "correct_answer": "B",
+      "explanation": "Sovereignty is self-determination with responsibility. When a kitchen sets its own standards, it shows sovereign decision-making.",
+      "value": "SOVEREIGN",
+      "analogy_domain": "Cooking Recipes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 8,
+      "question": "A joint family discusses and sets their own rules for visitors and guests. What Preamble idea is at work here?",
+      "options": {
+        "A": "Outsiders set the rules",
+        "B": "Internal rule-setting",
+        "C": "One person decides everything",
+        "D": "Ignore family preferences"
+      },
+      "correct_answer": "B",
+      "explanation": "Sovereignty keeps decision-making within the group. Internal rule-setting by the family represents sovereignty in action.",
+      "value": "SOVEREIGN",
+      "analogy_domain": "Family Relationships",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 9,
+      "question": "How should a school cricket team share field time to be fair to all players in a practice session?",
+      "options": {
+        "A": "Best players play all the time",
+        "B": "Rotate so everyone gets a chance",
+        "C": "Only senior students play",
+        "D": "Random selection without fairness"
+      },
+      "correct_answer": "B",
+      "explanation": "Socialism emphasizes equitable distribution and inclusion. Rotating field time so everyone gets a chance represents socialist fairness.",
+      "value": "SOCIALIST",
+      "analogy_domain": "Sports Teams",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 10,
+      "question": "A cricket league sets a minimum number of overs that each bowler must bowl in a match. Why do they do this?",
+      "options": {
+        "A": "To make the game more entertaining",
+        "B": "To give everyone a fair chance",
+        "C": "To make games last longer",
+        "D": "To reduce the number of umpires needed"
+      },
+      "correct_answer": "B",
+      "explanation": "Fair distribution ensures opportunity for all. Socialist policies aim to give every player a fair chance to participate.",
+      "value": "SOCIALIST",
+      "analogy_domain": "Cricket Matches",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 11,
+      "question": "The Patel family serves equal portions of their homemade dal and rice to everyone at dinner. What Preamble value guides this practice?",
+      "options": {
+        "A": "Liberty",
+        "B": "Secular",
+        "C": "Socialist",
+        "D": "Republic"
+      },
+      "correct_answer": "C",
+      "explanation": "Socialism supports equitable sharing and ensuring everyone has enough. Equal portions of food demonstrate this value.",
+      "value": "SOCIALIST",
+      "analogy_domain": "Cooking Recipes",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 12,
+      "question": "A household assigns household chores based on each person's capacity and needs during exam week. Which Preamble value fits this best?",
+      "options": {
+        "A": "Sovereign",
+        "B": "Socialist",
+        "C": "Democratic",
+        "D": "Liberty"
+      },
+      "correct_answer": "B",
+      "explanation": "Socialist fairness considers capacities and needs. Adjusting chores based on individual circumstances shows need-based fairness.",
+      "value": "SOCIALIST",
+      "analogy_domain": "Family Relationships",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 13,
+      "question": "A cricket coach makes sure every player gets to attempt at least one penalty kick during practice. What is being promoted?",
+      "options": {
+        "A": "Concentrating on skill building",
+        "B": "Equality of opportunity",
+        "C": "Keeping practices secret",
+        "D": "Random selection process"
+      },
+      "correct_answer": "B",
+      "explanation": "Equality of opportunity aligns with socialist ideals. Ensuring everyone gets a chance to try demonstrates inclusive fairness.",
+      "value": "SOCIALIST",
+      "analogy_domain": "Sports Teams",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 14,
+      "question": "In a friendly cricket match, both captains agree to let each player bat for the same amount of time. What does this arrangement show?",
+      "options": {
+        "A": "Skill-based selection",
+        "B": "Fair play",
+        "C": "Hereditary batting order",
+        "D": "Closed team membership"
+      },
+      "correct_answer": "B",
+      "explanation": "Socialist fairness avoids concentration of opportunity. Giving everyone equal batting time ensures fair play.",
+      "value": "SOCIALIST",
+      "analogy_domain": "Cricket Matches",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 15,
+      "question": "A community kitchen offers free meals to families who are going through financial difficulties during a natural disaster. What principle is at work?",
+      "options": {
+        "A": "Liberty",
+        "B": "Socialist",
+        "C": "Republic",
+        "D": "Secular"
+      },
+      "correct_answer": "B",
+      "explanation": "Socialism enables welfare and equitable access. Providing help to those in need demonstrates socialist principles.",
+      "value": "SOCIALIST",
+      "analogy_domain": "Cooking Recipes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 16,
+      "question": "During final exams, younger children in the family help more with household chores so older siblings can focus on studying. Why is this arrangement considered fair?",
+      "options": {
+        "A": "Age-based discrimination",
+        "B": "Need-based fairness",
+        "C": "Random chore distribution",
+        "D": "One person doing all the work"
+      },
+      "correct_answer": "B",
+      "explanation": "Need-based fairness reflects socialist principle. Adjusting responsibilities based on circumstances ensures fairness for all.",
+      "value": "SOCIALIST",
+      "analogy_domain": "Family Relationships",
+      "difficulty": "Tricky"
+    },
+    {
+      "id": 17,
+      "question": "A school cricket team proudly includes players from different religious backgrounds and celebrates each other's festivals. What value does this demonstrate?",
+      "options": {
+        "A": "Socialist",
+        "B": "Secular",
+        "C": "Republic",
+        "D": "Liberty"
+      },
+      "correct_answer": "B",
+      "explanation": "Secular means equal respect for all religions. A team that welcomes diversity and celebrates different faiths shows secular values.",
+      "value": "SECULAR",
+      "analogy_domain": "Sports Teams",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 18,
+      "question": "A cricket umpire treats all players equally regardless of which team they play for or their religious background. Which Preamble values are upheld?",
+      "options": {
+        "A": "Justice only",
+        "B": "Secular and Just",
+        "C": "Socialist",
+        "D": "Sovereign"
+      },
+      "correct_answer": "B",
+      "explanation": "Secular fairness is impartial and just. Treating all players equally regardless of background upholds both secular and justice values.",
+      "value": "SECULAR",
+      "analogy_domain": "Cricket Matches",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 19,
+      "question": "A community kitchen prepares and serves food that is suitable for people with different dietary practices and religious beliefs. What value is being honored?",
+      "options": {
+        "A": "Favoring one religion",
+        "B": "Neutral respect for all",
+        "C": "Keeping food practices secret",
+        "D": "Isolating from others"
+      },
+      "correct_answer": "B",
+      "explanation": "Secularism respects diverse practices equally. Serving food that accommodates different beliefs shows neutral respect for all.",
+      "value": "SECULAR",
+      "analogy_domain": "Cooking Recipes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 20,
+      "question": "The Gupta family celebrates Diwali, Eid, and Christmas with equal joy and enthusiasm. What Preamble value does this reflect?",
+      "options": {
+        "A": "Secular",
+        "B": "Socialist",
+        "C": "Republic",
+        "D": "Sovereign"
+      },
+      "correct_answer": "A",
+      "explanation": "Secularism treats all faiths equally. Celebrating different festivals with equal joy demonstrates secular values in family life.",
+      "value": "SECULAR",
+      "analogy_domain": "Family Relationships",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 21,
+      "question": "A cricket tournament allows all teams to take short prayer breaks according to their own religious practices. What Preamble value guides this policy?",
+      "options": {
+        "A": "Liberty only",
+        "B": "Secular fairness",
+        "C": "Equality without dignity",
+        "D": "Socialist principles"
+      },
+      "correct_answer": "B",
+      "explanation": "Secular fairness accommodates everyone impartially. Allowing prayer breaks for all teams shows equal respect for religious practices.",
+      "value": "SECULAR",
+      "analogy_domain": "Cricket Matches",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 22,
+      "question": "A sports league schedules matches while avoiding conflicts with major religious festivals of different communities. Why is this approach taken?",
+      "options": {
+        "A": "Showing bias toward one community",
+        "B": "Impartial consideration",
+        "C": "Keeping schedule secret",
+        "D": "Giving special treatment"
+      },
+      "correct_answer": "B",
+      "explanation": "Secular neutrality avoids favoritism. Considering religious festivals of all communities shows impartial treatment.",
+      "value": "SECULAR",
+      "analogy_domain": "Sports Teams",
+      "difficulty": "Tricky"
+    },
+    {
+      "id": 23,
+      "question": "A cookbook includes recipes and cooking methods that accommodate different dietary restrictions based on religious beliefs. What value is being respected?",
+      "options": {
+        "A": "Liberty",
+        "B": "Secular",
+        "C": "Socialist",
+        "D": "Justice"
+      },
+      "correct_answer": "B",
+      "explanation": "Secular respect recognizes differences without favor. Including options for various dietary practices shows respect for all beliefs.",
+      "value": "SECULAR",
+      "analogy_domain": "Cooking Recipes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 24,
+      "question": "Parents in a family make sure that festival gifts are of equal value and excitement across different religious celebrations. What is the underlying message?",
+      "options": {
+        "A": "One particular faith is favored",
+        "B": "Equal respect for all",
+        "C": "Random gift selection",
+        "D": "Keeping celebrations secret"
+      },
+      "correct_answer": "B",
+      "explanation": "Equal respect is the essence of secularism. Ensuring equal treatment across all festivals teaches fairness and respect.",
+      "value": "SECULAR",
+      "analogy_domain": "Family Relationships",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 25,
+      "question": "The students in a class vote to elect their sports captain, and every student gets exactly one vote. What practice is this called?",
+      "options": {
+        "A": "Hereditary selection",
+        "B": "Democratic",
+        "C": "Secular",
+        "D": "Socialist"
+      },
+      "correct_answer": "B",
+      "explanation": "Democratic means people choose their leaders and every vote is equal. One person, one vote is the foundation of democratic values.",
+      "value": "DEMOCRATIC",
+      "analogy_domain": "Family Relationships",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 26,
+      "question": "Two cricket teams discuss and agree on the local rules for their friendly match through discussion and voting. How are decisions made in this situation?",
+      "options": {
+        "A": "One captain decides everything",
+        "B": "Majority decision",
+        "C": "External coach decides",
+        "D": "Random choice"
+      },
+      "correct_answer": "B",
+      "explanation": "Democratic decisions involve discussion and majority will. Teams making decisions together through voting demonstrates democracy.",
+      "value": "DEMOCRATIC",
+      "analogy_domain": "Cricket Matches",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 27,
+      "question": "A family votes on what to cook for Sunday dinner, with everyone getting an equal say in the decision. Which Preamble principle is being used?",
+      "options": {
+        "A": "Sovereign",
+        "B": "Democratic",
+        "C": "Republic",
+        "D": "Secular"
+      },
+      "correct_answer": "B",
+      "explanation": "Democratic processes include voting and equal participation. Family decisions through voting demonstrate democratic principles.",
+      "value": "DEMOCRATIC",
+      "analogy_domain": "Cooking Recipes",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 28,
+      "question": "Parents and children decide which movie to watch by discussing the options and then taking a vote. What Preamble value is being shown?",
+      "options": {
+        "A": "Liberty only",
+        "B": "Democratic",
+        "C": "Socialist",
+        "D": "Justice"
+      },
+      "correct_answer": "B",
+      "explanation": "Democratic family decisions give everyone a voice. Discussion followed by voting allows all family members to participate.",
+      "value": "DEMOCRATIC",
+      "analogy_domain": "Family Relationships",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 29,
+      "question": "A cricket team uses a fair draw to select batting positions so everyone has an equal chance. What democratic principle does this represent?",
+      "options": {
+        "A": "Equality of opportunity",
+        "B": "Democratic choice",
+        "C": "Secular values",
+        "D": "Republic principles"
+      },
+      "correct_answer": "A",
+      "explanation": "Equality of opportunity supports democratic fairness. Random selection methods ensure everyone gets equal chances to play.",
+      "value": "DEMOCRATIC",
+      "analogy_domain": "Sports Teams",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 30,
+      "question": "A neighborhood cricket league sets its tournament rules through representatives elected from each participating team. What democratic process is this?",
+      "options": {
+        "A": "Representative democracy",
+        "B": "Isolation from others",
+        "C": "Hereditary roles",
+        "D": "Random rule-making"
+      },
+      "correct_answer": "A",
+      "explanation": "Representative democracy chooses rules through elected voices. Teams electing representatives demonstrates representative democracy.",
+      "value": "DEMOCRATIC",
+      "analogy_domain": "Cricket Matches",
+      "difficulty": "Tricky"
+    },
+    {
+      "id": 31,
+      "question": "A household discusses and agrees on a weekly budget for groceries and household expenses. Which democratic value is present?",
+      "options": {
+        "A": "Liberty",
+        "B": "Democratic",
+        "C": "Sovereign",
+        "D": "Socialist"
+      },
+      "correct_answer": "B",
+      "explanation": "Democratic decision-making can set fair household budgets. Discussion and consensus-building are democratic processes.",
+      "value": "DEMOCRATIC",
+      "analogy_domain": "Family Relationships",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 32,
+      "question": "Students in a class elect their class monitor for a term of one month instead of having the same student always in charge. What democratic principle is applied?",
+      "options": {
+        "A": "Republic",
+        "B": "Democratic",
+        "C": "Socialist",
+        "D": "Secular"
+      },
+      "correct_answer": "B",
+      "explanation": "Democratic processes elect representatives for fixed terms. Regular elections keep leadership fresh and responsive.",
+      "value": "DEMOCRATIC",
+      "analogy_domain": "Family Relationships",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 33,
+      "question": "A cricket club elects its captain for one year rather than appointing someone because their parent was a former captain. What does this show?",
+      "options": {
+        "A": "Hereditary privilege",
+        "B": "Republic principles",
+        "C": "Secular values",
+        "D": "Socialist ideals"
+      },
+      "correct_answer": "B",
+      "explanation": "Republic means leadership is elected, not inherited. Electing leaders based on merit rather than family background shows republican values.",
+      "value": "REPUBLIC",
+      "analogy_domain": "Sports Teams",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 34,
+      "question": "A cricket tournament appoints umpires through a voting process where all participating teams have a say. What principle of government is being applied?",
+      "options": {
+        "A": "Republic",
+        "B": "Sovereign",
+        "C": "Socialist",
+        "D": "Liberty"
+      },
+      "correct_answer": "A",
+      "explanation": "Republic involves electing or selecting leaders through fair processes. Democratic selection of umpires shows republican principles.",
+      "value": "REPUBLIC",
+      "analogy_domain": "Cricket Matches",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 35,
+      "question": "A family votes on who should lead the cooking duties this week, rotating the responsibility among family members. What type of leadership system is this?",
+      "options": {
+        "A": "Hereditary kitchen rule",
+        "B": "Republic",
+        "C": "Secular",
+        "D": "Equality"
+      },
+      "correct_answer": "B",
+      "explanation": "Republic rejects inherited roles and promotes leadership that is open to all. Electing leadership roles shows republican values.",
+      "value": "REPUBLIC",
+      "analogy_domain": "Cooking Recipes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 36,
+      "question": "A neighborhood committee elects a coordinator for a fixed term to manage community events and resolve disputes. What republican ideal is reflected?",
+      "options": {
+        "A": "Hereditary leadership roles",
+        "B": "Republic principles",
+        "C": "Sovereign values",
+        "D": "Socialist ideals"
+      },
+      "correct_answer": "B",
+      "explanation": "Republic promotes elected, non-hereditary leadership. Electing community leaders for fixed terms shows republican governance.",
+      "value": "REPUBLIC",
+      "analogy_domain": "Family Relationships",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 37,
+      "question": "A cricket team refuses to make someone captain just because their parent was a famous captain in the past. Why is this decision fair?",
+      "options": {
+        "A": "It promotes hereditary privilege",
+        "B": "It shows republican fairness",
+        "C": "It supports secular values",
+        "D": "It encourages liberty"
+      },
+      "correct_answer": "B",
+      "explanation": "Republicanism rejects inherited privileges. Making leadership decisions based on merit rather than family background promotes fairness.",
+      "value": "REPUBLIC",
+      "analogy_domain": "Sports Teams",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 38,
+      "question": "A cricket league rotates umpire assignments so that no family has repeated turns based on birthright or family connections. What republican value is emphasized?",
+      "options": {
+        "A": "Birthright privileges",
+        "B": "Open access to opportunities",
+        "C": "Keeping assignments secret",
+        "D": "Isolation from others"
+      },
+      "correct_answer": "B",
+      "explanation": "Open access to public roles is republican. Ensuring opportunities are based on merit rather than family connections promotes equality.",
+      "value": "REPUBLIC",
+      "analogy_domain": "Cricket Matches",
+      "difficulty": "Tricky"
+    },
+    {
+      "id": 39,
+      "question": "A cooking club's head chef is chosen by all members through a democratic vote, not appointed by the founder's family members. What republican principle is this?",
+      "options": {
+        "A": "Hereditary appointment",
+        "B": "Republic ideals",
+        "C": "Democratic process",
+        "D": "Socialist principles"
+      },
+      "correct_answer": "B",
+      "explanation": "Republic ensures offices are open to all citizens without hereditary advantage. Democratic election of leaders shows republican values.",
+      "value": "REPUBLIC",
+      "analogy_domain": "Cooking Recipes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 40,
+      "question": "A class elects a new leader every term instead of having the same student always serve as class monitor. What democratic and republican system is this?",
+      "options": {
+        "A": "Republic",
+        "B": "Democratic and republican",
+        "C": "Secular values",
+        "D": "Socialist principles"
+      },
+      "correct_answer": "B",
+      "explanation": "Democratic process within a republic keeps leadership open and time-bound. Regular elections ensure fresh representation and accountability.",
+      "value": "REPUBLIC",
+      "analogy_domain": "Family Relationships",
+      "difficulty": "Tricky"
+    },
+    {
+      "id": 41,
+      "question": "In a cricket match, players accept the umpire's decision and continue playing fairly even when they disagree. What Preamble value is being demonstrated?",
+      "options": {
+        "A": "Liberty",
+        "B": "Justice",
+        "C": "Secular",
+        "D": "Socialist"
+      },
+      "correct_answer": "B",
+      "explanation": "Justice means fair decisions under the rules are respected. Accepting the umpire's decision shows respect for justice and rule of law.",
+      "value": "JUSTICE",
+      "analogy_domain": "Sports Teams",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 42,
+      "question": "A bowler oversteps the crease and the umpire calls a no-ball. Even though it was close, the batting team accepts the decision. Why do they do this?",
+      "options": {
+        "A": "They want revenge later",
+        "B": "They believe in justice and rule of law",
+        "C": "They want to keep things secret",
+        "D": "They prefer random decisions"
+      },
+      "correct_answer": "B",
+      "explanation": "Justice relies on rules and fair enforcement. Accepting the umpire's decision shows respect for justice and fair play.",
+      "value": "JUSTICE",
+      "analogy_domain": "Cricket Matches",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 43,
+      "question": "A cook measures all ingredients carefully according to the recipe to ensure the dish turns out correctly. What constitutional principle does this demonstrate?",
+      "options": {
+        "A": "Liberty",
+        "B": "Justice",
+        "C": "Republic",
+        "D": "Secular"
+      },
+      "correct_answer": "B",
+      "explanation": "Justice requires accuracy and fairness in process. Careful measurement in cooking represents fair and just procedures.",
+      "value": "JUSTICE",
+      "analogy_domain": "Cooking Recipes",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 44,
+      "question": "A parent listens to both children before deciding who gets to use the family bicycle for their friend’s birthday party. What Preamble value is this?",
+      "options": {
+        "A": "Justice",
+        "B": "Socialist",
+        "C": "Liberty",
+        "D": "Secular"
+      },
+      "correct_answer": "A",
+      "explanation": "Justice listens to all sides and decides fairly. Hearing both perspectives before making a decision ensures justice.",
+      "value": "JUSTICE",
+      "analogy_domain": "Family Relationships",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 45,
+      "question": "A cricket team shares playing time after careful discussion and then follows the agreed plan without complaints. What Preamble value is being applied?",
+      "options": {
+        "A": "Justice",
+        "B": "Liberty",
+        "C": "Secular",
+        "D": "Sovereign"
+      },
+      "correct_answer": "A",
+      "explanation": "Justice involves fair processes leading to agreed action. Discussion and consensus-building followed by adherence to decisions shows justice.",
+      "value": "JUSTICE",
+      "analogy_domain": "Sports Teams",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 46,
+      "question": "A cricket team realizes they broke a rule and offers to bowl a re-ball to make the game fair. What principle of justice does this uphold?",
+      "options": {
+        "A": "Justice through fairness",
+        "B": "Random choice making",
+        "C": "Revenge against opponents",
+        "D": "Keeping mistakes secret"
+      },
+      "correct_answer": "A",
+      "explanation": "Admitting errors and correcting them is fair play—justice. Taking responsibility and making amends demonstrates justice.",
+      "value": "JUSTICE",
+      "analogy_domain": "Cricket Matches",
+      "difficulty": "Tricky"
+    },
+    {
+      "id": 47,
+      "question": "A cook at a community kitchen serves equal portions of food to everyone and avoids giving extra to friends or family. Why is this approach considered just?",
+      "options": {
+        "A": "Justice through fairness",
+        "B": "Secular values",
+        "C": "Socialist principles",
+        "D": "Liberty principles"
+      },
+      "correct_answer": "A",
+      "explanation": "Justice avoids favoritism and ensures fairness. Treating everyone equally, regardless of personal connections, demonstrates justice.",
+      "value": "JUSTICE",
+      "analogy_domain": "Cooking Recipes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 48,
+      "question": "Parents divide household chores equally between children, but make adjustments based on each child's school workload and abilities. What justice value is present?",
+      "options": {
+        "A": "Justice with fairness",
+        "B": "Socialist policies",
+        "C": "Democratic decisions",
+        "D": "Secular approaches"
+      },
+      "correct_answer": "A",
+      "explanation": "Justice balances rules with consideration of needs. Adjusting responsibilities based on circumstances while maintaining fairness shows justice.",
+      "value": "JUSTICE",
+      "analogy_domain": "Family Relationships",
+      "difficulty": "Tricky"
+    },
+    {
+      "id": 49,
+      "question": "Cricket players can choose their playing positions but must follow the team’s safety rules and respect all teammates. What Preamble value is shown?",
+      "options": {
+        "A": "Liberty",
+        "B": "Justice",
+        "C": "Socialist",
+        "D": "Secular"
+      },
+      "correct_answer": "A",
+      "explanation": "Liberty means freedom within rules, not unlimited choice. Choosing positions while following team rules demonstrates liberty.",
+      "value": "LIBERTY",
+      "analogy_domain": "Sports Teams",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 50,
+      "question": "A batsman plays different shots and tries creative strokes, but always within the laws of cricket and with respect for the game. What Preamble value is reflected?",
+      "options": {
+        "A": "Liberty",
+        "B": "Republic",
+        "C": "Socialist",
+        "D": "Secular"
+      },
+      "correct_answer": "A",
+      "explanation": "Liberty balances freedom with lawful boundaries. Creative play within cricket laws demonstrates liberty.",
+      "value": "LIBERTY",
+      "analogy_domain": "Cricket Matches",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 51,
+      "question": "A child can choose their favorite pizza toppings but must follow the basic recipe structure and cooking steps. What constitutional freedom is being exercised?",
+      "options": {
+        "A": "Liberty",
+        "B": "Justice",
+        "C": "Secular",
+        "D": "Socialist"
+      },
+      "correct_answer": "A",
+      "explanation": "Liberty is freedom within a defined process. Choosing toppings while following recipe steps shows liberty within boundaries.",
+      "value": "LIBERTY",
+      "analogy_domain": "Cooking Recipes",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 52,
+      "question": "Children can choose their after-school activities like sports, music, or art, but must complete homework and follow family safety rules. What value is this?",
+      "options": {
+        "A": "Liberty",
+        "B": "Justice",
+        "C": "Socialist",
+        "D": "Republic"
+      },
+      "correct_answer": "A",
+      "explanation": "Liberty includes responsible freedom. Making choices while respecting family guidelines demonstrates liberty.",
+      "value": "LIBERTY",
+      "analogy_domain": "Family Relationships",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 53,
+      "question": "A cricket team practices new game strategies and formations, but always sticks to fair play and respects the rules. Why is this considered liberty?",
+      "options": {
+        "A": "Rules restrict creative ideas",
+        "B": "Freedom within rules",
+        "C": "Playing without any rules",
+        "D": "Making random decisions"
+      },
+      "correct_answer": "B",
+      "explanation": "Liberty is lawful freedom, not rulelessness. Innovating within the framework of fair play demonstrates liberty.",
+      "value": "LIBERTY",
+      "analogy_domain": "Sports Teams",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 54,
+      "question": "Cricket bowlers try different types of deliveries like spin, swing, and pace, but always within the official cricket laws. What Preamble value is upheld?",
+      "options": {
+        "A": "Liberty",
+        "B": "Secular",
+        "C": "Socialist",
+        "D": "Republic"
+      },
+      "correct_answer": "A",
+      "explanation": "Creativity within lawful limits reflects liberty. Trying different techniques while following cricket laws shows liberty.",
+      "value": "LIBERTY",
+      "analogy_domain": "Cricket Matches",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 55,
+      "question": "A family experiments with a new marinade for grilled chicken, but always follows food safety guidelines and cooking instructions. What freedom is this?",
+      "options": {
+        "A": "Liberty",
+        "B": "Justice",
+        "C": "Secular",
+        "D": "Socialist"
+      },
+      "correct_answer": "A",
+      "explanation": "Freedom to innovate within safety and method is liberty. Trying new recipes while following safety rules demonstrates liberty.",
+      "value": "LIBERTY",
+      "analogy_domain": "Cooking Recipes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 56,
+      "question": "Teenagers in a family decide to pursue hobbies like painting, coding, or sports, but must maintain their study schedule and help with family responsibilities. What constitutional value fits?",
+      "options": {
+        "A": "Liberty",
+        "B": "Justice",
+        "C": "Secular",
+        "D": "Socialist"
+      },
+      "correct_answer": "A",
+      "explanation": "Liberty respects choices made responsibly. Pursuing interests while maintaining commitments shows liberty.",
+      "value": "LIBERTY",
+      "analogy_domain": "Family Relationships",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 57,
+      "question": "In a practice cricket match, every player gets the same opportunity to bat for a set number of balls, regardless of their skill level. What Preamble value is this?",
+      "options": {
+        "A": "Equality",
+        "B": "Liberty",
+        "C": "Secular",
+        "D": "Socialist"
+      },
+      "correct_answer": "A",
+      "explanation": "Equality ensures equal opportunity. Giving everyone the same batting chances demonstrates equality.",
+      "value": "EQUALITY",
+      "analogy_domain": "Sports Teams",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 58,
+      "question": "Both teams in a cricket tournament follow exactly the same rules about batting, bowling, and fielding. What constitutional principle is being upheld?",
+      "options": {
+        "A": "Equality",
+        "B": "Sovereign",
+        "C": "Republic",
+        "D": "Secular"
+      },
+      "correct_answer": "A",
+      "explanation": "Equality means uniform rules for all. Applying the same rules to both teams ensures equality.",
+      "value": "EQUALITY",
+      "analogy_domain": "Cricket Matches",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 59,
+      "question": "A school cafeteria serves equal portions of the daily special to every student, regardless of who they are or what they can pay. Why is this considered fair?",
+      "options": {
+        "A": "Equality",
+        "B": "Justice",
+        "C": "Socialist",
+        "D": "Liberty"
+      },
+      "correct_answer": "A",
+      "explanation": "Equality treats everyone the same in distribution. Equal portions ensure everyone gets the same treatment.",
+      "value": "EQUALITY",
+      "analogy_domain": "Cooking Recipes",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 60,
+      "question": "All children in a family have the same screen time limits for TV and games, no matter their age or how well they do in school. What constitutional value is applied?",
+      "options": {
+        "A": "Equality",
+        "B": "Liberty",
+        "C": "Justice",
+        "D": "Secular"
+      },
+      "correct_answer": "A",
+      "explanation": "Equality provides uniform standards. Same rules for everyone ensure equal treatment.",
+      "value": "EQUALITY",
+      "analogy_domain": "Family Relationships",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 61,
+      "question": "A cricket team provides identical equipment (bats, pads, helmets) to all players, regardless of their background, family income, or skill level. What does this show?",
+      "options": {
+        "A": "Equality",
+        "B": "Secular",
+        "C": "Republic",
+        "D": "Socialist"
+      },
+      "correct_answer": "A",
+      "explanation": "Equality removes discrimination in access. Providing equal resources to all players demonstrates equality.",
+      "value": "EQUALITY",
+      "analogy_domain": "Sports Teams",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 62,
+      "question": "Umpires enforce the exact same playing conditions, timing, and penalties for all teams in a cricket tournament. What constitutional value is being reinforced?",
+      "options": {
+        "A": "Equality",
+        "B": "Justice",
+        "C": "Liberty",
+        "D": "Sovereign"
+      },
+      "correct_answer": "A",
+      "explanation": "Uniform enforcement reflects equality. Same standards applied to all teams ensure equality.",
+      "value": "EQUALITY",
+      "analogy_domain": "Cricket Matches",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 63,
+      "question": "A cooking instructor teaches the same recipe steps to every student in the class, using the same measurements and techniques for everyone. What is this process?",
+      "options": {
+        "A": "Equality",
+        "B": "Justice",
+        "C": "Socialist",
+        "D": "Liberty"
+      },
+      "correct_answer": "A",
+      "explanation": "Equality uses standard processes for all. Same teaching methods for every student demonstrate equality.",
+      "value": "EQUALITY",
+      "analogy_domain": "Cooking Recipes",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 64,
+      "question": "Parents thank and appreciate all children equally for their help with household tasks, giving each child the same recognition for their efforts. What value is reflected?",
+      "options": {
+        "A": "Equality",
+        "B": "Secular",
+        "C": "Socialist",
+        "D": "Republic"
+      },
+      "correct_answer": "A",
+      "explanation": "Equality treats individuals with the same respect. Equal appreciation for all children shows equality.",
+      "value": "EQUALITY",
+      "analogy_domain": "Family Relationships",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 65,
+      "question": "When a teammate gets injured during a match, other players help them off the field and everyone celebrates the team victory together. What value is this?",
+      "options": {
+        "A": "Fraternity",
+        "B": "Justice",
+        "C": "Liberty",
+        "D": "Secular"
+      },
+      "correct_answer": "A",
+      "explanation": "Fraternity is brotherhood/sisterhood and mutual care. Supporting injured teammates and celebrating together shows fraternity.",
+      "value": "FRATERNITY",
+      "analogy_domain": "Sports Teams",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 66,
+      "question": "After a batsman hits a boundary, teammates on the field clap and congratulate him, sharing the joy of the achievement. What Preamble value is shown?",
+      "options": {
+        "A": "Fraternity",
+        "B": "Socialist",
+        "C": "Republic",
+        "D": "Sovereign"
+      },
+      "correct_answer": "A",
+      "explanation": "Fraternity builds team solidarity and shared joy. Congratulating teammates shows brotherhood/sisterhood.",
+      "value": "FRATERNITY",
+      "analogy_domain": "Cricket Matches",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 67,
+      "question": "The whole family works together in the kitchen to prepare dinner, and everyone sits down to share the meal with happiness and conversation. What value is present?",
+      "options": {
+        "A": "Fraternity",
+        "B": "Justice",
+        "C": "Liberty",
+        "D": "Secular"
+      },
+      "correct_answer": "A",
+      "explanation": "Sharing and joy in togetherness reflect fraternity. Cooking and eating together as a family shows unity.",
+      "value": "FRATERNITY",
+      "analogy_domain": "Cooking Recipes",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 68,
+      "question": "During exam week, grandparents, parents, and children all help each other—grandparents cook, parents help with studies, and kids do light chores. What does this show?",
+      "options": {
+        "A": "Fraternity",
+        "B": "Equality",
+        "C": "Liberty",
+        "D": "Secular"
+      },
+      "correct_answer": "A",
+      "explanation": "Fraternity is family solidarity and mutual aid across generations. Everyone helping according to their ability shows fraternity.",
+      "value": "FRATERNITY",
+      "analogy_domain": "Family Relationships",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 69,
+      "question": "When a teammate misses practice due to illness, the cricket team visits them at home, shares study notes, and brings homework assignments. What value is exercised?",
+      "options": {
+        "A": "Fraternity",
+        "B": "Justice",
+        "C": "Socialist",
+        "D": "Republic"
+      },
+      "correct_answer": "A",
+      "explanation": "Fraternity ensures no one is left behind. Supporting teammates who are absent shows care and unity.",
+      "value": "FRATERNITY",
+      "analogy_domain": "Sports Teams",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 70,
+      "question": "After a fielder drops an important catch, teammates console and encourage them instead of criticizing, helping them feel better for the next play. What principle is upheld?",
+      "options": {
+        "A": "Fraternity",
+        "B": "Liberty",
+        "C": "Sovereign",
+        "D": "Secular"
+      },
+      "correct_answer": "A",
+      "explanation": "Consolation and support are fraternity in action. Encouraging teammates during mistakes shows unity and care.",
+      "value": "FRATERNITY",
+      "analogy_domain": "Cricket Matches",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 71,
+      "question": "Neighbors notice that the family next door missed lunch due to an emergency, so they prepare extra food and share it with them without being asked. What is this an example of?",
+      "options": {
+        "A": "Fraternity",
+        "B": "Justice",
+        "C": "Equality",
+        "D": "Liberty"
+      },
+      "correct_answer": "A",
+      "explanation": "Fraternity extends care beyond the household. Sharing food with neighbors in need shows community brotherhood.",
+      "value": "FRATERNITY",
+      "analogy_domain": "Cooking Recipes",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 72,
+      "question": "When grandparents need help with heavy shopping during monsoon season, cousins from different branches of the extended family coordinate to assist them. What value is reflected?",
+      "options": {
+        "A": "Fraternity",
+        "B": "Socialist",
+        "C": "Democratic",
+        "D": "Republic"
+      },
+      "correct_answer": "A",
+      "explanation": "Fraternity strengthens unity and dignity across generations. Extended family caring for elders shows solidarity.",
+      "value": "FRATERNITY",
+      "analogy_domain": "Family Relationships",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 73,
+      "question": "After losing an important match, cricket teammates don't blame each other. Instead, they talk about what they learned and plan to improve together. What value do they show?",
+      "options": {
+        "A": "Fraternity through support",
+        "B": "Individual competition",
+        "C": "Justice through punishment",
+        "D": "Liberty without rules"
+      },
+      "correct_answer": "A",
+      "explanation": "Fraternity includes supporting each other during setbacks. Learning and improving together shows brotherhood/sisterhood.",
+      "value": "FRATERNITY",
+      "analogy_domain": "Cricket Matches",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 74,
+      "question": "A new student joins the school cricket team and feels nervous. Veteran players include them in conversations, help with practice tips, and invite them to team lunch. What value is demonstrated?",
+      "options": {
+        "A": "Fraternity through inclusion",
+        "B": "Secular respect",
+        "C": "Democratic participation",
+        "D": "Republic equality"
+      },
+      "correct_answer": "A",
+      "explanation": "Fraternity includes everyone and makes them feel welcome. Including new members shows unity and belonging.",
+      "value": "FRATERNITY",
+      "analogy_domain": "Sports Teams",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 75,
+      "question": "During a family celebration, different cousins who study in different cities share their achievements and help younger siblings with homework. What Preamble value describes this family unity?",
+      "options": {
+        "A": "Fraternity across generations",
+        "B": "Economic socialism",
+        "C": "Political democracy",
+        "D": "Religious secularism"
+      },
+      "correct_answer": "A",
+      "explanation": "Fraternity creates bonds that span time and distance. Family members supporting each other's growth shows enduring brotherhood/sisterhood.",
+      "value": "FRATERNITY",
+      "analogy_domain": "Family Relationships",
+      "difficulty": "Medium"
+    }
+  ]
+}

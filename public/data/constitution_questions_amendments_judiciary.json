@@ -1,0 +1,1427 @@
+{
+  "title": "Constitutional Amendments and Judiciary Questions - 150 Questions",
+  "description": "Comprehensive question bank covering constitutional amendments and judiciary in India",
+  "total_questions": 150,
+  "difficulty_levels": {
+    "basic": "50 questions (33%)",
+    "intermediate": "60 questions (40%)", 
+    "advanced": "40 questions (27%)"
+  },
+  "topics": [
+    "Amendment Process (Article 368)",
+    "Important Constitutional Amendments",
+    "Basic Structure Doctrine", 
+    "Judicial Review Power",
+    "Supreme Court Jurisdiction",
+    "High Court Jurisdiction",
+    "Landmark Judgments",
+    "Public Interest Litigation",
+    "Judicial Appointments and Transfers"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "topic": "Amendment Process (Article 368)",
+      "difficulty": "basic",
+      "question_type": "short_answer",
+      "question": "Explain the three types of amendments under Article 368 of the Constitution.",
+      "answer": "Article 368 provides for three types of amendments: (1) Amendments requiring simple majority in Parliament, (2) Amendments requiring special majority (two-thirds majority of total membership and two-thirds of members present and voting in each House), and (3) Amendments requiring special majority plus ratification by at least one-half of state legislatures. The third type applies to amendments affecting the federal structure, Articles 54, 55, 73, 162, 241, 279A, Union judiciary, State judiciary, center-state relations, Seventh Schedule lists, representation of states in Parliament, and Article 368 itself.",
+      "tags": ["Article 368", "Amendment", "Parliament", "State Ratification"]
+    },
+    {
+      "id": 2,
+      "topic": "Amendment Process (Article 368)",
+      "difficulty": "intermediate",
+      "question_type": "essay",
+      "question": "Analyze the constitutional procedure for amending provisions that require state ratification. What are the practical implications?",
+      "answer": "When amending provisions requiring state ratification, the following procedure must be followed: (1) The bill must be passed by special majority in each House of Parliament, (2) It must be ratified by resolutions passed by at least one-half of the state legislatures, and (3) Only then can it be presented to the President for assent. Practical implications include: (a) It ensures federal balance by giving states a voice in matters affecting them, (b) It makes the amendment process more complex and time-consuming, (c) It requires political consensus between central and state governments, (d) It prevents unilateral amendments by Parliament that could affect the federal structure without state consent. Examples include amendments to Articles 54 (Election of President) and Articles relating to Union-State financial relations.",
+      "tags": ["Federalism", "State Consent", "Article 368", "Constitutional Process"]
+    },
+    {
+      "id": 3,
+      "topic": "Amendment Process (Article 368)",
+      "difficulty": "basic",
+      "question_type": "mcq",
+      "question": "Which constitutional provision deals with amendment of the Constitution?",
+      "options": ["Article 367", "Article 368", "Article 369", "Article 370"],
+      "correct_answer": "Article 368",
+      "answer": "Article 368 deals with the power of Parliament to amend the Constitution and the procedure therefor. It grants Parliament the power to amend any provision of the Constitution by way of addition, variation, or repeal. The procedure involves introduction of a bill, special majority requirements, and in some cases, ratification by state legislatures before Presidential assent.",
+      "tags": ["Article 368", "Constitution Amendment", "Parliament Power", "Constitutional Procedure"]
+    },
+    {
+      "id": 4,
+      "topic": "Amendment Process (Article 368)",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "What is the significance of the phrase 'by way of addition, variation, or repeal' in Article 368?",
+      "answer": "The phrase 'by way of addition, variation, or repeal' in Article 368 is significant because it: (1) Defines the scope of Parliament's amending power comprehensively - Parliament can add new provisions, vary existing ones, or repeal them entirely. (2) Ensures complete legislative authority over constitutional text while respecting the procedure. (3) Allows for flexibility in constitutional development without changing the basic structure. (4) Provides legal certainty about what constitutes an amendment. (5) Distinguishes between amendment power and constituent power. This broad language ensures that Parliament can adapt the Constitution to changing needs while maintaining its core identity through the basic structure doctrine.",
+      "tags": ["Addition", "Variation", "Repeal", "Amending Power", "Parliament Authority"]
+    },
+    {
+      "id": 5,
+      "topic": "Amendment Process (Article 368)",
+      "difficulty": "advanced",
+      "question_type": "essay",
+      "question": "Examine how the basic structure doctrine has limited the scope of Article 368. Provide examples.",
+      "answer": "The basic structure doctrine has significantly limited Article 368 through judicial intervention: (1) Kesavananda Bharati (1973): Established that Parliament cannot alter the Constitution's basic structure despite the wide language of Article 368. (2) Limitations Imposed: (a) Parliament cannot destroy essential features like judicial review, democracy, rule of law, (b) Amendments affecting fundamental rights arbitrarily can be struck down, (c) Changes that destroy separation of powers are invalid. (3) Examples of Invalid Amendments: (a) Attempts to exclude judicial review (42nd Amendment clauses struck down), (b) Amendments giving absolute power to Parliament, (c) Changes destroying federal character. (4) Balancing Test: Courts apply a test to determine if an amendment destroys basic features based on effect and consequences, not form. (5) Practical Impact: While Article 368 grants power, courts ensure this power is exercised within constitutional limits. The doctrine prevents constitutional autocracy while maintaining legitimate amendment power. This judicial oversight ensures that constitutional changes serve the Constitution rather than destroying its essential character.",
+      "tags": ["Basic Structure", "Article 368 Limitation", "Judicial Review", "Constitutional Limits", "Democracy Protection"]
+    },
+    {
+      "id": 6,
+      "topic": "Amendment Process (Article 368)",
+      "difficulty": "basic",
+      "question_type": "short_answer",
+      "question": "What is the difference between simple majority and special majority in constitutional amendments?",
+      "answer": "Simple Majority: (1) Requires majority of total membership present and voting, (2) Applied to routine parliamentary matters, (3) Does not require two-thirds majority, (4) Examples include changes to parliamentary procedure rules. Special Majority: (1) Requires majority of total membership of the House, (2) Plus two-thirds of members present and voting, (3) Applied to constitutional amendments, (4) Provides broader consensus for fundamental changes. Simple majority is adequate for administrative matters, while special majority ensures that significant constitutional changes have substantial parliamentary support before implementation.",
+      "tags": ["Simple Majority", "Special Majority", "Two-thirds Majority", "Parliamentary Consensus", "Constitutional Changes"]
+    },
+    {
+      "id": 7,
+      "topic": "Amendment Process (Article 368)",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "Analyze the role of Presidential assent in the constitutional amendment process.",
+      "answer": "Presidential assent plays a crucial role: (1) Constitutional Requirement: After parliamentary passage and state ratification (if required), the bill must be presented to President for assent. (2) Non-Discretionary Nature: The President must give assent to constitutional amendment bills as per established conventions, even though technically the Constitution doesn't specify this. (3) Formal Role: The President acts on the advice of the Council of Ministers, making this largely a formal constitutional requirement. (4) Historical Precedent: In Minerva Mills case, the Supreme Court held that the President cannot withhold assent from a constitutional amendment bill. (5) Final Step: Presidential assent converts a constitutional amendment bill into law, completing the amendment process. (6) Ceremonial Function: While technically the head of state, the President's role ensures constitutional legitimacy for amendments.",
+      "tags": ["Presidential Assent", "Constitutional Requirement", "Formal Role", "Constitutional Legitimacy", "Final Step"]
+    },
+    {
+      "id": 8,
+      "topic": "Amendment Process (Article 368)",
+      "difficulty": "advanced",
+      "question_type": "scenario",
+      "question": "A constitutional amendment seeks to establish a constitutional bench of the Supreme Court with exclusive jurisdiction over constitutional matters. What procedural and substantive challenges would this face?",
+      "answer": "This amendment would face multiple challenges: Procedural Challenges: (1) Amendment Type: Affects Supreme Court's structure and powers, may require state ratification under Article 368(2). (2) Parliamentary Consensus: Requires broad consensus across political parties. (3) Judicial Consultation: May require consultation with Supreme Court as an institution. Substantive Challenges: (1) Basic Structure Doctrine: Could be challenged as affecting judicial review and Supreme Court's integral role. (2) Separation of Powers: May alter the court's role in the constitutional system. (3) Access to Justice: Could limit access to constitutional remedies. (4) Constitutional Precedent: 42nd Amendment tried similar structural changes and was largely struck down. Likely Outcome: Courts would examine whether this enhances or destroys essential features of the Constitution. If it improves constitutional adjudication while preserving core judicial functions, it might be upheld; otherwise, it could be struck down.",
+      "tags": ["Constitutional Bench", "Supreme Court Structure", "Procedural Challenges", "Basic Structure", "Judicial Function"]
+    },
+    {
+      "id": 9,
+      "topic": "Amendment Process (Article 368)",
+      "difficulty": "basic",
+      "question_type": "short_answer",
+      "question": "Which matters can be amended by simple majority in Parliament?",
+      "answer": "Matters requiring simple majority include: (1) Rules of procedure in Parliament (Article 118), (2) Salaries and allowances of members (Article 105), (3) Delimitation of constituencies (under relevant articles), (4) Matters specified in specific articles for simple majority amendments. These are typically administrative or procedural matters that don't affect fundamental constitutional structures. The key is that they don't involve fundamental rights, federal structure, or the amendment power itself. Simple majority amendments ensure flexibility for routine constitutional adjustments while requiring special majorities for fundamental changes.",
+      "tags": ["Simple Majority", "Parliamentary Procedure", "Administrative Matters", "Constitutional Flexibility", "Routine Amendments"]
+    },
+    {
+      "id": 10,
+      "topic": "Amendment Process (Article 368)",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "Explain the concept of 'ratification by states' in constitutional amendments.",
+      "answer": "Ratification by states ensures federal consent for certain amendments: (1) Requirement: For specified matters, at least one-half of state legislatures must pass resolutions ratifying the amendment. (2) Application: Applies to amendments affecting federal structure, Union judiciary, State judiciary, center-state relations, Seventh Schedule lists, and Article 368 itself. (3) Procedure: State legislatures pass simple resolutions supporting the amendment; no presidential assent required for state resolutions. (4) Federal Balance: Ensures states have a voice in changes affecting their powers and status. (5) Political Process: Requires consensus-building between central and state governments across political affiliations. (6) Time-bound: States usually have a reasonable period to consider and vote on the amendment. This requirement protects federalism by preventing unilateral central changes to the constitutional structure.",
+      "tags": ["State Ratification", "Federal Consent", "Federal Balance", "State Legislatures", "Constitutional Federalism"]
+    },
+    {
+      "id": 11,
+      "topic": "Amendment Process (Article 368)",
+      "difficulty": "advanced",
+      "question_type": "essay",
+      "question": "Evaluate the effectiveness of Article 368 in balancing constitutional rigidity with flexibility.",
+      "answer": "Article 368 achieves a balance between rigidity and flexibility: Effectiveness in Providing Flexibility: (1) Has facilitated major reforms like Panchayati Raj, GST, Right to Education, (2) Allows adaptation to changing social and economic needs, (3) Provides mechanism for constitutional evolution without revolution. Effectiveness in Ensuring Rigidity: (1) Special majority requirements prevent hasty changes, (2) State ratification protects federal structure, (3) Basic structure doctrine ensures essential features remain intact. Areas of Concern: (1) Complex procedures can delay necessary reforms, (2) Political consensus requirements may lead to compromise on quality, (3) Uncertainty about basic structure limits creates legal unpredictability. Comparative Assessment: (1) More flexible than rigid constitutional systems, (2) More rigid than systems with weak constitutional frameworks, (3) Successfully balances stability with adaptability over 70+ years. Overall, Article 368 has served its intended purpose of providing constitutional stability while allowing necessary adaptations, though procedural refinements could improve its effectiveness.",
+      "tags": ["Constitutional Balance", "Rigidity", "Flexibility", "Constitutional Evolution", "Democratic Governance"]
+    },
+    {
+      "id": 12,
+      "topic": "Amendment Process (Article 368)",
+      "difficulty": "basic",
+      "question_type": "mcq",
+      "question": "What is the minimum number of states required to ratify a constitutional amendment?",
+      "options": ["One-third", "One-half", "Two-thirds", "Three-fourths"],
+      "correct_answer": "One-half",
+      "answer": "At least one-half of the state legislatures must ratify a constitutional amendment for provisions requiring state consent. This means that out of the 28 states, at least 14 states must pass resolutions supporting the amendment. For union territories with legislatures, the requirement applies as specified in the Constitution. This ensures that amendments affecting federal interests have broad state support across the country.",
+      "tags": ["State Ratification", "One-half Majority", "Federal Consent", "Constitutional Amendment", "State Legislatures"]
+    },
+    {
+      "id": 13,
+      "topic": "Amendment Process (Article 368)",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "How does the amendment procedure vary for different constitutional provisions?",
+      "answer": "Amendment procedures vary based on the significance of the provisions: (1) Simple Majority: For administrative and procedural matters (Article 118, parliamentary rules). (2) Special Majority Only: For most constitutional provisions affecting fundamental rights, directive principles, and other articles not requiring state consent. (3) Special Majority + State Ratification: For federal structure, Union/State judiciary, center-state relations, Seventh Schedule, and Article 368 itself. This graduated approach ensures that: (a) Routine matters can be changed easily, (b) Important constitutional changes require broad consensus, (c) Federal changes need state consent, (d) The amendment power itself is protected. This variation allows appropriate levels of democratic input and protection for different types of constitutional provisions.",
+      "tags": ["Amendment Variations", "Federal Structure", "Democratic Consensus", "Constitutional Protection", "Graduated Approach"]
+    },
+    {
+      "id": 14,
+      "topic": "Amendment Process (Article 368)",
+      "difficulty": "advanced",
+      "question_type": "short_answer",
+      "question": "What would happen if a constitutional amendment violates the basic structure doctrine?",
+      "answer": "If a constitutional amendment violates the basic structure doctrine: (1) Judicial Review: The amendment can be challenged in Supreme Court under Article 32 or High Courts under Article 226. (2) Court Review: Courts examine whether the amendment destroys essential features of the Constitution. (3) Potential Outcomes: (a) The amendment may be struck down entirely, (b) Specific provisions may be struck down while others remain, (c) The amendment may be saved by interpretation. (4) Precedents: 42nd Amendment provisions were partially struck down in Minerva Mills case for violating basic structure. (5) Consequences: Struck down amendments become void ab initio (from the beginning), creating legal uncertainty. (6) Remedial Measures: Courts may provide transitional provisions to minimize disruption. The doctrine serves as a constitutional safeguard against destructive amendments while allowing beneficial changes.",
+      "tags": ["Basic Structure Violation", "Judicial Review", "Amendment Invalidity", "Constitutional Safeguard", "Transitional Provisions"]
+    },
+    {
+      "id": 15,
+      "topic": "Amendment Process (Article 368)",
+      "difficulty": "basic",
+      "question_type": "short_answer",
+      "question": "Which houses of Parliament must pass a constitutional amendment bill?",
+      "answer": "A constitutional amendment bill must be passed by both houses of Parliament: (1) Lok Sabha (House of the People): Must pass the bill by special majority. (2) Rajya Sabha (Council of States): Must pass the bill by special majority. (3) Equal Status: Both houses have equal status in the amendment process, unlike ordinary legislation where Lok Sabha has primacy. (4) Joint Sitting: No provision for joint sitting in case of disagreement on constitutional amendments. (5) Simultaneous Approval: Both houses must approve the bill before it can proceed to the next stage. This ensures that both representative and federal voices are heard in constitutional changes, providing legitimacy and broad consensus for amendments.",
+      "tags": ["Lok Sabha", "Rajya Sabha", "Bicameral Approval", "Equal Status", "Constitutional Legitimacy"]
+    },
+    {
+      "id": 16,
+      "topic": "Important Constitutional Amendments",
+      "difficulty": "basic",
+      "question_type": "mcq",
+      "question": "Which Constitutional Amendment introduced Articles 31A and 31B?",
+      "options": ["1st Amendment", "24th Amendment", "42nd Amendment", "44th Amendment"],
+      "correct_answer": "1st Amendment",
+      "answer": "The First Amendment Act, 1951 introduced Articles 31A and 31B. Article 31A provides protection to certain laws from being challenged on grounds of violation of Fundamental Rights, particularly property rights. Article 31B introduces the Ninth Schedule, which contains a list of laws that cannot be challenged in any court of law. This amendment was primarily aimed at protecting zamindari abolition laws and agrarian reforms.",
+      "tags": ["1st Amendment", "Article 31A", "Article 31B", "Ninth Schedule", "Zamindari Abolition"]
+    },
+    {
+      "id": 17,
+      "topic": "Important Constitutional Amendments",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "What were the main objectives of the First Amendment (1951)?",
+      "answer": "The First Amendment had several key objectives: (1) Protecting Agrarian Reforms: Secured constitutional validity of zamindari abolition laws by adding Article 31A. (2) Creating Legal Shield: Introduced Article 31B and Ninth Schedule to protect certain laws from Fundamental Rights challenges. (3) Backward Class Protection: Added special provisions for advancement of socially and educationally backward classes. (4) Reasonable Restrictions: Enabled reasonable restrictions on freedom of speech for public order. (5) Social Justice: Facilitated land reforms and redistribution to promote social equality. The amendment marked a shift towards prioritizing social welfare over individual property rights, establishing the foundation for extensive land reforms and social justice measures in independent India.",
+      "tags": ["First Amendment", "Agrarian Reform", "Backward Classes", "Social Justice", "Land Redistribution"]
+    },
+    {
+      "id": 18,
+      "topic": "Important Constitutional Amendments",
+      "difficulty": "basic",
+      "question_type": "short_answer",
+      "question": "Explain the significance of the 24th Amendment (1971).",
+      "answer": "The 24th Amendment was significant for: (1) Responding to Golaknath Case: Overturned the Supreme Court's decision that limited Parliament's power to amend Fundamental Rights. (2) Article 13 Amendment: Added Article 13(4) stating that constitutional amendments are not 'laws' under Article 13. (3) Article 368 Amendment: Made the President's assent mandatory for constitutional amendments. (4) Restoring Parliamentary Power: Reaffirmed Parliament's constituent power to amend any part of the Constitution. (5) Foundation for Basic Structure: Set the stage for the basic structure doctrine by attempting to remove limitations on amending power. This amendment demonstrated Parliament's assertion of its constituent power and led directly to the Kesavananda Bharati case which established the basic structure doctrine.",
+      "tags": ["24th Amendment", "Golaknath", "Article 13", "Parliamentary Power", "Constituent Power"]
+    },
+    {
+      "id": 19,
+      "topic": "Important Constitutional Amendments",
+      "difficulty": "advanced",
+      "question_type": "essay",
+      "question": "Analyze why the 42nd Amendment is called the 'Mini Constitution' and its impact on Indian polity.",
+      "answer": "The 42nd Amendment (1976) is called 'Mini Constitution' due to its comprehensive changes: Scope of Changes: (1) Fundamental Duties: Added Part IVA (Article 51A) listing fundamental duties of citizens. (2) Directive Principles Enhancement: Article 39A added for equal justice and free legal aid. (3) Amendment Power Expansion: Added clauses (4) and (5) to Article 368 claiming no limitation on amendment power. (4) Judicial Power Curtailment: Added Articles 32A, 131A, 139A restricting court jurisdiction. (5) Administrative Law Changes: Made changes to Articles 311, 312, 330 affecting civil services. Impact on Indian Polity: (1) Emergency Context: Passed during Emergency when democratic institutions were weakened. (2) Parliamentary Supremacy: Sought to establish absolute parliamentary supremacy over constitutional limits. (3) Judicial Curtailment: Attempted to reduce judicial review powers significantly. (4) Social Changes: Enhanced role of Directive Principles over Fundamental Rights. (5) Post-Emergency Response: Minerva Mills case (1980) struck down key provisions, restoring constitutional balance. The amendment represented an extreme assertion of executive-legislative power that was later corrected by judicial intervention.",
+      "tags": ["42nd Amendment", "Mini Constitution", "Emergency", "Parliamentary Supremacy", "Judicial Curtailment"]
+    },
+    {
+      "id": 20,
+      "topic": "Important Constitutional Amendments",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "How did the 44th Amendment (1978) restore constitutional balance after the Emergency?",
+      "answer": "The 44th Amendment restored constitutional balance after the Emergency: (1) Property Rights: Removed Article 31 and modified Article 19(1)(f), removing right to property as Fundamental Right. (2) Emergency Powers: Strengthened safeguards against misuse of emergency provisions. (3) Judicial Review: Removed clauses that barred judicial review of constitutional amendments. (4) Fundamental Rights Protection: Strengthened protection of freedom of speech and expression. (5) Article 134A: Added provision for certificate for appeal to Supreme Court. (6) Anti-Arbitrariness: Introduced safeguards against arbitrary executive and legislative actions. The amendment represented a post-Emergency correction that restored judicial review, strengthened Fundamental Rights, and prevented future abuse of emergency powers, thus reinstating the constitutional equilibrium disrupted during the Emergency period.",
+      "tags": ["44th Amendment", "Emergency", "Constitutional Balance", "Fundamental Rights", "Judicial Review Restoration"]
+    },
+    {
+      "id": 21,
+      "topic": "Important Constitutional Amendments",
+      "difficulty": "basic",
+      "question_type": "short_answer",
+      "question": "What is the significance of the 73rd Amendment (1992)?",
+      "answer": "The 73rd Amendment established Panchayati Raj system: (1) Constitutional Recognition: Made local self-government in rural areas a constitutional right. (2) Three-Tier System: Created Gram Panchayat, Panchayat Samiti, and Zilla Panchayat. (3) Reservations: Mandated reservation for Scheduled Castes, Scheduled Tribes, and women. (4) Election Process: Ensured regular elections and fixed tenure for panchayats. (5) Financial Powers: Assigned 29 subjects to panchayats through Schedule 11. (6) Democratic Decentralization: Transformed village-level governance from administrative units to elected democratic institutions. The amendment strengthened grassroots democracy and devolved power to local levels, promoting participatory governance and rural development.",
+      "tags": ["73rd Amendment", "Panchayati Raj", "Local Self-Government", "Democratic Decentralization", "Rural Governance"]
+    },
+    {
+      "id": 22,
+      "topic": "Important Constitutional Amendments",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "Discuss the constitutional innovations introduced by the 74th Amendment.",
+      "answer": "The 74th Amendment introduced several constitutional innovations: (1) Urban Local Bodies: Constitutionalized municipal governance in urban areas. (2) Types of Municipalities: Provided for different types based on population - Municipal Corporations, Municipal Councils, and Nagar Panchayats. (3) Ward Committees: Mandated creation of Ward Committees for better local participation. (4) District Planning Committee: Required preparation of integrated district plans. (5) Metropolitan Planning Committee: Established for metro areas with populations over 10 lakhs. (6) Financial Powers: Assigned 18 subjects to municipalities through Schedule 12. (7) Uniform Framework: Created uniform structure across urban India while allowing state-specific adaptations. The amendment brought constitutional status to urban local bodies, ensuring democratic governance in cities and towns.",
+      "tags": ["74th Amendment", "Municipalities", "Urban Governance", "Ward Committees", "Metropolitan Planning"]
+    },
+    {
+      "id": 23,
+      "topic": "Important Constitutional Amendments",
+      "difficulty": "basic",
+      "question_type": "mcq",
+      "question": "Which Amendment inserted Article 21A making education a Fundamental Right?",
+      "options": ["86th Amendment", "96th Amendment", "106th Amendment", "116th Amendment"],
+      "correct_answer": "86th Amendment",
+      "answer": "The 86th Amendment (2002) inserted Article 21A, making education a Fundamental Right for children aged 6-14 years. This amendment was a landmark step in making education accessible to all children and shifted education from being a directive principle to a fundamental entitlement. The amendment also modified Article 45 and added a clause to Article 51A regarding education-related fundamental duties.",
+      "tags": ["86th Amendment", "Right to Education", "Article 21A", "Fundamental Right", "Educational Reform"]
+    },
+    {
+      "id": 24,
+      "topic": "Important Constitutional Amendments",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "Examine the fiscal federalism implications of the 101st Amendment (GST).",
+      "answer": "The 101st Amendment had significant fiscal federalism implications: (1) Taxation Powers: Created dual GST with Central GST (CGST) and State GST (SGST), eliminating multiple taxes. (2) GST Council: Established federal body with Finance Ministers from Centre and states for decision-making. (3) Revenue Sharing: Introduced mechanism for compensating states for revenue loss. (4) Common Market: Created unified national market, reducing barriers to inter-state trade. (5) State Consent: Required ratification by states due to changes in federal fiscal structure. (6) Balance: Maintained federal balance by giving states significant role in GST Council while centralizing administration. The amendment represents the most significant constitutional change in fiscal federalism since independence, balancing centralization for efficiency with state participation for legitimacy.",
+      "tags": ["101st Amendment", "GST", "Fiscal Federalism", "GST Council", "Revenue Sharing"]
+    },
+    {
+      "id": 25,
+      "topic": "Important Constitutional Amendments",
+      "difficulty": "advanced",
+      "question_type": "scenario",
+      "question": "Analyze how the 1st Amendment's creation of the Ninth Schedule affects contemporary constitutional challenges.",
+      "answer": "The Ninth Schedule affects contemporary challenges: (1) Original Protection: Article 31B states that laws in Ninth Schedule are not void for inconsistency with Fundamental Rights. (2) Post-Kesavananda Vulnerability: IR Coelho case (2007) held that laws added to Ninth Schedule after 1973 are subject to judicial review. (3) Rights Test: Courts apply 'rights test' to determine if Ninth Schedule laws violate basic structure. (4) Contemporary Impact: (a) Pre-1973 laws remain protected, (b) Post-1973 laws can be challenged, (c) Burden shifts to state to justify protection. (5) Judicial Balancing: Courts must balance social welfare goals with individual rights protection. Current Status: While Ninth Schedule still provides protection, it is no longer an absolute shield. Courts examine the impact on fundamental rights and constitutional values when reviewing such laws. This evolution shows how judicial interpretation has adapted constitutional protections to modern human rights standards.",
+      "tags": ["Ninth Schedule", "Article 31B", "IR Coelho", "Rights Test", "Constitutional Protection"]
+    }
+  ]
+},
+    {
+      "id": 41,
+      "topic": "Judicial Review Power",
+      "difficulty": "basic",
+      "question_type": "short_answer",
+      "question": "What is the difference between judicial review and judicial activism?",
+      "answer": "Judicial Review: The constitutional power of courts to examine laws and government actions for constitutional validity. It's a checks-and-balances mechanism where courts invalidate unconstitutional actions. Judicial Activism: The practice of courts taking proactive roles in policy matters and social issues, often expanding the scope of judicial review. Judicial review is a constitutional power; judicial activism is a judicial approach. While judicial review is inherent in constitutional systems, judicial activism involves courts taking initiative in areas traditionally reserved for legislature or executive, based on interpretation of constitutional provisions.",
+      "tags": ["Judicial Review", "Judicial Activism", "Checks and Balances", "Constitutional Power", "Judicial Approach"]
+    },
+    {
+      "id": 42,
+      "topic": "Judicial Review Power",
+      "difficulty": "advanced",
+      "question_type": "short_answer",
+      "question": "How has the concept of 'proportionate review' evolved in Indian constitutional law?",
+      "answer": "Proportionate review has evolved significantly: (1) Traditional Approach: Initially, Indian courts applied the 'reasonable restrictions' test under Article 19. (2) Evolution: Courts began applying proportionality in fundamental rights cases. (3) International Influence: UN Droit civil law influenced development of proportionality analysis. (4) Modern Application: Courts now examine: (a) Legitimate state objective, (b) Rational connection between means and end, (c) Least restrictive means, (d) Proportionate impact. (5) Constitutional Backing: Article 21's expanded interpretation supports proportionality in rights cases. This evolution shows courts' increasing sophistication in constitutional review, balancing state power with individual rights through structured analysis rather than simple reasonableness tests.",
+      "tags": ["Proportionate Review", "Fundamental Rights", "Reasonable Restrictions", "Article 21", "Rights Protection"]
+    },
+    {
+      "id": 43,
+      "topic": "Supreme Court Jurisdiction",
+      "difficulty": "basic",
+      "question_type": "short_answer",
+      "question": "What are the three types of jurisdiction of the Supreme Court?",
+      "answer": "The Supreme Court has three types of jurisdiction: (1) Original Jurisdiction (Article 131): Exclusive jurisdiction over disputes between Government of India and one or more states, or between states inter se concerning legal rights. (2) Appellate Jurisdiction (Articles 132, 133, 134): Appeals from High Courts in constitutional, civil, and criminal matters. Also includes special leave petition jurisdiction under Article 136. (3) Advisory Jurisdiction (Article 143): President may refer questions of law or fact to Supreme Court for opinion. These jurisdictions make the Supreme Court the apex court for constitutional interpretation, legal disputes, and important legal questions affecting the nation.",
+      "tags": ["Supreme Court", "Original Jurisdiction", "Appellate Jurisdiction", "Advisory Jurisdiction", "Constitutional Court"]
+    },
+    {
+      "id": 44,
+      "topic": "Supreme Court Jurisdiction",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "Explain the scope of original jurisdiction of the Supreme Court under Article 131.",
+      "answer": "Article 131 provides exclusive original jurisdiction for: (1) Disputes between Government of India and one or more States: For example, disputes over constitutional interpretation or resource sharing. (2) Disputes between two or more States: Including inter-state water disputes or boundary disputes. (3) Disputes between Government of India and any State(s) on one side and one or more States on the other: For matters involving multiple states and the Union government. Limitations: (1) Only disputes where legal rights are involved, (2) Purely political questions may not be entertained, (3) Matters involving private parties without state involvement are excluded. This jurisdiction ensures direct access to the apex court for the most important constitutional and inter-governmental disputes.",
+      "tags": ["Article 131", "Original Jurisdiction", "Inter-State Disputes", "Government Disputes", "Legal Rights"]
+    },
+    {
+      "id": 45,
+      "topic": "Supreme Court Jurisdiction",
+      "difficulty": "basic",
+      "question_type": "mcq",
+      "question": "Under which article does the Supreme Court have the power to grant special leave to appeal?",
+      "options": ["Article 132", "Article 133", "Article 134", "Article 136"],
+      "correct_answer": "Article 136",
+      "answer": "Article 136 gives the Supreme Court the power to grant special leave to appeal from any judgment, decree, determination, sentence or order passed by any court or tribunal in India. This is a discretionary power exercised by the Supreme Court in exceptional cases where a substantial question of law of general importance is involved or there has been a miscarriage of justice. The Supreme Court uses this power extensively to maintain uniformity in law and protect constitutional rights.",
+      "tags": ["Article 136", "Special Leave", "SLP", "Discretionary Power", "Constitutional Rights"]
+    },
+    {
+      "id": 46,
+      "topic": "Supreme Court Jurisdiction",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "What is the significance of Article 143 (Advisory Jurisdiction)?",
+      "answer": "Article 143 provides advisory jurisdiction: (1) Presidential Reference: President may refer any question of law or fact to Supreme Court for opinion. (2) Public Importance: Used for matters of public importance requiring constitutional clarity. (3) Non-binding Nature: Opinions are advisory, not binding like judicial decisions. (4) Preventive Mechanism: Helps prevent disputes by clarifying constitutional questions. (5) Examples: Ayodhya dispute reference, constitutional validity questions. This power serves as a safety valve for important constitutional questions and helps maintain constitutional harmony without creating binding precedents. However, it is used sparingly to avoid overstepping judicial role.",
+      "tags": ["Article 143", "Advisory Jurisdiction", "Presidential Reference", "Constitutional Clarity", "Safety Valve"]
+    },
+    {
+      "id": 47,
+      "topic": "Supreme Court Jurisdiction",
+      "difficulty": "advanced",
+      "question_type": "essay",
+      "question": "Analyze the role of the Supreme Court as the guardian of the Constitution and protector of Fundamental Rights.",
+      "answer": "Supreme Court's role as constitutional guardian involves multiple dimensions: (1) Constitutional Interpretation: As the apex constitutional court, Supreme Court has the final authority to interpret constitutional provisions. (2) Fundamental Rights Protection: Article 32 provides direct access to Supreme Court for rights enforcement. (3) Judicial Review: Reviews all government actions for constitutional compliance. (4) Basic Structure Doctrine: Protects essential features of Constitution from destructive amendments. (5) Constitutional Supremacy: Ensures all state action conforms to constitutional requirements. (6) Institutional Balance: Maintains checks and balances among different organs of government. This role makes the Supreme Court not just an appellate court but the constitutional conscience of the nation, protecting democratic values and constitutional principles from erosion while allowing necessary constitutional evolution.",
+      "tags": ["Constitutional Guardian", "Fundamental Rights", "Judicial Review", "Basic Structure", "Democratic Values"]
+    },
+    {
+      "id": 48,
+      "topic": "High Court Jurisdiction",
+      "difficulty": "basic",
+      "question_type": "short_answer",
+      "question": "What is the territorial jurisdiction of High Courts?",
+      "answer": "Each High Court has territorial jurisdiction within its designated area: (1) State High Courts: Generally cover their respective states as defined in relevant acts. (2) Extended Jurisdiction: Some High Courts have extended jurisdiction (e.g., Calcutta High Court covers Andaman and Nicobar Islands). (3) Writ Jurisdiction: High Courts can issue writs against authorities within their territorial limits. (4) Cross-jurisdictional Cases: If cause of action arises within jurisdiction, High Court can entertain petition even against respondent outside jurisdiction. (5) Supreme Court: Has nationwide jurisdiction for writs under Article 32. This territorial arrangement ensures proper distribution of judicial workload while providing adequate access to justice across different regions.",
+      "tags": ["Territorial Jurisdiction", "High Courts", "State Limits", "Writ Jurisdiction", "Regional Justice"]
+    },
+    {
+      "id": 49,
+      "topic": "High Court Jurisdiction",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "What are the differences between Article 226 and Article 227?",
+      "answer": "Article 226 vs Article 227: Article 226 (Writ Jurisdiction): (1) Provides constitutional writs for Fundamental Rights and other legal rights, (2) Five types of writs available, (3) Can be invoked by petition, (4) Primary remedy for rights violations. Article 227 (Supervisory Jurisdiction): (1) Superintendence over all courts and tribunals in territorial jurisdiction, (2) General supervisory power, not error correction, (3) Can be exercised suo moto, (4) Used for institutional oversight and control. Together, they provide comprehensive judicial oversight: Article 226 protects individual rights, while Article 227 ensures proper functioning of judicial institutions. This dual system allows High Courts to both protect citizens and maintain judicial discipline.",
+      "tags": ["Article 226", "Article 227", "Writ Jurisdiction", "Supervisory Jurisdiction", "Judicial Oversight"]
+    },
+    {
+      "id": 50,
+      "topic": "High Court Jurisdiction",
+      "difficulty": "basic",
+      "question_type": "mcq",
+      "question": "Which of the following is NOT a writ that can be issued under Article 226?",
+      "options": ["Habeas Corpus", "Mandamus", "Prohibition", "Review"],
+      "correct_answer": "Review",
+      "answer": "Review is not a writ that can be issued under Article 226. The five constitutional writs under Article 226 are: (1) Habeas Corpus - to challenge unlawful detention, (2) Mandamus - to compel performance of public duty, (3) Prohibition - to prevent lower court from proceeding, (4) Quo Warranto - to question authority of public office holder, (5) Certiorari - to quash illegal orders. Review is a procedural remedy available in civil and criminal cases before the same court that decided the matter, but it is not one of the five constitutional writs.",
+      "tags": ["Constitutional Writs", "Article 226", "Review Remedy", "High Court Powers", "Civil Procedure"]
+    }
+  ]
+},
+    {
+      "id": 51,
+      "topic": "High Court Jurisdiction",
+      "difficulty": "advanced",
+      "question_type": "essay",
+      "question": "Examine how High Courts balance their supervisory jurisdiction under Article 227 with maintaining judicial independence.",
+      "answer": "High Courts balance supervisory jurisdiction carefully: (1) Limited Scope: Article 227 is not for correcting errors but preventing abuse of jurisdiction or grave injustice. (2) Jurisdictional Boundaries: Courts intervene when subordinate courts act without jurisdiction, fail to exercise jurisdiction, or exercise it illegally. (3) Institutional Maintenance: Supervisory power ensures proper functioning of judicial system while respecting independence. (4) Preventive Rather than Corrective: Emphasis on keeping courts within bounds rather than reviewing decisions. (5) General Rules and Forms: Courts use this power to regulate practice and proceedings systematically. This balanced approach maintains judicial hierarchy and ensures accountability while preventing unnecessary interference in routine judicial functions, thus preserving both institutional oversight and judicial independence.",
+      "tags": ["Article 227", "Supervisory Jurisdiction", "Judicial Independence", "Error Correction", "Institutional Balance"]
+    },
+    {
+      "id": 52,
+      "topic": "Landmark Judgments",
+      "difficulty": "basic",
+      "question_type": "short_answer",
+      "question": "What is the significance of Kesavananda Bharati v. State of Kerala (1973)?",
+      "answer": "Kesavananda Bharati case is the most significant constitutional case: (1) Basic Structure Doctrine: Established that Parliament cannot alter the Constitution's basic structure through amendments. (2) 13-Judge Bench: Decided by the largest constitutional bench in Indian history. (3) Constitutional Limits: While Parliament has wide amending power, it cannot destroy essential features. (4) Judicial Review: Reaffirmed judicial review as integral to constitutional system. (5) Core Features: Identified supremacy of Constitution, rule of law, separation of powers, democracy, federalism as basic features. (6) Constitutional Supremacy: Marked the beginning of constitutional supremacy over parliamentary sovereignty. This judgment has shaped Indian constitutional jurisprudence for over 50 years and remains the foundation of constitutional limitations.",
+      "tags": ["Kesavananda Bharati", "Basic Structure", "13-Judge Bench", "Constitutional Supremacy", "Parliamentary Power"]
+    },
+    {
+      "id": 53,
+      "topic": "Landmark Judgments",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "Analyze the Minerva Mills case and its impact on the 42nd Amendment.",
+      "answer": "Minerva Mills case (1980) significantly impacted the 42nd Amendment: (1) Context: Challenged provisions of 42nd Amendment (Mini Constitution) passed during Emergency. (2) Key Holdings: (a) Struck down clauses (4) and (5) of Article 368 that claimed unlimited amendment power, (b) Reaffirmed basic structure doctrine, (c) Held judicial review as essential feature, (d) Restored balance between Fundamental Rights and Directive Principles. (3) Impact: (a) Invalidated attempt to immunize amendments from judicial review, (b) Rejected absolute parliamentary supremacy, (c) Restored constitutional balance disrupted during Emergency. (4) Significance: Marked post-Emergency restoration of constitutional values and judicial supremacy. The judgment ensured that even constitutional amendments serve the Constitution rather than destroying its essential character, thus protecting constitutional values from executive-legislative overreach.",
+      "tags": ["Minerva Mills", "42nd Amendment", "Judicial Review", "Emergency", "Constitutional Balance"]
+    },
+    {
+      "id": 54,
+      "topic": "Landmark Judgments",
+      "difficulty": "basic",
+      "question_type": "mcq",
+      "question": "Which case established the basic structure doctrine?",
+      "options": ["Golaknath v. State of Punjab", "Kesavananda Bharati v. State of Kerala", "Minerva Mills v. Union of India", "Waman Rao v. Union of India"],
+      "correct_answer": "Kesavananda Bharati v. State of Kerala",
+      "answer": "Kesavananda Bharati v. State of Kerala (1973) established the basic structure doctrine. This landmark case held that while Parliament has wide powers to amend the Constitution, it cannot destroy the basic structure of the Constitution. The doctrine has since become a cornerstone of Indian constitutional jurisprudence and protects essential features like rule of law, democracy, and judicial review from being altered by constitutional amendments.",
+      "tags": ["Kesavananda Bharati", "Basic Structure", "Constitutional Amendment", "Judicial Review", "Constitutional Limits"]
+    },
+    {
+      "id": 55,
+      "topic": "Landmark Judgments",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "What is the significance of the IR Coelho case (2007)?",
+      "answer": "IR Coelho case (2007) significantly impacted Ninth Schedule protection: (1) Post-1973 Vulnerability: Laws placed in Ninth Schedule after Kesavananda Bharati are subject to judicial review. (2) Rights Test: Applied 'rights test' to determine if Ninth Schedule laws violate basic structure. (3) Article 31B Limitation: Parliament cannot use Ninth Schedule to defeat judicial review entirely. (4) Constitutional Balance: Maintained balance between social welfare goals and individual rights protection. (5) Practical Impact: Prevented arbitrary use of Article 31B as shield against constitutional challenges. The judgment strengthened basic structure doctrine by ensuring that even if Parliament tries to shield laws from review, such laws remain vulnerable to challenge if they violate essential constitutional values, thus preserving judicial oversight over legislative action.",
+      "tags": ["IR Coelho", "Ninth Schedule", "Rights Test", "Article 31B", "Constitutional Challenge"]
+    },
+    {
+      "id": 56,
+      "topic": "Landmark Judgments",
+      "difficulty": "advanced",
+      "question_type": "essay",
+      "question": "Examine the evolution of the basic structure doctrine through key cases from Kesavananda Bharati to IR Coelho.",
+      "answer": "Evolution of Basic Structure Doctrine: Kesavananda Bharati (1973): Established the doctrine, identifying essential features. Golaknath Context: Led to 24th Amendment response. Minerva Mills (1980): Reaffirmed doctrine after 42nd Amendment challenge. Waman Rao (1981): Introduced prospective overruling doctrine. Indira Gandhi Case (1975): Applied doctrine to electoral matters. S.R. Bommai (1994): Extended doctrine to federalism and democratic governance. L. Chandra Kumar (1997): Protected judicial review as integral feature. IR Coelho (2007): Applied doctrine to Ninth Schedule laws. This evolution shows: (1) Gradual expansion of protected features, (2) Adaptation to changing constitutional challenges, (3) Judicial balance between stability and evolution, (4) Protection of democratic values and institutional independence. The doctrine has matured into a comprehensive framework protecting constitutional identity while allowing necessary adaptations.",
+      "tags": ["Basic Structure Evolution", "Constitutional Development", "Judicial Interpretation", "Democratic Values", "Institutional Protection"]
+    },
+    {
+      "id": 57,
+      "topic": "Landmark Judgments",
+      "difficulty": "basic",
+      "question_type": "short_answer",
+      "question": "What is the significance of the Vishaka v. State of Rajasthan case?",
+      "answer": "Vishaka case (1997) is landmark for women's rights: (1) Background: Filed by NGOs following Bhanwari Devi's rape for stopping child marriage. (2) Constitutional Basis: Based on Articles 14, 15, and 21 - equality, non-discrimination, and right to life. (3) Guidelines Issued: Formulated comprehensive guidelines for preventing workplace sexual harassment. (4) Legislative Impact: Guidelines remained in force until Sexual Harassment Act, 2013. (5) PIL Significance: Demonstrated PIL's role in protecting marginalized groups. (6) Institutional Change: Led to establishment of Internal Complaints Committees in workplaces. The case established constitutional protection against workplace harassment and showed how PIL can drive social change and legal reform, making workplaces safer for women.",
+      "tags": ["Vishaka", "Sexual Harassment", "Women's Rights", "PIL", "Workplace Safety"]
+    },
+    {
+      "id": 58,
+      "topic": "Landmark Judgments",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "Analyze the significance of S.R. Bommai v. Union of India (1994).",
+      "answer": "S.R. Bommai case revolutionized federalism: (1) Background: Challenged dismissal of Karnataka government under Article 356. (2) Federal Principles: Held that federalism is part of basic structure. (3) Judicial Review: Article 356 proclamations are subject to judicial review. (4) Democratic Governance: Presidential Rule should be last resort, not for political convenience. (5) Procedural Safeguards: Established guidelines for President's Rule. (6) Cooperative Federalism: Strengthened state autonomy and limited central interference. The judgment marked shift from unitary to federal understanding, protecting democratic governance and federal principles. It made political misuse of Article 356 difficult and established that central intervention must be temporary and aimed at restoring constitutional government.",
+      "tags": ["S.R. Bommai", "Federalism", "President's Rule", "Article 356", "State Autonomy"]
+    },
+    {
+      "id": 59,
+      "topic": "Landmark Judgments",
+      "difficulty": "basic",
+      "question_type": "mcq",
+      "question": "Which case introduced the doctrine of prospective overruling?",
+      "options": ["Kesavananda Bharati", "Waman Rao", "Minerva Mills", "Golaknath"],
+      "correct_answer": "Waman Rao",
+      "answer": "Waman Rao v. Union of India (1981) introduced the doctrine of prospective overruling. This doctrine allows the Supreme Court to overrule its previous decisions prospectively, meaning the new ruling applies only to future cases and not retroactively to past cases. The doctrine prevents disruption of legal systems and protects settled rights and transactions. It has been used in subsequent cases to balance the need for legal evolution with maintaining stability in legal relationships.",
+      "tags": ["Waman Rao", "Prospective Overruling", "Legal Stability", "Judicial Evolution", "Constitutional Doctrine"]
+    },
+    {
+      "id": 60,
+      "topic": "Landmark Judgments",
+      "difficulty": "advanced",
+      "question_type": "short_answer",
+      "question": "Examine the role of L. Chandra Kumar v. Union of India in protecting judicial review.",
+      "answer": "L. Chandra Kumar case (1997) strengthened judicial review: (1) Tribunal Jurisdiction: Struck down provisions excluding High Court jurisdiction over tribunals. (2) Basic Structure: Held that Articles 32 and 226 are integral to basic structure. (3) Judicial Oversight: Ensured that exclusion of judicial review violates constitutional scheme. (4) Access to Justice: Protected citizens' right to approach courts for constitutional remedies. (5) Institutional Balance: Maintained balance between specialized tribunals and judicial review. The judgment prevents creation of judicial zones free from constitutional oversight, ensuring that all adjudicative bodies remain subject to constitutional review. This protects the foundational principle that no administrative or quasi-judicial body can operate outside constitutional framework.",
+      "tags": ["L. Chandra Kumar", "Tribunal Review", "Judicial Oversight", "Basic Structure", "Constitutional Remedies"]
+    },
+    {
+      "id": 61,
+      "topic": "Public Interest Litigation",
+      "difficulty": "basic",
+      "question_type": "short_answer",
+      "question": "What is Public Interest Litigation (PIL)?",
+      "answer": "Public Interest Litigation (PIL) is litigation undertaken to secure public interest, particularly for socially-disadvantaged parties. It allows any public-spirited individual or organization to approach courts for enforcement of legal or constitutional rights of persons who are unable to approach courts for various reasons. Key features: (1) Relaxation of locus standi - any person can file for public interest, (2) Epistolary jurisdiction - letters, postcards can be treated as petitions, (3) Social justice focus - protects marginalized sections, (4) Inquisitorial approach - courts actively investigate matters. PIL democratizes access to justice and has brought about significant social changes in areas like environment, gender justice, prison reforms, and human rights.",
+      "tags": ["PIL", "Public Interest", "Locus Standi", "Epistolary Jurisdiction", "Social Justice"]
+    },
+    {
+      "id": 62,
+      "topic": "Public Interest Litigation",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "How has PIL expanded access to justice in India?",
+      "answer": "PIL has expanded access to justice through: (1) Locus Standi Relaxation: Any public-spirited person can file PIL on behalf of affected parties. (2) Epistolary Jurisdiction: Courts accept letters, telegrams, emails as writ petitions. (3) Collective Rights Protection: Focuses on rights of marginalized groups like prisoners, women, children. (4) Institutional Reforms: Courts issue directions for systemic improvements. (5) Cost-Effective: Reduces litigation costs for public interest matters. Impact: (a) Made judicial system accessible to poor and marginalized, (b) Brought massive social changes, (c) Initiated judicial activism in various fields, (d) Created accountability mechanisms for state institutions. PIL has transformed Indian judiciary from adversarial system to one that actively promotes social justice and constitutional values.",
+      "tags": ["Access to Justice", "Marginalized Groups", "Judicial Activism", "Systemic Reform", "Constitutional Values"]
+    },
+    {
+      "id": 63,
+      "topic": "Public Interest Litigation",
+      "difficulty": "basic",
+      "question_type": "mcq",
+      "question": "Which case is considered the first PIL in India?",
+      "options": ["Vishaka case", "Hussainara Khatoon case", "M.C. Mehta case", "SP Gupta case"],
+      "correct_answer": "Hussainara Khatoon case",
+      "answer": "Hussainara Khatoon v. State of Bihar (1979) is considered the first PIL in India. The case dealt with undertrial prisoners who had been detained longer than the maximum possible sentence for their alleged crimes. The Supreme Court recognized the right to speedy trial as part of Article 21 and ordered the release of thousands of undertrial prisoners. The case marked the beginning of Public Interest Litigation in India and demonstrated how letters to the court could be converted into writ petitions for protecting rights of disadvantaged persons.",
+      "tags": ["Hussainara Khatoon", "First PIL", "Undertrial Prisoners", "Speedy Trial", "Article 21"]
+    },
+    {
+      "id": 64,
+      "topic": "Public Interest Litigation",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "What are the main criticisms of PIL?",
+      "answer": "Main criticisms of PIL include: (1) Frivolous Petitions: Many PILs are filed for monetary gain or personal vendetta. (2) Judicial Overreach: Courts may exceed their jurisdiction and interfere in policy matters. (3) Lack of Oversight: No proper mechanism to filter genuine from frivolous PILs. (4) Resource Diversion: PILs may divert court resources from regular litigation. (5) Implementation Issues: Many PIL orders remain unimplemented due to lack of follow-up. (6) Political Misuse: PILs can be used for political purposes against opponents. (7) Lack of Expertise: Courts may not have expertise in complex policy matters. Courts have responded by imposing costs and developing guidelines, but concerns about PIL misuse persist, leading to calls for better regulation and screening mechanisms.",
+      "tags": ["PIL Criticisms", "Frivolous Petitions", "Judicial Overreach", "Implementation", "Regulation"]
+    },
+    {
+      "id": 65,
+      "topic": "Public Interest Litigation",
+      "difficulty": "advanced",
+      "question_type": "short_answer",
+      "question": "How has PIL contributed to environmental protection in India?",
+      "answer": "PIL has significantly advanced environmental protection: (1) M.C. Mehta Cases: Established environmental jurisprudence, ordered closure of polluting industries. (2) Ganga Action Plan: Court-monitored pollution control measures for river Ganga. (3) Industrial Relocation: Ordered relocation of hazardous industries away from populated areas. (4) Air Quality: Directed implementation of cleaner technologies and emission controls. (5) Forest Protection: Initiated measures for forest conservation and afforestation. (6) Hazardous Waste: Regulated disposal of toxic and nuclear waste. Impact: (a) Created environmental awareness, (b) Established constitutional basis for environmental protection, (c) Led to creation of environmental courts, (d) Promoted sustainable development principles. PIL has transformed environmental governance from reactive to proactive, making environmental protection a constitutional imperative rather than just statutory requirement.",
+      "tags": ["Environmental PIL", "M.C. Mehta", "Pollution Control", "Sustainable Development", "Environmental Rights"]
+    },
+    {
+      "id": 66,
+      "topic": "Public Interest Litigation",
+      "difficulty": "intermediate",
+      "question_type": "essay",
+      "question": "Examine the impact of the SP Gupta case on PIL development in India.",
+      "answer": "SP Gupta v. Union of India significantly shaped PIL: (1) PIL Definition: The Supreme Court formally defined 'Public Interest Litigation' in Indian context. (2) Locus Standi Expansion: Held that lawyers have right to file PILs for public interest. (3) Democratic Access: Opened floodgates for public-spirited persons to approach courts. (4) Institutional Support: Court's pro-active approach encouraged PIL filing. (5) Precedent Setting: Created framework for subsequent PIL cases. (6) Constitutional Values: Emphasized role of courts in protecting constitutional values. Impact: (a) Democratized access to justice, (b) Enabled judicial activism in various fields, (c) Protected rights of marginalized groups, (d) Created accountability mechanisms. The case marked a paradigm shift from traditional adversarial litigation to collective rights protection, making the judiciary more responsive to public needs and constitutional obligations.",
+      "tags": ["SP Gupta", "PIL Definition", "Locus Standi", "Judicial Activism", "Constitutional Values"]
+    },
+    {
+      "id": 67,
+      "topic": "Public Interest Litigation",
+      "difficulty": "basic",
+      "question_type": "short_answer",
+      "question": "What are the procedural innovations introduced by PIL?",
+      "answer": "PIL introduced several procedural innovations: (1) Epistolary Jurisdiction: Letters, telegrams, emails can be treated as writ petitions. (2) Suo Motu Action: Courts can take cognizance on their own motion. (3) Relaxed Standing: Any public-spirited person can file PIL. (4) Flexible Procedures: Simplified filing and hearing procedures. (5) Monitoring Mechanisms: Courts appoint committees to monitor implementation. (6) Structural Relief: Focus on systemic reforms rather than individual compensation. (7) Cost Awards: Courts impose costs on frivolous petitions. These innovations have made courts more accessible and responsive to public needs while maintaining judicial integrity and preventing abuse of the process.",
+      "tags": ["PIL Innovations", "Epistolary Jurisdiction", "Suo Motu", "Standing Relaxation", "Structural Relief"]
+    },
+    {
+      "id": 68,
+      "topic": "Judicial Appointments and Transfers",
+      "difficulty": "basic",
+      "question_type": "short_answer",
+      "question": "What is the Collegium system for judicial appointments?",
+      "answer": "The Collegium system is India's mechanism for judicial appointments: (1) Supreme Court Collegium: CJI plus four senior-most Supreme Court judges. (2) High Court Collegium: Chief Justice plus two senior-most High Court judges. (3) Consultation Process: CJI consults with senior judges before making recommendations. (4) Executive Role: Government can raise objections but recommendations are generally binding. (5) Constitutional Basis: Based on Articles 124, 217 for appointments and transfers. (6) Judicial Independence: System aims to protect judiciary from executive interference. The Collegium system has evolved through judicial decisions to ensure merit-based appointments while maintaining judicial independence.",
+      "tags": ["Collegium System", "CJI", "Judicial Independence", "Merit-Based", "Judicial Appointments"]
+    },
+    {
+      "id": 69,
+      "topic": "Judicial Appointments and Transfers",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "Trace the evolution of the Collegium system through the Three Judges Cases.",
+      "answer": "Evolution through Three Judges Cases: First Judges Case (1981): Held that 'consultation' in Articles 124(2) and 217 means consultation only, not concurrence, giving executive primacy. Second Judges Case (1993): Overruled First Judges Case, held 'consultation' means 'concurrence', establishing Collegium system with CJI's advice binding. Third Judges Case (1998): Expanded Supreme Court Collegium to include CJI and four senior-most judges, formalizing the current system. This evolution shows: (1) Shift from executive to judicial primacy, (2) Protection of judicial independence, (3) Professional assessment of judicial merit, (4) Collective decision-making process. The Collegium system reflects judicial preference for peer evaluation over political influence in appointments.",
+      "tags": ["Three Judges Cases", "Consultation", "Concurrence", "Judicial Primacy", "Evolution"]
+    },
+    {
+      "id": 70,
+      "topic": "Judicial Appointments and Transfers",
+      "difficulty": "advanced",
+      "question_type": "essay",
+      "question": "Analyze the constitutional validity of the NJAC Act and reasons for its striking down.",
+      "answer": "NJAC Act (99th Amendment, 2014) Analysis: Constitutional Provisions: Established National Judicial Appointments Commission with CJI, two senior judges, and two lay members including Law Minister. Striking Down (Fourth Judges Case, 2015): Supreme Court held NJAC unconstitutional by 4:1 majority. Reasons for Invalidity: (1) Threat to Judicial Independence: Increased executive involvement compromised separation of powers. (2) Basic Structure Violation: Judicial independence is integral to basic structure. (3) Veto Power Concern: Executive members could veto judicial appointments. (4) Conflict of Interest: Law Minister's inclusion created executive influence. (5) Appointment Process: Compromised seniority-based merit assessment. Impact: Reaffirmed Collegium system despite flaws, established judicial independence as non-negotiable constitutional value, highlighted need for internal reforms rather than external controls.",
+      "tags": ["NJAC Act", "99th Amendment", "Judicial Independence", "Fourth Judges Case", "Separation of Powers"]
+    },
+    {
+      "id": 71,
+      "topic": "Judicial Appointments and Transfers",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "What are the main criticisms of the Collegium system?",
+      "answer": "Major criticisms of Collegium system: (1) Lack of Transparency: Operates in secrecy without published criteria. (2) Nepotism Risk: 'Uncle judge syndrome' where appointments favor acquaintances. (3) Delayed Appointments: Significant delays leading to judicial vacancies. (4) Limited Diversity: Skewed representation based on caste, gender, regional factors. (5) Lack of Accountability: No mechanism to challenge collegium decisions. (6) No Objective Criteria: Subjective assessment without clear benchmarks. (7) Vacancy Management: Inadequate systems to fill positions promptly. These concerns have led to calls for transparency measures, diversity quotas, time-bound appointments, and alternative appointment mechanisms that maintain judicial independence while adding accountability.",
+      "tags": ["Collegium Criticisms", "Transparency", "Diversity", "Nepotism", "Accountability"]
+    },
+    {
+      "id": 72,
+      "topic": "Judicial Appointments and Transfers",
+      "difficulty": "basic",
+      "question_type": "mcq",
+      "question": "Who are the members of the Supreme Court Collegium?",
+      "options": ["CJI and two senior judges", "CJI and three senior judges", "CJI and four senior judges", "CJI and five senior judges"],
+      "correct_answer": "CJI and four senior judges",
+      "answer": "The Supreme Court Collegium consists of the Chief Justice of India and the four senior-most judges of the Supreme Court. This five-member body makes recommendations for appointments to the Supreme Court and transfers of High Court judges. The composition was established in the Third Judges Case (1998) to ensure collective decision-making and protect judicial independence in the appointment process.",
+      "tags": ["Supreme Court Collegium", "CJI", "Senior Judges", "Five Members", "Collective Decision"]
+    },
+    {
+      "id": 73,
+      "topic": "Judicial Appointments and Transfers",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "What is the role of the President in judicial appointments?",
+      "answer": "The President's role in judicial appointments is formal but constitutionally significant: (1) Constitutional Authority: Under Articles 124(2) and 217, judges are appointed by President in consultation with CJI and other judges. (2) Collegium Recommendations: President receives and generally accepts Collegium recommendations. (3) Formal Process: Acts on advice of Council of Ministers under Article 74. (4) Constitutional Legitimacy: Provides formal approval for appointments. (5) Non-Discretionary: Cannot withhold assent except in exceptional circumstances. The President's role ensures constitutional legitimacy for appointments while maintaining independence of the judiciary from direct executive control. It represents the final formal step in the appointment process, giving constitutional authority to judicial selections.",
+      "tags": ["President", "Judicial Appointments", "Formal Role", "Constitutional Authority", "Executive Function"]
+    },
+    {
+      "id": 74,
+      "topic": "Judicial Appointments and Transfers",
+      "difficulty": "advanced",
+      "question_type": "short_answer",
+      "question": "How does the Collegium system balance judicial independence with transparency concerns?",
+      "answer": "The Collegium system attempts to balance independence and transparency: Independence Safeguards: (1) Judicial Primacy: Senior judges assess legal acumen and integrity. (2) Peer Evaluation: Professional assessment by judicial colleagues. (3) Separation of Powers: Reduces executive interference in appointments. Transparency Challenges: (1) Secretive Operations: No published criteria or meeting minutes. (2) Subjective Decisions: Based on individual assessments without objective criteria. (3) Limited Diversity: Lacks systematic representation measures. Reform Proposals: (1) Publish selection criteria and guidelines. (2) Provide reasons for selections. (3) Institutional representation. (4) Time-bound appointment processes. (5) Diversity quotas for representation. The challenge is maintaining judicial independence while providing adequate transparency to ensure public confidence in the appointment process.",
+      "tags": ["Balancing Act", "Judicial Independence", "Transparency", "Reform Proposals", "Public Confidence"]
+    },
+    {
+      "id": 75,
+      "topic": "Judicial Appointments and Transfers",
+      "difficulty": "basic",
+      "question_type": "short_answer",
+      "question": "What are the constitutional provisions for judicial appointments?",
+      "answer": "Constitutional provisions for judicial appointments: (1) Article 124(2): Supreme Court judges appointed by President in consultation with CJI and other judges. (2) Article 217: High Court judges appointed by President in consultation with CJI, Governor, and Chief Justice of concerned High Court. (3) Article 126: President appoints Acting CJI. (4) Article 127: Appointment of ad hoc judges to Supreme Court. (5) Article 128: Appointment of retired judges to Supreme Court. (6) Article 222: Transfer of High Court judges. These provisions establish the framework for judicial appointments and transfers, ensuring constitutional authority while providing mechanisms for judicial continuity and proper administration of justice.",
+      "tags": ["Constitutional Provisions", "Article 124", "Article 217", "Judicial Transfers", "Constitutional Framework"]
+    }
+  ]
+},
+    {
+      "id": 76,
+      "topic": "Judicial Appointments and Transfers",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "What is the process for transfer of High Court judges?",
+      "answer": "Transfer process for High Court judges: (1) Collegium System: Supreme Court Collegium recommends transfers based on administrative requirements. (2) Consultation: CJI consults with senior judges before making recommendations. (3) Presidential Assent: President approves transfers after Collegium recommendations. (4) Consent: Judges' consent is generally sought but can be transferred without consent for public interest. (5) Rationale: Based on administrative efficiency, vacancy management, and judicial security. (6) Constitutional Basis: Article 222 provides for transfer of judges with President's approval. The process aims to ensure proper distribution of judicial resources across High Courts while maintaining judicial independence and minimizing disruption to ongoing cases.",
+      "tags": ["Judge Transfer", "Article 222", "High Court", "Administrative Efficiency", "Judicial Security"]
+    },
+    {
+      "id": 77,
+      "topic": "Judicial Appointments and Transfers",
+      "difficulty": "advanced",
+      "question_type": "essay",
+      "question": "Suggest reforms to improve the Collegium system while maintaining judicial independence.",
+      "answer": "Reforms for Collegium System: Transparency Measures: (1) Publish selection criteria and guidelines for appointments. (2) Provide reasoned recommendations for selections. (3) Make meeting minutes available after appointments. (4) Maintain website with appointment information. Institutional Representation: (1) Include one eminent person (outside judiciary) in Collegium. (2) Add external expert in legal field. Diversity Mechanisms: (1) Ensure representation for women, SC/ST, minorities. (2) Regional representation quotas. (3) Merit plus diversity matrix. Process Improvements: (1) Time-bound appointment process (maximum 6 months). (2) Feedback mechanism for rejected candidates. (3) Annual report on appointments. (4) Public consultation on selection criteria. These reforms would enhance transparency while maintaining the core principle of judicial independence from executive interference.",
+      "tags": ["Collegium Reforms", "Transparency", "Diversity", "Time-bound Process", "Judicial Independence"]
+    },
+    {
+      "id": 78,
+      "topic": "Amendment Process (Article 368)",
+      "difficulty": "advanced",
+      "question_type": "scenario",
+      "question": "A constitutional amendment seeks to create a 'Constitutional Emergency' provision allowing Parliament to suspend elections during 'national crises'. Analyze this under Article 368 and basic structure doctrine.",
+      "answer": "This amendment faces constitutional challenges: (1) Article 368 Procedure: Would require special majority and likely state ratification due to impact on democratic structure. (2) Basic Structure Doctrine Issues: (a) Democracy as essential feature would be violated, (b) Free and fair elections are protected, (c) Separation of powers would be compromised. (3) Existing Emergency Framework: Article 352 already provides for National Emergency with proper constitutional safeguards. (4) Democratic Principles: Suspending elections undermines constitutional democracy. (5) Judicial Review: Such amendment would likely be struck down as destroying essential features. Even if 'national crises' are defined narrowly, the power to suspend democratic processes violates core constitutional values. Courts would examine whether this enhances or destroys democratic governance and constitutional supremacy.",
+      "tags": ["Constitutional Emergency", "Elections", "Basic Structure", "Democratic Process", "National Crisis"]
+    },
+    {
+      "id": 79,
+      "topic": "Important Constitutional Amendments",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "How has the 1st Amendment's creation of the Ninth Schedule evolved in contemporary jurisprudence?",
+      "answer": "Evolution of Ninth Schedule jurisprudence: (1) Original Protection: Article 31B stated laws in Ninth Schedule are not void for inconsistency with Fundamental Rights. (2) Kesavananda Impact: Post-1973, basic structure doctrine began limiting this protection. (3) IR Coelho (2007): Applied 'rights test' to post-1973 Ninth Schedule laws. (4) Current Status: (a) Pre-1973 laws remain protected, (b) Post-1973 laws subject to judicial review, (c) Burden on state to justify protection. (5) Constitutional Balance: Courts balance social welfare goals with individual rights protection. (6) Practical Impact: While Ninth Schedule still provides protection, it's no longer an absolute shield against constitutional challenges. This evolution shows adaptation of constitutional protections to modern human rights standards while preserving legitimate social welfare measures.",
+      "tags": ["Ninth Schedule", "IR Coelho", "Rights Test", "Constitutional Evolution", "Human Rights"]
+    },
+    {
+      "id": 80,
+      "topic": "Basic Structure Doctrine",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "How does the basic structure doctrine apply to economic policies and planning?",
+      "answer": "Basic structure doctrine applies to economic policies: (1) Rule of Law: Economic policies must follow constitutional procedures and not be arbitrary. (2) Non-Arbitrariness: Economic regulations must have reasonable basis under Articles 14 and 19. (3) Fundamental Rights: Economic policies cannot arbitrarily violate property or business rights. (4) Planning Balance: Courts balance economic development with constitutional rights protection. (5) Directive Principles: While not fundamental rights, they form part of basic structure as governance goals. (6) Democratic Accountability: Economic policies must maintain democratic oversight and transparency. Courts apply reasonableness and proportionality tests to ensure economic governance serves constitutional values rather than undermining democratic and constitutional principles. The doctrine ensures economic policies are constitutional rather than merely efficient.",
+      "tags": ["Economic Policy", "Planning", "Rule of Law", "Constitutional Balance", "Democratic Oversight"]
+    },
+    {
+      "id": 81,
+      "topic": "Judicial Review Power",
+      "difficulty": "basic",
+      "question_type": "mcq",
+      "question": "Which article gives High Courts the power to issue writs?",
+      "options": ["Article 224", "Article 225", "Article 226", "Article 227"],
+      "correct_answer": "Article 226",
+      "answer": "Article 226 empowers every High Court to issue writs, orders, or directions for the enforcement of Fundamental Rights and for any other purpose. The High Court can issue five types of writs: habeas corpus, mandamus, prohibition, quo warranto, and certiorari. Unlike the Supreme Court, High Courts can issue writs even for non-Fundamental Rights violations if there is an infraction of statutory provisions.",
+      "tags": ["Article 226", "Writs", "Habeas Corpus", "Mandamus", "High Court Powers"]
+    },
+    {
+      "id": 82,
+      "topic": "Supreme Court Jurisdiction",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "What is the significance of Article 141 (binding effect of Supreme Court decisions)?",
+      "answer": "Article 141 provides constitutional uniformity: (1) Binding Authority: All courts in India are bound by Supreme Court decisions. (2) Hierarchical System: Establishes Supreme Court as apex authority for constitutional interpretation. (3) Legal Certainty: Creates uniformity in law across the country. (4) Precedential Value: Lower courts must follow Supreme Court rulings. (5) Constitutional Supremacy: Ensures constitutional interpretation prevails throughout legal system. (6) Federal Balance: Maintains uniformity despite federal structure. This provision makes the Supreme Court the final constitutional authority, ensuring that constitutional law is applied consistently across all jurisdictions and preventing contradictory interpretations of constitutional provisions.",
+      "tags": ["Article 141", "Binding Effect", "Constitutional Uniformity", "Precedent", "Apex Authority"]
+    },
+    {
+      "id": 83,
+      "topic": "High Court Jurisdiction",
+      "difficulty": "advanced",
+      "question_type": "essay",
+      "question": "Examine the role of High Courts as guardians of constitutional rights and federal balance.",
+      "answer": "High Courts serve dual constitutional role: As Guardians of Constitutional Rights: (1) Article 226: Direct access for Fundamental Rights enforcement. (2) Broad Jurisdiction: Can protect both Fundamental Rights and legal rights. (3) Regional Accessibility: Easier access for citizens compared to Supreme Court. (4) Specialized Knowledge: Understanding of local laws and conditions. As Protectors of Federal Balance: (1) State Government Oversight: Review state legislative and executive actions. (2) Constitutional Interpretation: Apply constitutional principles to state matters. (3) Inter-Governmental Disputes: Resolve disputes between state authorities. (4) Administrative Review: Ensure state action follows constitutional requirements. This dual role makes High Courts essential for both individual rights protection and maintaining constitutional federalism. They serve as primary protectors of constitutional values at the regional level while supporting the overall constitutional framework established by the Supreme Court.",
+      "tags": ["High Court Role", "Constitutional Guardians", "Federal Balance", "Regional Protection", "Constitutional Framework"]
+    },
+    {
+      "id": 84,
+      "topic": "Landmark Judgments",
+      "difficulty": "basic",
+      "question_type": "short_answer",
+      "question": "What is the constitutional significance of the Waman Rao case (1981)?",
+      "answer": "Waman Rao case (1981) introduced important doctrines: (1) Prospective Overruling: Court held it has power to overrule previous decisions prospectively, meaning new ruling applies only to future cases. (2) Legal Certainty: Prevents disruption of settled rights and ongoing proceedings. (3) Constitutional Evolution: Allows courts to change interpretations while maintaining stability. (4) Judicial Restraint: Should be used only in exceptional circumstances. (5) Stability in Transition: Enables legal evolution without widespread disruption. This doctrine allows courts to adapt legal interpretations to changing circumstances while protecting legal certainty and preventing chaos in the legal system. It represents judicial wisdom in balancing the need for legal evolution with maintaining stability in legal relationships.",
+      "tags": ["Waman Rao", "Prospective Overruling", "Legal Certainty", "Judicial Evolution", "Constitutional Adaptation"]
+    },
+    {
+      "id": 85,
+      "topic": "Landmark Judgments",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "Analyze the impact of Indira Gandhi v. Raj Narain (1975) on electoral law.",
+      "answer": "Indira Gandhi case had significant electoral impact: (1) Background: Challenged election of Indira Gandhi on grounds of electoral malpractices. (2) Constitutional Challenge: Also challenged validity of amendments to election laws. (3) Basic Structure Application: Applied basic structure doctrine to election laws. (4) Rule of Law: Affirmed rule of law as basic feature. (5) Electoral Integrity: Strengthened requirements for electoral fairness and transparency. (6) Judicial Review: Confirmed that even electoral laws are subject to constitutional review. The case ensured that electoral processes remain fair and constitutional while establishing that no law, including election laws, can violate the basic structure of the Constitution. It reinforced the importance of electoral integrity in maintaining democratic governance.",
+      "tags": ["Indira Gandhi", "Electoral Law", "Rule of Law", "Electoral Integrity", "Constitutional Review"]
+    },
+    {
+      "id": 86,
+      "topic": "Public Interest Litigation",
+      "difficulty": "advanced",
+      "question_type": "scenario",
+      "question": "A PIL is filed seeking immediate closure of all mining operations in a state citing environmental damage and violation of forest rights. Analyze the constitutional and environmental law principles involved.",
+      "answer": "Constitutional and environmental principles: (1) Constitutional Framework: (a) Article 21 - Right to clean environment, (b) Article 48A - State duty to protect environment, (c) Article 51A(g) - Fundamental duty to protect environment. (2) Precedents: M.C. Mehta cases established environmental protection as part of Article 21. (3) Balancing Test: Courts consider: (a) Severity of environmental harm, (b) Alternative remedies, (c) Socio-economic impact, (d) Compliance history. (4) Possible Orders: (a) Suspension of operations pending environmental clearance, (b) Implementation of strict pollution controls, (c) Compensatory measures for affected communities, (d) Regular monitoring by environmental bodies. (5) Limitations: Courts avoid complete closure unless absolutely necessary, preferring compliance with environmental standards. The approach balances environmental protection with economic needs while ensuring constitutional compliance.",
+      "tags": ["Environmental PIL", "Mining", "Article 21", "Environmental Clearance", "Constitutional Balance"]
+    },
+    {
+      "id": 87,
+      "topic": "Public Interest Litigation",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "What is the significance of the NALSA judgment for transgender rights?",
+      "answer": "NALSA v. Union of India (2014) landmark for transgender rights: (1) Constitutional Recognition: Declared transgender people as third gender. (2) Fundamental Rights: Affirmed that Fundamental Rights equally apply to transgenders. (3) Self-Identification: Right to self-identify gender (male, female, third gender). (4) Reservations: Mandated reservations in jobs, education, and other amenities. (5) Social Justice: Recognized historical discrimination and need for affirmative action. (6) Policy Directions: Directed government to adopt transgender-sensitive policies. The judgment transformed legal recognition of gender diversity and ensured constitutional protection for transgender persons, promoting inclusive governance and social justice. It demonstrated PIL's role in protecting marginalized communities and advancing constitutional values of equality and dignity.",
+      "tags": ["NALSA", "Transgender Rights", "Third Gender", "Self-Identification", "Social Justice"]
+    },
+    {
+      "id": 88,
+      "topic": "Judicial Appointments and Transfers",
+      "difficulty": "basic",
+      "question_type": "short_answer",
+      "question": "What is the constitutional basis for judicial appointments?",
+      "answer": "Constitutional basis for judicial appointments: (1) Article 124(2): Supreme Court judges appointed by President in consultation with CJI and other judges. (2) Article 217: High Court judges appointed by President in consultation with CJI, Governor, and Chief Justice of concerned High Court. (3) Article 126: Appointment of Acting CJI. (4) Article 127: Appointment of ad hoc judges to Supreme Court. (5) Article 128: Appointment of retired judges to Supreme Court. (6) Article 222: Transfer of High Court judges. These provisions establish the framework for maintaining an independent and competent judiciary while ensuring constitutional authority for appointments and transfers.",
+      "tags": ["Constitutional Basis", "Article 124", "Article 217", "Judicial Independence", "Constitutional Authority"]
+    },
+    {
+      "id": 89,
+      "topic": "Amendment Process (Article 368)",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "Examine the relationship between Article 368 and the basic structure doctrine.",
+      "answer": "Relationship between Article 368 and basic structure doctrine: (1) Tension: Article 368 grants wide amending power, while basic structure limits this power. (2) Constitutional Balance: Courts have interpreted Article 368 within constitutional framework established by basic structure. (3) Judicial Review: Courts can review constitutional amendments for compliance with basic structure. (4) Evolution: Basic structure doctrine evolved to prevent abuse of Article 368 power. (5) Legitimate Amendment: Parliament can amend Constitution as long as it doesn't destroy essential features. (6) Constitutional Supremacy: Basic structure ensures amendments serve the Constitution rather than destroying it. This relationship represents the balance between constitutional flexibility and constitutional protection, allowing necessary changes while preserving constitutional identity and democratic values.",
+      "tags": ["Article 368", "Basic Structure", "Constitutional Balance", "Judicial Review", "Constitutional Flexibility"]
+    },
+    {
+      "id": 90,
+      "topic": "Important Constitutional Amendments",
+      "difficulty": "advanced",
+      "question_type": "essay",
+      "question": "Evaluate the impact of constitutional amendments on federalism in India.",
+      "answer": "Constitutional amendments have significantly impacted federalism: Early Amendments (1st-44th): Generally maintained federal balance while enabling social reforms. 73rd and 74th Amendments: Strengthened local self-government, creating third tier of federalism. 101st Amendment (GST): Created new federal body (GST Council) for tax coordination. Judicial Interpretation: Courts have generally upheld federal principles as part of basic structure. State Consent: Amendments affecting federal structure require state ratification, protecting federal interests. Contemporary Challenges: (a) Centralization trends in various policies, (b) Resource allocation disputes, (c) Legislative jurisdiction conflicts. Federal Evolution: Indian federalism has evolved from more centralized to cooperative federalism, with constitutional amendments playing crucial role in this transformation while courts ensuring federal principles remain intact as essential features.",
+      "tags": ["Federalism", "Constitutional Amendments", "State Consent", "Cooperative Federalism", "Federal Evolution"]
+    },
+    {
+      "id": 91,
+      "topic": "Basic Structure Doctrine",
+      "difficulty": "basic",
+      "question_type": "short_answer",
+      "question": "What is the significance of rule of law in the basic structure doctrine?",
+      "answer": "Rule of law is central to basic structure: (1) Constitutional Foundation: Requires all state action to conform to law. (2) Equality Before Law: Ensures no person or authority is above law. (3) Due Process: Requires fair procedures and natural justice. (4) Accountability: Makes government accountable for its actions. (5) Constitutional Supremacy: Government power limited by constitutional provisions. (6) Democratic Governance: Essential for maintaining democratic institutions. The rule of law ensures that even constitutional amendments serve constitutional values rather than creating arbitrary power. It prevents constitutional changes from destroying the framework of legal governance and maintains the balance between governmental power and individual rights. Without rule of law, constitutional amendments could undermine the very foundation of democratic governance.",
+      "tags": ["Rule of Law", "Constitutional Foundation", "Due Process", "Accountability", "Democratic Governance"]
+    },
+    {
+      "id": 92,
+      "topic": "Judicial Review Power",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "How does the concept of 'legislative competence' relate to judicial review?",
+      "answer": "Legislative competence and judicial review: (1) Federal Distribution: Articles 245-246 distribute legislative powers between Centre and States. (2) Judicial Review: Courts examine whether legislation falls within legislative competence. (3) Seventh Schedule: Lists determine scope of Union, State, and Concurrent powers. (4) Constitutional Limits: Legislation must conform to constitutional distribution. (5) Centre-State Relations: Judicial review ensures federal balance is maintained. (6) Ultra Vires Doctrine: Laws beyond legislative competence are void. Courts examine both the substance and subject matter of legislation to ensure proper constitutional allocation of powers, thus maintaining federal harmony while preventing constitutional violations.",
+      "tags": ["Legislative Competence", "Federal Distribution", "Seventh Schedule", "Ultra Vires", "Federal Balance"]
+    },
+    {
+      "id": 93,
+      "topic": "Supreme Court Jurisdiction",
+      "difficulty": "basic",
+      "question_type": "mcq",
+      "question": "Under which article can the President refer questions to the Supreme Court?",
+      "options": ["Article 140", "Article 141", "Article 142", "Article 143"],
+      "correct_answer": "Article 143",
+      "answer": "Article 143 provides for advisory jurisdiction where the President may refer any question of law or fact of public importance to the Supreme Court for its opinion. This power is used sparingly for matters of constitutional significance and the Supreme Court's opinions are advisory in nature, not binding like judicial decisions.",
+      "tags": ["Article 143", "Advisory Jurisdiction", "President", "Public Importance", "Constitutional Questions"]
+    },
+    {
+      "id": 94,
+      "topic": "High Court Jurisdiction",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "What is the scope of supervisory jurisdiction under Article 227?",
+      "answer": "Article 227 supervisory jurisdiction scope: (1) All Courts and Tribunals: High Court has superintendence over all courts within its territorial jurisdiction (except armed forces tribunals). (2) General Rules and Forms: Can prescribe forms and procedures for subordinate courts. (3) Calling for Returns: Can require subordinate courts to report on their functioning. (4) Not for Error Correction: Supervisory power is for preventing abuse of jurisdiction, not correcting errors. (5) Institutional Oversight: Maintains proper functioning of judicial system. (6) Suo Moto Powers: Can act on its own motion in cases of grave injustice. This jurisdiction ensures judicial discipline and proper administration of justice while respecting the independence of subordinate courts.",
+      "tags": ["Article 227", "Supervisory Jurisdiction", "Institutional Oversight", "Judicial Discipline", "Subordinate Courts"]
+    },
+    {
+      "id": 95,
+      "topic": "Landmark Judgments",
+      "difficulty": "advanced",
+      "question_type": "short_answer",
+      "question": "Examine how the Vishaka guidelines influenced subsequent legislation on workplace safety.",
+      "answer": "Vishaka guidelines' legislative impact: (1) Pre-legislative Period: Guidelines remained binding for 16 years until legislation was enacted. (2) Sexual Harassment Act 2013: Largely codified Vishaka guidelines into law. (3) Institutional Framework: Established Internal Complaints Committees in workplaces. (4) Preventive Measures: Mandated awareness and prevention mechanisms. (5) Complaint Procedure: Detailed procedure for filing and handling complaints. (6) Compensation: Provisions for compensation and rehabilitation of victims. (7) Penalties: Criminal liability for harassment. The guidelines demonstrated how PIL can drive legislative action and ensure protection of constitutional rights. They showed the judiciary's proactive role in addressing social issues until legislature takes appropriate action, thus filling regulatory gaps with constitutional principles.",
+      "tags": ["Vishaka Guidelines", "Sexual Harassment Act", "Workplace Safety", "Legislative Impact", "Social Reform"]
+    },
+    {
+      "id": 96,
+      "topic": "Public Interest Litigation",
+      "difficulty": "basic",
+      "question_type": "short_answer",
+      "question": "What are the requirements for filing a PIL?",
+      "answer": "Requirements for filing PIL: (1) Public Interest: Matter must affect a large number of people or public cause. (2) Locus Standi: Any public-spirited person can file, not necessarily the affected person. (3) Epistolary Jurisdiction: Letters, postcards, emails can be treated as writ petitions. (4) Genuine Concern: Must be filed for public interest, not personal gain. (5) Constitutional Basis: Based on obligation to protect Fundamental Rights of marginalized groups. (6) Frivolous Petitions: Courts impose costs on vexatious litigation. The key distinction is that PIL serves public interest while private litigation serves individual rights, with relaxed procedural requirements to ensure access to justice for disadvantaged persons.",
+      "tags": ["PIL Requirements", "Locus Standi", "Public Interest", "Epistolary Jurisdiction", "Frivolous Petitions"]
+    },
+    {
+      "id": 97,
+      "topic": "Judicial Appointments and Transfers",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "How are Supreme Court judges appointed?",
+      "answer": "Supreme Court judge appointment process: (1) Collegium Initiation: CJI initiates the process by consulting other collegium members. (2) Seniority Consideration: Generally follows seniority principle among eligible judges. (3) Merit Assessment: Evaluation of legal acumen, integrity, and judicial performance. (4) Written Opinions: Collegium members record their opinions in writing. (5) Government Review: Law Minister, Prime Minister, and President review recommendations. (6) Final Appointment: President appoints based on collegium recommendations. (7) Constitutional Authority: Based on Articles 124(2) and constitutional conventions. The process aims to ensure merit-based appointments while maintaining judicial independence from executive interference, with the Collegium system providing professional assessment of judicial qualities.",
+      "tags": ["Supreme Court Appointment", "Collegium Process", "Seniority", "Merit Assessment", "Constitutional Authority"]
+    },
+    {
+      "id": 98,
+      "topic": "Amendment Process (Article 368)",
+      "difficulty": "advanced",
+      "question_type": "short_answer",
+      "question": "How do state ratification requirements affect constitutional amendments?",
+      "answer": "State ratification requirements: (1) Federal Balance: Ensures states have voice in changes affecting federal structure. (2) Political Consensus: Requires broad consensus across political parties and states. (3) Democratic Legitimacy: Provides legitimacy to constitutional changes through state consent. (4) Process Complexity: Makes amendment process more time-consuming and complex. (5) Prevents Centralization: Reduces risk of unilateral central changes. (6) Time-bound Process: States usually have reasonable period to consider amendments. Impact: Successfully implemented for amendments like GST, but some amendments fail due to lack of state consensus. This requirement protects federalism by ensuring major constitutional changes have support across the federal system rather than just central approval.",
+      "tags": ["State Ratification", "Federal Balance", "Political Consensus", "Democratic Legitimacy", "Federal Protection"]
+    },
+    {
+      "id": 99,
+      "topic": "Important Constitutional Amendments",
+      "difficulty": "basic",
+      "question_type": "mcq",
+      "question": "Which Amendment made education a Fundamental Right?",
+      "options": ["86th Amendment", "96th Amendment", "106th Amendment", "116th Amendment"],
+      "correct_answer": "86th Amendment",
+      "answer": "The 86th Amendment (2002) inserted Article 21A, making education a Fundamental Right for children aged 6-14 years. This amendment was a landmark step in making education accessible to all children and shifted education from being a directive principle to a fundamental entitlement.",
+      "tags": ["86th Amendment", "Right to Education", "Article 21A", "Fundamental Right", "Educational Reform"]
+    },
+    {
+      "id": 100,
+      "topic": "Basic Structure Doctrine",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "How does the basic structure doctrine protect federalism?",
+      "answer": "Basic structure doctrine protects federalism through: (1) Federal Character: Federalism recognized as essential feature of Constitution. (2) State Autonomy: Protects state powers from central encroachment. (3) Centre-State Balance: Ensures constitutional balance between different levels of government. (4) Judicial Review: Courts review central actions affecting federal balance. (5) State Consent: Amendments affecting federalism require state ratification. (6) Democratic Governance: Federalism essential for democratic participation and representation. The doctrine ensures that constitutional changes cannot destroy the federal structure or centralize power excessively, thus maintaining the constitutional balance between unity and diversity. It prevents constitutional amendments from undermining the federal character that forms an essential part of India's constitutional identity.",
+      "tags": ["Federalism Protection", "State Autonomy", "Centre-State Balance", "Federal Character", "Constitutional Balance"]
+    }
+  ]
+},
+    {
+      "id": 101,
+      "topic": "Judicial Review Power",
+      "difficulty": "advanced",
+      "question_type": "essay",
+      "question": "Analyze the evolution of judicial review in India and its impact on constitutional governance.",
+      "answer": "Evolution of Judicial Review in India: Early Period (1950-1967): Traditional approach with limited constitutional review. Golaknath Case (1967): Introduced limitation on parliamentary power to amend Fundamental Rights. Kesavananda Bharati (1973): Established basic structure doctrine, creating comprehensive review system. Emergency Period (1975-77): Executive assertion of power, attempted curtailment of judicial review. Post-Emergency (1980 onwards): Restoration of judicial authority through Minerva Mills and subsequent cases. Modern Era: (1) Comprehensive Scope: Reviews both legislation and constitutional amendments. (2) Multiple Forums: Supreme Court and High Courts exercise review powers. (3) Institutional Protection: Safeguards constitutional values and democratic institutions. Impact: (a) Maintained constitutional supremacy, (b) Protected Fundamental Rights, (c) Ensured federal balance, (d) Prevented authoritarian constitutional changes. Judicial review has evolved into the cornerstone of India's constitutional democracy, providing stability while allowing necessary evolution.",
+      "tags": ["Judicial Review Evolution", "Constitutional Governance", "Democracy Protection", "Institutional Balance", "Constitutional Supremacy"]
+    },
+    {
+      "id": 102,
+      "topic": "Supreme Court Jurisdiction",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "What is the significance of the Supreme Court's power under Article 136?",
+      "answer": "Article 136 significance: (1) Special Leave Power: Supreme Court can grant leave to appeal from any court or tribunal. (2) Discretionary Authority: Exercised in exceptional cases of constitutional importance. (3) Constitutional Guardian: Protects constitutional rights and maintains legal uniformity. (4) Final Appellate Authority: Highest level of appellate review in India. (5) Access to Justice: Provides remedy when normal appellate routes are exhausted. (6) Uniform Law: Ensures consistent interpretation of law across jurisdictions. This power makes the Supreme Court the ultimate protector of constitutional values and ensures that no citizen is denied justice due to procedural limitations in lower courts.",
+      "tags": ["Article 136", "Special Leave", "Discretionary Power", "Constitutional Guardian", "Final Authority"]
+    },
+    {
+      "id": 103,
+      "topic": "High Court Jurisdiction",
+      "difficulty": "basic",
+      "question_type": "mcq",
+      "question": "Which article gives High Courts supervisory jurisdiction?",
+      "options": ["Article 225", "Article 226", "Article 227", "Article 228"],
+      "correct_answer": "Article 227",
+      "answer": "Article 227 gives High Courts supervisory jurisdiction over all courts and tribunals within their territorial jurisdiction (except armed forces tribunals). This power allows High Courts to keep subordinate courts and tribunals within bounds and ensure proper administration of justice.",
+      "tags": ["Article 227", "Supervisory Jurisdiction", "Subordinate Courts", "Tribunals", "Administrative Oversight"]
+    },
+    {
+      "id": 104,
+      "topic": "Landmark Judgments",
+      "difficulty": "advanced",
+      "question_type": "short_answer",
+      "question": "Examine the role of Minerva Mills in establishing constitutional supremacy over parliamentary sovereignty.",
+      "answer": "Minerva Mills established constitutional supremacy: (1) Context: Challenged 42nd Amendment claiming unlimited parliamentary power. (2) Key Holdings: (a) Struck down clauses preventing judicial review of amendments, (b) Rejected concept of unlimited amending power, (c) Reaffirmed basic structure doctrine. (3) Constitutional Supremacy: Established that Constitution is supreme, not Parliament. (4) Judicial Authority: Reaffirmed court's role as guardian of Constitution. (5) Balance of Powers: Maintained checks and balances among constitutional organs. (6) Democratic Protection: Prevented destruction of constitutional democracy. The judgment marked the restoration of constitutional supremacy after Emergency, ensuring that even Parliament must operate within constitutional limits and that constitutional values cannot be destroyed by amendments.",
+      "tags": ["Minerva Mills", "Constitutional Supremacy", "Parliamentary Sovereignty", "Judicial Authority", "Emergency Legacy"]
+    },
+    {
+      "id": 105,
+      "topic": "Public Interest Litigation",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "How has PIL contributed to prison reforms in India?",
+      "answer": "PIL's contribution to prison reforms: (1) Hussainara Khatoon: Established right to speedy trial, leading to release of undertrial prisoners. (2) Sunil Batra: Initiated prison reform through letters highlighting prison conditions. (3) Structural Reforms: Courts directed improvements in prison infrastructure, medical facilities, vocational training. (4) Human Rights: Established prisoners' rights to humane treatment, legal aid, visitation. (5) Monitoring: Appointed committees to monitor prison conditions. (6) Legal Aid: Mandated free legal aid for prisoners. (7) Sentence Review: Periodic review of long-term prisoners. Impact: (a) Improved prison conditions, (b) Reduced overcrowding, (c) Better medical care, (d) Educational and vocational programs. PIL has transformed prisons from punishment centers to correctional institutions, emphasizing rehabilitation over retribution.",
+      "tags": ["Prison Reforms", "Hussainara Khatoon", "Sunil Batra", "Human Rights", "Prison Conditions"]
+    },
+    {
+      "id": 106,
+      "topic": "Judicial Appointments and Transfers",
+      "difficulty": "basic",
+      "question_type": "short_answer",
+      "question": "What is the role of the Chief Justice of India in appointments?",
+      "answer": "CJI's role in appointments: (1) Collegium Head: Leads the Supreme Court Collegium for appointments. (2) Consultation Process: Consults with senior judges before making recommendations. (3) Seniority Principle: Generally follows seniority among eligible judges. (4) Constitutional Authority: Makes recommendations under Articles 124 and 217. (5) Judicial Independence: Ensures merit-based appointments free from political interference. (6) Transfer Authority: Recommends transfers of High Court judges. (7) Institutional Responsibility: Maintains quality and independence of judiciary. The CJI's role ensures that appointments are based on judicial merit and experience rather than political considerations, thus preserving the independence and integrity of the judicial system.",
+      "tags": ["CJI Role", "Collegium Head", "Seniority Principle", "Judicial Independence", "Institutional Responsibility"]
+    },
+    {
+      "id": 107,
+      "topic": "Amendment Process (Article 368)",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "Examine the constitutional safeguards against arbitrary constitutional amendments.",
+      "answer": "Constitutional safeguards against arbitrary amendments: (1) Basic Structure Doctrine: Courts can strike down amendments destroying essential features. (2) Special Majority Requirements: Ensure broad parliamentary consensus. (3) State Ratification: Required for amendments affecting federal structure. (4) Judicial Review: Courts can examine constitutional amendments for validity. (5) Democratic Process: Amendments require democratic approval through elected representatives. (6) Constitutional Supremacy: Amendments must serve Constitution, not destroy it. (7) Time-bound Process: Adequate time for democratic deliberation. These safeguards ensure that constitutional changes are made thoughtfully and constitutionally rather than arbitrarily, preserving democratic values and constitutional identity while allowing necessary adaptations.",
+      "tags": ["Constitutional Safeguards", "Democratic Process", "Constitutional Supremacy", "Broad Consensus", "Time-bound Process"]
+    },
+    {
+      "id": 108,
+      "topic": "Important Constitutional Amendments",
+      "difficulty": "advanced",
+      "question_type": "essay",
+      "question": "Analyze the impact of constitutional amendments on the evolution of Indian federalism.",
+      "answer": "Impact on Indian federalism evolution: Early Period (1950s-60s): Amendments maintained central dominance while enabling state development. 73rd and 74th Amendments: Created third tier of government, strengthening grassroots democracy. Judicial Interpretation: Courts reinforced federal principles as part of basic structure. GST Amendment: Created cooperative federalism model with GST Council. Contemporary Challenges: (a) Centre-state financial disputes, (b) Legislative jurisdiction conflicts, (c) Administrative centralization trends. Federal Evolution: (1) Unitary to Federal: Gradual shift from central dominance to cooperative federalism. (2) Vertical Federalism: Centre-state relations with constitutional safeguards. (3) Horizontal Federalism: Inter-state cooperation and dispute resolution. (4) Local Federalism: Constitutional recognition of local governments. Constitutional amendments have played crucial role in this evolution while courts ensure federal principles remain intact.",
+      "tags": ["Federalism Evolution", "Centre-State Relations", "Cooperative Federalism", "Local Governments", "Constitutional Development"]
+    },
+    {
+      "id": 109,
+      "topic": "Basic Structure Doctrine",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "How does the basic structure doctrine protect individual liberty?",
+      "answer": "Basic structure doctrine protects individual liberty: (1) Fundamental Rights: Protects core Fundamental Rights from destructive amendments. (2) Due Process: Ensures fair procedures and natural justice. (3) Equality: Maintains equal protection of laws. (4) Freedom: Preserves freedom of speech, expression, and other liberties. (5) Judicial Review: Ensures courts can protect individual rights. (6) Rule of Law: Requires government to operate within legal boundaries. The doctrine ensures that constitutional changes cannot destroy individual freedoms or create arbitrary governmental power. It serves as constitutional firewall against authoritarian amendments while allowing legitimate reforms that enhance rather than undermine individual liberties and democratic governance.",
+      "tags": ["Individual Liberty", "Fundamental Rights", "Due Process", "Equality", "Democratic Freedom"]
+    },
+    {
+      "id": 110,
+      "topic": "Judicial Review Power",
+      "difficulty": "basic",
+      "question_type": "mcq",
+      "question": "Which article ensures binding effect of Supreme Court decisions?",
+      "options": ["Article 140", "Article 141", "Article 142", "Article 143"],
+      "correct_answer": "Article 141",
+      "answer": "Article 141 states that the law declared by the Supreme Court shall be binding on all courts within the territory of India. This provision establishes the Supreme Court as the final authority for constitutional and legal interpretation, ensuring uniformity in law across the country.",
+      "tags": ["Article 141", "Binding Effect", "Supreme Court Decisions", "Legal Uniformity", "Final Authority"]
+    },
+    {
+      "id": 111,
+      "topic": "Supreme Court Jurisdiction",
+      "difficulty": "advanced",
+      "question_type": "short_answer",
+      "question": "Examine the role of the Supreme Court in protecting constitutional institutions.",
+      "answer": "Supreme Court's institutional protection role: (1) Constitutional Guardian: Final authority for constitutional interpretation. (2) Institutional Balance: Maintains checks and balances among constitutional organs. (3) Democratic Values: Protects democratic institutions from destruction. (4) Federal System: Ensures federal principles are maintained. (5) Judicial Independence: Protects independence of judiciary and other institutions. (6) Constitutional Supremacy: Ensures all state action conforms to Constitution. (7) Emergency Powers: Reviews emergency declarations and their implementation. The Supreme Court serves as the constitutional conscience, protecting democratic institutions and values while allowing necessary constitutional evolution through appropriate interpretations and judicial review.",
+      "tags": ["Constitutional Institutions", "Institutional Balance", "Democratic Values", "Federal System", "Constitutional Supremacy"]
+    },
+    {
+      "id": 112,
+      "topic": "High Court Jurisdiction",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "What is the territorial limitation of High Court jurisdiction?",
+      "answer": "High Court territorial jurisdiction: (1) State Coverage: Each High Court covers its designated state(s). (2) Extended Jurisdiction: Some High Courts have extended jurisdiction (e.g., Calcutta HC covers Andaman & Nicobar). (3) Cause of Action: If cause of action arises within jurisdiction, petition can be filed even against out-of-state respondents. (4) Nationwide Forum: Supreme Court has nationwide jurisdiction for constitutional matters. (5) Practical Access: Territorial arrangement ensures adequate judicial access across regions. This territorial division helps in managing judicial workload while providing proper access to constitutional remedies for citizens across different regions of India.",
+      "tags": ["Territorial Jurisdiction", "State Coverage", "Cause of Action", "Regional Access", "Judicial Workload"]
+    },
+    {
+      "id": 113,
+      "topic": "Landmark Judgments",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "Analyze the significance of the Waman Rao case for constitutional methodology.",
+      "answer": "Waman Rao case methodological significance: (1) Prospective Overruling: Introduced doctrine to limit retroactive effect of constitutional reconsiderations. (2) Legal Certainty: Prevents disruption of settled rights and ongoing proceedings. (3) Judicial Method: Established careful approach to constitutional change. (4) Institutional Balance: Balances need for legal evolution with stability. (5) Constitutional Pedagogy: Provides framework for constitutional interpretation. (6) Precedential Value: Method used in subsequent constitutional cases. This case represents judicial wisdom in balancing the need for constitutional evolution with maintaining legal stability, ensuring that constitutional changes serve the legal system rather than disrupting it.",
+      "tags": ["Waman Rao", "Prospective Overruling", "Legal Certainty", "Constitutional Method", "Judicial Wisdom"]
+    },
+    {
+      "id": 114,
+      "topic": "Public Interest Litigation",
+      "difficulty": "advanced",
+      "question_type": "essay",
+      "question": "Examine the constitutional basis of PIL and its role in social transformation.",
+      "answer": "Constitutional basis and transformation role: Constitutional Basis: (1) Article 32 and 226: Direct access to courts for Fundamental Rights enforcement. (2) Article 14, 15, 21: Equality, non-discrimination, right to life provisions. (3) Constitutional Obligations: State's duty to protect marginalized sections. (4) Rule of Law: Courts' role in ensuring constitutional compliance. Social Transformation Impact: (1) Democratized Justice: Made courts accessible to poor and marginalized. (2) Policy Changes: Led to legislative reforms in various fields. (3) Institutional Reforms: Improved functioning of state institutions. (4) Rights Expansion: Extended constitutional protection to new areas. (5) Social Awareness: Created constitutional consciousness among masses. PIL has transformed Indian judiciary from adversarial to proactive institution promoting social justice and constitutional values, thus fulfilling the Constitution's promise of justice, liberty, equality, and fraternity.",
+      "tags": ["PIL Constitutional Basis", "Social Transformation", "Constitutional Justice", "Rights Expansion", "Social Awareness"]
+    },
+    {
+      "id": 115,
+      "topic": "Judicial Appointments and Transfers",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "What are the constitutional provisions for transfer of judges?",
+      "answer": "Constitutional provisions for judge transfers: (1) Article 222: Transfer of High Court judges with President's approval. (2) Administrative Reason: Transfers based on administrative efficiency and judicial security. (3) Collegium Recommendation: Supreme Court Collegium makes transfer recommendations. (4) Consent Process: Generally seek judge's consent but can transfer without consent. (5) Constitutional Safeguards: Transfer must be for public interest. (6) Notification Process: Official notification through government orders. These provisions ensure proper distribution of judicial resources across High Courts while protecting judicial independence and minimizing disruption to pending cases.",
+      "tags": ["Judge Transfer", "Article 222", "Administrative Reason", "Public Interest", "Judicial Security"]
+    },
+    {
+      "id": 116,
+      "topic": "Amendment Process (Article 368)",
+      "difficulty": "basic",
+      "question_type": "short_answer",
+      "question": "What is the difference between constitutional amendment and ordinary legislation?",
+      "answer": "Constitutional Amendment vs Ordinary Legislation: Amendment: (1) Changes constitutional text, (2) Requires special majority in Parliament, (3) May require state ratification, (4) Higher democratic consensus needed, (5) Affects constitutional structure. Legislation: (1) Makes laws within constitutional framework, (2) Requires simple majority, (3) No state ratification needed, (4) Regular parliamentary process, (5) Operates within existing constitutional structure. The distinction ensures that fundamental constitutional changes have broader consensus and safeguards while allowing routine law-making to proceed efficiently.",
+      "tags": ["Constitutional Amendment", "Ordinary Legislation", "Special Majority", "Democratic Consensus", "Constitutional Structure"]
+    },
+    {
+      "id": 117,
+      "topic": "Important Constitutional Amendments",
+      "difficulty": "advanced",
+      "question_type": "short_answer",
+      "question": "How did the 44th Amendment restore constitutional balance after the Emergency?",
+      "answer": "44th Amendment restoration of constitutional balance: (1) Fundamental Rights: Strengthened protection of freedom of speech and expression. (2) Emergency Powers: Added safeguards against misuse of emergency provisions. (3) Property Rights: Removed right to property as Fundamental Right to enable social reforms. (4) Judicial Review: Removed restrictions on judicial review of constitutional amendments. (5) Article 134A: Added provision for certificate for appeal to Supreme Court. (6) Anti-Arbitrariness: Strengthened checks against arbitrary executive action. The amendment represented post-Emergency correction that restored constitutional equilibrium, strengthened democratic institutions, and prevented future abuse of emergency powers while enabling necessary social and economic reforms.",
+      "tags": ["44th Amendment", "Emergency", "Constitutional Balance", "Democratic Institutions", "Constitutional Restoration"]
+    },
+    {
+      "id": 118,
+      "topic": "Basic Structure Doctrine",
+      "difficulty": "basic",
+      "question_type": "short_answer",
+      "question": "What is the relationship between fundamental rights and the basic structure doctrine?",
+      "answer": "Relationship between Fundamental Rights and basic structure: (1) Core Protection: Fundamental Rights form essential part of basic structure. (2) Judicial Safeguard: Courts protect core aspects of rights from destructive amendments. (3) Constitutional Balance: Rights must be balanced with Directive Principles. (4) Essential Features: Individual liberty, equality, and freedom are protected features. (5) Amendment Limitations: Amendments cannot destroy the essence of Fundamental Rights. The doctrine ensures that while rights can be reasonably regulated, their core essence and constitutional protection cannot be destroyed by amendments, thus preserving individual liberty within constitutional framework.",
+      "tags": ["Fundamental Rights", "Basic Structure", "Individual Liberty", "Constitutional Protection", "Rights Balance"]
+    },
+    {
+      "id": 119,
+      "topic": "Judicial Review Power",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "How does judicial review ensure constitutional supremacy?",
+      "answer": "Judicial review ensures constitutional supremacy: (1) Constitutional Interpretation: Courts interpret constitutional provisions definitively. (2) Checks and Balances: Review ensures all organs operate within constitutional limits. (3) Rights Protection: Constitutional rights are protected from legislative and executive encroachment. (4) Federal Balance: Maintains constitutional distribution of powers. (5) Amendment Review: Even constitutional amendments are subject to basic structure review. (6) Democratic Governance: Ensures government operates within constitutional framework. Judicial review serves as the mechanism by which constitutional supremacy is maintained, ensuring that all state action serves the Constitution rather than undermining its fundamental principles and values.",
+      "tags": ["Constitutional Supremacy", "Checks and Balances", "Rights Protection", "Federal Balance", "Democratic Governance"]
+    },
+    {
+      "id": 120,
+      "topic": "Supreme Court Jurisdiction",
+      "difficulty": "advanced",
+      "question_type": "essay",
+      "question": "Examine the role of the Supreme Court as the final constitutional interpreter in India.",
+      "answer": "Supreme Court as final constitutional interpreter: (1) Article 141 Authority: All courts bound by Supreme Court decisions. (2) Constitutional Interpretation: Final authority for interpreting constitutional provisions. (3) Institutional Balance: Resolves disputes between constitutional organs. (4) Federal Issues: Final arbiter in centre-state constitutional disputes. (5) Amendment Review: Examines constitutional amendments for compliance with basic structure. (6) Democratic Values: Protects constitutional values and democratic institutions. (7) Legal Uniformity: Ensures consistent constitutional interpretation across India. This role makes the Supreme Court not just a court but the constitutional conscience of the nation, ensuring that constitutional governance serves democratic values and constitutional principles while allowing necessary evolution through appropriate constitutional interpretation.",
+      "tags": ["Constitutional Interpreter", "Institutional Balance", "Federal Issues", "Democratic Values", "Legal Uniformity"]
+    }
+  ]
+},
+    {
+      "id": 121,
+      "topic": "High Court Jurisdiction",
+      "difficulty": "basic",
+      "question_type": "short_answer",
+      "question": "What are the five types of constitutional writs?",
+      "answer": "The five types of constitutional writs are: (1) Habeas Corpus (to bring the body): Used to challenge unlawful detention or imprisonment. (2) Mandamus (to command): Used to compel a public authority to perform its public duty. (3) Prohibition (to forbid): Used to prevent a lower court from proceeding where it lacks jurisdiction. (4) Quo Warranto (by what authority): Used to question the legal authority of a person holding public office. (5) Certiorari (to be certified): Used to quash the order of a lower court or authority and transfer to higher court. These writs serve as constitutional remedies for protecting Fundamental Rights and ensuring rule of law throughout India.",
+      "tags": ["Constitutional Writs", "Habeas Corpus", "Mandamus", "Prohibition", "Quo Warranto", "Certiorari"]
+    },
+    {
+      "id": 122,
+      "topic": "Landmark Judgments",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "Analyze the role of the Kesavananda Bharati case in establishing constitutional supremacy.",
+      "answer": "Kesavananda Bharati's role in constitutional supremacy: (1) Constitutional Supremacy: Established Constitution as supreme over parliamentary sovereignty. (2) Basic Structure Doctrine: Created doctrine protecting essential constitutional features. (3) Amendment Limits: Limited Parliament's power to amend Constitution. (4) Judicial Review: Strengthened court's role as guardian of Constitution. (5) Democratic Values: Protected democratic and republican character. (6) Federalism: Preserved federal character of Constitution. The judgment marked shift from parliamentary sovereignty to constitutional supremacy, ensuring that constitutional changes serve the Constitution rather than destroying its essential character. It established courts as protectors of constitutional values while allowing necessary constitutional evolution.",
+      "tags": ["Kesavananda Bharati", "Constitutional Supremacy", "Basic Structure", "Democratic Values", "Constitutional Protection"]
+    },
+    {
+      "id": 123,
+      "topic": "Public Interest Litigation",
+      "difficulty": "basic",
+      "question_type": "mcq",
+      "question": "Which case is considered the first PIL in India?",
+      "options": ["Vishaka case", "Hussainara Khatoon case", "M.C. Mehta case", "SP Gupta case"],
+      "correct_answer": "Hussainara Khatoon case",
+      "answer": "Hussainara Khatoon v. State of Bihar (1979) is considered the first PIL in India. The case dealt with undertrial prisoners who had been detained longer than the maximum possible sentence for their alleged crimes. The Supreme Court recognized the right to speedy trial as part of Article 21 and ordered the release of thousands of undertrial prisoners, marking the beginning of Public Interest Litigation in India.",
+      "tags": ["Hussainara Khatoon", "First PIL", "Undertrial Prisoners", "Speedy Trial", "Article 21"]
+    },
+    {
+      "id": 124,
+      "topic": "Judicial Appointments and Transfers",
+      "difficulty": "advanced",
+      "question_type": "short_answer",
+      "question": "How does the Collegium system address the challenge of judicial independence versus accountability?",
+      "answer": "Collegium system's balance of independence and accountability: Independence Measures: (1) Judicial Primacy: Senior judges assess legal acumen and integrity. (2) Peer Evaluation: Professional assessment by judicial colleagues. (3) Separation of Powers: Reduces executive interference. Accountability Challenges: (1) Limited Transparency: No published criteria or meeting minutes. (2) Subjective Decisions: Based on individual assessments. (3) No Appeal Mechanism: No process to challenge decisions. (4) Diversity Issues: Potential bias in selection. Balancing Strategies: (1) Internal Guidelines: Collegium follows unwritten conventions. (2) Seniority Principle: Generally follows seniority for appointments. (3) Collective Decision: Multiple judges involved in decisions. (4) Constitutional Framework: Protected by basic structure doctrine. The system attempts to maintain independence through judicial control while providing accountability through professional peer evaluation.",
+      "tags": ["Collegium Balance", "Judicial Independence", "Peer Evaluation", "Accountability", "Professional Assessment"]
+    },
+    {
+      "id": 125,
+      "topic": "Amendment Process (Article 368)",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "Examine the role of state ratification in protecting federal interests.",
+      "answer": "State ratification protects federal interests: (1) Federal Consent: Ensures states have voice in changes affecting them. (2) Political Consensus: Requires broad agreement across political parties and states. (3) Democratic Legitimacy: Provides legitimacy to constitutional changes. (4) Prevention of Centralization: Reduces risk of unilateral central actions. (5) Constitutional Balance: Maintains federal equilibrium. (6) State Autonomy: Protects state powers from central encroachment. Process Requirements: States must pass simple resolutions supporting amendments within reasonable time. This requirement ensures that major constitutional changes have democratic legitimacy across the federal system, preventing concentration of power and protecting constitutional federalism.",
+      "tags": ["State Ratification", "Federal Interests", "Democratic Legitimacy", "Federal Balance", "State Autonomy"]
+    },
+    {
+      "id": 126,
+      "topic": "Important Constitutional Amendments",
+      "difficulty": "advanced",
+      "question_type": "essay",
+      "question": "Evaluate the effectiveness of constitutional amendments in addressing contemporary governance challenges.",
+      "answer": "Effectiveness of constitutional amendments in addressing governance challenges: Successful Examples: (1) GST (101st): Reformed indirect taxation, created unified market. (2) Local Governance (73rd/74th): Strengthened grassroots democracy. (3) Education (86th): Made education accessible to all children. (4) Anti-Corruption: Enhanced transparency and accountability measures. Limited Success Areas: (1) Judicial Appointments: Collegium system issues persist. (2) Federal Relations: Centre-state tensions continue. (3) Electoral Reform: Limited constitutional changes for electoral issues. (4) Administrative Reforms: Constitutional amendments have not fully addressed bureaucratic inefficiencies. Contemporary Challenges: (a) Technology governance, (b) Environmental protection, (c) Social justice implementation, (d) Fiscal federalism. Overall Assessment: Constitutional amendments have been effective in providing framework for governance but implementation challenges persist, requiring better institutional mechanisms and political will.",
+      "tags": ["Constitutional Effectiveness", "Governance Challenges", "Successful Examples", "Implementation Issues", "Contemporary Problems"]
+    },
+    {
+      "id": 127,
+      "topic": "Basic Structure Doctrine",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "How does the basic structure doctrine ensure constitutional continuity?",
+      "answer": "Basic structure doctrine ensures constitutional continuity: (1) Essential Features: Identifies unchangeable constitutional elements. (2) Constitutional Identity: Preserves core constitutional values across generations. (3) Democratic Stability: Maintains democratic institutions and processes. (4) Rule of Law: Ensures legal continuity and predictability. (5) Institutional Balance: Preserves checks and balances system. (6) Transition Management: Allows constitutional evolution while maintaining identity. The doctrine provides constitutional stability by preventing destructive changes while allowing beneficial adaptations. It serves as constitutional compass ensuring that amendments serve the Constitution rather than destroying its essential character, thus maintaining constitutional continuity across political changes and historical transitions.",
+      "tags": ["Constitutional Continuity", "Essential Features", "Democratic Stability", "Rule of Law", "Constitutional Identity"]
+    },
+    {
+      "id": 128,
+      "topic": "Judicial Review Power",
+      "difficulty": "basic",
+      "question_type": "short_answer",
+      "question": "What is the constitutional basis for judicial review in India?",
+      "answer": "Constitutional basis for judicial review: (1) Article 13: Empowers courts to declare laws void if inconsistent with Fundamental Rights. (2) Article 32: Provides right to approach Supreme Court for Fundamental Rights enforcement. (3) Article 141: Makes Supreme Court decisions binding on all courts. (4) Article 142: Enables Supreme Court to enforce its decrees nationwide. (5) Article 226: Empowers High Courts to issue writs for rights enforcement. Indian judicial review is unique because it applies to both ordinary legislation and constitutional amendments, operates through specific writs, and maintains constitutional supremacy. This system ensures all government action conforms to constitutional requirements and protects Fundamental Rights.",
+      "tags": ["Constitutional Basis", "Article 13", "Article 32", "Fundamental Rights", "Constitutional Requirements"]
+    },
+    {
+      "id": 129,
+      "topic": "Supreme Court Jurisdiction",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "What are the limitations on the advisory jurisdiction of the Supreme Court?",
+      "answer": "Limitations on advisory jurisdiction: (1) Non-binding Nature: Opinions are advisory, not binding like judicial decisions. (2) Discretionary Exercise: Court may decline to answer if unnecessary. (3) Constitutional Questions: Only for matters of constitutional significance. (4) Political Questions: May avoid purely political matters. (5) Institutional Role: Used sparingly to avoid overstepping judicial function. (6) No Precedential Value: Advisory opinions don't create binding precedents. These limitations ensure that advisory jurisdiction serves as safety valve for important constitutional questions while maintaining the proper role of judiciary in constitutional governance without interfering in political processes.",
+      "tags": ["Advisory Jurisdiction", "Non-binding", "Discretionary", "Constitutional Questions", "Judicial Role"]
+    },
+    {
+      "id": 130,
+      "topic": "High Court Jurisdiction",
+      "difficulty": "advanced",
+      "question_type": "short_answer",
+      "question": "Examine the role of High Courts in maintaining constitutional federalism.",
+      "answer": "High Courts' role in maintaining constitutional federalism: (1) State Government Oversight: Review state legislative and executive actions for constitutional compliance. (2) Inter-governmental Disputes: Resolve disputes between state authorities. (3) Constitutional Interpretation: Apply constitutional principles to state matters. (4) Federal Balance: Ensure constitutional distribution of powers is maintained. (5) Local Governance: Oversee implementation of 73rd and 74th Amendments. (6) Administrative Review: Ensure state action follows constitutional requirements. High Courts serve as primary protectors of constitutional federalism at regional level, ensuring that state governments operate within constitutional framework while maintaining proper federal balance between centre and states.",
+      "tags": ["Constitutional Federalism", "State Oversight", "Federal Balance", "Local Governance", "Administrative Review"]
+    },
+    {
+      "id": 131,
+      "topic": "Landmark Judgments",
+      "difficulty": "advanced",
+      "question_type": "essay",
+      "question": "Analyze how landmark judgments have shaped the evolution of constitutional interpretation in India.",
+      "answer": "Landmark judgments and constitutional interpretation evolution: Early Period: (1) Shankari Prasad: Limited constitutional review scope. (2) Golaknath: Introduced limitations on amending power. Modern Development: (1) Kesavananda Bharati: Established basic structure doctrine. (2) Minerva Mills: Reaffirmed constitutional supremacy. (3) Waman Rao: Introduced prospective overruling. (4) Bommai: Extended doctrine to federalism. Contemporary Evolution: (1) IR Coelho: Applied doctrine to Ninth Schedule. (2) Vishaka: Advanced women's rights jurisprudence. (3) NALSA: Expanded gender rights recognition. Impact on Interpretation: (a) Shifted from textual to purposive interpretation, (b) Integrated social justice with constitutional law, (c) Balanced individual rights with collective welfare, (d) Enhanced judicial activism for social change. This evolution shows courts adapting constitutional interpretation to changing social needs while maintaining constitutional stability and democratic values.",
+      "tags": ["Constitutional Interpretation", "Evolution", "Judicial Activism", "Social Justice", "Democratic Values"]
+    },
+    {
+      "id": 132,
+      "topic": "Public Interest Litigation",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "What are the procedural safeguards against frivolous PILs?",
+      "answer": "Procedural safeguards against frivolous PILs: (1) Cost Imposition: Courts impose heavy costs on vexatious litigation. (2) Screening Process: Initial scrutiny by registry before listing. (3) Genuine Interest Test: Courts ensure public interest is served. (4) Standing Requirements: Clear demonstration of public interest rather than personal gain. (5) Monitoring Implementation: Courts track whether PILs achieve intended objectives. (6) Rejection Criteria: PILs rejected if based on hearsay or lack substance. (7) Bar on Multiple Petitions: No repetitive PILs on same matter. These safeguards ensure that PIL serves genuine public interest while preventing abuse of the process, maintaining balance between accessible justice and responsible litigation.",
+      "tags": ["PIL Safeguards", "Cost Imposition", "Screening Process", "Standing Requirements", "Genuine Interest"]
+    },
+    {
+      "id": 133,
+      "topic": "Judicial Appointments and Transfers",
+      "difficulty": "basic",
+      "question_type": "mcq",
+      "question": "What is the composition of the Supreme Court Collegium?",
+      "options": ["CJI and two senior judges", "CJI and three senior judges", "CJI and four senior judges", "CJI and five senior judges"],
+      "correct_answer": "CJI and four senior judges",
+      "answer": "The Supreme Court Collegium consists of the Chief Justice of India and the four senior-most judges of the Supreme Court. This five-member body makes recommendations for appointments to the Supreme Court and transfers of High Court judges, ensuring collective decision-making in judicial appointments.",
+      "tags": ["Supreme Court Collegium", "CJI", "Senior Judges", "Five Members", "Collective Decision"]
+    },
+    {
+      "id": 134,
+      "topic": "Amendment Process (Article 368)",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "How does the amendment procedure reflect democratic principles?",
+      "answer": "Amendment procedure reflects democratic principles: (1) Parliamentary Approval: Requires elected representatives' approval. (2) Special Majority: Ensures broad consensus beyond simple majority. (3) State Consent: Provides voice to federal units in changes affecting them. (4) Time-bound Process: Allows adequate democratic deliberation. (5) Transparency: Amendment bills are publicly debated. (6) Presidential Assent: Formal constitutional approval process. (7) Judicial Review: Democratic process subject to constitutional limits. This procedure ensures that constitutional changes have legitimate democratic support while preventing arbitrary changes, thus maintaining constitutional democracy through appropriate democratic processes.",
+      "tags": ["Democratic Principles", "Parliamentary Approval", "Broad Consensus", "Democratic Deliberation", "Constitutional Democracy"]
+    },
+    {
+      "id": 135,
+      "topic": "Important Constitutional Amendments",
+      "difficulty": "advanced",
+      "question_type": "short_answer",
+      "question": "Analyze the impact of constitutional amendments on the separation of powers doctrine.",
+      "answer": "Impact on separation of powers: Historical Challenges: (1) 42nd Amendment: Attempted to curtail judicial power and expand executive authority. (2) Minerva Mills Response: Struck down provisions violating separation of powers. (3) Post-Emergency: Restored balance through 44th Amendment. Contemporary Issues: (1) Judicial Appointments: Collegium system maintains judicial independence. (2) Tribunal System: Expansion of administrative tribunals raises separation concerns. (3) Lokpal and Anti-corruption Bodies: New constitutional bodies affect traditional separation. (4) Emergency Powers: Balance between executive efficiency and judicial oversight. Courts have generally maintained that separation of powers is basic structure, preventing amendments that destroy this essential feature. The evolution shows adaptation of separation doctrine to contemporary governance needs while preserving its essential character.",
+      "tags": ["Separation of Powers", "42nd Amendment", "Tribunal System", "Constitutional Bodies", "Essential Feature"]
+    },
+    {
+      "id": 136,
+      "topic": "Basic Structure Doctrine",
+      "difficulty": "basic",
+      "question_type": "short_answer",
+      "question": "What is the relationship between judicial review and the basic structure doctrine?",
+      "answer": "Relationship between judicial review and basic structure: (1) Essential Feature: Judicial review itself is protected as basic structure feature. (2) Enforcement Mechanism: Judicial review is the tool for enforcing basic structure doctrine. (3) Constitutional Guardian: Courts use review power to protect essential features. (4) Balance of Powers: Judicial review maintains constitutional balance. (5) Democratic Protection: Protects democratic institutions from destructive changes. (6) Constitutional Evolution: Allows necessary changes while preserving essential features. Judicial review serves as the practical mechanism by which the basic structure doctrine operates, ensuring that constitutional changes serve the Constitution rather than destroying its essential character and democratic values.",
+      "tags": ["Judicial Review", "Basic Structure", "Constitutional Guardian", "Democratic Protection", "Constitutional Evolution"]
+    },
+    {
+      "id": 137,
+      "topic": "Judicial Review Power",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "How does judicial review balance individual rights with state interests?",
+      "answer": "Judicial review balances individual rights with state interests: (1) Proportionality Test: Examines if restrictions on rights are proportionate to state objectives. (2) Legitimate State Interest: Ensures state actions serve genuine public interest. (3) Reasonable Restrictions: Balances rights with reasonable limitations. (4) Due Process: Requires fair procedures in state actions. (5) Constitutional Balance: Maintains harmony between Fundamental Rights and Directive Principles. (6) Case-by-case Analysis: Considers specific circumstances of each case. Courts apply structured analysis to ensure that while legitimate state interests are protected, individual rights are not arbitrarily sacrificed, thus maintaining constitutional balance between individual liberty and collective welfare.",
+      "tags": ["Rights Balance", "Proportionality Test", "State Interest", "Reasonable Restrictions", "Constitutional Balance"]
+    },
+    {
+      "id": 138,
+      "topic": "Supreme Court Jurisdiction",
+      "difficulty": "advanced",
+      "question_type": "short_answer",
+      "question": "Examine the role of the Supreme Court in protecting constitutional morality.",
+      "answer": "Supreme Court's role in protecting constitutional morality: (1) Constitutional Values: Interprets Constitution according to its founding values. (2) Democratic Principles: Ensures democratic institutions operate constitutionally. (3) Ethical Governance: Promotes transparency and accountability in government. (4) Social Justice: Advances constitutional principles of equality and dignity. (5) Institutional Integrity: Maintains proper functioning of constitutional organs. (6) Public Interest: Protects constitutional values over political expediency. (7) Future Generations: Ensures constitutional promises are fulfilled. Constitutional morality refers to adherence to constitutional principles and values in governance. The Supreme Court serves as guardian of these values, ensuring that constitutional governance serves democratic principles and constitutional promises.",
+      "tags": ["Constitutional Morality", "Democratic Principles", "Ethical Governance", "Social Justice", "Institutional Integrity"]
+    },
+    {
+      "id": 139,
+      "topic": "High Court Jurisdiction",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "How do High Courts contribute to constitutional awareness and education?",
+      "answer": "High Courts' contribution to constitutional awareness: (1) Legal Precedents: Set examples of constitutional interpretation for legal education. (2) Public Access: Make constitutional remedies accessible to common people. (3) Legal Aid: Provide free legal services for constitutional matters. (4) Public Interest: Use PILs to educate public about constitutional rights. (5) Institutional Transparency: Regular functioning promotes constitutional values. (6) Community Outreach: Judges participate in constitutional education programs. (7) Case Law Publication: Disseminate constitutional decisions for public knowledge. High Courts serve as bridges between constitutional law and common people, making constitutional awareness accessible and promoting constitutional values through their daily functioning and public interactions.",
+      "tags": ["Constitutional Awareness", "Legal Education", "Public Access", "Community Outreach", "Constitutional Values"]
+    },
+    {
+      "id": 140,
+      "topic": "Landmark Judgments",
+      "difficulty": "basic",
+      "question_type": "short_answer",
+      "question": "What is the significance of the Vishaka guidelines for workplace safety?",
+      "answer": "Vishaka guidelines significance: (1) Constitutional Foundation: Based on Articles 14, 15, and 21 - equality, non-discrimination, right to life. (2) Legislative Impact: Led to Sexual Harassment of Women at Workplace Act, 2013. (3) Institutional Framework: Established Internal Complaints Committees in workplaces. (4) Prevention Measures: Mandated awareness and prevention mechanisms. (5) Complaint Procedure: Detailed procedure for filing and handling complaints. (6) Gender Justice: Advanced women's rights and workplace dignity. (7) Global Recognition: Recognized internationally as model for workplace safety. The guidelines demonstrated how PIL can drive social change, ensuring constitutional protection for women and creating safer workplace environments through judicial innovation and legislative follow-up.",
+      "tags": ["Vishaka Guidelines", "Workplace Safety", "Gender Justice", "Legislative Impact", "Constitutional Protection"]
+    },
+    {
+      "id": 141,
+      "topic": "Public Interest Litigation",
+      "difficulty": "advanced",
+      "question_type": "essay",
+      "question": "Evaluate the role of PIL in advancing constitutional goals of justice, liberty, equality, and fraternity.",
+      "answer": "PIL's role in advancing constitutional goals: Justice: (1) Access to Justice: Democratized legal system for marginalized groups. (2) Speedy Justice: Established right to speedy trial. (3) Fair Procedures: Enhanced due process protections. (4) Legal Aid: Mandated free legal services. Liberty: (1) Fundamental Rights Protection: Expanded scope of rights enforcement. (2) Civil Liberties: Protected freedom of expression and association. (3) Gender Liberty: Advanced women's rights and dignity. (4) Environmental Liberty: Protected right to clean environment. Equality: (1) Social Equality: Addressed caste and gender discrimination. (2) Educational Equality: Promoted equal access to education. (3) Economic Equality: Advanced rights of workers and marginalized. Fraternity: (1) National Unity: Promoted secular and inclusive values. (2) Social Solidarity: Advanced rights of vulnerable groups. (3) Constitutional Consciousness: Created awareness of shared constitutional values. PIL has been instrumental in transforming constitutional ideals into lived realities, making the Constitution's promise of justice, liberty, equality, and fraternity more accessible to all citizens.",
+      "tags": ["Constitutional Goals", "Justice", "Liberty", "Equality", "Fraternity", "Social Transformation"]
+    },
+    {
+      "id": 142,
+      "topic": "Judicial Appointments and Transfers",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "What are the challenges in ensuring diversity in judicial appointments?",
+      "answer": "Challenges in judicial diversity: (1) Limited Pool: Few candidates from marginalized backgrounds in higher judiciary. (2) Educational Barriers: Elite law school bias in appointment criteria. (3) Regional Imbalances: Uneven distribution across regions and states. (4) Gender Representation: Very low representation of women in higher courts. (5) Caste and Community: Underrepresentation of SC/ST and minority communities. (6) Socio-economic Background: Predominantly from privileged backgrounds. (7) Institutional Resistance: Traditional resistance to diversity initiatives. Addressing these challenges requires: (a) Outreach programs to identify talent from diverse backgrounds, (b) Transparent criteria valuing diverse perspectives, (c) Mentorship programs for underrepresented groups, (d) Constitutional amendments for reservation if necessary, (e) Changing institutional culture to value diversity.",
+      "tags": ["Judicial Diversity", "Representation", "Educational Barriers", "Gender Imbalance", "Institutional Challenges"]
+    },
+    {
+      "id": 143,
+      "topic": "Amendment Process (Article 368)",
+      "difficulty": "basic",
+      "question_type": "mcq",
+      "question": "What is the minimum number of states required for constitutional amendment ratification?",
+      "options": ["One-third", "One-half", "Two-thirds", "Three-fourths"],
+      "correct_answer": "One-half",
+      "answer": "At least one-half of the state legislatures must ratify a constitutional amendment for provisions requiring state consent. This means that out of 28 states, at least 14 states must pass resolutions supporting the amendment. This requirement ensures federal consent for amendments affecting the federal structure or state interests.",
+      "tags": ["State Ratification", "One-half Majority", "Federal Consent", "Constitutional Amendment", "State Legislatures"]
+    },
+    {
+      "id": 144,
+      "topic": "Important Constitutional Amendments",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "How has the 101st Amendment transformed India's indirect taxation system?",
+      "answer": "101st Amendment's transformation of indirect taxation: (1) Dual GST Model: Created Central GST and State GST for comprehensive taxation. (2) Unified Market: Eliminated multiple taxes, creating common national market. (3) Input Tax Credit: Enabled seamless flow of input tax credits across supply chain. (4) GST Council: Established federal body for tax coordination and decision-making. (5) Destination-Based Tax: Shifted from origin-based to destination-based taxation. (6) Compliance Simplification: Reduced tax compliance burden for businesses. Impact: (a) Increased tax-to-GDP ratio, (b) Reduced tax evasion, (c) Improved ease of doing business, (d) Enhanced economic integration. This represents the most significant constitutional change in fiscal federalism since independence, balancing efficiency with federal participation.",
+      "tags": ["101st Amendment", "GST", "Indirect Taxation", "Dual GST", "Economic Integration"]
+    },
+    {
+      "id": 145,
+      "topic": "Basic Structure Doctrine",
+      "difficulty": "advanced",
+      "question_type": "short_answer",
+      "question": "How does the basic structure doctrine ensure constitutional adaptation while preserving identity?",
+      "answer": "Basic structure doctrine ensures adaptation while preserving identity: (1) Flexible Core: Essential features identified case-by-case, allowing evolution. (2) Effect-Based Analysis: Examines amendment effects rather than forms. (3) Balancing Test: Weighs reform needs against constitutional preservation. (4) Democratic Legitimacy: Requires broad consensus for fundamental changes. (5) Judicial Restraint: Courts avoid striking down unless essential features clearly destroyed. (6) Evolutionary Approach: Allows constitutional development serving Constitution. The doctrine provides constitutional stability by preventing destructive changes while enabling beneficial adaptations, thus ensuring that constitutional evolution serves constitutional identity and democratic values rather than undermining them.",
+      "tags": ["Constitutional Adaptation", "Identity Preservation", "Flexible Core", "Evolutionary Approach", "Constitutional Stability"]
+    },
+    {
+      "id": 146,
+      "topic": "Judicial Review Power",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "What is the significance of the doctrine of constitutional avoidance?",
+      "answer": "Doctrine of constitutional avoidance: (1) Judicial Restraint: Courts avoid constitutional questions when possible. (2) Interpretative Approach: Prefer interpretation that avoids constitutional invalidity. (3) Severability: Strike down only offending portions, preserve valid parts. (4) Prospective Application: Limit constitutional changes to future cases. (5) Minimal Interference: Avoid unnecessary judicial intervention in policy matters. (6) Democratic Deference: Allow democratic processes to operate. This doctrine ensures that judicial review serves constitutional governance without unnecessary disruption, maintaining balance between judicial oversight and democratic governance while preserving constitutional principles and democratic processes.",
+      "tags": ["Constitutional Avoidance", "Judicial Restraint", "Interpretative Approach", "Severability", "Democratic Deference"]
+    },
+    {
+      "id": 147,
+      "topic": "Supreme Court Jurisdiction",
+      "difficulty": "advanced",
+      "question_type": "short_answer",
+      "question": "How does the Supreme Court maintain constitutional balance through its jurisdiction?",
+      "answer": "Supreme Court's role in maintaining constitutional balance: (1) Institutional Balance: Resolves disputes between constitutional organs. (2) Federal Balance: Ensures proper centre-state relations. (3) Rights Balance: Harmonizes Fundamental Rights with Directive Principles. (4) Democratic Balance: Protects democratic institutions while allowing evolution. (5) Separation of Powers: Maintains boundaries among legislative, executive, and judicial functions. (6) Constitutional Review: Ensures all state action conforms to Constitution. (7) Future Guidance: Provides constitutional interpretation for future governance. Through its various jurisdictions, the Supreme Court serves as constitutional balancer, ensuring that democratic governance operates within constitutional framework while allowing necessary constitutional evolution and institutional development.",
+      "tags": ["Constitutional Balance", "Institutional Balance", "Federal Balance", "Rights Balance", "Democratic Governance"]
+    },
+    {
+      "id": 148,
+      "topic": "High Court Jurisdiction",
+      "difficulty": "basic",
+      "question_type": "short_answer",
+      "question": "What is the difference between original and appellate jurisdiction of High Courts?",
+      "answer": "Original vs Appellate Jurisdiction of High Courts: Original Jurisdiction: (1) Direct access for Fundamental Rights enforcement, (2) First instance for certain civil matters, (3) Constitutional writs under Article 226. Appellate Jurisdiction: (1) Appeals from subordinate courts and tribunals, (2) Review of decisions of district courts, (3) Criminal appeals from sessions courts. High Courts primarily exercise original jurisdiction for constitutional matters while appellate jurisdiction covers regular litigation. This dual jurisdiction makes High Courts accessible for constitutional remedies while maintaining their role as appellate courts for regular legal disputes, thus serving both constitutional protection and general judicial administration.",
+      "tags": ["Original Jurisdiction", "Appellate Jurisdiction", "Constitutional Writs", "Subordinate Courts", "Judicial Administration"]
+    },
+    {
+      "id": 149,
+      "topic": "Landmark Judgments",
+      "difficulty": "advanced",
+      "question_type": "short_answer",
+      "question": "Analyze how landmark judgments have influenced constitutional pedagogy in India.",
+      "answer": "Landmark judgments' influence on constitutional pedagogy: (1) Case Law Method: Landmark cases are central to constitutional law curricula. (2) Doctrinal Development: Students learn constitutional principles through case analysis. (3) Critical Thinking: Cases encourage analysis of constitutional evolution. (4) Practical Application: Theoretical concepts connected to real constitutional issues. (5) Judicial Method: Understanding how courts interpret Constitution. (6) Social Context: Cases show Constitution's role in social transformation. (7) Comparative Study: Indian cases compared with global constitutional development. Landmark judgments provide concrete examples of constitutional principles in action, making abstract constitutional concepts tangible and relevant for students and practitioners, thus shaping constitutional understanding and practice in India.",
+      "tags": ["Constitutional Pedagogy", "Case Law Method", "Doctrinal Development", "Critical Thinking", "Constitutional Understanding"]
+    },
+    {
+      "id": 150,
+      "topic": "Public Interest Litigation",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "What are the future challenges for PIL in maintaining its constitutional role?",
+      "answer": "Future challenges for PIL: (1) Regulatory Framework: Need for better regulation to prevent misuse. (2) Quality Control: Ensuring only genuine public interest matters are entertained. (3) Implementation Gap: Many PIL orders remain unimplemented. (4) Resource Constraints: Courts face limitations in monitoring implementation. (5) Institutional Reforms: Need for better follow-up mechanisms. (6) Technology Integration: Using technology for better monitoring and implementation. (7) Balancing Act: Maintaining accessibility while preventing abuse. Future challenges include developing sophisticated screening mechanisms, creating implementation monitoring systems, ensuring judicial capacity for ongoing oversight, and maintaining the balance between accessible justice and responsible litigation. PIL must evolve to meet contemporary challenges while preserving its constitutional role in advancing social justice and constitutional values.",
+      "tags": ["Future Challenges", "PIL Regulation", "Implementation Gap", "Quality Control", "Constitutional Role"]
+    }
+  ]
+},
+    {
+      "id": 26,
+      "topic": "Important Constitutional Amendments",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "What is the difference between Directive Principles and Fundamental Duties introduced by the 42nd Amendment?",
+      "answer": "Directive Principles (Part IV) vs Fundamental Duties (Part IVA): Directive Principles: (1) Already existed in original Constitution, (2) Binding on state to apply in governance, (3) Non-justiciable (cannot be enforced in courts), (4) Goal of establishing welfare state. Fundamental Duties: (1) Introduced by 42nd Amendment, (2) Binding on citizens, (3) Moral obligations rather than legal duties, (4) Include duties like respecting national flag, developing scientific temper, protecting environment. The 42nd Amendment enhanced the balance between state obligations (Directive Principles) and citizen responsibilities (Fundamental Duties), promoting both governance goals and civic consciousness.",
+      "tags": ["42nd Amendment", "Directive Principles", "Fundamental Duties", "Welfare State", "Citizen Obligations"]
+    },
+    {
+      "id": 27,
+      "topic": "Important Constitutional Amendments",
+      "difficulty": "basic",
+      "question_type": "mcq",
+      "question": "Which Amendment introduced the concept of 'Secular' in the Preamble?",
+      "options": ["42nd Amendment", "44th Amendment", "86th Amendment", "101st Amendment"],
+      "correct_answer": "42nd Amendment",
+      "answer": "The 42nd Amendment (1976) introduced the words 'Secular' in the Preamble of the Constitution. This reflected the principle of state neutrality in matters of religion and equality of all religions. The Preamble now describes India as a 'Sovereign Socialist Secular Democratic Republic'. This addition was significant as it constitutionally enshrined the secular character of the Indian state, ensuring equal treatment of all religions by the state.",
+      "tags": ["42nd Amendment", "Secular", "Preamble", "Religious Equality", "State Neutrality"]
+    },
+    {
+      "id": 28,
+      "topic": "Basic Structure Doctrine",
+      "difficulty": "basic",
+      "question_type": "short_answer",
+      "question": "What is the basic structure doctrine?",
+      "answer": "The basic structure doctrine is a constitutional principle established by the Supreme Court in Kesavananda Bharati case (1973) which holds that while Parliament has the power to amend the Constitution, it cannot alter or destroy the Constitution's essential features. These features include supremacy of the Constitution, rule of law, separation of powers, democratic and republican character, federalism, individual liberty, judicial review, and independence of judiciary. The doctrine serves as a check on Parliament's amending power to preserve the Constitution's core identity and values.",
+      "tags": ["Basic Structure", "Kesavananda Bharati", "Constitutional Limits", "Parliamentary Power", "Judicial Review"]
+    },
+    {
+      "id": 29,
+      "topic": "Basic Structure Doctrine",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "Trace the evolution of the basic structure doctrine from Golaknath to Kesavananda Bharati.",
+      "answer": "Evolution of Basic Structure Doctrine: Golaknath Case (1967): Supreme Court held that constitutional amendments are 'law' under Article 13 and cannot take away Fundamental Rights, limiting Parliament's power. Parliament's Response (24th Amendment, 1971): Amended Article 368 to declare amendments are not 'laws' under Article 13. Kesavananda Bharati (1973): Established basic structure doctrine, holding that while Parliament can amend any part, it cannot destroy the Constitution's basic structure. The doctrine was developed to: (1) Prevent abuse of amending power, (2) Protect essential constitutional values, (3) Maintain constitutional supremacy, (4) Ensure democratic governance. This evolution shows how judicial interpretation balanced parliamentary sovereignty with constitutional protection.",
+      "tags": ["Golaknath", "Kesavananda Bharati", "24th Amendment", "Constitutional Evolution", "Parliamentary Power"]
+    },
+    {
+      "id": 30,
+      "topic": "Basic Structure Doctrine",
+      "difficulty": "advanced",
+      "question_type": "essay",
+      "question": "Examine how the basic structure doctrine protects democratic governance in India.",
+      "answer": "The basic structure doctrine protects democratic governance in several ways: (1) Democratic Character: Ensures Parliament cannot destroy the democratic and republican nature of the Constitution. (2) Electoral Process: Protects free and fair elections as essential features. (3) Separation of Powers: Prevents concentration of power in any single organ, maintaining checks and balances. (4) Fundamental Rights: Protects individual freedoms essential for democratic participation. (5) Judicial Independence: Ensures courts can review government actions, preventing authoritarianism. (6) Federalism: Maintains federal structure allowing diverse voices in governance. (7) Rule of Law: Ensures government operates within constitutional boundaries. The doctrine serves as a constitutional firewall against authoritarian amendments while allowing democratic evolution. It ensures that even constitutional changes serve democratic values rather than destroying them, thus preserving the essence of democratic governance for future generations.",
+      "tags": ["Democratic Governance", "Constitutional Protection", "Separation of Powers", "Federalism", "Rule of Law"]
+    },
+    {
+      "id": 31,
+      "topic": "Basic Structure Doctrine",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "Which essential features are protected by the basic structure doctrine?",
+      "answer": "Essential features protected by the basic structure doctrine include: (1) Supremacy of the Constitution, (2) Rule of law, (3) Separation of powers among different organs, (4) Democratic and republican character, (5) Federal character of the Constitution, (6) Individual liberty and freedom, (7) Secular character, (8) Judicial review, (9) Independence of the judiciary, (10) Free and fair elections, (11) Limited amending power of Parliament, (12) Harmony between Fundamental Rights and Directive Principles. The list is not exhaustive, and the Supreme Court identifies additional features based on case circumstances. These features form the Constitution's core identity that cannot be altered by amendments.",
+      "tags": ["Essential Features", "Constitutional Identity", "Judicial Review", "Democratic Character", "Separation of Powers"]
+    },
+    {
+      "id": 32,
+      "topic": "Basic Structure Doctrine",
+      "difficulty": "basic",
+      "question_type": "mcq",
+      "question": "Which case first established the basic structure doctrine?",
+      "options": ["Golaknath v. State of Punjab", "Kesavananda Bharati v. State of Kerala", "Minerva Mills v. Union of India", "Waman Rao v. Union of India"],
+      "correct_answer": "Kesavananda Bharati v. State of Kerala",
+      "answer": "Kesavananda Bharati v. State of Kerala (1973) first established the basic structure doctrine. This landmark case was decided by a 13-judge bench and held that while Parliament has wide powers to amend the Constitution, it cannot destroy the basic structure of the Constitution. The Court identified various features that form the basic structure including supremacy of the Constitution, rule of law, separation of powers, democracy, federalism, judicial review, independence of judiciary, and individual freedom. This doctrine has since become a cornerstone of Indian constitutional jurisprudence.",
+      "tags": ["Kesavananda Bharati", "Basic Structure", "13-Judge Bench", "Constitutional Doctrine", "Landmark Case"]
+    },
+    {
+      "id": 33,
+      "topic": "Basic Structure Doctrine",
+      "difficulty": "advanced",
+      "question_type": "scenario",
+      "question": "A constitutional amendment seeks to establish a 'National Security Council' with powers to suspend Fundamental Rights during 'security emergencies'. Analyze this under the basic structure doctrine.",
+      "answer": "This amendment would face significant challenges under basic structure doctrine: (1) Fundamental Rights Protection: Article 21 and other Fundamental Rights are protected as basic features; arbitrary suspension would violate basic structure. (2) Judicial Review: Creating a body with power to suspend Fundamental Rights without judicial oversight would violate judicial review as essential feature. (3) Emergency Provisions: Article 352 already provides for National Emergency with proper safeguards; creating parallel system could undermine constitutional emergency framework. (4) Separation of Powers: Concentrating such power in an unelected council violates separation of powers. (5) Democracy: Unchecked power to suspend rights undermines democratic character. Likely Outcome: Courts would strike down such amendment as destroying essential features. Even if valid emergency powers are needed, they must maintain judicial oversight and constitutional safeguards to protect basic structure.",
+      "tags": ["Security Council", "Fundamental Rights", "Emergency Powers", "Basic Structure", "Constitutional Safeguards"]
+    },
+    {
+      "id": 34,
+      "topic": "Basic Structure Doctrine",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "How does the basic structure doctrine balance constitutional stability with necessary reforms?",
+      "answer": "The basic structure doctrine achieves this balance through: (1) Flexible Identification: Essential features are identified case-by-case, allowing for evolution while protecting core values. (2) Effect-Based Analysis: Courts examine the effect of amendments rather than their form, allowing beneficial changes while preventing destructive ones. (3) Balancing Test: Courts weigh the importance of reforms against preservation of essential features. (4) Constitutional Evolution: Allows necessary adaptations to changing circumstances while maintaining constitutional identity. (5) Democratic Legitimacy: Requires broad consensus for fundamental changes, ensuring democratic support for reforms. (6) Judicial Restraint: Courts avoid striking down amendments unless they clearly destroy essential features. This approach ensures constitutional adaptation while preventing arbitrary changes, providing both stability and flexibility in constitutional governance.",
+      "tags": ["Constitutional Balance", "Democratic Reforms", "Judicial Restraint", "Constitutional Evolution", "Essential Features"]
+    },
+    {
+      "id": 35,
+      "topic": "Basic Structure Doctrine",
+      "difficulty": "basic",
+      "question_type": "short_answer",
+      "question": "What is the role of judicial review in the basic structure doctrine?",
+      "answer": "Judicial review is central to the basic structure doctrine: (1) Essential Feature: Judicial review itself is recognized as an essential feature that cannot be destroyed. (2) Guardian Function: Courts use judicial review to protect other essential features from destructive amendments. (3) Constitutional Oversight: Allows courts to examine constitutional amendments for compliance with basic structure. (4) Balancing Mechanism: Enables courts to balance constitutional change with preservation of core values. (5) Democratic Safeguard: Prevents abuse of amendment power while respecting democratic processes. Judicial review serves as the enforcement mechanism for the basic structure doctrine, ensuring that even constitutional changes serve the Constitution rather than destroying its essential character. Without judicial review, the basic structure doctrine would be ineffective.",
+      "tags": ["Judicial Review", "Constitutional Guardian", "Essential Feature", "Democratic Safeguard", "Amendment Oversight"]
+    },
+    {
+      "id": 36,
+      "topic": "Judicial Review Power",
+      "difficulty": "basic",
+      "question_type": "short_answer",
+      "question": "What is judicial review and what is its constitutional basis in India?",
+      "answer": "Judicial review is the power of courts to examine the constitutional validity of laws and government actions. Constitutional Basis: (1) Article 13: Empowers courts to declare laws void if inconsistent with Fundamental Rights. (2) Article 32: Provides right to approach Supreme Court for Fundamental Rights enforcement. (3) Article 141: Makes Supreme Court decisions binding on all courts. (4) Article 142: Enables Supreme Court to enforce its decrees nationwide. Indian judicial review is unique because: (a) It applies to both ordinary legislation and constitutional amendments, (b) It operates through specific writs, (c) It maintains constitutional supremacy rather than parliamentary supremacy. This system ensures that all government action conforms to constitutional requirements and protects Fundamental Rights.",
+      "tags": ["Judicial Review", "Article 13", "Article 32", "Constitutional Validity", "Fundamental Rights"]
+    },
+    {
+      "id": 37,
+      "topic": "Judicial Review Power",
+      "difficulty": "intermediate",
+      "question_type": "essay",
+      "question": "Compare judicial review in India with that in the United States and analyze the Indian model.",
+      "answer": "Comparison of Judicial Review Models: United States: (1) Established in Marbury v. Madison (1803), (2) Implied power not explicitly stated in Constitution, (3) Applies to ordinary legislation only, (4) Supreme Court has final say on constitutional interpretation. Indian Model: (1) Explicitly provided in Constitution (Articles 13, 32, 226), (2) Applies to both ordinary legislation and constitutional amendments, (3) Multiple courts can exercise it (Supreme Court and High Courts), (4) Includes basic structure doctrine limiting constitutional amendments. Advantages of Indian Model: (1) Clear constitutional foundation, (2) Broader scope including constitutional amendments, (3) Multiple access points through different courts, (4) Stronger protection through basic structure doctrine. Indian judicial review is more comprehensive than the US model, providing multiple layers of constitutional protection and allowing adaptation to India's specific constitutional needs.",
+      "tags": ["Judicial Review", "US Model", "Basic Structure", "Constitutional Protection", "Marbury v Madison"]
+    },
+    {
+      "id": 38,
+      "topic": "Judicial Review Power",
+      "difficulty": "basic",
+      "question_type": "mcq",
+      "question": "Under which article can the Supreme Court enforce its decrees throughout India?",
+      "options": ["Article 140", "Article 141", "Article 142", "Article 143"],
+      "correct_answer": "Article 142",
+      "answer": "Article 142 empowers the Supreme Court to pass any decree or order as necessary for doing complete justice in any case or matter pending before it, and such decree or order shall be enforceable throughout the territory of India. This provision gives the Supreme Court the authority to ensure that its decisions have nationwide effect and can be implemented effectively.",
+      "tags": ["Article 142", "Decree Enforcement", "Complete Justice", "Nationwide Effect", "Supreme Court Powers"]
+    },
+    {
+      "id": 39,
+      "topic": "Judicial Review Power",
+      "difficulty": "intermediate",
+      "question_type": "short_answer",
+      "question": "What are the five types of writs available under constitutional law?",
+      "answer": "The five types of constitutional writs are: (1) Habeas Corpus (to bring the body): Used to challenge unlawful detention. (2) Mandamus (to command): Compels public authorities to perform their duties. (3) Prohibition (to forbid): Prevents lower courts from proceeding without jurisdiction. (4) Quo Warranto (by what authority): Questions the authority of public office holders. (5) Certiorari (to be certified): Quashes illegal orders of lower authorities. These writs serve as constitutional remedies for protecting Fundamental Rights and ensuring rule of law. They can be issued by Supreme Court under Article 32 and High Courts under Article 226.",
+      "tags": ["Writs", "Habeas Corpus", "Mandamus", "Prohibition", "Quo Warranto", "Certiorari"]
+    },
+    {
+      "id": 40,
+      "topic": "Judicial Review Power",
+      "difficulty": "advanced",
+      "question_type": "short_answer",
+      "question": "Examine the scope and limitations of judicial review under Article 13.",
+      "answer": "Article 13 provides foundational judicial review power: Scope: (1) Article 13(1): All pre-Constitution laws inconsistent with Fundamental Rights are void. (2) Article 13(2): State cannot make laws abridging Fundamental Rights. (3) Courts can declare void any law violating Fundamental Rights. (4) Applies to all forms of state action. Limitations: (1) Basic Structure Doctrine: Constitutional amendments are not 'laws' under Article 13. (2) Prospective Overruling: Courts can limit the effect of their decisions. (3) Presumption of Constitutionality: Courts presume laws are valid unless proved otherwise. (4) Political Question Doctrine: Courts avoid reviewing purely political matters. Article 13 serves as the primary constitutional tool for judicial review, providing citizens with access to courts to challenge unconstitutional laws while maintaining appropriate judicial restraint.",
+      "tags": ["Article 13", "Void Laws", "Fundamental Rights", "Judicial Limitations", "Political Questions"]
+    }
+  ]
+}

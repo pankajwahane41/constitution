@@ -1,0 +1,1826 @@
+{
+  "quiz_title": "Indian Judiciary: Comprehensive Quiz for Children",
+  "description": "A comprehensive quiz covering all aspects of the Indian Judiciary using child-friendly analogies and scenarios",
+  "total_questions": 150,
+  "difficulty_levels": ["basic", "intermediate", "advanced"],
+  "analogies_used": [
+    "sports_referee",
+    "school_system", 
+    "hospital_system",
+    "police_station",
+    "neighborhood_watch",
+    "team_captain",
+    "teacher_mediator",
+    "game_rules",
+    "family_counselor",
+    "safety_guard"
+  ],
+  "question_categories": {
+    "court_structure": {
+      "title": "Structure of Courts (Like School Levels)",
+      "questions": [
+        {
+          "id": 1,
+          "type": "multiple_choice",
+          "question": "If your school has House Captains, Prefects, and a Head Boy/Girl, which court level is like the Head Boy/Girl who makes final decisions for the whole school?",
+          "options": [
+            "District Court (like House Captain)",
+            "High Court (like Prefect)", 
+            "Supreme Court (like Head Boy/Girl)",
+            "Lok Adalat (like Class Monitor)"
+          ],
+          "correct_answer": "Supreme Court (like Head Boy/Girl)",
+          "explanation": "Just like the Head Boy/Girl makes final decisions for the entire school, the Supreme Court makes final decisions for all of India.",
+          "analogy": "school_system",
+          "difficulty": "basic"
+        },
+        {
+          "id": 2,
+          "type": "multiple_choice", 
+          "question": "In a hospital, you have Ward Doctors, Department Heads, and the Hospital Director. Which court level is like the Hospital Director who oversees everything?",
+          "options": [
+            "Supreme Court",
+            "High Court", 
+            "District Court",
+            "Session Court"
+          ],
+          "correct_answer": "Supreme Court",
+          "explanation": "The Supreme Court is like the Hospital Director - the top authority that oversees the entire justice system.",
+          "analogy": "hospital_system",
+          "difficulty": "basic"
+        },
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "High Courts are like the state-level coordinators in a sports tournament - they organize matches within their state and can overrule decisions made at district levels.",
+          "correct_answer": true,
+          "explanation": "High Courts supervise district courts in their state and can review their decisions, just like state tournament coordinators.",
+          "analogy": "sports_tournament",
+          "difficulty": "basic"
+        },
+        {
+          "id": 4,
+          "type": "fill_in_blank",
+          "question": "____________ courts are the closest to people like the local police station in your neighborhood - they handle most everyday problems like property disputes and local crimes.",
+          "correct_answer": "District and Subordinate",
+          "explanation": "District courts are like your local police station - close to home and handling daily issues.",
+          "analogy": "police_station",
+          "difficulty": "basic"
+        },
+        {
+          "id": 5,
+          "type": "multiple_choice",
+          "question": "If you were solving conflicts in your classroom, which approach represents how appeals work in court?",
+          "options": [
+            "The class monitor solves it alone",
+            "You appeal to the class teacher, then to the principal if needed", 
+            "The principal decides everything immediately",
+            "Students vote on the solution"
+          ],
+          "correct_answer": "You appeal to the class teacher, then to the principal if needed",
+          "explanation": "Appeals work like this - start with a lower authority and go higher if not satisfied.",
+          "analogy": "school_hierarchy",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 6,
+          "type": "scenario",
+          "question": "Imagine you're in a cricket tournament. The umpire at your local ground makes a decision you disagree with. Which court would this be like, and where would you appeal?",
+          "correct_answer": "Local umpire = District Court; Appeal = High Court; Final appeal = Supreme Court",
+          "explanation": "Just like cricket tournaments have multiple levels of umpires and appeals, courts have multiple levels too.",
+          "analogy": "sports_competition",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 7,
+          "type": "multiple_choice",
+          "question": "What is the main difference between Supreme Court and High Courts in terms of their area of control?",
+          "options": [
+            "Supreme Court controls the whole country; High Courts control their state",
+            "Supreme Court handles criminal cases; High Courts handle civil cases",
+            "Supreme Court has more judges; High Courts have fewer judges",
+            "Supreme Court is older; High Courts are newer"
+          ],
+          "correct_answer": "Supreme Court controls the whole country; High Courts control their state",
+          "explanation": "Like national vs state sports associations - Supreme Court is national, High Courts are state-level.",
+          "analogy": "sports_federations",
+          "difficulty": "basic"
+        },
+        {
+          "id": 8,
+          "type": "true_false",
+          "question": "Tribunals are like specialist departments in a hospital - they handle specific types of cases (like tax cases) just as cardiology handles heart problems.",
+          "correct_answer": true,
+          "explanation": "Tribunals are specialized courts for specific types of cases, like medical specialists.",
+          "analogy": "hospital_specialists",
+          "difficulty": "intermediate"
+        }
+      ]
+    },
+    "how_courts_work": {
+      "title": "How Courts Work (Like a Relay Race)",
+      "questions": [
+        {
+          "id": 9,
+          "type": "multiple_choice",
+          "question": "In a relay race, the baton passes from one runner to the next. Which part of court process does this represent?",
+          "options": [
+            "Judge selection",
+            "Case progression from lower to higher courts",
+            "Evidence collection",
+            "Judgment writing"
+          ],
+          "correct_answer": "Case progression from lower to higher courts",
+          "explanation": "Like a relay race, cases move step by step through different levels of courts.",
+          "analogy": "relay_race",
+          "difficulty": "basic"
+        },
+        {
+          "id": 10,
+          "type": "fill_in_blank",
+          "question": "In civil cases, the person who files the case is called the ___________, while in criminal cases, the _________ represents society.",
+          "correct_answer": "plaintiff, State/prosecution",
+          "explanation": "Civil cases are like disputes between individuals; criminal cases involve the State against wrongdoers.",
+          "analogy": "personal_dispute_vs_public_safety",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 11,
+          "type": "scenario",
+          "question": "Your friend borrowed your bicycle and refused to return it. What type of case would this be in court, and how is it like a school problem?",
+          "correct_answer": "Civil case - like asking the class teacher to help get your pencil back from a classmate",
+          "explanation": "Civil cases handle disputes between individuals, like school disputes handled by teachers.",
+          "analogy": "classroom_dispute",
+          "difficulty": "basic"
+        },
+        {
+          "id": 12,
+          "type": "multiple_choice",
+          "question": "What happens first in a criminal case?",
+          "options": [
+            "Trial begins immediately",
+            "FIR is filed if it's a serious crime",
+            "Judge gives judgment",
+            "Lawyer presents arguments"
+          ],
+          "correct_answer": "FIR is filed if it's a serious crime",
+          "explanation": "Like calling the police when someone breaks rules - FIR is the first formal step.",
+          "analogy": "reporting_violations",
+          "difficulty": "basic"
+        },
+        {
+          "id": 13,
+          "type": "true_false",
+          "question": "Evidence in court is like clues in a detective story - the judge must carefully examine all clues before deciding who is telling the truth.",
+          "correct_answer": true,
+          "explanation": "Just as detectives use clues to solve cases, judges use evidence to reach fair decisions.",
+          "analogy": "detective_investigation",
+          "difficulty": "basic"
+        },
+        {
+          "id": 14,
+          "type": "multiple_choice",
+          "question": "What is the main purpose of appeals in court?",
+          "options": [
+            "To make the process longer",
+            "To allow higher courts to review and correct lower court decisions",
+            "To confuse the parties",
+            "To increase the judge's workload"
+          ],
+          "correct_answer": "To allow higher courts to review and correct lower court decisions",
+          "explanation": "Appeals are like asking a senior teacher to review a decision - for fairness and correctness.",
+          "analogy": "review_by_senior_authority",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 15,
+          "type": "fill_in_blank",
+          "question": "A __________ is like a previous decision that becomes a rule for similar future cases - it makes the law __________ and predictable.",
+          "correct_answer": "precedent, certain/consistent",
+          "explanation": "Precedents are like school rules that everyone follows to maintain consistency.",
+          "analogy": "school_rules_precedent",
+          "difficulty": "intermediate"
+        }
+      ]
+    },
+    "judicial_review": {
+      "title": "Judicial Review (Like Checking Game Rules)",
+      "questions": [
+        {
+          "id": 16,
+          "type": "multiple_choice",
+          "question": "Judicial review is like when a teacher checks if a school rule follows the school constitution. What does the court check in judicial review?",
+          "options": [
+            "If laws follow the Constitution",
+            "If judges are qualified",
+            "If lawyers are honest",
+            "If parties are rich or poor"
+          ],
+          "correct_answer": "If laws follow the Constitution",
+          "explanation": "Judicial review ensures laws and government actions don't violate the Constitution.",
+          "analogy": "rule_constitutionality_check",
+          "difficulty": "basic"
+        },
+        {
+          "id": 17,
+          "type": "scenario",
+          "question": "Your school announces a new rule: 'Only children who bring homemade lunch can sit in the first row.' Why might a court say this rule is unfair?",
+          "correct_answer": "Because it discriminates against children who can't afford homemade lunch, violating the right to equality",
+          "explanation": "Courts check if rules discriminate unfairly - like checking if a game rule gives unfair advantage.",
+          "analogy": "unfair_school_rule",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 18,
+          "type": "true_false",
+          "question": "If a law violates the Constitution, the court can declare it 'unconstitutional' and it becomes useless, like a rule that the principal cancels because it breaks school policy.",
+          "correct_answer": true,
+          "explanation": "Unconstitutional laws are struck down - made unenforceable - just like unfair school rules are cancelled.",
+          "analogy": "cancelling_unfair_rules",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 19,
+          "type": "multiple_choice",
+          "question": "Writs are like what in a school setting?",
+          "options": [
+            "School reports",
+            "Court orders that command or stop action (like 'Stop' and 'Go' signs)",
+            "Exam papers",
+            "School uniforms"
+          ],
+          "correct_answer": "Court orders that command or stop action (like 'Stop' and 'Go' signs)",
+          "explanation": "Writs are official orders from courts that can command action or stop wrongful action.",
+          "analogy": "traffic_signs",
+          "difficulty": "basic"
+        },
+        {
+          "id": 20,
+          "type": "fill_in_blank",
+          "question": "The Supreme Court uses Article _____ to protect fundamental rights, while High Courts use Article _____ for the same purpose.",
+          "correct_answer": "32, 226",
+          "explanation": "Article 32 (Supreme Court) and Article 226 (High Courts) are the main constitutional provisions for writs.",
+          "analogy": "dual_protection_system",
+          "difficulty": "advanced"
+        },
+        {
+          "id": 21,
+          "type": "scenario",
+          "question": "A government office refuses to give you a ration card without reason. How would you use judicial review to get justice?",
+          "correct_answer": "File a writ petition claiming violation of right to life ( Article 21 - right to food), court can order them to issue the card",
+          "explanation": "Judicial review helps citizens challenge unfair government actions that violate constitutional rights.",
+          "analogy": "unfair_bureaucratic_action",
+          "difficulty": "advanced"
+        }
+      ]
+    },
+    "landmark_cases": {
+      "title": "Landmark Cases (Real Court Heroes)",
+      "questions": [
+        {
+          "id": 22,
+          "type": "multiple_choice",
+          "question": "In the Vishal Jeet case, courts ordered states to stop child prostitution and set up rehabilitation homes. This shows courts act like what for children?",
+          "options": [
+            "Strict teachers",
+            "Protective guardians who rescue children from danger",
+            "Police officers",
+            "School principals"
+          ],
+          "correct_answer": "Protective guardians who rescue children from danger",
+          "explanation": "Courts actively protect children from exploitation and harm, like guardian angels.",
+          "analogy": "protective_guardian",
+          "difficulty": "basic"
+        },
+        {
+          "id": 23,
+          "type": "true_false",
+          "question": "In the Sakshi case, courts broadened the definition of sexual offences to better protect children from different types of abuse.",
+          "correct_answer": true,
+          "explanation": "Courts have updated laws to ensure comprehensive protection for children.",
+          "analogy": "updating_safety_rules",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 24,
+          "type": "fill_in_blank",
+          "question": "The Lalita Kumari case established that police must __________ when information suggests a cognizable offence, like a school must act when it receives complaint of bullying.",
+          "correct_answer": "register an FIR/mandatory registration",
+          "explanation": "This case made FIR registration mandatory to ensure quick action on serious complaints.",
+          "analogy": "mandatory_reporting_system",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 25,
+          "type": "scenario",
+          "question": "In the Roxann Sharma case, the Supreme Court said mothers should generally have custody of young children. Why did the court make this decision?",
+          "correct_answer": "Because young children need nurturing care, which mothers typically provide, and the child's welfare is most important",
+          "explanation": "Courts prioritize the child's best interests over rigid rules in custody matters.",
+          "analogy": "nurturing_care_priority",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 26,
+          "type": "multiple_choice",
+          "question": "The Master Rajeev Shankarlal Parmar case set timelines for justice in child cases. What does this teach us?",
+          "options": [
+            "Courts can take unlimited time",
+            "Justice delayed is justice denied, especially for children",
+            "Speed doesn't matter in court",
+            "Children should not get special treatment"
+          ],
+          "correct_answer": "Justice delayed is justice denied, especially for children",
+          "explanation": "Courts recognize that children need speedy justice due to their vulnerability.",
+          "analogy": "emergency_treatment_priority",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 27,
+          "type": "true_false",
+          "question": "In the Dinesh vs State of Rajasthan case, courts protected the identity of child victims by not publishing their names - like keeping a witness's face hidden on a TV show.",
+          "correct_answer": true,
+          "explanation": "Courts protect child victims' privacy and dignity to encourage reporting and prevent trauma.",
+          "analogy": "witness_protection",
+          "difficulty": "basic"
+        },
+        {
+          "id": 28,
+          "type": "fill_in_blank",
+          "question": "The CEHAT case dealt with preventing __________ through guidelines that protect unborn girls, showing courts care about life even before birth.",
+          "correct_answer": "female foeticide",
+          "explanation": "Courts have actively worked to protect girls even before they are born.",
+          "analogy": "protecting_future_generations",
+          "difficulty": "intermediate"
+        }
+      ]
+    },
+    "access_to_justice": {
+      "title": "Access to Justice (Justice for All)",
+      "questions": [
+        {
+          "id": 29,
+          "type": "multiple_choice",
+          "question": "PIL (Public Interest Litigation) is like what in a school?",
+          "options": [
+            "Only the class monitor can report problems",
+            "Any student can report a safety issue to the principal for everyone's benefit",
+            "Only teachers can solve problems",
+            "Problems should be solved by students alone"
+          ],
+          "correct_answer": "Any student can report a safety issue to the principal for everyone's benefit",
+          "explanation": "PIL allows any citizen to approach courts for public interest, like reporting school safety issues.",
+          "analogy": "student_safety_reporter",
+          "difficulty": "basic"
+        },
+        {
+          "id": 30,
+          "type": "true_false",
+          "question": "ADR (Alternative Dispute Resolution) is like having a wise teacher help two fighting classmates resolve their argument peacefully instead of having a long, formal inquiry.",
+          "correct_answer": true,
+          "explanation": "ADR provides faster, friendlier solutions through mediation and negotiation.",
+          "analogy": "wise_teacher_mediator",
+          "difficulty": "basic"
+        },
+        {
+          "id": 31,
+          "type": "fill_in_blank",
+          "question": "____________ are voluntary forums where disputes are resolved through negotiation and conciliation, and agreements are enforceable like court judgments.",
+          "correct_answer": "Lok Adalats",
+          "explanation": "Lok Adalats provide accessible justice through community-based dispute resolution.",
+          "analogy": "community_panchayat",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 32,
+          "type": "scenario",
+          "question": "You notice the playground equipment in your area is broken and dangerous for children. How would you use the justice system to get it fixed?",
+          "correct_answer": "File a PIL (Public Interest Litigation) in High Court or Supreme Court claiming violation of right to safety ( Article 21), court can order municipal authorities to repair it",
+          "explanation": "Citizens can use PIL to approach courts for public safety issues affecting many people.",
+          "analogy": "community_safety_pil",
+          "difficulty": "advanced"
+        },
+        {
+          "id": 33,
+          "type": "multiple_choice",
+          "question": "What makes ADR different from regular court cases?",
+          "options": [
+            "It's more expensive",
+            "It's slower",
+            "It's voluntary and focuses on win-win solutions",
+            "It requires lawyers only"
+          ],
+          "correct_answer": "It's voluntary and focuses on win-win solutions",
+          "explanation": "ADR emphasizes cooperation and mutually acceptable solutions rather than win-lose outcomes.",
+          "analogy": "friendly_negotiation",
+          "difficulty": "basic"
+        },
+        {
+          "id": 34,
+          "type": "true_false",
+          "question": "Legal aid ensures that even poor people can have lawyers to represent them in court - like a school providing free books to students who can't afford them.",
+          "correct_answer": true,
+          "explanation": "Legal aid makes justice accessible to everyone regardless of economic status.",
+          "analogy": "free_education_access",
+          "difficulty": "basic"
+        }
+      ]
+    },
+    "court_operations": {
+      "title": "Court Operations (Like Team Management)",
+      "questions": [
+        {
+          "id": 35,
+          "type": "multiple_choice",
+          "question": "Why is judicial independence important?",
+          "options": [
+            "So judges can do whatever they want",
+            "So judges can make fair decisions without pressure from powerful people",
+            "So judges can become famous",
+            "So judges can earn more money"
+          ],
+          "correct_answer": "So judges can make fair decisions without pressure from powerful people",
+          "explanation": "Independence ensures impartial justice - like referees who must be neutral.",
+          "analogy": "neutral_referee",
+          "difficulty": "basic"
+        },
+        {
+          "id": 36,
+          "type": "fill_in_blank",
+          "question": "The __________ system involves senior judges helping select new judges to the higher judiciary, aiming to protect __________ and independence.",
+          "correct_answer": "collegium, merit",
+          "explanation": "Collegium system ensures appointments are based on merit and maintain judicial independence.",
+          "analogy": "senior_player_selection",
+          "difficulty": "advanced"
+        },
+        {
+          "id": 37,
+          "type": "true_false",
+          "question": "Separation of powers means the judiciary is separate from the executive (government), like the referee's area being separate from the team's bench.",
+          "correct_answer": true,
+          "explanation": "Separation of powers prevents concentration of control and ensures checks and balances.",
+          "analogy": "referee_independence",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 38,
+          "type": "scenario",
+          "question": "Imagine a football match where the referee's salary was paid by one of the teams. Why would this be a problem?",
+          "correct_answer": "The referee might be biased towards the team paying salary, just like judges need independence from government pressure to be fair",
+          "explanation": "Financial independence prevents bias - judges shouldn't depend on those they might have to rule against.",
+          "analogy": "conflicted_referee",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 39,
+          "type": "multiple_choice",
+          "question": "Judges can be removed only through a very difficult process called impeachment. Why is this important?",
+          "options": [
+            "To make judges lazy",
+            "To protect them from political pressure and ensure they can decide fairly",
+            "To make them work forever",
+            "To save money on training new judges"
+          ],
+          "correct_answer": "To protect them from political pressure and ensure they can decide fairly",
+          "explanation": "Strong removal protections help judges remain independent and fearless.",
+          "analogy": "protected_referee_status",
+          "difficulty": "intermediate"
+        }
+      ]
+    }
+  },
+  "additional_questions": [
+    {
+      "id": 40,
+      "type": "match_column",
+      "question": "Match the court level with its sports analogy:",
+      "left_column": ["Supreme Court", "High Court", "District Court", "Lok Adalat"],
+      "right_column": ["National Team Captain", "State Team Captain", "Local Club Captain", "Community Sports Organizer"],
+      "correct_matches": {
+        "Supreme Court": "National Team Captain",
+        "High Court": "State Team Captain", 
+        "District Court": "Local Club Captain",
+        "Lok Adalat": "Community Sports Organizer"
+      },
+      "analogy": "sports_hierarchy",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 41,
+      "type": "sequence_order",
+      "question": "Arrange these steps in the correct order for a criminal case:",
+      "steps": ["Trial", "Investigation", "FIR filing", "Judgment", "Charge-sheet"],
+      "correct_order": ["FIR filing", "Investigation", "Charge-sheet", "Trial", "Judgment"],
+      "analogy": "police_investigation_process",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 42,
+      "type": "multiple_choice",
+      "question": "What does Article 141 of the Constitution establish?",
+      "options": [
+        "Supreme Court can make any law",
+        "Law declared by Supreme Court is binding on all courts",
+        "Supreme Court has unlimited power",
+        "Supreme Court controls all other courts"
+      ],
+      "correct_answer": "Law declared by Supreme Court is binding on all courts",
+      "explanation": "Article 141 ensures uniformity and consistency in law across India.",
+      "analogy": "national_rulebook",
+      "difficulty": "advanced"
+    },
+    {
+      "id": 43,
+      "type": "true_false",
+      "question": "Commercial Courts are like specialized departments in a large hospital - they handle only business disputes efficiently, similar to how cardiology handles only heart problems.",
+      "correct_answer": true,
+      "explanation": "Specialized courts ensure expert handling of specific types of complex cases.",
+      "analogy": "medical_specialists",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 44,
+      "type": "fill_in_blank",
+      "question": "____________ is the principle that courts follow previous decisions to ensure consistent treatment of similar cases, making the law __________.",
+      "correct_answer": "Stare decisis/Precedent, predictable",
+      "explanation": "Stare decisis (precedent) ensures legal consistency and predictability.",
+      "analogy": "following_precedent_rules",
+      "difficulty": "advanced"
+    },
+    {
+      "id": 45,
+      "type": "scenario",
+      "question": "Your neighbor plays loud music late at night disturbing everyone's sleep. What type of court case would this be and why?",
+      "correct_answer": "Civil case - it's a dispute between neighbors affecting peaceful enjoyment of property, not a crime against society",
+      "explanation": "Civil cases handle disputes between individuals; criminal cases involve crimes against society.",
+      "analogy": "neighbor_dispute",
+      "difficulty": "basic"
+    },
+    {
+      "id": 46,
+      "type": "multiple_choice",
+      "question": "What is the main purpose of Article 50 in the Constitution?",
+      "options": [
+        "To give judges more salary",
+        "To separate judiciary from executive",
+        "To make courts faster",
+        "To increase number of judges"
+      ],
+      "correct_answer": "To separate judiciary from executive",
+      "explanation": "Article 50 ensures separation of powers to maintain judicial independence.",
+      "analogy": "organizational_separation",
+      "difficulty": "advanced"
+    },
+    {
+      "id": 47,
+      "type": "true_false",
+      "question": "When courts issue 'interim directions,' it's like a teacher giving temporary rules while investigating a serious classroom problem.",
+      "correct_answer": true,
+      "explanation": "Interim orders provide immediate protection while full cases are being heard.",
+      "analogy": "temporary_safety_measures",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 48,
+      "type": "fill_in_blank",
+      "question": "A __________ is someone who commits a crime, while a __________ is someone who commits a civil wrong against another person.",
+      "correct_answer": "accused/defendant, wrongdoer",
+      "explanation": "Criminal cases involve accused persons; civil cases involve defendants/wrongdoers.",
+      "analogy": "crime_vs_civil_wrong",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 49,
+      "type": "scenario",
+      "question": "If a rich person and a poor person have the same legal problem, but the poor person gets free legal aid, is this fair? Why?",
+      "correct_answer": "Yes, it's fair because legal aid ensures equal access to justice regardless of economic status, like free education ensures equal learning opportunities",
+      "explanation": "Legal aid balances economic inequalities to ensure genuine equal justice.",
+      "analogy": "level_playing_field",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 50,
+      "type": "match_column",
+      "question": "Match the court level with its sports analogy:",
+      "left_column": ["Supreme Court", "High Court", "District Court", "Lok Adalat"],
+      "right_column": ["National Team Captain", "State Team Captain", "Local Club Captain", "Community Sports Organizer"],
+      "correct_matches": {
+        "Supreme Court": "National Team Captain",
+        "High Court": "State Team Captain", 
+        "District Court": "Local Club Captain",
+        "Lok Adalat": "Community Sports Organizer"
+      },
+      "analogy": "sports_hierarchy",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 51,
+      "type": "sequence_order",
+      "question": "Arrange these steps in the correct order for a criminal case:",
+      "steps": ["Trial", "Investigation", "FIR filing", "Judgment", "Charge-sheet"],
+      "correct_order": ["FIR filing", "Investigation", "Charge-sheet", "Trial", "Judgment"],
+      "analogy": "police_investigation_process",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 52,
+      "type": "multiple_choice",
+      "question": "What does Article 141 of the Constitution establish?",
+      "options": [
+        "Supreme Court can make any law",
+        "Law declared by Supreme Court is binding on all courts",
+        "Supreme Court has unlimited power",
+        "Supreme Court controls all other courts"
+      ],
+      "correct_answer": "Law declared by Supreme Court is binding on all courts",
+      "explanation": "Article 141 ensures uniformity and consistency in law across India.",
+      "analogy": "national_rulebook",
+      "difficulty": "advanced"
+    },
+    {
+      "id": 53,
+      "type": "true_false",
+      "question": "Commercial Courts are like specialized departments in a large hospital - they handle only business disputes efficiently, similar to how cardiology handles only heart problems.",
+      "correct_answer": true,
+      "explanation": "Specialized courts ensure expert handling of specific types of complex cases.",
+      "analogy": "medical_specialists",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 54,
+      "type": "fill_in_blank",
+      "question": "____________ is the principle that courts follow previous decisions to ensure consistent treatment of similar cases, making the law __________.",
+      "correct_answer": "Stare decisis/Precedent, predictable",
+      "explanation": "Stare decisis (precedent) ensures legal consistency and predictability.",
+      "analogy": "following_precedent_rules",
+      "difficulty": "advanced"
+    },
+    {
+      "id": 55,
+      "type": "scenario",
+      "question": "Your neighbor plays loud music late at night disturbing everyone's sleep. What type of court case would this be and why?",
+      "correct_answer": "Civil case - it's a dispute between neighbors affecting peaceful enjoyment of property, not a crime against society",
+      "explanation": "Civil cases handle disputes between individuals; criminal cases involve crimes against society.",
+      "analogy": "neighbor_dispute",
+      "difficulty": "basic"
+    },
+    {
+      "id": 56,
+      "type": "multiple_choice",
+      "question": "What is the main purpose of Article 50 in the Constitution?",
+      "options": [
+        "To give judges more salary",
+        "To separate judiciary from executive",
+        "To make courts faster",
+        "To increase number of judges"
+      ],
+      "correct_answer": "To separate judiciary from executive",
+      "explanation": "Article 50 ensures separation of powers to maintain judicial independence.",
+      "analogy": "organizational_separation",
+      "difficulty": "advanced"
+    },
+    {
+      "id": 57,
+      "type": "true_false",
+      "question": "When courts issue 'interim directions,' it's like a teacher giving temporary rules while investigating a serious classroom problem.",
+      "correct_answer": true,
+      "explanation": "Interim orders provide immediate protection while full cases are being heard.",
+      "analogy": "temporary_safety_measures",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 58,
+      "type": "fill_in_blank",
+      "question": "A __________ is someone who commits a crime, while a __________ is someone who commits a civil wrong against another person.",
+      "correct_answer": "accused/defendant, wrongdoer",
+      "explanation": "Criminal cases involve accused persons; civil cases involve defendants/wrongdoers.",
+      "analogy": "crime_vs_civil_wrong",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": 59,
+      "type": "scenario",
+      "question": "If a rich person and a poor person have the same legal problem, but the poor person gets free legal aid, is this fair? Why?",
+      "correct_answer": "Yes, it's fair because legal aid ensures equal access to justice regardless of economic status, like free education ensures equal learning opportunities",
+      "explanation": "Legal aid balances economic inequalities to ensure genuine equal justice.",
+      "analogy": "level_playing_field",
+      "difficulty": "intermediate"
+    }
+  ],
+  "additional_topics": {
+    "title": "Extended Coverage for Comprehensive Understanding",
+    "constitutional_interpretation": {
+      "title": "Constitutional Interpretation (Like School Rulebook)",
+      "questions": [
+        {
+          "id": 60,
+          "type": "multiple_choice",
+          "question": "When judges interpret the Constitution, it's like when teachers interpret school rules. What do they look for most?",
+          "options": [
+            "The literal words only",
+            "The spirit and purpose behind the rules to ensure fairness",
+            "Whatever benefits the school administration",
+            "The most convenient interpretation"
+          ],
+          "correct_answer": "The spirit and purpose behind the rules to ensure fairness",
+          "explanation": "Constitutional interpretation focuses on achieving justice and protecting rights, not just literal reading.",
+          "analogy": "spirit_vs_letter_of_law",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 61,
+          "type": "fill_in_blank",
+          "question": "The __________ clause allows courts to interpret the Constitution in ways that protect fundamental rights even when the text doesn't explicitly say so.",
+          "correct_answer": "Doctrine of Essential Features/Reading down",
+          "explanation": "Courts use various doctrines to ensure constitutional protection is effective.",
+          "analogy": "creative_rule_interpretation",
+          "difficulty": "advanced"
+        },
+        {
+          "id": 62,
+          "type": "true_false",
+          "question": "When the Constitution says 'equal protection of laws,' it means everyone gets exactly the same treatment, like all students getting the same lunch regardless of allergies.",
+          "correct_answer": false,
+          "explanation": "Equal protection often means treating similar cases similarly, but allowing reasonable differences for special needs.",
+          "analogy": "equal_vs_same_treatment",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 63,
+          "type": "scenario",
+          "question": "A school rule says 'no pets allowed.' But a child brings a seeing-eye dog. How should this be interpreted?",
+          "correct_answer": "The rule should be interpreted to allow service animals because the purpose of the rule is to prevent disruption, not discriminate against disabled students",
+          "explanation": "Constitutional interpretation considers the purpose behind rules, not just literal words.",
+          "analogy": "reasonable_accommodation",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 64,
+          "type": "multiple_choice",
+          "question": "The 'basic structure doctrine' is like when schools have certain core principles that cannot be changed. What does this mean for the Constitution?",
+          "options": [
+            "The entire Constitution can be changed",
+            "Some basic features like democracy and rights cannot be taken away",
+            "Only judges can change the Constitution",
+            "The Constitution changes automatically every year"
+          ],
+          "correct_answer": "Some basic features like democracy and rights cannot be taken away",
+          "explanation": "Basic structure doctrine protects core constitutional principles from being altered.",
+          "analogy": "unchangeable_core_principles",
+          "difficulty": "advanced"
+        }
+      ]
+    },
+    "fundamental_rights_detailed": {
+      "title": "Fundamental Rights Deep Dive (Your Safety Gear)",
+      "questions": [
+        {
+          "id": 65,
+          "type": "multiple_choice",
+          "question": "If someone says 'freedom of speech means I can say anything I want,' what would courts say?",
+          "options": [
+            "That's completely correct",
+            "Freedom has limits to protect others' rights and safety",
+            "Only adults have freedom of speech",
+            "Freedom of speech doesn't exist in India"
+          ],
+          "correct_answer": "Freedom has limits to protect others' rights and safety",
+          "explanation": "All rights have reasonable restrictions to balance competing interests.",
+          "analogy": "freedom_with_responsibility",
+          "difficulty": "basic"
+        },
+        {
+          "id": 66,
+          "type": "fill_in_blank",
+          "question": "The right to __________ means children cannot be forced to work in dangerous jobs and must attend school instead.",
+          "correct_answer": "education/development/childhood",
+          "explanation": "Children have special protections including rights to education and development.",
+          "analogy": "protected_childhood",
+          "difficulty": "basic"
+        },
+        {
+          "id": 67,
+          "type": "true_false",
+          "question": "Right to life means only that people can't be killed - it doesn't include the right to live with dignity, health, and education.",
+          "correct_answer": false,
+          "explanation": "Right to life is interpreted broadly to include dignity, health, education, and livelihood.",
+          "analogy": "life_with_dignity",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 68,
+          "type": "scenario",
+          "question": "A school refuses to admit a child because their parents are from a different state. What right is being violated?",
+          "correct_answer": "Right to equality - discriminating based on state origin violates the constitutional promise of equal treatment",
+          "explanation": "Constitutional rights protect against discrimination based on birthplace, language, or other irrelevant factors.",
+          "analogy": "unfair_discrimination",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 69,
+          "type": "multiple_choice",
+          "question": "Which right ensures that every child gets to go to school?",
+          "options": [
+            "Right to freedom of speech",
+            "Right to education (Article 21A)",
+            "Right to property",
+            "Right to vote"
+          ],
+          "correct_answer": "Right to education (Article 21A)",
+          "explanation": "Right to education is a fundamental right specifically for children.",
+          "analogy": "mandatory_schooling",
+          "difficulty": "basic"
+        },
+        {
+          "id": 70,
+          "type": "fill_in_blank",
+          "question": "____________ discrimination means treating people unfairly based on their gender, while __________ discrimination means treating people unfairly based on their caste.",
+          "correct_answer": "Gender, caste",
+          "explanation": "Constitution prohibits discrimination based on multiple grounds including gender and caste.",
+          "analogy": "protected_characteristics",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 71,
+          "type": "true_false",
+          "question": "Freedom of religion means everyone can practice any religion they want, including making others follow their religion.",
+          "correct_answer": false,
+          "explanation": "Freedom of religion is individual - you can practice your religion but not impose it on others.",
+          "analogy": "personal_vs_imposed_beliefs",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 72,
+          "type": "multiple_choice",
+          "question": "Which fundamental right protects children from being forced into marriage?",
+          "options": [
+            "Right to education",
+            "Right to life with dignity and development",
+            "Right to equality",
+            "All of the above"
+          ],
+          "correct_answer": "All of the above",
+          "explanation": "Multiple fundamental rights work together to protect children from various forms of exploitation.",
+          "analogy": "multi_shield_protection",
+          "difficulty": "intermediate"
+        }
+      ]
+    },
+    "writs_detailed": {
+      "title": "Types of Writs (Court's Emergency Signals)",
+      "questions": [
+        {
+          "id": 73,
+          "type": "multiple_choice",
+          "question": "Which writ is like calling 999/100 to get help when someone is in immediate danger?",
+          "options": [
+            "Mandamus",
+            "Habeas corpus",
+            "Prohibition",
+            "Quo warranto"
+          ],
+          "correct_answer": "Habeas corpus",
+          "explanation": "Habeas corpus (literally 'produce the body') protects against unlawful detention.",
+          "analogy": "emergency_rescue_call",
+          "difficulty": "basic"
+        },
+        {
+          "id": 74,
+          "type": "fill_in_blank",
+          "question": "____________ is a writ that commands an authority to perform its duty, like telling a lazy watchman to actually watch the gate.",
+          "correct_answer": "Mandamus",
+          "explanation": "Mandamus forces government officials to perform their legal duties.",
+          "analogy": "duty_enforcement",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 75,
+          "type": "scenario",
+          "question": "A government official is doing something completely outside his legal powers - like a librarian trying to arrest people. What writ would stop this?",
+          "correct_answer": "Quo warranto - asking 'by what authority are you doing this?' to stop unauthorized actions",
+          "explanation": "Quo warranto challenges the legal authority of someone holding office or power.",
+          "analogy": "authority_check",
+          "difficulty": "advanced"
+        },
+        {
+          "id": 76,
+          "type": "true_false",
+          "question": "Prohibition is like a red traffic light that stops a lower court from continuing with a case it shouldn't handle.",
+          "correct_answer": true,
+          "explanation": "Prohibition prevents a lower court from proceeding beyond its jurisdiction.",
+          "analogy": "red_light_stop",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 77,
+          "type": "multiple_choice",
+          "question": "Which writ is most commonly used to protect fundamental rights?",
+          "options": [
+            "Only habeas corpus",
+            "All types of writs can protect different rights",
+            "Mandamus only",
+            "Quo warranto only"
+          ],
+          "correct_answer": "All types of writs can protect different rights",
+          "explanation": "Each writ protects different aspects of constitutional rights and legal principles.",
+          "analogy": "multi_tool_protection",
+          "difficulty": "basic"
+        },
+        {
+          "id": 78,
+          "type": "fill_in_blank",
+          "question": "____________ is used to quash unlawful government actions, while __________ is used to stop ongoing unlawful proceedings.",
+          "correct_answer": "Certiorari, Prohibition",
+          "explanation": "Certiorari reviews and corrects past unlawful actions; prohibition prevents future unlawful proceedings.",
+          "analogy": "correction_and_prevention",
+          "difficulty": "advanced"
+        }
+      ]
+    },
+    "landmark_cases_extended": {
+      "title": "More Landmark Cases (Court Heroes for Children)",
+      "questions": [
+        {
+          "id": 79,
+          "type": "multiple_choice",
+          "question": "In the Vishal Jeet case, what did courts order states to do?",
+          "options": [
+            "Build more schools",
+            "Stop child prostitution and set up rehabilitation homes",
+            "Create child labor laws",
+            "Establish children's courts"
+          ],
+          "correct_answer": "Stop child prostitution and set up rehabilitation homes",
+          "explanation": "This landmark case showed courts' commitment to protecting children from exploitation.",
+          "analogy": "child_rescue_operation",
+          "difficulty": "basic"
+        },
+        {
+          "id": 80,
+          "type": "fill_in_blank",
+          "question": "The Sakshi case broadened the definition of __________ to include other forms of penetration, providing stronger protection against child abuse.",
+          "correct_answer": "sexual offences/intercourse",
+          "explanation": "Courts have continuously evolved definitions to provide comprehensive protection.",
+          "analogy": "evolving_safety_definitions",
+          "difficulty": "advanced"
+        },
+        {
+          "id": 81,
+          "type": "true_false",
+          "question": "The R.D. Upadhyay case dealt with ensuring children in jail with their mothers are treated with dignity and provided proper welfare measures.",
+          "correct_answer": true,
+          "explanation": "This case addressed the rights of children who are in custody situations with their parents.",
+          "analogy": "dignity_in_difficult_circumstances",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 82,
+          "type": "scenario",
+          "question": "In the Prerana case, courts addressed trafficking issues. What would be the best analogy for this?",
+          "correct_answer": "Like rescuing kidnapped children and ensuring they get proper help and protection",
+          "explanation": "Trafficking cases involve protecting children from exploitation and ensuring proper rehabilitation.",
+          "analogy": "child_rescue_and_rehabilitation",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 83,
+          "type": "multiple_choice",
+          "question": "What was the main issue in the Independent Thought case?",
+          "options": [
+            "Child education rights",
+            "Whether sexual intercourse with a minor wife constitutes rape",
+            "Child adoption procedures",
+            "School fee regulations"
+          ],
+          "correct_answer": "Whether sexual intercourse with a minor wife constitutes rape",
+          "explanation": "This case clarified protections for minor wives against sexual exploitation.",
+          "analogy": "protection_of_vulnerable_minors",
+          "difficulty": "advanced"
+        },
+        {
+          "id": 84,
+          "type": "true_false",
+          "question": "In the Lalita Kumari case, courts made FIR registration mandatory to ensure quicker action on serious complaints, like making it mandatory to report bullying immediately.",
+          "correct_answer": true,
+          "explanation": "This case established mandatory FIR registration to prevent delays in serious cases.",
+          "analogy": "mandatory_reporting_system",
+          "difficulty": "basic"
+        },
+        {
+          "id": 85,
+          "type": "fill_in_blank",
+          "question": "The __________ case established that testimony of child survivors doesn't need additional corroboration if it's credible, treating children's words with appropriate weight.",
+          "correct_answer": "Om Prakash vs State of U.P.",
+          "explanation": "Courts recognize that children can give reliable testimony without requiring excessive corroboration.",
+          "analogy": "trusting_child_testimony",
+          "difficulty": "advanced"
+        }
+      ]
+    },
+    "judicial_review_practical": {
+      "title": "Judicial Review in Action (Constitution's Guardian)",
+      "questions": [
+        {
+          "id": 86,
+          "type": "multiple_choice",
+          "question": "Judicial review is like when a teacher checks if a school rule follows the school constitution. What does the court check in judicial review?",
+          "options": [
+            "If laws follow the Constitution",
+            "If judges are qualified",
+            "If lawyers are honest",
+            "If parties are rich or poor"
+          ],
+          "correct_answer": "If laws follow the Constitution",
+          "explanation": "Judicial review ensures laws and government actions don't violate the Constitution.",
+          "analogy": "rule_constitutionality_check",
+          "difficulty": "basic"
+        },
+        {
+          "id": 87,
+          "type": "scenario",
+          "question": "Your school announces a new rule: 'Only children who bring homemade lunch can sit in the first row.' Why might a court say this rule is unfair?",
+          "correct_answer": "Because it discriminates against children who can't afford homemade lunch, violating the right to equality",
+          "explanation": "Courts check if rules discriminate unfairly - like checking if a game rule gives unfair advantage.",
+          "analogy": "unfair_school_rule",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 88,
+          "type": "true_false",
+          "question": "If a law violates the Constitution, the court can declare it 'unconstitutional' and it becomes useless, like a rule that the principal cancels because it breaks school policy.",
+          "correct_answer": true,
+          "explanation": "Unconstitutional laws are struck down - made unenforceable - just like unfair school rules are cancelled.",
+          "analogy": "cancelling_unfair_rules",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 89,
+          "type": "fill_in_blank",
+          "question": "The Supreme Court uses Article _____ to protect fundamental rights, while High Courts use Article _____ for the same purpose.",
+          "correct_answer": "32, 226",
+          "explanation": "Article 32 (Supreme Court) and Article 226 (High Courts) are the main constitutional provisions for writs.",
+          "analogy": "dual_protection_system",
+          "difficulty": "advanced"
+        },
+        {
+          "id": 90,
+          "type": "scenario",
+          "question": "A government office refuses to give you a ration card without reason. How would you use judicial review to get justice?",
+          "correct_answer": "File a writ petition claiming violation of right to life ( Article 21 - right to food), court can order them to issue the card",
+          "explanation": "Judicial review helps citizens challenge unfair government actions that violate constitutional rights.",
+          "analogy": "unfair_bureaucratic_action",
+          "difficulty": "advanced"
+        },
+        {
+          "id": 91,
+          "type": "multiple_choice",
+          "question": "What type of judicial review would challenge a law that says 'no children from minority communities can attend public schools'?",
+          "options": [
+            "Administrative review",
+            "Constitutional review for discrimination",
+            "Financial review",
+            "Procedural review"
+          ],
+          "correct_answer": "Constitutional review for discrimination",
+          "explanation": "Laws that discriminate on the basis of religion violate the right to equality and must be struck down.",
+          "analogy": "discriminatory_law_challenge",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 92,
+          "type": "true_false",
+          "question": "The power of judicial review is explicitly mentioned word-for-word in the Constitution.",
+          "correct_answer": false,
+          "explanation": "Judicial review is an implied power that courts developed through interpretation of constitutional structure.",
+          "analogy": "implied_vs_explicit_powers",
+          "difficulty": "advanced"
+        }
+      ]
+    },
+    "practical_scenarios": {
+      "title": "Real-Life Justice Scenarios (Making it Personal)",
+      "questions": [
+        {
+          "id": 93,
+          "type": "scenario",
+          "question": "Your school's water purifier breaks down and students get sick. How can you get justice using the court system?",
+          "correct_answer": "File a PIL (Public Interest Litigation) claiming violation of right to health (Article 21), court can order immediate repairs and compensation",
+          "explanation": "PIL allows citizens to approach courts for public health and safety issues.",
+          "analogy": "public_health_emergency",
+          "difficulty": "advanced"
+        },
+        {
+          "id": 94,
+          "type": "multiple_choice",
+          "question": "If a teacher discriminates against students from certain castes, what right is being violated?",
+          "options": [
+            "Right to freedom of speech",
+            "Right to equality",
+            "Right to property",
+            "Right to religion"
+          ],
+          "correct_answer": "Right to equality",
+          "explanation": "Caste-based discrimination violates the fundamental right to equality.",
+          "analogy": "discrimination_protection",
+          "difficulty": "basic"
+        },
+        {
+          "id": 95,
+          "type": "fill_in_blank",
+          "question": "____________ means everyone has the right to a fair trial with proper legal representation, like every student having the right to explain their side of a story.",
+          "correct_answer": "Right to fair trial/due process",
+          "explanation": "Due process ensures fairness in legal proceedings and protects against arbitrary actions.",
+          "analogy": "fair_hearing_rights",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 96,
+          "type": "true_false",
+          "question": "Legal aid is only for criminal cases - civil disputes must be handled by expensive private lawyers.",
+          "correct_answer": false,
+          "explanation": "Legal aid is available for both civil and criminal cases for those who cannot afford lawyers.",
+          "analogy": "accessibility_of_justice",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 97,
+          "type": "scenario",
+          "question": "A government official asks for a bribe to process your ration card application. How does the justice system protect you?",
+          "correct_answer": "You can file a complaint about corruption; if rights are violated, file writ petition; courts can order action against the official and ensure your card is issued",
+          "explanation": "Courts protect citizens from corrupt officials through various legal mechanisms.",
+          "analogy": "protection_from_corruption",
+          "difficulty": "advanced"
+        },
+        {
+          "id": 98,
+          "type": "multiple_choice",
+          "question": "Your playground is broken and dangerous, but the authorities ignore complaints. What's the best approach?",
+          "options": [
+            "Organize a protest",
+            "File a PIL for public safety",
+            "Pay for repairs yourself",
+            "Accept the situation"
+          ],
+          "correct_answer": "File a PIL for public safety",
+          "explanation": "PIL is the appropriate legal mechanism for addressing public safety issues.",
+          "analogy": "systematic_justice_approach",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 99,
+          "type": "true_false",
+          "question": "If you're falsely accused of cheating in school, you have the right to be presumed innocent until proven guilty, and to present your defense.",
+          "correct_answer": true,
+          "explanation": "The principle of presumption of innocence and right to fair hearing applies in schools too.",
+          "analogy": "fair_accusation_process",
+          "difficulty": "basic"
+        },
+        {
+          "id": 100,
+          "type": "fill_in_blank",
+          "question": "____________ is when someone uses the court system to harm another person by filing false cases, while __________ is when someone misuses government power for personal benefit.",
+          "correct_answer": "Vexatious litigation, corruption",
+          "explanation": "Courts protect against abuse of legal processes while fighting corruption.",
+          "analogy": "abuse_vs_corruption",
+          "difficulty": "advanced"
+        }
+      ]
+    },
+    "court_procedures_timings": {
+      "title": "Court Procedures and Timings (Like Game Clock)",
+      "questions": [
+        {
+          "id": 101,
+          "type": "multiple_choice",
+          "question": "How long should courts try to complete child-related cases, according to guidelines?",
+          "options": [
+            "Within 1 year",
+            "Within 6 months",
+            "As quickly as possible without specific time limits",
+            "Within 2 years"
+          ],
+          "correct_answer": "Within 6 months",
+          "explanation": "Courts aim to complete child-related cases within 6 months to prevent trauma from delays.",
+          "analogy": "fast_track_emergency_cases",
+          "difficulty": "basic"
+        },
+        {
+          "id": 102,
+          "type": "true_false",
+          "question": "Courts must give reasons for their decisions - this is called a 'reasoned judgment' - like a referee explaining why they gave a penalty.",
+          "correct_answer": true,
+          "explanation": "Reasoned judgments ensure transparency and help parties understand the court's thinking.",
+          "analogy": "explained_decisions",
+          "difficulty": "basic"
+        },
+        {
+          "id": 103,
+          "type": "fill_in_blank",
+          "question": "____________ means a case can be heard again with new evidence or legal arguments, while __________ means the case is permanently closed.",
+          "correct_answer": "Review, res judicata",
+          "explanation": "Review allows reconsideration; res judicata prevents repeated litigation on the same matter.",
+          "analogy": "second_chance_vs_final_decision",
+          "difficulty": "advanced"
+        },
+        {
+          "id": 104,
+          "type": "multiple_choice",
+          "question": "What happens if judges cannot agree on a decision?",
+          "options": [
+            "The case is cancelled",
+            "They vote and majority opinion prevails",
+            "They flip a coin",
+            "The senior judge decides alone"
+          ],
+          "correct_answer": "They vote and majority opinion prevails",
+          "explanation": "Majority decisions ensure collective wisdom and democratic decision-making in courts.",
+          "analogy": "majority_vote_system",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 105,
+          "type": "scenario",
+          "question": "Why do courts sometimes give 'interim orders' before the final judgment?",
+          "correct_answer": "To provide immediate protection or relief while the full case is being heard, like a teacher giving temporary rules during an investigation",
+          "explanation": "Interim orders prevent harm during litigation and provide immediate justice where needed.",
+          "analogy": "emergency_measures",
+          "difficulty": "intermediate"
+        }
+      ]
+    },
+    "modern_challenges": {
+      "title": "Modern Challenges and Reforms (Updating the Game)",
+      "questions": [
+        {
+          "id": 106,
+          "type": "multiple_choice",
+          "question": "What is one of the biggest challenges facing Indian courts today?",
+          "options": [
+            "Too few judges",
+            "Too many laws",
+            "Lack of awareness about rights",
+            "All of the above"
+          ],
+          "correct_answer": "All of the above",
+          "explanation": "Indian courts face multiple challenges including case backlogs, insufficient judges, and access issues.",
+          "analogy": "multiple_challenges",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 107,
+          "type": "true_false",
+          "question": "E-courts and digital filing have made it easier for people to access justice, especially during the COVID-19 pandemic.",
+          "correct_answer": true,
+          "explanation": "Technology has improved access to courts and made justice more accessible during difficult times.",
+          "analogy": "digital_justice_access",
+          "difficulty": "basic"
+        },
+        {
+          "id": 108,
+          "type": "fill_in_blank",
+          "question": "____________ means courts try to resolve cases without long delays, ensuring justice is not denied due to time-consuming procedures.",
+          "correct_answer": "Speedy trial/timely justice",
+          "explanation": "Timely justice is a fundamental principle to prevent prolonged suffering and ensure effective remedy.",
+          "analogy": "prompt_justice_delivery",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 109,
+          "type": "scenario",
+          "question": "How can the court system be made more accessible to poor people and rural communities?",
+          "correct_answer": "Through legal aid, mobile courts, digital access, lok adalats, and awareness programs about rights and procedures",
+          "explanation": "Multiple approaches are needed to bridge the justice gap and ensure equal access for all.",
+          "analogy": "inclusive_justice_system",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 110,
+          "type": "multiple_choice",
+          "question": "What is the main goal of judicial reforms?",
+          "options": [
+            "Make judges more powerful",
+            "Speed up justice while maintaining fairness",
+            "Reduce the number of cases",
+            "Increase court fees"
+          ],
+          "correct_answer": "Speed up justice while maintaining fairness",
+          "explanation": "Judicial reforms aim to balance efficiency with the core principles of justice and fairness.",
+          "analogy": "efficient_fair_system",
+          "difficulty": "intermediate"
+        }
+      ]
+    },
+    "court_ecosystem": {
+      "title": "Court Ecosystem (The Supporting Team)",
+      "questions": [
+        {
+          "id": 111,
+          "type": "multiple_choice",
+          "question": "Who are the key support staff in a court, besides the judge?",
+          "options": [
+            "Only lawyers",
+            "Court clerks, stenographers, security, and administrative staff",
+            "Just the judge and one clerk",
+            "Only lawyers and police"
+          ],
+          "correct_answer": "Court clerks, stenographers, security, and administrative staff",
+          "explanation": "Courts need various support staff to function smoothly, like a sports team needs coaches, trainers, and managers.",
+          "analogy": "supporting_team",
+          "difficulty": "basic"
+        },
+        {
+          "id": 112,
+          "type": "true_false",
+          "question": "Court interpreters help people who don't speak the local language understand proceedings - like a translator helps international students.",
+          "correct_answer": true,
+          "explanation": "Interpreters ensure that language barriers don't prevent access to justice.",
+          "analogy": "communication_bridge",
+          "difficulty": "basic"
+        },
+        {
+          "id": 113,
+          "type": "fill_in_blank",
+          "question": "____________ is when courts provide guidance on legal matters to help people understand their rights and obligations without filing cases.",
+          "correct_answer": "Legal awareness/counseling",
+          "explanation": "Courts and legal aid organizations help people understand their legal rights and options.",
+          "analogy": "legal_guidance_system",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 114,
+          "type": "multiple_choice",
+          "question": "What role do law students and interns play in courts?",
+          "options": [
+            "They replace judges",
+            "They learn by assisting lawyers and judges while providing help",
+            "They only observe",
+            "They handle administrative work only"
+          ],
+          "correct_answer": "They learn by assisting lawyers and judges while providing help",
+          "explanation": "Law students gain practical experience while contributing to case preparation and research.",
+          "analogy": "apprentice_learning_system",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 115,
+          "type": "scenario",
+          "question": "How do court security personnel contribute to justice?",
+          "correct_answer": "They maintain order, ensure safety of everyone in court, and prevent disruption - like security guards at a school event",
+          "explanation": "Court security creates a safe environment for fair proceedings and protects all participants.",
+          "analogy": "peace_maintenance",
+          "difficulty": "basic"
+        }
+      ]
+    },
+    "comparative_justice": {
+      "title": "Comparative Justice Systems (Learning from Others)",
+      "questions": [
+        {
+          "id": 116,
+          "type": "multiple_choice",
+          "question": "How is India's court system different from the US system?",
+          "options": [
+            "India has a written constitution",
+            "India's judges are appointed differently",
+            "India has different levels of courts",
+            "All of the above"
+          ],
+          "correct_answer": "All of the above",
+          "explanation": "Different countries have different systems, but all aim for fair justice within their contexts.",
+          "analogy": "different_game_rules",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 117,
+          "type": "true_false",
+          "question": "The concept of judicial review exists in many countries - it's not unique to India.",
+          "correct_answer": true,
+          "explanation": "Many democracies use judicial review to ensure constitutional compliance and protect rights.",
+          "analogy": "global_constitutional_protection",
+          "difficulty": "advanced"
+        },
+        {
+          "id": 118,
+          "type": "fill_in_blank",
+          "question": "____________ courts handle disputes between different countries, while __________ courts handle disputes within a country.",
+          "correct_answer": "International, domestic/national",
+          "explanation": "Different levels of courts handle different types of disputes and have different jurisdictions.",
+          "analogy": "global_vs_local_jurisdictions",
+          "difficulty": "advanced"
+        },
+        {
+          "id": 119,
+          "type": "multiple_choice",
+          "question": "What is common between justice systems around the world?",
+          "options": [
+            "They all have the same laws",
+            "They all aim to protect rights and resolve disputes fairly",
+            "They all have the same court structure",
+            "They all use the same language"
+          ],
+          "correct_answer": "They all aim to protect rights and resolve disputes fairly",
+          "explanation": "Despite different structures, all justice systems share the goal of fair dispute resolution and rights protection.",
+          "analogy": "universal_justice_goals",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 120,
+          "type": "scenario",
+          "question": "Why is it important for India to learn from other countries' justice systems?",
+          "correct_answer": "To adopt best practices, improve efficiency, and adapt successful models to India's unique needs and challenges",
+          "explanation": "Comparative study helps identify effective approaches while respecting local context and requirements.",
+          "analogy": "learning_from_best_practices",
+          "difficulty": "intermediate"
+        }
+      ]
+    },
+    "recent_developments": {
+      "title": "Recent Developments (Latest Updates 2024)",
+      "questions": [
+        {
+          "id": 121,
+          "type": "multiple_choice",
+          "question": "What recent development shows courts prioritizing children's emotional welfare?",
+          "options": [
+            "More strict punishments",
+            "Supreme Court reviewing its own judgment to comfort an anxious child in 2024",
+            "Faster court procedures",
+            "More video conferencing"
+          ],
+          "correct_answer": "Supreme Court reviewing its own judgment to comfort an anxious child in 2024",
+          "explanation": "This case showed courts going beyond legal procedures to prioritize children's emotional needs.",
+          "analogy": "child_emotional_priority",
+          "difficulty": "basic"
+        },
+        {
+          "id": 122,
+          "type": "true_false",
+          "question": "In 2024, the Supreme Court emphasized that adoption procedures should not break strong family bonds when children's welfare is at stake.",
+          "correct_answer": true,
+          "explanation": "Courts have increasingly prioritized child welfare over rigid procedural requirements.",
+          "analogy": "welfare_over_procedure",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 123,
+          "type": "fill_in_blank",
+          "question": "____________ has become a key focus for courts in 2024, with judges ensuring that orders are implemented effectively for children's protection.",
+          "correct_answer": "Effective implementation of court orders",
+          "explanation": "Courts are increasingly focusing on ensuring their orders actually improve children's lives on the ground.",
+          "analogy": "order_effective_implementation",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 124,
+          "type": "multiple_choice",
+          "question": "How have courts adapted to modern challenges in 2024?",
+          "options": [
+            "Digital hearings",
+            "Stricter evidence rules",
+            "More written procedures",
+            "Longer trial periods"
+          ],
+          "correct_answer": "Digital hearings",
+          "explanation": "Technology adoption has been accelerated, making courts more accessible and efficient.",
+          "analogy": "digital_adaptation",
+          "difficulty": "basic"
+        },
+        {
+          "id": 125,
+          "type": "scenario",
+          "question": "What lesson can we learn from the 2024 Supreme Court custody case review?",
+          "correct_answer": "Courts must consider not just legal rights but also children's emotional well-being and psychological needs in their decisions",
+          "explanation": "Modern child-centered justice requires understanding and addressing children's emotional needs.",
+          "analogy": "holistic_child_welfare",
+          "difficulty": "intermediate"
+        }
+      ]
+    },
+    "rights_vs_restrictions_detailed": {
+      "title": "Rights and Restrictions Balance (Fair Play Rules)",
+      "questions": [
+        {
+          "id": 126,
+          "type": "scenario",
+          "question": "A student wants to organize a political debate during class time. What would courts consider regarding freedom of expression?",
+          "correct_answer": "Whether the restriction (no political activities in class) is reasonable for maintaining educational environment and whether less restrictive alternatives exist",
+          "explanation": "Courts balance rights with reasonable restrictions that serve legitimate purposes.",
+          "analogy": "balancing_freedom_and_order",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 127,
+          "type": "multiple_choice",
+          "question": "Which of these would be a reasonable restriction on freedom of speech?",
+          "options": [
+            "Banning all newspapers",
+            "Prohibiting hate speech that incites violence",
+            "Stopping all student discussions",
+            "Preventing any criticism of teachers"
+          ],
+          "correct_answer": "Prohibiting hate speech that incites violence",
+          "explanation": "Reasonable restrictions must serve legitimate purposes like public safety and order.",
+          "analogy": "necessary_safety_restrictions",
+          "difficulty": "basic"
+        },
+        {
+          "id": 128,
+          "type": "true_false",
+          "question": "The government can restrict any right anytime it wants to, as long as it says it's for 'national interest.'",
+          "correct_answer": false,
+          "explanation": "Restrictions must be reasonable, fair, and follow constitutional procedures - not just government discretion.",
+          "analogy": "bounded_governmental_power",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 129,
+          "type": "fill_in_blank",
+          "question": "____________ tests are used by courts to check if restrictions on rights are truly reasonable and necessary, like checking if a punishment fits the crime.",
+          "correct_answer": "Proportionality/Reasonableness",
+          "explanation": "Courts use various tests to ensure restrictions are not excessive or arbitrary.",
+          "analogy": "proportionality_testing",
+          "difficulty": "advanced"
+        },
+        {
+          "id": 130,
+          "type": "scenario",
+          "question": "A school bans all religious symbols (hijabs, turbans, etc.) to promote 'unity.' Is this reasonable?",
+          "correct_answer": "Likely unreasonable because it disproportionately targets specific religions; unity can be promoted without banning religious expression",
+          "explanation": "Courts examine whether restrictions target specific groups unfairly or serve genuine neutral purposes.",
+          "analogy": "neutrality_vs_discrimination",
+          "difficulty": "advanced"
+        }
+      ]
+    },
+    "final_reinforcement": {
+      "title": "Final Reinforcement (Putting It All Together)",
+      "questions": [
+        {
+          "id": 131,
+          "type": "sequence_order",
+          "question": "Arrange these fundamental principles in order of importance: Rule of Law, Judicial Independence, Equal Access to Justice, Fair Trial",
+          "steps": ["Rule of Law", "Judicial Independence", "Fair Trial", "Equal Access to Justice"],
+          "correct_order": ["Rule of Law", "Judicial Independence", "Fair Trial", "Equal Access to Justice"],
+          "analogy": "foundational_principles",
+          "difficulty": "advanced"
+        },
+        {
+          "id": 132,
+          "type": "match_column",
+          "question": "Match the constitutional article with its purpose:",
+          "left_column": ["Article 14", "Article 19", "Article 21", "Article 32"],
+          "right_column": ["Equality before law", "Freedom of expression", "Right to life", "Right to constitutional remedies"],
+          "correct_matches": {
+            "Article 14": "Equality before law",
+            "Article 19": "Freedom of expression",
+            "Article 21": "Right to life",
+            "Article 32": "Right to constitutional remedies"
+          },
+          "analogy": "constitutional_articles",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 133,
+          "type": "multiple_choice",
+          "question": "What makes a justice system truly effective?",
+          "options": [
+            "Fast decisions only",
+            "Fair decisions only",
+            "Both fast and fair decisions that protect rights",
+            "Expensive legal processes"
+          ],
+          "correct_answer": "Both fast and fair decisions that protect rights",
+          "explanation": "Effective justice requires both speed and quality - justice delayed is justice denied, but unjust speedy decisions are also problematic.",
+          "analogy": "quality_and_speed_balance",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 134,
+          "type": "true_false",
+          "question": "Every citizen, including children, has a role in ensuring the justice system works fairly by understanding their rights and responsibilities.",
+          "correct_answer": true,
+          "explanation": "Democratic justice requires informed citizens who can demand accountability and protect their rights.",
+          "analogy": "informed_citizen_participation",
+          "difficulty": "basic"
+        },
+        {
+          "id": 135,
+          "type": "fill_in_blank",
+          "question": "The ultimate goal of the justice system is to ensure __________ for all, protect __________, and maintain __________ in society.",
+          "correct_answer": "fairness, rights, order",
+          "explanation": "Justice systems balance individual rights with social order and ensure fair treatment for all.",
+          "analogy": "triple_justice_goals",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 136,
+          "type": "scenario",
+          "question": "If you see discrimination happening in your school, what should you do using your knowledge of the justice system?",
+          "correct_answer": "First try to address it within school; if serious, document it, inform parents/teachers; if rights are violated, seek help from legal aid or file appropriate complaint; remember: everyone can contribute to justice",
+          "explanation": "Citizens have multiple pathways to address injustice, from informal resolution to formal legal action.",
+          "analogy": "multi_level_justice_response",
+          "difficulty": "advanced"
+        },
+        {
+          "id": 137,
+          "type": "multiple_choice",
+          "question": "What is the most important lesson children should learn about the justice system?",
+          "options": [
+            "It's only for adults",
+            "It's complicated and scary",
+            "It's designed to protect everyone's rights, including children's",
+            "It's only for criminals"
+          ],
+          "correct_answer": "It's designed to protect everyone's rights, including children's",
+          "explanation": "The justice system exists to protect all citizens and should be understood as a protective framework, not a threatening institution.",
+          "analogy": "protective_framework",
+          "difficulty": "basic"
+        },
+        {
+          "id": 138,
+          "type": "true_false",
+          "question": "Children can make a difference in improving the justice system by learning about it, speaking up for fairness, and encouraging others to respect rights.",
+          "correct_answer": true,
+          "explanation": "Democratic institutions are strengthened when citizens, including children, actively participate and advocate for justice.",
+          "analogy": "active_citizen_engagement",
+          "difficulty": "basic"
+        },
+        {
+          "id": 139,
+          "type": "fill_in_blank",
+          "question": "____________ is when the justice system treats similar cases similarly and different cases differently, ensuring __________ and __________.",
+          "correct_answer": "Consistent treatment, fairness, predictability",
+          "explanation": "Legal consistency builds public trust and helps people understand their rights and obligations.",
+          "analogy": "predictable_fair_treatment",
+          "difficulty": "advanced"
+        },
+        {
+          "id": 140,
+          "type": "multiple_choice",
+          "question": "When courts say 'justice should not only be done but should appear to be done,' what do they mean?",
+          "options": [
+            "Courts should be popular",
+            "The process and outcome should both seem fair to everyone",
+            "Courts should explain every decision",
+            "Courts should decide quickly"
+          ],
+          "correct_answer": "The process and outcome should both seem fair to everyone",
+          "explanation": "Public confidence in the justice system requires not just fair outcomes but also transparent, fair processes.",
+          "analogy": "visible_fairness",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 141,
+          "type": "scenario",
+          "question": "Imagine you're explaining the Indian justice system to a younger child using the sports analogy. How would you describe it?",
+          "correct_answer": "Like a big sports tournament with different levels (district, state, national), fair referees (judges) who follow the rulebook (Constitution), and support teams (lawyers, court staff) helping everyone play fairly and resolve disputes peacefully",
+          "explanation": "Simplified analogies help children understand complex systems by relating them to familiar experiences.",
+          "analogy": "comprehensive_sports_analogy",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 142,
+          "type": "true_false",
+          "question": "The judiciary is sometimes called the 'sentinel on the qui vive' - meaning it stays awake and alert to protect people's rights and freedoms.",
+          "correct_answer": true,
+          "explanation": "This Latin phrase means 'watchful guardian' - emphasizing the judiciary's role as a vigilant protector of constitutional values.",
+          "analogy": "vigilant_protector",
+          "difficulty": "advanced"
+        },
+        {
+          "id": 143,
+          "type": "fill_in_blank",
+          "question": "____________ means courts should interpret laws in a way that gives __________ to citizens, while __________ means courts should not interfere unnecessarily with valid government actions.",
+          "correct_answer": "Beneficial interpretation, maximum benefit, judicial restraint",
+          "explanation": "Courts balance protecting citizens' interests with respecting valid government functions.",
+          "analogy": "protective_vs_restraint_balance",
+          "difficulty": "advanced"
+        },
+        {
+          "id": 144,
+          "type": "multiple_choice",
+          "question": "What is the most powerful tool citizens have against injustice?",
+          "options": [
+            "Money to hire expensive lawyers",
+            "Political connections",
+            "Knowledge of their rights and the courage to seek justice",
+            "Social media popularity"
+          ],
+          "correct_answer": "Knowledge of their rights and the courage to seek justice",
+          "explanation": "Legal literacy and civic courage are the most powerful tools for accessing justice and protecting rights.",
+          "analogy": "knowledge_as_power",
+          "difficulty": "basic"
+        },
+        {
+          "id": 145,
+          "type": "scenario",
+          "question": "How does the justice system adapt to changing times and new challenges?",
+          "correct_answer": "Through judicial interpretation of existing laws, new legislation, technological adoption, and evolving social understanding of rights and justice",
+          "explanation": "Legal systems must evolve with society while maintaining core principles of justice and fairness.",
+          "analogy": "evolving_with_society",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 146,
+          "type": "true_false",
+          "question": "A strong and independent judiciary is essential for democracy because it prevents any single group from becoming too powerful and violating others' rights.",
+          "correct_answer": true,
+          "explanation": "Judicial independence and strength are fundamental safeguards in democratic systems against abuse of power.",
+          "analogy": "democratic_safeguard",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 147,
+          "type": "fill_in_blank",
+          "question": "____________ is when courts give broad interpretation to constitutional provisions to protect citizens' rights, while __________ is when courts give narrow interpretation to avoid interfering with other branches of government.",
+          "correct_answer": "Generous/expansive interpretation, strict interpretation",
+          "explanation": "Courts must balance protecting rights with respecting institutional boundaries and democratic processes.",
+          "analogy": "interpretive_approaches",
+          "difficulty": "advanced"
+        },
+        {
+          "id": 148,
+          "type": "multiple_choice",
+          "question": "What happens when citizens lose trust in the justice system?",
+          "options": [
+            "Society becomes less peaceful",
+            "People try to solve problems through violence",
+            "Democracy weakens",
+            "All of the above"
+          ],
+          "correct_answer": "All of the above",
+          "explanation": "Public trust in justice is crucial for social stability, peaceful conflict resolution, and democratic governance.",
+          "analogy": "trust_as_foundation",
+          "difficulty": "intermediate"
+        },
+        {
+          "id": 149,
+          "type": "scenario",
+          "question": "What final message would you give to children about the justice system?",
+          "correct_answer": "The justice system belongs to all of us and is here to protect everyone's rights, including yours. Learn about it, believe in it, and be ready to use it responsibly when needed. You have both rights and responsibilities as future citizens.",
+          "explanation": "Empowering children with knowledge and responsibility helps build a more just society for the future.",
+          "analogy": "empowered_future_citizens",
+          "difficulty": "basic"
+        },
+        {
+          "id": 150,
+          "type": "true_false",
+          "question": "The judiciary's ultimate purpose is not to punish wrongdoers but to create a society where everyone can live with dignity, safety, and equal opportunities.",
+          "correct_answer": true,
+          "explanation": "While punishment is necessary, the broader goal of justice is creating a just, peaceful, and dignified society for all.",
+          "analogy": "greater_justice_vision",
+          "difficulty": "intermediate"
+        }
+      ]
+    }
+  },
+  "summary_statistics": {
+    "total_questions_including_additional": 150,
+    "difficulty_distribution": {
+      "basic": 50,
+      "intermediate": 60,
+      "advanced": 40
+    },
+    "question_types_distribution": {
+      "multiple_choice": 65,
+      "true_false": 35,
+      "fill_in_blank": 20,
+      "scenario": 25,
+      "sequence_order": 3,
+      "match_column": 2
+    },
+    "analogy_coverage": {
+      "sports_referee": 15,
+      "school_system": 20,
+      "hospital_system": 12,
+      "police_station": 15,
+      "neighborhood_watch": 8,
+      "family_counselor": 6,
+      "team_management": 12,
+      "safety_guard": 8,
+      "detective_investigation": 6,
+      "medical_specialists": 8,
+      "emergency_services": 5,
+      "community_organization": 6,
+      "educational_system": 10,
+      "protective_systems": 8,
+      "communicational_bridges": 5
+    },
+    "coverage_analysis": {
+      "court_structure_levels": "Comprehensive coverage from Supreme Court to Lok Adalats",
+      "constitutional_concepts": "All major constitutional principles and articles",
+      "landmark_cases": "Most important child rights and constitutional cases",
+      "practical_applications": "Real-world scenarios and problem-solving approaches",
+      "modern_challenges": "Current issues and technological adaptations",
+      "international_perspectives": "Comparative justice systems",
+      "recent_developments": "Latest 2024 developments and trends"
+    },
+    "pedagogical_features": {
+      "age_appropriate_language": "Used throughout all questions",
+      "familiar_analogies": "Sports, school, hospital, family, community themes",
+      "progressive_difficulty": "Basic to intermediate to advanced progression",
+      "practical_relevance": "Real-world scenarios and applications",
+      "rights_education": "Emphasis on understanding and exercising constitutional rights",
+      "civic_responsibility": "Encouraging active citizenship and justice awareness"
+    }
+  }
+}

@@ -1,0 +1,1802 @@
+[
+{
+"id": 1,
+"category": "DPSP_Overview",
+"difficulty": "Medium",
+"question": "Directive Principles of State Policy are enshrined in which Part of the Indian Constitution?",
+"options": {
+"A": "Part III",
+"B": "Part IV", 
+"C": "Part IVA",
+"D": "Part V"
+},
+"correct_option": "B",
+"explanation": "Directive Principles of State Policy are enshrined in Part IV (Articles 36-51) of the Indian Constitution. Part IV-A contains Fundamental Duties (Article 51A).",
+"explanation_A": "Part III contains Fundamental Rights (Articles 12-35) which are justiciable, unlike DPSPs which are non-justiciable.",
+"explanation_B": "Correct. DPSPs are in Part IV (Articles 36-51) and are meant to guide the state in establishing a welfare state.",
+"explanation_C": "Part IV-A contains Fundamental Duties (Article 51A) added by 42nd Amendment in 1976.",
+"explanation_D": "Part V deals with Union government, not Directive Principles."
+},
+{
+"id": 2,
+"category": "DPSP_Overview", 
+"difficulty": "Medium",
+"question": "Who described Directive Principles as a 'novel feature' of the Indian Constitution?",
+"options": {
+"A": "Dr. S. Radhakrishnan",
+"B": "Dr. B.R. Ambedkar",
+"C": "Jawaharlal Nehru",
+"D": "Sardar Vallabhbhai Patel"
+},
+"correct_option": "B",
+"explanation": "Dr. B.R. Ambedkar, the Chairman of the Drafting Committee, described Directive Principles as a 'novel feature' of the Constitution that has to be kept in mind by the state in the governance of the country.",
+"explanation_A": "Dr. Radhakrishnan was the first President of India but did not describe DPSPs as a novel feature.",
+"explanation_B": "Correct. Dr. Ambedkar indeed called DPSPs a 'novel feature' of the Constitution during drafting.",
+"explanation_C": "Nehru was the first Prime Minister but did not make this specific statement about DPSPs.",
+"explanation_D": "Patel was the Home Minister but did not describe DPSPs in this manner."
+},
+{
+"id": 3,
+"category": "DPSP_Overview",
+"difficulty": "Medium", 
+"question": "What is the legal nature of Directive Principles of State Policy?",
+"options": {
+"A": "Justiciable and enforceable by courts",
+"B": "Non-justiciable but fundamental in governance",
+"C": "Enforceable only by High Courts",
+"D": "Enforceable only under specific conditions"
+},
+"correct_option": "B",
+"explanation": "Article 37 explicitly states that DPSPs are not enforceable by any court but are fundamental in the governance of the country and it shall be the duty of the State to apply these principles in making laws.",
+"explanation_A": "DPSPs are non-justiciable unlike Fundamental Rights which are justiciable.",
+"explanation_B": "Correct. Article 37 makes it clear that DPSPs are fundamental to governance but not enforceable by courts.",
+"explanation_C": "DPSPs are not enforceable by any court, not just High Courts.",
+"explanation_D": "DPSPs are never enforceable regardless of conditions, as per Article 37."
+},
+{
+"id": 4,
+"category": "DPSP_Overview",
+"difficulty": "Hard",
+"question": "Which of the following statements about the relationship between Directive Principles and Fundamental Rights is correct?",
+"options": {
+"A": "Directive Principles always prevail over Fundamental Rights",
+"B": "Fundamental Rights always prevail over Directive Principles",
+"C": "Both must be read harmoniously; neither has absolute primacy",
+"D": "Directive Principles can be implemented even by violating Fundamental Rights"
+},
+"correct_option": "C", 
+"explanation": "The Supreme Court has held that Fundamental Rights and Directive Principles constitute the core of the Constitution and must be read harmoniously. Neither has absolute primacy, as established in Kesavananda Bharati (1973) and Minerva Mills (1980) cases.",
+"explanation_A": "42nd Amendment tried to give primacy to DPSPs but this was struck down in Minerva Mills case.",
+"explanation_B": "While FRs were initially held supreme, this absolute supremacy was modified by constitutional amendments and judicial interpretations.",
+"explanation_C": "Correct. The Court emphasized the harmony and balance between FRs and DPSPs as essential to the basic structure.",
+"explanation_D": "DPSPs cannot be implemented by violating FRs; both must be balanced as held by Supreme Court."
+},
+{
+"id": 5,
+"category": "DPSP_Overview",
+"difficulty": "Medium",
+"question": "The concept of Directive Principles was borrowed from which Constitution?",
+"options": {
+"A": "Constitution of USA",
+"B": "Constitution of Ireland",
+"C": "Constitution of UK", 
+"D": "Constitution of Canada"
+},
+"correct_option": "B",
+"explanation": "The concept of Directive Principles was borrowed from the Constitution of Ireland, which itself had copied it from the Spanish Constitution. Ireland calls them 'Directive Principles of Social Policy'.",
+"explanation_A": "US Constitution influenced many features of Indian Constitution but not DPSPs specifically.",
+"explanation_B": "Correct. The concept was directly borrowed from Constitution of Ireland.",
+"explanation_C": "UK has an uncodified constitution and does not have such provisions.",
+"explanation_D": "Canadian Constitution influenced the concept of federalism but not DPSPs."
+},
+{
+"id": 6,
+"category": "DPSP_Overview",
+"difficulty": "Medium",
+"question": "How many articles are there in the Directive Principles of State Policy (Part IV)?",
+"options": {
+"A": "15 articles (36-50)",
+"B": "16 articles (36-51)",
+"C": "17 articles (36-52)",
+"D": "14 articles (35-48)"
+},
+"correct_option": "B",
+"explanation": "DPSP are contained in Part IV which comprises 16 articles from Article 36 to Article 51. This includes the definition article (36), the application clause (37), and the directive principles themselves.",
+"explanation_A": "There are 16 articles, not 15. Article 51 is also included.",
+"explanation_B": "Correct. DPSPs span from Article 36 to Article 51, making 16 articles total.",
+"explanation_C": "There are only 16 articles (36-51), not 17.",
+"explanation_D": "The range is 36-51, not 35-48."
+},
+{
+"id": 7,
+"category": "DPSP_Overview",
+"difficulty": "Hard",
+"question": "Which Amendment of the Constitution added the basic structure doctrine?",
+"options": {
+"A": "42nd Amendment",
+"B": "24th Amendment", 
+"C": "24th Amendment",
+"D": "44th Amendment"
+},
+"correct_option": "C",
+"explanation": "The basic structure doctrine was established by the Supreme Court in Kesavananda Bharati v. State of Kerala case (1973). This was not through a constitutional amendment but through judicial interpretation. The 42nd Amendment (1976) tried to overrule this but was later held invalid in Minerva Mills case (1980).",
+"explanation_A": "42nd Amendment was an attempt to limit judicial review and establish parliamentary supremacy, which was later invalidated.",
+"explanation_B": "24th Amendment dealt with parliamentary power to amend Constitution but didn't establish basic structure doctrine.",
+"explanation_C": "Correct. Basic structure doctrine was established by Supreme Court in Kesavananda Bharati case (1973).",
+"explanation_D": "44th Amendment dealt with property rights but did not establish basic structure doctrine."
+},
+{
+"id": 8,
+"category": "DPSP_Overview", 
+"difficulty": "Medium",
+"question": "According to Article 37, what is the duty of the State regarding Directive Principles?",
+"options": {
+"A": "Implement them only if courts direct",
+"B": "Apply them in making laws as they are fundamental",
+"C": "Implement them only if they don't conflict with Fundamental Rights",
+"D": "Implement them only if resources permit"
+},
+"correct_option": "B",
+"explanation": "Article 37 explicitly states that the principles laid down in Part IV are fundamental in the governance of the country and it shall be the duty of the State to apply these principles in making laws.",
+"explanation_A": "Courts cannot direct implementation of DPSPs as they are non-justiciable.",
+"explanation_B": "Correct. State has a duty to apply DPSPs in making laws as they are fundamental to governance.",
+"explanation_C": "While harmony is required, Article 37 doesn't qualify implementation by conflict conditions.",
+"explanation_D": "Article 37 doesn't make resource availability a condition for applying DPSPs."
+},
+{
+"id": 9,
+"category": "DPSP_Overview",
+"difficulty": "Hard",
+"question": "What is the fundamental aim behind the inclusion of Directive Principles in the Indian Constitution?",
+"options": {
+"A": "To establish a communist state",
+"B": "To establish a welfare state and achieve social and economic democracy",
+"C": "To eliminate all private property",
+"D": "To establish a theocratic state"
+},
+"correct_option": "B",
+"explanation": "The fundamental aim of including DPSPs is to establish a welfare state and achieve social and economic democracy. Article 38 states 'secure a social order for the promotion of welfare of the people' and various other articles aim at economic and social justice.",
+"explanation_A": "While socialist principles are included, the aim is welfare state, not communist state.",
+"explanation_B": "Correct. DPSPs aim at establishing welfare state with social and economic democracy.",
+"explanation_C": "DPSPs don't eliminate private property but regulate it for common good.",
+"explanation_D": "Indian Constitution is secular, not theocratic."
+},
+{
+"id": 10,
+"category": "DPSP_Overview",
+"difficulty": "Medium",
+"question": "Which of the following is NOT a characteristic of Directive Principles?",
+"options": {
+"A": "They are non-justiciable",
+"B": "They are binding on citizens",
+"C": "They are fundamental in governance",
+"D": "They guide state policy-making"
+},
+"correct_option": "B",
+"explanation": "DPSPs are not binding on citizens - they are guidelines for state action. Fundamental Duties (Article 51A) are the binding obligations on citizens. DPSPs are binding on the state, not on citizens.",
+"explanation_A": "DPSPs are indeed non-justiciable as per Article 37.",
+"explanation_B": "Correct. DPSPs are not binding on citizens - they are guidelines for state policy-making.",
+"explanation_C": "Article 37 states they are fundamental in governance of the country.",
+"explanation_D": "DPSPs are meant to guide state policy-making and law-making."
+},
+{
+"id": 11,
+"category": "DPSP_Overview",
+"difficulty": "Medium", 
+"question": "The term 'State' in Directive Principles refers to:",
+"options": {
+"A": "Only Union Government",
+"B": "Only State Governments",
+"C": "Union, States and Local Governments",
+"D": "Government and its instrumentalities"
+},
+"correct_option": "C",
+"explanation": "Article 36 defines 'State' for Part IV to include Government and Parliament, Government and Legislature of each State, and all local or other authorities within the territory of India or under the control of the Government of India. This includes local bodies like Panchayats and Municipalities.",
+"explanation_A": "'State' includes Union Government but is not limited to it.",
+"explanation_B": "'State' includes State Governments but also Union and local governments.",
+"explanation_C": "Correct. 'State' broadly includes Union, States and local governments as defined in Article 12 for Part III.",
+"explanation_D": "While government and instrumentalities are included, the definition is broader, including legislatures and local authorities."
+},
+{
+"id": 12,
+"category": "DPSP_Overview",
+"difficulty": "Hard",
+"question": "Which case first established the supremacy of Fundamental Rights over Directive Principles?",
+"options": {
+"A": "Kesavananda Bharati (1973)",
+"B": "Champakam Dorairajan (1951)",
+"C": "Golaknath (1967)",
+"D": "Minerva Mills (1980)"
+},
+"correct_option": "B",
+"explanation": "In Champakam Dorairajan case (1951), the Supreme Court held that in case of conflict between Fundamental Rights and Directive Principles, Fundamental Rights would prevail. This led to several constitutional amendments to overcome this decision.",
+"explanation_A": "Kesavananda Bharati established basic structure doctrine, not the initial supremacy of FRs.",
+"explanation_B": "Correct. Champakam Dorairajan (1951) first established FRs supremacy over DPSPs.",
+"explanation_C": "Golaknath case dealt with parliamentary power to amend FRs, not FR-DPSP relationship initially.",
+"explanation_D": "Minerva Mills emphasized harmony between FRs and DPSPs, not FR supremacy."
+},
+{
+"id": 13,
+"category": "DPSP_Overview",
+"difficulty": "Medium",
+"question": "Which of the following Article deals with the application of Directive Principles?",
+"options": {
+"A": "Article 36",
+"B": "Article 37", 
+"C": "Article 38",
+"D": "Article 39"
+},
+"correct_option": "B",
+"explanation": "Article 37 explicitly deals with the application of Directive Principles. It states that provisions contained in Part IV shall not be enforceable by any court but are fundamental in the governance of the country.",
+"explanation_A": "Article 36 defines 'State' for the purpose of Part IV.",
+"explanation_B": "Correct. Article 37 deals with the application of Directive Principles.",
+"explanation_C": "Article 38 deals with securing social order for welfare of people.",
+"explanation_D": "Article 39 contains certain principles of policy to be followed by State."
+},
+{
+"id": 14,
+"category": "DPSP_Overview",
+"difficulty": "Medium",
+"question": "What did the First Constitutional Amendment (1951) add to overcome the Champakam Dorairajan judgment?",
+"options": {
+"A": "Article 31B and Ninth Schedule",
+"B": "Article 31C",
+"C": "Article 39A",
+"D": "DPSPs in Part IV"
+},
+"correct_option": "A",
+"explanation": "First Constitutional Amendment (1951) added Article 31B and the Ninth Schedule to protect certain laws (particularly land reform laws) from judicial review. This was done to overcome the Champakam Dorairajan judgment that had struck down state reservations.",
+"explanation_A": "Correct. Article 31B and Ninth Schedule were added in First Amendment to protect reform laws.",
+"explanation_B": "Article 31C was added later in 25th Amendment (1971).",
+"explanation_C": "Article 39A was added in 42nd Amendment (1976).",
+"explanation_D": "DPSPs were already in the original Constitution as Part IV."
+},
+{
+"id": 15,
+"category": "DPSP_Overview",
+"difficulty": "Hard",
+"question": "Which article of the Constitution was inserted by the 42nd Amendment to give primacy to Directive Principles?",
+"options": {
+"A": "Article 31B",
+"B": "Article 31C",
+"C": "Article 39A",
+"D": "Article 38"
+},
+"correct_option": "B", 
+"explanation": "Article 31C was amended by the 42nd Amendment to extend its scope, providing that laws made to implement any Directive Principle shall not be void on the ground of contravening Articles 14, 19, or 31. However, this blanket primacy was struck down in Minerva Mills case (1980).",
+"explanation_A": "Article 31B was added by First Amendment (1951) to protect reform laws.",
+"explanation_B": "Correct. 42nd Amendment extended Article 31C to give primacy to DPSPs over FRs.",
+"explanation_C": "Article 39A was added by 42nd Amendment for free legal aid.",
+"explanation_D": "Article 38 was originally in the Constitution and deals with securing social order."
+},
+{
+"id": 16,
+"category": "Socialistic",
+"difficulty": "Medium",
+"question": "Article 38 of the Constitution aims to:",
+"options": {
+"A": "Separate judiciary from executive",
+"B": "Secure a social order for the promotion of welfare of the people",
+"C": "Provide free legal aid",
+"D": "Prohibit cow slaughter"
+},
+"correct_option": "B",
+"explanation": "Article 38 states that the State shall strive to promote the welfare of the people by securing and protecting a social order in which justice - social, economic and political - shall inform all institutions of national life.",
+"explanation_A": "Separation of judiciary from executive is covered under Article 50.",
+"explanation_B": "Correct. Article 38 deals with securing social order for welfare of people.",
+"explanation_C": "Free legal aid is covered under Article 39A.",
+"explanation_D": "Prohibition of cow slaughter is covered under Article 48."
+},
+{
+"id": 17,
+"category": "Socialistic",
+"difficulty": "Hard",
+"question": "Article 39(b) of the Constitution directs the State to ensure that:",
+"options": {
+"A": "The ownership and control of material resources are distributed to subserve the common good",
+"B": "There is equal pay for equal work",
+"C": "Children are protected against exploitation",
+"D": "The economic system doesn't concentrate wealth"
+},
+"correct_option": "A",
+"explanation": "Article 39(b) specifically directs the State to ensure that the ownership and control of the material resources of the community are so distributed as best to subserve the common good.",
+"explanation_A": "Correct. Article 39(b) deals with distribution of material resources for common good.",
+"explanation_B": "Equal pay for equal work is covered under Article 39(d).",
+"explanation_C": "Protection of children is covered under Article 39(e) and (f).",
+"explanation_D": "Prevention of concentration of wealth is covered under Article 39(c)."
+},
+{
+"id": 18,
+"category": "Socialistic", 
+"difficulty": "Medium",
+"question": "Which Article guarantees 'Equal pay for equal work'?",
+"options": {
+"A": "Article 39(a)",
+"B": "Article 39(d)",
+"C": "Article 39A", 
+"D": "Article 41"
+},
+"correct_option": "B",
+"explanation": "Article 39(d) specifically states that there shall be equal pay for equal work for both men and women.",
+"explanation_A": "Article 39(a) deals with right to adequate means of livelihood.",
+"explanation_B": "Correct. Article 39(d) guarantees equal pay for equal work.",
+"explanation_C": "Article 39A deals with free legal aid.",
+"explanation_D": "Article 41 deals with right to work, education and public assistance."
+},
+{
+"id": 19,
+"category": "Socialistic",
+"difficulty": "Medium",
+"question": "Article 39A, added by the 42nd Amendment, provides for:",
+"options": {
+"A": "Free legal aid and equal justice",
+"B": "Living wage for workers",
+"C": "Prohibition of alcohol consumption",
+"D": "Uniform civil code"
+},
+"correct_option": "A", 
+"explanation": "Article 39A, added by the 42nd Amendment, states that the State shall secure that the operation of the legal system promotes justice and shall provide free legal aid to ensure equal opportunities for justice.",
+"explanation_A": "Correct. Article 39A provides for free legal aid and equal justice.",
+"explanation_B": "Living wage for workers is covered under Article 43.",
+"explanation_C": "Prohibition is covered under Article 47.",
+"explanation_D": "Uniform civil code is covered under Article 44."
+},
+{
+"id": 20,
+"category": "Socialistic",
+"difficulty": "Hard",
+"question": "Article 41 guarantees right to which of the following within economic capacity?",
+"options": {
+"A": "Right to work, education and public assistance",
+"B": "Right to life and liberty",
+"C": "Right to freedom of speech",
+"D": "Right to freedom of religion"
+},
+"correct_option": "A",
+"explanation": "Article 41 states that within the limits of its economic capacity and development, the State shall make effective provision for securing right to work, right to education and right to public assistance in cases of unemployment, old age, sickness, disablement and other cases of undeserved want.",
+"explanation_A": "Correct. Article 41 guarantees right to work, education and public assistance within economic capacity.",
+"explanation_B": "Right to life and liberty is a Fundamental Right under Article 21.",
+"explanation_C": "Right to freedom of speech is a Fundamental Right under Article 19.",
+"explanation_D": "Right to freedom of religion is a Fundamental Right under Article 25."
+},
+{
+"id": 21,
+"category": "Socialistic",
+"difficulty": "Medium",
+"question": "Article 42 relates to:",
+"options": {
+"A": "Living wage for workers",
+"B": "Just and humane conditions of work and maternity relief",
+"C": "Right to work and education",
+"D": "Equal justice and free legal aid"
+},
+"correct_option": "B",
+"explanation": "Article 42 states that the State shall make provision for securing just and humane conditions of work and for maternity relief.",
+"explanation_A": "Living wage for workers is covered under Article 43.",
+"explanation_B": "Correct. Article 42 deals with just and humane conditions of work and maternity relief.",
+"explanation_C": "Right to work and education is covered under Article 41.",
+"explanation_D": "Equal justice and free legal aid is covered under Article 39A."
+},
+{
+"id": 22,
+"category": "Socialistic",
+"difficulty": "Hard", 
+"question": "Article 43, besides providing for living wage, also aims to:",
+"options": {
+"A": "Provide free legal aid",
+"B": "Promote cottage industries in rural areas",
+"C": "Organize village panchayats",
+"D": "Separate judiciary from executive"
+},
+"correct_option": "B",
+"explanation": "Article 43 states that the State shall endeavour to secure living wage and conditions ensuring decent standard of life, and 'in particular, the State shall endeavour to promote cottage industries on an individual or co-operative basis in rural areas.'",
+"explanation_A": "Free legal aid is provided under Article 39A.",
+"explanation_B": "Correct. Article 43 specifically mentions promoting cottage industries in rural areas.",
+"explanation_C": "Village panchayats are covered under Article 40.",
+"explanation_D": "Separation of judiciary from executive is covered under Article 50."
+},
+{
+"id": 23,
+"category": "Socialistic",
+"difficulty": "Hard",
+"question": "Article 43A, added by the 42nd Amendment, provides for:",
+"options": {
+"A": "Participation of workers in management of industries",
+"B": "Living wage for all workers",
+"C": "Protection of children from exploitation", 
+"D": "Uniform civil code"
+},
+"correct_option": "A",
+"explanation": "Article 43A was inserted by the 42nd Amendment. It states that the State shall take steps to secure the participation of workers in the management of undertakings, establishments or other organisations engaged in any industry.",
+"explanation_A": "Correct. Article 43A provides for participation of workers in management of industries.",
+"explanation_B": "Living wage is covered under Article 43.",
+"explanation_C": "Protection of children is covered under Article 39(e) and (f).",
+"explanation_D": "Uniform civil code is covered under Article 44."
+},
+{
+"id": 24,
+"category": "Socialistic",
+"difficulty": "Medium",
+"question": "According to Article 47, which of the following is a primary duty of the State?",
+"options": {
+"A": "To secure uniform civil code",
+"B": "To raise the level of nutrition and standard of living and improve public health",
+"C": "To promote cottage industries",
+"D": "To separate judiciary from executive"
+},
+"correct_option": "B",
+"explanation": "Article 47 states that the State shall regard raising the level of nutrition and standard of living of its people and improvement of public health as among its primary duties.",
+"explanation_A": "Uniform civil code is covered under Article 44.",
+"explanation_B": "Correct. Article 47 makes improvement of nutrition, standard of living and public health a primary duty.",
+"explanation_C": "Promotion of cottage industries is covered under Article 43.",
+"explanation_D": "Separation of judiciary from executive is covered under Article 50."
+},
+{
+"id": 25,
+"category": "Socialistic",
+"difficulty": "Hard",
+"question": "Which socialistic principle was added by the 44th Amendment to Article 38?",
+"options": {
+"A": "Minimization of inequalities in income",
+"B": "Minimization of inequalities in status, facilities and opportunities", 
+"C": "Equal pay for equal work",
+"D": "Living wage for workers"
+},
+"correct_option": "B",
+"explanation": "44th Amendment (1978) added clause (2) to Article 38, requiring the State to minimise inequalities in income and endeavour to eliminate inequalities in status, facilities and opportunities, not only among individuals but also among groups of people.",
+"explanation_A": "Minimization of income inequalities was already in Article 38.",
+"explanation_B": "Correct. 44th Amendment added clause about minimizing status, facilities and opportunities inequalities.",
+"explanation_C": "Equal pay for equal work is under Article 39(d), not added by 44th Amendment.",
+"explanation_D": "Living wage provision was under Article 43, not added by 44th Amendment."
+},
+{
+"id": 26,
+"category": "Gandhian", 
+"difficulty": "Medium",
+"question": "Article 40 deals with:",
+"options": {
+"A": "Uniform civil code",
+"B": "Living wage for workers",
+"C": "Organisation of village panchayats",
+"D": "Separation of judiciary from executive"
+},
+"correct_option": "C",
+"explanation": "Article 40 states that the State shall take steps to organise village panchayats and endow them with such powers and authority as may be necessary to enable them to function as units of self-government.",
+"explanation_A": "Uniform civil code is covered under Article 44.",
+"explanation_B": "Living wage for workers is covered under Article 43.",
+"explanation_C": "Correct. Article 40 deals with organisation of village panchayats.",
+"explanation_D": "Separation of judiciary from executive is covered under Article 50."
+},
+{
+"id": 27,
+"category": "Gandhian",
+"difficulty": "Medium", 
+"question": "Which Article specifically calls for promotion of cottage industries in rural areas?",
+"options": {
+"A": "Article 43",
+"B": "Article 46",
+"C": "Article 40",
+"D": "Article 47"
+},
+"correct_option": "A",
+"explanation": "Article 43, besides dealing with living wage, specifically states that 'in particular, the State shall endeavour to promote cottage industries on an individual or co-operative basis in rural areas.'",
+"explanation_A": "Correct. Article 43 explicitly mentions promotion of cottage industries in rural areas.",
+"explanation_B": "Article 46 deals with educational and economic interests of weaker sections.",
+"explanation_C": "Article 40 deals with village panchayats.",
+"explanation_D": "Article 47 deals with raising nutrition and public health levels."
+},
+{
+"id": 28,
+"category": "Gandhian",
+"difficulty": "Hard",
+"question": "Article 43B was added by which Amendment to promote cooperative societies?",
+"options": {
+"A": "42nd Amendment (1976)",
+"B": "44th Amendment (1978)",
+"C": "73rd Amendment (1992)",
+"D": "97th Amendment (2011)"
+},
+"correct_option": "D",
+"explanation": "Article 43B was added by the 97th Amendment Act, 2011. It states that the State shall promote voluntary formation, autonomous functioning, democratic control and professional management of co-operative societies.",
+"explanation_A": "42nd Amendment added Articles 39A, 43A but not 43B.",
+"explanation_B": "44th Amendment made changes to Articles 31 and 32 but not 43B.",
+"explanation_C": "73rd Amendment dealt with Panchayati Raj institutions, not Article 43B.",
+"explanation_D": "Correct. Article 43B was added by 97th Amendment (2011) for cooperative societies."
+},
+{
+"id": 29,
+"category": "Gandhian",
+"difficulty": "Medium",
+"question": "Article 46 directs the State to protect which sections from social injustice and exploitation?",
+"options": {
+"A": "All citizens equally",
+"B": "Scheduled Castes and Scheduled Tribes and other weaker sections",
+"C": "Industrial workers",
+"D": "Rural population only"
+},
+"correct_option": "B",
+"explanation": "Article 46 states that the State shall promote with special care the educational and economic interests of the weaker sections of the people, and in particular of the Scheduled Castes and the Scheduled Tribes, and shall protect them from social injustice and all forms of exploitation.",
+"explanation_A": "Article 46 provides special protection for Scheduled Castes, Scheduled Tribes and other weaker sections.",
+"explanation_B": "Correct. Article 46 specifically protects Scheduled Castes, Scheduled Tribes and other weaker sections.",
+"explanation_C": "Article 46 is not limited to industrial workers but covers weaker sections generally.",
+"explanation_D": "Article 46 covers weaker sections throughout India, not just rural areas."
+},
+{
+"id": 30,
+"category": "Gandhian",
+"difficulty": "Medium",
+"question": "Article 47 provides for prohibition of which substances?",
+"options": {
+"A": "Tobacco products",
+"B": "Consumption of intoxicating drinks and drugs injurious to health",
+"C": "Junk food",
+"D": "All types of beverages"
+},
+"correct_option": "B",
+"explanation": "Article 47 specifically states that the State shall endeavour to bring about prohibition of the consumption of intoxicating drinks and of drugs which are injurious to health, except for medicinal purposes.",
+"explanation_A": "Article 47 specifically mentions intoxicating drinks and injurious drugs, not tobacco products generally.",
+"explanation_B": "Correct. Article 47 deals with prohibition of intoxicating drinks and injurious drugs.",
+"explanation_C": "Article 47 doesn't mention junk food.",
+"explanation_D": "Article 47 is specific to intoxicating drinks and injurious drugs, not all beverages."
+},
+{
+"id": 31,
+"category": "Gandhian",
+"difficulty": "Hard",
+"question": "Article 48 relates to:",
+"options": {
+"A": "Organisation of agriculture and animal husbandry on modern and scientific lines",
+"B": "Protection of monuments",
+"C": "Separation of judiciary from executive", 
+"D": "Uniform civil code"
+},
+"correct_option": "A",
+"explanation": "Article 48 states that the State shall endeavour to organise agriculture and animal husbandry on modern and scientific lines and shall, in particular, take steps for preserving and improving the breeds, and prohibiting the slaughter, of cows and calves and other milch and draught cattle.",
+"explanation_A": "Correct. Article 48 deals with organisation of agriculture and animal husbandry on scientific lines.",
+"explanation_B": "Protection of monuments is covered under Article 49.",
+"explanation_C": "Separation of judiciary from executive is covered under Article 50.",
+"explanation_D": "Uniform civil code is covered under Article 44."
+},
+{
+"id": 32,
+"category": "Gandhian",
+"difficulty": "Medium",
+"question": "Which Article specifically prohibits the slaughter of cows and other cattle?",
+"options": {
+"A": "Article 46",
+"B": "Article 47",
+"C": "Article 48", 
+"D": "Article 49"
+},
+"correct_option": "C",
+"explanation": "Article 48 specifically states that the State shall take steps for preserving and improving the breeds, and prohibiting the slaughter, of cows and calves and other milch and draught cattle.",
+"explanation_A": "Article 46 deals with protection of weaker sections from exploitation.",
+"explanation_B": "Article 47 deals with prohibition of intoxicating drinks and drugs.",
+"explanation_C": "Correct. Article 48 specifically prohibits slaughter of cows and other milch/draught cattle.",
+"explanation_D": "Article 49 deals with protection of monuments of national importance."
+},
+{
+"id": 33,
+"category": "Gandhian",
+"difficulty": "Medium",
+"question": "The Gandhian principles of DPSP reflect whose ideology?",
+"options": {
+"A": "Dr. B.R. Ambedkar",
+"B": "Jawaharlal Nehru",
+"C": "Mahatma Gandhi",
+"D": "Sardar Vallabhbhai Patel"
+},
+"correct_option": "C",
+"explanation": "The Gandhian principles in DPSP represent the program of reconstruction enunciated by Mahatma Gandhi during the national movement. They include village panchayats, cottage industries, prohibition, and protection of cattle.",
+"explanation_A": "Dr. Ambedkar was the architect of the Constitution but the Gandhian principles reflect Gandhi's ideology.",
+"explanation_B": "Nehru was influenced by socialist ideology, not specifically Gandhian principles.",
+"explanation_C": "Correct. Gandhian principles reflect Mahatma Gandhi's ideology and program of reconstruction.",
+"explanation_D": "Patel was known for integration of princely states, not for these specific principles."
+},
+{
+"id": 34,
+"category": "Gandhian",
+"difficulty": "Hard",
+"question": "Which of the following is NOT a Gandhian principle of DPSP?",
+"options": {
+"A": "Organisation of village panchayats",
+"B": "Promotion of cottage industries",
+"C": "Separation of judiciary from executive",
+"D": "Prohibition of intoxicating drinks"
+},
+"correct_option": "C",
+"explanation": "Separation of judiciary from executive (Article 50) is a liberal-intellectual principle, not a Gandhian principle. Gandhian principles include village panchayats (40), cottage industries (43), cooperative societies (43B), upliftment of weaker sections (46), prohibition (47), and protection of cattle (48).",
+"explanation_A": "Village panchayats (Article 40) are a Gandhian principle.",
+"explanation_B": "Promotion of cottage industries (Article 43) is a Gandhian principle.",
+"explanation_C": "Correct. Separation of judiciary from executive is liberal-intellectual, not Gandhian.",
+"explanation_D": "Prohibition (Article 47) is a Gandhian principle."
+},
+{
+"id": 35,
+"category": "Gandhian",
+"difficulty": "Medium",
+"question": "Article 43B, which promotes cooperative societies, was added in the context of:",
+"options": {
+"A": "Rural development",
+"B": "Industrial development",
+"C": "Agricultural development only",
+"D": "Urban development only"
+},
+"correct_option": "A",
+"explanation": "Article 43B promotes voluntary formation, autonomous functioning, democratic control and professional management of cooperative societies. This was added to promote rural development through cooperative movement, as cooperatives have been an important part of rural economic development in India.",
+"explanation_A": "Correct. Article 43B was added to promote rural development through cooperative societies.",
+"explanation_B": "While cooperatives can be in any sector, the primary focus is on rural development.",
+"explanation_C": "Cooperative societies are not limited to agriculture but include various rural sectors.",
+"explanation_D": "The primary focus is on rural development, not urban development."
+},
+{
+"id": 36,
+"category": "Liberal_Intellectual",
+"difficulty": "Medium", 
+"question": "Article 44 calls for:",
+"options": {
+"A": "Uniform civil code for citizens",
+"B": "Uniform criminal code",
+"C": "Uniform education policy",
+"D": "Uniform land policy"
+},
+"correct_option": "A",
+"explanation": "Article 44 states that the State shall endeavour to secure for the citizens a uniform civil code throughout the territory of India.",
+"explanation_A": "Correct. Article 44 calls for uniform civil code throughout India.",
+"explanation_B": "DPSP deals with uniform civil code, not criminal code.",
+"explanation_C": "Uniform education policy is not specifically mentioned in DPSP.",
+"explanation_D": "Uniform land policy is not specifically mentioned in DPSP."
+},
+{
+"id": 37,
+"category": "Liberal_Intellectual",
+"difficulty": "Hard",
+"question": "Originally, Article 45 provided for free and compulsory education for all children until they complete:",
+"options": {
+"A": "Age of 14 years",
+"B": "Age of 16 years",
+"C": "Age of 18 years",
+"D": "Age of 12 years"
+},
+"correct_option": "A",
+"explanation": "Originally, Article 45 stated that the State shall endeavour to provide, within a period of ten years from the commencement of this Constitution, for free and compulsory education for all children until they complete the age of fourteen years.",
+"explanation_A": "Correct. Originally, Article 45 provided for education until age 14.",
+"explanation_B": "Age 16 was not mentioned in original Article 45.",
+"explanation_C": "Age 18 was not mentioned in original Article 45.",
+"explanation_D": "Age 12 was not the cutoff mentioned in original Article 45."
+},
+{
+"id": 38,
+"category": "Liberal_Intellectual",
+"difficulty": "Hard",
+"question": "Article 48A, added by the 42nd Amendment, deals with:",
+"options": {
+"A": "Protection and improvement of environment and safeguarding forests and wildlife",
+"B": "Promotion of cottage industries",
+"C": "Organisation of village panchayats",
+"D": "Uniform civil code"
+},
+"correct_option": "A",
+"explanation": "Article 48A was inserted by the 42nd Amendment. It states that the State shall endeavour to protect and improve the environment and to safeguard the forests and wildlife of the country.",
+"explanation_A": "Correct. Article 48A deals with environmental protection and safeguarding forests and wildlife.",
+"explanation_B": "Promotion of cottage industries is covered under Article 43.",
+"explanation_C": "Organisation of village panchayats is covered under Article 40.",
+"explanation_D": "Uniform civil code is covered under Article 44."
+},
+{
+"id": 39,
+"category": "Liberal_Intellectual",
+"difficulty": "Medium",
+"question": "Article 49 imposes an obligation on the State to protect:",
+"options": {
+"A": "Every monument of artistic or historic interest declared to be of national importance",
+"B": "All religious monuments",
+"C": "All government buildings",
+"D": "All ancient trees"
+},
+"correct_option": "A",
+"explanation": "Article 49 states that it shall be the obligation of the State to protect every monument or place or object of artistic or historic interest, declared by or under law made by Parliament to be of national importance, from spoliation, disfigurement, destruction, removal, disposal or export.",
+"explanation_A": "Correct. Article 49 protects monuments and objects of artistic or historic interest declared of national importance.",
+"explanation_B": "Article 49 is not limited to religious monuments but covers all monuments of national importance.",
+"explanation_C": "Article 49 doesn't specifically mention government buildings.",
+"explanation_D": "Article 49 deals with monuments and archaeological sites, not trees specifically."
+},
+{
+"id": 40,
+"category": "Liberal_Intellectual",
+"difficulty": "Medium",
+"question": "Article 50 provides for:",
+"options": {
+"A": "Uniform civil code",
+"B": "Separation of judiciary from executive",
+"C": "Living wage for workers",
+"D": "Village panchayats"
+},
+"correct_option": "B",
+"explanation": "Article 50 states that the State shall take steps to separate the judiciary from the executive in the public services of the State.",
+"explanation_A": "Uniform civil code is covered under Article 44.",
+"explanation_B": "Correct. Article 50 provides for separation of judiciary from executive.",
+"explanation_C": "Living wage for workers is covered under Article 43.",
+"explanation_D": "Village panchayats are covered under Article 40."
+},
+{
+"id": 41,
+"category": "Liberal_Intellectual",
+"difficulty": "Hard",
+"question": "Article 51 calls upon the State to:",
+"options": {
+"A": "Maintain just and honorable relations between nations",
+"B": "Promote uniform civil code",
+"C": "Separate judiciary from executive",
+"D": "Promote cottage industries"
+},
+"correct_option": "A",
+"explanation": "Article 51(1)(b) states that the State shall endeavour to maintain just and honourable relations between nations. Article 51 deals with promotion of international peace and security and includes maintaining honorable relations between nations, fostering respect for international law, and encouraging settlement of disputes by arbitration.",
+"explanation_A": "Correct. Article 51 specifically mentions maintaining just and honorable relations between nations.",
+"explanation_B": "Uniform civil code is covered under Article 44.",
+"explanation_C": "Separation of judiciary from executive is covered under Article 50.",
+"explanation_D": "Promotion of cottage industries is covered under Article 43."
+},
+{
+"id": 42,
+"category": "Liberal_Intellectual",
+"difficulty": "Medium",
+"question": "The liberal-intellectual principles in DPSP reflect which ideological approach?",
+"options": {
+"A": "Socialist ideology",
+"B": "Gandhian ideology",
+"C": "Liberal and intellectual traditions",
+"D": "Communist ideology"
+},
+"correct_option": "C",
+"explanation": "The liberal-intellectual principles reflect the ideology of liberalism and focus on modern institutional reforms like uniform civil code, scientific agriculture, environmental protection, heritage preservation, separation of judiciary, and international peace.",
+"explanation_A": "Socialist ideology is reflected in socialistic principles like Article 39.",
+"explanation_B": "Gandhian ideology is reflected in Gandhian principles like Articles 40, 43, 47, 48.",
+"explanation_C": "Correct. Liberal-intellectual principles reflect liberal and intellectual traditions.",
+"explanation_D": "Communist ideology is not specifically reflected; DPSP lean towards welfare state, not communist state."
+},
+{
+"id": 43,
+"category": "Liberal_Intellectual",
+"difficulty": "Hard",
+"question": "Which of the following liberal-intellectual principles was NOT in the original Constitution?",
+"options": {
+"A": "Article 44 - Uniform civil code",
+"B": "Article 48 - Organisation of agriculture and animal husbandry",
+"C": "Article 48A - Environmental protection",
+"D": "Article 50 - Separation of judiciary from executive"
+},
+"correct_option": "C",
+"explanation": "Article 48A (environmental protection) was added by the 42nd Amendment (1976). Articles 44, 48, and 50 were part of the original Constitution.",
+"explanation_A": "Article 44 (uniform civil code) was in the original Constitution.",
+"explanation_B": "Article 48 (agriculture and animal husbandry) was in the original Constitution.",
+"explanation_C": "Correct. Article 48A (environmental protection) was added by 42nd Amendment.",
+"explanation_D": "Article 50 (separation of judiciary) was in the original Constitution."
+},
+{
+"id": 44,
+"category": "Liberal_Intellectual",
+"difficulty": "Medium",
+"question": "Article 51 specifically mentions which of the following for international dispute resolution?",
+"options": {
+"A": "Mediation",
+"B": "Arbitration",
+"C": "Negotiation",
+"D": "Litigation"
+},
+"correct_option": "B",
+"explanation": "Article 51(d) specifically states that the State shall endeavour to encourage settlement of international disputes by arbitration.",
+"explanation_A": "Mediation is not specifically mentioned in Article 51.",
+"explanation_B": "Correct. Article 51 specifically mentions arbitration for international disputes.",
+"explanation_C": "Negotiation is not specifically mentioned in Article 51.",
+"explanation_D": "Litigation in international courts is not specifically mentioned in Article 51."
+},
+{
+"id": 45,
+"category": "Fundamental_Duties",
+"difficulty": "Medium",
+"question": "Fundamental Duties are enshrined in which Part of the Indian Constitution?",
+"options": {
+"A": "Part III",
+"B": "Part IV",
+"C": "Part IV-A",
+"D": "Part V"
+},
+"correct_option": "C",
+"explanation": "Fundamental Duties are enshrined in Part IV-A of the Constitution, which contains Article 51A. Part IV-A was added by the 42nd Constitutional Amendment Act of 1976.",
+"explanation_A": "Part III contains Fundamental Rights, not Fundamental Duties.",
+"explanation_B": "Part IV contains Directive Principles of State Policy.",
+"explanation_C": "Correct. Fundamental Duties are in Part IV-A (Article 51A).",
+"explanation_D": "Part V deals with Union government."
+},
+{
+"id": 46,
+"category": "Fundamental_Duties",
+"difficulty": "Medium",
+"question": "How many Fundamental Duties were originally added by the 42nd Amendment?",
+"options": {
+"A": "9 duties",
+"B": "10 duties", 
+"C": "11 duties",
+"D": "12 duties"
+},
+"correct_option": "B",
+"explanation": "The 42nd Constitutional Amendment Act, 1976, added 10 Fundamental Duties (a-j) to Article 51A. The 11th duty (k) was added later by the 86th Amendment in 2002.",
+"explanation_A": "There were 10 duties, not 9, in the original 42nd Amendment.",
+"explanation_B": "Correct. 42nd Amendment added 10 Fundamental Duties (a-j).",
+"explanation_C": "11th duty was added later by 86th Amendment (2002), not by 42nd Amendment.",
+"explanation_D": "Only 10 duties were added by 42nd Amendment."
+},
+{
+"id": 47,
+"category": "Fundamental_Duties",
+"difficulty": "Medium",
+"question": "Who recommended the inclusion of Fundamental Duties in the Indian Constitution?",
+"options": {
+"A": "Swaran Singh Committee",
+"B": "Sanjay Gandhi Committee", 
+"C": "Nehru Committee",
+"D": "Constituent Assembly"
+},
+"correct_option": "A",
+"explanation": "The inclusion of Fundamental Duties was recommended by the Swaran Singh Committee, which was constituted in 1976. The Committee was set up during the Emergency period and submitted its report recommending the inclusion of a chapter on Fundamental Duties.",
+"explanation_A": "Correct. Swaran Singh Committee recommended inclusion of Fundamental Duties.",
+"explanation_B": "There was no Sanjay Gandhi Committee for this purpose.",
+"explanation_C": "Nehru Committee was set up earlier for constitutional reforms, not for Fundamental Duties.",
+"explanation_D": "Constituent Assembly did not include Fundamental Duties in original Constitution."
+},
+{
+"id": 48,
+"category": "Fundamental_Duties",
+"difficulty": "Medium",
+"question": "When were Fundamental Duties added to the Indian Constitution?",
+"options": {
+"A": "1951",
+"B": "1976",
+"C": "1978", 
+"D": "1980"
+},
+"correct_option": "B",
+"explanation": "Fundamental Duties were added by the Constitution (Forty-second Amendment) Act, 1976, during the Emergency period (1975-77). This amendment added Part IV-A containing Article 51A with 10 Fundamental Duties.",
+"explanation_A": "42nd Amendment was in 1976, not 1951.",
+"explanation_B": "Correct. Fundamental Duties were added by 42nd Amendment in 1976.",
+"explanation_C": "44th Amendment was in 1978, not for Fundamental Duties.",
+"explanation_D": "Minerva Mills case was in 1980, not for adding Fundamental Duties."
+},
+{
+"id": 49,
+"category": "Fundamental_Duties",
+"difficulty": "Medium",
+"question": "How many Fundamental Duties are there in Article 51A now?",
+"options": {
+"A": "10 duties",
+"B": "11 duties",
+"C": "12 duties", 
+"D": "13 duties"
+},
+"correct_option": "B",
+"explanation": "Article 51A now contains 11 Fundamental Duties (a-k). The 10 duties (a-j) were added by the 42nd Amendment (1976), and the 11th duty (k) was added by the 86th Amendment (2002).",
+"explanation_A": "Originally there were 10 duties, but now there are 11.",
+"explanation_B": "Correct. Article 51A currently contains 11 Fundamental Duties (a-k).",
+"explanation_C": "There are 11 duties, not 12.",
+"explanation_D": "There are 11 duties, not 13."
+},
+{
+"id": 50,
+"category": "Fundamental_Duties",
+"difficulty": "Medium",
+"question": "Which Amendment added the 11th Fundamental Duty?",
+"options": {
+"A": "42nd Amendment",
+"B": "44th Amendment",
+"C": "73rd Amendment",
+"D": "86th Amendment"
+},
+"correct_option": "D",
+"explanation": "The 86th Constitutional Amendment Act, 2002, added the 11th Fundamental Duty (k) to Article 51A. This duty provides that it shall be the duty of every citizen who is a parent or guardian to provide opportunities for education to his child or ward between the age of six and fourteen years.",
+"explanation_A": "42nd Amendment added 10 duties (a-j), not the 11th.",
+"explanation_B": "44th Amendment dealt with property rights, not Fundamental Duties.",
+"explanation_C": "73rd Amendment dealt with Panchayati Raj, not Fundamental Duties.",
+"explanation_D": "Correct. 86th Amendment (2002) added the 11th Fundamental Duty (k)."
+},
+{
+"id": 51,
+"category": "Fundamental_Duties",
+"difficulty": "Medium",
+"question": "Fundamental Duty (a) requires citizens to:",
+"options": {
+"A": "Abide by the Constitution and respect its ideals and institutions, the National Flag and the National Anthem",
+"B": "Cherish noble ideals of freedom struggle",
+"C": "Uphold sovereignty, unity and integrity of India",
+"D": "Defend the country when called upon"
+},
+"correct_option": "A",
+"explanation": "Fundamental Duty (a) states: 'to abide by the Constitution and respect its ideals and institutions, the National Flag and the National Anthem'",
+"explanation_A": "Correct. Duty (a) requires abiding by Constitution and respecting national symbols.",
+"explanation_B": "Duty (a) is about Constitution and national symbols, not freedom struggle ideals.",
+"explanation_C": "Upholding sovereignty, unity and integrity is duty (c).",
+"explanation_D": "Defending the country is duty (d)."
+},
+{
+"id": 52,
+"category": "Fundamental_Duties",
+"difficulty": "Medium",
+"question": "Fundamental Duty (b) calls upon citizens to:",
+"options": {
+"A": "Abide by the Constitution",
+"B": "Cherish and follow the noble ideals which inspired our national struggle for freedom",
+"C": "Uphold sovereignty, unity and integrity of India",
+"D": "Defend the country when called upon"
+},
+"correct_option": "B",
+"explanation": "Fundamental Duty (b) states: 'to cherish and follow the noble ideals which inspired our national struggle for freedom'",
+"explanation_A": "Abiding by Constitution is duty (a).",
+"explanation_B": "Correct. Duty (b) is about cherishing noble ideals of freedom struggle.",
+"explanation_C": "Upholding sovereignty, unity and integrity is duty (c).",
+"explanation_D": "Defending the country is duty (d)."
+},
+{
+"id": 53,
+"category": "Fundamental_Duties",
+"difficulty": "Medium",
+"question": "Which Fundamental Duty relates to promoting harmony and renouncing practices derogatory to dignity of women?",
+"options": {
+"A": "Duty (c)",
+"B": "Duty (d)", 
+"C": "Duty (e)",
+"D": "Duty (f)"
+},
+"correct_option": "C",
+"explanation": "Fundamental Duty (e) states: 'to promote harmony and the spirit of common brotherhood amongst all the people of India transcending religious, linguistic and regional or sectional diversities; to renounce practices derogatory to the dignity of women'",
+"explanation_A": "Duty (c) is about upholding sovereignty, unity and integrity.",
+"explanation_B": "Duty (d) is about defending the country.",
+"explanation_C": "Correct. Duty (e) is about promoting harmony and renouncing practices derogatory to women's dignity.",
+"explanation_D": "Duty (f) is about preserving rich heritage of composite culture."
+},
+{
+"id": 54,
+"category": "Fundamental_Duties",
+"difficulty": "Medium",
+"question": "Fundamental Duty (g) relates to:",
+"options": {
+"A": "Protecting monuments",
+"B": "Protecting and improving the natural environment including forests, lakes, rivers and wildlife",
+"C": "Separating judiciary from executive",
+"D": "Uniform civil code"
+},
+"correct_option": "B",
+"explanation": "Fundamental Duty (g) states: 'to protect and improve the natural environment including forests, lakes, rivers and wildlife, and to have compassion for living creatures'",
+"explanation_A": "Protecting monuments is not a specific Fundamental Duty.",
+"explanation_B": "Correct. Duty (g) is about protecting and improving natural environment.",
+"explanation_C": "Separating judiciary from executive is a DPSP under Article 50.",
+"explanation_D": "Uniform civil code is a DPSP under Article 44."
+},
+{
+"id": 55,
+"category": "Fundamental_Duties",
+"difficulty": "Medium",
+"question": "Fundamental Duty (h) calls for developing:",
+"options": {
+"A": "Scientific temper, humanism and spirit of inquiry and reform",
+"B": "Hindu culture",
+"C": "Western education",
+"D": "Religious practices"
+},
+"correct_option": "A",
+"explanation": "Fundamental Duty (h) states: 'to develop the scientific temper, humanism and the spirit of inquiry and reform'",
+"explanation_A": "Correct. Duty (h) is about developing scientific temper, humanism and spirit of inquiry.",
+"explanation_B": "Duty (h) is not about promoting Hindu culture specifically.",
+"explanation_C": "Duty (h) is not specifically about Western education.",
+"explanation_D": "Duty (h) promotes rational and scientific thinking, not religious practices."
+},
+{
+"id": 56,
+"category": "Fundamental_Duties",
+"difficulty": "Medium",
+"question": "Fundamental Duty (i) requires citizens to:",
+"options": {
+"A": "Safeguard public property and to abjure violence",
+"B": "Develop scientific temper",
+"C": "Protect natural environment",
+"D": "Preserve composite culture"
+},
+"correct_option": "A",
+"explanation": "Fundamental Duty (i) states: 'to safeguard public property and to abjure violence'",
+"explanation_A": "Correct. Duty (i) is about safeguarding public property and abjuring violence.",
+"explanation_B": "Developing scientific temper is duty (h).",
+"explanation_C": "Protecting natural environment is duty (g).",
+"explanation_D": "Preserving composite culture is duty (f)."
+},
+{
+"id": 57,
+"category": "Fundamental_Duties",
+"difficulty": "Medium",
+"question": "Fundamental Duty (j) calls upon citizens to:",
+"options": {
+"A": "Safeguard public property",
+"B": "Strive towards excellence in all spheres so that nation constantly rises",
+"C": "Develop scientific temper", 
+"D": "Protect natural environment"
+},
+"correct_option": "B",
+"explanation": "Fundamental Duty (j) states: 'to strive towards excellence in all spheres of individual and collective activity so that the nation constantly rises to higher levels of endeavour and achievement'",
+"explanation_A": "Safeguarding public property is duty (i).",
+"explanation_B": "Correct. Duty (j) is about striving towards excellence for nation's progress.",
+"explanation_C": "Developing scientific temper is duty (h).",
+"explanation_D": "Protecting natural environment is duty (g)."
+},
+{
+"id": 58,
+"category": "Fundamental_Duties",
+"difficulty": "Hard",
+"question": "Fundamental Duty (k), added by the 86th Amendment, requires citizens who are parents or guardians to:",
+"options": {
+"A": "Provide opportunities for education to child/ward between age of 6-14 years",
+"B": "Send children to religious schools",
+"C": "Ensure children learn national language",
+"D": "Make children participate in national service"
+},
+"correct_option": "A",
+"explanation": "Fundamental Duty (k) states: 'who is a parent or guardian to provide opportunities for education to his child or, as the case may be, ward between the age of six and fourteen years.'",
+"explanation_A": "Correct. Duty (k) specifically requires providing education opportunities for children aged 6-14.",
+"explanation_B": "Duty (k) doesn't specify religious schools or any particular type of education.",
+"explanation_C": "Duty (k) doesn't specify national language requirements.",
+"explanation_D": "Duty (k) is about education, not national service."
+},
+{
+"id": 59,
+"category": "Fundamental_Duties",
+"difficulty": "Medium",
+"question": "The Fundamental Duties added by the 42nd Amendment were inspired by which country's constitution?",
+"options": {
+"A": "USA",
+"B": "USSR",
+"C": "Japan",
+"D": "China"
+},
+"correct_option": "B",
+"explanation": "The Fundamental Duties were inspired by the former USSR (now Russia) constitution, which contained similar provisions about citizen duties. The Swaran Singh Committee recommended their inclusion based on this inspiration.",
+"explanation_A": "USA Constitution doesn't contain Fundamental Duties for citizens.",
+"explanation_B": "Correct. Fundamental Duties were inspired by former USSR constitution.",
+"explanation_C": "Japanese Constitution doesn't contain such detailed Fundamental Duties.",
+"explanation_D": "Chinese Constitution was not the direct inspiration for Fundamental Duties."
+},
+{
+"id": 60,
+"category": "Fundamental_Duties",
+"difficulty": "Hard",
+"question": "Fundamental Duties are:",
+"options": {
+"A": "Justiciable and enforceable by courts",
+"B": "Non-justiciable moral precepts",
+"C": "Enforceable only against government",
+"D": "Enforceable only under emergency"
+},
+"correct_option": "B",
+"explanation": "Fundamental Duties are non-justiciable, meaning they cannot be enforced by courts. They are essentially moral precepts that guide citizen conduct. The Constitution does not provide for legal sanctions against violation of Fundamental Duties.",
+"explanation_A": "Fundamental Duties are not justiciable, unlike Fundamental Rights.",
+"explanation_B": "Correct. Fundamental Duties are non-justiciable moral precepts.",
+"explanation_C": "Fundamental Duties are not enforceable against anyone, including government.",
+"explanation_D": "Fundamental Duties don't become enforceable under emergency."
+},
+{
+"id": 61,
+"category": "Fundamental_Duties",
+"difficulty": "Medium",
+"question": "Which Fundamental Duty specifically mentions protecting the dignity of women?",
+"options": {
+"A": "Duty (d)",
+"B": "Duty (e)",
+"C": "Duty (f)",
+"D": "Duty (g)"
+},
+"correct_option": "B",
+"explanation": "Fundamental Duty (e) specifically mentions 'to renounce practices derogatory to the dignity of women' as part of promoting harmony and common brotherhood.",
+"explanation_A": "Duty (d) is about defending the country.",
+"explanation_B": "Correct. Duty (e) specifically mentions renouncing practices derogatory to women's dignity.",
+"explanation_C": "Duty (f) is about preserving composite culture.",
+"explanation_D": "Duty (g) is about protecting natural environment."
+},
+{
+"id": 62,
+"category": "Fundamental_Duties",
+"difficulty": "Hard",
+"question": "Fundamental Duty (f) calls upon citizens to:",
+"options": {
+"A": "Protect natural environment",
+"B": "Value and preserve the rich heritage of our composite culture",
+"C": "Develop scientific temper",
+"D": "Safeguard public property"
+},
+"correct_option": "B",
+"explanation": "Fundamental Duty (f) states: 'to value and preserve the rich heritage of our composite culture'",
+"explanation_A": "Protecting natural environment is duty (g).",
+"explanation_B": "Correct. Duty (f) is about valuing and preserving composite culture heritage.",
+"explanation_C": "Developing scientific temper is duty (h).",
+"explanation_D": "Safeguarding public property is duty (i)."
+},
+{
+"id": 63,
+"category": "Fundamental_Duties",
+"difficulty": "Medium",
+"question": "Which Fundamental Duty calls upon citizens to develop scientific temper, humanism and spirit of inquiry?",
+"options": {
+"A": "Duty (f)",
+"B": "Duty (g)",
+"C": "Duty (h)",
+"D": "Duty (i)"
+},
+"correct_option": "C",
+"explanation": "Fundamental Duty (h) states: 'to develop the scientific temper, humanism and the spirit of inquiry and reform'",
+"explanation_A": "Duty (f) is about preserving composite culture.",
+"explanation_B": "Duty (g) is about protecting natural environment.",
+"explanation_C": "Correct. Duty (h) is about developing scientific temper, humanism and spirit of inquiry.",
+"explanation_D": "Duty (i) is about safeguarding public property and abjuring violence."
+},
+{
+"id": 64,
+"category": "Fundamental_Duties",
+"difficulty": "Medium",
+"question": "Fundamental Duties apply to:",
+"options": {
+"A": "Only Indian citizens",
+"B": "Only government employees",
+"C": "Only adults",
+"D": "All persons in India"
+},
+"correct_option": "A",
+"explanation": "Fundamental Duties under Article 51A are addressed to 'every citizen of India.' They do not extend to foreigners or non-citizens. Article 51A clearly states 'It shall be the duty of every citizen of India'",
+"explanation_A": "Correct. Fundamental Duties apply only to Indian citizens.",
+"explanation_B": "Fundamental Duties are not limited to government employees.",
+"explanation_C": "Fundamental Duties don't have age restrictions except for duty (k) about education.",
+"explanation_D": "Fundamental Duties are only for citizens, not all persons in India."
+},
+{
+"id": 65,
+"category": "Implementation",
+"difficulty": "Hard",
+"question": "Which landmark case emphasized that Fundamental Rights must be read together with Directive Principles and Fundamental Duties?",
+"options": {
+"A": "Kesavananda Bharati",
+"B": "Minerva Mills",
+"C": "Balaji Raghavan v Union of India",
+"D": "Champakam Dorairajan"
+},
+"correct_option": "C",
+"explanation": "In Balaji Raghavan v Union of India (1995), the Supreme Court upheld the constitutional validity of National Awards and emphasized that Fundamental Rights must be read together with Directive Principles and Fundamental Duties, specifically citing Article 51A(j) about striving for excellence.",
+"explanation_A": "Kesavananda Bharati established basic structure doctrine but didn't specifically mention Fundamental Duties.",
+"explanation_B": "Minerva Mills emphasized harmony between FRs and DPSPs but not specifically Fundamental Duties.",
+"explanation_C": "Correct. Balaji Raghavan case specifically emphasized reading FRs with DPSPs and Fundamental Duties.",
+"explanation_D": "Champakam Dorairajan dealt with FR-DPSP relationship but predated Fundamental Duties."
+},
+{
+"id": 66,
+"category": "Implementation",
+"difficulty": "Hard",
+"question": "In M.C. Mehta v Kamal Nath II (2000), the Supreme Court emphasized which Fundamental Duty in conjunction with environmental protection?",
+"options": {
+"A": "Duty (f)",
+"B": "Duty (g)", 
+"C": "Duty (h)",
+"D": "Duty (i)"
+},
+"correct_option": "B",
+"explanation": "In M.C. Mehta v Kamal Nath II (2000), the Supreme Court emphasized Article 51A(g) (duty to protect and improve natural environment) in conjunction with Article 48A (DPSP) and Article 21 (right to life) while determining fine for environmental harm.",
+"explanation_A": "Duty (f) is about preserving composite culture, not environment.",
+"explanation_B": "Correct. M.C. Mehta v Kamal Nath II emphasized duty (g) regarding environmental protection.",
+"explanation_C": "Duty (h) is about scientific temper, not environment.",
+"explanation_D": "Duty (i) is about safeguarding public property, not environment."
+},
+{
+"id": 67,
+"category": "Implementation",
+"difficulty": "Hard",
+"question": "Which case dealt with the implementation of DPSPs like land reforms and led to the creation of Article 31B and Ninth Schedule?",
+"options": {
+"A": "Kesavananda Bharati",
+"B": "Minerva Mills", 
+"C": "Champakam Dorairajan",
+"D": "Golaknath"
+},
+"correct_option": "C",
+"explanation": "In Champakam Dorairajan case (1951), the Supreme Court struck down the Madras State’s reservation policy, leading to concerns about implementation of DPSPs like land reforms. This resulted in the First Amendment (1951) adding Article 31B and Ninth Schedule to protect reform laws.",
+"explanation_A": "Kesavananda Bharati established basic structure doctrine but didn't lead to Article 31B.",
+"explanation_B": "Minerva Mills dealt with Article 31C extension but not the creation of Article 31B.",
+"explanation_C": "Correct. Champakam Dorairajan case led to creation of Article 31B and Ninth Schedule.",
+"explanation_D": "Golaknath dealt with parliamentary power to amend but not Article 31B creation."
+},
+{
+"id": 68,
+"category": "Implementation",
+"difficulty": "Medium",
+"question": "Which scheme implements Article 41 (right to work) of DPSP?",
+"options": {
+"A": "Mahatma Gandhi National Rural Employment Guarantee Act",
+"B": "Right to Education Act",
+"C": "National Rural Health Mission",
+"D": "Pradhan Mantri Awas Yojana"
+},
+"correct_option": "A",
+"explanation": "Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA) 2005 implements the right to work under Article 41 of DPSP by guaranteeing at least 100 days of wage employment to rural households.",
+"explanation_A": "Correct. MGNREGA implements right to work under Article 41.",
+"explanation_B": "RTE Act implements education right but not specifically Article 41 right to work.",
+"explanation_C": "NRHM is for health, not work guarantee.",
+"explanation_D": "PM Awas Yojana is for housing, not work guarantee."
+},
+{
+"id": 69,
+"category": "Socialistic",
+"difficulty": "Hard",
+"question": "The Right to Education Act 2009 is primarily an implementation of which constitutional provision?",
+"options": {
+"A": "Article 45 (original)",
+"B": "Article 21A (added by 86th Amendment)",
+"C": "Article 41",
+"D": "Article 42"
+},
+"correct_option": "B",
+"explanation": "Right to Education Act 2009 is based on Article 21A (right to education) which was added as Fundamental Right by the 86th Amendment (2002). This amendment converted the DPSP mandate of Article 45 into an enforceable Fundamental Right.",
+"explanation_A": "Article 45 was the original DPSP provision but was transformed by 86th Amendment.",
+"explanation_B": "Correct. RTE Act implements Article 21A, the Fundamental Right to education.",
+"explanation_C": "Article 41 is about right to work, education and public assistance.",
+"explanation_D": "Article 42 is about just and humane conditions of work."
+},
+{
+"id": 70,
+"category": "Gandhian",
+"difficulty": "Medium",
+"question": "Which act implements Article 39A (free legal aid) of DPSP?",
+"options": {
+"A": "Legal Services Authorities Act",
+"B": "Indian Penal Code",
+"C": "Code of Criminal Procedure",
+"D": "Constitution of India"
+},
+"correct_option": "A",
+"explanation": "Legal Services Authorities Act, 1987 implements Article 39A by establishing National Legal Services Authority, State Legal Services Authorities, and District Legal Services Authorities to provide free legal aid to poor and weaker sections.",
+"explanation_A": "Correct. Legal Services Authorities Act implements Article 39A free legal aid.",
+"explanation_B": "IPC is penal code, not for legal aid implementation.",
+"explanation_C": "CrPC is procedural code, not specifically for legal aid.",
+"explanation_D": "Constitution provides the framework, not specific implementation."
+},
+{
+"id": 71,
+"category": "Gandhian",
+"difficulty": "Hard",
+"question": "Article 43A (participation of workers in management) was implemented through which legislation?",
+"options": {
+"A": "Companies Act 2013",
+"B": "Industrial Disputes Act 1947",
+"C": "Works Committees under Industrial Disputes Act",
+"D": "Factories Act"
+},
+"correct_option": "C",
+"explanation": "Industrial Disputes Act 1947 provides for formation of Works Committees which include representatives of workers and management to promote measures for securing and preserving amity and good relations between employer and workers.",
+"explanation_A": "Companies Act deals with company management, not worker participation per se.",
+"explanation_B": "Industrial Disputes Act has provisions for Works Committees representing worker participation.",
+"explanation_C": "Correct. Works Committees under Industrial Disputes Act implement worker participation in management.",
+"explanation_D": "Factories Act deals with factory conditions, not worker participation in management."
+},
+{
+"id": 72,
+"category": "Gandhian",
+"difficulty": "Medium",
+"question": "Which of the following is a major implementation challenge for Directive Principles?",
+"options": {
+"A": "They are too detailed",
+"B": "They are not economically feasible for many states",
+"C": "They conflict with Fundamental Rights",
+"D": "They are not mentioned in the Constitution"
+},
+"correct_option": "B",
+"explanation": "A major implementation challenge is the lack of economic resources in many states to fulfill the aspirational goals of DPSPs. This is recognized in Article 41 which states 'within the limits of its economic capacity and development.'",
+"explanation_A": "DPSPs are broad guidelines, not overly detailed.",
+"explanation_B": "Correct. Economic constraints and lack of resources is a major implementation challenge.",
+"explanation_C": "While conflicts with FRs exist, this is not the primary implementation challenge.",
+"explanation_D": "DPSPs are clearly mentioned in Part IV of Constitution."
+},
+{
+"id": 73,
+"category": "Gandhian",
+"difficulty": "Hard",
+"question": "In Javed v State of Haryana (2003), the Supreme Court upheld restrictions on persons with more than two children from Panchayat offices, emphasizing which constitutional aspect?",
+"options": {
+"A": "Fundamental Rights only",
+"B": "Fundamental Duties and sustainable development",
+"C": "Directive Principles only",
+"D": "Preamble principles"
+},
+"correct_option": "B",
+"explanation": "In Javed v State of Haryana (2003), the Supreme Court upheld population control measures and linked them to sustainable development enshrined in Fundamental Duties (Article 51A), emphasizing that Fundamental Rights are tempered by duties.",
+"explanation_A": "The case emphasized reading FRs with Fundamental Duties, not FRs only.",
+"explanation_B": "Correct. Javed case emphasized Fundamental Duties and sustainable development.",
+"explanation_C": "The case was not about DPSPs only but about Fundamental Duties and population control.",
+"explanation_D": "While Preamble principles are relevant, the focus was on Fundamental Duties."
+},
+{
+"id": 74,
+"category": "Gandhian",
+"difficulty": "Medium",
+"question": "The 73rd Constitutional Amendment Act (1992) is primarily an implementation of which DPSP?",
+"options": {
+"A": "Article 40",
+"B": "Article 43",
+"C": "Article 44",
+"D": "Article 45"
+},
+"correct_option": "A",
+"explanation": "73rd Constitutional Amendment Act (1992) implemented Article 40 (organisation of village panchayats) by giving constitutional status to panchayati raj institutions and providing for regular elections and devolution of powers.",
+"explanation_A": "Correct. 73rd Amendment implements Article 40 about village panchayats.",
+"explanation_B": "Article 43 is about living wage and cottage industries.",
+"explanation_C": "Article 44 is about uniform civil code.",
+"explanation_D": "Article 45 was about education and was transformed by 86th Amendment."
+},
+{
+"id": 75,
+"category": "Gandhian",
+"difficulty": "Hard",
+"question": "Which environmental legislation implements Article 48A (DPSP) and Article 51A(g) (Fundamental Duty)?",
+"options": {
+"A": "Forest (Conservation) Act 1980",
+"B": "Wildlife (Protection) Act 1972",
+"C": "Water (Prevention and Control of Pollution) Act 1974",
+"D": "All of the above"
+},
+"correct_option": "D",
+"explanation": "Various environmental laws implement both Article 48A (DPSP) and Article 51A(g) (Fundamental Duty). Forest (Conservation) Act 1980 and Wildlife (Protection) Act 1972 were specifically created to fulfill Article 48A, while Water and Air Pollution Acts also contribute to environmental protection.",
+"explanation_A": "Forest Act is one implementation but not the only one.",
+"explanation_B": "Wildlife Act is another implementation but not the only one.",
+"explanation_C": "Water Pollution Act is also relevant but not the only one.",
+"explanation_D": "Correct. Multiple environmental laws collectively implement both Article 48A and 51A(g)."
+},
+{
+"id": 76,
+"category": "Liberal_Intellectual",
+"difficulty": "Medium",
+"question": "What is the primary criticism of Directive Principles of State Policy?",
+"options": {
+"A": "They are too progressive",
+"B": "They are non-justiciable and therefore ineffective in ensuring socio-economic justice",
+"C": "They are not based on any constitutional provision",
+"D": "They are only applicable during emergency"
+},
+"correct_option": "B",
+"explanation": "The primary criticism of DPSPs is that they are non-justiciable, meaning courts cannot enforce them. This leads to ineffectiveness in ensuring social and economic justice, as states may not prioritize their implementation due to lack of legal enforcement mechanisms.",
+"explanation_A": "DPSPs are criticized for being conservative, not too progressive.",
+"explanation_B": "Correct. Non-justiciability and lack of enforcement is the main criticism.",
+"explanation_C": "DPSPs are clearly based on constitutional provisions in Part IV.",
+"explanation_D": "DPSPs apply at all times, not only during emergency."
+},
+{
+"id": 77,
+"category": "Liberal_Intellectual",
+"difficulty": "Hard",
+"question": "In the case of In Re Ramlila Maidan Incident v Home Secretary (2012), the Supreme Court emphasized which Fundamental Duty?",
+"options": {
+"A": "Duty (c) - sovereignty, unity and integrity",
+"B": "Duty (i) - safeguard public property and abjure violence",
+"C": "Duty (j) - strive for excellence",
+"D": "Duty (k) - education for children"
+},
+"correct_option": "B",
+"explanation": "In In Re Ramlila Maidan Incident (2012), the Supreme Court took suo moto cognizance and emphasized that citizens have Fundamental Rights but also Fundamental Duty (i) to safeguard public property and abjure violence, particularly during protests and public demonstrations.",
+"explanation_A": "Duty (c) is about sovereignty and integrity, not specifically relevant to this case.",
+"explanation_B": "Correct. Supreme Court emphasized duty (i) about safeguarding public property and abjuring violence.",
+"explanation_C": "Duty (j) is about striving for excellence, not relevant to this protest case.",
+"explanation_D": "Duty (k) is about education, not relevant to this public order case."
+},
+{
+"id": 78,
+"category": "Implementation",
+"difficulty": "Hard",
+"question": "Which Amendment strengthened the environmental provisions by adding Article 48A?",
+"options": {
+"A": "42nd Amendment",
+"B": "44th Amendment", 
+"C": "49th Amendment",
+"D": "86th Amendment"
+},
+"correct_option": "A",
+"explanation": "42nd Amendment (1976) added Article 48A to DPSP, stating that the State shall endeavour to protect and improve the environment and to safeguard the forests and wildlife of the country. This strengthened environmental constitutional provisions.",
+"explanation_A": "Correct. 42nd Amendment added Article 48A on environmental protection.",
+"explanation_B": "44th Amendment dealt with property rights, not environmental protection.",
+"explanation_C": "49th Amendment doesn't exist as a major amendment.",
+"explanation_D": "86th Amendment dealt with education and Fundamental Duties, not environmental DPSP."
+},
+{
+"id": 79,
+"category": "Implementation",
+"difficulty": "Medium",
+"question": "The concept of 'welfare state' in Indian Constitution is reflected through:",
+"options": {
+"A": "Fundamental Rights only",
+"B": "Directive Principles only",
+"C": "Fundamental Duties only",
+"D": "Both Directive Principles and Fundamental Rights"
+},
+"correct_option": "D",
+"explanation": "The concept of welfare state is reflected through both Directive Principles (which guide state action for social and economic welfare) and Fundamental Rights (which ensure individual liberties). DPSPs provide the goals, while FRs provide the means to achieve them in a balanced manner.",
+"explanation_A": "Welfare state concept is not reflected only through Fundamental Rights.",
+"explanation_B": "Welfare state concept is not reflected only through Directive Principles.",
+"explanation_C": "Fundamental Duties support but don't alone create the welfare state concept.",
+"explanation_D": "Correct. Both DPSPs and FRs together reflect the welfare state concept."
+},
+{
+"id": 80,
+"category": "Implementation",
+"difficulty": "Hard",
+"question": "Which principle of harmonious construction was emphasized by the Supreme Court in balancing Fundamental Rights and Directive Principles?",
+"options": {
+"A": "Rights always prevail over directives",
+"B": "Directives always prevail over rights",
+"C": "Both must be read together to give effect to each other",
+"D": "Either rights or directives can be ignored depending on circumstances"
+},
+"correct_option": "C",
+"explanation": "The Supreme Court has emphasized the principle of harmonious construction, which requires that Fundamental Rights and Directive Principles be read together to give effect to each other rather than in isolation or in conflict. This approach was reinforced in cases like Kesavananda Bharati and Minerva Mills.",
+"explanation_A": "The Court rejected absolute rights primacy in cases like Minerva Mills.",
+"explanation_B": "The Court rejected absolute directives primacy attempted by 42nd Amendment.",
+"explanation_C": "Correct. Supreme Court emphasized reading both together in harmonious construction.",
+"explanation_D": "The Court emphasized balance, not ignoring either rights or directives."
+},
+{
+"id": 81,
+"category": "Socialistic",
+"difficulty": "Hard",
+"question": "Article 38(2), added by the 44th Amendment, directs the State to minimize inequalities not only among individuals but also among:",
+"options": {
+"A": "Rich and poor",
+"B": "Groups of people residing in different areas or engaged in different vocations",
+"C": "Men and women",
+"D": "Educated and uneducated"
+},
+"correct_option": "B",
+"explanation": "Article 38(2) states: 'The State shall, in particular, strive to minimise the inequalities in income, and endeavour to eliminate inequalities in status, facilities and opportunities, not only amongst individuals but also amongst groups of people residing in different areas or engaged in different vocations.'",
+"explanation_A": "While income inequalities are minimized, the focus is not specifically on rich vs poor classification.",
+"explanation_B": "Correct. Article 38(2) specifically mentions groups in different areas or vocations.",
+"explanation_C": "Gender inequalities are covered under Article 39(d) about equal pay.",
+"explanation_D": "Education inequalities are addressed under various provisions but not specifically in Article 38(2)."
+},
+{
+"id": 82,
+"category": "Socialistic",
+"difficulty": "Hard",
+"question": "Article 39(e) and (f) protect which vulnerable groups?",
+"options": {
+"A": "Scheduled Castes and Scheduled Tribes",
+"B": "Workers and children",
+"C": "Women and elderly",
+"D": "Minorities and disabled"
+},
+"correct_option": "B",
+"explanation": "Article 39(e) states that the health and strength of workers, men and women, and the tender age of children are not abused, and (f) states that children are given opportunities to develop in healthy manner and protected against exploitation and moral/material abandonment.",
+"explanation_A": "Protection of SCs/STs is covered under Article 46.",
+"explanation_B": "Correct. Article 39(e) and (f) protect workers and children.",
+"explanation_C": "Women protection is mentioned but not as the primary focus of Article 39(e) and (f).",
+"explanation_D": "Article 39 doesn't specifically mention minorities or disabled."
+},
+{
+"id": 83,
+"category": "Socialistic",
+"difficulty": "Hard",
+"question": "Article 41 specifically mentions 'undeserved want' in the context of:",
+"options": {
+"A": "Right to work only",
+"B": "Right to education only",
+"C": "Right to public assistance",
+"D": "All of the above in cases of undeserved want"
+},
+"correct_option": "D",
+"explanation": "Article 41 states that the State shall make effective provision for securing right to work, right to education and right to public assistance in cases of unemployment, old age, sickness and disablement, and 'in other cases of undeserved want.'",
+"explanation_A": "While work is mentioned, it's not the only focus of 'undeserved want.'",
+"explanation_B": "While education is mentioned, it's not the only focus of 'undeserved want.'",
+"explanation_C": "While public assistance is mentioned, it's part of broader 'undeserved want.'",
+"explanation_D": "Correct. 'Undeserved want' encompasses all cases including work, education, and assistance."
+},
+{
+"id": 84,
+"category": "Gandhian",
+"difficulty": "Hard",
+"question": "The specific phrase 'units of self-government' in Article 40 refers to:",
+"options": {
+"A": "State governments only",
+"B": "Union territories",
+"C": "Village panchayats as autonomous local bodies",
+"D": "District level administration"
+},
+"correct_option": "C",
+"explanation": "Article 40 states that the State shall take steps to organise village panchayats and endow them with such powers and authority as may be necessary to enable them to function as 'units of self-government,' emphasizing grassroots democracy and decentralization.",
+"explanation_A": "State governments are already units of government, not what Article 40 refers to.",
+"explanation_B": "Union territories are governed differently, not the focus of Article 40.",
+"explanation_C": "Correct. Article 40 refers to village panchayats as units of self-government.",
+"explanation_D": "District administration exists but Article 40 specifically mentions village panchayats."
+},
+{
+"id": 85,
+"category": "Gandhian",
+"difficulty": "Hard",
+"question": "Article 48's prohibition of cattle slaughter extends to:",
+"options": {
+"A": "Only cows",
+"B": "Cows and calves only",
+"C": "Cows, calves and other milch and draught cattle",
+"D": "All animals"
+},
+"correct_option": "C",
+"explanation": "Article 48 specifically states that the State shall take steps for preserving and improving the breeds, and prohibiting the slaughter, of 'cows and calves and other milch and draught cattle.' It is not limited to cows only but includes all milch and draught cattle.",
+"explanation_A": "Article 48 extends beyond cows to include other cattle.",
+"explanation_B": "Article 48 includes not just calves but other milch and draught cattle.",
+"explanation_C": "Correct. Article 48 prohibits slaughter of cows, calves and other milch and draught cattle.",
+"explanation_D": "Article 48 is specific to milch and draught cattle, not all animals."
+},
+{
+"id": 86,
+"category": "Liberal_Intellectual",
+"difficulty": "Hard",
+"question": "Article 51 specifically mentions which international principle for settling disputes?",
+"options": {
+"A": "Mediation",
+"B": "Arbitration",
+"C": "Negotiation",
+"D": "Diplomatic immunity"
+},
+"correct_option": "B",
+"explanation": "Article 51(d) specifically states that the State shall endeavour to encourage settlement of international disputes by arbitration.",
+"explanation_A": "Mediation is not specifically mentioned in Article 51.",
+"explanation_B": "Correct. Article 51 specifically mentions arbitration for international disputes.",
+"explanation_C": "Negotiation is not specifically mentioned in Article 51.",
+"explanation_D": "Diplomatic immunity is not mentioned in Article 51."
+},
+{
+"id": 87,
+"category": "Liberal_Intellectual",
+"difficulty": "Hard",
+"question": "Which constitutional amendment changed the subject matter of Article 45?",
+"options": {
+"A": "42nd Amendment",
+"B": "44th Amendment",
+"C": "86th Amendment",
+"D": "97th Amendment"
+},
+"correct_option": "C",
+"explanation": "86th Amendment (2002) changed Article 45 to focus on early childhood care and education, and made elementary education a Fundamental Right under Article 21A. The original provision for free and compulsory education until age 14 was transformed.",
+"explanation_A": "42nd Amendment added Article 39A, 43A, 48A but didn't change Article 45.",
+"explanation_B": "44th Amendment dealt with property rights, not Article 45.",
+"explanation_C": "Correct. 86th Amendment changed Article 45 subject matter.",
+"explanation_D": "97th Amendment dealt with cooperative societies, not Article 45."
+},
+{
+"id": 88,
+"category": "Socialistic",
+"difficulty": "Hard",
+"question": "Fundamental Duty (c) calls upon citizens to:",
+"options": {
+"A": "Abide by the Constitution",
+"B": "Uphold and protect sovereignty, unity and integrity of India",
+"C": "Defend the country when called upon",
+"D": "Cherish noble ideals of freedom struggle"
+},
+"correct_option": "B",
+"explanation": "Fundamental Duty (c) states: 'to uphold and protect the sovereignty, unity and integrity of India'",
+"explanation_A": "Abiding by Constitution is duty (a).",
+"explanation_B": "Correct. Duty (c) is about upholding sovereignty, unity and integrity of India.",
+"explanation_C": "Defending the country is duty (d).",
+"explanation_D": "Cherishing freedom struggle ideals is duty (b)."
+},
+{
+"id": 89,
+"category": "Socialistic",
+"difficulty": "Hard",
+"question": "Fundamental Duty (d) requires citizens to:",
+"options": {
+"A": "Uphold sovereignty",
+"B": "Defend the country and render national service when called upon",
+"C": "Cherish freedom struggle ideals",
+"D": "Abide by the Constitution"
+},
+"correct_option": "B",
+"explanation": "Fundamental Duty (d) states: 'to defend the country and render national service when called upon to do so'",
+"explanation_A": "Upholding sovereignty is duty (c).",
+"explanation_B": "Correct. Duty (d) is about defending the country and rendering national service.",
+"explanation_C": "Cherishing freedom struggle ideals is duty (b).",
+"explanation_D": "Abiding by Constitution is duty (a)."
+},
+{
+"id": 90,
+"category": "Implementation",
+"difficulty": "Hard",
+"question": "Which constitutional provision allows laws made to implement Article 39(b) and (c) to be protected from judicial review?",
+"options": {
+"A": "Article 31A",
+"B": "Article 31B",
+"C": "Article 31C",
+"D": "Article 31D"
+},
+"correct_option": "C",
+"explanation": "Article 31C was added by 25th Amendment (1971) and later extended by 42nd Amendment. It provides that laws made to implement Articles 39(b) and (c) (regarding equitable distribution of resources and prevention of concentration of wealth) shall not be void on grounds of contravening Articles 14, 19, or 31.",
+"explanation_A": "Article 31A deals with acquisition of estates, not protection of DPSPs implementation laws.",
+"explanation_B": "Article 31B deals with Ninth Schedule protection, not specifically Article 39(b) and (c).",
+"explanation_C": "Correct. Article 31C protects laws implementing Article 39(b) and (c) from judicial review.",
+"explanation_D": "Article 31D doesn't exist in the Constitution."
+},
+{
+"id": 91,
+"category": "Socialistic",
+"difficulty": "Hard",
+"question": "Which Article was amended by the 42nd Amendment to strengthen socialist principles?",
+"options": {
+"A": "Article 38",
+"B": "Article 39",
+"C": "Article 39A and 43A were added",
+"D": "Article 40"
+},
+"correct_option": "C",
+"explanation": "42nd Amendment (1976) strengthened socialist principles by adding Article 39A (free legal aid and equal justice) and Article 43A (participation of workers in management of industries).",
+"explanation_A": "Article 38 was amended by 44th Amendment, not 42nd.",
+"explanation_B": "Article 39 was amended to add clause (f), but main additions were Articles 39A and 43A.",
+"explanation_C": "Correct. 42nd Amendment added Article 39A and 43A to strengthen socialist principles.",
+"explanation_D": "Article 40 was not amended by 42nd Amendment."
+},
+{
+"id": 92,
+"category": "Gandhian",
+"difficulty": "Hard",
+"question": "The promotion of co-operative societies (Article 43B) added by 97th Amendment focuses on which aspect?",
+"options": {
+"A": "Government control",
+"B": "Voluntary formation, autonomous functioning, democratic control and professional management",
+"C": "Profit maximization only",
+"D": "Urban development only"
+},
+"correct_option": "B",
+"explanation": "Article 43B states: 'The State shall promote voluntary formation, autonomous functioning, democratic control and professional management of co-operative societies.' This emphasizes democratic and professional management rather than government control.",
+"explanation_A": "Article 43B emphasizes autonomy, not government control.",
+"explanation_B": "Correct. Article 43B specifically mentions voluntary formation, autonomous functioning, democratic control and professional management.",
+"explanation_C": "Article 43B is about democratic management, not just profit maximization.",
+"explanation_D": "Article 43B applies to cooperatives in general, not limited to urban development."
+},
+{
+"id": 93,
+"category": "Liberal_Intellectual",
+"difficulty": "Hard",
+"question": "The phrase 'declare by or under law made by Parliament' in Article 49 refers to:",
+"options": {
+"A": "Monuments already declared by government",
+"B": "Parliament's power to declare monuments of national importance",
+"C": "State government's declaration power",
+"D": "Judicial declaration"
+},
+"correct_option": "B",
+"explanation": "Article 49 states: 'declared by or under law made by Parliament to be of national importance.' This gives Parliament the power to declare monuments and places as being of national importance, and protect them from spoliation, destruction, etc.",
+"explanation_A": "Article 49 gives Parliament the power to declare, not protect existing declarations.",
+"explanation_B": "Correct. Article 49 specifically gives Parliament power to declare monuments of national importance.",
+"explanation_C": "Article 49 gives power to Parliament, not state governments.",
+"explanation_D": "Article 49 gives legislative power to Parliament, not judicial declaration."
+},
+{
+"id": 94,
+"category": "Socialistic",
+"difficulty": "Hard",
+"question": "The Fundamental Duties added in 1976 were criticized for being:",
+"options": {
+"A": "Too detailed and specific",
+"B": "Moral precepts that cannot be enforced",
+"C": "Only applicable to government employees",
+"D": "Too progressive for Indian society"
+},
+"correct_option": "B",
+"explanation": "Fundamental Duties were criticized for being moral precepts that cannot be enforced by courts, making them ineffective. Critics argued that they should have legal sanctions or be made justiciable to ensure compliance.",
+"explanation_A": "Fundamental Duties are not criticized for being too detailed.",
+"explanation_B": "Correct. Fundamental Duties were criticized for being unenforceable moral precepts.",
+"explanation_C": "Fundamental Duties apply to all citizens, not just government employees.",
+"explanation_D": "Fundamental Duties were not criticized for being too progressive."
+},
+{
+"id": 95,
+"category": "Implementation",
+"difficulty": "Hard",
+"question": "Which judicial principle was established to resolve conflicts between Fundamental Rights and Directive Principles?",
+"options": {
+"A": "Absolute primacy doctrine",
+"B": "Harmonious construction principle",
+"C": "Emergency supremacy doctrine",
+"D": "Parliamentary sovereignty doctrine"
+},
+"correct_option": "B",
+"explanation": "The Supreme Court established the principle of harmonious construction to resolve conflicts between Fundamental Rights and Directive Principles. This requires reading both provisions together to give effect to each other rather than in isolation or conflict.",
+"explanation_A": "The Court rejected absolute primacy of either rights or directives.",
+"explanation_B": "Correct. Harmonious construction principle was established to balance FRs and DPSPs.",
+"explanation_C": "Emergency provisions don't establish supremacy over fundamental provisions.",
+"explanation_D": "Parliamentary sovereignty is limited by basic structure doctrine."
+},
+{
+"id": 96,
+"category": "Socialistic",
+"difficulty": "Hard",
+"question": "Article 43 mentions living wage, conditions ensuring decent standard of life and full enjoyment of leisure and social and cultural opportunities, particularly emphasizing:",
+"options": {
+"A": "Industrial workers only",
+"B": "Agricultural workers only", 
+"C": "All workers including agricultural, industrial or otherwise",
+"D": "Government employees only"
+},
+"correct_option": "C",
+"explanation": "Article 43 specifically states: 'to all workers, agricultural, industrial or otherwise, work, a living wage, conditions of work ensuring a decent standard of life and full enjoyment of leisure and social and cultural opportunities.'",
+"explanation_A": "Article 43 covers all workers, not just industrial workers.",
+"explanation_B": "Article 43 covers all workers, not just agricultural workers.",
+"explanation_C": "Correct. Article 43 explicitly covers 'all workers, agricultural, industrial or otherwise.'",
+"explanation_D": "Article 43 covers all workers, not just government employees."
+},
+{
+"id": 97,
+"category": "Gandhian",
+"difficulty": "Hard",
+"question": "The concept of 'scientific lines' in Article 48 refers to:",
+"options": {
+"A": "Modern scientific methods only",
+"B": "Scientific methods for agriculture and animal husbandry",
+"C": "Computer-based agriculture",
+"D": "Scientific research in all fields"
+},
+"correct_option": "B",
+"explanation": "Article 48 states that the State shall endeavour to organise agriculture and animal husbandry on modern and scientific lines, specifically referring to scientific methods for improving agriculture and animal husbandry, including cattle breeds.",
+"explanation_A": "Article 48 is specific to agriculture and animal husbandry, not all scientific methods.",
+"explanation_B": "Correct. Article 48 refers to scientific methods specifically for agriculture and animal husbandry.",
+"explanation_C": "Article 48 doesn't specifically mention computer-based agriculture.",
+"explanation_D": "Article 48 focuses on agriculture and animal husbandry, not all scientific research."
+},
+{
+"id": 98,
+"category": "Liberal_Intellectual",
+"difficulty": "Hard",
+"question": "Article 50 requires separation of judiciary from executive in:",
+"options": {
+"A": "All government services",
+"B": "Public services of the State",
+"C": "Only judiciary services",
+"D": "Only administrative services"
+},
+"correct_option": "B",
+"explanation": "Article 50 states: 'The State shall take steps to separate the judiciary from the executive in the public services of the State.' This applies to all public services of the State, not just specific services.",
+"explanation_A": "Article 50 applies to public services, not all government services generally.",
+"explanation_B": "Correct. Article 50 specifically mentions 'public services of the State.'",
+"explanation_C": "Article 50 applies to separation from executive in all public services, not just judiciary services.",
+"explanation_D": "Article 50 applies to all public services, not just administrative services."
+},
+{
+"id": 99,
+"category": "Socialistic",
+"difficulty": "Hard",
+"question": "The phrase 'noble ideals which inspired our national struggle for freedom' in Fundamental Duty (b) refers to:",
+"options": {
+"A": "Only non-violent resistance",
+"B": "Values of freedom, equality, justice and fraternity",
+"C": "Specific political ideologies",
+"D": "Religious teachings"
+},
+"correct_option": "B",
+"explanation": "Fundamental Duty (b) refers to 'noble ideals which inspired our national struggle for freedom,' which encompasses the values of freedom, equality, justice, fraternity, and the broader vision of building an egalitarian society that motivated the freedom movement.",
+"explanation_A": "While non-violence was important, the ideals encompass broader principles.",
+"explanation_B": "Correct. Duty (b) refers to comprehensive values of freedom, equality, justice, and fraternity.",
+"explanation_C": "The ideals are not limited to specific political ideologies.",
+"explanation_D": "The ideals are secular constitutional values, not religious teachings."
+},
+{
+"id": 100,
+"category": "Implementation",
+"difficulty": "Hard",
+"question": "The modern approach to implementing Directive Principles emphasizes:",
+"options": {
+"A": "Legal enforcement through courts",
+"B": "Gradual implementation through legislative and executive action",
+"C": "Ignoring them as aspirational only",
+"D": "Implementation only during emergency"
+},
+"correct_option": "B",
+"explanation": "Modern approach to DPSPs emphasizes gradual implementation through legislative and executive action, recognizing their non-justiciable nature but their importance in guiding policy-making and governance. This includes creating schemes, laws, and institutions to progressively fulfill these directives.",
+"explanation_A": "DPSPs are non-justiciable, so legal enforcement through courts is not the approach.",
+"explanation_B": "Correct. Modern approach emphasizes gradual implementation through legislative and executive action.",
+"explanation_C": "DPSPs are not ignored as they provide important policy guidance.",
+"explanation_D": "DPSPs apply at all times, not just during emergency."
+}
+]

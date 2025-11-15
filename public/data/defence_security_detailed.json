@@ -1,0 +1,752 @@
+[
+  {
+    "id": 1,
+    "question": "What do we call the group that protects our whole country?",
+    "options": ["The fire department", "The military", "The postal service"],
+    "correct_answer": "The military",
+    "explanation": "The military is like a big team of community protectors, with different branches working together like helpers in a town.",
+    "difficulty": "beginner",
+    "topic_tags": ["defense", "basics", "military"],
+    "hint": "Think about the people who protect our whole country, not just one neighborhood."
+  },
+  {
+    "id": 2,
+    "question": "Why do countries have military forces?",
+    "options": ["To make other countries angry", "To protect people and keep peace", "To travel to other planets"],
+    "correct_answer": "To protect people and keep peace",
+    "explanation": "Just like a neighborhood watch helps keep everyone safe, a military protects the whole country and helps prevent problems.",
+    "difficulty": "beginner",
+    "topic_tags": ["defense", "basics", "peace"],
+    "hint": "What do you do when you want to keep your friends safe from trouble?"
+  },
+  {
+    "id": 3,
+    "question": "What is the main job of a military?",
+    "options": ["To build schools", "To defend the country and help during disasters", "To grow food"],
+    "correct_answer": "To defend the country and help during disasters",
+    "explanation": "Like a family protects their home and helps neighbors during emergencies, the military protects the country and assists during disasters.",
+    "difficulty": "beginner",
+    "topic_tags": ["defense", "basics", "protection"],
+    "hint": "Think about what keeps a whole country safe from danger."
+  },
+  {
+    "id": 4,
+    "question": "Which of these is most like military service?",
+    "options": ["Being a teacher", "Being a security guard", "Being a baker"],
+    "correct_answer": "Being a security guard",
+    "explanation": "Security guards protect buildings and people, just like military members protect the country and its citizens.",
+    "difficulty": "beginner",
+    "topic_tags": ["defense", "basics", "protection"],
+    "hint": "Who keeps places safe from trouble?"
+  },
+  {
+    "id": 5,
+    "question": "What is meant by 'national security'?",
+    "options": ["Having lots of money", "Keeping the country safe from threats", "Having many soldiers"],
+    "correct_answer": "Keeping the country safe from threats",
+    "explanation": "National security is like making sure your school is safe from bullies - but for an entire country.",
+    "difficulty": "beginner",
+    "topic_tags": ["defense", "basics", "security"],
+    "hint": "What keeps a whole country protected from danger?"
+  },
+  {
+    "id": 6,
+    "question": "How do countries work together for security?",
+    "options": ["They compete with each other", "They make friends and agreements", "They ignore each other"],
+    "correct_answer": "They make friends and agreements",
+    "explanation": "Like kids in a playground making rules together so everyone plays nicely, countries make agreements to help keep peace.",
+    "difficulty": "intermediate",
+    "topic_tags": ["defense", "basics", "cooperation"],
+    "hint": "How do friends usually solve problems together?"
+  },
+  {
+    "id": 7,
+    "question": "What is the difference between offense and defense in military terms?",
+    "options": ["Offense attacks, defense protects", "They are the same thing", "Offense protects, defense attacks"],
+    "correct_answer": "Offense attacks, defense protects",
+    "explanation": "In sports, offense tries to score points while defense tries to stop the other team from scoring - it's similar in military thinking.",
+    "difficulty": "intermediate",
+    "topic_tags": ["defense", "basics", "strategy"],
+    "hint": "In soccer, which team tries to score and which tries to prevent scoring?"
+  },
+  {
+    "id": 8,
+    "question": "What is a 'threat' in national security?",
+    "options": ["A happy person", "Something that could cause harm", "A friendly neighbor"],
+    "correct_answer": "Something that could cause harm",
+    "explanation": "Like identifying a safety hazard in your classroom, a threat is something that could cause problems for a country.",
+    "difficulty": "intermediate",
+    "topic_tags": ["defense", "basics", "threats"],
+    "hint": "What might cause problems or danger for a country?"
+  },
+  {
+    "id": 9,
+    "question": "Why do military members wear uniforms?",
+    "options": ["Because they like the color", "To show they serve the country and to identify each other", "To confuse enemies"],
+    "correct_answer": "To show they serve the country and to identify each other",
+    "explanation": "Like sports teams wear uniforms to show they belong to a team, military uniforms show someone serves their country.",
+    "difficulty": "intermediate",
+    "topic_tags": ["military", "uniforms", "identity"],
+    "hint": "What do uniforms help people recognize?"
+  },
+  {
+    "id": 10,
+    "question": "What is the chain of command?",
+    "options": ["A line of people giving orders from top to bottom", "A line at the cafeteria", "A physical chain"],
+    "correct_answer": "A line of people giving orders from top to bottom",
+    "explanation": "Like a teacher-to-principal line in a school, the chain of command shows how orders flow in the military from leaders to soldiers.",
+    "difficulty": "intermediate",
+    "topic_tags": ["military", "organization", "leadership"],
+    "hint": "How do important decisions flow through an organization?"
+  },
+  {
+    "id": 11,
+    "question": "What is the main job of the Army?",
+    "options": ["To fly airplanes", "To fight on land and protect borders", "To sail ships"],
+    "correct_answer": "To fight on land and protect borders",
+    "explanation": "The Army is like a big security team that walks and drives around to protect the land borders of their country.",
+    "difficulty": "beginner",
+    "topic_tags": ["army", "land", "protection"],
+    "hint": "Which military branch works mostly on the ground?"
+  },
+  {
+    "id": 12,
+    "question": "What do Army soldiers use to travel?",
+    "options": ["Airplanes and helicopters", "Tanks, trucks, and they walk", "Ships and submarines"],
+    "correct_answer": "Tanks, trucks, and they walk",
+    "explanation": "Army soldiers are like groundskeepers with big vehicles - they use tanks, trucks, and march on foot to move around.",
+    "difficulty": "beginner",
+    "topic_tags": ["army", "equipment", "transportation"],
+    "hint": "What would you use to travel around on land?"
+  },
+  {
+    "id": 13,
+    "question": "Where do most Army soldiers work?",
+    "options": ["In the air", "On land and in bases", "On ships"],
+    "correct_answer": "On land and in bases",
+    "explanation": "Army soldiers are like land-based security guards who work from military bases and patrol the country's land areas.",
+    "difficulty": "beginner",
+    "topic_tags": ["army", "land", "bases"],
+    "hint": "Where would ground-based protectors mainly work?"
+  },
+  {
+    "id": 14,
+    "question": "What is a 'drill' in Army training?",
+    "options": ["A hole in the ground", "Practice and repetition of skills", "A tool for making holes"],
+    "correct_answer": "Practice and repetition of skills",
+    "explanation": "Just like practicing math problems over and over, Army drills are practice sessions where soldiers learn important skills.",
+    "difficulty": "beginner",
+    "topic_tags": ["army", "training", "drills"],
+    "hint": "What do you call it when you practice something many times to get better?"
+  },
+  {
+    "id": 15,
+    "question": "What is an Army base?",
+    "options": ["A place where Army soldiers live and work", "A mathematical term", "A type of mountain"],
+    "correct_answer": "A place where Army soldiers live and work",
+    "explanation": "An Army base is like a big campus where soldiers live, train, and work - similar to how teachers work at a school.",
+    "difficulty": "intermediate",
+    "topic_tags": ["army", "bases", "facilities"],
+    "hint": "Where do soldiers go to live and train when not deployed?"
+  },
+  {
+    "id": 16,
+    "question": "What do Army engineers do?",
+    "options": ["They fight with swords", "They build bridges, roads, and fix equipment", "They fly helicopters"],
+    "correct_answer": "They build bridges, roads, and fix equipment",
+    "explanation": "Army engineers are like the construction crew of the military - they build and fix important infrastructure.",
+    "difficulty": "intermediate",
+    "topic_tags": ["army", "engineering", "construction"],
+    "hint": "What would you call soldiers who build and fix things?"
+  },
+  {
+    "id": 17,
+    "question": "What is a 'formation' in the Army?",
+    "options": ["A type of weather", "Soldiers standing or moving in an organized pattern", "A building design"],
+    "correct_answer": "Soldiers standing or moving in an organized pattern",
+    "explanation": "Formation is like a choreographed dance where soldiers move together in organized lines and patterns.",
+    "difficulty": "intermediate",
+    "topic_tags": ["army", "organization", "movement"],
+    "hint": "What do you call it when people move together in a coordinated way?"
+  },
+  {
+    "id": 18,
+    "question": "What is the role of Army reconnaissance?",
+    "options": ["To gather information about enemy positions", "To cook food for soldiers", "To fix broken equipment"],
+    "correct_answer": "To gather information about enemy positions",
+    "explanation": "Reconnaissance is like being a detective - Army scouts gather information to help keep their fellow soldiers safe.",
+    "difficulty": "intermediate",
+    "topic_tags": ["army", "reconnaissance", "intelligence"],
+    "hint": "What do you call finding out information about something?"
+  },
+  {
+    "id": 19,
+    "question": "How do Army units communicate?",
+    "options": ["By telepathy", "By radio and other communication devices", "By shouting very loudly"],
+    "correct_answer": "By radio and other communication devices",
+    "explanation": "Army units use radios and other devices to talk to each other, like walkie-talkies that help them stay in touch during missions.",
+    "difficulty": "intermediate",
+    "topic_tags": ["army", "communication", "technology"],
+    "hint": "How do people in different places usually talk to each other?"
+  },
+  {
+    "id": 20,
+    "question": "What is logistics in the Army?",
+    "options": ["Making sure soldiers have food, equipment, and supplies", "Fighting battles", "Flying airplanes"],
+    "correct_answer": "Making sure soldiers have food, equipment, and supplies",
+    "explanation": "Logistics is like being the person who makes sure the school cafeteria has enough food and the art class has enough supplies.",
+    "difficulty": "intermediate",
+    "topic_tags": ["army", "logistics", "supplies"],
+    "hint": "What do you call making sure everyone has what they need?"
+  },
+  {
+    "id": 21,
+    "question": "What is combined arms warfare?",
+    "options": ["When only one type of soldier fights", "When different types of units work together", "When soldiers fight with sticks and stones"],
+    "correct_answer": "When different types of units work together",
+    "explanation": "Combined arms is like a sports team where different players with different skills work together to win - infantry, tanks, artillery, and support all coordinate.",
+    "difficulty": "advanced",
+    "topic_tags": ["army", "strategy", "coordination"],
+    "hint": "What do you call it when different specialists work as a team?"
+  },
+  {
+    "id": 22,
+    "question": "What is the difference between regular Army and special forces?",
+    "options": ["There is no difference", "Special forces receive extra training for special missions", "Regular Army is better trained"],
+    "correct_answer": "Special forces receive extra training for special missions",
+    "explanation": "Special forces are like the star athletes of the military - they get special training for very difficult and important missions.",
+    "difficulty": "advanced",
+    "topic_tags": ["army", "special-forces", "training"],
+    "hint": "Who usually gets the most advanced training in any field?"
+  },
+  {
+    "id": 23,
+    "question": "What is civil affairs in the Army?",
+    "options": ["Helping civilians and communities", "Fighting wars", "Building weapons"],
+    "correct_answer": "Helping civilians and communities",
+    "explanation": "Civil affairs is like being a helpful neighbor - Army members work to help local communities and support local people.",
+    "difficulty": "advanced",
+    "topic_tags": ["army", "civil-affairs", "community-help"],
+    "hint": "What do you call helping people in the community?"
+  },
+  {
+    "id": 24,
+    "question": "What is the role of military police in the Army?",
+    "options": ["To catch criminals within the military", "To fly airplanes", "To build roads"],
+    "correct_answer": "To catch criminals within the military",
+    "explanation": "Military police are like security guards on a military base - they help keep order and safety among military personnel.",
+    "difficulty": "advanced",
+    "topic_tags": ["army", "military-police", "law-enforcement"],
+    "hint": "Who keeps order and safety in a community?"
+  },
+  {
+    "id": 25,
+    "question": "What is the main job of the Navy?",
+    "options": ["To fight on land", "To protect seas and coastlines", "To fly in the sky"],
+    "correct_answer": "To protect seas and coastlines",
+    "explanation": "The Navy is like the coast guard of the world - they patrol the oceans and protect coastal areas and shipping lanes.",
+    "difficulty": "beginner",
+    "topic_tags": ["navy", "sea", "protection"],
+    "hint": "Which military branch works mainly on water?"
+  },
+  {
+    "id": 26,
+    "question": "What do Navy sailors do on ships?",
+    "options": ["They only swim", "They operate and maintain naval vessels", "They drive cars"],
+    "correct_answer": "They operate and maintain naval vessels",
+    "explanation": "Navy sailors are like the crew of a very large ship - they work together to operate and take care of their ship.",
+    "difficulty": "beginner",
+    "topic_tags": ["navy", "sailors", "ships"],
+    "hint": "What do people who work on ships usually do?"
+  },
+  {
+    "id": 27,
+    "question": "What is a 'submarine'?",
+    "options": ["A type of fish", "A ship that can travel underwater", "A type of airplane"],
+    "correct_answer": "A ship that can travel underwater",
+    "explanation": "A submarine is like a secret underwater vehicle - it can dive deep below the ocean surface and travel hidden from view.",
+    "difficulty": "beginner",
+    "topic_tags": ["navy", "submarines", "underwater"],
+    "hint": "What kind of ship can go underwater?"
+  },
+  {
+    "id": 28,
+    "question": "What is a 'carrier' in the Navy?",
+    "options": ["Someone who carries things", "A large ship that carries airplanes", "A type of truck"],
+    "correct_answer": "A large ship that carries airplanes",
+    "explanation": "An aircraft carrier is like a floating airport - it's a huge ship designed to carry and launch airplanes.",
+    "difficulty": "beginner",
+    "topic_tags": ["navy", "aircraft-carrier", "planes"],
+    "hint": "What would you call a ship that carries airplanes?"
+  },
+  {
+    "id": 29,
+    "question": "Where do most Navy personnel work?",
+    "options": ["In the desert", "On ships and naval bases", "In the mountains"],
+    "correct_answer": "On ships and naval bases",
+    "explanation": "Navy personnel work on ships or at naval bases by the ocean, much like fishermen work near the water.",
+    "difficulty": "beginner",
+    "topic_tags": ["navy", "ships", "bases"],
+    "hint": "Where would ocean-based protectors mainly work?"
+  },
+  {
+    "id": 30,
+    "question": "What is naval aviation?",
+    "options": ["Navy airplanes that fly from ships", "Swimming in the Navy", "Navy boats"],
+    "correct_answer": "Navy airplanes that fly from ships",
+    "explanation": "Naval aviation is like having a flying team on a ship - Navy pilots fly airplanes that take off from aircraft carriers.",
+    "difficulty": "intermediate",
+    "topic_tags": ["navy", "aviation", "aircraft"],
+    "hint": "What do you call airplanes that belong to the Navy?"
+  },
+  {
+    "id": 31,
+    "question": "What is a 'naval base'?",
+    "options": ["A type of playground", "A place where Navy ships and sailors are based", "A mathematical term"],
+    "correct_answer": "A place where Navy ships and sailors are based",
+    "explanation": "A naval base is like a home port for Navy ships - it's where ships dock, get supplies, and sailors rest between missions.",
+    "difficulty": "intermediate",
+    "topic_tags": ["navy", "bases", "ports"],
+    "hint": "Where do ships go to rest and get supplies?"
+  },
+  {
+    "id": 32,
+    "question": "What is the role of Navy SEALs?",
+    "options": ["To cook food for sailors", "To conduct special operations on water and land", "To repair ships"],
+    "correct_answer": "To conduct special operations on water and land",
+    "explanation": "Navy SEALs are like underwater special agents - they're highly trained Navy members who can operate in water, on land, and in the air.",
+    "difficulty": "intermediate",
+    "topic_tags": ["navy", "seals", "special-operations"],
+    "hint": "What do you call Navy special forces who work in water?"
+  },
+  {
+    "id": 33,
+    "question": "What is a 'fleet' in the Navy?",
+    "options": ["A type of bird", "A group of Navy ships working together", "A type of car"],
+    "correct_answer": "A group of Navy ships working together",
+    "explanation": "A fleet is like a team of ships - a group of naval vessels that work together for common missions.",
+    "difficulty": "intermediate",
+    "topic_tags": ["navy", "fleet", "coordination"],
+    "hint": "What do you call a group of ships that work together?"
+  },
+  {
+    "id": 34,
+    "question": "How do Navy ships navigate the ocean?",
+    "options": ["By following birds", "By using GPS, maps, and navigation equipment", "By guessing"],
+    "correct_answer": "By using GPS, maps, and navigation equipment",
+    "explanation": "Navy ships use special equipment like GPS and charts to find their way across the ocean, like how you use a map to find directions.",
+    "difficulty": "intermediate",
+    "topic_tags": ["navy", "navigation", "technology"],
+    "hint": "How do you usually find your way when traveling somewhere new?"
+  },
+  {
+    "id": 35,
+    "question": "What is a 'minesweeper' in the Navy?",
+    "options": ["Someone who sweeps floors", "A ship that removes underwater mines", "A type of broom"],
+    "correct_answer": "A ship that removes underwater mines",
+    "explanation": "A minesweeper is like a cleanup crew for the ocean - it finds and safely removes dangerous underwater explosives.",
+    "difficulty": "intermediate",
+    "topic_tags": ["navy", "minesweeper", "safety"],
+    "hint": "What would you call something that cleans up dangerous items?"
+  },
+  {
+    "id": 36,
+    "question": "What is anti-submarine warfare?",
+    "options": ["Fighting submarines", "Befriending submarines", "Building submarines"],
+    "correct_answer": "Fighting submarines",
+    "explanation": "Anti-submarine warfare is like playing hide-and-seek with submarines - Navy forces work to find and counter enemy submarines.",
+    "difficulty": "advanced",
+    "topic_tags": ["navy", "submarines", "warfare"],
+    "hint": "What do you call protecting against underwater threats?"
+  },
+  {
+    "id": 37,
+    "question": "What is the strategic role of naval power?",
+    "options": ["To control sea lanes and project power", "To clean the ocean", "To catch fish"],
+    "correct_answer": "To control sea lanes and project power",
+    "explanation": "Naval power is like controlling the highways of the ocean - it helps protect trade routes and shows strength around the world.",
+    "difficulty": "advanced",
+    "topic_tags": ["navy", "strategy", "power"],
+    "hint": "Why is having a strong Navy important for international influence?"
+  },
+  {
+    "id": 38,
+    "question": "What is the role of Navy chaplains?",
+    "options": ["To cook meals", "To provide spiritual and emotional support", "To repair equipment"],
+    "correct_answer": "To provide spiritual and emotional support",
+    "explanation": "Navy chaplains are like counselors and spiritual guides - they help sailors with personal problems and provide comfort.",
+    "difficulty": "advanced",
+    "topic_tags": ["navy", "chaplains", "support"],
+    "hint": "Who helps people with personal and spiritual needs?"
+  },
+  {
+    "id": 39,
+    "question": "What is the main job of the Air Force?",
+    "options": ["To fight on land", "To protect the skies and provide air power", "To sail on water"],
+    "correct_answer": "To protect the skies and provide air power",
+    "explanation": "The Air Force is like air traffic controllers and pilots combined - they protect airspace and can deliver help from the sky.",
+    "difficulty": "beginner",
+    "topic_tags": ["airforce", "air", "protection"],
+    "hint": "Which military branch works mainly in the air?"
+  },
+  {
+    "id": 40,
+    "question": "What do Air Force pilots do?",
+    "options": ["They drive boats", "They fly aircraft to protect and serve", "They work in offices only"],
+    "correct_answer": "They fly aircraft to protect and serve",
+    "explanation": "Air Force pilots are like specialized bus drivers of the sky - they fly different types of aircraft to transport people and supplies, and to protect the country.",
+    "difficulty": "beginner",
+    "topic_tags": ["airforce", "pilots", "aircraft"],
+    "hint": "What do you call people who fly airplanes professionally?"
+  },
+  {
+    "id": 41,
+    "question": "What is an 'airbase'?",
+    "options": ["A type of air freshener", "A place where Air Force aircraft are based", "A type of car"],
+    "correct_answer": "A place where Air Force aircraft are based",
+    "explanation": "An airbase is like a big parking lot and garage for airplanes - it's where Air Force planes take off, land, and get maintained.",
+    "difficulty": "beginner",
+    "topic_tags": ["airforce", "airbase", "facilities"],
+    "hint": "Where do airplanes go to park and get serviced?"
+  },
+  {
+    "id": 42,
+    "question": "What is a 'fighter jet'?",
+    "options": ["A fast airplane for combat", "A slow cargo plane", "A type of helicopter"],
+    "correct_answer": "A fast airplane for combat",
+    "explanation": "A fighter jet is like a sports car of the sky - it's a fast, maneuverable aircraft designed to protect airspace and engage in aerial combat.",
+    "difficulty": "beginner",
+    "topic_tags": ["airforce", "fighter-jets", "aircraft"],
+    "hint": "What kind of airplane is built for speed and aerial combat?"
+  },
+  {
+    "id": 43,
+    "question": "What do cargo planes do?",
+    "options": ["Carry passengers only", "Transport troops, equipment, and supplies", "Fly in races"],
+    "correct_answer": "Transport troops, equipment, and supplies",
+    "explanation": "Cargo planes are like flying trucks - they transport important goods, equipment, and sometimes people to where they're needed.",
+    "difficulty": "beginner",
+    "topic_tags": ["airforce", "cargo-planes", "transportation"],
+    "hint": "What would you call airplanes that carry supplies and equipment?"
+  },
+  {
+    "id": 44,
+    "question": "What is the role of Air Force weather services?",
+    "options": ["To predict the weather for flight safety", "To create weather", "To ignore weather"],
+    "correct_answer": "To predict the weather for flight safety",
+    "explanation": "Air Force weather services are like weather reporters for pilots - they help ensure flights are safe by monitoring weather conditions.",
+    "difficulty": "intermediate",
+    "topic_tags": ["airforce", "weather", "safety"],
+    "hint": "Why is knowing the weather important for flying?"
+  },
+  {
+    "id": 45,
+    "question": "What is an 'air traffic control' equivalent in the Air Force?",
+    "options": ["They don't need it", "Ground controllers who guide aircraft", "They use telepathy"],
+    "correct_answer": "Ground controllers who guide aircraft",
+    "explanation": "Air Force air traffic control is like the nervous system of flight operations - controllers on the ground guide aircraft safely.",
+    "difficulty": "intermediate",
+    "topic_tags": ["airforce", "air-traffic-control", "coordination"],
+    "hint": "Who helps guide aircraft safely during takeoff and landing?"
+  },
+  {
+    "id": 46,
+    "question": "What is the role of Air Force intelligence?",
+    "options": ["To gather information about airspace and threats", "To cook meals", "To repair aircraft"],
+    "correct_answer": "To gather information about airspace and threats",
+    "explanation": "Air Force intelligence is like being detective of the skies - they collect and analyze information to help keep air operations safe.",
+    "difficulty": "intermediate",
+    "topic_tags": ["airforce", "intelligence", "information"],
+    "hint": "What do you call finding out important information about something?"
+  },
+  {
+    "id": 47,
+    "question": "What is close air support?",
+    "options": ["Air support for ground troops", "Air support for buildings", "Air support for animals"],
+    "correct_answer": "Air support for ground troops",
+    "explanation": "Close air support is like having an aerial backup team - aircraft provide help to ground soldiers who are in need of additional support.",
+    "difficulty": "intermediate",
+    "topic_tags": ["airforce", "close-air-support", "coordination"],
+    "hint": "What would you call help from the sky for ground forces?"
+  },
+  {
+    "id": 48,
+    "question": "What is the difference between Air Force and Army aviation?",
+    "options": ["There is no difference", "Air Force specializes in air operations, Army supports ground missions", "Army flies better"],
+    "correct_answer": "Air Force specializes in air operations, Army supports ground missions",
+    "explanation": "Air Force aviation is like having professional pilots as your main job, while Army aviation is like having pilots who mainly support ground operations.",
+    "difficulty": "intermediate",
+    "topic_tags": ["airforce", "army", "aviation"],
+    "hint": "How do the roles of pilots differ between Air Force and Army?"
+  },
+  {
+    "id": 49,
+    "question": "What is the role of Air Force rescue operations?",
+    "options": ["To rescue people in emergencies", "To rescue animals only", "To rescue buildings"],
+    "correct_answer": "To rescue people in emergencies",
+    "explanation": "Air Force rescue operations are like having superhero pilots - they fly specialized aircraft to save people in dangerous situations.",
+    "difficulty": "intermediate",
+    "topic_tags": ["airforce", "rescue", "emergency"],
+    "hint": "What do you call saving people from dangerous situations?"
+  },
+  {
+    "id": 50,
+    "question": "What is the Strategic Air Command?",
+    "options": ["A restaurant chain", "Command that controls strategic bombers and missiles", "A type of airplane"],
+    "correct_answer": "Command that controls strategic bombers and missiles",
+    "explanation": "Strategic Air Command is like the brain of long-range air power - they control aircraft and missiles that can travel very far to complete important missions.",
+    "difficulty": "advanced",
+    "topic_tags": ["airforce", "strategic-command", "command-structure"],
+    "hint": "What do you call the command that controls long-range military aircraft?"
+  },
+  {
+    "id": 51,
+    "question": "What is space force in relation to Air Force?",
+    "options": ["It's the same thing", "A separate branch focused on space operations", "A type of airplane"],
+    "correct_answer": "A separate branch focused on space operations",
+    "explanation": "Space Force is like a specialized team for space - it was created to focus specifically on operations in space, while Air Force focuses more on Earth's atmosphere.",
+    "difficulty": "advanced",
+    "topic_tags": ["space-force", "airforce", "space"],
+    "hint": "What would you call a military branch that specializes in space?"
+  },
+  {
+    "id": 52,
+    "question": "What is electronic warfare in the Air Force?",
+    "options": ["Fighting with electronics", "Using electronic systems to disrupt enemy communications", "Playing electronic games"],
+    "correct_answer": "Using electronic systems to disrupt enemy communications",
+    "explanation": "Electronic warfare is like being a tech expert who can disrupt enemy communications using electronic equipment - it's a non-violent way to gain advantage.",
+    "difficulty": "advanced",
+    "topic_tags": ["airforce", "electronic-warfare", "technology"],
+    "hint": "What would you call using technology to disrupt enemy communications?"
+  },
+  {
+    "id": 53,
+    "question": "Who controls the military in a democracy?",
+    "options": ["The military controls itself", "Civilian leaders elected by the people", "The strongest general"],
+    "correct_answer": "Civilian leaders elected by the people",
+    "explanation": "In a democracy, civilians who are elected by the people make decisions about the military, like how parents make rules for the household.",
+    "difficulty": "beginner",
+    "topic_tags": ["constitution", "civilian-control", "democracy"],
+    "hint": "Who usually makes the important decisions in a democratic country?"
+  },
+  {
+    "id": 54,
+    "question": "What is the Constitution?",
+    "options": ["A type of airplane", "The supreme law of a country that defines government structure", "A math formula"],
+    "correct_answer": "The supreme law of a country that defines government structure",
+    "explanation": "The Constitution is like the rulebook of a country - it explains how the government should work and protects people's rights.",
+    "difficulty": "beginner",
+    "topic_tags": ["constitution", "law", "government"],
+    "hint": "What do you call the main rulebook that explains how a government should work?"
+  },
+  {
+    "id": 55,
+    "question": "What is the role of the President/Commander-in-Chief?",
+    "options": ["To cook meals for the military", "To be the top civilian leader of the military", "To drive military vehicles"],
+    "correct_answer": "To be the top civilian leader of the military",
+    "explanation": "The Commander-in-Chief is like the team captain of the military - they're the top civilian who makes final decisions about military actions.",
+    "difficulty": "beginner",
+    "topic_tags": ["commander-in-chief", "civilian-control", "leadership"],
+    "hint": "Who is usually the top civilian leader in charge of the military?"
+  },
+  {
+    "id": 56,
+    "question": "What is the separation of powers?",
+    "options": ["Everyone has equal power", "Different branches of government have different roles", "Military has all the power"],
+    "correct_answer": "Different branches of government have different roles",
+    "explanation": "Separation of powers is like having different jobs in a group project - one group makes rules, one group carries out rules, and one group checks if rules are fair.",
+    "difficulty": "beginner",
+    "topic_tags": ["separation-of-powers", "government", "constitution"],
+    "hint": "What do you call it when different groups have different jobs in government?"
+  },
+  {
+    "id": 57,
+    "question": "What are the three branches of government?",
+    "options": ["Executive, Legislative, Judicial", "Army, Navy, Air Force", "Red, Blue, Green"],
+    "correct_answer": "Executive, Legislative, Judicial",
+    "explanation": "The three branches are like a three-person team - the Executive carries out laws, the Legislative makes laws, and the Judicial checks if laws are fair.",
+    "difficulty": "intermediate",
+    "topic_tags": ["branches-of-government", "separation-of-powers", "constitution"],
+    "hint": "What are the three main parts of government called?"
+  },
+  {
+    "id": 58,
+    "question": "What does 'judicial review' mean?",
+    "options": ["Judges review TV shows", "Courts can review if laws follow the Constitution", "Judges review restaurant menus"],
+    "correct_answer": "Courts can review if laws follow the Constitution",
+    "explanation": "Judicial review is like being the referee of laws - the judicial branch checks to make sure new laws follow the Constitution.",
+    "difficulty": "intermediate",
+    "topic_tags": ["judicial-review", "courts", "constitution"],
+    "hint": "What do you call when courts check if laws are constitutional?"
+  },
+  {
+    "id": 59,
+    "question": "What is the role of Congress/Parliament regarding the military?",
+    "options": ["To declare war and control military funding", "To cook meals for soldiers", "To drive military vehicles"],
+    "correct_answer": "To declare war and control military funding",
+    "explanation": "Congress/Parliament is like the money manager of the military - they decide when to use military force and how to fund it.",
+    "difficulty": "intermediate",
+    "topic_tags": ["congress", "military-funding", "war-powers"],
+    "hint": "Who usually decides when to go to war and how to pay for the military?"
+  },
+  {
+    "id": 60,
+    "question": "What is the role of the Supreme Court?",
+    "options": ["To make laws", "To interpret the Constitution and settle legal disputes", "To run the military"],
+    "correct_answer": "To interpret the Constitution and settle legal disputes",
+    "explanation": "The Supreme Court is like the ultimate referee of the law - they make final decisions about what the Constitution means.",
+    "difficulty": "intermediate",
+    "topic_tags": ["supreme-court", "constitution", "interpretation"],
+    "hint": "What do you call the highest court that interprets the Constitution?"
+  },
+  {
+    "id": 61,
+    "question": "What is the 'war powers resolution'?",
+    "options": ["A cooking recipe for war", "Rules about how the President can use military force", "A type of airplane"],
+    "correct_answer": "Rules about how the President can use military force",
+    "explanation": "War powers resolution is like a permission slip system - it sets rules for how the President can use military force and when they need Congress's approval.",
+    "difficulty": "advanced",
+    "topic_tags": ["war-powers", "presidential-powers", "congress"],
+    "hint": "What are rules called that limit how the President can use military force?"
+  },
+  {
+    "id": 62,
+    "question": "What is the role of military courts-martial?",
+    "options": ["To cook food", "To try military personnel for violations of military law", "To manage military bases"],
+    "correct_answer": "To try military personnel for violations of military law",
+    "explanation": "Courts-martial are like special courts for the military - they handle legal cases involving military members who break military rules.",
+    "difficulty": "advanced",
+    "topic_tags": ["courts-martial", "military-law", "justice"],
+    "hint": "What are special courts called that handle military legal cases?"
+  },
+  {
+    "id": 63,
+    "question": "What is modern military technology used for?",
+    "options": ["To make warfare more precise and reduce civilian harm", "To scare people", "To play games"],
+    "correct_answer": "To make warfare more precise and reduce civilian harm",
+    "explanation": "Modern military technology is like having better tools - it helps military forces be more accurate and protect innocent people better.",
+    "difficulty": "beginner",
+    "topic_tags": ["military-technology", "precision", "protection"],
+    "hint": "How does advanced technology help military operations?"
+  },
+  {
+    "id": 64,
+    "question": "What are 'drones' in military terms?",
+    "options": ["Flying insects", "Unmanned aircraft controlled remotely", "Type of bird"],
+    "correct_answer": "Unmanned aircraft controlled remotely",
+    "explanation": "Military drones are like RC airplanes that can fly dangerous missions - they're aircraft without pilots that can be controlled from far away.",
+    "difficulty": "beginner",
+    "topic_tags": ["drones", "unmanned-aircraft", "technology"],
+    "hint": "What do you call aircraft that fly without a pilot?"
+  },
+  {
+    "id": 65,
+    "question": "What is cyber warfare?",
+    "options": ["Fighting with computers and the internet", "Fighting in forests", "Fighting with swords"],
+    "correct_answer": "Fighting with computers and the internet",
+    "explanation": "Cyber warfare is like digital battles - countries use computers and internet skills to protect or disrupt computer systems.",
+    "difficulty": "intermediate",
+    "topic_tags": ["cyber-warfare", "internet", "digital-security"],
+    "hint": "What do you call fighting that happens using computers and networks?"
+  },
+  {
+    "id": 66,
+    "question": "What is GPS and how do militaries use it?",
+    "options": ["A video game", "Global Positioning System for navigation and targeting", "A type of food"],
+    "correct_answer": "Global Positioning System for navigation and targeting",
+    "explanation": "GPS is like a super-accurate map that uses satellites - militaries use it to navigate and target with great precision.",
+    "difficulty": "intermediate",
+    "topic_tags": ["gps", "satellites", "navigation"],
+    "hint": "What helps you find exact locations using satellites?"
+  },
+  {
+    "id": 67,
+    "question": "What is satellite technology used for in defense?",
+    "options": ["To watch TV", "Communication, surveillance, and navigation", "To play music"],
+    "correct_answer": "Communication, surveillance, and navigation",
+    "explanation": "Military satellites are like space-based helpers - they enable communication, provide images of Earth, and help with navigation.",
+    "difficulty": "intermediate",
+    "topic_tags": ["satellites", "communication", "surveillance"],
+    "hint": "What do you call objects in space that help with communication and imaging?"
+  },
+  {
+    "id": 68,
+    "question": "What is stealth technology?",
+    "options": ["Being very quiet", "Technology that makes aircraft harder to detect on radar", "Technology for being invisible"],
+    "correct_answer": "Technology that makes aircraft harder to detect on radar",
+    "explanation": "Stealth technology is like being a master of hide-and-seek - it makes military aircraft and ships very hard for enemy radar to detect.",
+    "difficulty": "intermediate",
+    "topic_tags": ["stealth-technology", "radar", "detection"],
+    "hint": "What do you call technology that makes something hard to detect?"
+  },
+  {
+    "id": 69,
+    "question": "What is precision-guided munitions?",
+    "options": ["Very accurate weapons that can hit specific targets", "Weapons that are very loud", "Weapons that are very heavy"],
+    "correct_answer": "Very accurate weapons that can hit specific targets",
+    "explanation": "Precision-guided munitions are like smart arrows - they're weapons designed to hit very specific targets and avoid causing unnecessary damage.",
+    "difficulty": "advanced",
+    "topic_tags": ["precision-weapons", "targeting", "accuracy"],
+    "hint": "What do you call weapons that can hit very specific targets?"
+  },
+  {
+    "id": 70,
+    "question": "What is the role of military medics?",
+    "options": ["To fight enemies", "To provide medical care to wounded soldiers", "To cook food"],
+    "correct_answer": "To provide medical care to wounded soldiers",
+    "explanation": "Military medics are like superhero doctors on the battlefield - they rush to help injured soldiers and provide life-saving medical care.",
+    "difficulty": "beginner",
+    "topic_tags": ["military-medics", "medical-care", "protection"],
+    "hint": "What do you call people who provide medical help during wars?"
+  },
+  {
+    "id": 71,
+    "question": "What is military logistics?",
+    "options": ["The planning and coordination of supplies and equipment", "Fighting battles", "Flying airplanes"],
+    "correct_answer": "The planning and coordination of supplies and equipment",
+    "explanation": "Military logistics is like being a supply manager for a big project - it makes sure soldiers have the food, equipment, and supplies they need.",
+    "difficulty": "intermediate",
+    "topic_tags": ["logistics", "supplies", "coordination"],
+    "hint": "What do you call making sure everyone has what they need for a mission?"
+  },
+  {
+    "id": 72,
+    "question": "What is the main goal of modern military operations?",
+    "options": ["To cause maximum destruction", "To achieve objectives with minimal harm and maximum precision", "To show off military power"],
+    "correct_answer": "To achieve objectives with minimal harm and maximum precision",
+    "explanation": "Modern military goals are like being a careful surgeon - the focus is on achieving the mission while protecting innocent people and minimizing damage.",
+    "difficulty": "advanced",
+    "topic_tags": ["military-objectives", "precision", "minimizing-harm"],
+    "hint": "What should be the main focus of military operations in modern times?"
+  },
+  {
+    "id": 73,
+    "question": "What should children do if they see something suspicious?",
+    "options": ["Ignore it completely", "Tell a trusted adult immediately", "Investigate it themselves"],
+    "correct_answer": "Tell a trusted adult immediately",
+    "explanation": "Just like telling a teacher if someone is being bullied, children should always report suspicious activities to adults who can help keep everyone safe.",
+    "difficulty": "beginner",
+    "topic_tags": ["safety", "community-safety", "reporting"],
+    "hint": "Who should you go to when you see something that doesn't seem right?"
+  },
+  {
+    "id": 74,
+    "question": "What is military cooperation between different countries called?",
+    "options": ["Military fighting", "Military alliances and cooperation", "Military competition"],
+    "correct_answer": "Military alliances and cooperation",
+    "explanation": "Military cooperation is like countries being on the same sports team - they work together to help keep peace and protect each other.",
+    "difficulty": "intermediate",
+    "topic_tags": ["military-cooperation", "alliances", "international-relations"],
+    "hint": "What do you call it when different countries work together militarily?"
+  },
+  {
+    "id": 75,
+    "question": "What is the most important principle of military ethics?",
+    "options": ["Winning at all costs", "Protecting civilians and following international law", "Showing off military strength"],
+    "correct_answer": "Protecting civilians and following international law",
+    "explanation": "Military ethics is like having good sportsmanship - even in difficult situations, military forces should always protect innocent people and follow fair rules.",
+    "difficulty": "advanced",
+    "topic_tags": ["military-ethics", "international-law", "protection"],
+    "hint": "What should always be the top priority when military forces make decisions?"
+  }
+]

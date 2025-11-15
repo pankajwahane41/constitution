@@ -1,0 +1,30 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - echo "Environment Information:"
+        - echo "Node version:" && node --version
+        - echo "NPM version:" && npm --version
+        - echo "Installing all dependencies (including devDependencies for build tools)..."
+        - npm ci
+        - echo "Dependencies installed successfully"
+    build:
+      commands:
+        - echo "Starting TypeScript compilation and Vite build..."
+        - echo "Available scripts:" && npm run
+        - npm run build:prod
+        - echo "Checking build output:"
+        - ls -la dist/
+        - echo "Build completed successfully!"
+  artifacts:
+    baseDirectory: dist
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*
+  environment:
+    variables:
+      NODE_ENV: production
+      BUILD_MODE: prod

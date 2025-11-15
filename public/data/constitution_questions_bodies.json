@@ -1,0 +1,1405 @@
+{
+  "title": "Constitutional Bodies and Commissions of India - 150 Questions",
+  "description": "A comprehensive collection of 150 questions covering important Constitutional Bodies and Commissions including their powers, functions, composition, and constitutional basis",
+  "total_questions": 150,
+  "constitutional_bodies": {
+    "election_commission": {
+      "name": "Election Commission of India",
+      "total_questions": 19,
+      "questions": [
+        {
+          "id": 1,
+          "question_type": "conceptual",
+          "difficulty": "easy",
+          "question": "Under which Article of the Constitution is the Election Commission of India established?",
+          "category": "Constitutional Basis",
+          "answer": "Article 324",
+          "explanation": "Article 324 of the Indian Constitution establishes the Election Commission of India with the power of superintendence, direction and control over all elections to Parliament and State Legislatures."
+        },
+        {
+          "id": 2,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "Who appoints the Chief Election Commissioner and other Election Commissioners?",
+          "category": "Appointment Process",
+          "answer": "The President of India appoints the Chief Election Commissioner and other Election Commissioners.",
+          "explanation": "The President of India, by warrant under his hand and seal, appoints the Chief Election Commissioner and other Election Commissioners based on the recommendation of the selection committee."
+        },
+        {
+          "id": 3,
+          "question_type": "application",
+          "difficulty": "medium",
+          "question": "What is the current composition of the Election Commission of India?",
+          "category": "Composition",
+          "answer": "The Election Commission consists of one Chief Election Commissioner and two Election Commissioners.",
+          "explanation": "The Election Commission was restored to a three-member body in 1993 (October 1st) comprising one Chief Election Commissioner and two Election Commissioners, which continues till date."
+        },
+        {
+          "id": 4,
+          "question_type": "conceptual",
+          "difficulty": "medium",
+          "question": "What does Article 325 of the Constitution guarantee regarding electoral rights?",
+          "category": "Constitutional Basis",
+          "answer": "Article 325 guarantees that no person shall be ineligible for inclusion in, or to claim to be included in, a special, electoral roll on grounds of religion, race, caste, sex or place of birth.",
+          "explanation": "Article 325 ensures equality in electoral participation by prohibiting discrimination based on religion, race, caste, sex, or place of birth in voter registration and participation."
+        },
+        {
+          "id": 5,
+          "question_type": "application",
+          "difficulty": "easy",
+          "question": "Which elections does the Election Commission conduct?",
+          "category": "Functions",
+          "answer": "The Election Commission conducts elections to Parliament, State Legislatures, and the offices of President and Vice-President.",
+          "explanation": "The ECI conducts elections to the Lok Sabha, Rajya Sabha, State Legislative Assemblies, State Legislative Councils, and the offices of President and Vice-President of India."
+        },
+        {
+          "id": 6,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What is the Model Code of Conduct and when is it enforced?",
+          "category": "Functions",
+          "answer": "The Model Code of Conduct is a set of rules for political parties and candidates during elections to ensure fair play, and it is enforced from the announcement of elections until the declaration of results.",
+          "explanation": "The MCC establishes guidelines for campaign behavior, use of public resources, and avoidance of provocative speech to create a fair playing field during elections."
+        },
+        {
+          "id": 7,
+          "question_type": "application",
+          "difficulty": "medium",
+          "question": "How does the Election Commission ensure electoral transparency?",
+          "category": "Functions",
+          "answer": "The ECI uses Electronic Voting Machines (EVMs) and Voter-Verified Paper Audit Trail (VVPAT) systems to ensure transparency in voting and counting.",
+          "explanation": "EVMs are manufactured by Bharat Electronics Limited and Electronics Corporation of India Limited, while VVPAT provides a paper receipt for verification of votes."
+        },
+        {
+          "id": 8,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What are EPICs and who is eligible for them?",
+          "category": "Citizen Interaction",
+          "answer": "EPICs (Electors Photo Identity Cards) are issued to eligible voters to prevent electoral fraud and ensure proper identification during voting.",
+          "explanation": "EPICs contain the photograph and details of the voter and help prevent impersonation during elections, enhancing the integrity of the electoral process."
+        },
+        {
+          "id": 9,
+          "question_type": "conceptual",
+          "difficulty": "hard",
+          "question": "What are the independence safeguards for the Chief Election Commissioner?",
+          "category": "Constitutional Basis",
+          "answer": "The CEC cannot be removed from office except in like manner and on like grounds as a Judge of the Supreme Court, and service conditions cannot be varied to disadvantage after appointment.",
+          "explanation": "These safeguards ensure the independence of the CEC, preventing removal except through impeachment by two-thirds majority in both Houses of Parliament on grounds of proved misbehaviour or incapacity."
+        },
+        {
+          "id": 10,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What is the procedure for removal of Election Commissioners?",
+          "category": "Removal Process",
+          "answer": "Election Commissioners can be removed by the President on the recommendation of the Chief Election Commissioner.",
+          "explanation": "This provision ensures that Election Commissioners can be removed for valid reasons, with the CEC playing a key role in the removal process."
+        },
+        {
+          "id": 11,
+          "question_type": "application",
+          "difficulty": "medium",
+          "question": "How does the Election Commission handle electoral disputes?",
+          "category": "Functions",
+          "answer": "The ECI acts as an arbitrator to resolve election-related issues through transparent and neutral hearings, examining complaints and ensuring fair conclusions.",
+          "explanation": "The Commission examines electoral malpractice complaints, holds hearings, and ensures fair conclusions in cases of alleged electoral violations or challenges to results."
+        },
+        {
+          "id": 12,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What is NOTA and when was it introduced?",
+          "category": "Functions",
+          "answer": "NOTA (None of the Above) is an option on voting machines that allows voters to reject all candidates, and it was introduced in 2014.",
+          "explanation": "NOTA was introduced to enhance the democratic process by giving voters the choice to reject all candidates if they are dissatisfied with the available options."
+        },
+        {
+          "id": 13,
+          "question_type": "application",
+          "difficulty": "easy",
+          "question": "How does a citizen register as a voter?",
+          "category": "Citizen Interaction",
+          "answer": "Citizens can register by checking enrollment in electoral rolls, updating details as needed through ECI's online portals, and obtaining EPIC.",
+          "explanation": "The ECI provides online facilities for voter registration, roll updates, and EPIC issuance to make the process accessible and user-friendly."
+        },
+        {
+          "id": 14,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What is the historical evolution of the Election Commission's composition?",
+          "category": "Composition",
+          "answer": "From 1950-1989: Single-member body; 1989-1990: Multi-member; 1990-1993: Single-member again; 1993 onwards: Multi-member with 3 commissioners.",
+          "explanation": "The composition changed based on workload requirements and administrative decisions, settling on the current three-member structure since 1993."
+        },
+        {
+          "id": 15,
+          "question_type": "conceptual",
+          "difficulty": "hard",
+          "question": "What challenges does the Election Commission face in maintaining electoral integrity?",
+          "category": "Limitations",
+          "answer": "Challenges include violence, electoral malpractices, money power, political criminalization, EVM controversies, and inadequate power to regulate political parties.",
+          "explanation": "These challenges affect the Commission's ability to ensure completely fair elections and require continuous adaptation and strengthening of electoral processes."
+        },
+        {
+          "id": 16,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "When was the Chief Election Commissioner and Other Election Commissioners Act passed?",
+          "category": "Recent Developments",
+          "answer": "The Chief Election Commissioner and Other Election Commissioners Act was passed in 2023.",
+          "explanation": "This Act prescribes the appointment process for election commissioners by a selection committee headed by the Prime Minister."
+        },
+        {
+          "id": 17,
+          "question_type": "application",
+          "difficulty": "medium",
+          "question": "What facilities are provided to special categories of voters?",
+          "category": "Citizen Interaction",
+          "answer": "Special arrangements include voting for persons aged 80+, those with disabilities, postal voting for armed forces personnel and government staff posted abroad.",
+          "explanation": "The ECI provides inclusive voting facilities to ensure all eligible citizens can participate in the democratic process regardless of age, disability, or posting."
+        },
+        {
+          "id": 18,
+          "question_type": "conceptual",
+          "difficulty": "medium",
+          "question": "How does the Election Commission enforce the Model Code of Conduct?",
+          "category": "Functions",
+          "answer": "The ECI monitors compliance, investigates violations, takes corrective actions, and has the power to derecognize parties for failing to follow inner-party democracy.",
+          "explanation": "MCC enforcement includes monitoring campaign expenditures, preventing misuse of official machinery, and ensuring ethical conduct during elections."
+        },
+        {
+          "id": 19,
+          "question_type": "factual",
+          "difficulty": "hard",
+          "question": "What are the recommended reforms for the Election Commission's appointment process?",
+          "category": "Recent Developments",
+          "answer": "The Second Administrative Reforms Commission recommended a collegium for appointment of CEC and ECs headed by the Prime Minister with the Speaker, LoP, Law Minister, and Deputy Chairman of Rajya Sabha as members.",
+          "explanation": "These reforms aim to make the appointment process more transparent and independent, reducing executive influence in selection."
+        }
+      ]
+    },
+    "cag": {
+      "name": "Comptroller and Auditor General of India",
+      "total_questions": 19,
+      "questions": [
+        {
+          "id": 20,
+          "question_type": "conceptual",
+          "difficulty": "easy",
+          "question": "Under which Article of the Constitution is the Comptroller and Auditor General of India established?",
+          "category": "Constitutional Basis",
+          "answer": "Article 148",
+          "explanation": "Article 148 establishes the office of the Comptroller and Auditor General of India who is appointed by the President by warrant under his hand and seal."
+        },
+        {
+          "id": 21,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "Who appoints the Comptroller and Auditor General of India?",
+          "category": "Appointment Process",
+          "answer": "The Comptroller and Auditor General is appointed by the President by warrant under his hand and seal.",
+          "explanation": "The appointment procedure follows that of a constitutional appointment with formal presidential warrant, ensuring proper institutional authority."
+        },
+        {
+          "id": 22,
+          "question_type": "application",
+          "difficulty": "medium",
+          "question": "What are the removal grounds for the CAG?",
+          "category": "Removal Process",
+          "answer": "The CAG is removed in like manner and on like grounds as a Judge of the Supreme Court.",
+          "explanation": "This ensures high protection and independence of office, requiring impeachment proceedings similar to Supreme Court judges."
+        },
+        {
+          "id": 23,
+          "question_type": "conceptual",
+          "difficulty": "medium",
+          "question": "What does Article 149 of the Constitution empower?",
+          "category": "Constitutional Basis",
+          "answer": "Article 149 empowers the Parliament to prescribe the duties and powers of the CAG in relation to accounts of the Union and the States.",
+          "explanation": "This article provides legislative flexibility to define and expand the CAG's scope of work through parliamentary laws."
+        },
+        {
+          "id": 24,
+          "question_type": "application",
+          "difficulty": "easy",
+          "question": "What is the primary function of the CAG?",
+          "category": "Functions",
+          "answer": "The CAG audits all receipts and expenditure of the Government of India and State Governments and reports to the President and Governors.",
+          "explanation": "This audit function covers financial statements, compliance audits, performance audits, and audit of accounts of various authorities and bodies."
+        },
+        {
+          "id": 25,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What are the protection mechanisms for CAG's service conditions?",
+          "category": "Constitutional Basis",
+          "answer": "Neither salary nor rights in respect of leave of absence, pension, or age of retirement shall be varied to his disadvantage after appointment.",
+          "explanation": "This ensures independence and prevents government from altering terms to influence CAG's decisions or functioning."
+        },
+        {
+          "id": 26,
+          "question_type": "application",
+          "difficulty": "medium",
+          "question": "Where is the CAG's oath taken?",
+          "category": "Appointment Process",
+          "answer": "The CAG must make and subscribe an oath or affirmation before the President (or his appointee) according to the form set out in the Third Schedule.",
+          "explanation": "This formal oath-taking process before the President establishes the constitutional authority and impartiality of the office."
+        },
+        {
+          "id": 27,
+          "question_type": "conceptual",
+          "difficulty": "hard",
+          "question": "What is the financial autonomy of the CAG's office?",
+          "category": "Constitutional Basis",
+          "answer": "Administrative expenses of the CAG's office, including salaries, allowances, and pensions of staff, are charged upon the Consolidated Fund of India.",
+          "explanation": "This charging upon the Consolidated Fund ensures financial independence and prevents interference through budget control."
+        },
+        {
+          "id": 28,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What is the post-tenure restriction for the CAG?",
+          "category": "Constitutional Basis",
+          "answer": "The CAG is not eligible for further office either under the Government of India or under the Government of any State after ceasing to hold office.",
+          "explanation": "This restriction prevents conflicts of interest and ensures impartial audit decisions without regard to future employment prospects."
+        },
+        {
+          "id": 29,
+          "question_type": "application",
+          "difficulty": "medium",
+          "question": "What types of audits does the CAG conduct?",
+          "category": "Functions",
+          "answer": "The CAG conducts compliance audits, performance audits, financial statement audits, and environmental audits of government accounts and public sector organizations.",
+          "explanation": "These varied audit types ensure comprehensive oversight of public finance management and performance across government operations."
+        },
+        {
+          "id": 30,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "Who determines the administrative powers and conditions of service for CAG's staff?",
+          "category": "Constitutional Basis",
+          "answer": "Administrative powers and conditions of service are prescribed by rules made by the President after consultation with the CAG, subject to constitutional and parliamentary laws.",
+          "explanation": "This consultation requirement ensures that staff management reflects the operational needs of the audit function."
+        },
+        {
+          "id": 31,
+          "question_type": "conceptual",
+          "difficulty": "easy",
+          "question": "What is the historical designation of the CAG?",
+          "category": "Constitutional Basis",
+          "answer": "Originally designated as 'Auditor-General of India' in the 1948 draft, it was changed to 'Comptroller and Auditor-General of India' in the 1950 Constitution.",
+          "explanation": "The addition of 'Comptroller' reflected expanded powers over both auditing and controlling government expenses."
+        },
+        {
+          "id": 32,
+          "question_type": "application",
+          "difficulty": "medium",
+          "question": "How does the CAG's work ensure government accountability?",
+          "category": "Functions",
+          "answer": "Through detailed audit reports that identify financial irregularities, policy inefficiencies, and compliance failures, which are then presented to legislatures for action.",
+          "explanation": "CAG reports serve as crucial accountability mechanisms, enabling legislative oversight and public scrutiny of government financial management."
+        },
+        {
+          "id": 33,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What is the standard reference for the CAG's detailed duties?",
+          "category": "Functions",
+          "answer": "The Comptroller and Auditor General's (Duties, Powers and Conditions) Act elaborates on the audit authorities and detailed functions across government finances.",
+          "explanation": "This Act provides the statutory framework for conducting various types of audits and examination of government financial management."
+        },
+        {
+          "id": 34,
+          "question_type": "application",
+          "difficulty": "hard",
+          "question": "What is the significance of CAG reports being laid before legislatures?",
+          "category": "Functions",
+          "answer": "CAG reports are submitted to the President/Governors and laid before Parliament/State Legislatures, enabling public accountability and legislative review.",
+          "explanation": "This process ensures transparency and provides the basis for parliamentary debates, committee examinations, and government responses to audit findings."
+        },
+        {
+          "id": 35,
+          "question_type": "conceptual",
+          "difficulty": "medium",
+          "question": "How does the CAG contribute to the doctrine of separation of powers?",
+          "category": "Functions",
+          "answer": "By conducting independent audits without interference, the CAG provides checks on executive financial powers and promotes accountability in government spending.",
+          "explanation": "The independent audit function serves as a constitutional check on executive powers, ensuring proper utilization of public funds."
+        },
+        {
+          "id": 36,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What is the constitutional basis for prescribing CAG's duties and powers?",
+          "category": "Constitutional Basis",
+          "answer": "Article 149 explicitly empowers Parliament to determine the duties and powers of the CAG by law.",
+          "explanation": "This article provides the constitutional authority for the Comptroller and Auditor General's (Duties, Powers and Conditions) Act and other relevant legislation."
+        },
+        {
+          "id": 37,
+          "question_type": "application",
+          "difficulty": "easy",
+          "question": "How does the CAG support parliamentary democracy?",
+          "category": "Functions",
+          "answer": "By providing detailed, impartial audit reports that enable Parliament to hold the executive accountable for financial management and policy implementation.",
+          "explanation": "CAG reports serve as the foundation for parliamentary questions, debates, and committee investigations into government performance."
+        },
+        {
+          "id": 38,
+          "question_type": "conceptual",
+          "difficulty": "hard",
+          "question": "What protection ensures the CAG's independence from executive influence?",
+          "category": "Constitutional Basis",
+          "answer": "The combination of judicial removal grounds, protected service conditions, Consolidated Fund charging, and post-tenure ineligibility creates multiple layers of protection.",
+          "explanation": "These constitutional safeguards collectively ensure that the CAG can perform audit functions without fear of executive retaliation or interference."
+        }
+      ]
+    },
+    "upsc": {
+      "name": "Union Public Service Commission",
+      "total_questions": 20,
+      "questions": [
+        {
+          "id": 39,
+          "question_type": "conceptual",
+          "difficulty": "easy",
+          "question": "Under which Articles of the Constitution is the Union Public Service Commission established?",
+          "category": "Constitutional Basis",
+          "answer": "Articles 315 to 323",
+          "explanation": "Articles 315 to 323 of the Indian Constitution deal with the appointment of UPSC members, functions, powers, and related provisions."
+        },
+        {
+          "id": 40,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What is the composition of the UPSC?",
+          "category": "Composition",
+          "answer": "The UPSC consists of a Chairman and typically 9 to 10 other members, appointed by the President of India.",
+          "explanation": "At least one-half of the members should have held office under the Centre or State for at least 10 years to ensure administrative experience."
+        },
+        {
+          "id": 41,
+          "question_type": "application",
+          "difficulty": "medium",
+          "question": "What is the tenure of UPSC members?",
+          "category": "Constitutional Basis",
+          "answer": "Chairman and members hold office for 6 years or until they attain the age of 65 years, whichever is earlier.",
+          "explanation": "This tenure protection ensures continuity and independence in recruitment processes while maintaining age-based retirement flexibility."
+        },
+        {
+          "id": 42,
+          "question_type": "conceptual",
+          "difficulty": "medium",
+          "question": "What does Article 315 establish?",
+          "category": "Constitutional Basis",
+          "answer": "Article 315 establishes Public Service Commissions for both the Union and for the States.",
+          "explanation": "This article creates the constitutional foundation for both the UPSC and State Public Service Commissions."
+        },
+        {
+          "id": 43,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What is the primary function of the UPSC?",
+          "category": "Functions",
+          "answer": "The UPSC conducts examinations to recruit candidates to different Central Services including Civil Services, Engineering Services, and Defence Services.",
+          "explanation": "UPSC conducts prestigious examinations like the Civil Services Examination (CSE), which recruits for IAS, IPS, IFS and other All India Services."
+        },
+        {
+          "id": 44,
+          "question_type": "application",
+          "difficulty": "easy",
+          "question": "Which examinations does the UPSC conduct?",
+          "category": "Functions",
+          "answer": "Civil Services Examination, Engineering Services Examination, Defence Services Examination, Combined Medical Services, and others.",
+          "explanation": "UPSC conducts various competitive examinations to recruit officers for All India Services, Central Services, and specialized roles."
+        },
+        {
+          "id": 45,
+          "question_type": "conceptual",
+          "difficulty": "medium",
+          "question": "What is the advisory role of the UPSC?",
+          "category": "Functions",
+          "answer": "The UPSC provides consultation on appointments, transfers, promotions, disciplinary matters, and personnel management when asked by the President.",
+          "explanation": "This advisory function ensures procedural fairness and merit-based decisions in personnel management across government services."
+        },
+        {
+          "id": 46,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What are the independence provisions for UPSC?",
+          "category": "Constitutional Basis",
+          "answer": "Chairman and members can only be removed by the President on constitutional grounds, terms cannot be altered to their disadvantage, and expenses are charged to the Consolidated Fund.",
+          "explanation": "These provisions ensure independence in recruitment and personnel decisions, protecting the merit system from political interference."
+        },
+        {
+          "id": 47,
+          "question_type": "application",
+          "difficulty": "medium",
+          "question": "What is the UPSC's role in supporting states?",
+          "category": "Functions",
+          "answer": "UPSC assists states in implementing plans and schemes, and supports services requiring special recruitment processes with the consent of the President.",
+          "explanation": "This assistance helps maintain uniformity in recruitment standards and provides specialized expertise to state governments."
+        },
+        {
+          "id": 48,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What is the annual reporting obligation of the UPSC?",
+          "category": "Functions",
+          "answer": "UPSC submits an annual work report to the President of India detailing its work, examination procedures, and success rates, which is presented to Parliament.",
+          "explanation": "This reporting ensures transparency and accountability, with the President presenting reports to Parliament including cases where advice was not accepted."
+        },
+        {
+          "id": 49,
+          "question_type": "conceptual",
+          "difficulty": "hard",
+          "question": "What are the limitations of UPSC jurisdiction?",
+          "category": "Limitations",
+          "answer": "UPSC is not consulted on reservations for backward classes, SC/ST claims in appointments, chairmanship/commission appointments, Group C/D services, and temporary postings for less than a year.",
+          "explanation": "These exclusions reflect the Constitution's allocation of decision-making space for policy-sensitive postings and social reservations."
+        },
+        {
+          "id": 50,
+          "question_type": "application",
+          "difficulty": "easy",
+          "question": "What is the Civil Services Examination pattern?",
+          "category": "Functions",
+          "answer": "Civil Services Examination has three stages: Preliminary stage, Mains stage, and Interview stage.",
+          "explanation": "This three-stage process tests candidates' knowledge, analytical abilities, and personality for leadership roles in administration."
+        },
+        {
+          "id": 51,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What is the historical origin of the UPSC?",
+          "category": "Constitutional Basis",
+          "answer": "UPSC was founded as a statutory body in 1926 (Lee Commission), became the Federal Public Service Commission in 1935, and was renamed UPSC in 1950.",
+          "explanation": "This evolution reflects the development of India's administrative system from British colonial administration to independent constitutional democracy."
+        },
+        {
+          "id": 52,
+          "question_type": "conceptual",
+          "difficulty": "medium",
+          "question": "What is the significance of Article 320?",
+          "category": "Constitutional Basis",
+          "answer": "Article 320 details the functions of Public Service Commissions including conducting examinations, advising on appointments, and disciplinary matters.",
+          "explanation": "This article provides the constitutional framework for UPSC's core functions and advisory role in personnel management."
+        },
+        {
+          "id": 53,
+          "question_type": "application",
+          "difficulty": "medium",
+          "question": "How does the UPSC ensure merit-based recruitment?",
+          "category": "Functions",
+          "answer": "Through transparent competitive examinations, objective evaluation criteria, and advisory consultations that prevent nepotism and ensure equal opportunity.",
+          "explanation": "The merit-based system ensures that the best candidates are selected for administrative leadership positions, maintaining high standards of governance."
+        },
+        {
+          "id": 54,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What is the post-tenure restriction for UPSC Chairman?",
+          "category": "Constitutional Basis",
+          "answer": "The Chairman is ineligible for further employment in Indian or state government after retirement and not eligible for a second term in the same position.",
+          "explanation": "These restrictions prevent conflicts of interest and ensure impartial decision-making without regard to future employment prospects."
+        },
+        {
+          "id": 55,
+          "question_type": "conceptual",
+          "difficulty": "hard",
+          "question": "What is the constitutional protection for UPSC expenses?",
+          "category": "Constitutional Basis",
+          "answer": "Expenses of the UPSC are charged upon the Consolidated Fund of India, not subject to parliamentary vote.",
+          "explanation": "This charging mechanism ensures financial independence and prevents budgetary control from being used to influence recruitment decisions."
+        },
+        {
+          "id": 56,
+          "question_type": "application",
+          "difficulty": "easy",
+          "question": "How does the UPSC promote transparency?",
+          "category": "Functions",
+          "answer": "Through annual reports, RTI compliance, public notification of examinations, detailed merit lists, and transparent selection procedures.",
+          "explanation": "Transparency measures ensure public confidence in the recruitment process and enable scrutiny of UPSC functioning."
+        },
+        {
+          "id": 57,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What is the role of the President in UPSC matters?",
+          "category": "Constitutional Basis",
+          "answer": "The President appoints UPSC members, can exclude matters from UPSC jurisdiction, and receives annual reports for presentation to Parliament.",
+          "explanation": "This role reflects the constitutional scheme where the President acts as the appointing authority while preserving UPSC independence."
+        },
+        {
+          "id": 58,
+          "question_type": "conceptual",
+          "difficulty": "hard",
+          "question": "Why is the UPSC considered the 'watchdog of the merit system'?",
+          "category": "Functions",
+          "answer": "Because it ensures merit-based recruitment, prevents political interference in appointments, and maintains high standards of public service through transparent examinations.",
+          "explanation": "This role is crucial for maintaining administrative integrity and ensuring that government services are staffed by qualified, capable individuals rather than political appointees."
+        }
+      ]
+    },
+    "ncsc_ncst": {
+      "name": "National Commission for SC/ST",
+      "total_questions": 20,
+      "questions": [
+        {
+          "id": 59,
+          "question_type": "conceptual",
+          "difficulty": "easy",
+          "question": "Under which Article of the Constitution is the National Commission for Scheduled Castes established?",
+          "category": "Constitutional Basis",
+          "answer": "Article 338",
+          "explanation": "Article 338 of the Indian Constitution deals with the National Commission for Scheduled Castes and was amended in 2003 to establish the commission."
+        },
+        {
+          "id": 60,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What is the composition of the National Commission for Scheduled Castes?",
+          "category": "Composition",
+          "answer": "A Chairperson, a Vice-Chairperson, and three other Members.",
+          "explanation": "All members are appointed by the President of India by warrant under his hand and seal, with conditions determined by presidential rules."
+        },
+        {
+          "id": 61,
+          "question_type": "application",
+          "difficulty": "medium",
+          "question": "Who appoints the members of NCSC?",
+          "category": "Appointment Process",
+          "answer": "The President of India appoints the Chairperson, Vice-Chairperson, and other members by warrant under his hand and seal.",
+          "explanation": "The appointment follows constitutional procedure with presidential authority, ensuring formal institutional establishment."
+        },
+        {
+          "id": 62,
+          "question_type": "conceptual",
+          "difficulty": "medium",
+          "question": "What are the quasi-judicial powers of the NCSC?",
+          "category": "Functions",
+          "answer": "While investigating matters or inquiring into complaints, the NCSC has all powers of a civil court including summoning witnesses, requiring documents, receiving evidence on affidavits, and issuing commissions.",
+          "explanation": "These civil court powers enable the commission to conduct thorough investigations and gather evidence effectively."
+        },
+        {
+          "id": 63,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What is the primary objective of the NCSC?",
+          "category": "Functions",
+          "answer": "To provide safeguards against exploitation and promote and protect the social, educational, economic, and cultural interests of Scheduled Castes and Anglo-Indian communities.",
+          "explanation": "This comprehensive mandate covers all aspects of SC welfare and protection, reflecting constitutional commitment to social justice."
+        },
+        {
+          "id": 64,
+          "question_type": "application",
+          "difficulty": "medium",
+          "question": "What major activities does the NCSC undertake?",
+          "category": "Functions",
+          "answer": "Spot visits by the Commission, State reviews, PSU/PSB reviews, and hearings on complaints and issues.",
+          "explanation": "These activities enable the commission to directly engage with ground realities and monitor implementation of safeguards."
+        },
+        {
+          "id": 65,
+          "question_type": "conceptual",
+          "difficulty": "hard",
+          "question": "What are the key functions of the NCSC under Article 338?",
+          "category": "Functions",
+          "answer": "Investigate and monitor safeguards, inquire into specific complaints, participate in planning processes, evaluate development progress, and present annual reports to the President.",
+          "explanation": "These functions encompass both reactive complaint handling and proactive policy involvement in SC welfare planning."
+        },
+        {
+          "id": 66,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What is the constitutional basis for the National Commission for Scheduled Tribes?",
+          "category": "Constitutional Basis",
+          "answer": "Article 338A",
+          "explanation": "Article 338A establishes the National Commission for Scheduled Tribes with functions parallel to those of the NCSC for ST communities."
+        },
+        {
+          "id": 67,
+          "question_type": "application",
+          "difficulty": "medium",
+          "question": "How do governments consult the NCSC?",
+          "category": "Functions",
+          "answer": "The Union and every State Government must consult the NCSC on all major policy matters affecting Scheduled Castes.",
+          "explanation": "This mandatory consultation requirement ensures that SC perspectives are considered in policy formulation and implementation."
+        },
+        {
+          "id": 68,
+          "question_type": "conceptual",
+          "difficulty": "medium",
+          "question": "What was the evolution of Article 338?",
+          "category": "Constitutional Basis",
+          "answer": "Originally a Special Officer for minorities (1948), then Special Officer for SCs and STs (1950), replaced by NCSC in 2003 amendment, with backward classes removed in 2018 amendment.",
+          "explanation": "This evolution reflects changing constitutional approach from oversight to dedicated commission with expanded protective mandate."
+        },
+        {
+          "id": 69,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What e-governance facilities does NCSC provide?",
+          "category": "Citizen Interaction",
+          "answer": "Online complaint lodging, status tracking, and user-specific login access through the e-Grievance Management Portal.",
+          "explanation": "These digital facilities enhance accessibility and transparency in grievance redressal for SC communities."
+        },
+        {
+          "id": 70,
+          "question_type": "application",
+          "difficulty": "easy",
+          "question": "What legal frameworks does NCSC work under?",
+          "category": "Functions",
+          "answer": "Protection of Civil Rights Act 1955, Prevention of Atrocities Act 1989, Protection of Civil Rights Rules 1995, Prevention of Atrocities Rules 2013, and constitutional safeguards.",
+          "explanation": "These legal instruments provide the statutory framework for addressing discrimination, atrocities, and social exclusion."
+        },
+        {
+          "id": 71,
+          "question_type": "conceptual",
+          "difficulty": "hard",
+          "question": "What is the significance of the NCSC's power to regulate its own procedure?",
+          "category": "Functions",
+          "answer": "It allows the commission to frame flexible, issue-focused inquiries and adapt procedures to specific types of violations and complaints.",
+          "explanation": "This procedural autonomy enables effective handling of diverse cases from hate crimes to educational discrimination."
+        },
+        {
+          "id": 72,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What happens to NCSC reports?",
+          "category": "Functions",
+          "answer": "The NCSC presents annual reports (and at other times as deemed fit) to the President on the working of safeguards with recommendations for effective implementation.",
+          "explanation": "These reports are then laid before Parliament and State Legislatures, ensuring political accountability for SC welfare measures."
+        },
+        {
+          "id": 73,
+          "question_type": "application",
+          "difficulty": "medium",
+          "question": "How does the NCSC investigate complaints?",
+          "category": "Functions",
+          "answer": "Through spot visits, state reviews, hearings, and utilizing civil court powers to summon witnesses, examine documents, and gather evidence.",
+          "explanation": "This multi-faceted investigation approach ensures comprehensive fact-finding and evidence collection for effective remedial action."
+        },
+        {
+          "id": 74,
+          "question_type": "conceptual",
+          "difficulty": "medium",
+          "question": "What is the role of NCSC in socio-economic development?",
+          "category": "Functions",
+          "answer": "To participate and advise on planning processes of socio-economic development of SCs and evaluate the progress of their development under the Union and States.",
+          "explanation": "This role extends beyond complaint redress to proactive involvement in development planning and monitoring."
+        },
+        {
+          "id": 75,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What are the conditions of service for NCSC members?",
+          "category": "Constitutional Basis",
+          "answer": "Determined by the President by rule, subject to provisions of any law made by Parliament.",
+          "explanation": "This constitutional framework allows for flexibility in service conditions while maintaining parliamentary oversight."
+        },
+        {
+          "id": 76,
+          "question_type": "application",
+          "difficulty": "easy",
+          "question": "How can citizens file complaints with the NCSC?",
+          "category": "Citizen Interaction",
+          "answer": "Through online portal, direct visits, written complaints, or during public hearings organized by the commission.",
+          "explanation": "Multiple channels ensure accessibility for diverse SC communities, including those in rural and remote areas."
+        },
+        {
+          "id": 77,
+          "question_type": "conceptual",
+          "difficulty": "hard",
+          "question": "What makes NCSC recommendations effective?",
+          "category": "Functions",
+          "answer": "The combination of quasi-judicial powers, mandatory government consultation, constitutional backing, and reporting to highest authorities creates strong enforcement mechanisms.",
+          "explanation": "These institutional features ensure that NCSC recommendations carry significant weight and require serious government consideration."
+        },
+        {
+          "id": 78,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What is the current composition of NCSC leadership?",
+          "category": "Composition",
+          "answer": "Chairperson: Shri Kishor Makwana; Members: Shri Love Kush Kumar and Shri Vaddepalli Ramchander (as of recent records).",
+          "explanation": "The commission operates with its full strength of Chairperson, Vice-Chairperson, and three members to handle its wide mandate effectively."
+        }
+      ]
+    },
+    "nhrc": {
+      "name": "National Human Rights Commission",
+      "total_questions": 20,
+      "questions": [
+        {
+          "id": 79,
+          "question_type": "conceptual",
+          "difficulty": "easy",
+          "question": "Under which Act was the National Human Rights Commission established?",
+          "category": "Constitutional Basis",
+          "answer": "Protection of Human Rights Act, 1993",
+          "explanation": "The NHRC is an independent statutory body established under the Protection of Human Rights Act, 1993, dedicated to protecting and promoting human rights."
+        },
+        {
+          "id": 80,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "Who is the current Chairperson of the NHRC (as per recent records)?",
+          "category": "Composition",
+          "answer": "A retired Chief Justice of India or a judge of the Supreme Court serves as the Chairperson.",
+          "explanation": "The chairperson must be a retired Chief Justice of India or a judge of the Supreme Court to ensure judicial credibility and independence."
+        },
+        {
+          "id": 81,
+          "question_type": "application",
+          "difficulty": "medium",
+          "question": "Who appoints the NHRC members?",
+          "category": "Appointment Process",
+          "answer": "The President of India appoints the NHRC members on the recommendation of a committee headed by the Prime Minister with other members including Speaker of Lok Sabha, Deputy Chairman of Rajya Sabha, Leaders of Opposition in both Houses, and Union Home Minister.",
+          "explanation": "This multi-member committee ensures broad political representation and prevents partisan appointments to maintain independence."
+        },
+        {
+          "id": 82,
+          "question_type": "conceptual",
+          "difficulty": "medium",
+          "question": "What is the tenure of NHRC members?",
+          "category": "Constitutional Basis",
+          "answer": "Three years until the age of 70, with eligibility for reappointment.",
+          "explanation": "This tenure provides stability while ensuring rotation and new perspectives in human rights advocacy and protection."
+        },
+        {
+          "id": 83,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What are the core powers of the NHRC?",
+          "category": "Functions",
+          "answer": "NHRC can investigate any complaints related to violations of Human Rights either suo-moto or after receiving a petition, and has powers of a civil court during inquiries.",
+          "explanation": "These powers include summoning witnesses, requiring document production, receiving evidence on affidavits, and issuing commissions for examination."
+        },
+        {
+          "id": 84,
+          "question_type": "application",
+          "difficulty": "medium",
+          "question": "What actions can NHRC take after inquiry?",
+          "category": "Functions",
+          "answer": "Recommend payment of compensation or damages to the victim, recommend initiation of legal proceedings against guilty public servants, and provide immediate interim relief.",
+          "explanation": "These remedial powers enable tangible relief for victims and accountability for violators, though recommendations are not self-executing."
+        },
+        {
+          "id": 85,
+          "question_type": "conceptual",
+          "difficulty": "medium",
+          "question": "How does the NHRC engage with the judicial system?",
+          "category": "Functions",
+          "answer": "NHRC can approach the Supreme Court or relevant High Court for necessary directions, orders, or writs to enforce its recommendations.",
+          "explanation": "This judicial engagement provides a mechanism to make NHRC recommendations enforceable through court orders when needed."
+        },
+        {
+          "id": 86,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What is the NHRC's mission statement?",
+          "category": "Functions",
+          "answer": "Protecting & Promoting Life, Liberty, Equality and Dignity of all.",
+          "explanation": "This mission encapsulates the fundamental human rights principles enshrined in the Constitution and international human rights instruments."
+        },
+        {
+          "id": 87,
+          "question_type": "application",
+          "difficulty": "easy",
+          "question": "What is the definition of human rights under the NHRC?",
+          "category": "Functions",
+          "answer": "Human rights are rights concerning an individual's life, liberty, equality, and dignity, protected by the Constitution or international treaties, enforceable in Indian courts.",
+          "explanation": "This definition covers both constitutional rights and internationally recognized human rights that have been incorporated into Indian law."
+        },
+        {
+          "id": 88,
+          "question_type": "conceptual",
+          "difficulty": "hard",
+          "question": "What is the time limit for NHRC inquiries?",
+          "category": "Functions",
+          "answer": "NHRC cannot inquire into any matter after one year has elapsed from the date of the alleged human rights violation.",
+          "explanation": "This time limit ensures timely investigation and prevents stale cases while balancing the need for thorough inquiry."
+        },
+        {
+          "id": 89,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What is the composition of NHRC members?",
+          "category": "Composition",
+          "answer": "One sitting or retired judge of the Supreme Court, one sitting or retired Chief Justice of a High Court, and three individuals with knowledge or practical experience in human rights (at least one woman).",
+          "explanation": "This composition combines judicial expertise with human rights advocacy experience to ensure comprehensive perspectives on rights issues."
+        },
+        {
+          "id": 90,
+          "question_type": "application",
+          "difficulty": "medium",
+          "question": "What ex-officio members are part of NHRC?",
+          "category": "Composition",
+          "answer": "Chairperson of National Commission for Minorities, NCSC, NCST, National Commission for Women, National Commission for Backward Classes, National Commission for Protection of Child Rights, and Chief Commissioner for Persons with Disabilities.",
+          "explanation": "This inclusion ensures coordination among various rights commissions and holistic approach to human rights protection."
+        },
+        {
+          "id": 91,
+          "question_type": "conceptual",
+          "difficulty": "hard",
+          "question": "What international principles does NHRC follow?",
+          "category": "Functions",
+          "answer": "NHRC adheres to Paris Principles, Universal Declaration of Human Rights, International Covenant on Civil and Political Rights, and International Covenant on Economic, Social and Cultural Rights.",
+          "explanation": "These international standards guide NHRC's approach to human rights protection and promotion, ensuring alignment with global best practices."
+        },
+        {
+          "id": 92,
+          "question_type": "application",
+          "difficulty": "medium",
+          "question": "What facilities does NHRC provide for public engagement?",
+          "category": "Citizen Interaction",
+          "answer": "Online complaint filing and status tracking (HRCNet Portal), suo-motu cognizance, open hearings, camp sittings, and advisory issuance.",
+          "explanation": "Multiple engagement mechanisms ensure accessibility for diverse complainants and proactive protection of human rights."
+        },
+        {
+          "id": 93,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What is the post-tenure restriction for NHRC members?",
+          "category": "Constitutional Basis",
+          "answer": "NHRC members cannot seek further employment with Central or State governments after tenure.",
+          "explanation": "This restriction prevents conflicts of interest and ensures independent decision-making during service."
+        },
+        {
+          "id": 94,
+          "question_type": "conceptual",
+          "difficulty": "medium",
+          "question": "What research and training activities does NHRC undertake?",
+          "category": "Functions",
+          "answer": "Developing research guidelines, conducting research projects, offering internship programmes, providing training (domestic and international ITEC-Capacity building), organizing moot courts, and conducting educational visits.",
+          "explanation": "These activities promote human rights literacy, capacity building, and evidence-based policy recommendations."
+        },
+        {
+          "id": 95,
+          "question_type": "application",
+          "difficulty": "easy",
+          "question": "What publications does NHRC issue?",
+          "category": "Functions",
+          "answer": "Human Rights Newsletter (English & Hindi), advisories, annual reports, NHRC's journal 'Nai Dishayein' (Hindi), outcome of research projects, and standard operating procedures.",
+          "explanation": "These publications disseminate human rights information, best practices, and create awareness among stakeholders and the public."
+        },
+        {
+          "id": 96,
+          "question_type": "conceptual",
+          "difficulty": "hard",
+          "question": "What are the main limitations of NHRC?",
+          "category": "Limitations",
+          "answer": "NHRC recommendations are not binding, limited enforcement powers, reliance on state/central governments for investigation, resource constraints, perceived lack of independence, and reactive rather than preventive approach.",
+          "explanation": "These limitations reflect the statutory nature of NHRC, which lacks constitutional enforcement mechanisms despite its important watchdog role."
+        },
+        {
+          "id": 97,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What was the first chairman of NHRC?",
+          "category": "Composition",
+          "answer": "Justice Ranganath Misra was the first chairman of NHRC.",
+          "explanation": "His leadership established the institutional foundation and credibility of India's human rights protection system."
+        },
+        {
+          "id": 98,
+          "question_type": "application",
+          "difficulty": "medium",
+          "question": "How does NHRC support NGOs?",
+          "category": "Functions",
+          "answer": "NHRC supports NGOs working in human rights through funding, guidance, training, and collaboration in research and advocacy activities.",
+          "explanation": "This support strengthens civil society's role in human rights protection and creates a network of rights advocates across the country."
+        }
+      ]
+    },
+    "cic": {
+      "name": "Central Information Commission",
+      "total_questions": 20,
+      "questions": [
+        {
+          "id": 99,
+          "question_type": "conceptual",
+          "difficulty": "easy",
+          "question": "Under which Act was the Central Information Commission established?",
+          "category": "Constitutional Basis",
+          "answer": "Right to Information Act, 2005",
+          "explanation": "The Central Information Commission is a statutory body established under Section 12 of the Right to Information Act, 2005, for promoting transparency and accountability in public authorities."
+        },
+        {
+          "id": 100,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What is the composition of the CIC?",
+          "category": "Composition",
+          "answer": "One Chief Information Commissioner and up to 10 Information Commissioners.",
+          "explanation": "As of 2024, Heeralal Samariya serves as the Chief Information Commissioner, and the commission has been expanded to handle the increasing volume of RTI cases."
+        },
+        {
+          "id": 101,
+          "question_type": "application",
+          "difficulty": "medium",
+          "question": "Who appoints CIC members?",
+          "category": "Appointment Process",
+          "answer": "The President of India appoints the Chief Information Commissioner and Information Commissioners on the recommendation of a selection committee chaired by the Prime Minister.",
+          "explanation": "The selection committee includes the Leader of Opposition in Lok Sabha and a Union Cabinet Minister nominated by the Prime Minister as members."
+        },
+        {
+          "id": 102,
+          "question_type": "conceptual",
+          "difficulty": "medium",
+          "question": "What is the tenure of CIC members?",
+          "category": "Constitutional Basis",
+          "answer": "Three years until reaching 65 years of age, whichever comes first, with Information Commissioners eligible to become Chief Information Commissioner if combined service doesn't exceed five years.",
+          "explanation": "This tenure structure ensures continuity while preventing extended service that might compromise independence."
+        },
+        {
+          "id": 103,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What is the jurisdiction of the Central Information Commission?",
+          "category": "Functions",
+          "answer": "All Central Public Authorities including ministries, public sector undertakings, financial institutions, and offices under Central Government and Union Territories.",
+          "explanation": "This comprehensive jurisdiction ensures RTI coverage across all central government entities, promoting maximum transparency."
+        },
+        {
+          "id": 104,
+          "question_type": "application",
+          "difficulty": "medium",
+          "question": "What are the qualifications for CIC membership?",
+          "category": "Composition",
+          "answer": "Persons of eminence in public life with expertise in law, science and technology, social service, management, journalism, mass media, administration and governance.",
+          "explanation": "These diverse qualifications ensure that the commission can handle RTI issues across various domains and sectors effectively."
+        },
+        {
+          "id": 105,
+          "question_type": "conceptual",
+          "difficulty": "medium",
+          "question": "What are the disqualifications for CIC membership?",
+          "category": "Composition",
+          "answer": "Cannot be sitting Members of Parliament or members of any State/UT legislature, must not hold any other office of profit, must not have political affiliations, must not engage in business or professional activities.",
+          "explanation": "These strict disqualifications ensure political neutrality and prevent conflicts of interest in RTI decision-making."
+        },
+        {
+          "id": 106,
+          "question_type": "application",
+          "difficulty": "medium",
+          "question": "What are the removal grounds for CIC members?",
+          "category": "Constitutional Basis",
+          "answer": "Declared insolvent, convicted of offense involving moral turpitude, engaged in paid employment outside duties, unfitted due to mental or physical infirmity, acquired financial or other interest affecting duties, or proven misbehavior/incapacity requiring Supreme Court inquiry.",
+          "explanation": "These comprehensive grounds ensure removal only for serious misconduct while protecting against arbitrary removal."
+        },
+        {
+          "id": 107,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "When was the CIC constituted?",
+          "category": "Constitutional Basis",
+          "answer": "October 12, 2005",
+          "explanation": "The commission was constituted with effect from this date along with the implementation of the RTI Act across India."
+        },
+        {
+          "id": 108,
+          "question_type": "application",
+          "difficulty": "easy",
+          "question": "What functions does CIC perform under RTI Act?",
+          "category": "Functions",
+          "answer": "Addresses complaints and decides appeals related to information requests, investigates complaints from individuals unable to submit requests, denied access, or not receiving timely responses.",
+          "explanation": "These functions form the core oversight mechanism ensuring effective implementation of RTI across central government entities."
+        },
+        {
+          "id": 109,
+          "question_type": "conceptual",
+          "difficulty": "medium",
+          "question": "What powers does CIC have during inquiries?",
+          "category": "Functions",
+          "answer": "CIC has the authority of a civil court including summoning individuals, requiring document submission, and can initiate suo motu inquiries if reasonable grounds exist.",
+          "explanation": "These quasi-judicial powers enable effective investigation and enforcement of RTI provisions across public authorities."
+        },
+        {
+          "id": 110,
+          "question_type": "application",
+          "difficulty": "medium",
+          "question": "What penalties can CIC impose?",
+          "category": "Functions",
+          "answer": "CIC can impose penalties on Public Information Officers for failing to provide information, providing misleading information, or not replying within statutory time limits.",
+          "explanation": "These penalties create accountability for PIOs and ensure compliance with RTI timelines and information quality standards."
+        },
+        {
+          "id": 111,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What RTI implementation oversight does CIC provide?",
+          "category": "Functions",
+          "answer": "CIC oversees RTI disclosures as per Section 4(1)(b) of RTI Act 2005, conducts transparency audits, manages RTI-MIS for returns and orders, and maintains records of FAA orders and CPIO replies.",
+          "explanation": "This oversight ensures proactive disclosure compliance and systematic monitoring of RTI implementation across public authorities."
+        },
+        {
+          "id": 112,
+          "question_type": "conceptual",
+          "difficulty": "hard",
+          "question": "What is the RTI redress pathway?",
+          "category": "Citizen Interaction",
+          "answer": "Step 1: Citizen to PIO → Step 2: Citizen to FAA → Step 3: Citizen to CIC for second appeal/complaint.",
+          "explanation": "This three-tier pathway provides escalating oversight mechanisms, with CIC serving as the apex authority for RTI appeals and complaints."
+        },
+        {
+          "id": 113,
+          "question_type": "application",
+          "difficulty": "medium",
+          "question": "What guidance and resources does CIC provide?",
+          "category": "Functions",
+          "answer": "Access to RTI Act, publication of notifications/guidelines, compilation of landmark judgments, office memoranda, study reports, and online submission of second appeals and complaints.",
+          "explanation": "These resources help citizens navigate RTI processes effectively and create institutional knowledge for better compliance."
+        },
+        {
+          "id": 114,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What public authority engagement does CIC facilitate?",
+          "category": "Functions",
+          "answer": "Lists CPIOs of public authorities, provides guidelines for nodal/public authority registration, facilitates submission of quarterly returns, and conducts transparency audits.",
+          "explanation": "This engagement mechanism ensures systematic oversight and compliance monitoring across all central public authorities."
+        },
+        {
+          "id": 115,
+          "question_type": "conceptual",
+          "difficulty": "hard",
+          "question": "What is the significance of CIC orders?",
+          "category": "Functions",
+          "answer": "CIC orders are binding on public authorities and can include directions to provide information, take disciplinary action, and pay penalties, making RTI provisions enforceable.",
+          "explanation": "This enforceability distinguishes CIC from advisory bodies and makes it an effective transparency mechanism with real consequences for non-compliance."
+        },
+        {
+          "id": 116,
+          "question_type": "application",
+          "difficulty": "easy",
+          "question": "How can citizens file second appeals to CIC?",
+          "category": "Citizen Interaction",
+          "answer": "Citizens can file second appeals online through CIC portal if dissatisfied with FAA decisions or PIO non-compliance, or through physical submission with required documentation.",
+          "explanation": "Online filing facility enhances accessibility and reduces barriers to accessing CIC's oversight mechanism for RTI grievances."
+        },
+        {
+          "id": 117,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What is the salary structure protection for CIC members?",
+          "category": "Constitutional Basis",
+          "answer": "Salary and allowances set by Central Government cannot be altered to their disadvantage while in office.",
+          "explanation": "This protection ensures financial independence and prevents government from using salary changes to influence CIC decisions."
+        },
+        {
+          "id": 118,
+          "question_type": "conceptual",
+          "difficulty": "hard",
+          "question": "Why is CIC considered the apex RTI authority?",
+          "category": "Functions",
+          "answer": "Because it has appellate jurisdiction over all central public authorities, quasi-judicial powers, penalty imposition authority, and provides the final avenue for RTI grievance redressal.",
+          "explanation": "This apex status makes CIC the ultimate authority for ensuring RTI compliance and resolving information access disputes in central government."
+        }
+      ]
+    },
+    "cvc": {
+      "name": "Central Vigilance Commission",
+      "total_questions": 16,
+      "questions": [
+        {
+          "id": 119,
+          "question_type": "conceptual",
+          "difficulty": "easy",
+          "question": "Under which Act did the Central Vigilance Commission gain statutory status?",
+          "category": "Constitutional Basis",
+          "answer": "CVC Act, 2003",
+          "explanation": "The CVC was initially established as an executive resolution in 1964 but gained statutory status through the CVC Act, 2003."
+        },
+        {
+          "id": 120,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What is the composition of the CVC?",
+          "category": "Composition",
+          "answer": "One Central Vigilance Commissioner as Chairperson and not more than two Vigilance Commissioners as members.",
+          "explanation": "This multi-member composition enables comprehensive oversight of vigilance administration across central government organizations."
+        },
+        {
+          "id": 121,
+          "question_type": "application",
+          "difficulty": "medium",
+          "question": "Who appoints CVC members?",
+          "category": "Appointment Process",
+          "answer": "The President of India appoints CVC members on the recommendation of a selection committee headed by the Prime Minister with Union Minister of Home Affairs and Leader of Opposition in Lok Sabha as members.",
+          "explanation": "This selection committee composition ensures broad political consensus and prevents partisan appointments to maintain independence."
+        },
+        {
+          "id": 122,
+          "question_type": "conceptual",
+          "difficulty": "medium",
+          "question": "What is the tenure of CVC members?",
+          "category": "Constitutional Basis",
+          "answer": "Four years from the date of entering office or until attaining 65 years of age, whichever comes earlier.",
+          "explanation": "This tenure provides adequate time for effective vigilance oversight while maintaining age-based retirement flexibility."
+        },
+        {
+          "id": 123,
+          "question_type": "application",
+          "difficulty": "easy",
+          "question": "What are the salary and allowances for CVC members?",
+          "category": "Constitutional Basis",
+          "answer": "Central Vigilance Commissioner receives salary similar to Chairman of UPSC, and Vigilance Commissioners receive salary similar to UPSC members, with conditions not altered to disadvantage post-appointment.",
+          "explanation": "This alignment with UPSC standards ensures appropriate compensation and independence comparable to other constitutional bodies."
+        },
+        {
+          "id": 124,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What are the removal grounds for CVC members?",
+          "category": "Constitutional Basis",
+          "answer": "Adjudged insolvent, convicted of offense involving moral turpitude, engages in paid employment, declared unfit due to infirmity of mind or body, or removal for misbehavior/incapacity following Supreme Court inquiry.",
+          "explanation": "These grounds ensure removal only for serious misconduct while providing constitutional protection against arbitrary removal."
+        },
+        {
+          "id": 125,
+          "question_type": "conceptual",
+          "difficulty": "hard",
+          "question": "What is the main function of CVC under the CVC Act 2003?",
+          "category": "Functions",
+          "answer": "CVC exercises superintendence over functioning of Delhi Special Police Establishment (CBI) concerning investigations of offenses under Prevention of Corruption Act 1988.",
+          "explanation": "This superintendence role makes CVC the apex vigilance institution overseeing anti-corruption investigations by CBI."
+        },
+        {
+          "id": 126,
+          "question_type": "application",
+          "difficulty": "medium",
+          "question": "What oversight does CVC have over CBI?",
+          "category": "Functions",
+          "answer": "CVC heads selection committee for CBI officers (Superintendent of Police level and above), recommends Director of Prosecution, and reviews progress of investigations under Prevention of Corruption Act.",
+          "explanation": "This oversight ensures integrity in CBI investigations and appointments, strengthening anti-corruption enforcement."
+        },
+        {
+          "id": 127,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What is the whistleblower role of CVC?",
+          "category": "Functions",
+          "answer": "CVC is designated as the agency to act on complaints under Public Interest Disclosure and Protection of Informers' Resolution (2004) and serves as a competent authority under Whistleblower Protection Act 2014.",
+          "explanation": "This role makes CVC the central body for protecting whistleblowers and handling public interest disclosures on corruption."
+        },
+        {
+          "id": 128,
+          "question_type": "conceptual",
+          "difficulty": "medium",
+          "question": "What powers does CVC have during inquiries?",
+          "category": "Functions",
+          "answer": "CVC has all powers of a civil court, proceedings have judicial character, and can ask for information/reports from authorities to supervise vigilance and anti-corruption work.",
+          "explanation": "These quasi-judicial powers enable effective investigation of corruption cases and oversight of vigilance administration."
+        },
+        {
+          "id": 129,
+          "question_type": "application",
+          "difficulty": "medium",
+          "question": "What is CVC's role under Lokpal and Lokayukta Act 2013?",
+          "category": "Functions",
+          "answer": "CVC is empowered to conduct preliminary inquiry into complaints referred by Lokpal concerning officers and officials of Groups A, B, C, and D.",
+          "explanation": "This role extends CVC's oversight to Lokpal-referred cases, strengthening accountability across all government employee categories."
+        },
+        {
+          "id": 130,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What are the organizational wings of CVC?",
+          "category": "Composition",
+          "answer": "Secretariat, Chief Technical Examiners' Wing (CTE), and Commissioners for Departmental Inquiries (CDI).",
+          "explanation": "These specialized wings provide technical expertise and conduct departmental inquiries, supporting CVC's comprehensive vigilance mandate."
+        },
+        {
+          "id": 131,
+          "question_type": "conceptual",
+          "difficulty": "hard",
+          "question": "What are the main limitations of CVC?",
+          "category": "Limitations",
+          "answer": "CVC's advice is not binding on Central government departments, lacks resources and staff for complaint volume, cannot directly direct CBI to initiate inquiries against Joint Secretary level officers without department permission, and has limited power over criminal case registration.",
+          "explanation": "These limitations reflect CVC's advisory nature and the design balance between investigation agencies and oversight bodies."
+        },
+        {
+          "id": 132,
+          "question_type": "application",
+          "difficulty": "medium",
+          "question": "What is the annual reporting obligation of CVC?",
+          "category": "Functions",
+          "answer": "CVC prepares and presents an annual report to the President, which is placed before both Houses of Parliament.",
+          "explanation": "This reporting ensures parliamentary oversight of vigilance administration and provides public accountability for CVC's activities."
+        },
+        {
+          "id": 133,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What is the historical foundation of CVC?",
+          "category": "Constitutional Basis",
+          "answer": "CVC was initially set up in 1964 based on recommendations of K. Santhanam Committee on Prevention of Corruption and gained statutory status through CVC Act 2003.",
+          "explanation": "This evolution from executive resolution to statutory body reflects the growing importance of anti-corruption vigilance in governance."
+        },
+        {
+          "id": 134,
+          "question_type": "conceptual",
+          "difficulty": "hard",
+          "question": "Why is CVC considered an apex integrity institution?",
+          "category": "Functions",
+          "answer": "Because CVC functions as an independent and autonomous integrity institution responsible to Parliament, not controlled by any Ministry/Department, with superintendence over central government vigilance administration.",
+          "explanation": "This apex status, independence from executive control, and comprehensive vigilance mandate make CVC the highest authority for integrity in central government administration."
+        }
+      ]
+    },
+    "ngt": {
+      "name": "National Green Tribunal",
+      "total_questions": 16,
+      "questions": [
+        {
+          "id": 135,
+          "question_type": "conceptual",
+          "difficulty": "easy",
+          "question": "Under which Act was the National Green Tribunal established?",
+          "category": "Constitutional Basis",
+          "answer": "National Green Tribunal Act, 2010",
+          "explanation": "The National Green Tribunal was established on 18th October 2010 under the NGT Act of 2010 as a specialized body for handling environmental disputes."
+        },
+        {
+          "id": 136,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What is the composition of the NGT?",
+          "category": "Composition",
+          "answer": "One Chairperson who is a judge of Supreme Court or Chief Justice of High Court, Judicial Members (at least 10, not more than 20), and Expert Members (at least 10, not more than 20).",
+          "explanation": "This composition combines judicial expertise with environmental and technical knowledge to handle complex environmental cases effectively."
+        },
+        {
+          "id": 137,
+          "question_type": "application",
+          "difficulty": "medium",
+          "question": "Who appoints NGT members?",
+          "category": "Appointment Process",
+          "answer": "The Chairperson is appointed by Central Government in consultation with Chief Justice of India, and judicial/expert members are appointed by a Selection Committee formed by Central Government.",
+          "explanation": "This appointment process ensures judicial oversight for Chairperson appointment and merit-based selection for technical members."
+        },
+        {
+          "id": 138,
+          "question_type": "conceptual",
+          "difficulty": "medium",
+          "question": "What is the tenure of NGT members?",
+          "category": "Constitutional Basis",
+          "answer": "Five years or till 65 years of age, whichever is earlier, and members are not eligible for reappointment.",
+          "explanation": "This fixed tenure without reappointment ensures fresh perspectives and prevents entrenchment in environmental decision-making."
+        },
+        {
+          "id": 139,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What is the seat of NGT Principal Bench?",
+          "category": "Composition",
+          "answer": "New Delhi (Faridkot House, Copernicus Marg, New Delhi-110001)",
+          "explanation": "The Principal Bench in New Delhi serves as the coordinating center for all NGT activities across different zones."
+        },
+        {
+          "id": 140,
+          "question_type": "application",
+          "difficulty": "medium",
+          "question": "What are the NGT zonal benches?",
+          "category": "Composition",
+          "answer": "Eastern Zone (Kolkata), Western Zone (Pune), Central Zone (Bhopal), Southern Zone (Chennai), with potential circuit benches for broader accessibility.",
+          "explanation": "This zonal structure ensures geographic accessibility and local expertise in environmental matters across different regions."
+        },
+        {
+          "id": 141,
+          "question_type": "conceptual",
+          "difficulty": "medium",
+          "question": "What is the jurisdiction of NGT?",
+          "category": "Functions",
+          "answer": "NGT has jurisdiction over all civil matters relating to environmental issues and questions linked to implementation of laws listed in Schedule I of NGT Act.",
+          "explanation": "This specialized jurisdiction covers environmental civil disputes, distinguishing NGT from regular civil courts in handling environmental cases."
+        },
+        {
+          "id": 142,
+          "question_type": "application",
+          "difficulty": "medium",
+          "question": "What environmental laws fall under NGT jurisdiction?",
+          "category": "Functions",
+          "answer": "Water (Prevention and Control of Pollution) Act 1974, Air (Prevention and Control of Pollution) Act 1981, Environment (Protection) Act 1986, Forest (Conservation) Act 1980, Public Liability Insurance Act 1991, Biological Diversity Act 2002, and Water Cess Act 1977.",
+          "explanation": "These comprehensive laws cover major environmental protection areas including pollution control, forest conservation, and biodiversity protection."
+        },
+        {
+          "id": 143,
+          "question_type": "conceptual",
+          "difficulty": "hard",
+          "question": "What key principles does NGT apply?",
+          "category": "Functions",
+          "answer": "Principles of Natural Justice (not bound by CPC 1908), Sustainable Development, Precautionary Principle, and Polluter Pays Principle.",
+          "explanation": "These environmental principles guide NGT decisions and ensure effective enforcement of environmental laws through science-based and equitable approaches."
+        },
+        {
+          "id": 144,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What is the qualification of expert members?",
+          "category": "Composition",
+          "answer": "Person with degree in technology having 15 years experience in relevant field, including 5 years practical experience in environment and forests from reputed National level institution, or worked with Central/State Governments.",
+          "explanation": "These qualifications ensure that expert members have substantial technical knowledge and practical experience in environmental management."
+        },
+        {
+          "id": 145,
+          "question_type": "application",
+          "difficulty": "medium",
+          "question": "What remedies can NGT provide?",
+          "category": "Functions",
+          "answer": "Enforce environmental laws, provide relief and compensation for damages to persons and property, order restoration actions, and impose fines for environmental violations.",
+          "explanation": "These comprehensive remedies enable NGT to provide both corrective measures and deterrent penalties for environmental damage."
+        },
+        {
+          "id": 146,
+          "question_type": "conceptual",
+          "difficulty": "hard",
+          "question": "What is the significance of NGT being the third country globally to set up environmental courts?",
+          "category": "Functions",
+          "answer": "India became the third country in the world (after Australia and New Zealand) to establish a dedicated environmental tribunal, demonstrating commitment to environmental justice and specialized adjudication.",
+          "explanation": "This global positioning reflects India's proactive approach to environmental protection and recognition of need for specialized environmental adjudication."
+        },
+        {
+          "id": 147,
+          "question_type": "application",
+          "difficulty": "easy",
+          "question": "What is the appeal mechanism against NGT orders?",
+          "category": "Functions",
+          "answer": "Aggrieved parties can seek review of NGT order, and if still not satisfied, can make appeal to Supreme Court within ninety days of the order's issue.",
+          "explanation": "This appellate mechanism ensures judicial oversight and provides final recourse for environmental justice through the highest court."
+        },
+        {
+          "id": 148,
+          "question_type": "factual",
+          "difficulty": "medium",
+          "question": "What is the case statistics of NGT as of September 2025?",
+          "category": "Functions",
+          "answer": "Total Institutions: 52,129; Total Disposals: 46,994; Total Pending: 5,135 (as of 30.09.2025).",
+          "explanation": "These statistics demonstrate NGT's substantial throughput and effectiveness in reducing environmental case pendency through specialized adjudication."
+        },
+        {
+          "id": 149,
+          "question_type": "conceptual",
+          "difficulty": "hard",
+          "question": "How does NGT differ from regular courts in procedure?",
+          "category": "Functions",
+          "answer": "NGT is not bound by rigid procedural requirements of CPC 1908, not strictly mandated to follow rules of evidence as per Indian Evidence Act 1872, allowing wider range of evidence including scientific data and expert testimonies.",
+          "explanation": "This procedural flexibility enables NGT to handle complex environmental cases effectively by considering scientific and technical evidence alongside legal requirements."
+        },
+        {
+          "id": 150,
+          "question_type": "application",
+          "difficulty": "medium",
+          "question": "What is the global significance of NGT according to international analysis?",
+          "category": "Functions",
+          "answer": "NGT represents the third model globally of environmental courts/tribunals specializing in environmental cases, providing speed, efficiency, trained judges, and effective enforcement of environmental laws that might otherwise remain unapplied.",
+          "explanation": "International analysis recognizes NGT as a comprehensive and promising environmental court that serves as a bridge between judiciary, executive, and public in environmental governance, promoting sustainable development."
+        }
+      ]
+    }
+  }
+}

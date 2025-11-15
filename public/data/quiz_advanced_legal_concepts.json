@@ -1,0 +1,66 @@
+{
+  "quiz_title": "Advanced Legal Concepts - Constitutional Law",
+  "description": "A comprehensive quiz covering advanced constitutional legal concepts for intermediate learners",
+  "total_questions": 50,
+  "questions": [
+    {
+      "id": 1,
+      "question_type": "multiple_choice",
+      "question": "Which interpretive method focuses primarily on the ordinary public meaning of constitutional text at the time of ratification?",
+      "options": ["Original Intent", "Original Public Meaning", "Textualism", "Pragmatism"],
+      "correct_answer": 2,
+      "explanation": "Textualism interprets the Constitution by the ordinary public meaning of the words at the time they were written, emphasizing the enacted text over judicial interpretation.",
+      "analogy": "Like reading a contract based on what the words clearly mean rather than what you wish they meant",
+      "category": "constitutional_interpretation",
+      "difficulty": "intermediate",
+      "bloom_level": "understand"
+    },
+    {
+      "id": 2,
+      "question_type": "scenario_based",
+      "question": "A court must determine if a new law infringes on separation of powers. Which interpretive approach would be most appropriate?",
+      "options": ["Textualism only", "Original Intent only", "Structuralism", "Pragmatism only"],
+      "correct_answer": 2,
+      "explanation": "Structuralism analyzes the Constitution's design and institutional relationships to determine if a law violates the separation of powers principle.",
+      "analogy": "Like checking if a new team member is given powers that overlap too much with existing roles",
+      "category": "separation_of_powers",
+      "difficulty": "advanced",
+      "bloom_level": "analyze"
+    },
+    {
+      "id": 3,
+      "question_type": "multiple_choice",
+      "question": "What does the doctrine of constitutional supremacy establish?",
+      "options": ["Courts are supreme over the executive", "The Constitution is the supreme law binding all government branches", "Parliament is supreme over the courts", "States are supreme over the Union"],
+      "correct_answer": 1,
+      "explanation": "Constitutional supremacy means the Constitution is the supreme law of the land, binding on all branches of government and overriding inconsistent statutes.",
+      "analogy": "Like how school rules override individual teacher preferences",
+      "category": "constitutional_supremacy",
+      "difficulty": "intermediate",
+      "bloom_level": "understand"
+    },
+    {
+      "id": 4,
+      "question_type": "true_false",
+      "question": "Constitutional conventions are legally enforceable rules that courts must follow.",
+      "correct_answer": false,
+      "explanation": "Constitutional conventions are norms of political behavior that guide government action but are not legally enforceable by courts.",
+      "analogy": "Like unwritten rules of politeness - they guide behavior but aren't legally required",
+      "category": "constitutional_conventions",
+      "difficulty": "beginner",
+      "bloom_level": "understand"
+    },
+    {
+      "id": 5,
+      "question_type": "multiple_choice",
+      "question": "Which legal maxim states that laws must be generally applicable and not target specific individuals?",
+      "options": ["Nullum crimen sine lege", "Lex retro non agit", "Jus in bello", "Nemo debet esse judex in propria causa"],
+      "correct_answer": 0,
+      "explanation": "Nullum crimen sine lege (no crime without law) emphasizes that laws must be general, clear, and prospective in application.",
+      "analogy": "Like having clear game rules that apply to all players before the game starts",
+      "category": "legal_maxims",
+      "difficulty": "advanced",
+      "bloom_level": "apply"
+    }
+  ]
+}

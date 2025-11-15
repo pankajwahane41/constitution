@@ -1,0 +1,2417 @@
+{
+  "title": "150 MCQ Questions on Fundamental Rights in Indian Constitution",
+  "description": "Comprehensive collection of multiple choice questions covering all 6 fundamental rights with detailed explanations and landmark cases",
+  "total_questions": 150,
+  "questions": [
+    {
+      "id": 1,
+      "right": "Right to Equality",
+      "articles": ["14"],
+      "question": "Which of the following best describes the core principle of Article 14 of the Indian Constitution?",
+      "options": {
+        "A": "Equal protection of law to all persons regardless of their citizenship",
+        "B": "Social equality among all citizens",
+        "C": "Political equality in voting rights",
+        "D": "Economic equality in wealth distribution"
+      },
+      "correct": "A",
+      "explanation": "Article 14 guarantees equality before the law and equal protection of laws to all persons within the territory of India. The landmark case of State of West Bengal v. Anwar Ali Sarkar (1952) established that this article applies to all persons, not just citizens. The Supreme Court in this case held that the West Bengal Special Courts Act conferred arbitrary powers for classification without clear guidelines, violating the principle of equal protection of law.",
+      "landmark_case": "State of West Bengal v. Anwar Ali Sarkar, 1952",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 2,
+      "right": "Right to Equality", 
+      "articles": ["14"],
+      "question": "The 'classification test' for Article 14 was established in which landmark case?",
+      "options": {
+        "A": "E.P. Royappa v. State of Tamil Nadu",
+        "B": "Ram Krishna Dalmia v. Justice Tendolkar", 
+        "C": "Magan Lal Chaggan Lal v. Municipal Corporation of Greater Bombay",
+        "D": "Indra Sawhney v. Union of India"
+      },
+      "correct": "B",
+      "explanation": "The 'classification test' was established by Justice Tendolkar in Ram Krishna Dalmia v. Justice Tendolkar (1958). This test permits differential classification of subjects by the State, provided it is founded on 'intelligible differentia' (objects within the class are clearly distinguishable from those outside) and has a 'rational nexus' with the objective sought to be achieved by the classification.",
+      "landmark_case": "Ram Krishna Dalmia v. Justice Tendolkar, 1958",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 3,
+      "right": "Right to Equality",
+      "articles": ["14"],
+      "question": "Which case established the 'arbitrariness test' for Article 14 of the Indian Constitution?",
+      "options": {
+        "A": "State of West Bengal v. Anwar Ali Sarkar",
+        "B": "E.P. Royappa v. State of Tamil Nadu",
+        "C": "Ram Krishna Dalmia v. Justice Tendolkar",
+        "D": "Magan Lal Chaggan Lal v. Municipal Corporation of Greater Bombay"
+      },
+      "correct": "B",
+      "explanation": "The 'arbitrariness test' was established by Justice Bhagwati in E.P. Royappa v. State of Tamil Nadu (1974). This case introduced the doctrine that Article 14 includes a guarantee against arbitrariness in State action. This test has been frequently used to declare State actions ultra vires Article 14, ensuring that government actions must be rational and non-arbitrary.",
+      "landmark_case": "E.P. Royappa v. State of Tamil Nadu, 1974",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 4,
+      "right": "Right to Equality",
+      "articles": ["14", "19", "21"],
+      "question": "The 'triumvirate' test linking Articles 14, 19, and 21 was established in which case?",
+      "options": {
+        "A": "Kesavananda Bharati v. State of Kerala",
+        "B": "Maneka Gandhi v. Union of India",
+        "C": "Indira Gandhi v. Raj Narain",
+        "D": "S.R. Bommai v. Union of India"
+      },
+      "correct": "B",
+      "explanation": "The 'triumvirate' test was established in Maneka Gandhi v. Union of India (1978). A seven-Judge Bench considered the relationship between Articles 14, 19, and 21, establishing that any law interfering with personal liberty must satisfy a triple test: (1) prescribe a procedure, (2) withstand Article 19's fundamental rights, and (3) be tested against Article 14. The procedure must be right, just, fair, non-arbitrary, fanciful or oppressive.",
+      "landmark_case": "Maneka Gandhi v. Union of India, 1978",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 5,
+      "right": "Right to Equality",
+      "articles": ["14", "16"],
+      "question": "In the landmark case Indra Sawhney v. Union of India, the Supreme Court held that:",
+      "options": {
+        "A": "Reservation in government jobs is unconstitutional",
+        "B": "Article 16(4) is a facet of Article 14 and permits reasonable reservations",
+        "C": "No reservations can be made in private sector jobs",
+        "D": "Only economic backwardness can be a ground for reservation"
+      },
+      "correct": "B",
+      "explanation": "In Indra Sawhney v. Union of India (1993), the Supreme Court held that Article 16(1) is a facet of Article 14. Both articles permit reasonable classification, which may include reservation. The primary aim of both Article 14 and 16 is equality and equality of opportunity, and Article 16(4) is a means to achieve this. The court established that reservations should not exceed 50% and identified the 'creamy layer' concept to exclude advanced sections from reservations.",
+      "landmark_case": "Indra Sawhney v. Union of India, 1993",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 6,
+      "right": "Right to Equality",
+      "articles": ["14", "15"],
+      "question": "Which case declared the practice of triple talaq unconstitutional under Article 14?",
+      "options": {
+        "A": "Shayara Bano v. Union of India",
+        "B": "Sabarimala Temple Case",
+        "C": "Joseph Shine v. Union of India", 
+        "D": "Navtej Singh Johar v. Union of India"
+      },
+      "correct": "A",
+      "explanation": "In Shayara Bano v. Union of India (2017), a 5-Judge Bench declared instantaneous triple talaq (Talaq-ul-biddat) unconstitutional. The court stated that the fundamental right to equality under Article 14 encompasses gender equality, equity, and justice. Conferring social status based on patriarchal values or male mercy is incompatible with the letter and spirit of Articles 14 and 15.",
+      "landmark_case": "Shayara Bano v. Union of India, 2017",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 7,
+      "right": "Right to Equality",
+      "articles": ["14"],
+      "question": "The case that recognized the rights of transgender persons under Article 14 was:",
+      "options": {
+        "A": "Navtej Singh Johar v. Union of India",
+        "B": "National Legal Service Authority (NALSA) v. Union of India",
+        "C": "Joseph Shine v. Union of India",
+        "D": "Shayara Bano v. Union of India"
+      },
+      "correct": "B",
+      "explanation": "In National Legal Service Authority (NALSA) v. Union of India (2014), the Supreme Court held that the right to equality under Article 14 is framed in gender-neutral terms ('all persons') and thus extends to transgender persons. This case recognized the rights of the third gender to equality and protection against discrimination, ensuring that the Constitution protects all persons regardless of their gender identity.",
+      "landmark_case": "National Legal Service Authority (NALSA) v. Union of India, 2014",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 8,
+      "right": "Right to Equality",
+      "articles": ["14"],
+      "question": "Which case decriminalized consensual same-sex relations?",
+      "options": {
+        "A": "Joseph Shine v. Union of India",
+        "B": "Navtej Singh Johar v. Union of India", 
+        "C": "Sabarimala Temple Case",
+        "D": "Shayara Bano v. Union of India"
+      },
+      "correct": "B",
+      "explanation": "In Navtej Singh Johar v. Union of India (2018), a five-judge Bench considered the constitutionality of Section 377 of the Indian Penal Code, specifically concerning same-sex relations between consenting adults. The Bench unanimously struck down Section 377 IPC to the extent it criminalized consensual same-sex relations, holding it violative of the right to equality under Article 14, which equally applies to same-sex couples.",
+      "landmark_case": "Navtej Singh Johar v. Union of India, 2018",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 9,
+      "right": "Right to Equality",
+      "articles": ["14"],
+      "question": "Which case decriminalized adultery under Article 14?",
+      "options": {
+        "A": "Shayara Bano v. Union of India",
+        "B": "Joseph Shine v. Union of India",
+        "C": "Navtej Singh Johar v. Union of India",
+        "D": "Sabarimala Temple Case"
+      },
+      "correct": "B",
+      "explanation": "In Joseph Shine v. Union of India (2018), a five-judge Bench examined the constitutionality of Section 497 of the Indian Penal Code (adultery) and Section 198 of the Code of Criminal Procedure. The Bench unanimously struck down Section 497 IPC, thereby decriminalizing adultery, on grounds that it violates Articles 14, 15, and 21. The court declared it an archaic and paternalistic law infringing upon a woman's autonomy and dignity.",
+      "landmark_case": "Joseph Shine v. Union of India, 2018",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 10,
+      "right": "Right to Equality",
+      "articles": ["14"],
+      "question": "The case that dealt with the Sabarimala Temple entry restriction was:",
+      "options": {
+        "A": "Shayara Bano v. Union of India",
+        "B": "Indian Young Lawyers' Association v. State of Kerala",
+        "C": "Joseph Shine v. Union of India", 
+        "D": "Navtej Singh Johar v. Union of India"
+      },
+      "correct": "B",
+      "explanation": "In Indian Young Lawyers' Association v. State of Kerala (2018), the Supreme Court by a 4:1 majority declared the Sabarimala Temple's custom prohibiting women of 'menstruating years' from entering the temple premises unconstitutional. The decision was based on equality principles under Article 14, emphasizing that constitutional rights cannot be superseded by religious customs that violate gender equality.",
+      "landmark_case": "Indian Young Lawyers' Association v. State of Kerala, 2018",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 11,
+      "right": "Right to Equality",
+      "articles": ["14"],
+      "question": "Which case challenged employment discrimination based on pregnancy and marriage?",
+      "options": {
+        "A": "Air India v. Nargesh Meerza",
+        "B": "Visakha v. State of Rajasthan",
+        "C": "NARSA v. Union of India",
+        "D": "Harsh Mander v. Union of India"
+      },
+      "correct": "A",
+      "explanation": "In Air India v. Nargesh Meerza (1978), the Supreme Court struck down Air India's rules for female flight attendants which required retirement upon reaching 35 years of age, marriage, or first pregnancy - rules not applicable to male attendants. The Court held these rules constituted official arbitrariness and hostile discrimination, violating Article 14's guarantee of equality.",
+      "landmark_case": "Air India v. Nargesh Meerza, 1978",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 12,
+      "right": "Right to Equality",
+      "articles": ["14"],
+      "question": "Which case dealt with the right against workplace sexual harassment?",
+      "options": {
+        "A": "Air India v. Nargesh Meerza",
+        "B": "Visakha v. State of Rajasthan",
+        "C": "NARSA v. Union of India",
+        "D": "Harsh Mander v. Union of India"
+      },
+      "correct": "B",
+      "explanation": "In Visakha v. State of Rajasthan (1997), the Supreme Court held that sexual harassment violates women's fundamental right to gender equality under Article 14 and the right to life under Article 21. Even without an express constitutional provision, the right against sexual harassment at the workplace is implicit in these fundamental rights. The court established guidelines for prevention of sexual harassment, which later formed the basis for the Sexual Harassment of Women at Workplace Act.",
+      "landmark_case": "Visakha v. State of Rajasthan, 1997",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 13,
+      "right": "Right to Equality",
+      "articles": ["14"],
+      "question": "Which case decriminalized begging as a violation of Article 14?",
+      "options": {
+        "A": "Air India v. Nargesh Meerza",
+        "B": "Visakha v. State of Rajasthan",
+        "C": "Harsh Mander v. Union of India",
+        "D": "Nar Gayatan v. Union of India"
+      },
+      "correct": "C",
+      "explanation": "In Harsh Mander v. Union of India (2018), the Delhi High Court decriminalized begging by challenging the Bombay Prevention of Begging Act, 1959, which criminalized various forms of begging. The court stated that begging is not a disease and criminalizing it is a direct attack on the fundamental rights of the poorest to access basic necessities like food and shelter, violating Article 14's guarantee of equality.",
+      "landmark_case": "Harsh Mander v. Union of India, 2018",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 14,
+      "right": "Right to Equality",
+      "articles": ["15", "16"],
+      "question": "Which clause of Article 15 allows special provisions for women and children?",
+      "options": {
+        "A": "Article 15(1)",
+        "B": "Article 15(2)",
+        "C": "Article 15(3)",
+        "D": "Article 15(4)"
+      },
+      "correct": "C",
+      "explanation": "Article 15(3) explicitly states that 'Nothing in this article shall prevent the State from making any special provision for women and children.' This clause enables the State to enact gender-specific laws and policies, such as reserved seats for women in local bodies, maternity benefits, and other protective legislation that would otherwise appear to discriminate on the basis of sex.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 15,
+      "right": "Right to Equality",
+      "articles": ["15", "16"],
+      "question": "Which article contains provisions for reservation in public employment?",
+      "options": {
+        "A": "Article 15",
+        "B": "Article 16",
+        "C": "Article 17",
+        "D": "Article 18"
+      },
+      "correct": "B",
+      "explanation": "Article 16 specifically deals with 'Equality of opportunity in matters of public employment.' Article 16(4) allows the State to make provision for reservation of appointments or posts in favor of any backward class of citizens which, in the opinion of the State, is not adequately represented in the services under the State. This is the constitutional basis for reservations in government jobs and promotions.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 16,
+      "right": "Right to Equality",
+      "articles": ["17"],
+      "question": "Article 17 of the Indian Constitution deals with:",
+      "options": {
+        "A": "Abolition of titles",
+        "B": "Abolition of untouchability",
+        "C": "Right to equality before law",
+        "D": "Prohibition of discrimination"
+      },
+      "correct": "B",
+      "explanation": "Article 17 states that 'Untouchability' is abolished and its practice in any form is forbidden. The enforcement of any disability arising out of 'Untouchability' shall be an offence punishable in accordance with law. This article makes untouchability a punishable offense and aims to eliminate the social evil that has been prevalent in Indian society for centuries.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 17,
+      "right": "Right to Equality",
+      "articles": ["18"],
+      "question": "Which of the following titles can still be conferred by the State according to Article 18?",
+      "options": {
+        "A": "Military distinction",
+        "B": "Academic distinction",
+        "C": "Both military and academic distinction",
+        "D": "No titles can be conferred"
+      },
+      "correct": "C",
+      "explanation": "Article 18(1) states that 'No title, not being a military or academic distinction, shall be conferred by the State.' This means that military and academic distinctions are exceptions to the general prohibition on conferring titles. Military decorations like Param Vir Chakra and academic distinctions like honorary doctorates are still permitted.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 18,
+      "right": "Right to Equality",
+      "articles": ["14"],
+      "question": "The term 'person' in Article 14 includes:",
+      "options": {
+        "A": "Only citizens of India",
+        "B": "Only natural persons",
+        "C": "Both citizens and non-citizens, including legal persons",
+        "D": "Only government officials"
+      },
+      "correct": "C",
+      "explanation": "Article 14 guarantees equality before the law or equal protection of the laws to 'any person' within the territory of India. This includes both citizens and non-citizens (foreign nationals, stateless persons) as well as legal persons (corporations, associations). The use of 'person' makes Article 14 comprehensive and ensures protection to all individuals within India's jurisdiction.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 19,
+      "right": "Right to Equality",
+      "articles": ["14"],
+      "question": "The 'equal protection of the laws' means:",
+      "options": {
+        "A": "Identical treatment for all persons",
+        "B": "Different treatment based on reasonable classification",
+        "C": "Protection only for citizens",
+        "D": "Protection only in criminal cases"
+      },
+      "correct": "B",
+      "explanation": "The 'equal protection of the laws' does not mean identical treatment for all persons. It means that persons similarly situated must be treated similarly, and persons in different circumstances may be treated differently if there is a reasonable classification. This is the basis of the classification test established in Ram Krishna Dalmia v. Justice Tendolkar (1958).",
+      "landmark_case": "General Constitutional Interpretation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 20,
+      "right": "Right to Equality",
+      "articles": ["14"],
+      "question": "Article 14 is violated when:",
+      "options": {
+        "A": "The State makes reasonable classifications",
+        "B": "The State acts arbitrarily without any rational basis",
+        "C": "The State follows established precedents",
+        "D": "The State enforces existing laws"
+      },
+      "correct": "B",
+      "explanation": "Article 14 is violated when the State acts in an arbitrary manner without any rational basis for distinction. The Supreme Court in E.P. Royappa v. State of Tamil Nadu (1974) established the arbitrariness test, holding that Article 14 is a guarantee against arbitrary State action. Any action that is fanciful, whimsical, or capricious violates Article 14.",
+      "landmark_case": "E.P. Royappa v. State of Tamil Nadu, 1974",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 21,
+      "right": "Right to Equality",
+      "articles": ["16"],
+      "question": "Article 16(4A) allows reservation in:",
+      "options": {
+        "A": "Admissions only",
+        "B": "Appointments only",
+        "C": "Matters of promotion",
+        "D": "Equal pay for equal work"
+      },
+      "correct": "C",
+      "explanation": "Article 16(4A) states that 'Nothing in this article shall prevent the State from making any provision for reservation in matters of promotion, with consequential seniority, to any class or classes of posts in the services under the State in favour of the Scheduled Castes and the Scheduled Tribes which, in the opinion of the State, are not adequately represented in the services under the State.' This provision was added by the 77th Constitutional Amendment.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 22,
+      "right": "Right to Equality",
+      "articles": ["15"],
+      "question": "The 'creamy layer' concept in reservation policy was introduced in which case?",
+      "options": {
+        "A": "State of West Bengal v. Anwar Ali Sarkar",
+        "B": "E.P. Royappa v. State of Tamil Nadu", 
+        "C": "Indra Sawhney v. Union of India",
+        "D": "NARSA v. Union of India"
+      },
+      "correct": "C",
+      "explanation": "The concept of 'creamy layer' was introduced by the Supreme Court in Indra Sawhney v. Union of India (1993). The court held that advanced sections or 'creamy layer' among the backward classes should not be eligible for reservation benefits. This ensures that reservation benefits reach the truly deserving and backward sections, while preventing undue benefit to those who have already achieved social and economic advancement.",
+      "landmark_case": "Indra Sawhney v. Union of India, 1993",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 23,
+      "right": "Right to Equality",
+      "articles": ["15"],
+      "question": "Which clause of Article 15 allows reservation in private educational institutions?",
+      "options": {
+        "A": "Article 15(3)",
+        "B": "Article 15(4)",
+        "C": "Article 15(5)",
+        "D": "Article 15(6)"
+      },
+      "correct": "C",
+      "explanation": "Article 15(5) states that 'Nothing in this article or in sub-clause (g) of clause (1) of article 19 shall prevent the State from making any special provision, by law, for the advancement of any socially and educationally backward classes of citizens or for the Scheduled Castes or the Scheduled Tribes in so far as such special provisions relate to their admission to educational institutions including private educational institutions, whether aided or unaided by the State.' This was added by the 93rd Constitutional Amendment.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 24,
+      "right": "Right to Equality",
+      "articles": ["16"],
+      "question": "The principle of 'equal pay for equal work' is derived from:",
+      "options": {
+        "A": "Article 14",
+        "B": "Article 16",
+        "C": "Article 21",
+        "D": "Article 39"
+      },
+      "correct": "D",
+      "explanation": "The principle of 'equal pay for equal work' is derived from Article 39(d) of the Directive Principles of State Policy, which states that the State shall secure for men and women equal right to an adequate means of livelihood. While Article 16 provides for equality of opportunity in public employment, the specific doctrine of 'equal pay for equal work' stems from Article 39(d).",
+      "landmark_case": "General Constitutional Principle",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 25,
+      "right": "Right to Equality",
+      "articles": ["14", "21A"],
+      "question": "Which case established the relationship between Article 14 and right to education?",
+      "options": {
+        "A": "Mohan Kumar v. Union of India",
+        "B": "Unni Krishnan v. State of Andhra Pradesh",
+        "C": "Vishaka v. State of Rajasthan",
+        "D": "NARSA v. Union of India"
+      },
+      "correct": "B",
+      "explanation": "In Unni Krishnan v. State of Andhra Pradesh (1993), the Supreme Court held that the right to education flows from Article 21 and is part of the right to life and dignity. The court also held that Article 14's guarantee of equality extends to educational opportunities. This case laid the foundation for the later constitutional amendment (Article 21A) making education a fundamental right.",
+      "landmark_case": "Unni Krishnan v. State of Andhra Pradesh, 1993",
+      "difficulty": "Hard"
+    }
+  ]
+},
+    {
+      "id": 26,
+      "right": "Right to Freedom",
+      "articles": ["19"],
+      "question": "Article 19(1)(a) of the Indian Constitution guarantees the right to:",
+      "options": {
+        "A": "Freedom of association",
+        "B": "Freedom of speech and expression",
+        "C": "Freedom of movement",
+        "D": "Freedom to practice any profession"
+      },
+      "correct": "B",
+      "explanation": "Article 19(1)(a) guarantees to all citizens the right to freedom of speech and expression. This includes the freedom to express thoughts, opinions, and ideas through speech, writing, printing, painting, or any other manner. The Supreme Court has interpreted this broadly to include the right to receive and disseminate information, freedom of the press, and the right to express dissent.",
+      "landmark_case": "Bennett Coleman & Co. v. Union of India, 1972",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 27,
+      "right": "Right to Freedom",
+      "articles": ["19"],
+      "question": "Which right is protected under Article 19(1)(b)?",
+      "options": {
+        "A": "Freedom of speech and expression",
+        "B": "Right to assemble peaceably and without arms",
+        "C": "Right to form associations or unions",
+        "D": "Right to move freely throughout the territory of India"
+      },
+      "correct": "B",
+      "explanation": "Article 19(1)(b) guarantees to all citizens the right to assemble peaceably and without arms. This right is essential for democratic participation and includes the right to hold meetings, processions, and demonstrations. However, it is subject to reasonable restrictions in the interests of sovereignty and integrity of India or public order.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 28,
+      "right": "Right to Freedom",
+      "articles": ["19"],
+      "question": "The right to form trade unions is protected under which sub-clause of Article 19?",
+      "options": {
+        "A": "Article 19(1)(a)",
+        "B": "Article 19(1)(b)",
+        "C": "Article 19(1)(c)",
+        "D": "Article 19(1)(d)"
+      },
+      "correct": "C",
+      "explanation": "Article 19(1)(c) guarantees to all citizens the right to form associations or unions, which includes the right to form trade unions. The Supreme Court has consistently held that the right to form trade unions is a fundamental right essential for workers to collectively bargain and protect their interests. However, this right can be restricted for members of armed forces and paramilitary forces.",
+      "landmark_case": "All India Bank Employees' Association v. National Industrial Tribunal, 1961",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 29,
+      "right": "Right to Freedom",
+      "articles": ["19"],
+      "question": "Article 19(1)(d) guarantees the right to:",
+      "options": {
+        "A": "Assemble peacefully",
+        "B": "Move freely throughout the territory of India",
+        "C": "Reside and settle in any part of the country",
+        "D": "Practice any profession"
+      },
+      "correct": "B",
+      "explanation": "Article 19(1)(d) guarantees to all citizens the right to move freely throughout the territory of India. This right includes the freedom to travel and move from one place to another within the country. The Supreme Court has held that this right is fundamental to the concept of citizenship and unity of the nation.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 30,
+      "right": "Right to Freedom",
+      "articles": ["19"],
+      "question": "Which of the following restrictions can be imposed on the right to freedom of speech under Article 19(2)?",
+      "options": {
+        "A": "In the interest of national security",
+        "B": "In the interest of friendly relations with foreign nations",
+        "C": "In the interest of public order",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanation": "Article 19(2) allows reasonable restrictions on the right to freedom of speech and expression in the interests of sovereignty and integrity of India, security of the State, friendly relations with foreign States, public order, decency or morality, or in relation to contempt of court, defamation, or incitement to an offence. These restrictions must be reasonable and not arbitrary.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 31,
+      "right": "Right to Freedom",
+      "articles": ["20"],
+      "question": "Article 20(1) protects against:",
+      "options": {
+        "A": "Double jeopardy",
+        "B": "Self-incrimination",
+        "C": "Ex post facto laws",
+        "D": "Cruel and unusual punishment"
+      },
+      "correct": "C",
+      "explanation": "Article 20(1) states that no person shall be convicted of any offence except for violation of a law in force at the time of the commission of the act charged as an offence, nor be subjected to a penalty greater than that which might have been inflicted under the law in force at the time of the commission of the offence. This protects against ex post facto (retroactive) criminal laws.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 32,
+      "right": "Right to Freedom",
+      "articles": ["20"],
+      "question": "The protection against double jeopardy is provided by:",
+      "options": {
+        "A": "Article 20(1)",
+        "B": "Article 20(2)",
+        "C": "Article 20(3)",
+        "D": "Article 21"
+      },
+      "correct": "B",
+      "explanation": "Article 20(2) states that no person shall be prosecuted and punished for the same offence more than once. This is the constitutional guarantee against double jeopardy, based on the legal maxim 'nemo debet bis vexari pro una et eadem causa' (no person should be twice vexed for the same cause). This principle ensures that criminal prosecution and punishment should be a single event.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 33,
+      "right": "Right to Freedom",
+      "articles": ["20"],
+      "question": "The right against self-incrimination is guaranteed by:",
+      "options": {
+        "A": "Article 20(1)",
+        "B": "Article 20(2)",
+        "C": "Article 20(3)",
+        "D": "Article 21"
+      },
+      "correct": "C",
+      "explanation": "Article 20(3) states that no person accused of any offence shall be compelled to be a witness against himself. This embodies the right against self-incrimination, which is a fundamental principle of criminal law. The Supreme Court has extended this protection to include not only oral testimony but also the production of documents and other material evidence.",
+      "landmark_case": "M.H. Hoskot v. State of Maharashtra, 1978",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 34,
+      "right": "Right to Freedom",
+      "articles": ["21"],
+      "question": "Article 21 guarantees the right to:",
+      "options": {
+        "A": "Equality before law",
+        "B": "Life and personal liberty",
+        "C": "Freedom of religion",
+        "D": "Cultural and educational rights"
+      },
+      "correct": "B",
+      "explanation": "Article 21 states that no person shall be deprived of his life or personal liberty except according to procedure established by law. This article has been interpreted expansively by the Supreme Court to include various facets of dignified life such as the right to livelihood, right to privacy, right to education, and many other rights essential for human dignity.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 35,
+      "right": "Right to Freedom",
+      "articles": ["21"],
+      "question": "Which case established that the right to life includes the right to livelihood?",
+      "options": {
+        "A": "Maneka Gandhi v. Union of India",
+        "B": "Francis Coralie Mullin v. Union of India",
+        "C": "Olga Tellis v. Bombay Municipal Corporation",
+        "D": "PUCL v. Union of India"
+      },
+      "correct": "C",
+      "explanation": "In Olga Tellis v. Bombay Municipal Corporation (1985), the Supreme Court held that the right to life under Article 21 includes the right to livelihood. The court stated that if a person is deprived of his livelihood, he is deprived of his life. This case involved the eviction of pavement dwellers and established that the government cannot arbitrarily remove people without providing alternative livelihood arrangements.",
+      "landmark_case": "Olga Tellis v. Bombay Municipal Corporation, 1985",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 36,
+      "right": "Right to Freedom",
+      "articles": ["21A"],
+      "question": "Article 21A was added to the Constitution by which amendment?",
+      "options": {
+        "A": "42nd Amendment",
+        "B": "86th Amendment",
+        "C": "93rd Amendment",
+        "D": "101st Amendment"
+      },
+      "correct": "B",
+      "explanation": "Article 21A was added to the Constitution by the 86th Constitutional Amendment Act, 2002. This article makes free and compulsory education for children in the age group of 6 to 14 years a fundamental right. The amendment also directed the State to provide such education in such manner as the State may, by law, determine.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 37,
+      "right": "Right to Freedom",
+      "articles": ["22"],
+      "question": "Article 22 provides protection against arrest and detention. According to Article 22(1), an arrested person:",
+      "options": {
+        "A": "Must be produced before a magistrate within 24 hours",
+        "B": "Cannot be denied the right to consult a legal practitioner of his choice",
+        "C": "Cannot be detained for more than 24 hours without being informed of the grounds",
+        "D": "Can be detained without any formal charges"
+      },
+      "correct": "B",
+      "explanation": "Article 22(1) states that no person who is arrested shall be detained in custody without being informed, as soon as may be, of the grounds for such arrest nor shall he be denied the right to consult, and to be defended by, a legal practitioner of his choice. This is a fundamental procedural safeguard against arbitrary arrest.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 38,
+      "right": "Right to Freedom",
+      "articles": ["22"],
+      "question": "According to Article 22(2), an arrested person must be produced before a magistrate within:",
+      "options": {
+        "A": "12 hours",
+        "B": "24 hours",
+        "C": "48 hours",
+        "D": "72 hours"
+      },
+      "correct": "B",
+      "explanation": "Article 22(2) states that every person who is arrested and detained in custody shall be produced before the nearest magistrate within a period of twenty-four hours of such arrest, excluding the time necessary for the journey from the place of arrest to the court of the magistrate. This ensures judicial oversight of police detention.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 39,
+      "right": "Right to Freedom",
+      "articles": ["22"],
+      "question": "The protections under Article 22(1) and 22(2) do not apply to:",
+      "options": {
+        "A": "Citizens of India",
+        "B": "Non-citizens",
+        "C": "Enemy aliens and persons under preventive detention",
+        "D": "Women and children"
+      },
+      "correct": "C",
+      "explanation": "Article 22(3) explicitly states that nothing in clauses (1) and (2) shall apply to any person who for the time being is an enemy alien or to any person who is arrested or detained under any law providing for preventive detention. This acknowledges the special nature of wartime detention and preventive detention laws.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 40,
+      "right": "Right to Freedom",
+      "articles": ["22"],
+      "question": "Preventive detention means detention:",
+      "options": {
+        "A": "After conviction by a court",
+        "B": "Without trial to prevent commission of a crime",
+        "C": "As punishment for a minor offense",
+        "D": "For default in payment of fine"
+      },
+      "correct": "B",
+      "explanation": "Preventive detention is detention without trial to prevent an individual from committing a crime in the future. Unlike punitive detention (which comes after conviction), preventive detention is based on suspicion that the person might commit a crime. This is allowed under Article 22(3)(b) and is governed by preventive detention laws.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 41,
+      "right": "Right to Freedom",
+      "articles": ["19"],
+      "question": "Which restriction can be imposed on the right to assemble peacefully under Article 19(1)(b)?",
+      "options": {
+        "A": "In the interest of decency or morality",
+        "B": "In the interest of sovereignty and integrity of India or public order",
+        "C": "In the interest of friendly relations with foreign States",
+        "D": "In the interest of national security"
+      },
+      "correct": "B",
+      "explanation": "Article 19(3) allows reasonable restrictions on the right to assemble peaceably and without arms in the interests of sovereignty and integrity of India or public order. The restrictions must be reasonable and not arbitrary. The Supreme Court has held that public order means preservation of public peace and tranquility.",
+      "landmark_case": "Ram Manohar Lohia v. State of Bihar, 1966",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 42,
+      "right": "Right to Freedom",
+      "articles": ["19"],
+      "question": "The right to practice any profession, trade, or business is guaranteed under:",
+      "options": {
+        "A": "Article 19(1)(a)",
+        "B": "Article 19(1)(b)",
+        "C": "Article 19(1)(c)",
+        "D": "Article 19(1)(g)"
+      },
+      "correct": "D",
+      "explanation": "Article 19(1)(g) guarantees to all citizens the right to practise any profession, or to carry on any occupation, trade or business. This right is subject to reasonable restrictions in the interests of the general public. The State can also impose requirements for professional or technical qualifications.",
+      "landmark_case": "Dwijendra Prasad Sharma v. State of Uttar Pradesh, 1964",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 43,
+      "right": "Right to Freedom",
+      "articles": ["19"],
+      "question": "Article 19(6) allows the State to:",
+      "options": {
+        "A": "Ban all political parties",
+        "B": "Monopolize certain trades or industries",
+        "C": "Prevent all strikes",
+        "D": "Control the press completely"
+      },
+      "correct": "B",
+      "explanation": "Article 19(6) explicitly states that nothing in sub-clause (g) shall affect the operation of any existing law in so far as it relates to the carrying on by the State, or by a corporation owned or controlled by the State, of any trade, business, industry or service, whether to the exclusion, complete or partial, of citizens or otherwise. This allows State monopolies.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 44,
+      "right": "Right to Freedom",
+      "articles": ["21"],
+      "question": "Which case established that the right to life includes the right to privacy?",
+      "options": {
+        "A": "R. Rajagopal v. State of Tamil Nadu",
+        "B": "K.S. Puttaswamy v. Union of India",
+        "C": "Madhya Pradesh v. Nirmal Yadav",
+        "D": "A.P. Shah Committee case"
+      },
+      "correct": "B",
+      "explanation": "In K.S. Puttaswamy v. Union of India (2017), the Supreme Court by a unanimous 9-judge bench overruled earlier precedents and held that the right to privacy is a fundamental right emerging from Articles 19 and 21 of the Constitution. The court stated that privacy is intrinsic to the right to life and personal liberty.",
+      "landmark_case": "K.S. Puttaswamy v. Union of India, 2017",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 45,
+      "right": "Right to Freedom",
+      "articles": ["21"],
+      "question": "The concept of 'procedural due process' in Article 21 was established in:",
+      "options": {
+        "A": "A.K. Gopalan v. State of Madras",
+        "B": "Maneka Gandhi v. Union of India",
+        "C": "Francis Coralie Mullin v. Union of India",
+        "D": "Sunil Batra v. Delhi Administration"
+      },
+      "correct": "B",
+      "explanation": "In Maneka Gandhi v. Union of India (1978), the Supreme Court introduced the concept of 'procedural due process' in Article 21. The court held that the procedure established by law must be 'right, just and fair' and not arbitrary, fanciful or oppressive. This decision significantly expanded the scope of Article 21.",
+      "landmark_case": "Maneka Gandhi v. Union of India, 1978",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 46,
+      "right": "Right to Freedom",
+      "articles": ["19"],
+      "question": "The concept of 'time, place and manner' restrictions on freedom of speech was established in:",
+      "options": {
+        "A": "Bennett Coleman & Co. v. Union of India",
+        "B": "R. Rajagopal v. State of Tamil Nadu",
+        "C": "Sakal Papers v. Union of India",
+        "D": "Bennett Coleman & Co. v. Union of India"
+      },
+      "correct": "C",
+      "explanation": "In Sakal Papers v. Union of India (1962), the Supreme Court held that the government cannot regulate the newspaper industry by imposing restrictions that affect the fundamental right to freedom of speech and expression. The court established the principle that any restriction must be reasonable and in public interest, not arbitrary.",
+      "landmark_case": "Sakal Papers v. Union of India, 1962",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 47,
+      "right": "Right to Freedom",
+      "articles": ["19"],
+      "question": "The right to receive information is part of which fundamental right?",
+      "options": {
+        "A": "Article 19(1)(a)",
+        "B": "Article 19(1)(b)",
+        "C": "Article 19(1)(c)",
+        "D": "Article 21"
+      },
+      "correct": "A",
+      "explanation": "The Supreme Court has consistently held that the right to receive information is an integral part of the freedom of speech and expression under Article 19(1)(a). In Secretary, Ministry of Information v. Cricket Association of Bengal (1995), the court held that the right to know is derived from the right to free speech and expression.",
+      "landmark_case": "Secretary, Ministry of Information v. Cricket Association of Bengal, 1995",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 48,
+      "right": "Right to Freedom",
+      "articles": ["19"],
+      "question": "The Supreme Court has held that sedition laws under Section 124A IPC must be interpreted narrowly. This principle was established in:",
+      "options": {
+        "A": "Balwant Singh v. State of Punjab",
+        "B": "Sedar Singh v. State of Uttar Pradesh",
+        "C": "Sukumar v. State of Punjab",
+        "D": "Kanhaiya Kumar v. State (NCT of Delhi)"
+      },
+      "correct": "A",
+      "explanation": "In Balwant Singh v. State of Punjab (1995), the Supreme Court held that mere raising of slogans like 'Khalistan Zindabad' without any threat or call for violence, and not in a manner that causes public disorder, would not constitute sedition. The court emphasized that sedition requires intention or tendency to create disorder or disturbance of public peace by resort to violence.",
+      "landmark_case": "Balwant Singh v. State of Punjab, 1995",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 49,
+      "right": "Right to Freedom",
+      "articles": ["19"],
+      "question": "The right to form associations includes the right to:",
+      "options": {
+        "A": "Dissociate from associations",
+        "B": "Merge with other associations",
+        "C": "Demand government recognition",
+        "D": "Both A and B"
+      },
+      "correct": "D",
+      "explanation": "The Supreme Court has held that the right to form associations under Article 19(1)(c) necessarily includes the right not to associate and the right to dissociate. In Hilda Mary Bates v. State (1995), the court held that forcing someone to continue association against their will violates the freedom of association.",
+      "landmark_case": "Hilda Mary Bates v. State, 1995",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 50,
+      "right": "Right to Freedom",
+      "articles": ["19"],
+      "question": "The right to residence and settle under Article 19(1)(e) is subject to restrictions for:",
+      "options": {
+        "A": "Security reasons only",
+        "B": "Public order only",
+        "C": "Protection of Scheduled Tribes only",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanation": "Article 19(5) allows reasonable restrictions on the rights under sub-clauses (d) and (e) either in the interests of the general public or for the protection of the interests of any Scheduled Tribe. These restrictions must be reasonable and in the public interest.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Medium"
+    }
+  ]
+},
+    {
+      "id": 51,
+      "right": "Right against Exploitation",
+      "articles": ["23"],
+      "question": "Article 23 of the Indian Constitution prohibits:",
+      "options": {
+        "A": "Traffic in human beings",
+        "B": "Begar (forced labour)",
+        "C": "Both traffic in human beings and begar",
+        "D": "Only bonded labour"
+      },
+      "correct": "C",
+      "explanation": "Article 23(1) explicitly states that 'Traffic in human beings and begar and other similar forms of forced labour are prohibited, and any contravention of this provision shall be an offence punishable in accordance with law.' This article aims to protect individuals from exploitation and various forms of forced labour including trafficking for illegal and immoral purposes.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 52,
+      "right": "Right against Exploitation",
+      "articles": ["23"],
+      "question": "Begar refers to:",
+      "options": {
+        "A": "Forced labour without payment",
+        "B": "Exploitation of children",
+        "C": "Human trafficking",
+        "D": "Bonded labour with monetary compensation"
+      },
+      "correct": "A",
+      "explanation": "Begar is defined as forced labour without payment. The term has been interpreted to include any form of forced labour, whether paid or unpaid, where the person is compelled to work against their will. The Supreme Court has held that begar includes various forms of forced labour and exploitation, making the scope very broad.",
+      "landmark_case": "General Constitutional Interpretation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 53,
+      "right": "Right against Exploitation",
+      "articles": ["23"],
+      "question": "Article 23(2) allows the State to impose:",
+      "options": {
+        "A": "Forced labour for any purpose",
+        "B": "Compulsory service for public purposes without discrimination",
+        "C": "Compulsory service only during emergencies",
+        "D": "Special taxes on labour"
+      },
+      "correct": "B",
+      "explanation": "Article 23(2) states that 'Nothing in this article shall prevent the State from imposing compulsory service for public purposes, and in imposing such service the State shall not make any discrimination on grounds only of religion, race, caste or class or any of them.' This allows for legitimate compulsory services like military service, jury duty, etc.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 54,
+      "right": "Right against Exploitation",
+      "articles": ["24"],
+      "question": "Article 24 prohibits employment of children below the age of:",
+      "options": {
+        "A": "12 years in any factory",
+        "B": "14 years in any factory, mine, or hazardous employment",
+        "C": "16 years in any hazardous occupation",
+        "D": "18 years in mines"
+      },
+      "correct": "B",
+      "explanation": "Article 24 explicitly states that 'No child below the age of fourteen years shall be employed to work in any factory or mine or engaged in any other hazardous employment.' This is an absolute prohibition in hazardous employment, with no exceptions mentioned in the Constitution.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 55,
+      "right": "Right against Exploitation",
+      "articles": ["24"],
+      "question": "The Factories Act of 1948 sets the minimum age for child employment in factories at:",
+      "options": {
+        "A": "12 years",
+        "B": "14 years",
+        "C": "16 years",
+        "D": "17 years"
+      },
+      "correct": "B",
+      "explanation": "The Factories Act of 1948 was the first post-independence act setting the minimum age for child employment in factories at 14 years. This aligned with the constitutional mandate under Article 24, which prohibits employment of children below 14 years in factories, mines, or other hazardous employment.",
+      "landmark_case": "General Statutory Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 56,
+      "right": "Right against Exploitation",
+      "articles": ["24"],
+      "question": "The Mines Act of 1952 prohibits employment of persons under the age of:",
+      "options": {
+        "A": "14 years",
+        "B": "16 years", 
+        "C": "18 years",
+        "D": "21 years"
+      },
+      "correct": "C",
+      "explanation": "The Mines Act of 1952 prohibits employment of persons under 18 years in mines. This is stricter than Article 24's general prohibition and reflects the hazardous nature of mining work. The act was designed to ensure the safety and protection of young workers in the mining industry.",
+      "landmark_case": "General Statutory Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 57,
+      "right": "Right against Exploitation",
+      "articles": ["24"],
+      "question": "The Child Labour (Prohibition and Regulation) Act of 1986 defines a 'child' as a person who has not completed:",
+      "options": {
+        "A": "12th year of age",
+        "B": "14th year of age",
+        "C": "16th year of age",
+        "D": "18th year of age"
+      },
+      "correct": "B",
+      "explanation": "The Child Labour (Prohibition and Regulation) Act, 1986 defined 'child' as a person who has not completed 14th year of age. This aligned with Article 24's constitutional prohibition. However, the 2016 amendment made the prohibition absolute, completely forbidding employment of children below 14 years.",
+      "landmark_case": "Child Labour (Prohibition and Regulation) Act, 1986",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 58,
+      "right": "Right against Exploitation",
+      "articles": ["24"],
+      "question": "The Child Labour (Prohibition & Regulation) Amendment Act of 2016:",
+      "options": {
+        "A": "Completely forbids employment of children below 14 years",
+        "B": "Bans employment of adolescents (14-18) in hazardous occupations",
+        "C": "Makes punishments for violators stricter",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanation": "The 2016 Amendment Act: (1) Completely forbids employment of children below 14 years of age in any form of work; (2) Bans employment of people between 14 and 18 years in hazardous occupations and processes; (3) Made punishments for violators stricter; (4) Allows children to be employed in certain family occupations and as artists under regulated conditions.",
+      "landmark_case": "Child Labour (Prohibition & Regulation) Amendment Act, 2016",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 59,
+      "right": "Right against Exploitation",
+      "articles": ["23"],
+      "question": "Bonded labour system is unconstitutional under:",
+      "options": {
+        "A": "Article 21",
+        "B": "Article 23",
+        "C": "Article 24",
+        "D": "Article 25"
+      },
+      "correct": "B",
+      "explanation": "The Supreme Court has interpreted Article 23 to prohibit bonded labour system, where a person is forced to work against an unrepaid loan or debt. In cases like People's Union for Democratic Rights v. Union of India (1982), the court held that bonded labour violates Article 23 and the State has a duty to eradicate this practice.",
+      "landmark_case": "People's Union for Democratic Rights v. Union of India, 1982",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 60,
+      "right": "Right against Exploitation",
+      "articles": ["23"],
+      "question": "The Bonded Labour System (Abolition) Act was enacted in:",
+      "options": {
+        "A": "1970",
+        "B": "1976",
+        "C": "1980",
+        "D": "1986"
+      },
+      "correct": "B",
+      "explanation": "The Bonded Labour System (Abolition) Act, 1976 was enacted to give effect to Article 23's prohibition of forced labour. The act declares the bonded labour system to be unlawful and provides for the abolition of the system and for the release and rehabilitation of bonded labourers.",
+      "landmark_case": "Bonded Labour System (Abolition) Act, 1976",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 61,
+      "right": "Right against Exploitation",
+      "articles": ["23"],
+      "question": "Human trafficking for prostitution is prohibited under:",
+      "options": {
+        "A": "Article 21",
+        "B": "Article 23",
+        "C": "Article 24",
+        "D": "Article 25"
+      },
+      "correct": "B",
+      "explanation": "Article 23 explicitly prohibits 'traffic in human beings' which includes buying and selling men and women for illegal and immoral activities like prostitution. This has been interpreted to include human trafficking for sexual exploitation, forced labour, and other forms of exploitation.",
+      "landmark_case": "General Constitutional Interpretation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 62,
+      "right": "Right against Exploitation",
+      "articles": ["23"],
+      "question": "The Suppression of Immoral Traffic in Women and Girls Act was enacted in:",
+      "options": {
+        "A": "1950",
+        "B": "1956",
+        "C": "1960",
+        "D": "1970"
+      },
+      "correct": "B",
+      "explanation": "The Suppression of Immoral Traffic in Women and Girls Act, 1956 (now known as the Immoral Traffic (Prevention) Act, 1986) was enacted to combat the social evil of prostitution and trafficking of women and girls. This act gives effect to Article 23's prohibition of traffic in human beings.",
+      "landmark_case": "Suppression of Immoral Traffic in Women and Girls Act, 1956",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 63,
+      "right": "Right against Exploitation",
+      "articles": ["23"],
+      "question": "Article 23 protects citizens against exploitation by:",
+      "options": {
+        "A": "Only the State",
+        "B": "Only private parties",
+        "C": "Both State and private parties",
+        "D": "Only during employment"
+      },
+      "correct": "C",
+      "explanation": "Article 23 protects citizens against exploitation both by the State and private individuals. The prohibition against traffic in human beings and forced labour applies regardless of who is committing the exploitation. The State has a duty to protect citizens from these evils through punitive action and positive measures.",
+      "landmark_case": "General Constitutional Interpretation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 64,
+      "right": "Right against Exploitation",
+      "articles": ["24"],
+      "question": "Employment of children in non-hazardous work is:",
+      "options": {
+        "A": "Absolutely prohibited under Article 24",
+        "B": "Allowed under Article 24 subject to regulation",
+        "C": "Prohibited only in factories",
+        "D": "Prohibited only in mines"
+      },
+      "correct": "B",
+      "explanation": "Article 24 absolutely prohibits employment of children below 14 years only in 'any factory or mine or engaged in any other hazardous employment.' Employment in non-hazardous work is not prohibited by Article 24 and may be regulated by other laws. However, recent amendments have made the prohibition more comprehensive.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 65,
+      "right": "Right against Exploitation",
+      "articles": ["23"],
+      "question": "The term 'forced labour' under Article 23 includes:",
+      "options": {
+        "A": "Only unpaid labour",
+        "B": "Only labour under threat of physical harm",
+        "C": "Any labour exacted under coercion, threat, or menace",
+        "D": "Only labour for debt repayment"
+      },
+      "correct": "C",
+      "explanation": "The Supreme Court has broadly interpreted 'forced labour' under Article 23 to include any labour exacted under coercion, threat, or menace of penalty. This includes not just physical force but also psychological compulsion, economic duress, and other forms of coercion that deprive a person of free choice.",
+      "landmark_case": "J. Jayaprakash Narayan v. State of Karnataka, 1995",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 66,
+      "right": "Right against Exploitation",
+      "articles": ["24"],
+      "question": "The Child Labour (Prohibition & Regulation) Amendment Rules of 2017 provide for:",
+      "options": {
+        "A": "Prevention, prohibition, rescue, and rehabilitation framework",
+        "B": "Only working hours and conditions for artists",
+        "C": "Clarification of family enterprise employment",
+        "D": "Both A and C"
+      },
+      "correct": "D",
+      "explanation": "The 2017 Amendment Rules provide: (1) A framework for prevention, prohibition, rescue, and rehabilitation of child and adolescent workers; (2) Clarification concerning employment in family enterprises; (3) Provides safeguards for artists, specifying working hours and conditions. This comprehensive framework ensures the effective implementation of child labour laws.",
+      "landmark_case": "Child Labour (Prohibition & Regulation) Amendment Rules, 2017",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 67,
+      "right": "Right against Exploitation",
+      "articles": ["23"],
+      "question": "Article 35 of the Constitution empowers Parliament to:",
+      "options": {
+        "A": "Make laws prescribing punishment for acts prohibited by Article 23",
+        "B": "Regulate working conditions in industries",
+        "C": "Set minimum wages",
+        "D": "Establish labour courts"
+      },
+      "correct": "A",
+      "explanation": "Article 35 states that 'Parliament shall have, and the Legislature of a State shall not have, power to make laws... for prescribing punishment for those acts which are declared to be offences under this Part.' This includes making laws to punish acts prohibited under Article 23, ensuring uniform national legislation.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 68,
+      "right": "Right against Exploitation",
+      "articles": ["23"],
+      "question": "The practice of 'Devadasi system' violates which fundamental right?",
+      "options": {
+        "A": "Article 21",
+        "B": "Article 23",
+        "C": "Article 24",
+        "D": "Article 25"
+      },
+      "correct": "B",
+      "explanation": "The Devadasi system, where young girls are dedicated to temples and later exploited, violates Article 23 as it involves forced labour and often trafficking in human beings. The Supreme Court has consistently held that such practices are unconstitutional and the State has a duty to eradicate them.",
+      "landmark_case": "General Constitutional Interpretation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 69,
+      "right": "Right against Exploitation",
+      "articles": ["24"],
+      "question": "Employment of children in family business:",
+      "options": {
+        "A": "Is completely prohibited",
+        "B": "Is allowed without any conditions",
+        "C": "Is allowed under specific conditions and safeguards",
+        "D": "Is prohibited only in urban areas"
+      },
+      "correct": "C",
+      "explanation": "The Child Labour Amendment Act of 2016 allows children to be employed in certain family occupations and as artists, but under specific conditions and safeguards. The 2017 rules provide detailed framework for working hours and conditions to ensure the employment does not affect the child's education or development.",
+      "landmark_case": "Child Labour (Prohibition & Regulation) Amendment Act, 2016",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 70,
+      "right": "Right against Exploitation",
+      "articles": ["23"],
+      "question": "The National Rural Employment Guarantee Act (MGNREGA) was enacted to:",
+      "options": {
+        "A": "Provide voluntary employment",
+        "B": "Ensure at least 100 days of guaranteed wage employment",
+        "C": "Prevent forced labour",
+        "D": "Both B and C"
+      },
+      "correct": "D",
+      "explanation": "MGNREGA was enacted to provide at least 100 days of guaranteed wage employment to rural households and to prevent forced labour by providing alternative livelihood opportunities. The Act aims to give effect to the constitutional mandate of Article 23 by providing alternative sources of livelihood.",
+      "landmark_case": "Mahatma Gandhi National Rural Employment Guarantee Act, 2005",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 71,
+      "right": "Right against Exploitation",
+      "articles": ["23"],
+      "question": "Payment of wages less than the minimum wage constitutes:",
+      "options": {
+        "A": "A civil wrong only",
+        "B": "Forced labour under Article 23",
+        "C": "A valid business practice",
+        "D": "A state subject only"
+      },
+      "correct": "B",
+      "explanation": "The Supreme Court in Deena v. Union of India (1983) held that payment of wages less than the minimum wage constitutes forced labour under Article 23. The court stated that if a person is compelled to work for inadequate wages, it amounts to forced labour and violates the prohibition under Article 23.",
+      "landmark_case": "Deena v. Union of India, 1983",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 72,
+      "right": "Right against Exploitation",
+      "articles": ["24"],
+      "question": "The original Factories Act prohibited employment of children at night in:",
+      "options": {
+        "A": "1948 only",
+        "B": "1954 Amendment",
+        "C": "1970 Amendment", 
+        "D": "1986 Amendment"
+      },
+      "correct": "B",
+      "explanation": "The 1954 amendment to the Factories Act prohibited children below 17 years from being employed at night in factories. This amendment reflected the understanding that night work was particularly harmful to the health and development of young workers.",
+      "landmark_case": "Factories Act Amendment, 1954",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 73,
+      "right": "Right against Exploitation",
+      "articles": ["23"],
+      "question": "Slavery is implicitly banned by which article?",
+      "options": {
+        "A": "Article 21",
+        "B": "Article 22",
+        "C": "Article 23",
+        "D": "Article 24"
+      },
+      "correct": "C",
+      "explanation": "While slavery is not explicitly mentioned, Article 23 implicitly bans slavery through its prohibition of 'traffic in human beings and begar and other similar forms of forced labour.' The term 'traffic' is comprehensive enough to cover slavery, which involves complete subjugation and exploitation of human beings.",
+      "landmark_case": "General Constitutional Interpretation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 74,
+      "right": "Right against Exploitation",
+      "articles": ["23"],
+      "question": "The State must protect citizens from exploitation through:",
+      "options": {
+        "A": "Punitive action only",
+        "B": "Positive measures only",
+        "C": "Both punitive action and positive measures",
+        "D": "Only legal proceedings"
+      },
+      "correct": "C",
+      "explanation": "Article 23 protects citizens against exploitation by both the State and private individuals. The State has a dual duty: (1) punitive action against those who violate the prohibition; and (2) positive measures to protect citizens from exploitation, including providing alternative livelihood opportunities and rehabilitation.",
+      "landmark_case": "General Constitutional Interpretation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 75,
+      "right": "Right against Exploitation",
+      "articles": ["24"],
+      "question": "The 2016 Child Labour Amendment increased the number of prohibited occupations from:",
+      "options": {
+        "A": "13 occupations and 57 processes to complete prohibition",
+        "B": "10 occupations and 40 processes to 15 occupations and 60 processes",
+        "C": "15 occupations and 50 processes to 13 occupations and 57 processes",
+        "D": "12 occupations and 55 processes to 14 occupations and 58 processes"
+      },
+      "correct": "A",
+      "explanation": "The original Child Labour Act prohibited employment of children in 13 occupations and 57 processes. The 2016 Amendment Act completely forbids employment of children below 14 years of age, eliminating the earlier distinction between hazardous and non-hazardous occupations and processes.",
+      "landmark_case": "Child Labour (Prohibition & Regulation) Amendment Act, 2016",
+      "difficulty": "Hard"
+    }
+  ]
+},
+    {
+      "id": 76,
+      "right": "Right to Freedom of Religion",
+      "articles": ["25"],
+      "question": "Article 25 guarantees freedom of conscience and the right to:",
+      "options": {
+        "A": "Follow any religion only",
+        "B": "Profess, practice and propagate religion",
+        "C": "Establish religious institutions only",
+        "D": "Own religious property only"
+      },
+      "correct": "B",
+      "explanation": "Article 25(1) states that 'Subject to public order, morality and health and to the other provisions of this Part, all persons are equally entitled to freedom of conscience and the right freely to profess, practise and propagate religion.' This is one of the most comprehensive provisions for religious freedom in the world.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 77,
+      "right": "Right to Freedom of Religion",
+      "articles": ["25"],
+      "question": "The wearing and carrying of kirpans is included in the profession of the:",
+      "options": {
+        "A": "Hindu religion",
+        "B": "Muslim religion",
+        "C": "Sikh religion",
+        "D": "Christian religion"
+      },
+      "correct": "C",
+      "explanation": "Explanation I to Article 25 states that 'The wearing and carrying of kirpans shall be deemed to be included in the profession of the Sikh religion.' This explicit protection was included to safeguard the religious identity and practices of Sikh citizens.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 78,
+      "right": "Right to Freedom of Religion",
+      "articles": ["25"],
+      "question": "The term 'Hindu' in Article 25(2)(b) includes:",
+      "options": {
+        "A": "Only followers of Hindu religion",
+        "B": "Followers of Hindu, Sikh, Jaina or Buddhist religion",
+        "C": "Only followers of Dharmic religions",
+        "D": "All Indian citizens"
+      },
+      "correct": "B",
+      "explanation": "Explanation II to Article 25 states that 'In sub-clause (b) of clause (2), the reference to Hindus shall be construed as including a reference to persons professing the Sikh, Jaina or Buddhist religion, and the reference to Hindu religious institutions shall be construed accordingly.' This ensures inclusive interpretation.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 79,
+      "right": "Right to Freedom of Religion",
+      "articles": ["25"],
+      "question": "Article 25(2)(a) allows the State to:",
+      "options": {
+        "A": "Completely ban all religions",
+        "B": "Regulate or restrict economic, financial, political or other secular activities associated with religious practice",
+        "C": "Establish state religion",
+        "D": "Control religious ceremonies"
+      },
+      "correct": "B",
+      "explanation": "Article 25(2)(a) states that the State may regulate or restrict any economic, financial, political or other secular activity which may be associated with religious practice. This allows the State to maintain secular governance while respecting religious freedom.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 80,
+      "right": "Right to Freedom of Religion",
+      "articles": ["25"],
+      "question": "The essential religious practices doctrine was established in:",
+      "options": {
+        "A": "Commissioner, Hindu Religious Endowments, Madras v. Shri Lakshmindar Tirtha Swamiyar of Shri Shirur Mutt",
+        "B": "Mohd. Hanif Quareshi v. the State of Bihar",
+        "C": "Durgah Committee, Ajmer v. Syed Hussain Ali",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanation": "The essential religious practices doctrine was developed through multiple cases including: Shirur Mutt case (1954) - protected rituals integral to religion; Hanif Qureshi case (1958) - held cow sacrifice not essential to Islam; Durgah Committee case (1961) - only essential religious practices receive constitutional protection.",
+      "landmark_case": "Commissioner, Hindu Religious Endowments, Madras v. Shri Lakshmindar Tirtha Swamiyar of Shri Shirur Mutt, 1954",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 81,
+      "right": "Right to Freedom of Religion",
+      "articles": ["25"],
+      "question": "In the Shirur Mutt case, the Supreme Court held that:",
+      "options": {
+        "A": "Only essential religious practices receive protection",
+        "B": "All religious practices must be followed",
+        "C": "State can control all religious institutions",
+        "D": "Religious freedom is absolute"
+      },
+      "correct": "A",
+      "explanation": "In Commissioner, Hindu Religious Endowments, Madras v. Shri Lakshmindar Tirtha Swamiyar of Shri Shirur Mutt (1954), the Supreme Court held that only essential religious practices receive constitutional protection. The court stated that 'it is for the courts to determine in each case what are integral essentials of a religion.'",
+      "landmark_case": "Commissioner, Hindu Religious Endowments, Madras v. Shri Lakshmindar Tirtha Swamiyar of Shri Shirur Mutt, 1954",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 82,
+      "right": "Right to Freedom of Religion",
+      "articles": ["25"],
+      "question": "The case that held cow sacrifice on Bakr-Eid is not an essential part of Islam was:",
+      "options": {
+        "A": "Shirur Mutt case",
+        "B": "Mohd. Hanif Quareshi v. the State of Bihar",
+        "C": "Durgah Committee case",
+        "D": "Jagdishwaranand case"
+      },
+      "correct": "B",
+      "explanation": "In Mohd. Hanif Quareshi v. the State of Bihar (1958), the Supreme Court held that cow sacrifice on Bakr-Eid was not an essential part of Islam and could be prohibited by the State under Article 25(2)(a) in the interest of public order and morality.",
+      "landmark_case": "Mohd. Hanif Quareshi v. the State of Bihar, 1958",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 83,
+      "right": "Right to Freedom of Religion",
+      "articles": ["25"],
+      "question": "Article 25(2)(b) allows the State to make laws for:",
+      "options": {
+        "A": "Social welfare only",
+        "B": "Religious reforms only",
+        "C": "Social welfare and reform or throwing open Hindu religious institutions to all classes",
+        "D": "Complete control over religious institutions"
+      },
+      "correct": "C",
+      "explanation": "Article 25(2)(b) allows the State to make laws providing for social welfare and reform or the throwing open of Hindu religious institutions of a public character to all classes and sections of Hindus. This enables the State to eliminate caste-based discrimination in religious institutions.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 84,
+      "right": "Right to Freedom of Religion",
+      "articles": ["26"],
+      "question": "Article 26 guarantees to religious denominations the right to:",
+      "options": {
+        "A": "Establish and maintain institutions for religious purposes only",
+        "B": "Own and acquire property only",
+        "C": "Establish institutions, manage religious affairs, own property and administer it",
+        "D": "Establish political parties"
+      },
+      "correct": "C",
+      "explanation": "Article 26 states that every religious denomination has the right: (a) to establish and maintain institutions for religious and charitable purposes; (b) to manage its own affairs in matters of religion; (c) to own and acquire movable and immovable property; and (d) to administer such property in accordance with law.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 85,
+      "right": "Right to Freedom of Religion",
+      "articles": ["26"],
+      "question": "The term 'religious denomination' means:",
+      "options": {
+        "A": "Only major religions like Hinduism, Islam, Christianity",
+        "B": "Any group of persons having a common religious faith and religious name",
+        "C": "Only internationally recognized religions",
+        "D": "Any spiritual organization"
+      },
+      "correct": "B",
+      "explanation": "A 'religious denomination' has been defined by courts as a group of persons having a common religious faith and religious name, and common religious activities. This includes various sects and sub-groups within religions, ensuring broader protection of religious autonomy.",
+      "landmark_case": "General Constitutional Interpretation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 86,
+      "right": "Right to Freedom of Religion",
+      "articles": ["27"],
+      "question": "Article 27 prohibits:",
+      "options": {
+        "A": "Establishment of any religion",
+        "B": "Compulsion to pay taxes specifically appropriated for promotion of a particular religion",
+        "C": "Religious instruction in schools",
+        "D": "Religious festivals and celebrations"
+      },
+      "correct": "B",
+      "explanation": "Article 27 states that 'No person shall be compelled to pay any taxes, the proceeds of which are specifically appropriated in payment of expenses for the promotion or maintenance of any particular religion or religious denomination.' This ensures secular funding of the State.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 87,
+      "right": "Right to Freedom of Religion",
+      "articles": ["28"],
+      "question": "Article 28(1) prohibits:",
+      "options": {
+        "A": "Religious instruction in all educational institutions",
+        "B": "Religious instruction in educational institutions wholly maintained out of State funds",
+        "C": "Religious instruction in private schools",
+        "D": "Religious instruction for adults"
+      },
+      "correct": "B",
+      "explanation": "Article 28(1) states that 'No religious instruction shall be provided in any educational institution wholly maintained out of State funds.' This ensures secular education in State-funded institutions, while allowing religious instruction in private institutions.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 88,
+      "right": "Right to Freedom of Religion",
+      "articles": ["28"],
+      "question": "Article 28(3) requires consent for religious instruction in:",
+      "options": {
+        "A": "State-maintained institutions only",
+        "B": "State-recognized institutions or institutions receiving State aid",
+        "C": "Private institutions only",
+        "D": "All institutions"
+      },
+      "correct": "B",
+      "explanation": "Article 28(3) states that 'No person attending any educational institution recognised by the State or receiving aid out of State funds shall be required to take part in any religious instruction or religious worship without consent.' This provides safeguards for students in State-recognized or aided institutions.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 89,
+      "right": "Right to Freedom of Religion",
+      "articles": ["25"],
+      "question": "The case involving Tandava dance by Ananda Margis was:",
+      "options": {
+        "A": "Shirur Mutt case",
+        "B": "Jagdishwaranand case",
+        "C": "Durgah Committee case",
+        "D": "Sabarimala case"
+      },
+      "correct": "B",
+      "explanation": "In Acharya Jagdishwaranand Avadhuta v. Commissioner of Police, Calcutta (1984), the Supreme Court held that Tandava dance in public places with lethal weapons and human skulls by Ananda Margis is not an essential religious rite, and prohibition in interest of public order and morality is not a violation of Articles 25 and 26.",
+      "landmark_case": "Acharya Jagdishwaranand Avadhuta v. Commissioner of Police, Calcutta, 1984",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 90,
+      "right": "Right to Freedom of Religion",
+      "articles": ["25", "19"],
+      "question": "The Bijoe Emmanuel case involved the right to:",
+      "options": {
+        "A": "Refuse to sing national anthem due to religious beliefs",
+        "B": "Establish religious institutions",
+        "C": "Own religious property",
+        "D": "Propagate religion"
+      },
+      "correct": "A",
+      "explanation": "In Bijoe Emmanuel v. State of Kerala (1987), the Supreme Court held that expulsion of students for abstaining from singing the national anthem due to religious beliefs violated fundamental rights under Articles 19(1)(a) (freedom of speech and expression) and 25 (freedom of religion), emphasizing religious freedom as a constitutional tenet.",
+      "landmark_case": "Bijoe Emmanuel v. State of Kerala, 1987",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 91,
+      "right": "Right to Freedom of Religion",
+      "articles": ["26"],
+      "question": "The case that held mosques are not essential for religious practice was:",
+      "options": {
+        "A": "Shirur Mutt case",
+        "B": "Hanif Qureshi case",
+        "C": "Ismail Faruqui case",
+        "D": "Jagdishwaranand case"
+      },
+      "correct": "C",
+      "explanation": "In Dr. M. Ismail Faruqui v. Union of India (1994), the Supreme Court held that mosques, temples, and churches are immovable properties not required for religious practice under Article 26. Thus, the State may acquire them under eminent domain without violating religious freedom.",
+      "landmark_case": "Dr. M. Ismail Faruqui v. Union of India, 1994",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 92,
+      "right": "Right to Freedom of Religion",
+      "articles": ["25"],
+      "question": "The Sabarimala Temple case challenged restrictions on:",
+      "options": {
+        "A": "Men from entering temples",
+        "B": "Women of 'menstruating years' from entering Sabarimala Temple",
+        "C": "Non-Hindus from entering temples",
+        "D": "Children from entering temples"
+      },
+      "correct": "B",
+      "explanation": "In Indian Young Lawyers' Association v. State of Kerala (2018), the Supreme Court by 4:1 majority declared the Sabarimala Temple's custom prohibiting women of 'menstruating years' from entering the temple premises unconstitutional, implying a violation of equality principles under Article 14.",
+      "landmark_case": "Indian Young Lawyers' Association v. State of Kerala, 2018",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 93,
+      "right": "Right to Freedom of Religion",
+      "articles": ["25"],
+      "question": "The right to freedom of religion is subject to restrictions based on:",
+      "options": {
+        "A": "Public order, morality, and health only",
+        "B": "Other provisions of Part III of the Constitution",
+        "C": "Both public order, morality, health and other provisions of Part III",
+        "D": "Government discretion only"
+      },
+      "correct": "C",
+      "explanation": "Article 25 is explicitly subject to 'public order, morality and health and to the other provisions of this Part.' This means religious freedom can be restricted to maintain public order, morality, health, and to protect other fundamental rights.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 94,
+      "right": "Right to Freedom of Religion",
+      "articles": ["26"],
+      "question": "The right to manage affairs in matters of religion includes:",
+      "options": {
+        "A": "Determining essential religious practices",
+        "B": "Managing internal administration only",
+        "C": "Deciding on theological matters",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanation": "Article 26(b) guarantees the right to manage its own affairs in matters of religion. This includes determining essential religious practices, managing internal administration, deciding on theological matters, and other aspects of religious governance without State interference.",
+      "landmark_case": "General Constitutional Interpretation",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 95,
+      "right": "Right to Freedom of Religion",
+      "articles": ["27"],
+      "question": "Article 27 ensures:",
+      "options": {
+        "A": "No State funding for religious institutions",
+        "B": "No compulsion to pay taxes for promotion of a particular religion",
+        "C": "Equal treatment of all religions",
+        "D": "Separation of religion and State"
+      },
+      "correct": "B",
+      "explanation": "Article 27 prohibits compulsion to pay taxes specifically appropriated for promotion or maintenance of a particular religion. This ensures that religious institutions are not funded through compulsory taxes, maintaining secular governance while respecting religious freedom.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 96,
+      "right": "Right to Freedom of Religion",
+      "articles": ["28"],
+      "question": "Article 28(2) applies to institutions:",
+      "options": {
+        "A": "Completely State-funded",
+        "B": "State-administered but established under endowment or trust",
+        "C": "Completely private",
+        "D": "Recognized by State"
+      },
+      "correct": "B",
+      "explanation": "Article 28(2) states that nothing in clause (1) shall apply to an educational institution which is administered by the State but has been established under any endowment or trust which requires that religious instruction shall be imparted in such institution.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 97,
+      "right": "Right to Freedom of Religion",
+      "articles": ["25"],
+      "question": "The right to propagate religion means:",
+      "options": {
+        "A": "Forcing others to convert",
+        "B": "Attempting to persuade others to accept one's faith",
+        "C": "Establishing religious institutions",
+        "D": "Owning religious property"
+      },
+      "correct": "B",
+      "explanation": "The right to propagate religion under Article 25 means the right to attempt to persuade others to accept one's faith through peaceful means, not through force or coercion. It includes the right to spread religious beliefs and teachings through legitimate means.",
+      "landmark_case": "General Constitutional Interpretation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 98,
+      "right": "Right to Freedom of Religion",
+      "articles": ["26"],
+      "question": "The State can interfere in religious affairs when:",
+      "options": {
+        "A": "Religious practices violate public order, morality, or health",
+        "B": "Religious institutions accumulate excessive wealth",
+        "C": "Religious leaders disagree with government policies",
+        "D": "Religious practices are followed by minorities"
+      },
+      "correct": "A",
+      "explanation": "Article 26 is subject to public order, morality, and health. The State can interfere in religious affairs when religious practices violate these constitutional limits. However, the State cannot interfere in purely religious matters that do not affect public welfare.",
+      "landmark_case": "General Constitutional Interpretation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 99,
+      "right": "Right to Freedom of Religion",
+      "articles": ["25"],
+      "question": "The concept of 'secular activity associated with religious practice' allows State regulation of:",
+      "options": {
+        "A": "Only religious ceremonies",
+        "B": "Only religious institutions",
+        "C": "Economic, financial, political or other secular activities associated with religious practice",
+        "D": "Only religious festivals"
+      },
+      "correct": "C",
+      "explanation": "Article 25(2)(a) allows the State to regulate or restrict economic, financial, political or other secular activities which may be associated with religious practice. This enables the State to maintain secular governance while respecting religious freedom.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 100,
+      "right": "Right to Freedom of Religion",
+      "articles": ["28"],
+      "question": "For minors, consent for religious instruction under Article 28(3) is given by:",
+      "options": {
+        "A": "The minor himself/herself",
+        "B": "The educational institution",
+        "C": "The State government",
+        "D": "The minor's guardian"
+      },
+      "correct": "D",
+      "explanation": "Article 28(3) explicitly states that 'unless such person or, if such person is a minor, his guardian has given his consent thereto.' This provision ensures that minors are not compelled to participate in religious activities without their guardian's consent.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Easy"
+    }
+  ]
+},
+    {
+      "id": 101,
+      "right": "Cultural and Educational Rights",
+      "articles": ["29"],
+      "question": "Article 29(1) protects the right of any section of citizens having a distinct language, script or culture to:",
+      "options": {
+        "A": "Establish educational institutions",
+        "B": "Conserve the same",
+        "C": "Receive government funding",
+        "D": "Create new languages"
+      },
+      "correct": "B",
+      "explanation": "Article 29(1) states that 'Any section of the citizens residing in the territory of India or any part thereof having a distinct language, script or culture of its own shall have the right to conserve the same.' This is available to any section of citizens, not just minorities.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 102,
+      "right": "Cultural and Educational Rights",
+      "articles": ["29"],
+      "question": "Article 29(2) guarantees that no citizen shall be denied admission into any educational institution maintained by the State or receiving aid out of State funds on grounds of:",
+      "options": {
+        "A": "Only religion and caste",
+        "B": "Only language and script",
+        "C": "Religion, race, caste, language or any of them",
+        "D": "Only economic status"
+      },
+      "correct": "C",
+      "explanation": "Article 29(2) explicitly states that 'No citizen shall be denied admission into any educational institution maintained by the State or receiving aid out of State funds on grounds only of religion, race, caste, language or any of them.' This ensures non-discrimination in State and aided institutions.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 103,
+      "right": "Cultural and Educational Rights",
+      "articles": ["30"],
+      "question": "Article 30(1) guarantees to minorities the right to:",
+      "options": {
+        "A": "Conserve their language and script",
+        "B": "Establish and administer educational institutions of their choice",
+        "C": "Receive special government funding",
+        "D": "Be exempt from national education policy"
+      },
+      "correct": "B",
+      "explanation": "Article 30(1) states that 'All minorities, whether based on religion or language, shall have the right to establish and administer educational institutions of their choice.' This is a special right for minorities to maintain their distinct identity through education.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 104,
+      "right": "Cultural and Educational Rights",
+      "articles": ["30"],
+      "question": "Article 30(1A) was added by which amendment?",
+      "options": {
+        "A": "42nd Amendment",
+        "B": "44th Amendment",
+        "C": "51st Amendment",
+        "D": "77th Amendment"
+      },
+      "correct": "C",
+      "explanation": "Article 30(1A) was added by the 51st Amendment of 1984. It states that when making any law for compulsory acquisition of property of a minority educational institution, the State shall ensure that the compensation fixed does not restrict or abrogate the right under Article 30(1).",
+      "landmark_case": "51st Amendment, 1984",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 105,
+      "right": "Cultural and Educational Rights",
+      "articles": ["30"],
+      "question": "Article 30(2) ensures that the State shall not discriminate against educational institutions on the ground that:",
+      "options": {
+        "A": "They charge high fees",
+        "B": "They are under the management of a minority",
+        "C": "They are located in rural areas",
+        "D": "They do not follow national curriculum"
+      },
+      "correct": "B",
+      "explanation": "Article 30(2) states that 'The State shall not, in granting aid to educational institutions, discriminate against any educational institution on the ground that it is under the management of a minority, whether based on religion or language.' This ensures equal treatment in aid distribution.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 106,
+      "right": "Cultural and Educational Rights",
+      "articles": ["29"],
+      "question": "The right under Article 29(1) to conserve language, script or culture is available to:",
+      "options": {
+        "A": "Only religious minorities",
+        "B": "Only linguistic minorities",
+        "C": "Any section of citizens with distinct language, script or culture",
+        "D": "Only Scheduled Tribes"
+      },
+      "correct": "C",
+      "explanation": "Article 29(1) uses the term 'any section of the citizens' not 'minority.' This means any group of citizens, whether majority or minority, having a distinct language, script or culture has the right to conserve the same. It applies to all citizens equally.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 107,
+      "right": "Cultural and Educational Rights",
+      "articles": ["30"],
+      "question": "Minorities under Article 30 include:",
+      "options": {
+        "A": "Only religious minorities",
+        "B": "Only linguistic minorities",
+        "C": "Both religious and linguistic minorities",
+        "D": "Only economic minorities"
+      },
+      "correct": "C",
+      "explanation": "Article 30 explicitly states that 'All minorities, whether based on religion or language, shall have the right to establish and administer educational institutions of their choice.' This covers both religious minorities (like Muslims, Christians, Sikhs) and linguistic minorities (like Tamilians, Bengalis in other states).",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 108,
+      "right": "Cultural and Educational Rights",
+      "articles": ["30"],
+      "question": "The case that established the test for classifying minority institutions was decided in:",
+      "options": {
+        "A": "2010",
+        "B": "2024",
+        "C": "1998",
+        "D": "2016"
+      },
+      "correct": "B",
+      "explanation": "In 2024, the Supreme Court of India clarified the test for classifying minority institutions under the constitutional equality provision. The court established guidelines to determine when an institution qualifies as a minority institution entitled to special protections under Article 30.",
+      "landmark_case": "Supreme Court clarification on minority institutions classification, 2024",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 109,
+      "right": "Cultural and Educational Rights",
+      "articles": ["29"],
+      "question": "The right to conserve language, script or culture under Article 29(1) is:",
+      "options": {
+        "A": "Subject to government approval",
+        "B": "Absolute and unconditional",
+        "C": "Subject to reasonable restrictions",
+        "D": "Only for educational purposes"
+      },
+      "correct": "B",
+      "explanation": "Article 29(1) does not contain any restrictions or exceptions. It is an absolute right to conserve distinct language, script or culture. This ensures the preservation of cultural diversity and heritage in India.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 110,
+      "right": "Cultural and Educational Rights",
+      "articles": ["30"],
+      "question": "The right to administer educational institutions under Article 30(1) includes:",
+      "options": {
+        "A": "Only establishing the institutions",
+        "B": "Only admitting students",
+        "C": "Both establishing and administering, including appointments and curriculum",
+        "D": "Only charging fees"
+      },
+      "correct": "C",
+      "explanation": "The right to administer includes the right to appoint teachers and staff, fix fees, frame curriculum, make rules for admission, discipline and other aspects of administration. This ensures autonomy of minority institutions in educational matters.",
+      "landmark_case": "General Constitutional Interpretation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 111,
+      "right": "Cultural and Educational Rights",
+      "articles": ["30"],
+      "question": "The State can acquire property of minority educational institutions:",
+      "options": {
+        "A": "Without any compensation",
+        "B": "With compensation that does not restrict or abrogate Article 30(1) rights",
+        "C": "Only during emergencies",
+        "D": "With consent of the institution only"
+      },
+      "correct": "B",
+      "explanation": "Article 30(1A) requires that when acquiring property of minority educational institutions, the compensation must be such that it does not restrict or abrogate the right guaranteed under Article 30(1). This ensures fair compensation and protection of minority rights.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 112,
+      "right": "Cultural and Educational Rights",
+      "articles": ["29"],
+      "question": "Article 29(2) applies to:",
+      "options": {
+        "A": "Only State-maintained institutions",
+        "B": "Only State-aided institutions",
+        "C": "Both State-maintained and State-aided institutions",
+        "D": "Only private institutions"
+      },
+      "correct": "C",
+      "explanation": "Article 29(2) explicitly applies to 'any educational institution maintained by the State or receiving aid out of State funds.' This covers all institutions that receive State support, ensuring non-discrimination in admission policies.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 113,
+      "right": "Cultural and Educational Rights",
+      "articles": ["30"],
+      "question": "The State discrimination against minority institutions in granting aid is prohibited by:",
+      "options": {
+        "A": "Article 29(2)",
+        "B": "Article 30(1)",
+        "C": "Article 30(2)",
+        "D": "Article 15(5)"
+      },
+      "correct": "C",
+      "explanation": "Article 30(2) specifically states that 'The State shall not, in granting aid to educational institutions, discriminate against any educational institution on the ground that it is under the management of a minority, whether based on religion or language.' This ensures equal treatment in aid distribution.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 114,
+      "right": "Cultural and Educational Rights",
+      "articles": ["29"],
+      "question": "The protection under Article 29(1) is available to:",
+      "options": {
+        "A": "Only citizens",
+        "B": "Only non-citizens",
+        "C": "Only residents of India",
+        "D": "Both citizens and non-citizens"
+      },
+      "correct": "A",
+      "explanation": "Article 29(1) specifically uses the term 'any section of the citizens' which means only citizens of India can claim this right. This distinguishes it from Article 25 which applies to 'all persons' including non-citizens.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 115,
+      "right": "Cultural and Educational Rights",
+      "articles": ["30"],
+      "question": "The right under Article 30(1) to establish educational institutions:",
+      "options": {
+        "A": "Is subject to government approval",
+        "B": "Is absolute for minorities",
+        "C": "Is subject to national education policy",
+        "D": "Is limited to primary education"
+      },
+      "correct": "B",
+      "explanation": "Article 30(1) grants to minorities the absolute right to establish and administer educational institutions of their choice. While institutions must comply with general laws, the core right to establish and maintain minority institutions is protected.",
+      "landmark_case": "General Constitutional Interpretation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 116,
+      "right": "Cultural and Educational Rights",
+      "articles": ["29"],
+      "question": "The case that upheld minority rights in education while ensuring national integration was:",
+      "options": {
+        "A": "Ahmedabad St. Xavier's College case",
+        "B": "T.M.A. Pai Foundation case",
+        "C": "Islamic Academy of Education case",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanation": "The Supreme Court in these landmark cases (Ahmedabad St. Xavier's College v. State of Gujarat, T.M.A. Pai Foundation v. State of Karnataka, Islamic Academy of Education v. State of Karnataka) established the framework for balancing minority rights with national integration and educational standards.",
+      "landmark_case": "Ahmedabad St. Xavier's College v. State of Gujarat, 1974",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 117,
+      "right": "Cultural and Educational Rights",
+      "articles": ["29", "30"],
+      "question": "The relationship between Articles 29 and 30 was clarified in:",
+      "options": {
+        "A": "1998",
+        "B": "2002",
+        "C": "2000",
+        "D": "2003"
+      },
+      "correct": "B",
+      "explanation": "In 2002, the Supreme Court in the T.M.A. Pai Foundation case clarified the relationship between Articles 29 and 30, establishing that while Article 29 provides general cultural rights, Article 30 provides special rights to minorities for establishing and administering educational institutions.",
+      "landmark_case": "T.M.A. Pai Foundation v. State of Karnataka, 2002",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 118,
+      "right": "Cultural and Educational Rights",
+      "articles": ["30"],
+      "question": "The concept of 'minority' for the purpose of Article 30 is determined by:",
+      "options": {
+        "A": "Numerical strength only",
+        "B": "Both numerical strength and educational backwardness",
+        "C": "Both numerical strength and religious identity",
+        "D": "Only religious identity"
+      },
+      "correct": "B",
+      "explanation": "The Supreme Court in T.M.A. Pai Foundation case clarified that for determining minority status, both numerical strength and educational backwardness should be considered. A group that is numerically small but educationally advanced may not qualify as a minority under Article 30.",
+      "landmark_case": "T.M.A. Pai Foundation v. State of Karnataka, 2002",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 119,
+      "right": "Cultural and Educational Rights",
+      "articles": ["30"],
+      "question": "The State can impose regulations on minority educational institutions to ensure:",
+      "options": {
+        "A": "Only academic standards",
+        "B": "Only financial transparency",
+        "C": "Academic standards, transparency, and prevention of discrimination",
+        "D": "Only prevention of religious discrimination"
+      },
+      "correct": "C",
+      "explanation": "While Article 30 guarantees the right to establish and administer educational institutions, the State can impose reasonable regulations to ensure academic standards, financial transparency, prevention of discrimination, and maintenance of educational quality, as long as these do not destroy the minority character.",
+      "landmark_case": "Islamic Academy of Education v. State of Karnataka, 2003",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 120,
+      "right": "Cultural and Educational Rights",
+      "articles": ["29"],
+      "question": "The right to conserve language under Article 29(1):",
+      "options": {
+        "A": "Only applies to scheduled languages",
+        "B": "Applies to any distinct language, script or culture",
+        "C": "Only applies to major languages",
+        "D": "Only applies to classical languages"
+      },
+      "correct": "B",
+      "explanation": "Article 29(1) uses the term 'distinct language, script or culture' which includes any language that has a distinct identity, not just scheduled or classical languages. This ensures protection of all cultural expressions and linguistic diversity.",
+      "landmark_case": "General Constitutional Interpretation",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 121,
+      "right": "Cultural and Educational Rights",
+      "articles": ["30"],
+      "question": "The 93rd Amendment added Article 15(5) which allows:",
+      "options": {
+        "A": "Reservation in private unaided minority institutions",
+        "B": "Reservation in private unaided non-minority institutions",
+        "C": "Special provisions for minorities",
+        "D": "Regulation of minority institutions"
+      },
+      "correct": "B",
+      "explanation": "The 93rd Amendment added Article 15(5) which allows the State to make special provisions for the advancement of socially and educationally backward classes or SCs/STs in admission to educational institutions including private unaided non-minority institutions.",
+      "landmark_case": "93rd Amendment, 2006",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 122,
+      "right": "Cultural and Educational Rights",
+      "articles": ["29"],
+      "question": "Article 29(2) prohibits denial of admission on grounds of:",
+      "options": {
+        "A": "Religion only",
+        "B": "Race, caste, and place of birth only",
+        "C": "Religion, race, caste, language or any of them",
+        "D": "Economic status only"
+      },
+      "correct": "C",
+      "explanation": "Article 29(2) explicitly prohibits denial of admission 'on grounds only of religion, race, caste, language or any of them.' This comprehensive prohibition ensures equal access to educational opportunities in State and aided institutions.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 123,
+      "right": "Cultural and Educational Rights",
+      "articles": ["30"],
+      "question": "The right to administer educational institutions under Article 30 includes the right to:",
+      "options": {
+        "A": "Set educational standards higher than State requirements",
+        "B": "Charge any fees they wish",
+        "C": "Appoint teachers and staff without any qualifications",
+        "D": "Both A and B"
+      },
+      "correct": "A",
+      "explanation": "The right to administer includes the right to set higher standards than the minimum requirements, maintain institutional autonomy, and ensure quality education. However, institutions cannot appoint unqualified teachers or charge excessive fees that make education inaccessible.",
+      "landmark_case": "General Constitutional Interpretation",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 124,
+      "right": "Cultural and Educational Rights",
+      "articles": ["29"],
+      "question": "The distinction between Article 29(1) and Article 29(2) is:",
+      "options": {
+        "A": "Article 29(1) is for minorities only, Article 29(2) is for all citizens",
+        "B": "Article 29(1) protects cultural rights, Article 29(2) ensures non-discrimination in education",
+        "C": "Article 29(1) is absolute, Article 29(2) has exceptions",
+        "D": "Both A and B"
+      },
+      "correct": "D",
+      "explanation": "Article 29(1) uses 'any section of citizens' (broader than minorities) for cultural conservation, while Article 29(2) guarantees non-discrimination in education for all citizens. Both serve different but complementary purposes in protecting cultural diversity and educational equality.",
+      "landmark_case": "General Constitutional Interpretation",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 125,
+      "right": "Cultural and Educational Rights",
+      "articles": ["30"],
+      "question": "The Supreme Court in 2024 clarified that for minority status, an institution must prove:",
+      "options": {
+        "A": "Only numerical minority status",
+        "B": "Only religious or linguistic identity",
+        "C": "Minority character and effective control by the minority community",
+        "D": "Only educational backwardness"
+      },
+      "correct": "C",
+      "explanation": "In the 2024 ruling, the Supreme Court clarified that for claiming minority status under Article 30, an institution must prove that it is established and administered by a minority community and that the community has effective control over its functioning, not just numerical minority.",
+      "landmark_case": "Supreme Court 2024 ruling on minority institutions classification",
+      "difficulty": "Hard"
+    }
+  ]
+},
+    {
+      "id": 126,
+      "right": "Right to Constitutional Remedies",
+      "articles": ["32"],
+      "question": "Article 32 is described by Dr. B.R. Ambedkar as:",
+      "options": {
+        "A": "The heart and soul of the Constitution",
+        "B": "The Magna Carta of India",
+        "C": "The guardian of fundamental rights",
+        "D": "The constitutional court of appeal"
+      },
+      "correct": "A",
+      "explanation": "Dr. B.R. Ambedkar famously described Article 32 as 'the heart and soul of the Constitution.' Article 32 guarantees the right to move the Supreme Court by appropriate proceedings for the enforcement of the rights conferred by Part III, making it the most important remedial provision.",
+      "landmark_case": "General Constitutional Quote",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 127,
+      "right": "Right to Constitutional Remedies",
+      "articles": ["32"],
+      "question": "Article 32(1) guarantees the right to move the Supreme Court for:",
+      "options": {
+        "A": "Enforcement of fundamental duties",
+        "B": "Enforcement of fundamental rights",
+        "C": "Review of any Supreme Court decision",
+        "D": "Appointment of judges"
+      },
+      "correct": "B",
+      "explanation": "Article 32(1) states that 'The right to move the Supreme Court by appropriate proceedings for the enforcement of the rights conferred by this Part is guaranteed.' This makes Article 32 itself a fundamental right.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 128,
+      "right": "Right to Constitutional Remedies",
+      "articles": ["32"],
+      "question": "Article 32(2) empowers the Supreme Court to issue:",
+      "options": {
+        "A": "Only directions and orders",
+        "B": "Only writs in the nature of habeas corpus, mandamus, prohibition, quo warranto and certiorari",
+        "C": "Directions, orders or writs, whichever may be appropriate",
+        "D": "Only directions"
+      },
+      "correct": "C",
+      "explanation": "Article 32(2) states that 'The Supreme Court shall have power to issue directions or orders or writs, including writs in the nature of habeas corpus, mandamus, prohibition, quo warranto and certiorari, whichever may be appropriate, for the enforcement of any of the rights conferred by this Part.'",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 129,
+      "right": "Right to Constitutional Remedies",
+      "articles": ["32"],
+      "question": "The five types of writs that can be issued under Article 32 are:",
+      "options": {
+        "A": "Habeas corpus, Mandamus, Prohibition, Quo warranto, Certiorari",
+        "B": "Mandamus, Prohibition, Quo warranto, Certiorari, Review",
+        "C": "Habeas corpus, Mandamus, Prohibition, Quo warranto, Appeal",
+        "D": "Mandamus, Prohibition, Certiorari, Appeal, Review"
+      },
+      "correct": "A",
+      "explanation": "Article 32(2) specifically mentions that the Supreme Court can issue writs in the nature of: (1) Habeas corpus, (2) Mandamus, (3) Prohibition, (4) Quo warranto, and (5) Certiorari. These are the five classical writs for enforcing fundamental rights.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 130,
+      "right": "Right to Constitutional Remedies",
+      "articles": ["32"],
+      "question": "Habeas corpus means:",
+      "options": {
+        "A": "You shall have the body",
+        "B": "We command",
+        "C": "From which authority",
+        "D": "To prohibit"
+      },
+      "correct": "A",
+      "explanation": "Habeas corpus is a Latin term meaning 'you shall have the body.' It is a writ issued to produce a person who has been detained before the court to determine whether the detention is legal. It is used to secure the release of persons who have been unlawfully detained.",
+      "landmark_case": "General Legal Principle",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 131,
+      "right": "Right to Constitutional Remedies",
+      "articles": ["32"],
+      "question": "Mandamus means:",
+      "options": {
+        "A": "You shall have the body",
+        "B": "We command",
+        "C": "From which authority",
+        "D": "To prohibit"
+      },
+      "correct": "B",
+      "explanation": "Mandamus is a Latin term meaning 'we command.' It is a writ issued by a court to direct a public authority to perform a public duty or to refrain from performing an act. It compels action when a legal duty exists but is not being performed.",
+      "landmark_case": "General Legal Principle",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 132,
+      "right": "Right to Constitutional Remedies",
+      "articles": ["32"],
+      "question": "Prohibition means:",
+      "options": {
+        "A": "You shall have the body",
+        "B": "We command",
+        "C": "To prohibit",
+        "D": "From which authority"
+      },
+      "correct": "C",
+      "explanation": "Prohibition is a writ issued by a superior court to prevent an inferior court or tribunal from exceeding its jurisdiction or acting contrary to the rules of natural justice. It is issued when proceedings are about to be initiated or are pending but before the decision is rendered.",
+      "landmark_case": "General Legal Principle",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 133,
+      "right": "Right to Constitutional Remedies",
+      "articles": ["32"],
+      "question": "Quo warranto means:",
+      "options": {
+        "A": "You shall have the body",
+        "B": "We command",
+        "C": "From which authority",
+        "D": "To prohibit"
+      },
+      "correct": "C",
+      "explanation": "Quo warranto is a Latin term meaning 'by what authority.' It is a writ issued to inquire into the legality of a claim or title to a public office. It is used to challenge the appointment or continuation of a person in a public office who is not legally entitled to hold it.",
+      "landmark_case": "General Legal Principle",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 134,
+      "right": "Right to Constitutional Remedies",
+      "articles": ["32"],
+      "question": "Certiorari means:",
+      "options": {
+        "A": "You shall have the body",
+        "B": "We command",
+        "C": "To certify or review",
+        "D": "From which authority"
+      },
+      "correct": "C",
+      "explanation": "Certiorari is a Latin term meaning 'to certify' or 'to review.' It is a writ issued by a superior court to an inferior court or tribunal to transfer a case or to review its proceedings. It is used to quash orders that are ultra vires or passed without jurisdiction.",
+      "landmark_case": "General Legal Principle",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 135,
+      "right": "Right to Constitutional Remedies",
+      "articles": ["32"],
+      "question": "Article 32(3) allows Parliament to:",
+      "options": {
+        "A": "Amend Article 32 itself",
+        "B": "Empower any other court to exercise powers of the Supreme Court under Article 32(2)",
+        "C": "Suspend Article 32 during emergencies",
+        "D": "Transfer all writ cases to High Courts"
+      },
+      "correct": "B",
+      "explanation": "Article 32(3) states that 'Without prejudice to the powers conferred on the Supreme Court by clauses (1) and (2), Parliament may by law empower any other court to exercise within the local limits of its jurisdiction all or any of the powers exercisable by the Supreme Court under clause (2).' This extends writ jurisdiction to other courts.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 136,
+      "right": "Right to Constitutional Remedies",
+      "articles": ["32"],
+      "question": "Article 32(4) states that the right guaranteed by Article 32:",
+      "options": {
+        "A": "Can be suspended by the President",
+        "B": "Can be suspended by Parliament",
+        "C": "Shall not be suspended except as otherwise provided by this Constitution",
+        "D": "Can be suspended during martial law"
+      },
+      "correct": "C",
+      "explanation": "Article 32(4) states that 'The right guaranteed by this article shall not be suspended except as otherwise provided for by this Constitution.' This ensures that fundamental right to constitutional remedies cannot be arbitrarily suspended.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 137,
+      "right": "Right to Constitutional Remedies",
+      "articles": ["32"],
+      "question": "The writ of habeas corpus is used to:",
+      "options": {
+        "A": "Compel performance of a public duty",
+        "B": "Release a person from unlawful detention",
+        "C": "Prevent an inferior court from acting",
+        "D": "Challenge the authority of a public office holder"
+      },
+      "correct": "B",
+      "explanation": "The writ of habeas corpus is used to secure the release of a person who has been unlawfully detained. When a person is arrested without legal authority or is detained beyond the period allowed by law, the court can issue this writ to produce the detained person and determine the legality of the detention.",
+      "landmark_case": "General Legal Principle",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 138,
+      "right": "Right to Constitutional Remedies",
+      "articles": ["32"],
+      "question": "The writ of mandamus is used to:",
+      "options": {
+        "A": "Release a person from unlawful detention",
+        "B": "Compel performance of a public duty",
+        "C": "Prevent an inferior court from acting",
+        "D": "Challenge the authority of a public office holder"
+      },
+      "correct": "B",
+      "explanation": "The writ of mandamus is used to compel a public authority to perform a duty that it is legally required to perform. This writ is issued when a public official fails to act according to law, despite having a clear legal obligation to do so.",
+      "landmark_case": "General Legal Principle",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 139,
+      "right": "Right to Constitutional Remedies",
+      "articles": ["32"],
+      "question": "The writ of prohibition is used to:",
+      "options": {
+        "A": "Release a person from unlawful detention",
+        "B": "Compel performance of a public duty",
+        "C": "Prevent an inferior court or tribunal from acting",
+        "D": "Challenge the authority of a public office holder"
+      },
+      "correct": "C",
+      "explanation": "The writ of prohibition is issued by a superior court to prevent an inferior court or tribunal from exceeding its jurisdiction or acting contrary to the rules of natural justice. It is issued when proceedings are about to be initiated or are pending.",
+      "landmark_case": "General Legal Principle",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 140,
+      "right": "Right to Constitutional Remedies",
+      "articles": ["32"],
+      "question": "The writ of quo warranto is used to:",
+      "options": {
+        "A": "Release a person from unlawful detention",
+        "B": "Compel performance of a public duty",
+        "C": "Prevent an inferior court from acting",
+        "D": "Challenge the right of a person to hold a public office"
+      },
+      "correct": "D",
+      "explanation": "The writ of quo warranto is used to inquire into the legal authority by which a public office is held. It is issued to challenge the appointment or continuation of a person in a public office who is not legally entitled to hold it.",
+      "landmark_case": "General Legal Principle",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 141,
+      "right": "Right to Constitutional Remedies",
+      "articles": ["32"],
+      "question": "The writ of certiorari is used to:",
+      "options": {
+        "A": "Release a person from unlawful detention",
+        "B": "Compel performance of a public duty",
+        "C": "Prevent an inferior court from acting",
+        "D": "Quash the orders of an inferior court"
+      },
+      "correct": "D",
+      "explanation": "The writ of certiorari is used by a superior court to quash or set aside the orders of an inferior court or tribunal that are ultra vires or passed without jurisdiction. It can also be used to transfer a case from an inferior court.",
+      "landmark_case": "General Legal Principle",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 142,
+      "right": "Right to Constitutional Remedies",
+      "articles": ["32"],
+      "question": "The Basic Structure doctrine was established in:",
+      "options": {
+        "A": "Golaknath v. State of Punjab",
+        "B": "Kesavananda Bharati v. State of Kerala",
+        "C": "Minerva Mills v. Union of India",
+        "D": "Waman Rao v. Union of India"
+      },
+      "correct": "B",
+      "explanation": "The Basic Structure doctrine was established in Kesavananda Bharati v. State of Kerala (1973). The Supreme Court held that Parliament cannot amend the Constitution to destroy its basic features. This doctrine ensures that fundamental rights and the constitutional structure cannot be destroyed by amendments.",
+      "landmark_case": "Kesavananda Bharati v. State of Kerala, 1973",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 143,
+      "right": "Right to Constitutional Remedies",
+      "articles": ["32"],
+      "question": "The Maneka Gandhi case was filed under:",
+      "options": {
+        "A": "Article 32 only",
+        "B": "Article 14 only",
+        "C": "Article 32 challenging violation of Articles 14, 19, and 21",
+        "D": "Article 21 only"
+      },
+      "correct": "C",
+      "explanation": "Maneka Gandhi v. Union of India (1978) was filed under Article 32 challenging the impounding of her passport. The Supreme Court held that this violated her fundamental rights under Articles 14, 19, and 21, establishing the 'triumvirate' test and expanding the scope of Article 21.",
+      "landmark_case": "Maneka Gandhi v. Union of India, 1978",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 144,
+      "right": "Right to Constitutional Remedies",
+      "articles": ["32"],
+      "question": "The difference between Article 32 and Article 226 is:",
+      "options": {
+        "A": "Article 32 is a fundamental right, Article 226 is a constitutional right",
+        "B": "Article 32 can be issued only by Supreme Court, Article 226 by High Courts",
+        "C": "Article 32 is for fundamental rights only, Article 226 is for both fundamental and other legal rights",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanation": "Key differences: (1) Article 32 is a fundamental right while Article 226 is a constitutional right; (2) Article 32 jurisdiction is in Supreme Court while Article 226 is in High Courts; (3) Article 32 is for enforcement of fundamental rights while Article 226 has wider scope covering both fundamental and other legal rights.",
+      "landmark_case": "General Constitutional Comparison",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 145,
+      "right": "Right to Constitutional Remedies",
+      "articles": ["32"],
+      "question": "Any person whose fundamental right is violated can approach:",
+      "options": {
+        "A": "Only the Supreme Court",
+        "B": "Only the High Courts",
+        "C": "Both Supreme Court and High Courts",
+        "D": "Only the district courts"
+      },
+      "correct": "C",
+      "explanation": "Under Article 32, any person can approach the Supreme Court for enforcement of fundamental rights. Under Article 226, any person can approach the High Courts for enforcement of fundamental rights as well as other legal rights. This provides multiple avenues for constitutional remedies.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 146,
+      "right": "Right to Constitutional Remedies",
+      "articles": ["32"],
+      "question": "The writ jurisdiction of the Supreme Court under Article 32 is:",
+      "options": {
+        "A": "Appellate jurisdiction",
+        "B": "Original jurisdiction",
+        "C": "Advisory jurisdiction",
+        "D": "Review jurisdiction"
+      },
+      "correct": "B",
+      "explanation": "The writ jurisdiction of the Supreme Court under Article 32 is original jurisdiction. This means that persons can directly approach the Supreme Court without going through lower courts first, emphasizing the importance of fundamental rights enforcement.",
+      "landmark_case": "General Constitutional Principle",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 147,
+      "right": "Right to Constitutional Remedies",
+      "articles": ["32"],
+      "question": "The principle of 'locus standi' in Article 32 cases means:",
+      "options": {
+        "A": "Only the affected person can file the petition",
+        "B": "Any person with sufficient interest can file the petition",
+        "C": "Only lawyers can file the petition",
+        "D": "Only the Advocate General can file the petition"
+      },
+      "correct": "B",
+      "explanation": "The principle of 'locus standi' in Article 32 cases has been expanded by the Supreme Court. While traditionally only the affected person could file, now any person with sufficient interest in protecting fundamental rights can file a petition, including public interest litigants.",
+      "landmark_case": "General Constitutional Interpretation",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 148,
+      "right": "Right to Constitutional Remedies",
+      "articles": ["32"],
+      "question": "The Supreme Court can issue writs:",
+      "options": {
+        "A": "Only against the Union government",
+        "B": "Only against State governments",
+        "C": "Against any 'State' as defined under Article 12",
+        "D": "Only against judicial officers"
+      },
+      "correct": "C",
+      "explanation": "Article 32 allows the Supreme Court to issue writs against any 'State' as defined under Article 12, which includes the Government and Parliament of India, Governments and Legislatures of States, and all local or other authorities under the control of the Government of India.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 149,
+      "right": "Right to Constitutional Remedies",
+      "articles": ["32"],
+      "question": "The concept of 'continuing mandamus' was developed to:",
+      "options": {
+        "A": "Compel one-time action",
+        "B": "Ensure continued compliance with court orders over time",
+        "C": "Prevent any action by authorities",
+        "D": "Transfer cases from one court to another"
+      },
+      "correct": "B",
+      "explanation": "The concept of 'continuing mandamus' was developed by the Supreme Court to ensure continued compliance with court orders over time. It is used when a one-time direction is insufficient and continuous monitoring is needed to ensure effective implementation of fundamental rights.",
+      "landmark_case": "General Constitutional Interpretation",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 150,
+      "right": "Right to Constitutional Remedies",
+      "articles": ["32"],
+      "question": "Article 32 cannot be suspended except:",
+      "options": {
+        "A": "During President's rule",
+        "B": "During national emergencies",
+        "C": "As otherwise provided by the Constitution",
+        "D": "During war or armed rebellion"
+      },
+      "correct": "C",
+      "explanation": "Article 32(4) explicitly states that 'The right guaranteed by this article shall not be suspended except as otherwise provided for by this Constitution.' Even during emergencies, the Constitution does not generally suspend the right to constitutional remedies, emphasizing its fundamental nature.",
+      "landmark_case": "General Constitutional Provision",
+      "difficulty": "Hard"
+    }
+  ]
+}

@@ -1,0 +1,508 @@
+{
+  "quiz_title": "Government Structure Quiz for Children",
+  "description": "Comprehensive quiz about Union, State and Local Government using school analogies",
+  "target_age": "8-16 years",
+  "total_questions": 35,
+  "topics_covered": [
+    "President", "Parliament", "Prime Minister", "Governor", "Chief Minister", 
+    "Panchayats", "Municipalities", "Federal Structure", "Elections", "Inter-governmental Cooperation"
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "topic": "President",
+      "question": "The President of India is like which person in a school?",
+      "options": [
+        "A) Class teacher",
+        "B) Principal", 
+        "C) Head boy/girl",
+        "D) Security guard"
+      ],
+      "correct_answer": "B",
+      "explanation": "The President is like the principal of the whole country - the ceremonial head who oversees everything.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "topic": "President",
+      "question": "How is the President of India chosen?",
+      "options": [
+        "A) Direct voting by all citizens",
+        "B) Chosen by the Prime Minister",
+        "C) Electoral College voting by elected representatives",
+        "D) Appointed by the Supreme Court"
+      ],
+      "correct_answer": "C",
+      "explanation": "Like how class prefects might choose the head prefect, elected representatives choose the President through Electoral College.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 3,
+      "topic": "Parliament",
+      "question": "Parliament is like which group in a school?",
+      "options": [
+        "A) Sports team",
+        "B) School choir", 
+        "C) Student council",
+        "D) Library committee"
+      ],
+      "correct_answer": "C",
+      "explanation": "Parliament is like the student council - where representatives come together to make decisions for everyone.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "topic": "Parliament",
+      "question": "How many houses does the Indian Parliament have?",
+      "options": [
+        "A) One house",
+        "B) Two houses",
+        "C) Three houses", 
+        "D) Four houses"
+      ],
+      "correct_answer": "B",
+      "explanation": "Parliament has two houses: Lok Sabha (lower house) and Rajya Sabha (upper house), like having junior and senior student councils.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "topic": "Parliament",
+      "question": "Lok Sabha members are elected for how many years?",
+      "options": [
+        "A) 3 years",
+        "B) 4 years",
+        "C) 5 years",
+        "D) 6 years"
+      ],
+      "correct_answer": "C",
+      "explanation": "Like how class representatives serve for one academic year, Lok Sabha members serve for 5 years.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 6,
+      "topic": "Prime Minister",
+      "question": "The Prime Minister is like which student in a school?",
+      "options": [
+        "A) Class monitor",
+        "B) Head boy/girl",
+        "C) Library prefect",
+        "D) Sports captain"
+      ],
+      "correct_answer": "B",
+      "explanation": "The Prime Minister is like the head boy/girl - the student leader who leads the student council and represents all students.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "topic": "Prime Minister",
+      "question": "Who chooses the Prime Minister of India?",
+      "options": [
+        "A) The President directly",
+        "B) All citizens vote directly",
+        "C) The party with majority in Lok Sabha",
+        "D) The Supreme Court appoints"
+      ],
+      "correct_answer": "C",
+      "explanation": "Like how the student group with most class representatives gets to choose the head boy/girl, the party with majority in Lok Sabha chooses the Prime Minister.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 8,
+      "topic": "Prime Minister",
+      "question": "The Prime Minister's team of ministers is like what in a school?",
+      "options": [
+        "A) All students",
+        "B) Teaching staff",
+        "C) Different subject monitors",
+        "D) Parent committee"
+      ],
+      "correct_answer": "C",
+      "explanation": "The Council of Ministers is like different subject monitors - each minister handles a specific area like education, health, etc.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 9,
+      "topic": "Federal Structure",
+      "question": "India has how many lists that divide powers between Union and State governments?",
+      "options": [
+        "A) Two lists",
+        "B) Three lists",
+        "C) Four lists",
+        "D) Five lists"
+      ],
+      "correct_answer": "B",
+      "explanation": "India has three lists: Union List (like school-wide rules), State List (like class-specific rules), and Concurrent List (shared rules).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 10,
+      "topic": "Federal Structure",
+      "question": "Which list contains subjects that both Union and State governments can make laws about?",
+      "options": [
+        "A) Union List",
+        "B) State List", 
+        "C) Concurrent List",
+        "D) Municipal List"
+      ],
+      "correct_answer": "C",
+      "explanation": "The Concurrent List is like subjects where both principal and class teachers can make rules - like education and health.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 11,
+      "topic": "Governor",
+      "question": "The Governor of a state is like which person in a school branch?",
+      "options": [
+        "A) Branch principal",
+        "B) Senior teacher",
+        "C) Head boy/girl of that branch",
+        "D) Administrative officer"
+      ],
+      "correct_answer": "A",
+      "explanation": "The Governor is like the principal of a school branch - representing the main school (Union) in that branch (State).",
+      "difficulty": "easy"
+    },
+    {
+      "id": 12,
+      "topic": "Governor",
+      "question": "Who appoints the Governor of a state?",
+      "options": [
+        "A) People of the state vote directly",
+        "B) The President of India",
+        "C) The Chief Minister of the state",
+        "D) The state legislature"
+      ],
+      "correct_answer": "B",
+      "explanation": "Like how the main principal appoints branch principals, the President appoints Governors.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 13,
+      "topic": "Chief Minister",
+      "question": "The Chief Minister of a state is like which person in a school branch?",
+      "options": [
+        "A) Branch principal",
+        "B) Head boy/girl of that branch",
+        "C) Senior teacher",
+        "D) Administrative clerk"
+      ],
+      "correct_answer": "B",
+      "explanation": "The Chief Minister is like the head boy/girl of a school branch - the student leader chosen by that branch's student representatives.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 14,
+      "topic": "Chief Minister",
+      "question": "How is the Chief Minister chosen?",
+      "options": [
+        "A) Direct voting by state citizens",
+        "B) Appointed by the Governor",
+        "C) Leader of majority party in State Legislature",
+        "D) Chosen by local municipalities"
+      ],
+      "correct_answer": "C",
+      "explanation": "Like how the student group with most representatives in a branch chooses their head boy/girl, the majority party in State Legislature chooses the Chief Minister.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 15,
+      "topic": "State Legislature",
+      "question": "State Legislature is like what in a school branch?",
+      "options": [
+        "A) All students in the branch",
+        "B) Teachers' committee",
+        "C) Branch student council",
+        "D) Parent-teacher association"
+      ],
+      "correct_answer": "C",
+      "explanation": "State Legislature is like the student council of a school branch - representatives from different classes in that branch.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 16,
+      "topic": "Panchayats",
+      "question": "Panchayats are like what kind of group in a school?",
+      "options": [
+        "A) Sports teams",
+        "B) Village/rural area class committees",
+        "C) Music bands",
+        "D) Science clubs"
+      ],
+      "correct_answer": "B",
+      "explanation": "Panchayats are like small class committees in village areas - local groups that solve local problems and make local decisions.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 17,
+      "topic": "Panchayats",
+      "question": "What is the smallest unit of Panchayat system?",
+      "options": [
+        "A) Zilla Panchayat",
+        "B) Block Panchayat",
+        "C) Gram Panchayat",
+        "D) State Panchayat"
+      ],
+      "correct_answer": "C",
+      "explanation": "Gram Panchayat is like the smallest class committee - handling the most local issues in villages.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 18,
+      "topic": "Panchayats",
+      "question": "How many levels are there in the Panchayat system?",
+      "options": [
+        "A) Two levels",
+        "B) Three levels",
+        "C) Four levels",
+        "D) Five levels"
+      ],
+      "correct_answer": "B",
+      "explanation": "There are three levels: Gram Panchayat (class level), Block Panchayat (section level), and Zilla Panchayat (school level).",
+      "difficulty": "medium"
+    },
+    {
+      "id": 19,
+      "topic": "Municipalities",
+      "question": "Municipalities are like what in a school?",
+      "options": [
+        "A) Rural area class committees",
+        "B) City/urban area class committees", 
+        "C) Sports teams",
+        "D) Cultural clubs"
+      ],
+      "correct_answer": "B",
+      "explanation": "Municipalities are like class committees in city areas - they handle local problems in urban areas like towns and cities.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 20,
+      "topic": "Municipalities",
+      "question": "What type of areas do Municipal Corporations handle?",
+      "options": [
+        "A) Small villages",
+        "B) Medium towns",
+        "C) Large cities",
+        "D) Rural areas"
+      ],
+      "correct_answer": "C",
+      "explanation": "Municipal Corporations are like committees for the biggest classes - they handle large cities with lots of people.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 21,
+      "topic": "Elections",
+      "question": "Elections in India are like what activity in school?",
+      "options": [
+        "A) Sports day",
+        "B) Annual function",
+        "C) Class representative selection",
+        "D) Science fair"
+      ],
+      "correct_answer": "C",
+      "explanation": "Elections are like choosing class representatives - students vote to select who will represent them in student council.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 22,
+      "topic": "Elections",
+      "question": "What is the minimum age to vote in Indian elections?",
+      "options": [
+        "A) 16 years",
+        "B) 17 years",
+        "C) 18 years",
+        "D) 21 years"
+      ],
+      "correct_answer": "C",
+      "explanation": "Like how only senior students can vote for head boy/girl, only citizens 18 years and above can vote in elections.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 23,
+      "topic": "Elections",
+      "question": "Who conducts elections in India?",
+      "options": [
+        "A) Prime Minister's office",
+        "B) Election Commission of India",
+        "C) Supreme Court",
+        "D) Parliament"
+      ],
+      "correct_answer": "B",
+      "explanation": "Election Commission is like the teachers who supervise class representative elections - they ensure fair voting.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 24,
+      "topic": "Inter-governmental Cooperation",
+      "question": "When Union and State governments work together, it's like what in a school?",
+      "options": [
+        "A) Students fighting",
+        "B) Principal and class teachers cooperating",
+        "C) Students working alone",
+        "D) Teachers competing"
+      ],
+      "correct_answer": "B",
+      "explanation": "Like how principal and class teachers work together for students' benefit, Union and State governments cooperate for citizens' welfare.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 25,
+      "topic": "Inter-governmental Cooperation",
+      "question": "When there's a disaster, which governments work together?",
+      "options": [
+        "A) Only Union government",
+        "B) Only State government",
+        "C) Union, State, and Local governments together",
+        "D) Only local governments"
+      ],
+      "correct_answer": "C",
+      "explanation": "Like how principal, class teachers, and student monitors all help during school emergencies, all government levels work together during disasters.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 26,
+      "topic": "Parliament",
+      "question": "What is the upper house of Parliament called?",
+      "options": [
+        "A) Lok Sabha",
+        "B) Rajya Sabha",
+        "C) Vidhan Sabha",
+        "D) Gram Sabha"
+      ],
+      "correct_answer": "B",
+      "explanation": "Rajya Sabha is the upper house, like a senior student council, while Lok Sabha is the lower house, like a junior student council.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 27,
+      "topic": "Federal Structure",
+      "question": "Defence and foreign affairs are included in which list?",
+      "options": [
+        "A) State List",
+        "B) Union List",
+        "C) Concurrent List", 
+        "D) Local List"
+      ],
+      "correct_answer": "B",
+      "explanation": "Like how school's overall security is handled by the main principal's office, defence and foreign affairs are Union government's responsibility.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 28,
+      "topic": "Federal Structure",
+      "question": "Police and public order are mainly in which list?",
+      "options": [
+        "A) Union List",
+        "B) State List",
+        "C) Concurrent List",
+        "D) Municipal List"
+      ],
+      "correct_answer": "B",
+      "explanation": "Like how each class has its own discipline monitors, each state handles its own police and public order.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 29,
+      "topic": "Local Government",
+      "question": "The 73rd Amendment is related to which type of local government?",
+      "options": [
+        "A) Municipalities",
+        "B) Panchayats",
+        "C) State governments",
+        "D) Union territories"
+      ],
+      "correct_answer": "B",
+      "explanation": "The 73rd Amendment strengthened Panchayats, like giving more powers to rural area class committees.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 30,
+      "topic": "Local Government",
+      "question": "The 74th Amendment is related to which type of local government?",
+      "options": [
+        "A) Panchayats",
+        "B) Municipalities", 
+        "C) State governments",
+        "D) Union territories"
+      ],
+      "correct_answer": "B",
+      "explanation": "The 74th Amendment strengthened Municipalities, like giving more powers to urban area class committees.",
+      "difficulty": "hard"
+    },
+    {
+      "id": 31,
+      "topic": "Elections",
+      "question": "How often are Lok Sabha elections held?",
+      "options": [
+        "A) Every 3 years",
+        "B) Every 4 years", 
+        "C) Every 5 years",
+        "D) Every 6 years"
+      ],
+      "correct_answer": "C",
+      "explanation": "Like how class representatives are chosen every academic year, Lok Sabha elections happen every 5 years.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 32,
+      "topic": "President",
+      "question": "For how many years does the President serve?",
+      "options": [
+        "A) 4 years",
+        "B) 5 years",
+        "C) 6 years",
+        "D) 7 years"
+      ],
+      "correct_answer": "B",
+      "explanation": "Like how a school principal serves for a fixed period, the President serves for 5 years.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 33,
+      "topic": "Inter-governmental Cooperation",
+      "question": "Education appears in which list, allowing both Union and State governments to make policies?",
+      "options": [
+        "A) Union List",
+        "B) State List",
+        "C) Concurrent List",
+        "D) Local List"
+      ],
+      "correct_answer": "C",
+      "explanation": "Education is in Concurrent List, like how both principal and class teachers can make rules about studies.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 34,
+      "topic": "Governor",
+      "question": "For how many years does a Governor normally serve?",
+      "options": [
+        "A) 3 years",
+        "B) 4 years",
+        "C) 5 years",
+        "D) 6 years"
+      ],
+      "correct_answer": "C",
+      "explanation": "Like how a branch principal serves for a set period, a Governor normally serves for 5 years.",
+      "difficulty": "medium"
+    },
+    {
+      "id": 35,
+      "topic": "Local Government",
+      "question": "Who is the head of a Gram Panchayat?",
+      "options": [
+        "A) Gram Sevak",
+        "B) Sarpanch",
+        "C) Block Development Officer",
+        "D) District Collector"
+      ],
+      "correct_answer": "B",
+      "explanation": "Sarpanch is like the class monitor of a village - the elected leader of the Gram Panchayat.",
+      "difficulty": "medium"
+    }
+  ],
+  "scoring": {
+    "easy": 1,
+    "medium": 2, 
+    "hard": 3
+  },
+  "instructions": "This quiz helps children understand India's government structure using familiar school analogies. Each question relates government roles to school positions that children can easily understand."
+}
