@@ -141,11 +141,11 @@ interface ConstitutionBuilderProps {
 }
 
 const AVAILABLE_ARTICLES: ConstitutionArticle[] = [
-  // Preamble Articles
+  // Preamble (The Constitutional Promise)
   {
     id: 'preamble-1',
-    title: '👥 We, the People of India',
-    content: 'All of us Indians together decided to create these rules for our country - like students making class rules!',
+    title: 'We, the People of India',
+    content: 'The sovereign power belongs to the people of India who have adopted, enacted and given this Constitution.',
     category: 'preamble',
     importance: 5,
     placement: { x: 0, y: 0 },
@@ -154,44 +154,158 @@ const AVAILABLE_ARTICLES: ConstitutionArticle[] = [
   },
   {
     id: 'preamble-2',
-    title: '🏰 Sovereign Democratic Republic',
-    content: 'India is free, everyone gets to vote, and we choose our own leaders - no kings or foreign rulers!',
+    title: 'Sovereign Democratic Republic',
+    content: 'India is a sovereign nation, democratic in governance, and a republic with an elected head of state.',
     category: 'preamble',
     importance: 5,
     placement: { x: 0, y: 0 },
-    connections: ['preamble-3'],
+    connections: ['preamble-1', 'preamble-3'],
     correctSection: 'preamble'
   },
   {
     id: 'preamble-3',
-    title: '⭐ Justice, Liberty, Equality, Fraternity',
-    content: 'Fairness for all, freedom to choose, equal treatment, and caring for each other like family!',
+    title: 'Socialist Secular Democratic Republic',
+    content: 'India follows socialist principles, maintains religious neutrality, and ensures democratic participation.',
     category: 'preamble',
     importance: 5,
     placement: { x: 0, y: 0 },
-    connections: [],
+    connections: ['preamble-2'],
     correctSection: 'preamble'
   },
 
-  // Fundamental Rights
+  // Part I - The Union and its Territory (Articles 1-4)
   {
-    id: 'rights-1',
-    title: '⚖️ Everyone is Equal!',
-    content: 'All people in India are equal - rich or poor, tall or short, from any state or religion!',
-    category: 'fundamental_rights',
+    id: 'part1-art1',
+    title: 'Article 1: India as Union of States',
+    content: 'India, that is Bharat, shall be a Union of States consisting of states and union territories.',
+    category: 'union_territory',
     importance: 5,
     placement: { x: 0, y: 0 },
-    connections: ['rights-2', 'rights-3'],
+    connections: ['part1-art2'],
+    correctSection: 'union_territory'
+  },
+  {
+    id: 'part1-art2',
+    title: 'Article 2: Admission of New States',
+    content: 'Parliament may admit into the Union new States on such terms and conditions as it thinks fit.',
+    category: 'union_territory',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: ['part1-art1', 'part1-art3'],
+    correctSection: 'union_territory'
+  },
+  {
+    id: 'part1-art3',
+    title: 'Article 3: Formation of New States',
+    content: 'Parliament may by law form new states and alter areas, boundaries or names of existing states.',
+    category: 'union_territory',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: ['part1-art2'],
+    correctSection: 'union_territory'
+  },
+
+  // Part II - Citizenship (Articles 5-11) 
+  {
+    id: 'part2-art5',
+    title: 'Article 5: Citizenship at Commencement',
+    content: 'Every person domiciled in India at commencement and born in India is a citizen of India.',
+    category: 'citizenship',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part2-art6'],
+    correctSection: 'citizenship'
+  },
+  {
+    id: 'part2-art11',
+    title: 'Article 11: Parliament to Regulate Citizenship',
+    content: 'Parliament may by law provide for acquisition and termination of citizenship.',
+    category: 'citizenship',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: ['part2-art5'],
+    correctSection: 'citizenship'
+  },
+
+  // Part III - Fundamental Rights (Articles 12-35)
+  {
+    id: 'part3-art12',
+    title: 'Article 12: Definition of State',
+    content: 'State includes Government of India, Parliament, State Governments, Legislatures and local authorities.',
+    category: 'fundamental_rights',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part3-art13'],
     correctSection: 'fundamental_rights'
   },
   {
-    id: 'rights-2',
-    title: '🕊️ Freedom to Choose!',
-    content: 'You can say what you think, go where you want, and choose your dreams - as long as you don\'t hurt others!',
+    id: 'part3-art13',
+    title: 'Article 13: Laws Inconsistent with Fundamental Rights',
+    content: 'All laws in force before commencement of Constitution shall be void if inconsistent with fundamental rights.',
+    category: 'fundamental_rights',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part3-art12', 'part3-art14'],
+    correctSection: 'fundamental_rights'
+  },
+  {
+    id: 'part3-art14',
+    title: 'Article 14: Right to Equality',
+    content: 'The State shall not deny to any person equality before law or equal protection of laws.',
     category: 'fundamental_rights',
     importance: 5,
     placement: { x: 0, y: 0 },
-    connections: ['rights-1', 'rights-4'],
+    connections: ['part3-art13', 'part3-art15'],
+    correctSection: 'fundamental_rights'
+  },
+  {
+    id: 'part3-art15',
+    title: 'Article 15: Prohibition of Discrimination',
+    content: 'State shall not discriminate against any citizen on grounds of religion, race, caste, sex or place of birth.',
+    category: 'fundamental_rights',
+    importance: 5,
+    placement: { x: 0, y: 0 },
+    connections: ['part3-art14', 'part3-art16'],
+    correctSection: 'fundamental_rights'
+  },
+  {
+    id: 'part3-art16',
+    title: 'Article 16: Equality of Opportunity in Public Employment',
+    content: 'There shall be equality of opportunity for all citizens in matters relating to employment under State.',
+    category: 'fundamental_rights',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part3-art15', 'part3-art19'],
+    correctSection: 'fundamental_rights'
+  },
+  {
+    id: 'part3-art19',
+    title: 'Article 19: Protection of Six Rights',
+    content: 'Citizens have freedom of speech, assembly, association, movement, residence and profession.',
+    category: 'fundamental_rights',
+    importance: 5,
+    placement: { x: 0, y: 0 },
+    connections: ['part3-art16', 'part3-art21'],
+    correctSection: 'fundamental_rights'
+  },
+  {
+    id: 'part3-art21',
+    title: 'Article 21: Right to Life and Personal Liberty',
+    content: 'No person shall be deprived of life or personal liberty except according to procedure established by law.',
+    category: 'fundamental_rights',
+    importance: 5,
+    placement: { x: 0, y: 0 },
+    connections: ['part3-art19', 'part3-art32'],
+    correctSection: 'fundamental_rights'
+  },
+  {
+    id: 'part3-art32',
+    title: 'Article 32: Right to Constitutional Remedies',
+    content: 'Right to move Supreme Court for enforcement of fundamental rights is guaranteed (Heart and Soul).',
+    category: 'fundamental_rights',
+    importance: 5,
+    placement: { x: 0, y: 0 },
+    connections: ['part3-art21'],
     correctSection: 'fundamental_rights'
   },
   {
@@ -235,15 +349,35 @@ const AVAILABLE_ARTICLES: ConstitutionArticle[] = [
     correctSection: 'fundamental_rights'
   },
 
-  // Directive Principles
+  // Part IV - Directive Principles of State Policy (Articles 36-51)
   {
-    id: 'directive-1',
-    title: '🎯 Help Everyone Live Well!',
-    content: 'The government should make sure all people have good food, homes, and opportunities to succeed!',
+    id: 'part4-art38',
+    title: 'Article 38: State to Secure Social Order',
+    content: 'The State shall strive to promote welfare of people by securing social order in which justice prevails.',
     category: 'directive_principles',
     importance: 4,
     placement: { x: 0, y: 0 },
-    connections: ['directive-2'],
+    connections: ['part4-art39'],
+    correctSection: 'directive_principles'
+  },
+  {
+    id: 'part4-art39',
+    title: 'Article 39: Certain Principles of Policy',
+    content: 'State shall direct policy towards securing adequate means of livelihood and equal pay for equal work.',
+    category: 'directive_principles',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part4-art38', 'part4-art45'],
+    correctSection: 'directive_principles'
+  },
+  {
+    id: 'part4-art45',
+    title: 'Article 45: Provision for Education',
+    content: 'The State shall provide free and compulsory education for all children until age of fourteen years.',
+    category: 'directive_principles',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part4-art39'],
     correctSection: 'directive_principles'
   },
   {
@@ -277,15 +411,45 @@ const AVAILABLE_ARTICLES: ConstitutionArticle[] = [
     correctSection: 'directive_principles'
   },
 
-  // Union Government
+  // Part V - The Union Government (Articles 52-151)
   {
-    id: 'union-1',
-    title: '👨‍💼 President - India\'s Main Leader!',
-    content: 'The President is like the head of our entire country, representing India to the whole world!',
+    id: 'part5-art52',
+    title: 'Article 52: The President of India',
+    content: 'There shall be a President of India who shall be the executive head of the Union.',
     category: 'union_government',
     importance: 5,
     placement: { x: 0, y: 0 },
-    connections: ['union-2'],
+    connections: ['part5-art53'],
+    correctSection: 'union_government'
+  },
+  {
+    id: 'part5-art53',
+    title: 'Article 53: Executive Power of Union',
+    content: 'Executive power of Union shall be vested in President and exercised directly or through officers.',
+    category: 'union_government',
+    importance: 5,
+    placement: { x: 0, y: 0 },
+    connections: ['part5-art52', 'part5-art74'],
+    correctSection: 'union_government'
+  },
+  {
+    id: 'part5-art74',
+    title: 'Article 74: Council of Ministers',
+    content: 'There shall be a Council of Ministers with Prime Minister as head to aid and advise President.',
+    category: 'union_government',
+    importance: 5,
+    placement: { x: 0, y: 0 },
+    connections: ['part5-art53', 'part5-art79'],
+    correctSection: 'union_government'
+  },
+  {
+    id: 'part5-art79',
+    title: 'Article 79: Constitution of Parliament',
+    content: 'There shall be a Parliament consisting of President, Rajya Sabha and Lok Sabha.',
+    category: 'union_government',
+    importance: 5,
+    placement: { x: 0, y: 0 },
+    connections: ['part5-art74'],
     correctSection: 'union_government'
   },
   {
@@ -363,15 +527,57 @@ const AVAILABLE_ARTICLES: ConstitutionArticle[] = [
     correctSection: 'judiciary'
   },
 
-  // Fundamental Duties
+  // Part IV - Directive Principles of State Policy (Articles 36-51)
   {
-    id: 'duties-1',
-    title: '🇮🇳 Love Your Country',
-    content: 'Respect the National Flag and National Anthem - they represent all Indians!',
+    id: 'part4-art36',
+    title: 'Article 36: Definition of State',
+    content: 'State has the same meaning as in Part III (Fundamental Rights).',
+    category: 'directive_principles',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: ['part4-art37'],
+    correctSection: 'directive_principles'
+  },
+  {
+    id: 'part4-art37',
+    title: 'Article 37: Application of Directive Principles',
+    content: 'Principles are not enforceable by courts but are fundamental in governance.',
+    category: 'directive_principles',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part4-art36', 'part4-art38'],
+    correctSection: 'directive_principles'
+  },
+  {
+    id: 'part4-art38',
+    title: 'Article 38: State to Secure Social Order',
+    content: 'State shall strive to promote welfare by securing social order promoting justice.',
+    category: 'directive_principles',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part4-art37', 'part4-art39'],
+    correctSection: 'directive_principles'
+  },
+  {
+    id: 'part4-art39',
+    title: 'Article 39: Certain Principles of Policy',
+    content: 'State shall secure adequate means of livelihood and equal pay for equal work.',
+    category: 'directive_principles',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part4-art38'],
+    correctSection: 'directive_principles'
+  },
+
+  // Part IV-A - Fundamental Duties (Article 51A)
+  {
+    id: 'part4a-art51a',
+    title: 'Article 51A: Fundamental Duties',
+    content: 'It shall be the duty of every citizen to abide by Constitution, respect National Flag and Anthem.',
     category: 'fundamental_duties',
     importance: 4,
     placement: { x: 0, y: 0 },
-    connections: ['duties-2'],
+    connections: [],
     correctSection: 'fundamental_duties'
   },
   {
@@ -449,15 +655,51 @@ const AVAILABLE_ARTICLES: ConstitutionArticle[] = [
     correctSection: 'constitutional_bodies'
   },
 
-  // Amendment Process
+  // Part VIII - The Union Territories (Articles 239-242)
   {
-    id: 'amendment-1',
-    title: '✏️ How to Change the Constitution',
-    content: 'The Constitution can be updated, but it needs lots of people to agree - like changing school rules!',
+    id: 'part8-art239',
+    title: 'Article 239: Administration of Union Territories',
+    content: 'Every Union Territory shall be administered by President acting through an Administrator.',
+    category: 'union_territory',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: [],
+    correctSection: 'union_territory'
+  },
+
+  // Part IX - The Panchayats (Articles 243-243ZT)
+  {
+    id: 'part9-art243',
+    title: 'Article 243: Definitions for Panchayats',
+    content: 'Defines Gram Sabha, Panchayat, Panchayat Area, Population for Panchayati Raj institutions.',
+    category: 'panchayats',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: [],
+    correctSection: 'panchayats'
+  },
+
+  // Part XI - Relations between Union and States (Articles 245-263)
+  {
+    id: 'part11-art245',
+    title: 'Article 245: Extent of Laws made by Parliament and State Legislatures',
+    content: 'Parliament may make laws for whole or any part of India; State Legislature for the State.',
+    category: 'federal_relations',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: [],
+    correctSection: 'federal_relations'
+  },
+
+  // Part XX - Amendment of the Constitution (Article 368)
+  {
+    id: 'part20-art368',
+    title: 'Article 368: Power of Parliament to Amend Constitution',
+    content: 'Parliament may amend the Constitution by addition, variation or repeal of any provision.',
     category: 'amendment_process',
     importance: 4,
     placement: { x: 0, y: 0 },
-    connections: ['amendment-2'],
+    connections: [],
     correctSection: 'amendment_process'
   },
   {
@@ -475,10 +717,10 @@ const AVAILABLE_ARTICLES: ConstitutionArticle[] = [
 const CONSTITUTION_SECTIONS: DropZone[] = [
   {
     id: 'preamble',
-    title: '📜 Our Constitution\'s Promise',
-    description: 'The opening words that tell everyone what India stands for!',
+    title: 'Preamble',
+    description: 'We, the people of India... - The foundational declaration of the Constitution',
     icon: '📜',
-    capacity: 3,
+    capacity: 1,
     required: true,
     articles: [],
     color: 'from-blue-400 to-blue-600',
@@ -486,30 +728,19 @@ const CONSTITUTION_SECTIONS: DropZone[] = [
   },
   {
     id: 'fundamental_rights',
-    title: '🌟 Your Special Powers',
-    description: 'Amazing rights that every child and adult in India has!',
+    title: 'Part III - Fundamental Rights',
+    description: 'Articles 12-35: Constitutional rights guaranteed to all citizens',
     icon: '⚖️',
-    capacity: 6,
+    capacity: 8,
     required: true,
     articles: [],
     color: 'from-green-400 to-green-600',
     isExpanded: true
   },
   {
-    id: 'fundamental_duties',
-    title: '🤝 Good Things We Should Do',
-    description: 'Important ways we can help make India a better place for everyone!',
-    icon: '❤️',
-    capacity: 3,
-    required: true,
-    articles: [],
-    color: 'from-pink-400 to-pink-600',
-    isExpanded: true
-  },
-  {
     id: 'directive_principles',
-    title: '🎯 Government\'s Homework',
-    description: 'Instructions for the government on how to take care of all Indians!',
+    title: 'Part IV - Directive Principles of State Policy',
+    description: 'Articles 36-51: Guidelines for governance and policy making',
     icon: '🎯',
     capacity: 4,
     required: true,
@@ -518,11 +749,22 @@ const CONSTITUTION_SECTIONS: DropZone[] = [
     isExpanded: true
   },
   {
+    id: 'fundamental_duties',
+    title: 'Part IV-A - Fundamental Duties',
+    description: 'Article 51A: Duties of every citizen of India',
+    icon: '🤝',
+    capacity: 1,
+    required: true,
+    articles: [],
+    color: 'from-pink-400 to-pink-600',
+    isExpanded: true
+  },
+  {
     id: 'union_government',
-    title: '🏛️ India\'s Main Government',
-    description: 'How our country\'s main leaders work together in New Delhi!',
+    title: 'Part V - The Union Government',
+    description: 'Articles 52-151: President, Parliament, Council of Ministers, Supreme Court',
     icon: '🏛️',
-    capacity: 3,
+    capacity: 4,
     required: true,
     articles: [],
     color: 'from-orange-400 to-orange-600',
@@ -530,8 +772,8 @@ const CONSTITUTION_SECTIONS: DropZone[] = [
   },
   {
     id: 'state_government',
-    title: '🏢 Your State\'s Government',
-    description: 'How your state leaders take care of local needs and problems!',
+    title: 'Part VI - The States',
+    description: 'Articles 152-237: Governor, State Legislature, High Courts',
     icon: '🏢',
     capacity: 2,
     required: true,
@@ -540,20 +782,42 @@ const CONSTITUTION_SECTIONS: DropZone[] = [
     isExpanded: true
   },
   {
-    id: 'judiciary',
-    title: '⚖️ The Fair Judges',
-    description: 'Courts and judges who make sure everyone is treated fairly!',
-    icon: '⚖️',
-    capacity: 3,
-    required: true,
+    id: 'union_territory',
+    title: 'Part VIII - The Union Territories',
+    description: 'Articles 239-242: Administration of Union Territories',
+    icon: '🗺️',
+    capacity: 1,
+    required: false,
     articles: [],
-    color: 'from-red-400 to-red-600',
-    isExpanded: true
+    color: 'from-indigo-400 to-indigo-600',
+    isExpanded: false
+  },
+  {
+    id: 'panchayats',
+    title: 'Part IX - The Panchayats',
+    description: 'Articles 243-243ZT: Local self-government institutions',
+    icon: '🏘️',
+    capacity: 1,
+    required: false,
+    articles: [],
+    color: 'from-cyan-400 to-cyan-600',
+    isExpanded: false
+  },
+  {
+    id: 'federal_relations',
+    title: 'Part XI - Relations between Union and States',
+    description: 'Articles 245-263: Distribution of legislative and executive powers',
+    icon: '🔗',
+    capacity: 1,
+    required: false,
+    articles: [],
+    color: 'from-yellow-400 to-yellow-600',
+    isExpanded: false
   },
   {
     id: 'constitutional_bodies',
-    title: '🏢 Special Helper Groups',
-    description: 'Important organizations that help our democracy work properly!',
+    title: 'Constitutional Bodies',
+    description: 'Election Commission, CAG, UPSC and other constitutional institutions',
     icon: '🏢',
     capacity: 3,
     required: false,
@@ -1840,7 +2104,7 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           {/* Article Library */}
           <div className="lg:col-span-1">
-            <div className="bg-white rounded-xl shadow-lg p-6 sticky top-6">
+            <div className="bg-white rounded-xl shadow-lg p-6 sticky top-6 h-fit max-h-[calc(100vh-120px)]">
               <div className="flex items-center justify-between mb-4">
                 <h2 className="text-lg font-bold text-navy flex items-center">
                   <BookOpen className="w-5 h-5 mr-2" />
@@ -1891,7 +2155,7 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
               </div>
 
               {/* Articles List */}
-              <div className={`space-y-2 max-h-96 overflow-y-auto ${
+              <div className={`space-y-2 max-h-[calc(100vh-400px)] overflow-y-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100 ${
                 builderState.viewMode === 'grid' ? 'grid grid-cols-1 gap-2' : ''
               }`}>
                 {sortedArticles.map(article => {
