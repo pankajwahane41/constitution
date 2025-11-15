@@ -168,7 +168,7 @@ const ModuleViewer: React.FC<ModuleViewerProps> = ({
         {content.map((section, index) => (
           <div key={index} className="bg-white rounded-lg shadow-sm p-6 mb-6">
             <h3 className="font-semibold text-navy mb-4 text-lg">
-              {section.type === 'story' ? '📖 Story Time' : '📚 Content'} - {section.title}
+              {section.type === 'story' ? '📖' : '📚'} {section.title}
             </h3>
             <p className="text-gray-700 leading-relaxed text-base">{section.content}</p>
           </div>
