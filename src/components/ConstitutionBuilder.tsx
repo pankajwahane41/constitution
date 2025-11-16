@@ -730,7 +730,7 @@ const CONSTITUTION_SECTIONS: DropZone[] = [
   },
   {
     id: 'union_territory',
-    title: 'Part I - The Union and its Territory',
+    title: '🔥 Part I - The Union and its Territory 🔥',
     description: 'Articles 1-4: India as Union of States, admission and formation of new states',
     icon: '🏛️',
     capacity: 3,
@@ -741,7 +741,7 @@ const CONSTITUTION_SECTIONS: DropZone[] = [
   },
   {
     id: 'citizenship',
-    title: 'Part II - Citizenship',
+    title: '🔥 Part II - Citizenship 🔥',
     description: 'Articles 5-11: Acquisition, termination and regulation of citizenship',
     icon: '🆔',
     capacity: 2,
@@ -2300,9 +2300,9 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
           <div className="lg:col-span-1">
             <div className="bg-white rounded-xl shadow-lg p-6 h-[calc(100vh-200px)] flex flex-col">
               <div className="flex items-center justify-between mb-4">
-                <h2 className="text-lg font-bold text-navy flex items-center">
+                <h2 className="text-lg font-bold text-red-500 flex items-center">
                   <BookOpen className="w-5 h-5 mr-2" />
-                  Article Library
+                  🔥 UPDATED Article Library 🔥
                 </h2>
                 <div className="flex items-center space-x-2">
                   <button
@@ -2472,7 +2472,7 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
                 </div>
               </div>
 
-              {/* Constitution Sections */}
+              {/* Constitution Sections - Updated */}
               <div ref={dragZoneRef} className="space-y-4">
                 {sections.map(section => (
                   <div
