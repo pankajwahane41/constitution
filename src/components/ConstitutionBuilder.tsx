@@ -730,7 +730,7 @@ const CONSTITUTION_SECTIONS: DropZone[] = [
   },
   {
     id: 'union_territory',
-    title: '🔥 Part I - The Union and its Territory 🔥',
+    title: 'Part I - The Union and its Territory',
     description: 'Articles 1-4: India as Union of States, admission and formation of new states',
     icon: '🏛️',
     capacity: 3,
@@ -741,7 +741,7 @@ const CONSTITUTION_SECTIONS: DropZone[] = [
   },
   {
     id: 'citizenship',
-    title: '🔥 Part II - Citizenship 🔥',
+    title: 'Part II - Citizenship',
     description: 'Articles 5-11: Acquisition, termination and regulation of citizenship',
     icon: '🆔',
     capacity: 2,
@@ -2298,11 +2298,11 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           {/* Article Library */}
           <div className="lg:col-span-1">
-            <div className="bg-white rounded-xl shadow-lg p-6 h-[calc(100vh-200px)] flex flex-col">
+            <div className="bg-white rounded-xl shadow-lg flex flex-col" style={{height: 'calc(100vh - 180px)'}}>
               <div className="flex items-center justify-between mb-4">
-                <h2 className="text-lg font-bold text-red-500 flex items-center">
+                <h2 className="text-lg font-bold text-navy flex items-center">
                   <BookOpen className="w-5 h-5 mr-2" />
-                  🔥 UPDATED Article Library 🔥
+                  Article Library
                 </h2>
                 <div className="flex items-center space-x-2">
                   <button
@@ -2316,7 +2316,7 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
               </div>
 
               {/* Filters */}
-              <div className="space-y-3 mb-4">
+              <div className="space-y-3 mb-4 flex-shrink-0">
                 <div>
                   <label className="block text-xs font-medium text-gray-700 mb-1">Category</label>
                   <select
@@ -2765,6 +2765,11 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
         </div>
       )}
 
+      {/* DEBUG: If you see this alert, changes are loading */}
+      <div className="fixed top-0 left-0 bg-red-500 text-white p-2 z-50">
+        🚨 CHANGES ARE LOADING - Preamble capacity: 3, Layout: Fixed 🚨
+      </div>
+      
       {/* Modals and Overlays */}
       {renderTutorial()}
       {renderCelebration()}
