@@ -980,7 +980,7 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
     showHelpModal: false,
     aiHelperVisible: true,
     currentHint: null,
-    guidanceLevel: 'expert'
+    guidanceLevel: 'basic'
   });
 
   const [progress, setProgress] = useState<ConstitutionBuilderProgress>({
@@ -2303,7 +2303,7 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           {/* Article Library */}
           <div className="lg:col-span-1">
-            <div className="bg-white rounded-xl shadow-lg flex flex-col" style={{height: 'calc(100vh - 180px)'}}>
+            <div className="bg-white rounded-xl shadow-lg flex flex-col min-h-0" style={{height: 'calc(100vh - 120px)', maxHeight: 'calc(100vh - 120px)'}}>
               <div className="flex items-center justify-between mb-4">
                 <h2 className="text-lg font-bold text-navy flex items-center">
                   <BookOpen className="w-5 h-5 mr-2" />
@@ -2356,7 +2356,7 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
               {/* Articles List */}
               <div className={`space-y-2 flex-1 min-h-0 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100 pr-2 ${
                 builderState.viewMode === 'grid' ? 'grid grid-cols-1 gap-2' : ''
-              }`}>
+              }`} style={{flex: '1 1 0', minHeight: '0'}}>
                 {sortedArticles.map(article => {
                   const isPlaced = sections.some(section => 
                     section.articles.some(a => a.id === article.id)

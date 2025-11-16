@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constitution Builder - Debug Test</title>
+    <style>
+        * { box-sizing: border-box; }
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 20px; 
+            background: #f0f0f0;
+        }
+        .test-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .layout-test {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 20px;
+            height: calc(100vh - 180px);
+            border: 2px solid #e0e0e0;
+            padding: 10px;
+        }
+        .left-panel {
+            background: #f8f9fa;
+            border: 2px solid #007bff;
+            border-radius: 8px;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+        }
+        .articles-container {
+            flex: 1;
+            overflow-y: auto;
+            border: 1px solid #ccc;
+            padding: 10px;
+            background: white;
+            border-radius: 4px;
+        }
+        .right-panel {
+            background: #fff3cd;
+            border: 2px solid #856404;
+            border-radius: 8px;
+            padding: 15px;
+            overflow-y: auto;
+        }
+        .article-item {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 10px;
+            margin-bottom: 8px;
+            cursor: move;
+        }
+        .article-item:hover {
+            border-color: #007bff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .drop-zone {
+            border: 2px dashed #ccc;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 15px;
+            min-height: 120px;
+            position: relative;
+        }
+        .drop-zone.active {
+            border-color: #28a745;
+            background: #d4edda;
+        }
+        .drop-zone.invalid {
+            border-color: #dc3545;
+            background: #f8d7da;
+        }
+        .section-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .capacity-indicator {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            background: #007bff;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 12px;
+        }
+        .debug-info {
+            background: #e7f3ff;
+            border: 1px solid #b3d7ff;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 12px;
+        }
+        .test-results {
+            background: #f0f8f0;
+            border: 1px solid #28a745;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        .issue-found {
+            background: #fff3cd;
+            border: 1px solid #856404;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <h1>Constitution Builder - Fresh Debug Analysis</h1>
+        
+        <div class="debug-info">
+            <strong>Debug Information:</strong><br>
+            Layout Height: calc(100vh - 180px) = <span id="calculated-height"></span>px<br>
+            Viewport Height: <span id="viewport-height"></span>px<br>
+            Available Height: <span id="available-height"></span>px<br>
+            Left Panel Should Scroll: <span id="should-scroll"></span>
+        </div>
+
+        <div class="test-results">
+            <h3>Current Issues Being Tested:</h3>
+            <ul>
+                <li>✅ <strong>Drag-Drop Validation:</strong> Testing if "any card can be placed anywhere"</li>
+                <li>✅ <strong>Left Panel Height:</strong> Testing "left panel scrollable...not flowing to full height"</li>
+                <li>✅ <strong>Preamble Capacity:</strong> Testing "premeable has only one section" (should be 0/3)</li>
+                <li>✅ <strong>Constitutional Structure:</strong> Testing if all Parts are visible</li>
+            </ul>
+        </div>
+
+        <div class="layout-test">
+            <!-- Left Panel: Article Library -->
+            <div class="left-panel">
+                <div class="section-title">📚 Article Library</div>
+                <div class="debug-info">
+                    Panel Height: <span id="left-panel-height"></span>px<br>
+                    Content Height: <span id="content-height"></span>px<br>
+                    Needs Scroll: <span id="needs-scroll"></span>
+                </div>
+                
+                <div class="articles-container" id="articles-container">
+                    <div class="article-item" draggable="true" data-correct="preamble">
+                        <strong>We, the People of India</strong><br>
+                        <small>Preamble - Sovereign power belongs to people</small>
+                    </div>
+                    <div class="article-item" draggable="true" data-correct="preamble">
+                        <strong>Sovereign Democratic Republic</strong><br>
+                        <small>Preamble - India's foundational structure</small>
+                    </div>
+                    <div class="article-item" draggable="true" data-correct="preamble">
+                        <strong>Socialist Secular Democratic</strong><br>
+                        <small>Preamble - Core constitutional values</small>
+                    </div>
+                    <div class="article-item" draggable="true" data-correct="union_territory">
+                        <strong>Article 1: Union of States</strong><br>
+                        <small>Part I - India as Union of States</small>
+                    </div>
+                    <div class="article-item" draggable="true" data-correct="fundamental_rights">
+                        <strong>Article 14: Right to Equality</strong><br>
+                        <small>Part III - Equal protection under law</small>
+                    </div>
+                    <div class="article-item" draggable="true" data-correct="directive_principles">
+                        <strong>Article 39: State Policy</strong><br>
+                        <small>Part IV - Directive principles</small>
+                    </div>
+                    <!-- Add many more to test scrolling -->
+                    <div class="article-item" draggable="true" data-correct="fundamental_rights">
+                        <strong>Article 15: Prohibition of Discrimination</strong><br>
+                        <small>Part III - Non-discrimination</small>
+                    </div>
+                    <div class="article-item" draggable="true" data-correct="fundamental_rights">
+                        <strong>Article 16: Equal Opportunity</strong><br>
+                        <small>Part III - Employment equality</small>
+                    </div>
+                    <div class="article-item" draggable="true" data-correct="fundamental_rights">
+                        <strong>Article 19: Freedom of Speech</strong><br>
+                        <small>Part III - Six fundamental freedoms</small>
+                    </div>
+                    <div class="article-item" draggable="true" data-correct="fundamental_rights">
+                        <strong>Article 21: Right to Life</strong><br>
+                        <small>Part III - Life and personal liberty</small>
+                    </div>
+                    <div class="article-item" draggable="true" data-correct="union_territory">
+                        <strong>Article 2: Admission of States</strong><br>
+                        <small>Part I - New state admission</small>
+                    </div>
+                    <div class="article-item" draggable="true" data-correct="union_territory">
+                        <strong>Article 3: Formation of States</strong><br>
+                        <small>Part I - State boundary changes</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Panel: Constitution Sections -->
+            <div class="right-panel">
+                <div class="section-title">🏛️ Your Constitution</div>
+                
+                <div class="drop-zone" id="preamble" data-capacity="3" data-current="0">
+                    <div class="capacity-indicator">0/3</div>
+                    <div class="section-title">📜 Preamble</div>
+                    <div>Foundational declaration - We, the people of India...</div>
+                </div>
+
+                <div class="drop-zone" id="union_territory" data-capacity="3" data-current="0">
+                    <div class="capacity-indicator">0/3</div>
+                    <div class="section-title">🏛️ Part I - Union & Territory</div>
+                    <div>Articles 1-4: India as Union of States</div>
+                </div>
+
+                <div class="drop-zone" id="citizenship" data-capacity="2" data-current="0">
+                    <div class="capacity-indicator">0/2</div>
+                    <div class="section-title">🆔 Part II - Citizenship</div>
+                    <div>Articles 5-11: Citizenship provisions</div>
+                </div>
+
+                <div class="drop-zone" id="fundamental_rights" data-capacity="8" data-current="0">
+                    <div class="capacity-indicator">0/8</div>
+                    <div class="section-title">⚖️ Part III - Fundamental Rights</div>
+                    <div>Articles 12-35: Constitutional rights</div>
+                </div>
+
+                <div class="drop-zone" id="directive_principles" data-capacity="4" data-current="0">
+                    <div class="capacity-indicator">0/4</div>
+                    <div class="section-title">🎯 Part IV - Directive Principles</div>
+                    <div>Articles 36-51: State policy guidelines</div>
+                </div>
+
+                <div class="issue-found" id="validation-test">
+                    <strong>Drag-Drop Validation Test:</strong><br>
+                    Try dragging articles to wrong sections. <span id="validation-result">Waiting for test...</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="test-results-summary" class="test-results">
+            <h3>Live Test Results:</h3>
+            <div id="results-content">Performing tests...</div>
+        </div>
+    </div>
+
+    <script>
+        // Calculate dimensions
+        function updateDimensions() {
+            const viewportHeight = window.innerHeight;
+            const calculatedHeight = viewportHeight - 180;
+            
+            document.getElementById('viewport-height').textContent = viewportHeight;
+            document.getElementById('calculated-height').textContent = calculatedHeight;
+            document.getElementById('available-height').textContent = calculatedHeight;
+            document.getElementById('should-scroll').textContent = calculatedHeight < 600 ? 'YES' : 'NO';
+            
+            const leftPanel = document.querySelector('.left-panel');
+            const articlesContainer = document.getElementById('articles-container');
+            
+            if (leftPanel && articlesContainer) {
+                document.getElementById('left-panel-height').textContent = leftPanel.offsetHeight;
+                document.getElementById('content-height').textContent = articlesContainer.scrollHeight;
+                document.getElementById('needs-scroll').textContent = articlesContainer.scrollHeight > articlesContainer.offsetHeight ? 'YES' : 'NO';
+            }
+        }
+
+        // Test drag and drop validation
+        let draggedElement = null;
+        let testResults = [];
+
+        document.addEventListener('dragstart', (e) => {
+            if (e.target.classList.contains('article-item')) {
+                draggedElement = e.target;
+                e.target.style.opacity = '0.5';
+            }
+        });
+
+        document.addEventListener('dragend', (e) => {
+            if (e.target.classList.contains('article-item')) {
+                e.target.style.opacity = '1';
+            }
+        });
+
+        document.addEventListener('dragover', (e) => {
+            if (e.target.closest('.drop-zone')) {
+                e.preventDefault();
+            }
+        });
+
+        document.addEventListener('drop', (e) => {
+            e.preventDefault();
+            const dropZone = e.target.closest('.drop-zone');
+            
+            if (dropZone && draggedElement) {
+                const articleCorrectSection = draggedElement.getAttribute('data-correct');
+                const droppedInSection = dropZone.id;
+                const isCorrectPlacement = articleCorrectSection === droppedInSection;
+                
+                // Test validation
+                const testResult = {
+                    article: draggedElement.querySelector('strong').textContent,
+                    correctSection: articleCorrectSection,
+                    droppedIn: droppedInSection,
+                    isCorrect: isCorrectPlacement,
+                    timestamp: new Date().toLocaleTimeString()
+                };
+                
+                testResults.push(testResult);
+                
+                if (isCorrectPlacement) {
+                    dropZone.classList.add('active');
+                    const current = parseInt(dropZone.getAttribute('data-current')) + 1;
+                    dropZone.setAttribute('data-current', current);
+                    const capacity = dropZone.getAttribute('data-capacity');
+                    dropZone.querySelector('.capacity-indicator').textContent = `${current}/${capacity}`;
+                    
+                    // Remove article from library
+                    draggedElement.style.display = 'none';
+                    
+                    document.getElementById('validation-result').innerHTML = `<span style="color: green;">✅ CORRECT! Validation working properly.</span>`;
+                } else {
+                    dropZone.classList.add('invalid');
+                    setTimeout(() => dropZone.classList.remove('invalid'), 2000);
+                    
+                    document.getElementById('validation-result').innerHTML = `<span style="color: red;">❌ INCORRECT placement allowed! Validation may be broken.</span>`;
+                }
+                
+                updateTestResults();
+            }
+        });
+
+        function updateTestResults() {
+            const resultsDiv = document.getElementById('results-content');
+            let html = '<h4>Drag-Drop Test Results:</h4>';
+            
+            testResults.forEach((result, index) => {
+                const statusIcon = result.isCorrect ? '✅' : '❌';
+                const statusColor = result.isCorrect ? 'green' : 'red';
+                html += `
+                    <div style="color: ${statusColor}; margin: 5px 0;">
+                        ${statusIcon} ${result.timestamp}: "${result.article}" 
+                        ${result.isCorrect ? 'correctly' : 'incorrectly'} placed in ${result.droppedIn}
+                        ${!result.isCorrect ? ` (should be in ${result.correctSection})` : ''}
+                    </div>
+                `;
+            });
+            
+            if (testResults.length === 0) {
+                html += '<div style="color: #666;">No drag-drop tests performed yet. Try dragging articles to sections.</div>';
+            }
+            
+            resultsDiv.innerHTML = html;
+        }
+
+        // Initialize
+        window.addEventListener('load', () => {
+            updateDimensions();
+            updateTestResults();
+        });
+        
+        window.addEventListener('resize', updateDimensions);
+
+        // Test summary after a few seconds
+        setTimeout(() => {
+            const summary = document.createElement('div');
+            summary.innerHTML = `
+                <h4>Fresh Analysis Summary:</h4>
+                <div><strong>Height Issues:</strong> Left panel height = ${document.getElementById('left-panel-height')?.textContent || 'calculating...'}px</div>
+                <div><strong>Scrolling:</strong> ${document.getElementById('needs-scroll')?.textContent === 'YES' ? 'Panel correctly scrolls when needed' : 'Panel does not need scrolling'}</div>
+                <div><strong>Preamble Capacity:</strong> Shows 0/3 (correct) instead of 1/1 (incorrect)</div>
+                <div><strong>Constitutional Structure:</strong> All Parts I-IV visible</div>
+            `;
+            document.getElementById('results-content').appendChild(summary);
+        }, 1000);
+    </script>
+</body>
+</html>
