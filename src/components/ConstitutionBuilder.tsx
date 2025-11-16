@@ -89,6 +89,8 @@ interface BuilderState {
   showHints: boolean;
   hintsUsed: number;
   selectedArticleForHint: string | null;
+  selectedArticleForHelp: string | null;
+  showHelpModal: boolean;
   aiHelperVisible: boolean;
   currentHint: string | null;
   guidanceLevel: 'none' | 'basic' | 'expert';
@@ -664,7 +666,7 @@ const AVAILABLE_ARTICLES: ConstitutionArticle[] = [
     importance: 3,
     placement: { x: 0, y: 0 },
     connections: [],
-    correctSection: 'union_territory'
+    correctSection: 'union_territories_admin'
   },
 
   // Part IX - The Panchayats (Articles 243-243ZT)
@@ -727,6 +729,28 @@ const CONSTITUTION_SECTIONS: DropZone[] = [
     isExpanded: true
   },
   {
+    id: 'union_territory',
+    title: 'Part I - The Union and its Territory',
+    description: 'Articles 1-4: India as Union of States, admission and formation of new states',
+    icon: '🏛️',
+    capacity: 3,
+    required: true,
+    articles: [],
+    color: 'from-amber-400 to-amber-600',
+    isExpanded: true
+  },
+  {
+    id: 'citizenship',
+    title: 'Part II - Citizenship',
+    description: 'Articles 5-11: Acquisition, termination and regulation of citizenship',
+    icon: '🆔',
+    capacity: 2,
+    required: true,
+    articles: [],
+    color: 'from-cyan-400 to-cyan-600',
+    isExpanded: true
+  },
+  {
     id: 'fundamental_rights',
     title: 'Part III - Fundamental Rights',
     description: 'Articles 12-35: Constitutional rights guaranteed to all citizens',
@@ -782,7 +806,7 @@ const CONSTITUTION_SECTIONS: DropZone[] = [
     isExpanded: true
   },
   {
-    id: 'union_territory',
+    id: 'union_territories_admin',
     title: 'Part VIII - The Union Territories',
     description: 'Articles 239-242: Administration of Union Territories',
     icon: '🗺️',
@@ -813,6 +837,17 @@ const CONSTITUTION_SECTIONS: DropZone[] = [
     articles: [],
     color: 'from-yellow-400 to-yellow-600',
     isExpanded: false
+  },
+  {
+    id: 'judiciary',
+    title: 'The Judiciary',
+    description: 'Supreme Court, High Courts, and judicial powers across the Constitution',
+    icon: '⚖️',
+    capacity: 3,
+    required: true,
+    articles: [],
+    color: 'from-violet-400 to-violet-600',
+    isExpanded: true
   },
   {
     id: 'constitutional_bodies',
@@ -938,6 +973,8 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
     showHints: true,
     hintsUsed: 0,
     selectedArticleForHint: null,
+    selectedArticleForHelp: null,
+    showHelpModal: false,
     aiHelperVisible: true,
     currentHint: null,
     guidanceLevel: 'expert'
@@ -1191,6 +1228,103 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
     }, 8000);
   }, [getSmartHint, updateAiHelper]);
 
+  // Comprehensive help content for all articles
+  const COMPREHENSIVE_HELP: Record<string, {
+    explanation: string;
+    historicalContext: string;
+    practicalExample: string;
+    whyImportant: string;
+    funFacts: string[];
+    relatedArticles: string[];
+  }> = {
+    'preamble-1': {
+      explanation: 'This declares that the Constitution comes from the people of India, not from kings or foreign rulers. "We, the people" means every Indian citizen has a voice in how the country is run.',
+      historicalContext: 'After centuries of being ruled by kings and then British colonizers, India\'s founders wanted to make it clear that power now belonged to ordinary Indians.',
+      practicalExample: 'Like when your class decides rules together instead of the teacher just telling you what to do - everyone has a say!',
+      whyImportant: 'This establishes that India is a democracy where government power comes from citizens, not rulers.',
+      funFacts: ['India was one of the first countries to start its Constitution with "We, the people"', 'This phrase took inspiration from the American Constitution but made it uniquely Indian'],
+      relatedArticles: ['preamble-2', 'preamble-3']
+    },
+    'preamble-2': {
+      explanation: 'India is sovereign (independent), democratic (people choose leaders), and a republic (no king/queen). This means Indians control their own destiny.',
+      historicalContext: 'After 200 years of British rule, declaring India as sovereign was a powerful statement of complete independence.',
+      practicalExample: 'Like being the captain of your own team - you make your own decisions and choose your own leaders!',
+      whyImportant: 'This defines India\'s basic political identity as a free, democratic nation.',
+      funFacts: ['"Republic" means India has a President, not a King or Queen', 'India became sovereign on August 15, 1947, but the Constitution made it official'],
+      relatedArticles: ['preamble-1', 'preamble-3']
+    },
+    'preamble-3': {
+      explanation: 'Socialist means caring for everyone\'s welfare, secular means treating all religions equally, and democratic means people power.',
+      historicalContext: 'These words were added in 1976 to clarify India\'s commitment to equality and religious neutrality.',
+      practicalExample: 'Like a school that helps all students succeed (socialist), welcomes all faiths (secular), and lets students vote on activities (democratic)!',
+      whyImportant: 'This shows India\'s commitment to equality, religious tolerance, and people\'s participation in government.',
+      funFacts: ['"Socialist" and "Secular" were added by the 42nd Amendment in 1976', 'India practices "sarva dharma sambhava" - equal respect for all religions'],
+      relatedArticles: ['preamble-1', 'preamble-2']
+    },
+    'part1-art2': {
+      explanation: 'Parliament can admit new states into India on terms and conditions it decides. This allows India to grow by including new regions.',
+      historicalContext: 'This was important for integrating princely states after independence and later for creating new states.',
+      practicalExample: 'Like a club that can accept new members if they agree to follow the club\'s rules!',
+      whyImportant: 'This provides flexibility for India to expand or reorganize its territory as needed.',
+      funFacts: ['Sikkim joined India in 1975 using this provision', 'Over 560 princely states joined India after independence'],
+      relatedArticles: ['part1-art1', 'part1-art3']
+    },
+    'part1-art3': {
+      explanation: 'Parliament can create new states, change state boundaries, or rename states. This allows India to reorganize itself as needed.',
+      historicalContext: 'Used to create linguistic states like Andhra Pradesh (1953) and later Telangana (2014).',
+      practicalExample: 'Like being able to redraw classroom boundaries or create new classes when the school grows!',
+      whyImportant: 'This gives India flexibility to reorganize states based on language, culture, or administrative needs.',
+      funFacts: ['Telangana became the 29th state in 2014 using this article', 'Many states were reorganized in 1956 based on languages'],
+      relatedArticles: ['part1-art1', 'part1-art2']
+    },
+    'part2-art5': {
+      explanation: 'This defines who was automatically a citizen of India when the Constitution began. If you lived in India and were born here, you became a citizen!',
+      historicalContext: 'After Partition, millions needed to know their citizenship status. This article provided clarity for those already living in India.',
+      practicalExample: 'Like when a new school opens and all current students automatically become students of that school!',
+      whyImportant: 'This established the initial citizenship base for the new Republic of India.',
+      funFacts: ['This article was crucial during Partition when borders changed', 'It gave immediate citizenship to millions of people'],
+      relatedArticles: ['part2-art11']
+    },
+    'part2-art11': {
+      explanation: 'Parliament can make laws about how people can become Indian citizens or lose citizenship.',
+      historicalContext: 'This gives Parliament power to adapt citizenship laws as India\'s needs change over time.',
+      practicalExample: 'Like school administrators making rules about how new students can join or transfer!',
+      whyImportant: 'This allows India to control immigration and citizenship based on changing circumstances.',
+      funFacts: ['India has changed its citizenship laws several times using this power', 'The Citizenship Amendment Act of 2019 was made under this article'],
+      relatedArticles: ['part2-art5']
+    },
+    'part3-art14': {
+      explanation: 'Everyone in India must be treated equally by the law. Rich or poor, famous or unknown - the law is the same for everyone.',
+      historicalContext: 'This broke centuries of caste-based discrimination and colonial preferential treatment.',
+      practicalExample: 'Like having the same rules for everyone in class - no special treatment based on who your parents are!',
+      whyImportant: 'This is the foundation of justice in India - ensuring fairness for all citizens.',
+      funFacts: ['This article has been used in over 50,000 court cases', 'It\'s inspired by the American 14th Amendment but adapted for India'],
+      relatedArticles: ['part3-art15', 'part3-art16']
+    }
+    // The system now provides comprehensive help for key articles with more being added progressively
+  };
+
+  // Show comprehensive help for any article
+  const showComprehensiveHelp = useCallback((articleId: string) => {
+    const article = AVAILABLE_ARTICLES.find(a => a.id === articleId);
+    if (!article) return;
+    
+    setBuilderState(prev => ({
+      ...prev,
+      selectedArticleForHelp: articleId,
+      showHelpModal: true
+    }));
+  }, []);
+
+  // Close help modal
+  const closeHelpModal = useCallback(() => {
+    setBuilderState(prev => ({
+      ...prev,
+      selectedArticleForHelp: null,
+      showHelpModal: false
+    }));
+  }, []);
+
   // Provide encouraging guidance based on progress
   const provideGuidance = useCallback(() => {
     const placedCount = builderStats.placedArticles;
@@ -1441,10 +1575,29 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
 
   const handleDragEnter = (sectionId: string) => {
     setDraggedOver(sectionId);
+    
+    // Provide visual feedback for valid/invalid drop zones
+    if (builderState.draggedItem) {
+      const article = builderState.draggedItem.article;
+      const isValidDrop = article.correctSection === sectionId;
+      
+      // Visual indicator for drop validity
+      if (!isValidDrop && builderState.guidanceLevel !== 'expert') {
+        // Invalid drop - show warning state
+        setFeedback({
+          type: 'warning',
+          message: `⚠️ This article belongs in "${sections.find(s => s.id === article.correctSection)?.title}" section`
+        });
+      }
+    }
   };
 
   const handleDragLeave = () => {
     setDraggedOver(null);
+    // Clear temporary feedback on drag leave
+    if (feedback?.type === 'warning') {
+      setFeedback(null);
+    }
   };
 
   const handleDrop = (e: React.DragEvent, sectionId: string) => {
@@ -1469,25 +1622,56 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
       return;
     }
 
-    // VALIDATION: Check if article belongs in the correct section
-    const isCorrectPlacement = !article.correctSection || article.correctSection === sectionId;
+    // STRICT VALIDATION: Only allow articles in their correct sections
+    const isCorrectPlacement = article.correctSection === sectionId;
     const correctSectionTitle = sections.find(s => s.id === article.correctSection)?.title;
+    
+    // Block incorrect placements with educational feedback
+    if (!isCorrectPlacement && builderState.guidanceLevel !== 'expert') {
+      setFeedback({
+        type: 'error',
+        message: `🚫 Oops! "${article.title}" belongs in the "${correctSectionTitle}" section. Each article has its proper place in the Constitution! Think about what this article does and try the correct section. 🎯`
+      });
+      setTimeout(() => setFeedback(null), 5000);
+      
+      // Highlight the correct section to guide the user
+      if (article.correctSection) {
+        setHighlightedSection(article.correctSection);
+        setTimeout(() => setHighlightedSection(null), 3000);
+      }
+      
+      handleDragEnd();
+      return;
+    }
     
     const feedbackMessages = {
       correct: [
-        '🎉 WOW! You are absolutely right! That is exactly where this article belongs! You are becoming a Constitution superhero! ⚡',
-        '⭐ FANTASTIC! Perfect placement! You understood this article so well! I am so proud of you! 🌟',
-        '🎯 BULLSEYE! You nailed it! You are getting really good at this Constitution building! Keep going! 🚀',
-        '🌟 AMAZING work! You are thinking like a real Constitution expert now! That was spot-on! 🎓',
-        '🎊 INCREDIBLE! You got it perfectly right! Your constitutional knowledge is growing so fast! 📚✨'
+        `🎉 EXCELLENT! ${article.title} belongs exactly in ${section.title}! You earned ${totalPoints} constitutional points! ⚡`,
+        `⭐ PERFECT! You understand how ${article.title} fits into our Constitution's structure! +${totalPoints} points! 🌟`,
+        `🎯 CONSTITUTIONAL MASTERY! ${article.title} is correctly placed in ${section.title}! +${totalPoints} points! 🚀`,
+        `🌟 BRILLIANT! You're thinking like a constitutional scholar! ${article.title} → ${section.title} = +${totalPoints} points! 🎓`,
+        `🎊 AMAZING! Perfect understanding of constitutional organization! +${totalPoints} points earned! 📚✨`
       ],
       incorrect: [
-        `🤗 Great attempt, young scholar! This article actually loves being in "${correctSectionTitle}" better. Want to try moving it there? You are learning so well! 💫`,
-        `💡 Nice try, future expert! This special article belongs in "${correctSectionTitle}". Think about what makes that section special! You are doing great! 🌈`,
-        `🎓 Super effort! This article fits perfectly in "${correctSectionTitle}". Each article has its favorite home! Let us find it together! 🏡✨`,
-        `🤔 Good thinking! This article will be happier in "${correctSectionTitle}". Remember, each section has its own theme! You are learning fast! 🎯`
+        `🤗 Good try! "${article.title}" actually belongs in "${correctSectionTitle}" because it deals with ${getEducationalHint(article)}. Try again! 💫`,
+        `💡 Close! "${article.title}" fits in "${correctSectionTitle}" section. Think about its constitutional purpose: ${getEducationalHint(article)}! 🌈`,
+        `🎓 Learning opportunity! "${article.title}" goes in "${correctSectionTitle}" because ${getEducationalHint(article)}. You're getting there! 🏡✨`,
+        `🤔 Almost! "${article.title}" belongs in "${correctSectionTitle}". Remember: ${getEducationalHint(article)}! 🎯`
       ]
     };
+    
+    // Helper function to provide educational context
+    function getEducationalHint(article: ConstitutionArticle): string {
+      const hints: Record<string, string> = {
+        'fundamental_rights': 'it protects individual freedoms and liberties',
+        'directive_principles': 'it guides government policies for social welfare',
+        'fundamental_duties': 'it outlines responsibilities of citizens',
+        'union_government': 'it deals with central government powers and structure',
+        'state_government': 'it covers state-level governance and administration',
+        'preamble': 'it establishes the fundamental purpose of our Constitution'
+      };
+      return hints[article.category] || 'it serves a specific constitutional function';
+    }
 
     // Check if article is already in another section
     const existingSection = sections.find(s => 
@@ -1510,14 +1694,21 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
         : s
     ));
 
-    // Update stats
+    // Update stats with constitutional accuracy scoring
     const wasNewPlacement = !existingSection;
+    const basePoints = article.importance * 10; // Points based on article importance
+    const accuracyBonus = isCorrectPlacement ? basePoints : 0;
+    const speedBonus = builderStats.timeElapsed < 30 ? 5 : 0; // Quick placement bonus
+    const totalPoints = basePoints + accuracyBonus + speedBonus;
+    
     setBuilderStats(prev => ({
       ...prev,
       placedArticles: prev.placedArticles + (wasNewPlacement ? 1 : 0),
       correctPlacements: (prev.correctPlacements || 0) + (isCorrectPlacement && wasNewPlacement ? 1 : 0),
       totalAttempts: (prev.totalAttempts || 0) + 1,
-      accuracy: Math.round(((prev.correctPlacements || 0) + (isCorrectPlacement && wasNewPlacement ? 1 : 0)) / ((prev.totalAttempts || 0) + 1) * 100)
+      accuracy: Math.round(((prev.correctPlacements || 0) + (isCorrectPlacement && wasNewPlacement ? 1 : 0)) / ((prev.totalAttempts || 0) + 1) * 100),
+      score: (prev.score || 0) + (wasNewPlacement ? totalPoints : 0),
+      constitutionalMastery: Math.round(((prev.correctPlacements || 0) + (isCorrectPlacement && wasNewPlacement ? 1 : 0)) / AVAILABLE_ARTICLES.length * 100)
     }));
 
     // Give feedback based on correctness
@@ -2084,8 +2275,11 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
       <div className="bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex items-center justify-between mb-2">
-            <span className="text-sm font-medium text-gray-700">Building Progress</span>
-            <span className="text-sm text-gray-500">{completionPercentage}% Complete</span>
+            <span className="text-sm font-medium text-gray-700">Constitutional Mastery</span>
+            <div className="text-right">
+              <span className="text-sm text-gray-500">{completionPercentage}% Complete</span>
+              <div className="text-xs text-blue-600">Score: {builderStats.score || 0} | Accuracy: {builderStats.accuracy || 0}%</div>
+            </div>
           </div>
           <div className="w-full bg-gray-200 rounded-full h-3">
             <div
@@ -2104,7 +2298,7 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           {/* Article Library */}
           <div className="lg:col-span-1">
-            <div className="bg-white rounded-xl shadow-lg p-6 sticky top-6 h-fit max-h-[calc(100vh-120px)]">
+            <div className="bg-white rounded-xl shadow-lg p-6 sticky top-6">
               <div className="flex items-center justify-between mb-4">
                 <h2 className="text-lg font-bold text-navy flex items-center">
                   <BookOpen className="w-5 h-5 mr-2" />
@@ -2155,7 +2349,7 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
               </div>
 
               {/* Articles List */}
-              <div className={`space-y-2 max-h-[calc(100vh-400px)] overflow-y-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100 ${
+              <div className={`space-y-2 h-[70vh] overflow-y-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100 pr-2 ${
                 builderState.viewMode === 'grid' ? 'grid grid-cols-1 gap-2' : ''
               }`}>
                 {sortedArticles.map(article => {
@@ -2167,10 +2361,11 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
                     <div
                       key={article.id}
                       role="button"
-                      tabIndex={isPlaced ? -1 : 0}
-                      aria-label={`${article.title}. ${isPlaced ? 'Already placed in constitution' : 'Available for placement'}. Press Enter to select or drag to place in section.`}
+                      tabIndex={0}
+                      aria-label={`${article.title}. ${isPlaced ? 'Already placed in constitution' : 'Available for placement'}. Click for detailed help. Press Enter to select or drag to place in section.`}
                       aria-describedby={`article-help-${article.id}`}
                       draggable={!isPlaced}
+                      onClick={() => showComprehensiveHelp(article.id)}
                       onDragStart={() => !isPlaced && handleDragStart(article)}
                       onDragEnd={handleDragEnd}
                       onKeyDown={(e) => {
@@ -2192,6 +2387,12 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
                         <div className="flex-1">
                           <h4 className="text-sm font-medium text-navy line-clamp-2">{article.title}</h4>
                           <p className="text-xs text-gray-500 mt-1 line-clamp-2">{article.content}</p>
+                          {/* Educational hint for where this article belongs */}
+                          {!isPlaced && builderState.guidanceLevel === 'expert' && (
+                            <div className="mt-1 text-xs text-blue-600 bg-blue-50 px-2 py-1 rounded">
+                              💡 Belongs in: {sections.find(s => s.id === article.correctSection)?.title || 'Unknown'}
+                            </div>
+                          )}
                           <div className="flex items-center justify-between mt-2">
                             <span className="text-xs px-2 py-1 bg-gray-100 rounded-full">
                               {article.category.replace('_', ' ')}
@@ -2204,11 +2405,28 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
                           </div>
                         </div>
                         <div className="flex flex-col space-y-1">
-                          {!isPlaced && builderState.guidanceLevel === 'expert' && (
+                          {/* Always show comprehensive help button */}
+                          <button
+                            onClick={(e) => {
+                              e.preventDefault();
+                              e.stopPropagation();
+                              showComprehensiveHelp(article.id);
+                            }}
+                            className="p-1 text-blue-500 hover:text-blue-700 hover:bg-blue-50 rounded transition-colors"
+                            title="Learn more about this article"
+                          >
+                            <HelpCircle className="w-4 h-4" />
+                          </button>
+                          {/* Quick hint button for unplaced articles */}
+                          {!isPlaced && (
                             <button
-                              onClick={() => showHintForArticle(article.id)}
+                              onClick={(e) => {
+                                e.preventDefault();
+                                e.stopPropagation();
+                                showHintForArticle(article.id);
+                              }}
                               className="p-1 text-orange-500 hover:text-orange-700 hover:bg-orange-50 rounded transition-colors"
-                              title="Get a hint!"
+                              title="Get a placement hint"
                             >
                               <Lightbulb className="w-4 h-4" />
                             </button>
@@ -2267,7 +2485,16 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
                       highlightedSection === section.id
                         ? 'border-yellow-400 bg-yellow-50 shadow-lg ring-4 ring-yellow-200 ring-opacity-50 animate-pulse'
                         : draggedOver === section.id
-                        ? 'border-orange-400 bg-orange-50'
+                        ? (() => {
+                            // Color based on drop validity
+                            if (builderState.draggedItem && builderState.guidanceLevel !== 'expert') {
+                              const isValidDrop = builderState.draggedItem.article.correctSection === section.id;
+                              return isValidDrop 
+                                ? 'border-green-400 bg-green-50 shadow-md' 
+                                : 'border-red-400 bg-red-50 shadow-md';
+                            }
+                            return 'border-orange-400 bg-orange-50';
+                          })()
                         : 'border-gray-200 hover:border-gray-300'
                     }`}
                   >
@@ -2543,6 +2770,169 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
       {renderCelebration()}
       {renderAchievements()}
       {renderSaveDialog()}
+      
+      {/* Comprehensive Help Modal */}
+      {builderState.showHelpModal && builderState.selectedArticleForHelp && (() => {
+        const article = AVAILABLE_ARTICLES.find(a => a.id === builderState.selectedArticleForHelp);
+        const helpContent = COMPREHENSIVE_HELP[builderState.selectedArticleForHelp!];
+        const targetSection = sections.find(s => s.id === article?.correctSection);
+        const isPlaced = sections.some(s => s.articles.some(a => a.id === article?.id));
+        
+        if (!article) return null;
+        
+        return (
+          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+            <div className="bg-white rounded-2xl max-w-4xl max-h-[90vh] overflow-y-auto shadow-2xl">
+              <div className="sticky top-0 bg-white border-b border-gray-200 p-6 flex items-center justify-between">
+                <div className="flex items-center space-x-3">
+                  <div className="text-3xl">{targetSection?.icon || '📜'}</div>
+                  <div>
+                    <h3 className="text-xl font-bold text-navy">{article.title}</h3>
+                    <p className="text-sm text-gray-600">Constitutional Article • {targetSection?.title || 'Constitutional Provision'}</p>
+                  </div>
+                </div>
+                <button
+                  onClick={closeHelpModal}
+                  className="p-2 hover:bg-gray-100 rounded-full transition-colors"
+                >
+                  <X className="w-6 h-6" />
+                </button>
+              </div>
+              
+              <div className="p-6 space-y-6">
+                {/* Article Content */}
+                <div className="bg-blue-50 p-4 rounded-xl">
+                  <h4 className="font-semibold text-blue-800 mb-2 flex items-center">
+                    <BookOpen className="w-5 h-5 mr-2" />
+                    Article Content
+                  </h4>
+                  <p className="text-blue-700">{article.content}</p>
+                </div>
+                
+                {/* Explanation */}
+                {helpContent?.explanation && (
+                  <div className="bg-green-50 p-4 rounded-xl">
+                    <h4 className="font-semibold text-green-800 mb-2 flex items-center">
+                      <Lightbulb className="w-5 h-5 mr-2" />
+                      Simple Explanation
+                    </h4>
+                    <p className="text-green-700">{helpContent.explanation}</p>
+                  </div>
+                )}
+                
+                {/* Practical Example */}
+                {helpContent?.practicalExample && (
+                  <div className="bg-purple-50 p-4 rounded-xl">
+                    <h4 className="font-semibold text-purple-800 mb-2 flex items-center">
+                      <Target className="w-5 h-5 mr-2" />
+                      Easy Example
+                    </h4>
+                    <p className="text-purple-700">{helpContent.practicalExample}</p>
+                  </div>
+                )}
+                
+                {/* Historical Context */}
+                {helpContent?.historicalContext && (
+                  <div className="bg-amber-50 p-4 rounded-xl">
+                    <h4 className="font-semibold text-amber-800 mb-2 flex items-center">
+                      <Clock className="w-5 h-5 mr-2" />
+                      Historical Background
+                    </h4>
+                    <p className="text-amber-700">{helpContent.historicalContext}</p>
+                  </div>
+                )}
+                
+                {/* Why Important */}
+                {helpContent?.whyImportant && (
+                  <div className="bg-red-50 p-4 rounded-xl">
+                    <h4 className="font-semibold text-red-800 mb-2 flex items-center">
+                      <Star className="w-5 h-5 mr-2" />
+                      Why It Matters
+                    </h4>
+                    <p className="text-red-700">{helpContent.whyImportant}</p>
+                  </div>
+                )}
+                
+                {/* Fun Facts */}
+                {helpContent?.funFacts && helpContent.funFacts.length > 0 && (
+                  <div className="bg-indigo-50 p-4 rounded-xl">
+                    <h4 className="font-semibold text-indigo-800 mb-2 flex items-center">
+                      <Sparkles className="w-5 h-5 mr-2" />
+                      Fun Facts
+                    </h4>
+                    <ul className="text-indigo-700 space-y-1">
+                      {helpContent.funFacts.map((fact, index) => (
+                        <li key={index} className="flex items-start">
+                          <span className="mr-2">•</span>
+                          <span>{fact}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+                
+                {/* Default help for articles without comprehensive content */}
+                {!helpContent && (
+                  <div className="bg-gray-50 p-4 rounded-xl">
+                    <h4 className="font-semibold text-gray-800 mb-2 flex items-center">
+                      <Info className="w-5 h-5 mr-2" />
+                      About This Article
+                    </h4>
+                    <p className="text-gray-700 mb-3">{article.content}</p>
+                    <p className="text-gray-600 text-sm">
+                      This article is part of the Indian Constitution and plays an important role in our democratic framework.
+                    </p>
+                  </div>
+                )}
+                
+                {/* Placement Guide */}
+                {targetSection && (
+                  <div className="bg-gray-50 p-4 rounded-xl">
+                    <h4 className="font-semibold text-gray-800 mb-2 flex items-center">
+                      <ArrowRight className="w-5 h-5 mr-2" />
+                      Constitutional Placement
+                    </h4>
+                    <p className="text-gray-700">
+                      This article belongs in <strong>{targetSection.title}</strong> because: {targetSection.description}
+                    </p>
+                  </div>
+                )}
+                
+                {/* Action Buttons */}
+                <div className="flex items-center justify-between pt-4 border-t border-gray-200">
+                  <div className="flex items-center space-x-2 text-sm text-gray-600">
+                    <Star className="w-4 h-4 text-yellow-400 fill-current" />
+                    <span>Importance: {article.importance}/5</span>
+                    <span className="mx-2">•</span>
+                    <span className="px-2 py-1 bg-gray-100 rounded">{article.category.replace('_', ' ')}</span>
+                    {isPlaced && <span className="ml-2 text-green-600 font-medium">✓ Placed</span>}
+                  </div>
+                  <div className="flex space-x-2">
+                    {!isPlaced && (
+                      <button
+                        onClick={() => {
+                          showHintForArticle(article.id);
+                          closeHelpModal();
+                        }}
+                        className="px-4 py-2 bg-orange-100 text-orange-700 rounded-lg hover:bg-orange-200 transition-colors flex items-center space-x-2"
+                      >
+                        <Lightbulb className="w-4 h-4" />
+                        <span>Get Placement Hint</span>
+                      </button>
+                    )}
+                    <button
+                      onClick={closeHelpModal}
+                      className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors"
+                    >
+                      Got It!
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        );
+      })()}
     </div>
   );
 }
