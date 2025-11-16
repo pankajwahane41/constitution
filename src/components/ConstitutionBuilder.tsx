@@ -722,7 +722,7 @@ const CONSTITUTION_SECTIONS: DropZone[] = [
     title: 'Preamble',
     description: 'We, the people of India... - The foundational declaration of the Constitution',
     icon: '📜',
-    capacity: 1,
+    capacity: 3,
     required: true,
     articles: [],
     color: 'from-blue-400 to-blue-600',
@@ -2298,7 +2298,7 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           {/* Article Library */}
           <div className="lg:col-span-1">
-            <div className="bg-white rounded-xl shadow-lg p-6 sticky top-6">
+            <div className="bg-white rounded-xl shadow-lg p-6 h-[calc(100vh-200px)] flex flex-col">
               <div className="flex items-center justify-between mb-4">
                 <h2 className="text-lg font-bold text-navy flex items-center">
                   <BookOpen className="w-5 h-5 mr-2" />
@@ -2349,7 +2349,7 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
               </div>
 
               {/* Articles List */}
-              <div className={`space-y-2 h-[70vh] overflow-y-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100 pr-2 ${
+              <div className={`space-y-2 flex-1 min-h-0 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100 pr-2 ${
                 builderState.viewMode === 'grid' ? 'grid grid-cols-1 gap-2' : ''
               }`}>
                 {sortedArticles.map(article => {
