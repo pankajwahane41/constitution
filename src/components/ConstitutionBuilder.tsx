@@ -1629,7 +1629,17 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
     const isCorrectPlacement = article.correctSection === sectionId;
     const correctSectionTitle = sections.find(s => s.id === article.correctSection)?.title;
     
-    // Block incorrect placements with educational feedback
+    // DEBUG: Log validation details
+    console.log('🔍 VALIDATION DEBUG:', {
+      articleTitle: article.title,
+      articleCorrectSection: article.correctSection,
+      droppedInSection: sectionId,
+      isCorrectPlacement,
+      guidanceLevel: builderState.guidanceLevel,
+      shouldBlock: !isCorrectPlacement && builderState.guidanceLevel !== 'expert'
+    });
+    
+    // Block incorrect placements with educational feedback (except in expert/free mode)
     if (!isCorrectPlacement && builderState.guidanceLevel !== 'expert') {
       setFeedback({
         type: 'error',
@@ -2242,9 +2252,9 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
                   }))}
                   className="px-2 py-1 border border-gray-300 rounded focus:ring-2 focus:ring-orange-500"
                 >
-                  <option value="none">🦅 Expert (No Help)</option>
-                  <option value="basic">🎓 Learning (Some Help)</option>
-                  <option value="expert">👶 Beginner (Lots of Help)</option>
+                  <option value="basic">🎓 Educational (Validation ON)</option>
+                  <option value="none">⚡ Advanced (Minimal Help)</option>
+                  <option value="expert">🔓 Free Mode (Validation OFF)</option>
                 </select>
               </div>
 
@@ -2297,6 +2307,12 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
             <span>{sections.filter(s => s.articles.length >= s.capacity * 0.7).length} / {sections.length} sections ready</span>
           </div>
         </div>
+      </div>
+
+      {/* DEBUG BANNER - Shows validation status */}
+      <div className="bg-red-500 text-white text-center py-2">
+        🔍 DEBUG: Mode = <strong>{builderState.guidanceLevel}</strong> | 
+        Drag-Drop Validation = <strong>{builderState.guidanceLevel === 'expert' ? '❌ OFF (Free Mode)' : '✅ ON (Educational)'}</strong>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
