@@ -665,7 +665,7 @@ const AVAILABLE_ARTICLES: ConstitutionArticle[] = [
     id: 'part8-art239',
     title: 'Article 239: Administration of Union Territories',
     content: 'Every Union Territory shall be administered by President acting through an Administrator.',
-    category: 'union_territory',
+    category: 'union_territories_admin',
     importance: 3,
     placement: { x: 0, y: 0 },
     connections: [],
@@ -716,6 +716,108 @@ const AVAILABLE_ARTICLES: ConstitutionArticle[] = [
     placement: { x: 0, y: 0 },
     connections: [],
     correctSection: 'amendment_process'
+  },
+
+  // Additional articles for missing sections
+  {
+    id: 'union-gov-5',
+    title: '🏛️ Parliament Sessions',
+    content: 'Parliament meets regularly to discuss important issues and pass new laws for the nation.',
+    category: 'union_government',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: [],
+    correctSection: 'union_government'
+  },
+  {
+    id: 'union-gov-6', 
+    title: '📋 Constitutional Bodies',
+    content: 'Special institutions like Election Commission ensure democracy works properly.',
+    category: 'union_government',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: [],
+    correctSection: 'union_government'
+  },
+  {
+    id: 'state-gov-3',
+    title: '🏛️ State Assembly Powers',
+    content: 'State legislatures make laws on education, health, agriculture and local matters.',
+    category: 'state_government',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: [],
+    correctSection: 'state_government'
+  },
+  {
+    id: 'state-gov-4',
+    title: '⚖️ State High Courts',
+    content: 'Each state has High Courts that handle important legal matters for that state.',
+    category: 'state_government',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: [],
+    correctSection: 'state_government'
+  },
+  {
+    id: 'fundamental-duties-2',
+    title: '🇮🇳 Respect National Symbols',
+    content: 'Honor our National Flag, Anthem, and Constitution as symbols of our unity.',
+    category: 'fundamental_duties',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: [],
+    correctSection: 'fundamental_duties'
+  },
+  {
+    id: 'fundamental-duties-3',
+    title: '📚 Value Education & Heritage',
+    content: 'Cherish and preserve our rich composite culture and noble ideals.',
+    category: 'fundamental_duties',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: [],
+    correctSection: 'fundamental_duties'
+  },
+  {
+    id: 'emergency-3',
+    title: '⚡ Financial Emergency',
+    content: 'Special measures when the country faces serious financial crisis.',
+    category: 'emergency_provisions',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: [],
+    correctSection: 'emergency_provisions'
+  },
+  {
+    id: 'constitutional-body-4',
+    title: '📊 Finance Commission', 
+    content: 'Recommends how tax money should be shared between center and states.',
+    category: 'constitutional_bodies',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: [],
+    correctSection: 'constitutional_bodies'
+  },
+  {
+    id: 'constitutional-body-5',
+    title: '📋 Planning Commission',
+    content: 'Helps plan India\'s economic development and resource allocation.',
+    category: 'constitutional_bodies',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: [],
+    correctSection: 'constitutional_bodies'
+  },
+  {
+    id: 'constitutional-body-6',
+    title: '🏛️ Inter-State Council',
+    content: 'Facilitates coordination between Union and State governments.',
+    category: 'constitutional_bodies',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: [],
+    correctSection: 'constitutional_bodies'
   }
 ];
 
@@ -817,7 +919,7 @@ const CONSTITUTION_SECTIONS: DropZone[] = [
     required: false,
     articles: [],
     color: 'from-indigo-400 to-indigo-600',
-    isExpanded: false
+    isExpanded: true
   },
   {
     id: 'panchayats',
@@ -828,7 +930,7 @@ const CONSTITUTION_SECTIONS: DropZone[] = [
     required: false,
     articles: [],
     color: 'from-cyan-400 to-cyan-600',
-    isExpanded: false
+    isExpanded: true
   },
   {
     id: 'federal_relations',
@@ -839,7 +941,7 @@ const CONSTITUTION_SECTIONS: DropZone[] = [
     required: false,
     articles: [],
     color: 'from-yellow-400 to-yellow-600',
-    isExpanded: false
+    isExpanded: true
   },
   {
     id: 'judiciary',
