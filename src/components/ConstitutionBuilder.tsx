@@ -108,6 +108,9 @@ interface BuilderStats {
   correctPlacements?: number;
   totalAttempts?: number;
   accuracy?: number;
+  timeElapsed?: number;
+  score?: number;
+  constitutionalMastery?: number;
 }
 
 interface Achievement {
@@ -1644,6 +1647,12 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
       return;
     }
     
+    // Calculate points first (before using in messages)
+    const basePoints = article.importance * 10; // Points based on article importance
+    const accuracyBonus = isCorrectPlacement ? basePoints : 0;
+    const speedBonus = (builderStats.timeElapsed || 0) < 30 ? 5 : 0; // Quick placement bonus
+    const totalPoints = basePoints + accuracyBonus + speedBonus;
+    
     const feedbackMessages = {
       correct: [
         `🎉 EXCELLENT! ${article.title} belongs exactly in ${section.title}! You earned ${totalPoints} constitutional points! ⚡`,
@@ -1696,10 +1705,6 @@ export default function ConstitutionBuilder({ userProfile, onBack, onProfileUpda
 
     // Update stats with constitutional accuracy scoring
     const wasNewPlacement = !existingSection;
-    const basePoints = article.importance * 10; // Points based on article importance
-    const accuracyBonus = isCorrectPlacement ? basePoints : 0;
-    const speedBonus = builderStats.timeElapsed < 30 ? 5 : 0; // Quick placement bonus
-    const totalPoints = basePoints + accuracyBonus + speedBonus;
     
     setBuilderStats(prev => ({
       ...prev,
