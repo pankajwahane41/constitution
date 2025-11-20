@@ -232,13 +232,63 @@ const AVAILABLE_ARTICLES: ConstitutionArticle[] = [
     correctSection: 'citizenship'
   },
   {
+    id: 'part2-art6',
+    title: 'Article 6: Rights of Citizenship for Migrants',
+    content: 'Persons who migrated to India from Pakistan shall be deemed citizens if registered with authorities.',
+    category: 'citizenship',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: ['part2-art5', 'part2-art7'],
+    correctSection: 'citizenship'
+  },
+  {
+    id: 'part2-art7',
+    title: 'Article 7: Rights of Migrants to Pakistan',
+    content: 'Persons who migrated to Pakistan after March 1947 shall not be deemed citizens of India.',
+    category: 'citizenship',
+    importance: 2,
+    placement: { x: 0, y: 0 },
+    connections: ['part2-art6', 'part2-art8'],
+    correctSection: 'citizenship'
+  },
+  {
+    id: 'part2-art8',
+    title: 'Article 8: Rights of Overseas Citizens',
+    content: 'Persons of Indian origin residing outside India may be registered as citizens under conditions.',
+    category: 'citizenship',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: ['part2-art7', 'part2-art9'],
+    correctSection: 'citizenship'
+  },
+  {
+    id: 'part2-art9',
+    title: 'Article 9: Voluntary Acquisition of Foreign Citizenship',
+    content: 'No person shall be citizen of India if voluntarily acquired citizenship of a foreign State.',
+    category: 'citizenship',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: ['part2-art8', 'part2-art10'],
+    correctSection: 'citizenship'
+  },
+  {
+    id: 'part2-art10',
+    title: 'Article 10: Continuance of Rights of Citizenship',
+    content: 'Every person who is or deemed to be citizen shall continue to be such subject to provisions.',
+    category: 'citizenship',
+    importance: 2,
+    placement: { x: 0, y: 0 },
+    connections: ['part2-art9', 'part2-art11'],
+    correctSection: 'citizenship'
+  },
+  {
     id: 'part2-art11',
     title: 'Article 11: Parliament to Regulate Citizenship',
     content: 'Parliament may by law provide for acquisition and termination of citizenship.',
     category: 'citizenship',
     importance: 3,
     placement: { x: 0, y: 0 },
-    connections: ['part2-art5'],
+    connections: ['part2-art10'],
     correctSection: 'citizenship'
   },
 
@@ -290,7 +340,27 @@ const AVAILABLE_ARTICLES: ConstitutionArticle[] = [
     category: 'fundamental_rights',
     importance: 4,
     placement: { x: 0, y: 0 },
-    connections: ['part3-art15', 'part3-art19'],
+    connections: ['part3-art15', 'part3-art17'],
+    correctSection: 'fundamental_rights'
+  },
+  {
+    id: 'part3-art17',
+    title: 'Article 17: Abolition of Untouchability',
+    content: 'Untouchability is abolished and its practice in any form is forbidden and punishable by law.',
+    category: 'fundamental_rights',
+    importance: 5,
+    placement: { x: 0, y: 0 },
+    connections: ['part3-art16', 'part3-art18'],
+    correctSection: 'fundamental_rights'
+  },
+  {
+    id: 'part3-art18',
+    title: 'Article 18: Abolition of Titles',
+    content: 'No title, not being a military or academic distinction, shall be conferred by the State.',
+    category: 'fundamental_rights',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: ['part3-art17', 'part3-art19'],
     correctSection: 'fundamental_rights'
   },
   {
@@ -300,7 +370,17 @@ const AVAILABLE_ARTICLES: ConstitutionArticle[] = [
     category: 'fundamental_rights',
     importance: 5,
     placement: { x: 0, y: 0 },
-    connections: ['part3-art16', 'part3-art21'],
+    connections: ['part3-art18', 'part3-art20'],
+    correctSection: 'fundamental_rights'
+  },
+  {
+    id: 'part3-art20',
+    title: 'Article 20: Protection from Ex Post Facto Laws',
+    content: 'No person shall be convicted of any offence except for violation of law in force at time of act.',
+    category: 'fundamental_rights',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part3-art19', 'part3-art21'],
     correctSection: 'fundamental_rights'
   },
   {
@@ -310,7 +390,107 @@ const AVAILABLE_ARTICLES: ConstitutionArticle[] = [
     category: 'fundamental_rights',
     importance: 5,
     placement: { x: 0, y: 0 },
-    connections: ['part3-art19', 'part3-art32'],
+    connections: ['part3-art20', 'part3-art21a'],
+    correctSection: 'fundamental_rights'
+  },
+  {
+    id: 'part3-art21a',
+    title: 'Article 21A: Right to Education',
+    content: 'State shall provide free and compulsory education to all children aged 6 to 14 years.',
+    category: 'fundamental_rights',
+    importance: 5,
+    placement: { x: 0, y: 0 },
+    connections: ['part3-art21', 'part3-art22'],
+    correctSection: 'fundamental_rights'
+  },
+  {
+    id: 'part3-art22',
+    title: 'Article 22: Protection Against Arrest',
+    content: 'No person arrested shall be detained without being informed of grounds and right to legal counsel.',
+    category: 'fundamental_rights',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part3-art21a', 'part3-art23'],
+    correctSection: 'fundamental_rights'
+  },
+  {
+    id: 'part3-art23',
+    title: 'Article 23: Prohibition of Trafficking',
+    content: 'Traffic in human beings and forced labor are prohibited and punishable by law.',
+    category: 'fundamental_rights',
+    importance: 5,
+    placement: { x: 0, y: 0 },
+    connections: ['part3-art22', 'part3-art24'],
+    correctSection: 'fundamental_rights'
+  },
+  {
+    id: 'part3-art24',
+    title: 'Article 24: Prohibition of Child Labour',
+    content: 'No child below age of 14 years shall be employed in any factory, mine or hazardous work.',
+    category: 'fundamental_rights',
+    importance: 5,
+    placement: { x: 0, y: 0 },
+    connections: ['part3-art23', 'part3-art25'],
+    correctSection: 'fundamental_rights'
+  },
+  {
+    id: 'part3-art25',
+    title: 'Article 25: Freedom of Conscience and Religion',
+    content: 'All persons are equally entitled to freedom of conscience and free profession, practice of religion.',
+    category: 'fundamental_rights',
+    importance: 5,
+    placement: { x: 0, y: 0 },
+    connections: ['part3-art24', 'part3-art26'],
+    correctSection: 'fundamental_rights'
+  },
+  {
+    id: 'part3-art26',
+    title: 'Article 26: Freedom to Manage Religious Affairs',
+    content: 'Religious denominations have right to establish institutions, manage property, and own movable property.',
+    category: 'fundamental_rights',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part3-art25', 'part3-art27'],
+    correctSection: 'fundamental_rights'
+  },
+  {
+    id: 'part3-art27',
+    title: 'Article 27: Freedom from Taxation for Religion',
+    content: 'No person shall be compelled to pay taxes for promotion of any particular religion.',
+    category: 'fundamental_rights',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: ['part3-art26', 'part3-art28'],
+    correctSection: 'fundamental_rights'
+  },
+  {
+    id: 'part3-art28',
+    title: 'Article 28: Freedom from Religious Instruction',
+    content: 'No religious instruction shall be provided in educational institutions wholly maintained by State.',
+    category: 'fundamental_rights',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: ['part3-art27', 'part3-art29'],
+    correctSection: 'fundamental_rights'
+  },
+  {
+    id: 'part3-art29',
+    title: 'Article 29: Protection of Minorities',
+    content: 'Any section of citizens with distinct language, script or culture has right to conserve the same.',
+    category: 'fundamental_rights',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part3-art28', 'part3-art30'],
+    correctSection: 'fundamental_rights'
+  },
+  {
+    id: 'part3-art30',
+    title: 'Article 30: Right of Minorities to Educational Institutions',
+    content: 'Religious and linguistic minorities have right to establish and administer educational institutions.',
+    category: 'fundamental_rights',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part3-art29', 'part3-art32'],
     correctSection: 'fundamental_rights'
   },
   {
@@ -364,27 +544,7 @@ const AVAILABLE_ARTICLES: ConstitutionArticle[] = [
     correctSection: 'fundamental_rights'
   },
 
-  // Part IV - Directive Principles of State Policy (Articles 36-51)
-  {
-    id: 'part4-art38',
-    title: 'Article 38: State to Secure Social Order',
-    content: 'The State shall strive to promote welfare of people by securing social order in which justice prevails.',
-    category: 'directive_principles',
-    importance: 4,
-    placement: { x: 0, y: 0 },
-    connections: ['part4-art39'],
-    correctSection: 'directive_principles'
-  },
-  {
-    id: 'part4-art39',
-    title: 'Article 39: Certain Principles of Policy',
-    content: 'State shall direct policy towards securing adequate means of livelihood and equal pay for equal work.',
-    category: 'directive_principles',
-    importance: 4,
-    placement: { x: 0, y: 0 },
-    connections: ['part4-art38', 'part4-art45'],
-    correctSection: 'directive_principles'
-  },
+  // Part IV - Directive Principles of State Policy (Articles 36-51) - More articles below
   {
     id: 'part4-art45',
     title: 'Article 45: Provision for Education',
@@ -464,7 +624,167 @@ const AVAILABLE_ARTICLES: ConstitutionArticle[] = [
     category: 'union_government',
     importance: 5,
     placement: { x: 0, y: 0 },
-    connections: ['part5-art74'],
+    connections: ['part5-art74', 'part5-art75'],
+    correctSection: 'union_government'
+  },
+  {
+    id: 'part5-art75',
+    title: 'Article 75: Prime Minister and Council of Ministers',
+    content: 'Prime Minister shall be appointed by President, other ministers appointed on PM advice.',
+    category: 'union_government',
+    importance: 5,
+    placement: { x: 0, y: 0 },
+    connections: ['part5-art74', 'part5-art79', 'part5-art76'],
+    correctSection: 'union_government'
+  },
+  {
+    id: 'part5-art76',
+    title: 'Article 76: Attorney General of India',
+    content: 'President shall appoint Attorney General who shall be highest law officer of Government of India.',
+    category: 'union_government',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part5-art75', 'part5-art80'],
+    correctSection: 'union_government'
+  },
+  {
+    id: 'part5-art80',
+    title: 'Article 80: Composition of Rajya Sabha',
+    content: 'Rajya Sabha shall consist of 250 members, 238 elected by State Legislatures, 12 nominated by President.',
+    category: 'union_government',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part5-art79', 'part5-art81'],
+    correctSection: 'union_government'
+  },
+  {
+    id: 'part5-art81',
+    title: 'Article 81: Composition of Lok Sabha',
+    content: 'Lok Sabha shall consist of not more than 550 members directly elected from constituencies.',
+    category: 'union_government',
+    importance: 5,
+    placement: { x: 0, y: 0 },
+    connections: ['part5-art80', 'part5-art107'],
+    correctSection: 'union_government'
+  },
+  {
+    id: 'part5-art107',
+    title: 'Article 107: Provisions on Bills',
+    content: 'Bills may originate in either House, must pass both Houses to become law after Presidential assent.',
+    category: 'union_government',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part5-art81', 'part5-art108'],
+    correctSection: 'union_government'
+  },
+  {
+    id: 'part5-art108',
+    title: 'Article 108: Joint Sitting of Both Houses',
+    content: 'President may summon joint sitting to resolve deadlock when bill rejected or not passed by other House.',
+    category: 'union_government',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: ['part5-art107', 'part5-art110'],
+    correctSection: 'union_government'
+  },
+  {
+    id: 'part5-art110',
+    title: 'Article 110: Definition of Money Bills',
+    content: 'Money Bill deals with taxation, borrowing, expenditure from Consolidated Fund - certified by Lok Sabha Speaker.',
+    category: 'union_government',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part5-art108', 'part5-art112'],
+    correctSection: 'union_government'
+  },
+  {
+    id: 'part5-art112',
+    title: 'Article 112: Annual Financial Statement (Budget)',
+    content: 'President shall cause to be laid before Parliament annual financial statement showing receipts and expenditure.',
+    category: 'union_government',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part5-art110', 'part5-art123'],
+    correctSection: 'union_government'
+  },
+  {
+    id: 'part5-art123',
+    title: 'Article 123: Power of President to Promulgate Ordinances',
+    content: 'President may promulgate ordinances when Parliament not in session, valid for 6 weeks after reassembly.',
+    category: 'union_government',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: ['part5-art112', 'part5-art124'],
+    correctSection: 'union_government'
+  },
+  {
+    id: 'part5-art124',
+    title: 'Article 124: Establishment of Supreme Court',
+    content: 'Supreme Court shall consist of Chief Justice of India and not more than 33 other judges.',
+    category: 'union_government',
+    importance: 5,
+    placement: { x: 0, y: 0 },
+    connections: ['part5-art123', 'part5-art130'],
+    correctSection: 'union_government'
+  },
+  {
+    id: 'part5-art130',
+    title: 'Article 130: Seat of Supreme Court',
+    content: 'Supreme Court shall sit in Delhi, may sit at such other places as Chief Justice appoints.',
+    category: 'union_government',
+    importance: 2,
+    placement: { x: 0, y: 0 },
+    connections: ['part5-art124', 'part5-art131'],
+    correctSection: 'union_government'
+  },
+  {
+    id: 'part5-art131',
+    title: 'Article 131: Original Jurisdiction of Supreme Court',
+    content: 'Supreme Court has exclusive jurisdiction over disputes between Union and States or between States.',
+    category: 'union_government',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part5-art130', 'part5-art132'],
+    correctSection: 'union_government'
+  },
+  {
+    id: 'part5-art132',
+    title: 'Article 132: Appellate Jurisdiction (Constitutional)',
+    content: 'Supreme Court has appellate jurisdiction on constitutional questions from High Courts.',
+    category: 'union_government',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part5-art131', 'part5-art136'],
+    correctSection: 'union_government'
+  },
+  {
+    id: 'part5-art136',
+    title: 'Article 136: Special Leave to Appeal',
+    content: 'Supreme Court may grant special leave to appeal from any judgment, decree or order of any court.',
+    category: 'union_government',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part5-art132', 'part5-art137'],
+    correctSection: 'union_government'
+  },
+  {
+    id: 'part5-art137',
+    title: 'Article 137: Review of Judgments',
+    content: 'Supreme Court has power to review any judgment or order made by it.',
+    category: 'union_government',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: ['part5-art136', 'part5-art141'],
+    correctSection: 'union_government'
+  },
+  {
+    id: 'part5-art141',
+    title: 'Article 141: Law Declared by Supreme Court Binding',
+    content: 'Law declared by Supreme Court shall be binding on all courts within territory of India.',
+    category: 'union_government',
+    importance: 5,
+    placement: { x: 0, y: 0 },
+    connections: ['part5-art137'],
     correctSection: 'union_government'
   },
   {
@@ -488,7 +808,137 @@ const AVAILABLE_ARTICLES: ConstitutionArticle[] = [
     correctSection: 'union_government'
   },
 
-  // State Government
+  // Part VI - State Government (Articles 152-237)
+  {
+    id: 'part6-art153',
+    title: 'Article 153: Governors of States',
+    content: 'There shall be a Governor for each State appointed by President for term of 5 years.',
+    category: 'state_government',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part6-art154'],
+    correctSection: 'state_government'
+  },
+  {
+    id: 'part6-art154',
+    title: 'Article 154: Executive Power of State',
+    content: 'Executive power of State shall be vested in Governor and exercised directly or through officers.',
+    category: 'state_government',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part6-art153', 'part6-art163'],
+    correctSection: 'state_government'
+  },
+  {
+    id: 'part6-art163',
+    title: 'Article 163: Council of Ministers to Aid Governor',
+    content: 'There shall be Council of Ministers with Chief Minister as head to aid and advise Governor.',
+    category: 'state_government',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part6-art154', 'part6-art164'],
+    correctSection: 'state_government'
+  },
+  {
+    id: 'part6-art164',
+    title: 'Article 164: Appointment of Chief Minister',
+    content: 'Chief Minister shall be appointed by Governor, other ministers appointed on CM advice.',
+    category: 'state_government',
+    importance: 5,
+    placement: { x: 0, y: 0 },
+    connections: ['part6-art163', 'part6-art165'],
+    correctSection: 'state_government'
+  },
+  {
+    id: 'part6-art165',
+    title: 'Article 165: Advocate General for State',
+    content: 'Governor shall appoint Advocate General who shall be highest law officer of State.',
+    category: 'state_government',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: ['part6-art164', 'part6-art168'],
+    correctSection: 'state_government'
+  },
+  {
+    id: 'part6-art168',
+    title: 'Article 168: Constitution of State Legislatures',
+    content: 'Legislature consists of Governor and one or two Houses (Legislative Assembly and Council).',
+    category: 'state_government',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part6-art165', 'part6-art169'],
+    correctSection: 'state_government'
+  },
+  {
+    id: 'part6-art169',
+    title: 'Article 169: Abolition or Creation of Legislative Councils',
+    content: 'Parliament may by law provide for abolition or creation of Legislative Council in a State.',
+    category: 'state_government',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: ['part6-art168', 'part6-art170'],
+    correctSection: 'state_government'
+  },
+  {
+    id: 'part6-art170',
+    title: 'Article 170: Composition of State Legislative Assemblies',
+    content: 'Legislative Assembly shall consist of not more than 500 and not less than 60 elected members.',
+    category: 'state_government',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part6-art169', 'part6-art200'],
+    correctSection: 'state_government'
+  },
+  {
+    id: 'part6-art200',
+    title: 'Article 200: Assent to Bills',
+    content: 'Governor may assent, withhold assent, or reserve bill for consideration of President.',
+    category: 'state_government',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: ['part6-art170', 'part6-art213'],
+    correctSection: 'state_government'
+  },
+  {
+    id: 'part6-art213',
+    title: 'Article 213: Power of Governor to Promulgate Ordinances',
+    content: 'Governor may promulgate ordinances when State Legislature not in session.',
+    category: 'state_government',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: ['part6-art200', 'part6-art214'],
+    correctSection: 'state_government'
+  },
+  {
+    id: 'part6-art214',
+    title: 'Article 214: High Courts for States',
+    content: 'There shall be a High Court for each State or group of States.',
+    category: 'state_government',
+    importance: 5,
+    placement: { x: 0, y: 0 },
+    connections: ['part6-art213', 'part6-art226'],
+    correctSection: 'state_government'
+  },
+  {
+    id: 'part6-art226',
+    title: 'Article 226: Power of High Courts to Issue Writs',
+    content: 'High Courts may issue writs for enforcement of fundamental rights and other purposes.',
+    category: 'state_government',
+    importance: 5,
+    placement: { x: 0, y: 0 },
+    connections: ['part6-art214', 'part6-art227'],
+    correctSection: 'state_government'
+  },
+  {
+    id: 'part6-art227',
+    title: 'Article 227: Power of Superintendence over Courts',
+    content: 'Every High Court shall have superintendence over all courts and tribunals in State territory.',
+    category: 'state_government',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part6-art226'],
+    correctSection: 'state_government'
+  },
   {
     id: 'state-1',
     title: '🏢 Governor - State\'s Representative!',
@@ -580,7 +1030,127 @@ const AVAILABLE_ARTICLES: ConstitutionArticle[] = [
     category: 'directive_principles',
     importance: 4,
     placement: { x: 0, y: 0 },
-    connections: ['part4-art38'],
+    connections: ['part4-art38', 'part4-art40'],
+    correctSection: 'directive_principles'
+  },
+  {
+    id: 'part4-art40',
+    title: 'Article 40: Organization of Village Panchayats',
+    content: 'State shall organize village panchayats and endow them with powers for self-government.',
+    category: 'directive_principles',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part4-art39', 'part4-art41'],
+    correctSection: 'directive_principles'
+  },
+  {
+    id: 'part4-art41',
+    title: 'Article 41: Right to Work and Education',
+    content: 'State shall secure right to work, education and public assistance in cases of need.',
+    category: 'directive_principles',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part4-art40', 'part4-art42'],
+    correctSection: 'directive_principles'
+  },
+  {
+    id: 'part4-art42',
+    title: 'Article 42: Just and Humane Conditions of Work',
+    content: 'State shall make provisions for securing just and humane conditions of work and maternity relief.',
+    category: 'directive_principles',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part4-art41', 'part4-art43'],
+    correctSection: 'directive_principles'
+  },
+  {
+    id: 'part4-art43',
+    title: 'Article 43: Living Wage for Workers',
+    content: 'State shall secure living wage, decent standard of life and social participation for workers.',
+    category: 'directive_principles',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part4-art42', 'part4-art44'],
+    correctSection: 'directive_principles'
+  },
+  {
+    id: 'part4-art44',
+    title: 'Article 44: Uniform Civil Code',
+    content: 'State shall endeavour to secure uniform civil code for citizens throughout territory of India.',
+    category: 'directive_principles',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part4-art43', 'part4-art45'],
+    correctSection: 'directive_principles'
+  },
+  {
+    id: 'part4-art46',
+    title: 'Article 46: Promotion of SC/ST and Weaker Sections',
+    content: 'State shall promote educational and economic interests of Scheduled Castes, Tribes and weaker sections.',
+    category: 'directive_principles',
+    importance: 5,
+    placement: { x: 0, y: 0 },
+    connections: ['part4-art45', 'part4-art47'],
+    correctSection: 'directive_principles'
+  },
+  {
+    id: 'part4-art47',
+    title: 'Article 47: Nutrition and Standard of Living',
+    content: 'State shall raise level of nutrition, standard of living and improve public health.',
+    category: 'directive_principles',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part4-art46', 'part4-art48'],
+    correctSection: 'directive_principles'
+  },
+  {
+    id: 'part4-art48',
+    title: 'Article 48: Agriculture and Animal Husbandry',
+    content: 'State shall organize agriculture and animal husbandry on modern scientific lines.',
+    category: 'directive_principles',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: ['part4-art47', 'part4-art48a'],
+    correctSection: 'directive_principles'
+  },
+  {
+    id: 'part4-art48a',
+    title: 'Article 48A: Protection of Environment',
+    content: 'State shall protect and improve environment and safeguard forests and wildlife.',
+    category: 'directive_principles',
+    importance: 5,
+    placement: { x: 0, y: 0 },
+    connections: ['part4-art48', 'part4-art49'],
+    correctSection: 'directive_principles'
+  },
+  {
+    id: 'part4-art49',
+    title: 'Article 49: Protection of Monuments',
+    content: 'State shall protect monuments, places and objects of national importance.',
+    category: 'directive_principles',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: ['part4-art48a', 'part4-art50'],
+    correctSection: 'directive_principles'
+  },
+  {
+    id: 'part4-art50',
+    title: 'Article 50: Separation of Judiciary from Executive',
+    content: 'State shall separate judiciary from executive in public services of the State.',
+    category: 'directive_principles',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part4-art49', 'part4-art51'],
+    correctSection: 'directive_principles'
+  },
+  {
+    id: 'part4-art51',
+    title: 'Article 51: Promotion of International Peace',
+    content: 'State shall promote international peace, security and maintain just relations between nations.',
+    category: 'directive_principles',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: ['part4-art50'],
     correctSection: 'directive_principles'
   },
 
@@ -616,7 +1186,37 @@ const AVAILABLE_ARTICLES: ConstitutionArticle[] = [
     correctSection: 'fundamental_duties'
   },
 
-  // Emergency Provisions
+  // Part XVIII - Emergency Provisions (Articles 352-360)
+  {
+    id: 'part18-art352',
+    title: 'Article 352: Proclamation of National Emergency',
+    content: 'President may proclaim emergency on grounds of war, external aggression or armed rebellion.',
+    category: 'emergency_provisions',
+    importance: 5,
+    placement: { x: 0, y: 0 },
+    connections: ['part18-art356'],
+    correctSection: 'emergency_provisions'
+  },
+  {
+    id: 'part18-art356',
+    title: 'Article 356: Provisions in Case of Failure of Constitutional Machinery (President\'s Rule)',
+    content: 'President may assume State functions if satisfied State government cannot be carried on per Constitution.',
+    category: 'emergency_provisions',
+    importance: 5,
+    placement: { x: 0, y: 0 },
+    connections: ['part18-art352', 'part18-art360'],
+    correctSection: 'emergency_provisions'
+  },
+  {
+    id: 'part18-art360',
+    title: 'Article 360: Provisions as to Financial Emergency',
+    content: 'President may proclaim financial emergency if financial stability or credit of India threatened.',
+    category: 'emergency_provisions',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part18-art356'],
+    correctSection: 'emergency_provisions'
+  },
   {
     id: 'emergency-1',
     title: '🚨 National Emergency',
@@ -639,6 +1239,106 @@ const AVAILABLE_ARTICLES: ConstitutionArticle[] = [
   },
 
   // Constitutional Bodies
+  {
+    id: 'part15-art324',
+    title: 'Article 324: Election Commission of India',
+    content: 'Superintendence, direction and control of elections shall be vested in Election Commission.',
+    category: 'constitutional_bodies',
+    importance: 5,
+    placement: { x: 0, y: 0 },
+    connections: ['part15-art148'],
+    correctSection: 'constitutional_bodies'
+  },
+  {
+    id: 'part15-art148',
+    title: 'Article 148: Comptroller and Auditor General',
+    content: 'CAG shall audit all expenditure from Consolidated Fund and report to President/Governor.',
+    category: 'constitutional_bodies',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part15-art324', 'part14-art315'],
+    correctSection: 'constitutional_bodies'
+  },
+  {
+    id: 'part14-art315',
+    title: 'Article 315: Union and State Public Service Commissions',
+    content: 'There shall be UPSC for Union and PSC for each State to conduct recruitment examinations.',
+    category: 'constitutional_bodies',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part15-art148', 'part12-art280'],
+    correctSection: 'constitutional_bodies'
+  },
+  {
+    id: 'part12-art280',
+    title: 'Article 280: Finance Commission',
+    content: 'President shall constitute Finance Commission to recommend distribution of tax revenues.',
+    category: 'constitutional_bodies',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part14-art315', 'part9a-art243i'],
+    correctSection: 'constitutional_bodies'
+  },
+  {
+    id: 'part9a-art243i',
+    title: 'Article 243-I: State Finance Commission',
+    content: 'Governor shall constitute State Finance Commission to review financial position of Panchayats.',
+    category: 'constitutional_bodies',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: ['part12-art280', 'part5-art76'],
+    correctSection: 'constitutional_bodies'
+  },
+  {
+    id: 'part5-art76-bodies',
+    title: 'Article 76: Attorney General of India',
+    content: 'Attorney General is chief legal advisor to Government, has right to appear in all courts.',
+    category: 'constitutional_bodies',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part9a-art243i', 'part6-art165-bodies'],
+    correctSection: 'constitutional_bodies'
+  },
+  {
+    id: 'part6-art165-bodies',
+    title: 'Article 165: Advocate General for State',
+    content: 'Advocate General is chief legal advisor to State Government with similar powers in State.',
+    category: 'constitutional_bodies',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: ['part5-art76-bodies', 'part16-art338'],
+    correctSection: 'constitutional_bodies'
+  },
+  {
+    id: 'part16-art338',
+    title: 'Article 338: National Commission for SC',
+    content: 'National Commission for Scheduled Castes to investigate safeguards and recommend measures.',
+    category: 'constitutional_bodies',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part6-art165-bodies', 'part16-art338a'],
+    correctSection: 'constitutional_bodies'
+  },
+  {
+    id: 'part16-art338a',
+    title: 'Article 338A: National Commission for ST',
+    content: 'National Commission for Scheduled Tribes with duty to monitor safeguards and rights.',
+    category: 'constitutional_bodies',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part16-art338', 'part14b-art343'],
+    correctSection: 'constitutional_bodies'
+  },
+  {
+    id: 'part14b-art343',
+    title: 'Article 343: Official Language Commission',
+    content: 'President shall constitute Commission to review progress of Hindi and make recommendations.',
+    category: 'constitutional_bodies',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: ['part16-art338a'],
+    correctSection: 'constitutional_bodies'
+  },
   {
     id: 'bodies-1',
     title: '🗳️ Election Commission',
@@ -690,7 +1390,57 @@ const AVAILABLE_ARTICLES: ConstitutionArticle[] = [
     category: 'panchayats',
     importance: 3,
     placement: { x: 0, y: 0 },
-    connections: [],
+    connections: ['part9-art243b'],
+    correctSection: 'panchayats'
+  },
+  {
+    id: 'part9-art243b',
+    title: 'Article 243B: Constitution of Panchayats',
+    content: 'Panchayats shall be constituted at village, intermediate and district levels in every State.',
+    category: 'panchayats',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part9-art243', 'part9-art243c'],
+    correctSection: 'panchayats'
+  },
+  {
+    id: 'part9-art243c',
+    title: 'Article 243C: Composition of Panchayats',
+    content: 'All seats in Panchayat filled by direct election, reservation for SCs/STs and women.',
+    category: 'panchayats',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part9-art243b', 'part9-art243d'],
+    correctSection: 'panchayats'
+  },
+  {
+    id: 'part9-art243d',
+    title: 'Article 243D: Reservation of Seats',
+    content: 'Seats reserved for SCs, STs in proportion to population, not less than 1/3rd for women.',
+    category: 'panchayats',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part9-art243c', 'part9-art243g'],
+    correctSection: 'panchayats'
+  },
+  {
+    id: 'part9-art243g',
+    title: 'Article 243G: Powers and Functions of Panchayats',
+    content: 'Legislature may endow Panchayats with powers for economic development and social justice.',
+    category: 'panchayats',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part9-art243d', 'part9-art243k'],
+    correctSection: 'panchayats'
+  },
+  {
+    id: 'part9-art243k',
+    title: 'Article 243K: Elections to Panchayats',
+    content: 'Elections to be conducted under supervision of State Election Commission.',
+    category: 'panchayats',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: ['part9-art243g'],
     correctSection: 'panchayats'
   },
 
@@ -702,7 +1452,107 @@ const AVAILABLE_ARTICLES: ConstitutionArticle[] = [
     category: 'federal_relations',
     importance: 4,
     placement: { x: 0, y: 0 },
-    connections: [],
+    connections: ['part11-art246'],
+    correctSection: 'federal_relations'
+  },
+  {
+    id: 'part11-art246',
+    title: 'Article 246: Subject Matter of Laws - Union, State and Concurrent Lists',
+    content: 'Parliament has exclusive power on Union List, States on State List, both on Concurrent List.',
+    category: 'federal_relations',
+    importance: 5,
+    placement: { x: 0, y: 0 },
+    connections: ['part11-art245', 'part11-art248'],
+    correctSection: 'federal_relations'
+  },
+  {
+    id: 'part11-art248',
+    title: 'Article 248: Residuary Powers of Legislation',
+    content: 'Parliament has exclusive power to make laws on matters not enumerated in any List.',
+    category: 'federal_relations',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part11-art246', 'part11-art249'],
+    correctSection: 'federal_relations'
+  },
+  {
+    id: 'part11-art249',
+    title: 'Article 249: Power of Parliament to Legislate on State List',
+    content: 'Rajya Sabha may authorize Parliament to make laws on State List in national interest.',
+    category: 'federal_relations',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: ['part11-art248', 'part11-art256'],
+    correctSection: 'federal_relations'
+  },
+  {
+    id: 'part11-art256',
+    title: 'Article 256: Obligation of States to Comply with Union Laws',
+    content: 'Executive power of every State shall be exercised to ensure compliance with Union laws.',
+    category: 'federal_relations',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part11-art249', 'part11-art257'],
+    correctSection: 'federal_relations'
+  },
+  {
+    id: 'part11-art257',
+    title: 'Article 257: Control of Union over States',
+    content: 'Union may give directions to State for carrying out laws and maintaining communication.',
+    category: 'federal_relations',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: ['part11-art256', 'part12-art268'],
+    correctSection: 'federal_relations'
+  },
+  {
+    id: 'part12-art268',
+    title: 'Article 268: Duties Levied but Collected by States',
+    content: 'Stamp duties levied by Union but collected and appropriated by States.',
+    category: 'federal_relations',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: ['part11-art257', 'part12-art269'],
+    correctSection: 'federal_relations'
+  },
+  {
+    id: 'part12-art269',
+    title: 'Article 269: Taxes Levied and Collected by Union but Assigned to States',
+    content: 'Certain taxes on transactions in interstate trade assigned to States where goods consigned.',
+    category: 'federal_relations',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: ['part12-art268', 'part12-art270'],
+    correctSection: 'federal_relations'
+  },
+  {
+    id: 'part12-art270',
+    title: 'Article 270: Taxes Levied and Distributed between Union and States',
+    content: 'Income tax and other Union taxes distributed between Union and States per Finance Commission.',
+    category: 'federal_relations',
+    importance: 4,
+    placement: { x: 0, y: 0 },
+    connections: ['part12-art269', 'part12-art275'],
+    correctSection: 'federal_relations'
+  },
+  {
+    id: 'part12-art275',
+    title: 'Article 275: Grants from Union to States',
+    content: 'Parliament may make grants-in-aid to States in need of assistance as per Finance Commission.',
+    category: 'federal_relations',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: ['part12-art270', 'part11-art263'],
+    correctSection: 'federal_relations'
+  },
+  {
+    id: 'part11-art263',
+    title: 'Article 263: Inter-State Council',
+    content: 'President may establish Inter-State Council to inquire into and advise on disputes.',
+    category: 'federal_relations',
+    importance: 3,
+    placement: { x: 0, y: 0 },
+    connections: ['part12-art275'],
     correctSection: 'federal_relations'
   },
 
@@ -859,7 +1709,7 @@ const CONSTITUTION_SECTIONS: DropZone[] = [
     title: 'Part II - Citizenship',
     description: 'Articles 5-11: Acquisition, termination and regulation of citizenship',
     icon: '🆔',
-    capacity: 2,
+    capacity: 7,
     required: true,
     articles: [],
     color: 'from-cyan-400 to-cyan-600',
@@ -870,7 +1720,7 @@ const CONSTITUTION_SECTIONS: DropZone[] = [
     title: 'Part III - Fundamental Rights',
     description: 'Articles 12-35: Constitutional rights guaranteed to all citizens',
     icon: '⚖️',
-    capacity: 12,
+    capacity: 25,
     required: true,
     articles: [],
     color: 'from-green-400 to-green-600',
@@ -881,7 +1731,7 @@ const CONSTITUTION_SECTIONS: DropZone[] = [
     title: 'Part IV - Directive Principles of State Policy',
     description: 'Articles 36-51: Guidelines for governance and policy making',
     icon: '🎯',
-    capacity: 10,
+    capacity: 20,
     required: true,
     articles: [],
     color: 'from-purple-400 to-purple-600',
@@ -903,7 +1753,7 @@ const CONSTITUTION_SECTIONS: DropZone[] = [
     title: 'Part V - The Union Government',
     description: 'Articles 52-151: President, Parliament, Council of Ministers, Supreme Court',
     icon: '🏛️',
-    capacity: 8,
+    capacity: 24,
     required: true,
     articles: [],
     color: 'from-orange-400 to-orange-600',
@@ -914,7 +1764,7 @@ const CONSTITUTION_SECTIONS: DropZone[] = [
     title: 'Part VI - The States',
     description: 'Articles 152-237: Governor, State Legislature, High Courts',
     icon: '🏢',
-    capacity: 4,
+    capacity: 17,
     required: true,
     articles: [],
     color: 'from-teal-400 to-teal-600',
@@ -936,7 +1786,7 @@ const CONSTITUTION_SECTIONS: DropZone[] = [
     title: 'Part IX - The Panchayats',
     description: 'Articles 243-243ZT: Local self-government institutions',
     icon: '🏘️',
-    capacity: 1,
+    capacity: 6,
     required: false,
     articles: [],
     color: 'from-cyan-400 to-cyan-600',
@@ -947,7 +1797,7 @@ const CONSTITUTION_SECTIONS: DropZone[] = [
     title: 'Part XI - Relations between Union and States',
     description: 'Articles 245-263: Distribution of legislative and executive powers',
     icon: '🔗',
-    capacity: 1,
+    capacity: 11,
     required: false,
     articles: [],
     color: 'from-yellow-400 to-yellow-600',
@@ -969,7 +1819,7 @@ const CONSTITUTION_SECTIONS: DropZone[] = [
     title: 'Constitutional Bodies',
     description: 'Election Commission, CAG, UPSC and other constitutional institutions',
     icon: '🏢',
-    capacity: 6,
+    capacity: 16,
     required: false,
     articles: [],
     color: 'from-indigo-400 to-indigo-600',
@@ -980,7 +1830,7 @@ const CONSTITUTION_SECTIONS: DropZone[] = [
     title: '🚨 Emergency Rules',
     description: 'Special rules for when our country faces big problems or dangers!',
     icon: '🚨',
-    capacity: 2,
+    capacity: 6,
     required: false,
     articles: [],
     color: 'from-yellow-400 to-yellow-600',
