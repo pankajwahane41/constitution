@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Suspense, lazy } from 'react';
+import React, { useState, useEffect, Suspense, lazy, startTransition } from 'react';
 
 // Lazy load components for better performance
 const Home = lazy(() => import('./components/Home'));
@@ -245,21 +245,23 @@ function App() {
   const selectMode = (mode: AppState['currentView']) => {
     console.log('selectMode called with:', mode);
     try {
-      setAppState(prev => {
-        console.log('Current state before update:', prev.currentView);
-        const newState = {
-          ...prev,
-          currentView: mode,
-          selectedModule: null,
-          selectedCategory: null,
-          currentQuiz: null,
-          error: null,
-          currentGame: mode !== 'games' ? null : prev.currentGame,
-          gameSession: mode !== 'games' ? null : prev.gameSession,
-          gameProgress: mode !== 'games' ? null : prev.gameProgress
-        };
-        console.log('New state after update:', newState.currentView);
-        return newState;
+      startTransition(() => {
+        setAppState(prev => {
+          console.log('Current state before update:', prev.currentView);
+          const newState = {
+            ...prev,
+            currentView: mode,
+            selectedModule: null,
+            selectedCategory: null,
+            currentQuiz: null,
+            error: null,
+            currentGame: mode !== 'games' ? null : prev.currentGame,
+            gameSession: mode !== 'games' ? null : prev.gameSession,
+            gameProgress: mode !== 'games' ? null : prev.gameProgress
+          };
+          console.log('New state after update:', newState.currentView);
+          return newState;
+        });
       });
     } catch (error) {
       console.error('Error in selectMode:', error);
@@ -299,7 +301,9 @@ function App() {
     try {
       const module = educationalModules.find(m => m.id === moduleId);
       if (module) {
-        setAppState(prev => ({ ...prev, selectedModule: module }));
+        startTransition(() => {
+          setAppState(prev => ({ ...prev, selectedModule: module }));
+        });
       } else {
         console.error('Module not found:', moduleId);
         setAppState(prev => ({ ...prev, error: 'Module not found. Please try again.' }));
@@ -314,7 +318,9 @@ function App() {
     try {
       const category = quizCategories.find(c => c.id === categoryId);
       if (category) {
-        setAppState(prev => ({ ...prev, selectedCategory: category }));
+        startTransition(() => {
+          setAppState(prev => ({ ...prev, selectedCategory: category }));
+        });
       } else {
         console.error('Category not found:', categoryId);
         setAppState(prev => ({ ...prev, error: 'Category not found. Please try again.' }));
@@ -343,9 +349,13 @@ function App() {
     setTimeout(() => {
       // Force a re-render of LearnSection by briefly changing the view and back
       if (appState.currentView === 'learn') {
-        setAppState(prev => ({ ...prev, currentView: 'home' }));
+        startTransition(() => {
+          setAppState(prev => ({ ...prev, currentView: 'home' }));
+        });
         setTimeout(() => {
-          setAppState(prev => ({ ...prev, currentView: 'learn' }));
+          startTransition(() => {
+            setAppState(prev => ({ ...prev, currentView: 'learn' }));
+          });
         }, 50);
       }
     }, 100);
@@ -744,13 +754,15 @@ function App() {
   };
 
   const backFromQuiz = () => {
-    setAppState(prev => ({
-      ...prev,
-      currentQuiz: null,
-      selectedCategory: null,
-      selectedModule: null,
-      error: null
-    }));
+    startTransition(() => {
+      setAppState(prev => ({
+        ...prev,
+        currentQuiz: null,
+        selectedCategory: null,
+        selectedModule: null,
+        error: null
+      }));
+    });
   };
 
   // Enhanced Game Management Functions
@@ -773,12 +785,14 @@ function App() {
     };
     
     // Update appState to reflect game state
-    setAppState(prev => ({
-      ...prev,
-      currentGame: gameType,
-      gameSession: gameSessionData,
-      gameProgress: null
-    }));
+    startTransition(() => {
+      setAppState(prev => ({
+        ...prev,
+        currentGame: gameType,
+        gameSession: gameSessionData,
+        gameProgress: null
+      }));
+    });
   };
 
   const endGame = (gameType: string, gameData?: any) => {
@@ -798,12 +812,14 @@ function App() {
       }
       
       // Clear game state in appState
-      setAppState(prev => ({
-        ...prev,
-        currentGame: null,
-        gameSession: null,
-        gameProgress: null
-      }));
+      startTransition(() => {
+        setAppState(prev => ({
+          ...prev,
+          currentGame: null,
+          gameSession: null,
+          gameProgress: null
+        }));
+      });
     }
   };
 
