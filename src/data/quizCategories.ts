@@ -47,8 +47,8 @@ export const quizCategories: QuizCategory[] = [
     name: 'Union Government',
     title: 'Union Government - How India is Run',
     description: 'Three branches of government and their checks and balances: Executive, Legislature, and Judiciary',
-    file: 'constitution_questions_union.json',
-    questionCount: 150,
+    file: 'union_government_detailed.json',
+    questionCount: 50,
     color: 'green',
     difficulty: 'intermediate'
   },
@@ -57,8 +57,8 @@ export const quizCategories: QuizCategory[] = [
     name: 'State & Local Governments',
     title: 'State & Local Governments - India\'s Multi-Level System',
     description: 'Federal structure with power sharing between Union, State, and Local governments',
-    file: 'constitution_questions_state.json',
-    questionCount: 150,
+    file: 'state_local_government.json',
+    questionCount: 50,
     color: 'saffron',
     difficulty: 'intermediate'
   },
@@ -87,8 +87,8 @@ export const quizCategories: QuizCategory[] = [
     name: 'Emergency Provisions',
     title: 'Emergency Provisions - Safeguarding Democracy',
     description: 'Special constitutional tools to protect democracy during crises with safeguards and oversight',
-    file: 'emergency_provisions_detailed.json',
-    questionCount: 75,
+    file: 'quiz_emergency_provisions_children.json',
+    questionCount: 20,
     color: 'navy',
     difficulty: 'advanced'
   },
@@ -117,7 +117,7 @@ export const quizCategories: QuizCategory[] = [
     name: 'Advanced Legal Concepts',
     title: 'Advanced Legal Concepts & Dr. Ambedkar\'s Thinking',
     description: 'Deep dive into constitutional interpretation, landmark cases, and Ambedkar\'s contributions',
-    file: 'quiz_advanced_legal_concepts.json',
+    file: 'quiz_ambedkar_thinking_process.json',
     questionCount: 50,
     color: 'navy',
     difficulty: 'advanced'
