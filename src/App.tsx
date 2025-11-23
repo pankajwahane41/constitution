@@ -1345,7 +1345,7 @@ function App() {
               />
             )}
             
-            <div className={isMobile ? "p-0" : "w-full mx-auto p-4"}>
+            <div className={isMobile ? "p-0" : "max-w-4xl w-full mx-auto p-4"}>
               {!isMobile && (
                 <div className="mb-6">
                   <ProgressBar
@@ -1395,17 +1395,17 @@ function App() {
                 />
               )}
               
-              {/* 🔥 MOBILE QUIZ NAVIGATION - PROMINENT & FIXED 🔥 */}
+              {/* Quiz Navigation Button - Shows after answer is selected */}
               {appState.currentQuiz && 
                !appState.currentQuiz.isComplete && 
                appState.currentQuiz.answers[appState.currentQuiz.currentQuestionIndex] !== undefined && (
-                <div className={`${isMobile ? 'fixed bottom-24 left-0 right-0 px-4 z-50 bg-white pb-4 border-t-2 border-orange-200' : 'flex justify-center mt-6 px-2'}`}>
+                <div className={`${isMobile ? 'fixed bottom-24 left-0 right-0 px-4 z-50 bg-white pb-4 border-t-2 border-orange-200' : 'flex justify-center mt-8 mb-8 px-2'}`}>
                   <button
                     onClick={handleNextQuestion}
-                    className={`flex items-center justify-center space-x-2 font-medium shadow-lg transition-colors ${
+                    className={`flex items-center justify-center space-x-2 font-bold shadow-lg transition-all ${
                       isMobile 
-                        ? 'w-full py-4 px-6 text-lg bg-gradient-to-r from-orange-500 to-green-500 text-white rounded-2xl hover:opacity-90 active:scale-95 border-2 border-orange-400 font-bold min-h-[60px]' 
-                        : 'px-6 py-3 bg-orange-500 text-white rounded-lg hover:bg-orange-600'
+                        ? 'w-full py-4 px-6 text-lg bg-gradient-to-r from-orange-500 to-green-500 text-white rounded-2xl hover:opacity-90 active:scale-95 border-2 border-orange-400 min-h-[60px]' 
+                        : 'px-8 py-4 text-lg bg-gradient-to-r from-orange-500 to-green-500 text-white rounded-xl hover:shadow-xl hover:scale-105 border-2 border-orange-400'
                     }`}
                     style={{ touchAction: 'manipulation' }}
                   >
