@@ -11,7 +11,11 @@ export function cn(...inputs: ClassValue[]) {
 // Transform question data to match expected format - proven working approach
 export const transformQuestion = (rawQuestion: any): Question | null => {
   try {
-    if (!rawQuestion || !rawQuestion.question || !rawQuestion.explanation) {
+    // Handle different question formats
+    const questionText = rawQuestion.question || rawQuestion.question_text || rawQuestion.scenario_text;
+    const explanationText = rawQuestion.explanation || rawQuestion.correct_text;
+    
+    if (!rawQuestion || !questionText || !explanationText) {
       console.warn('Invalid question data:', rawQuestion);
       return null;
     }
@@ -21,7 +25,18 @@ export const transformQuestion = (rawQuestion: any): Question | null => {
 
     // Handle different options formats - proven robust handling
     if (Array.isArray(rawQuestion.options)) {
-      options = rawQuestion.options.filter(opt => opt && typeof opt === 'string');
+      // Check if options are objects with 'text' property (e.g., {text: "...", is_correct: true})
+      if (rawQuestion.options.length > 0 && typeof rawQuestion.options[0] === 'object' && rawQuestion.options[0].text) {
+        options = rawQuestion.options.map((opt: any) => opt.text).filter((text: string) => text && typeof text === 'string');
+        // Find correct index from is_correct property
+        const correctOptionIndex = rawQuestion.options.findIndex((opt: any) => opt.is_correct === true);
+        if (correctOptionIndex !== -1) {
+          correctIndex = correctOptionIndex;
+        }
+      } else {
+        // Plain string array
+        options = rawQuestion.options.filter(opt => opt && typeof opt === 'string');
+      }
     } else if (typeof rawQuestion.options === 'object' && rawQuestion.options !== null) {
       // Convert object format {"A": "...", "B": "..."} to array
       const letters = ['A', 'B', 'C', 'D'];
@@ -37,26 +52,26 @@ export const transformQuestion = (rawQuestion: any): Question | null => {
     }
 
     // Handle different correct answer formats
-    const correctAnswer = rawQuestion.correct_answer || rawQuestion.correct_option;
-    
-    if (typeof correctAnswer === 'string') {
-      // First, check if it's a letter format ("A", "B", "C", "D")
-      const letterIndex = ['A', 'B', 'C', 'D'].indexOf(correctAnswer);
-      if (letterIndex !== -1 && letterIndex < options.length) {
-        correctIndex = letterIndex;
-      } else {
-        // If not a letter, try to find the exact text in options array
-        correctIndex = options.findIndex(opt => opt === correctAnswer);
-        if (correctIndex === -1) {
-          console.warn('Correct answer text not found in options:', correctAnswer, 'options:', options);
-          correctIndex = 0; // Default to first option
+    // Priority: 1) is_correct from options (already set above), 2) correct_index, 3) correct_answer, 4) correct_option
+    if (rawQuestion.correct_index !== undefined || rawQuestion.correct_answer !== undefined || rawQuestion.correct_option !== undefined) {
+      const correctAnswer = rawQuestion.correct_index !== undefined ? rawQuestion.correct_index : (rawQuestion.correct_answer || rawQuestion.correct_option);
+      
+      if (typeof correctAnswer === 'string') {
+        // First, check if it's a letter format ("A", "B", "C", "D")
+        const letterIndex = ['A', 'B', 'C', 'D'].indexOf(correctAnswer);
+        if (letterIndex !== -1 && letterIndex < options.length) {
+          correctIndex = letterIndex;
+        } else {
+          // If not a letter, try to find the exact text in options array
+          correctIndex = options.findIndex(opt => opt === correctAnswer);
+          if (correctIndex === -1) {
+            console.warn('Correct answer text not found in options:', correctAnswer, 'options:', options);
+            // Don't override correctIndex if it was already set from is_correct
+          }
         }
+      } else if (typeof correctAnswer === 'number') {
+        correctIndex = correctAnswer;
       }
-    } else if (typeof correctAnswer === 'number') {
-      correctIndex = correctAnswer;
-    } else {
-      console.warn('Invalid correct answer format:', correctAnswer);
-      correctIndex = 0; // Default to first option
     }
 
     // Ensure correct index is within bounds
@@ -66,10 +81,10 @@ export const transformQuestion = (rawQuestion: any): Question | null => {
     }
 
     return {
-      question: rawQuestion.question,
+      question: questionText,
       options: options,
       correct_answer: correctIndex,
-      explanation: rawQuestion.explanation
+      explanation: explanationText
     };
   } catch (error) {
     console.error('Error transforming question:', error, rawQuestion);
