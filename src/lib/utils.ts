@@ -21,17 +21,19 @@ export const transformQuestion = (rawQuestion: any): Question | null => {
     }
 
     let options: string[] = [];
-    let correctIndex = 0;
+    let correctIndex = -1; // -1 means not found yet
+    let foundFromIsCorrect = false;
 
     // Handle different options formats - proven robust handling
     if (Array.isArray(rawQuestion.options)) {
       // Check if options are objects with 'text' property (e.g., {text: "...", is_correct: true})
       if (rawQuestion.options.length > 0 && typeof rawQuestion.options[0] === 'object' && rawQuestion.options[0].text) {
         options = rawQuestion.options.map((opt: any) => opt.text).filter((text: string) => text && typeof text === 'string');
-        // Find correct index from is_correct property
+        // Find correct index from is_correct property (HIGHEST PRIORITY)
         const correctOptionIndex = rawQuestion.options.findIndex((opt: any) => opt.is_correct === true);
         if (correctOptionIndex !== -1) {
           correctIndex = correctOptionIndex;
+          foundFromIsCorrect = true;
         }
       } else {
         // Plain string array
@@ -51,9 +53,9 @@ export const transformQuestion = (rawQuestion: any): Question | null => {
       return null;
     }
 
-    // Handle different correct answer formats
-    // Priority: 1) is_correct from options (already set above), 2) correct_index, 3) correct_answer, 4) correct_option
-    if (rawQuestion.correct_index !== undefined || rawQuestion.correct_answer !== undefined || rawQuestion.correct_option !== undefined) {
+    // Handle different correct answer formats ONLY if not already found from is_correct
+    // Priority: 1) is_correct from options (highest), 2) correct_index, 3) correct_answer, 4) correct_option
+    if (!foundFromIsCorrect && (rawQuestion.correct_index !== undefined || rawQuestion.correct_answer !== undefined || rawQuestion.correct_option !== undefined)) {
       const correctAnswer = rawQuestion.correct_index !== undefined ? rawQuestion.correct_index : (rawQuestion.correct_answer || rawQuestion.correct_option);
       
       if (typeof correctAnswer === 'string') {
@@ -66,7 +68,6 @@ export const transformQuestion = (rawQuestion: any): Question | null => {
           correctIndex = options.findIndex(opt => opt === correctAnswer);
           if (correctIndex === -1) {
             console.warn('Correct answer text not found in options:', correctAnswer, 'options:', options);
-            // Don't override correctIndex if it was already set from is_correct
           }
         }
       } else if (typeof correctAnswer === 'number') {
