@@ -54,9 +54,9 @@ export const transformQuestion = (rawQuestion: any): Question | null => {
     }
 
     // Handle different correct answer formats ONLY if not already found from is_correct
-    // Priority: 1) is_correct from options (highest), 2) correct_index, 3) correct_answer, 4) correct_option
-    if (!foundFromIsCorrect && (rawQuestion.correct_index !== undefined || rawQuestion.correct_answer !== undefined || rawQuestion.correct_option !== undefined)) {
-      const correctAnswer = rawQuestion.correct_index !== undefined ? rawQuestion.correct_index : (rawQuestion.correct_answer || rawQuestion.correct_option);
+    // Priority: 1) is_correct from options (highest), 2) correct_index, 3) correct_answer, 4) correct, 5) correct_option
+    if (!foundFromIsCorrect && (rawQuestion.correct_index !== undefined || rawQuestion.correct_answer !== undefined || rawQuestion.correct !== undefined || rawQuestion.correct_option !== undefined)) {
+      const correctAnswer = rawQuestion.correct_index !== undefined ? rawQuestion.correct_index : (rawQuestion.correct_answer || rawQuestion.correct || rawQuestion.correct_option);
       
       if (typeof correctAnswer === 'string') {
         // First, check if it's a letter format ("A", "B", "C", "D")
